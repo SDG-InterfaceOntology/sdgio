@@ -26,7 +26,7 @@ gemet-labels.txt: priority-gemet.tsv
 GEMETX = sctid chebi eo envo to pato exo
 XOBOS = $(patsubst %, xrefs-gemet-%.obo,$(GEMETX))
 
-gemet: $(XOBOS) summary-xrefs-gemet.txt
+gemet: $(XOBOS) summary-xrefs-gemet.txt xsummary.tsv
 
 align-gemet-%.tsv: gemet.obo
 	blip-findall -debug index -i ignore_gemet.pro -i $< -r $* -u metadata_nlp -goal index_entity_pair_label_match "class(X),id_idspace(X,'GEMET'),entity_pair_label_reciprocal_best_intermatch(X,Y,S)" -select "x(X,Y,S)" -label -use_tabs -no_pred > $@.tmp && mv $@.tmp $@
