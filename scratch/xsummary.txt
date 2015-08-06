@@ -1,0 +1,11 @@
+[]	4326
+[ENVO]	203
+[ENVO,EO]	2
+[ENVO,ExO,PATO]	1
+[ENVO,PATO]	7
+[ENVO,TO]	1
+[EO]	8
+[ExO]	19
+[ExO,PATO]	2
+[PATO]	61
+[TO]	3

@@ -1,0 +1,865 @@
+[Term]
+id: GEMET:7843 ! soil
+xref: ENVO:00001998 ! soil
+
+[Term]
+id: GEMET:1751 ! contaminated soil
+xref: ENVO:00002116 ! contaminated soil
+
+[Term]
+id: GEMET:4545 ! karst
+xref: ENVO:00000175 ! karst
+
+[Term]
+id: GEMET:202 ! agricultural land
+xref: ENVO:00000077 ! agricultural feature
+
+[Term]
+id: GEMET:12231 ! catchment
+xref: ENVO:00000291 ! drainage basin
+
+[Term]
+id: GEMET:2377 ! dune
+xref: ENVO:00000170 ! dune
+
+[Term]
+id: GEMET:7298 ! rock
+xref: ENVO:00001995 ! rock
+
+[Term]
+id: GEMET:5049 ! marine sediment
+xref: ENVO:00002113 ! marine sediment
+
+[Term]
+id: GEMET:4668 ! landslide
+xref: ENVO:00000520 ! landslide
+
+[Term]
+id: GEMET:3512 ! fuel oil
+xref: ENVO:00002983 ! fuel oil
+
+[Term]
+id: GEMET:7683 ! shrub
+xref: ENVO:00000109 ! woodland
+
+[Term]
+id: GEMET:7413 ! sand
+xref: ENVO:01000017 ! sand
+
+[Term]
+id: GEMET:2691 ! emulsion
+xref: ENVO:00010506 ! emulsion
+
+[Term]
+id: GEMET:9290 ! well
+xref: ENVO:00000026 ! well
+
+[Term]
+id: GEMET:7733 ! sludge
+xref: ENVO:00002044 ! sludge
+
+[Term]
+id: GEMET:4628 ! land forming
+xref: ENVO:00000191 ! physiographic feature
+
+[Term]
+id: GEMET:6507 ! pond
+xref: ENVO:00000033 ! pond
+
+[Term]
+id: GEMET:4589 ! lagoon
+xref: ENVO:00000038 ! lagoon
+
+[Term]
+id: GEMET:90 ! adhesive
+xref: ENVO:00003076 ! glue
+
+[Term]
+id: GEMET:7860 ! soil fertility
+xref: ENVO:00005754 ! fertilized soil
+
+[Term]
+id: GEMET:10155 ! cliff
+xref: ENVO:00000087 ! cliff
+
+[Term]
+id: GEMET:3780 ! groundwater
+xref: ENVO:00002041 ! ground water
+
+[Term]
+id: GEMET:9161 ! watercourse
+xref: ENVO:00000029 ! watercourse
+
+[Term]
+id: GEMET:7895 ! soil structure
+xref: ENVO:00001998 ! soil
+
+[Term]
+id: GEMET:617 ! atmosphere
+xref: ENVO:01000267 ! atmosphere
+
+[Term]
+id: GEMET:8913 ! vegetable oil
+xref: ENVO:00003975 ! vegetable oil
+
+[Term]
+id: GEMET:7535 ! sea water
+xref: ENVO:00002149 ! sea water
+
+[Term]
+id: GEMET:5913 ! organic waste
+xref: ENVO:00002873 ! organic waste
+
+[Term]
+id: GEMET:7029 ! red tide
+xref: ENVO:01000057 ! marine algal bloom
+
+[Term]
+id: GEMET:8887 ! valley
+xref: ENVO:00000100 ! valley
+
+[Term]
+id: GEMET:3237 ! fishery
+xref: ENVO:00000294 ! fish farm
+
+[Term]
+id: GEMET:4454 ! intertidal zone
+xref: ENVO:00000316 ! intertidal zone
+
+[Term]
+id: GEMET:13567 ! salina
+xref: ENVO:00000019 ! saline lake
+xref: ENVO:00000196 ! alkaline flat
+
+[Term]
+id: GEMET:7034 ! reef
+xref: ENVO:00000130 ! reef
+
+[Term]
+id: GEMET:6364 ! polar region
+xref: ENVO:01000238 ! polar
+
+[Term]
+id: GEMET:3695 ! glue
+xref: ENVO:00003076 ! glue
+
+[Term]
+id: GEMET:6870 ! quarrying
+xref: ENVO:00000284 ! quarry
+
+[Term]
+id: GEMET:1507 ! coal mining
+xref: ENVO:00002169 ! coal mine
+
+[Term]
+id: GEMET:5261 ! mine
+xref: ENVO:00000076 ! mine
+
+[Term]
+id: GEMET:5511 ! natural monument
+xref: ENVO:00000359 ! natural monument
+
+[Term]
+id: GEMET:7425 ! sand pit
+xref: ENVO:00000028 ! sand pit quarry
+
+[Term]
+id: GEMET:10574 ! sea grass bed
+xref: ENVO:01000059 ! sea grass bed
+
+[Term]
+id: GEMET:4594 ! lake
+xref: ENVO:00000020 ! lake
+
+[Term]
+id: GEMET:12161 ! bog
+xref: ENVO:00000044 ! peatland
+
+[Term]
+id: GEMET:4273 ! industrial waste
+xref: ENVO:00002267 ! industrial waste
+
+[Term]
+id: GEMET:9255 ! water well
+xref: ENVO:01000002 ! water well
+
+[Term]
+id: GEMET:10143 ! canyon
+xref: ENVO:00000169 ! canyon
+
+[Term]
+id: GEMET:7628 ! sewage
+xref: ENVO:00002018 ! sewage
+
+[Term]
+id: GEMET:4823 ! limestone
+xref: ENVO:00002053 ! limestone
+
+[Term]
+id: GEMET:9202 ! water pollution
+xref: ENVO:00002186 ! contaminated water
+
+[Term]
+id: GEMET:1126 ! canal
+xref: ENVO:00000014 ! canal
+
+[Term]
+id: GEMET:9127 ! waste water
+xref: ENVO:00002001 ! waste water
+
+[Term]
+id: GEMET:4514 ! island
+xref: ENVO:00000098 ! island
+
+[Term]
+id: GEMET:3151 ! feeding of animals
+xref: ENVO:02000047 ! animal feed
+
+[Term]
+id: GEMET:7138 ! reservoir
+xref: ENVO:00000025 ! reservoir
+
+[Term]
+id: GEMET:14194 ! swamp
+xref: ENVO:00000233 ! swamp
+
+[Term]
+id: GEMET:8688 ! tropical rain forest
+xref: ENVO:00000109 ! woodland
+
+[Term]
+id: GEMET:8229 ! surface water
+xref: ENVO:00002042 ! surface water
+
+[Term]
+id: GEMET:9151 ! water body
+xref: ENVO:00000063 ! water body
+
+[Term]
+id: GEMET:5792 ! ocean current
+xref: ENVO:00000147 ! ocean current
+
+[Term]
+id: GEMET:5852 ! oil spill
+xref: ENVO:00002061 ! oil spill
+
+[Term]
+id: GEMET:2519 ! ecosystem
+xref: ENVO:00000428 ! biome
+
+[Term]
+id: GEMET:7497 ! sea bed
+xref: ENVO:00000482 ! sea floor
+
+[Term]
+id: GEMET:10699 ! maquis
+xref: ENVO:00000301 ! chaparral
+
+[Term]
+id: GEMET:5409 ! mountain range
+xref: ENVO:00000080 ! mountain range
+
+[Term]
+id: GEMET:517 ! aqueduct
+xref: ENVO:00000072 ! aquaduct
+
+[Term]
+id: GEMET:518 ! aquifer
+xref: ENVO:00012408 ! aquifer
+
+[Term]
+id: GEMET:4186 ! slope
+xref: ENVO:00002000 ! slope
+
+[Term]
+id: GEMET:6061 ! pasture
+xref: ENVO:00000266 ! pasture
+
+[Term]
+id: GEMET:12226 ! water salinity
+xref: ENVO:00002010 ! saline water
+
+[Term]
+id: GEMET:1955 ! dam
+xref: ENVO:00000074 ! dam
+
+[Term]
+id: GEMET:4999 ! mangrove swamp
+xref: ENVO:00000057 ! mangrove swamp
+
+[Term]
+id: GEMET:10149 ! barrier beach
+xref: ENVO:00000167 ! bar
+
+[Term]
+id: GEMET:9422 ! zoological garden
+xref: ENVO:00010625 ! zoological garden
+
+[Term]
+id: GEMET:10194 ! aquatic environment
+xref: ENVO:01000317 ! aquatic environment
+
+[Term]
+id: GEMET:1512 ! coast
+xref: ENVO:00000303 ! coast
+
+[Term]
+id: GEMET:1449 ! clay
+xref: ENVO:00002982 ! clay
+
+[Term]
+id: GEMET:894 ! biosphere reserve
+xref: ENVO:00000376 ! biosphere reserve
+
+[Term]
+id: GEMET:432 ! animal manure
+xref: ENVO:00003031 ! animal manure
+
+[Term]
+id: GEMET:11178 ! market gardening
+xref: ENVO:01000311 ! cultivated environment
+
+[Term]
+id: GEMET:5415 ! mud flat
+xref: ENVO:00000192 ! mudflat
+
+[Term]
+id: GEMET:5110 ! meadow
+xref: ENVO:00000108 ! meadow
+
+[Term]
+id: GEMET:232 ! agriculture
+xref: ENVO:01000311 ! cultivated environment
+
+[Term]
+id: GEMET:9199 ! water pollutant
+xref: ENVO:00002186 ! contaminated water
+
+[Term]
+id: GEMET:1649 ! compost
+xref: ENVO:00002170 ! compost
+
+[Term]
+id: GEMET:5404 ! mountaineering
+xref: ENVO:00000081 ! mountain
+xref: ENVO:00000264 ! seamount
+
+[Term]
+id: GEMET:3917 ! hedge
+xref: ENVO:00000046 ! hedge
+
+[Term]
+id: GEMET:10152 ! creek
+xref: ENVO:00000023 ! stream
+
+[Term]
+id: GEMET:8039 ! stack
+xref: ENVO:00000419 ! stack
+
+[Term]
+id: GEMET:3154 ! fen
+xref: ENVO:00000232 ! fen
+
+[Term]
+id: GEMET:6949 ! rain forest
+xref: ENVO:00000109 ! woodland
+
+[Term]
+id: GEMET:5401 ! mountain
+xref: ENVO:00000081 ! mountain
+xref: ENVO:00000264 ! seamount
+
+[Term]
+id: GEMET:749 ! bay
+xref: ENVO:00000032 ! bay
+
+[Term]
+id: GEMET:992 ! breast milk
+xref: ENVO:02000031 ! breast milk
+
+[Term]
+id: GEMET:2381 ! dust
+xref: ENVO:00002008 ! dust
+
+[Term]
+id: GEMET:9297 ! wetland
+xref: ENVO:00000043 ! wetland
+
+[Term]
+id: GEMET:6942 ! railway
+xref: ENVO:00000065 ! railway
+
+[Term]
+id: GEMET:11207 ! chalk
+xref: ENVO:00002054 ! chalk
+
+[Term]
+id: GEMET:157 ! aerosol
+xref: ENVO:00010505 ! aerosol
+
+[Term]
+id: GEMET:2103 ! desert
+xref: ENVO:00000097 ! desert
+
+[Term]
+id: GEMET:1952 ! dairy product
+xref: ENVO:01000011 ! dairy product
+
+[Term]
+id: GEMET:6276 ! plain
+xref: ENVO:00000086 ! plain
+
+[Term]
+id: GEMET:9382 ! world heritage site
+xref: ENVO:00000375 ! world heritage site
+
+[Term]
+id: GEMET:9123 ! waste treatment plant
+xref: ENVO:00002272 ! waste treatment plant
+
+[Term]
+id: GEMET:1039 ! building industry
+xref: ENVO:00003861 ! industrial building
+
+[Term]
+id: GEMET:4621 ! landfill
+xref: ENVO:00000533 ! landfill
+
+[Term]
+id: GEMET:8704 ! tundra
+xref: ENVO:00000112 ! tundra
+
+[Term]
+id: GEMET:2004 ! deciduous forest
+xref: ENVO:00000109 ! woodland
+
+[Term]
+id: GEMET:2339 ! drinking water
+xref: ENVO:00003064 ! drinking water
+
+[Term]
+id: GEMET:1526 ! coastal water
+xref: ENVO:00002150 ! coastal sea water
+
+[Term]
+id: GEMET:6329 ! plastic
+xref: ENVO:01000404 ! plastic
+
+[Term]
+id: GEMET:6365 ! polder
+xref: ENVO:00000286 ! polder
+
+[Term]
+id: GEMET:10905 ! path
+xref: ENVO:00000122 ! track
+
+[Term]
+id: GEMET:10199 ! marine park
+xref: ENVO:00000362 ! marine park
+
+[Term]
+id: GEMET:4133 ! ice pack
+xref: ENVO:00000132 ! ice sheet
+
+[Term]
+id: GEMET:12061 ! desert climate
+xref: ENVO:01000378 ! arid subtropical
+
+[Term]
+id: GEMET:12476 ! piggery
+xref: ENVO:00003042 ! piggery
+
+[Term]
+id: GEMET:4131 ! ice
+xref: ENVO:01000277 ! ice
+
+[Term]
+id: GEMET:6867 ! quarry
+xref: ENVO:00000284 ! quarry
+
+[Term]
+id: GEMET:14919 ! point
+xref: ENVO:00000167 ! bar
+xref: ENVO:00000305 ! peninsula
+
+[Term]
+id: GEMET:8014 ! sports facility
+xref: ENVO:00000565 ! sports facility
+
+[Term]
+id: GEMET:7698 ! silt
+xref: ENVO:01000016 ! silt
+
+[Term]
+id: GEMET:7528 ! seashore
+xref: ENVO:00000485 ! sea shore
+
+[Term]
+id: GEMET:3808 ! habitat
+xref: ENVO:00002036 ! habitat
+
+[Term]
+id: GEMET:9229 ! water salination
+xref: ENVO:00002010 ! saline water
+
+[Term]
+id: GEMET:1001 ! bridge
+xref: ENVO:00000075 ! bridge
+
+[Term]
+id: GEMET:13136 ! agricultural structure
+xref: ENVO:01000311 ! cultivated environment
+
+[Term]
+id: GEMET:3999 ! hospital
+xref: ENVO:00002173 ! hospital
+
+[Term]
+id: GEMET:1694 ! coniferous forest
+xref: ENVO:01000433 ! needleleaf forest
+
+[Term]
+id: GEMET:3254 ! fish farming
+xref: ENVO:00000294 ! fish farm
+
+[Term]
+id: GEMET:579 ! artificial lake
+xref: ENVO:00000377 ! artificial lake
+
+[Term]
+id: GEMET:4629 ! landform
+xref: ENVO:00000191 ! physiographic feature
+
+[Term]
+id: GEMET:10161 ! river bed
+xref: ENVO:00000384 ! river bed
+
+[Term]
+id: GEMET:245 ! air
+xref: ENVO:00002005 ! air
+
+[Term]
+id: GEMET:453 ! animal waste
+xref: ENVO:00002276 ! animal waste
+
+[Term]
+id: GEMET:303 ! algal bloom
+xref: ENVO:2000004 ! algal bloom
+
+[Term]
+id: GEMET:9349 ! wood
+xref: ENVO:00002040 ! wood
+
+[Term]
+id: GEMET:5484 ! national park
+xref: ENVO:00000367 ! national park
+
+[Term]
+id: GEMET:889 ! bioreactor
+xref: ENVO:00002123 ! bioreactor
+
+[Term]
+id: GEMET:6081 ! peat
+xref: ENVO:00005774 ! peat soil
+
+[Term]
+id: GEMET:5545 ! nature reserve
+xref: ENVO:00000363 ! nature reserve
+
+[Term]
+id: GEMET:7272 ! road
+xref: ENVO:00000064 ! road
+
+[Term]
+id: GEMET:5277 ! mineral
+xref: ENVO:01000256 ! mineral
+
+[Term]
+id: GEMET:1288 ! channelling
+xref: ENVO:00000395 ! channel
+
+[Term]
+id: GEMET:3800 ! gulf
+xref: ENVO:00000475 ! inlet
+
+[Term]
+id: GEMET:3966 ! hill
+xref: ENVO:00000083 ! hill
+
+[Term]
+id: GEMET:1015 ! brook
+xref: ENVO:00000023 ! stream
+
+[Term]
+id: GEMET:5316 ! mixed forest
+xref: ENVO:01000431 ! mixed forest
+
+[Term]
+id: GEMET:7244 ! river
+xref: ENVO:00000022 ! river
+
+[Term]
+id: GEMET:4070 ! humus
+xref: ENVO:01000000 ! humus
+
+[Term]
+id: GEMET:12289 ! lagooning
+xref: ENVO:00000038 ! lagoon
+
+[Term]
+id: GEMET:2974 ! estuary
+xref: ENVO:00000045 ! estuary
+
+[Term]
+id: GEMET:3485 ! freshwater
+xref: ENVO:00002011 ! fresh water
+
+[Term]
+id: GEMET:9041 ! waste
+xref: ENVO:00002264 ! waste
+
+[Term]
+id: GEMET:7420 ! sand dune
+xref: ENVO:00000170 ! dune
+
+[Term]
+id: GEMET:73 ! activated sludge
+xref: ENVO:00002046 ! activated sludge
+
+[Term]
+id: GEMET:1421 ! city
+xref: ENVO:00000856 ! city
+
+[Term]
+id: GEMET:428 ! animal housing
+xref: ENVO:00003040 ! animal house
+
+[Term]
+id: GEMET:8693 ! tropics
+xref: ENVO:01000204 ! tropical
+
+[Term]
+id: GEMET:2052 ! delta
+xref: ENVO:00000101 ! delta
+
+[Term]
+id: GEMET:969 ! botanical garden
+xref: ENVO:00010624 ! botanical garden
+
+[Term]
+id: GEMET:5890 ! organ
+xref: ENVO:01000162 ! organ
+
+[Term]
+id: GEMET:7396 ! salt marsh
+xref: ENVO:00000054 ! saline marsh
+
+[Term]
+id: GEMET:6161 ! petroleum
+xref: ENVO:00002984 ! petroleum
+
+[Term]
+id: GEMET:2857 ! environmentalism
+xref: ENVO:01000254 ! environmental system
+
+[Term]
+id: GEMET:4507 ! irrigation canal
+xref: ENVO:00000036 ! irrigation canal
+
+[Term]
+id: GEMET:1489 ! clothing
+xref: ENVO:02000058 ! cloth
+
+[Term]
+id: GEMET:751 ! beach
+xref: ENVO:00000091 ! beach
+
+[Term]
+id: GEMET:10170 ! alluvial plain
+xref: ENVO:00000258 ! alluvial plain
+
+[Term]
+id: GEMET:7769 ! snow
+xref: ENVO:01000406 ! snow
+
+[Term]
+id: GEMET:4022 ! housing
+xref: ENVO:01000417 ! house
+
+[Term]
+id: GEMET:3395 ! footpath
+xref: ENVO:00000122 ! track
+
+[Term]
+id: GEMET:5254 ! milk
+xref: ENVO:0010129 ! milk
+
+[Term]
+id: GEMET:4217 ! industrial building
+xref: ENVO:00003861 ! industrial building
+
+[Term]
+id: GEMET:1231 ! cave
+xref: ENVO:00000067 ! cave
+
+[Term]
+id: GEMET:5264 ! mineral deposit
+xref: ENVO:01000255 ! mineral deposit
+
+[Term]
+id: GEMET:3176 ! field
+xref: ENVO:00000114 ! agricultural field
+xref: ENVO:01000352 ! field
+
+[Term]
+id: GEMET:984 ! brackish water
+xref: ENVO:00002019 ! brackish water
+
+[Term]
+id: GEMET:7933 ! sound
+xref: ENVO:00000393 ! sound
+
+[Term]
+id: GEMET:5789 ! ocean
+xref: ENVO:00000015 ! ocean
+
+[Term]
+id: GEMET:3559 ! garden
+xref: ENVO:00000011 ! garden
+
+[Term]
+id: GEMET:1796 ! coral reef
+xref: ENVO:00000150 ! coral reef
+
+[Term]
+id: GEMET:4132 ! iceberg
+xref: ENVO:00000298 ! iceberg
+
+[Term]
+id: GEMET:5033 ! marine environment
+xref: ENVO:01000320 ! marine environment
+
+[Term]
+id: GEMET:3673 ! glacier
+xref: ENVO:00000133 ! glacier
+
+[Term]
+id: GEMET:1652 ! composting
+xref: ENVO:00002170 ! compost
+
+[Term]
+id: GEMET:716 ! banking
+xref: ENVO:00000141 ! bank
+
+[Term]
+id: GEMET:9004 ! volcano
+xref: ENVO:00000247 ! volcano
+
+[Term]
+id: GEMET:2276 ! ditch
+xref: ENVO:00000037 ! ditch
+
+[Term]
+id: GEMET:6740 ! protected area
+xref: ENVO:00000358 ! protected area
+
+[Term]
+id: GEMET:14837 ! mining
+xref: ENVO:00000076 ! mine
+
+[Term]
+id: GEMET:9235 ! watershed
+xref: ENVO:00000292 ! watershed
+
+[Term]
+id: GEMET:229 ! agricultural waste
+xref: ENVO:01000371 ! agricultural waste
+
+[Term]
+id: GEMET:7402 ! salt water
+xref: ENVO:00002010 ! saline water
+
+[Term]
+id: GEMET:1029 ! building
+xref: ENVO:00000073 ! building
+
+[Term]
+id: GEMET:9144 ! waste water treatment plant
+xref: ENVO:00002043 ! wastewater treatment plant
+
+[Term]
+id: GEMET:7495 ! sea
+xref: ENVO:00000016 ! sea
+
+[Term]
+id: GEMET:11813 ! chemical product
+xref: ENVO:2000000 ! chemical product
+
+[Term]
+id: GEMET:3406 ! forest
+xref: ENVO:00000111 ! forest
+
+[Term]
+id: GEMET:10131 ! ecozone
+xref: ENVO:01000280 ! ecozone
+
+[Term]
+id: GEMET:9170 ! waterfall
+xref: ENVO:00000040 ! waterfall
+
+[Term]
+id: GEMET:8707 ! tunnel
+xref: ENVO:00000068 ! tunnel
+
+[Term]
+id: GEMET:8422 ! textile
+xref: ENVO:02000001 ! textile
+
+[Term]
+id: GEMET:7669 ! shop
+xref: ENVO:00002221 ! shop
+
+[Term]
+id: GEMET:2393 ! dyke
+xref: ENVO:00000178 ! levee
+
+[Term]
+id: GEMET:5362 ! moor
+xref: ENVO:00000231 ! moor
+
+[Term]
+id: GEMET:3733 ! grassland
+xref: ENVO:00000106 ! grassland
+
+[Term]
+id: GEMET:3738 ! gravel
+xref: ENVO:01000018 ! gravel
+
+[Term]
+id: GEMET:95 ! administration
+xref: ENVO:00000004 ! administrative region
+
+[Term]
+id: GEMET:3742 ! gravel pit
+xref: ENVO:00000473 ! gravel pit
+
+[Term]
+id: GEMET:7565 ! sediment
+xref: ENVO:00002007 ! sediment
+
+[Term]
+id: GEMET:8252 ! marsh
+xref: ENVO:00000035 ! marsh
+
+[Term]
+id: GEMET:3130 ! farm
+xref: ENVO:00000078 ! farm
+
+[Term]
+id: GEMET:4323 ! inhabitant
+xref: ENVO:00000062 ! populated place
+
+[Term]
+id: GEMET:5736 ! nuclear power plant
+xref: ENVO:00002271 ! nuclear power plant
+

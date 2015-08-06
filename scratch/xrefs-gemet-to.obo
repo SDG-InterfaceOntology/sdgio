@@ -1,0 +1,20 @@
+[Term]
+id: GEMET:3498 ! fruit
+xref: TO:0000850 ! fruit type
+
+[Term]
+id: GEMET:5987 ! oxygen deficiency
+xref: TO:0000015 ! oxygen sensitivity
+
+[Term]
+id: GEMET:5804 ! odour
+xref: TO:0000087 ! aroma
+
+[Term]
+id: GEMET:8057 ! starch
+xref: TO:0000698 ! starchiness
+
+[Term]
+id: GEMET:11207 ! chalk
+xref: TO:0000266 ! chalky endosperm
+

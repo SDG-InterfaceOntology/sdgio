@@ -1,0 +1,299 @@
+[Term]
+id: GEMET:7612 ! separator
+xref: PATO:0002525 ! separating
+
+[Term]
+id: GEMET:2748 ! energy type
+xref: PATO:0001021 ! energy
+
+[Term]
+id: GEMET:4977 ! malformation
+xref: PATO:0000646 ! malformed
+
+[Term]
+id: GEMET:5018 ! marble
+xref: PATO:0002273 ! marbled
+
+[Term]
+id: GEMET:6890 ! radiation exposure
+xref: PATO:0001744 ! radiation exposure
+
+[Term]
+id: GEMET:4524 ! ivory
+xref: PATO:0002149 ! ivory
+
+[Term]
+id: GEMET:11691 ! quality objective
+xref: PATO:0001241 ! physical object quality
+
+[Term]
+id: GEMET:3232 ! firm
+xref: PATO:0002450 ! firm
+
+[Term]
+id: GEMET:5978 ! oxide
+xref: PATO:0002223 ! oxidized
+
+[Term]
+id: GEMET:11130 ! rate
+xref: PATO:0000161 ! rate
+
+[Term]
+id: GEMET:5318 ! mixing
+xref: PATO:0002122 ! mixed
+
+[Term]
+id: GEMET:4917 ! loudness
+xref: PATO:0001521 ! sound amplitude
+xref: PATO:0001528 ! loud
+
+[Term]
+id: GEMET:13147 ! rights
+xref: PATO:0000367 ! right
+
+[Term]
+id: GEMET:2963 ! erosion
+xref: PATO:0001368 ! erose
+
+[Term]
+id: GEMET:52 ! acid
+xref: PATO:0001429 ! acidic
+xref: PATO:0001842 ! acidity
+
+[Term]
+id: GEMET:8125 ! stratification
+xref: PATO:0002067 ! stratification
+
+[Term]
+id: GEMET:90 ! adhesive
+xref: PATO:0001431 ! adhesivity
+xref: PATO:0002331 ! adhesive
+
+[Term]
+id: GEMET:4810 ! light
+xref: PATO:0000665 ! high brightness
+
+[Term]
+id: GEMET:3282 ! flaring
+xref: PATO:0001785 ! splayed
+
+[Term]
+id: GEMET:14919 ! point
+xref: PATO:0002258 ! pointed
+
+[Term]
+id: GEMET:12198 ! flushing
+xref: PATO:0002518 ! flush
+
+[Term]
+id: GEMET:6364 ! polar region
+xref: PATO:0002186 ! polarity
+xref: PATO:0002187 ! polar polarity
+
+[Term]
+id: GEMET:1659 ! compression
+xref: PATO:0001485 ! condensed
+
+[Term]
+id: GEMET:2712 ! energy
+xref: PATO:0001021 ! energy
+
+[Term]
+id: GEMET:38 ! accumulator
+xref: PATO:0002269 ! accumulation
+xref: PATO:0002270 ! increased accumulation
+
+[Term]
+id: GEMET:5277 ! mineral
+xref: PATO:0002444 ! mineralized
+
+[Term]
+id: GEMET:1288 ! channelling
+xref: PATO:0002255 ! grooved
+
+[Term]
+id: GEMET:6925 ! radioactivity
+xref: PATO:0001740 ! activity (of a radionuclide)
+xref: PATO:0001741 ! radioactive
+
+[Term]
+id: GEMET:5593 ! nitrate
+xref: PATO:0002217 ! nitrated
+
+[Term]
+id: GEMET:6120 ! permeability
+xref: PATO:0000970 ! permeability
+xref: PATO:0000982 ! permeable
+
+[Term]
+id: GEMET:1556 ! cold
+xref: PATO:0001306 ! decreased temperature
+
+[Term]
+id: GEMET:8977 ! viscosity
+xref: PATO:0000992 ! viscosity
+
+[Term]
+id: GEMET:5890 ! organ
+xref: PATO:0000938 ! organized
+
+[Term]
+id: GEMET:2245 ! dispersion
+xref: PATO:0001630 ! dispersed
+
+[Term]
+id: GEMET:412 ! angling
+xref: PATO:0002326 ! angle
+
+[Term]
+id: GEMET:4922 ! low flow
+xref: PATO:0001838 ! decreased fluid flow
+
+[Term]
+id: GEMET:12444 ! thickening
+xref: PATO:0000591 ! increased thickness
+
+[Term]
+id: GEMET:3287 ! flavouring
+xref: PATO:0001329 ! flavourful
+
+[Term]
+id: GEMET:5081 ! separation
+xref: PATO:0002525 ! separating
+
+[Term]
+id: GEMET:4914 ! loss
+xref: PATO:0001999 ! lacks parts or has fewer parts of type
+
+[Term]
+id: GEMET:3079 ! externality
+xref: PATO:0002483 ! external to
+
+[Term]
+id: GEMET:173 ! age
+xref: PATO:0000011 ! age
+
+[Term]
+id: GEMET:4186 ! slope
+xref: PATO:0001481 ! sloped
+
+[Term]
+id: GEMET:10215 ! alignment
+xref: PATO:0001652 ! alignment
+xref: PATO:0001653 ! aligned with
+
+[Term]
+id: GEMET:7712 ! sizing
+xref: PATO:0000117 ! size
+
+[Term]
+id: GEMET:14906 ! mosaic
+xref: PATO:0002048 ! mosaicism
+
+[Term]
+id: GEMET:5369 ! morphology
+xref: PATO:0000051 ! morphology
+
+[Term]
+id: GEMET:2361 ! drying
+xref: PATO:0001824 ! dry
+
+[Term]
+id: GEMET:6884 ! radiation
+xref: PATO:0005005 ! radiating
+
+[Term]
+id: GEMET:1686 ! conductivity
+xref: PATO:0001585 ! conductivity
+
+[Term]
+id: GEMET:2186 ! diffusion
+xref: PATO:0001566 ! distributed
+
+[Term]
+id: GEMET:10919 ! young
+xref: PATO:0000309 ! young
+
+[Term]
+id: GEMET:6129 ! persistence
+xref: PATO:0000082 ! persistence
+
+[Term]
+id: GEMET:3566 ! gas
+xref: PATO:0001737 ! gaseus configuration
+
+[Term]
+id: GEMET:4291 ! infiltration
+xref: PATO:0002103 ! infiltrative
+
+[Term]
+id: GEMET:6066 ! pathology
+xref: PATO:0001869 ! pathological
+
+[Term]
+id: GEMET:4814 ! lighting
+xref: PATO:0000665 ! high brightness
+
+[Term]
+id: GEMET:7994 ! speed
+xref: PATO:0000008 ! speed
+
+[Term]
+id: GEMET:7923 ! solubility
+xref: PATO:0001536 ! solubility
+xref: PATO:0001537 ! soluble in
+
+[Term]
+id: GEMET:11116 ! density
+xref: PATO:0001019 ! mass density
+
+[Term]
+id: GEMET:2212 ! directive
+xref: PATO:0000039 ! direction
+
+[Term]
+id: GEMET:47 ! acidity
+xref: PATO:0001429 ! acidic
+xref: PATO:0001842 ! acidity
+
+[Term]
+id: GEMET:607 ! association
+xref: PATO:0001668 ! associated with
+
+[Term]
+id: GEMET:8487 ! time
+xref: PATO:0000165 ! time
+
+[Term]
+id: GEMET:8039 ! stack
+xref: PATO:0002077 ! stacked
+
+[Term]
+id: GEMET:1956 ! damage
+xref: PATO:0001020 ! damage
+xref: PATO:0001167 ! damaged
+
+[Term]
+id: GEMET:12174 ! swell
+xref: PATO:0001851 ! swollen
+
+[Term]
+id: GEMET:1530 ! coating
+xref: PATO:0002012 ! coating
+
+[Term]
+id: GEMET:5972 ! oxidation
+xref: PATO:0002223 ! oxidized
+
+[Term]
+id: GEMET:1491 ! cloud
+xref: PATO:0000963 ! opaque
+
+[Term]
+id: GEMET:5307 ! miscibility
+xref: PATO:0001888 ! miscibility
+
+[Term]
+id: GEMET:8031 ! square
+xref: PATO:0000413 ! square
+
