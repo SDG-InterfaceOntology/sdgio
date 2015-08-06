@@ -19,7 +19,7 @@ gemet-all.rdf: $(GEMETFS)
 gemet.obo: priority-gemet.tsv 
 	perl -npe 's//GEMET:/' $< | cut -f1,2 | tbl2obo.pl  > $@
 
-gemet-labels.txt: priority-gemet.tsv
+gemet-labels.tsv: priority-gemet.tsv
 	cut -f2 $<  > $@
 
 #GEMETX = chebi
@@ -44,3 +44,6 @@ xsummary.tsv: allx.obo
 
 summary-xrefs-%.txt:
 	grep -c ^id: xrefs-$*-*.obo
+
+no-align.tsv: allx.obo gemet.obo
+	blip-findall -i $< -i gemet.obo "class(X),id_idspace(X,'GEMET'),\+entity_xref(E,X)" -select X -label -use_tabs | sort -u > $@
