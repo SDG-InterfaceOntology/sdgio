@@ -1,4 +1,4948 @@
 [Term]
-id: EOF: exit
-xref: 
+id: GEMET:2238 ! disinfection
+xref: CHEBI:48219 ! disinfectant
+
+[Term]
+id: GEMET:7694 ! silicon
+xref: CHEBI:27573 ! silicon atom
+xref: CHEBI:48140 ! silicone macromolecule
+
+[Term]
+id: GEMET:8144 ! strontium
+xref: CHEBI:33324 ! strontium atom
+
+[Term]
+id: GEMET:8222 ! surface-active agent
+xref: CHEBI:35195 ! surfactant
+
+[Term]
+id: GEMET:6106 ! pentachlorophenol
+xref: CHEBI:17642 ! pentachlorophenol
+xref: CHEBI:58217 ! pentachlorophenolate
+
+[Term]
+id: GEMET:3169 ! fertiliser
+xref: CHEBI:33287 ! fertilizer
+
+[Term]
+id: GEMET:3521 ! fumigation
+xref: CHEBI:39276 ! fumigant
+
+[Term]
+id: GEMET:1996 ! DDT
+xref: CHEBI:16130 ! DDT
+
+[Term]
+id: GEMET:591 ! asbestos
+xref: CHEBI:46661 ! asbestos
+
+[Term]
+id: GEMET:GEMET ! ID
+xref: CHEBI:64366 ! isodesmosine
+
+[Term]
+id: GEMET:2624 ! electronics
+xref: CHEBI:10545 ! electron
+
+[Term]
+id: GEMET:8986 ! vitamin
+xref: CHEBI:33229 ! vitamin
+
+[Term]
+id: GEMET:3820 ! halogenated hydrocarbon
+xref: CHEBI:24472 ! halohydrocarbon
+
+[Term]
+id: GEMET:11718 ! halogenated compound
+xref: CHEBI:24471 ! halogen molecular entity
+
+[Term]
+id: GEMET:1160 ! carbon
+xref: CHEBI:23016 ! carbonates
+xref: CHEBI:27594 ! carbon atom
+xref: CHEBI:41609 ! carbonate
+
+[Term]
+id: GEMET:3334 ! fluorine
+xref: CHEBI:24061 ! fluorine atom
+
+[Term]
+id: GEMET:1366 ! chloride
+xref: CHEBI:17996 ! chloride
+
+[Term]
+id: GEMET:7044 ! refrigeration
+xref: CHEBI:78433 ! refrigerant
+
+[Term]
+id: GEMET:562 ! aromatic hydrocarbon
+xref: CHEBI:33658 ! arene
+
+[Term]
+id: GEMET:66 ! actinide
+xref: CHEBI:33320 ! actinoid atom
+
+[Term]
+id: GEMET:4810 ! light
+xref: CHEBI:30212 ! photon
+
+[Term]
+id: GEMET:6935 ! radon
+xref: CHEBI:33314 ! radon atom
+
+[Term]
+id: GEMET:1371 ! chlorination
+xref: CHEBI:23116 ! chlorine atom
+xref: CHEBI:33910 ! chlorins
+xref: CHEBI:36303 ! chlorin
+
+[Term]
+id: GEMET:776 ! benzene
+xref: CHEBI:16716 ! benzene
+xref: CHEBI:22712 ! benzenes
+
+[Term]
+id: GEMET:5980 ! oxidising agent
+xref: CHEBI:63248 ! oxidising agent
+
+[Term]
+id: GEMET:353 ! aluminium
+xref: CHEBI:28984 ! aluminium atom
+
+[Term]
+id: GEMET:6492 ! polycyclic aromatic hydrocarbon
+xref: CHEBI:33848 ! polycyclic arene
+
+[Term]
+id: GEMET:478 ! antifouling agent
+xref: CHEBI:51076 ! antifouling biocide
+
+[Term]
+id: GEMET:7925 ! solvent
+xref: CHEBI:46787 ! solvent
+
+[Term]
+id: GEMET:6183 ! phenol
+xref: CHEBI:15882 ! phenol
+xref: CHEBI:33853 ! phenols
+xref: CHEBI:50526 ! phenolate
+
+[Term]
+id: GEMET:5589 ! nickel
+xref: CHEBI:28112 ! nickel atom
+
+[Term]
+id: GEMET:379 ! ammonium
+xref: CHEBI:28938 ! ammonium
+
+[Term]
+id: GEMET:7699 ! silver
+xref: CHEBI:30512 ! silver atom
+
+[Term]
+id: GEMET:5927 ! organometallic compound
+xref: CHEBI:25707 ! organometallic compound
+
+[Term]
+id: GEMET:965 ! boron
+xref: CHEBI:27560 ! boron atom
+xref: CHEBI:50978 ! boronate
+
+[Term]
+id: GEMET:8495 ! titanium
+xref: CHEBI:33341 ! titanium atom
+
+[Term]
+id: GEMET:6901 ! radio
+xref: CHEBI:33325 ! radium atom
+
+[Term]
+id: GEMET:2207 ! dioxin
+xref: CHEBI:23825 ! dibenzodioxine
+xref: CHEBI:28119 ! 2,3,7,8-tetrachlorodibenzodioxine
+
+[Term]
+id: GEMET:2367 ! dumping
+xref: CHEBI:17622 ! dUMP
+
+[Term]
+id: GEMET:322 ! alkane
+xref: CHEBI:18310 ! alkane
+xref: CHEBI:60379 ! alkanal
+
+[Term]
+id: GEMET:4724 ! lead compound
+xref: CHEBI:33585 ! lead molecular entity
+
+[Term]
+id: GEMET:1389 ! chlorophenol
+xref: CHEBI:23150 ! chlorophenol
+xref: CHEBI:38857 ! monochlorophenol
+
+[Term]
+id: GEMET:6338 ! platinum
+xref: CHEBI:33364 ! platinum
+
+[Term]
+id: GEMET:3354 ! food
+xref: CHEBI:33290 ! food
+
+[Term]
+id: GEMET:8379 ! teratogen
+xref: CHEBI:50905 ! teratogenic agent
+
+[Term]
+id: GEMET:4823 ! limestone
+xref: CHEBI:31344 ! calcium oxide
+
+[Term]
+id: GEMET:11713 ! atrazine
+xref: CHEBI:15930 ! atrazine
+
+[Term]
+id: GEMET:5924 ! organohalogen compound
+xref: CHEBI:36684 ! organohalogen compound
+
+[Term]
+id: GEMET:5982 ! oxygen
+xref: CHEBI:25805 ! oxygen atom
+
+[Term]
+id: GEMET:454 ! anion
+xref: CHEBI:22563 ! anion
+
+[Term]
+id: GEMET:373 ! amino acid
+xref: CHEBI:33709 ! amino acid
+
+[Term]
+id: GEMET:2131 ! detergent
+xref: CHEBI:27780 ! detergent
+
+[Term]
+id: GEMET:8192 ! sulphide
+xref: CHEBI:15138 ! sulfide(2-)
+xref: CHEBI:26822 ! sulfide
+xref: CHEBI:46717 ! sulfide mineral
+
+[Term]
+id: GEMET:3530 ! fungicide
+xref: CHEBI:24127 ! fungicide
+
+[Term]
+id: GEMET:7045 ! refrigerator
+xref: CHEBI:78433 ! refrigerant
+
+[Term]
+id: GEMET:5928 ! organonitrogen compound
+xref: CHEBI:35352 ! organonitrogen compound
+
+[Term]
+id: GEMET:2389 ! dye
+xref: CHEBI:37958 ! dye
+
+[Term]
+id: GEMET:1244 ! cellulose
+xref: CHEBI:18246 ! (1->4)-beta-D-glucan
+
+[Term]
+id: GEMET:237 ! agrochemical
+xref: CHEBI:33286 ! agrochemical
+
+[Term]
+id: GEMET:1100 ! cadmium
+xref: CHEBI:22977 ! cadmium atom
+
+[Term]
+id: GEMET:4354 ! insecticide
+xref: CHEBI:24852 ! insecticide
+
+[Term]
+id: GEMET:1168 ! carbon dioxide
+xref: CHEBI:16526 ! carbon dioxide
+
+[Term]
+id: GEMET:1373 ! chlorine
+xref: CHEBI:23116 ! chlorine atom
+xref: CHEBI:33910 ! chlorins
+xref: CHEBI:36303 ! chlorin
+
+[Term]
+id: GEMET:1532 ! cobalt
+xref: CHEBI:27638 ! cobalt atom
+
+[Term]
+id: GEMET:6505 ! polyvinyl chloride
+xref: CHEBI:53243 ! poly(vinyl chloride)
+
+[Term]
+id: GEMET:4820 ! lime
+xref: CHEBI:31344 ! calcium oxide
+xref: CHEBI:51486 ! methyllithium
+
+[Term]
+id: GEMET:2035 ! defoliation
+xref: CHEBI:23582 ! defoliant
+
+[Term]
+id: GEMET:5929 ! organooxygen compound
+xref: CHEBI:36963 ! organooxygen compound
+
+[Term]
+id: GEMET:173 ! age
+xref: CHEBI:27569 ! arabinogalactan
+xref: CHEBI:40618 ! aminoguanidine
+xref: CHEBI:49468 ! silver(1+)
+xref: CHEBI:50826 ! silver nanoparticle
+xref: CHEBI:73318 ! Ala-Ala-Gly
+xref: CHEBI:73757 ! Ala-Gly
+xref: CHEBI:73836 ! D-Ala-Gly
+xref: CHEBI:9141 ! silver(0)
+
+[Term]
+id: GEMET:473 ! antibiotic
+xref: CHEBI:22582 ! antibiotic
+
+[Term]
+id: GEMET:4091 ! hydrocarbon
+xref: CHEBI:24632 ! hydrocarbon
+
+[Term]
+id: GEMET:1378 ! chloroethylene
+xref: CHEBI:23142 ! chloroethenes
+xref: CHEBI:28509 ! chloroethene
+
+[Term]
+id: GEMET:2279 ! DNA
+xref: CHEBI:16991 ! deoxyribonucleic acid
+
+[Term]
+id: GEMET:1159 ! carbohydrate
+xref: CHEBI:16646 ! carbohydrate
+
+[Term]
+id: GEMET:1368 ! chlorinated hydrocarbon
+xref: CHEBI:23115 ! chlorohydrocarbon
+
+[Term]
+id: GEMET:8255 ! sweetener
+xref: CHEBI:50505 ! sweetening agent
+
+[Term]
+id: GEMET:8198 ! sulphur
+xref: CHEBI:17909 ! polysulfur
+xref: CHEBI:26833 ! sulfur atom
+
+[Term]
+id: GEMET:7324 ! rubber
+xref: CHEBI:28798 ! rubber particle
+xref: CHEBI:53405 ! poly(isoprene) macromolecule
+xref: CHEBI:60185 ! poly(isoprene) polymer
+
+[Term]
+id: GEMET:6358 ! poison
+xref: CHEBI:64909 ! poison
+
+[Term]
+id: GEMET:6587 ! preservative
+xref: CHEBI:31835 ! methylparaben
+
+[Term]
+id: GEMET:8893 ! vanadium
+xref: CHEBI:27698 ! vanadium atom
+
+[Term]
+id: GEMET:3360 ! food colourant
+xref: CHEBI:77182 ! food colouring
+
+[Term]
+id: GEMET:12977 ! patent
+xref: Patent:AU2003242983 ! Patent
+xref: Patent:AU2008303957 ! Patent
+xref: Patent:AU2010277748 ! Patent
+xref: Patent:AU2012202062 ! Patent
+xref: Patent:AU2012268879 ! Patent
+xref: Patent:AU2012316063 ! Patent
+xref: Patent:BE314196 ! Patent
+xref: Patent:BE379378 ! Patent
+xref: Patent:BE577977 ! Patent
+xref: Patent:BE585338 ! Patent
+xref: Patent:BE605302 ! Patent
+xref: Patent:BE609053 ! Patent
+xref: Patent:BE609868 ! Patent
+xref: Patent:BE610830 ! Patent
+xref: Patent:BE611960 ! Patent
+xref: Patent:BE612258 ! Patent
+xref: Patent:BE613734 ! Patent
+xref: Patent:BE614214 ! Patent
+xref: Patent:BE617730 ! Patent
+xref: Patent:BE618392 ! Patent
+xref: Patent:BE618638 ! Patent
+xref: Patent:BE619015 ! Patent
+xref: Patent:BE620020 ! Patent
+xref: Patent:BE620543 ! Patent
+xref: Patent:BE621819 ! Patent
+xref: Patent:BE623844 ! Patent
+xref: Patent:BE625022 ! Patent
+xref: Patent:BE628114 ! Patent
+xref: Patent:BE628142 ! Patent
+xref: Patent:BE629007 ! Patent
+xref: Patent:BE633205 ! Patent
+xref: Patent:BE633513 ! Patent
+xref: Patent:BE634208 ! Patent
+xref: Patent:BE636717 ! Patent
+xref: Patent:BE637389 ! Patent
+xref: Patent:BE639386 ! Patent
+xref: Patent:BE640433 ! Patent
+xref: Patent:BE646319 ! Patent
+xref: Patent:BE646991 ! Patent
+xref: Patent:BE647043 ! Patent
+xref: Patent:BE658987 ! Patent
+xref: Patent:BE661226 ! Patent
+xref: Patent:BE661232 ! Patent
+xref: Patent:BE672205 ! Patent
+xref: Patent:BE678807 ! Patent
+xref: Patent:BE704368 ! Patent
+xref: Patent:BE707667 ! Patent
+xref: Patent:BE708057 ! Patent
+xref: Patent:BE712832 ! Patent
+xref: Patent:BE778269 ! Patent
+xref: Patent:BE790165 ! Patent
+xref: Patent:BE804144 ! Patent
+xref: Patent:BE827127 ! Patent
+xref: Patent:BE833063 ! Patent
+xref: Patent:BE837682 ! Patent
+xref: Patent:BE839481 ! Patent
+xref: Patent:BE840431 ! Patent
+xref: Patent:BE848545 ! Patent
+xref: Patent:BE853976 ! Patent
+xref: Patent:BE856681 ! Patent
+xref: Patent:BE859425 ! Patent
+xref: Patent:BE863429 ! Patent
+xref: Patent:BE865632 ! Patent
+xref: Patent:BE866622 ! Patent
+xref: Patent:BE867859 ! Patent
+xref: Patent:BE872585 ! Patent
+xref: Patent:BE873201 ! Patent
+xref: Patent:BE878548 ! Patent
+xref: Patent:BE886336 ! Patent
+xref: Patent:BE888243 ! Patent
+xref: Patent:BE892357 ! Patent
+xref: Patent:BE897864 ! Patent
+xref: Patent:BE903519 ! Patent
+xref: Patent:CA1048929 ! Patent
+xref: Patent:CA1297030 ! Patent
+xref: Patent:CA1320105 ! Patent
+xref: Patent:CA2156922 ! Patent
+xref: Patent:CA2499254 ! Patent
+xref: Patent:CA2518621 ! Patent
+xref: Patent:CA2596618 ! Patent
+xref: Patent:CA2653333 ! Patent
+xref: Patent:CA2684683 ! Patent
+xref: Patent:CA2698980 ! Patent
+xref: Patent:CA2703613 ! Patent
+xref: Patent:CA2706463 ! Patent
+xref: Patent:CA2738117 ! Patent
+xref: Patent:CA2770486 ! Patent
+xref: Patent:CA2827585 ! Patent
+xref: Patent:CA2839972 ! Patent
+xref: Patent:CH162367 ! Patent
+xref: Patent:CH227706 ! Patent
+xref: Patent:CH371799 ! Patent
+xref: Patent:CH680439 ! Patent
+xref: Patent:CH689373 ! Patent
+xref: Patent:CN101007773 ! Patent
+xref: Patent:CN101022818 ! Patent
+xref: Patent:CN101028261 ! Patent
+xref: Patent:CN101029047 ! Patent
+xref: Patent:CN101037446 ! Patent
+xref: Patent:CN101070270 ! Patent
+xref: Patent:CN101074198 ! Patent
+xref: Patent:CN101077120 ! Patent
+xref: Patent:CN101104631 ! Patent
+xref: Patent:CN101112354 ! Patent
+xref: Patent:CN101112355 ! Patent
+xref: Patent:CN101134719 ! Patent
+xref: Patent:CN101143835 ! Patent
+xref: Patent:CN101148411 ! Patent
+xref: Patent:CN101200421 ! Patent
+xref: Patent:CN101204155 ! Patent
+xref: Patent:CN101224914 ! Patent
+xref: Patent:CN101260042 ! Patent
+xref: Patent:CN101260418 ! Patent
+xref: Patent:CN101268779 ! Patent
+xref: Patent:CN101278900 ! Patent
+xref: Patent:CN101278921 ! Patent
+xref: Patent:CN101288661 ! Patent
+xref: Patent:CN101292039 ! Patent
+xref: Patent:CN101293821 ! Patent
+xref: Patent:CN101293862 ! Patent
+xref: Patent:CN101313904 ! Patent
+xref: Patent:CN101314607 ! Patent
+xref: Patent:CN101333154 ! Patent
+xref: Patent:CN101333175 ! Patent
+xref: Patent:CN101342163 ! Patent
+xref: Patent:CN101356924 ! Patent
+xref: Patent:CN101367839 ! Patent
+xref: Patent:CN101368191 ! Patent
+xref: Patent:CN101372486 ! Patent
+xref: Patent:CN101375937 ! Patent
+xref: Patent:CN101390887 ! Patent
+xref: Patent:CN101391948 ! Patent
+xref: Patent:CN101391956 ! Patent
+xref: Patent:CN101396363 ! Patent
+xref: Patent:CN101411705 ! Patent
+xref: Patent:CN101411710 ! Patent
+xref: Patent:CN101415672 ! Patent
+xref: Patent:CN101416677 ! Patent
+xref: Patent:CN101416954 ! Patent
+xref: Patent:CN101416970 ! Patent
+xref: Patent:CN101417931 ! Patent
+xref: Patent:CN101423484 ! Patent
+xref: Patent:CN101432256 ! Patent
+xref: Patent:CN101434592 ! Patent
+xref: Patent:CN101444508 ! Patent
+xref: Patent:CN101454453 ! Patent
+xref: Patent:CN101455842 ! Patent
+xref: Patent:CN101456852 ! Patent
+xref: Patent:CN101460176 ! Patent
+xref: Patent:CN101463074 ! Patent
+xref: Patent:CN101468955 ! Patent
+xref: Patent:CN101473776 ! Patent
+xref: Patent:CN101473825 ! Patent
+xref: Patent:CN101473849 ! Patent
+xref: Patent:CN101474168 ! Patent
+xref: Patent:CN101474196 ! Patent
+xref: Patent:CN101481304 ! Patent
+xref: Patent:CN101484460 ! Patent
+xref: Patent:CN101492401 ! Patent
+xref: Patent:CN101495127 ! Patent
+xref: Patent:CN101497609 ! Patent
+xref: Patent:CN101513194 ! Patent
+xref: Patent:CN101519365 ! Patent
+xref: Patent:CN101524341 ! Patent
+xref: Patent:CN101525301 ! Patent
+xref: Patent:CN101541728 ! Patent
+xref: Patent:CN101548677 ! Patent
+xref: Patent:CN101559050 ! Patent
+xref: Patent:CN101559051 ! Patent
+xref: Patent:CN101560206 ! Patent
+xref: Patent:CN101564405 ! Patent
+xref: Patent:CN101569313 ! Patent
+xref: Patent:CN101575307 ! Patent
+xref: Patent:CN101575354 ! Patent
+xref: Patent:CN101578990 ! Patent
+xref: Patent:CN101584318 ! Patent
+xref: Patent:CN101585844 ! Patent
+xref: Patent:CN101588786 ! Patent
+xref: Patent:CN101589014 ! Patent
+xref: Patent:CN101589666 ! Patent
+xref: Patent:CN101591267 ! Patent
+xref: Patent:CN101595876 ! Patent
+xref: Patent:CN101595879 ! Patent
+xref: Patent:CN101597265 ! Patent
+xref: Patent:CN101602651 ! Patent
+xref: Patent:CN101602779 ! Patent
+xref: Patent:CN101606531 ! Patent
+xref: Patent:CN101607874 ! Patent
+xref: Patent:CN101612147 ! Patent
+xref: Patent:CN101617658 ! Patent
+xref: Patent:CN101617668 ! Patent
+xref: Patent:CN101617680 ! Patent
+xref: Patent:CN101619025 ! Patent
+xref: Patent:CN101619076 ! Patent
+xref: Patent:CN101624353 ! Patent
+xref: Patent:CN101624356 ! Patent
+xref: Patent:CN101627005 ! Patent
+xref: Patent:CN101628874 ! Patent
+xref: Patent:CN101632364 ! Patent
+xref: Patent:CN101632367 ! Patent
+xref: Patent:CN101632374 ! Patent
+xref: Patent:CN101632832 ! Patent
+xref: Patent:CN101633649 ! Patent
+xref: Patent:CN101633913 ! Patent
+xref: Patent:CN101636372 ! Patent
+xref: Patent:CN101637164 ! Patent
+xref: Patent:CN101637501 ! Patent
+xref: Patent:CN101642109 ! Patent
+xref: Patent:CN101643409 ! Patent
+xref: Patent:CN101643419 ! Patent
+xref: Patent:CN101643472 ! Patent
+xref: Patent:CN101643473 ! Patent
+xref: Patent:CN101647442 ! Patent
+xref: Patent:CN101647443 ! Patent
+xref: Patent:CN101647446 ! Patent
+xref: Patent:CN101647451 ! Patent
+xref: Patent:CN101647467 ! Patent
+xref: Patent:CN101648874 ! Patent
+xref: Patent:CN101648875 ! Patent
+xref: Patent:CN101648898 ! Patent
+xref: Patent:CN101648969 ! Patent
+xref: Patent:CN101653123 ! Patent
+xref: Patent:CN101653124 ! Patent
+xref: Patent:CN101658178 ! Patent
+xref: Patent:CN101658517 ! Patent
+xref: Patent:CN101659793 ! Patent
+xref: Patent:CN101664033 ! Patent
+xref: Patent:CN101669470 ! Patent
+xref: Patent:CN101669475 ! Patent
+xref: Patent:CN101669476 ! Patent
+xref: Patent:CN101669478 ! Patent
+xref: Patent:CN101669496 ! Patent
+xref: Patent:CN101669500 ! Patent
+xref: Patent:CN101669508 ! Patent
+xref: Patent:CN101669935 ! Patent
+xref: Patent:CN101669936 ! Patent
+xref: Patent:CN101679181 ! Patent
+xref: Patent:CN101687905 ! Patent
+xref: Patent:CN101704771 ! Patent
+xref: Patent:CN101759540 ! Patent
+xref: Patent:CN101773584 ! Patent
+xref: Patent:CN101780063 ! Patent
+xref: Patent:CN101781259 ! Patent
+xref: Patent:CN101810812 ! Patent
+xref: Patent:CN101816625 ! Patent
+xref: Patent:CN101816660 ! Patent
+xref: Patent:CN101817754 ! Patent
+xref: Patent:CN101817856 ! Patent
+xref: Patent:CN101822255 ! Patent
+xref: Patent:CN101822678 ! Patent
+xref: Patent:CN101823961 ! Patent
+xref: Patent:CN101823962 ! Patent
+xref: Patent:CN101828559 ! Patent
+xref: Patent:CN101828560 ! Patent
+xref: Patent:CN101828564 ! Patent
+xref: Patent:CN101829082 ! Patent
+xref: Patent:CN101829118 ! Patent
+xref: Patent:CN101830795 ! Patent
+xref: Patent:CN101830859 ! Patent
+xref: Patent:CN101836631 ! Patent
+xref: Patent:CN101836960 ! Patent
+xref: Patent:CN101838205 ! Patent
+xref: Patent:CN101842340 ! Patent
+xref: Patent:CN101842488 ! Patent
+xref: Patent:CN101843243 ! Patent
+xref: Patent:CN101843593 ! Patent
+xref: Patent:CN101844962 ! Patent
+xref: Patent:CN101845044 ! Patent
+xref: Patent:CN101851225 ! Patent
+xref: Patent:CN101856365 ! Patent
+xref: Patent:CN101861866 ! Patent
+xref: Patent:CN101863755 ! Patent
+xref: Patent:CN101863782 ! Patent
+xref: Patent:CN101863808 ! Patent
+xref: Patent:CN101869559 ! Patent
+xref: Patent:CN101870710 ! Patent
+xref: Patent:CN101890017 ! Patent
+xref: Patent:CN101897685 ! Patent
+xref: Patent:CN101912377 ! Patent
+xref: Patent:CN101914118 ! Patent
+xref: Patent:CN101947215 ! Patent
+xref: Patent:CN101971818 ! Patent
+xref: Patent:CN101971820 ! Patent
+xref: Patent:CN101988028 ! Patent
+xref: Patent:CN101991578 ! Patent
+xref: Patent:CN102007944 ! Patent
+xref: Patent:CN102018697 ! Patent
+xref: Patent:CN102028680 ! Patent
+xref: Patent:CN102030623 ! Patent
+xref: Patent:CN102030735 ! Patent
+xref: Patent:CN102037953 ! Patent
+xref: Patent:CN102037996 ! Patent
+xref: Patent:CN102058579 ! Patent
+xref: Patent:CN102090406 ! Patent
+xref: Patent:CN102106861 ! Patent
+xref: Patent:CN102108046 ! Patent
+xref: Patent:CN102138903 ! Patent
+xref: Patent:CN102188464 ! Patent
+xref: Patent:CN102229860 ! Patent
+xref: Patent:CN102247339 ! Patent
+xref: Patent:CN102344429 ! Patent
+xref: Patent:CN102349891 ! Patent
+xref: Patent:CN102352348 ! Patent
+xref: Patent:CN102382038 ! Patent
+xref: Patent:CN102397273 ! Patent
+xref: Patent:CN102429899 ! Patent
+xref: Patent:CN102432616 ! Patent
+xref: Patent:CN102464607 ! Patent
+xref: Patent:CN102579456 ! Patent
+xref: Patent:CN102584918 ! Patent
+xref: Patent:CN102600212 ! Patent
+xref: Patent:CN102601109 ! Patent
+xref: Patent:CN102614094 ! Patent
+xref: Patent:CN102633857 ! Patent
+xref: Patent:CN102641261 ! Patent
+xref: Patent:CN102657640 ! Patent
+xref: Patent:CN102670581 ! Patent
+xref: Patent:CN102697767 ! Patent
+xref: Patent:CN102697791 ! Patent
+xref: Patent:CN102697895 ! Patent
+xref: Patent:CN102701295 ! Patent
+xref: Patent:CN102701938 ! Patent
+xref: Patent:CN102727484 ! Patent
+xref: Patent:CN102743373 ! Patent
+xref: Patent:CN102757334 ! Patent
+xref: Patent:CN102763743 ! Patent
+xref: Patent:CN102898269 ! Patent
+xref: Patent:CN102964231 ! Patent
+xref: Patent:CN102973535 ! Patent
+xref: Patent:CN102976908 ! Patent
+xref: Patent:CN102989760 ! Patent
+xref: Patent:CN102993230 ! Patent
+xref: Patent:CN103053579 ! Patent
+xref: Patent:CN103074276 ! Patent
+xref: Patent:CN103086839 ! Patent
+xref: Patent:CN103120180 ! Patent
+xref: Patent:CN103125511 ! Patent
+xref: Patent:CN103172602 ! Patent
+xref: Patent:CN103214530 ! Patent
+xref: Patent:CN103229711 ! Patent
+xref: Patent:CN103230408 ! Patent
+xref: Patent:CN103304357 ! Patent
+xref: Patent:CN103342627 ! Patent
+xref: Patent:CN103360296 ! Patent
+xref: Patent:CN103392726 ! Patent
+xref: Patent:CN103404532 ! Patent
+xref: Patent:CN103553255 ! Patent
+xref: Patent:CN103651557 ! Patent
+xref: Patent:CN103766364 ! Patent
+xref: Patent:CN103784385 ! Patent
+xref: Patent:CN103893187 ! Patent
+xref: Patent:CN103911214 ! Patent
+xref: Patent:CN1112546 ! Patent
+xref: Patent:CN1284492 ! Patent
+xref: Patent:CN1413643 ! Patent
+xref: Patent:CN1473468 ! Patent
+xref: Patent:CN1477097 ! Patent
+xref: Patent:CN1500486 ! Patent
+xref: Patent:CN1543961 ! Patent
+xref: Patent:CN1561729 ! Patent
+xref: Patent:CN1561730 ! Patent
+xref: Patent:CN1561734 ! Patent
+xref: Patent:CN1569859 ! Patent
+xref: Patent:CN1596646 ! Patent
+xref: Patent:CN1602869 ! Patent
+xref: Patent:CN1616650 ! Patent
+xref: Patent:CN1634895 ! Patent
+xref: Patent:CN1648120 ! Patent
+xref: Patent:CN1660730 ! Patent
+xref: Patent:CN1660746 ! Patent
+xref: Patent:CN1672746 ! Patent
+xref: Patent:CN1682721 ! Patent
+xref: Patent:CN1696135 ! Patent
+xref: Patent:CN1765887 ! Patent
+xref: Patent:CN1775736 ! Patent
+xref: Patent:CN1827608 ! Patent
+xref: Patent:CN1830950 ! Patent
+xref: Patent:CN1839800 ! Patent
+xref: Patent:CN1839855 ! Patent
+xref: Patent:CN1839856 ! Patent
+xref: Patent:CN1839857 ! Patent
+xref: Patent:CN1839858 ! Patent
+xref: Patent:CN1839859 ! Patent
+xref: Patent:CN1839860 ! Patent
+xref: Patent:CN1884261 ! Patent
+xref: Patent:CN1899606 ! Patent
+xref: Patent:CN1930986 ! Patent
+xref: Patent:CN1955151 ! Patent
+xref: Patent:CN1969874 ! Patent
+xref: Patent:CN1978438 ! Patent
+xref: Patent:CN1995028 ! Patent
+xref: Patent:CN202185170 ! Patent
+xref: Patent:CZ297482 ! Patent
+xref: Patent:CZ301384 ! Patent
+xref: Patent:DE10032076 ! Patent
+xref: Patent:DE10037982 ! Patent
+xref: Patent:DE102007028397 ! Patent
+xref: Patent:DE102007054497 ! Patent
+xref: Patent:DE102009055915 ! Patent
+xref: Patent:DE102009056597 ! Patent
+xref: Patent:DE102011017670 ! Patent
+xref: Patent:DE102012203240 ! Patent
+xref: Patent:DE1024517 ! Patent
+xref: Patent:DE10252657 ! Patent
+xref: Patent:DE10349511 ! Patent
+xref: Patent:DE10349512 ! Patent
+xref: Patent:DE1066575 ! Patent
+xref: Patent:DE1070632 ! Patent
+xref: Patent:DE1072775 ! Patent
+xref: Patent:DE1101428 ! Patent
+xref: Patent:DE1113690 ! Patent
+xref: Patent:DE1117588 ! Patent
+xref: Patent:DE1131197 ! Patent
+xref: Patent:DE1136709 ! Patent
+xref: Patent:DE1137740 ! Patent
+xref: Patent:DE1149045 ! Patent
+xref: Patent:DE117767 ! Patent
+xref: Patent:DE1180891 ! Patent
+xref: Patent:DE1189991 ! Patent
+xref: Patent:DE1240870 ! Patent
+xref: Patent:DE1800698 ! Patent
+xref: Patent:DE1805714 ! Patent
+xref: Patent:DE1814735 ! Patent
+xref: Patent:DE1815922 ! Patent
+xref: Patent:DE1816046 ! Patent
+xref: Patent:DE189200 ! Patent
+xref: Patent:DE1902340 ! Patent
+xref: Patent:DE1907670 ! Patent
+xref: Patent:DE1925423 ! Patent
+xref: Patent:DE1925956 ! Patent
+xref: Patent:DE1926045 ! Patent
+xref: Patent:DE1935479 ! Patent
+xref: Patent:DE1941564 ! Patent
+xref: Patent:DE1942693 ! Patent
+xref: Patent:DE1943265 ! Patent
+xref: Patent:DE1947332 ! Patent
+xref: Patent:DE1948943 ! Patent
+xref: Patent:DE1953342 ! Patent
+xref: Patent:DE1954268 ! Patent
+xref: Patent:DE1955349 ! Patent
+xref: Patent:DE1959569 ! Patent
+xref: Patent:DE19630980 ! Patent
+xref: Patent:DE1964503 ! Patent
+xref: Patent:DE1964504 ! Patent
+xref: Patent:DE19681353 ! Patent
+xref: Patent:DE19707178 ! Patent
+xref: Patent:DE19722043 ! Patent
+xref: Patent:DE2001431 ! Patent
+xref: Patent:DE2005104 ! Patent
+xref: Patent:DE2007751 ! Patent
+xref: Patent:DE2008332 ! Patent
+xref: Patent:DE2011559 ! Patent
+xref: Patent:DE2011806 ! Patent
+xref: Patent:DE2011969 ! Patent
+xref: Patent:DE2012138 ! Patent
+xref: Patent:DE2012190 ! Patent
+xref: Patent:DE2014201 ! Patent
+xref: Patent:DE2015573 ! Patent
+xref: Patent:DE2018135 ! Patent
+xref: Patent:DE2018600 ! Patent
+xref: Patent:DE2029637 ! Patent
+xref: Patent:DE2032642 ! Patent
+xref: Patent:DE2039426 ! Patent
+xref: Patent:DE2051495 ! Patent
+xref: Patent:DE205450 ! Patent
+xref: Patent:DE2055264 ! Patent
+xref: Patent:DE2055531 ! Patent
+xref: Patent:DE2057845 ! Patent
+xref: Patent:DE2062285 ! Patent
+xref: Patent:DE2062332 ! Patent
+xref: Patent:DE2062620 ! Patent
+xref: Patent:DE2114441 ! Patent
+xref: Patent:DE2117571 ! Patent
+xref: Patent:DE2121980 ! Patent
+xref: Patent:DE2125245 ! Patent
+xref: Patent:DE2129675 ! Patent
+xref: Patent:DE2130450 ! Patent
+xref: Patent:DE2144457 ! Patent
+xref: Patent:DE2149070 ! Patent
+xref: Patent:DE2149923 ! Patent
+xref: Patent:DE2152058 ! Patent
+xref: Patent:DE2152967 ! Patent
+xref: Patent:DE2156835 ! Patent
+xref: Patent:DE2159324 ! Patent
+xref: Patent:DE2164690 ! Patent
+xref: Patent:DE2201210 ! Patent
+xref: Patent:DE2203653 ! Patent
+xref: Patent:DE2208351 ! Patent
+xref: Patent:DE2210154 ! Patent
+xref: Patent:DE2216113 ! Patent
+xref: Patent:DE2227739 ! Patent
+xref: Patent:DE2229215 ! Patent
+xref: Patent:DE2231312 ! Patent
+xref: Patent:DE2234315 ! Patent
+xref: Patent:DE2234651 ! Patent
+xref: Patent:DE2243961 ! Patent
+xref: Patent:DE224953 ! Patent
+xref: Patent:DE2250327 ! Patent
+xref: Patent:DE2258995 ! Patent
+xref: Patent:DE2261293 ! Patent
+xref: Patent:DE228012 ! Patent
+xref: Patent:DE228722 ! Patent
+xref: Patent:DE2300491 ! Patent
+xref: Patent:DE2301525 ! Patent
+xref: Patent:DE2302027 ! Patent
+xref: Patent:DE2305092 ! Patent
+xref: Patent:DE2308731 ! Patent
+xref: Patent:DE2309160 ! Patent
+xref: Patent:DE2310031 ! Patent
+xref: Patent:DE2312997 ! Patent
+xref: Patent:DE2317710 ! Patent
+xref: Patent:DE2318020 ! Patent
+xref: Patent:DE2323215 ! Patent
+xref: Patent:DE2324443 ! Patent
+xref: Patent:DE2324768 ! Patent
+xref: Patent:DE2329485 ! Patent
+xref: Patent:DE2337340 ! Patent
+xref: Patent:DE2343606 ! Patent
+xref: Patent:DE2343657 ! Patent
+xref: Patent:DE2347782 ! Patent
+xref: Patent:DE2350169 ! Patent
+xref: Patent:DE2353357 ! Patent
+xref: Patent:DE2357778 ! Patent
+xref: Patent:DE2361120 ! Patent
+xref: Patent:DE2404308 ! Patent
+xref: Patent:DE2408698 ! Patent
+xref: Patent:DE2414619 ! Patent
+xref: Patent:DE2421549 ! Patent
+xref: Patent:DE2437847 ! Patent
+xref: Patent:DE2439880 ! Patent
+xref: Patent:DE2442910 ! Patent
+xref: Patent:DE2446005 ! Patent
+xref: Patent:DE2450355 ! Patent
+xref: Patent:DE2458638 ! Patent
+xref: Patent:DE2458695 ! Patent
+xref: Patent:DE2500110 ! Patent
+xref: Patent:DE2501040 ! Patent
+xref: Patent:DE2510866 ! Patent
+xref: Patent:DE2515091 ! Patent
+xref: Patent:DE2517316 ! Patent
+xref: Patent:DE2519400 ! Patent
+xref: Patent:DE2519730 ! Patent
+xref: Patent:DE2524355 ! Patent
+xref: Patent:DE2539963 ! Patent
+xref: Patent:DE2541833 ! Patent
+xref: Patent:DE2549568 ! Patent
+xref: Patent:DE2551560 ! Patent
+xref: Patent:DE2556736 ! Patent
+xref: Patent:DE2557784 ! Patent
+xref: Patent:DE2600866 ! Patent
+xref: Patent:DE2609573 ! Patent
+xref: Patent:DE2610228 ! Patent
+xref: Patent:DE2611270 ! Patent
+xref: Patent:DE2614406 ! Patent
+xref: Patent:DE2632870 ! Patent
+xref: Patent:DE2633210 ! Patent
+xref: Patent:DE2646186 ! Patent
+xref: Patent:DE2649605 ! Patent
+xref: Patent:DE2649925 ! Patent
+xref: Patent:DE2652761 ! Patent
+xref: Patent:DE2655883 ! Patent
+xref: Patent:DE2656747 ! Patent
+xref: Patent:DE2657013 ! Patent
+xref: Patent:DE2657578 ! Patent
+xref: Patent:DE2702501 ! Patent
+xref: Patent:DE2706413 ! Patent
+xref: Patent:DE2709264 ! Patent
+xref: Patent:DE2713272 ! Patent
+xref: Patent:DE2713370 ! Patent
+xref: Patent:DE2732175 ! Patent
+xref: Patent:DE2738711 ! Patent
+xref: Patent:DE2751258 ! Patent
+xref: Patent:DE2756113 ! Patent
+xref: Patent:DE278613 ! Patent
+xref: Patent:DE2802488 ! Patent
+xref: Patent:DE2802962 ! Patent
+xref: Patent:DE2804096 ! Patent
+xref: Patent:DE2809625 ! Patent
+xref: Patent:DE2812169 ! Patent
+xref: Patent:DE2815926 ! Patent
+xref: Patent:DE2819873 ! Patent
+xref: Patent:DE2821966 ! Patent
+xref: Patent:DE2824559 ! Patent
+xref: Patent:DE2831112 ! Patent
+xref: Patent:DE2835661 ! Patent
+xref: Patent:DE2836902 ! Patent
+xref: Patent:DE2837161 ! Patent
+xref: Patent:DE2840910 ! Patent
+xref: Patent:DE2845770 ! Patent
+xref: Patent:DE2847623 ! Patent
+xref: Patent:DE2854439 ! Patent
+xref: Patent:DE2903891 ! Patent
+xref: Patent:DE2904445 ! Patent
+xref: Patent:DE2909439 ! Patent
+xref: Patent:DE2915318 ! Patent
+xref: Patent:DE2915955 ! Patent
+xref: Patent:DE2921316 ! Patent
+xref: Patent:DE2950235 ! Patent
+xref: Patent:DE3007498 ! Patent
+xref: Patent:DE3018590 ! Patent
+xref: Patent:DE3019350 ! Patent
+xref: Patent:DE3037102 ! Patent
+xref: Patent:DE3113460 ! Patent
+xref: Patent:DE3142854 ! Patent
+xref: Patent:DE3211773 ! Patent
+xref: Patent:DE3231255 ! Patent
+xref: Patent:DE3307550 ! Patent
+xref: Patent:DE3342632 ! Patent
+xref: Patent:DE3402642 ! Patent
+xref: Patent:DE3414752 ! Patent
+xref: Patent:DE3415035 ! Patent
+xref: Patent:DE3433924 ! Patent
+xref: Patent:DE3441674 ! Patent
+xref: Patent:DE3603789 ! Patent
+xref: Patent:DE3715705 ! Patent
+xref: Patent:DE3735555 ! Patent
+xref: Patent:DE3805744 ! Patent
+xref: Patent:DE4014540 ! Patent
+xref: Patent:DE4138042 ! Patent
+xref: Patent:DE415097 ! Patent
+xref: Patent:DE481819 ! Patent
+xref: Patent:DE486766 ! Patent
+xref: Patent:DE50835 ! Patent
+xref: Patent:DE515781 ! Patent
+xref: Patent:DE539329 ! Patent
+xref: Patent:DE607537 ! Patent
+xref: Patent:DE623821 ! Patent
+xref: Patent:DE683692 ! Patent
+xref: Patent:DE723278 ! Patent
+xref: Patent:DE753127 ! Patent
+xref: Patent:DE859145 ! Patent
+xref: Patent:DE936268 ! Patent
+xref: Patent:DE962608 ! Patent
+xref: Patent:DE98031 ! Patent
+xref: Patent:EA003143 ! Patent
+xref: Patent:EA012203 ! Patent
+xref: Patent:EA013226 ! Patent
+xref: Patent:EG17168 ! Patent
+xref: Patent:EP0002893 ! Patent
+xref: Patent:EP0031454 ! Patent
+xref: Patent:EP0062305 ! Patent
+xref: Patent:EP0100605 ! Patent
+xref: Patent:EP0101719 ! Patent
+xref: Patent:EP0110660 ! Patent
+xref: Patent:EP0111747 ! Patent
+xref: Patent:EP0112794 ! Patent
+xref: Patent:EP0135102 ! Patent
+xref: Patent:EP0137460 ! Patent
+xref: Patent:EP0171943 ! Patent
+xref: Patent:EP0175701 ! Patent
+xref: Patent:EP0189430 ! Patent
+xref: Patent:EP0202838 ! Patent
+xref: Patent:EP0278190 ! Patent
+xref: Patent:EP0290193 ! Patent
+xref: Patent:EP0296506 ! Patent
+xref: Patent:EP0310259 ! Patent
+xref: Patent:EP0323913 ! Patent
+xref: Patent:EP0335067 ! Patent
+xref: Patent:EP0342665 ! Patent
+xref: Patent:EP0350810 ! Patent
+xref: Patent:EP0368157 ! Patent
+xref: Patent:EP0390496 ! Patent
+xref: Patent:EP0392052 ! Patent
+xref: Patent:EP0394042 ! Patent
+xref: Patent:EP0429316 ! Patent
+xref: Patent:EP0439445 ! Patent
+xref: Patent:EP0447965 ! Patent
+xref: Patent:EP0450684 ! Patent
+xref: Patent:EP0464017 ! Patent
+xref: Patent:EP0509925 ! Patent
+xref: Patent:EP0548635 ! Patent
+xref: Patent:EP0549387 ! Patent
+xref: Patent:EP0556275 ! Patent
+xref: Patent:EP0600342 ! Patent
+xref: Patent:EP0645458 ! Patent
+xref: Patent:EP0647614 ! Patent
+xref: Patent:EP0647615 ! Patent
+xref: Patent:EP0658622 ! Patent
+xref: Patent:EP0678081 ! Patent
+xref: Patent:EP0706993 ! Patent
+xref: Patent:EP0773212 ! Patent
+xref: Patent:EP0788504 ! Patent
+xref: Patent:EP0791585 ! Patent
+xref: Patent:EP0803242 ! Patent
+xref: Patent:EP0866793 ! Patent
+xref: Patent:EP0930068 ! Patent
+xref: Patent:EP0933633 ! Patent
+xref: Patent:EP0941992 ! Patent
+xref: Patent:EP0945429 ! Patent
+xref: Patent:EP0957106 ! Patent
+xref: Patent:EP0996438 ! Patent
+xref: Patent:EP0998924 ! Patent
+xref: Patent:EP100172 ! Patent
+xref: Patent:EP1002121 ! Patent
+xref: Patent:EP1012135 ! Patent
+xref: Patent:EP1013663 ! Patent
+xref: Patent:EP101381 ! Patent
+xref: Patent:EP1023838 ! Patent
+xref: Patent:EP1036319 ! Patent
+xref: Patent:EP1064272 ! Patent
+xref: Patent:EP1069894 ! Patent
+xref: Patent:EP1078925 ! Patent
+xref: Patent:EP1090125 ! Patent
+xref: Patent:EP1091744 ! Patent
+xref: Patent:EP111325 ! Patent
+xref: Patent:EP1140793 ! Patent
+xref: Patent:EP1159261 ! Patent
+xref: Patent:EP1171128 ! Patent
+xref: Patent:EP1171129 ! Patent
+xref: Patent:EP1178034 ! Patent
+xref: Patent:EP1188377 ! Patent
+xref: Patent:EP1204666 ! Patent
+xref: Patent:EP1227097 ! Patent
+xref: Patent:EP123238 ! Patent
+xref: Patent:EP12401 ! Patent
+xref: Patent:EP1245230 ! Patent
+xref: Patent:EP1252820 ! Patent
+xref: Patent:EP1253147 ! Patent
+xref: Patent:EP1254894 ! Patent
+xref: Patent:EP1256350 ! Patent
+xref: Patent:EP1263286 ! Patent
+xref: Patent:EP126587 ! Patent
+xref: Patent:EP1273301 ! Patent
+xref: Patent:EP1280891 ! Patent
+xref: Patent:EP1294922 ! Patent
+xref: Patent:EP1315420 ! Patent
+xref: Patent:EP131839 ! Patent
+xref: Patent:EP1328647 ! Patent
+xref: Patent:EP1336602 ! Patent
+xref: Patent:EP1351676 ! Patent
+xref: Patent:EP1354952 ! Patent
+xref: Patent:EP13612 ! Patent
+xref: Patent:EP1362585 ! Patent
+xref: Patent:EP1366760 ! Patent
+xref: Patent:EP136721 ! Patent
+xref: Patent:EP1380209 ! Patent
+xref: Patent:EP1392239 ! Patent
+xref: Patent:EP14476 ! Patent
+xref: Patent:EP145294 ! Patent
+xref: Patent:EP1464336 ! Patent
+xref: Patent:EP147177 ! Patent
+xref: Patent:EP1502918 ! Patent
+xref: Patent:EP1506963 ! Patent
+xref: Patent:EP1520882 ! Patent
+xref: Patent:EP1525884 ! Patent
+xref: Patent:EP1527683 ! Patent
+xref: Patent:EP1531781 ! Patent
+xref: Patent:EP1543133 ! Patent
+xref: Patent:EP155096 ! Patent
+xref: Patent:EP1559427 ! Patent
+xref: Patent:EP1575599 ! Patent
+xref: Patent:EP15756 ! Patent
+xref: Patent:EP1576015 ! Patent
+xref: Patent:EP1576953 ! Patent
+xref: Patent:EP1578738 ! Patent
+xref: Patent:EP1585740 ! Patent
+xref: Patent:EP1586571 ! Patent
+xref: Patent:EP1593383 ! Patent
+xref: Patent:EP1600153 ! Patent
+xref: Patent:EP161877 ! Patent
+xref: Patent:EP1637530 ! Patent
+xref: Patent:EP164697 ! Patent
+xref: Patent:EP1650200 ! Patent
+xref: Patent:EP1652848 ! Patent
+xref: Patent:EP166287 ! Patent
+xref: Patent:EP1685841 ! Patent
+xref: Patent:EP170842 ! Patent
+xref: Patent:EP1710241 ! Patent
+xref: Patent:EP1721901 ! Patent
+xref: Patent:EP1727512 ! Patent
+xref: Patent:EP173059 ! Patent
+xref: Patent:EP174726 ! Patent
+xref: Patent:EP1749870 ! Patent
+xref: Patent:EP1767184 ! Patent
+xref: Patent:EP1767218 ! Patent
+xref: Patent:EP1787647 ! Patent
+xref: Patent:EP1825847 ! Patent
+xref: Patent:EP1825855 ! Patent
+xref: Patent:EP184162 ! Patent
+xref: Patent:EP1847265 ! Patent
+xref: Patent:EP1849758 ! Patent
+xref: Patent:EP1849759 ! Patent
+xref: Patent:EP1849762 ! Patent
+xref: Patent:EP1852108 ! Patent
+xref: Patent:EP1852409 ! Patent
+xref: Patent:EP1852414 ! Patent
+xref: Patent:EP1852416 ! Patent
+xref: Patent:EP186087 ! Patent
+xref: Patent:EP1861101 ! Patent
+xref: Patent:EP186118 ! Patent
+xref: Patent:EP1867659 ! Patent
+xref: Patent:EP1870402 ! Patent
+xref: Patent:EP1873139 ! Patent
+xref: Patent:EP1873140 ! Patent
+xref: Patent:EP1873143 ! Patent
+xref: Patent:EP1873144 ! Patent
+xref: Patent:EP1875912 ! Patent
+xref: Patent:EP1886997 ! Patent
+xref: Patent:EP1897866 ! Patent
+xref: Patent:EP1908778 ! Patent
+xref: Patent:EP191335 ! Patent
+xref: Patent:EP1914313 ! Patent
+xref: Patent:EP1917267 ! Patent
+xref: Patent:EP1918280 ! Patent
+xref: Patent:EP192060 ! Patent
+xref: Patent:EP193256 ! Patent
+xref: Patent:EP1935898 ! Patent
+xref: Patent:EP1938837 ! Patent
+xref: Patent:EP1939198 ! Patent
+xref: Patent:EP196132 ! Patent
+xref: Patent:EP196222 ! Patent
+xref: Patent:EP1970063 ! Patent
+xref: Patent:EP1980552 ! Patent
+xref: Patent:EP199636 ! Patent
+xref: Patent:EP200444 ! Patent
+xref: Patent:EP2013209 ! Patent
+xref: Patent:EP2014655 ! Patent
+xref: Patent:EP2017281 ! Patent
+xref: Patent:EP2021357 ! Patent
+xref: Patent:EP2041083 ! Patent
+xref: Patent:EP2044836 ! Patent
+xref: Patent:EP2045255 ! Patent
+xref: Patent:EP2060919 ! Patent
+xref: Patent:EP206497 ! Patent
+xref: Patent:EP2070931 ! Patent
+xref: Patent:EP2071953 ! Patent
+xref: Patent:EP208855 ! Patent
+xref: Patent:EP2107059 ! Patent
+xref: Patent:EP2108368 ! Patent
+xref: Patent:EP2119372 ! Patent
+xref: Patent:EP2119700 ! Patent
+xref: Patent:EP214058 ! Patent
+xref: Patent:EP2141155 ! Patent
+xref: Patent:EP2143705 ! Patent
+xref: Patent:EP2161257 ! Patent
+xref: Patent:EP2179652 ! Patent
+xref: Patent:EP2185180 ! Patent
+xref: Patent:EP2187936 ! Patent
+xref: Patent:EP2188240 ! Patent
+xref: Patent:EP2194061 ! Patent
+xref: Patent:EP2198029 ! Patent
+xref: Patent:EP2199280 ! Patent
+xref: Patent:EP2204449 ! Patent
+xref: Patent:EP221753 ! Patent
+xref: Patent:EP2233465 ! Patent
+xref: Patent:EP2238979 ! Patent
+xref: Patent:EP2243362 ! Patent
+xref: Patent:EP2243363 ! Patent
+xref: Patent:EP2247740 ! Patent
+xref: Patent:EP2254892 ! Patent
+xref: Patent:EP2255631 ! Patent
+xref: Patent:EP2255632 ! Patent
+xref: Patent:EP2255633 ! Patent
+xref: Patent:EP2255634 ! Patent
+xref: Patent:EP226304 ! Patent
+xref: Patent:EP2264039 ! Patent
+xref: Patent:EP2272346 ! Patent
+xref: Patent:EP2275098 ! Patent
+xref: Patent:EP2275135 ! Patent
+xref: Patent:EP2276461 ! Patent
+xref: Patent:EP2277519 ! Patent
+xref: Patent:EP2277526 ! Patent
+xref: Patent:EP2281578 ! Patent
+xref: Patent:EP2283868 ! Patent
+xref: Patent:EP2283869 ! Patent
+xref: Patent:EP2286665 ! Patent
+xref: Patent:EP2286806 ! Patent
+xref: Patent:EP2289324 ! Patent
+xref: Patent:EP2289335 ! Patent
+xref: Patent:EP2289562 ! Patent
+xref: Patent:EP2298745 ! Patent
+xref: Patent:EP2301909 ! Patent
+xref: Patent:EP230295 ! Patent
+xref: Patent:EP2303901 ! Patent
+xref: Patent:EP2307353 ! Patent
+xref: Patent:EP2308303 ! Patent
+xref: Patent:EP2311788 ! Patent
+xref: Patent:EP2319308 ! Patent
+xref: Patent:EP2319310 ! Patent
+xref: Patent:EP2319923 ! Patent
+xref: Patent:EP2322184 ! Patent
+xref: Patent:EP2322496 ! Patent
+xref: Patent:EP2323641 ! Patent
+xref: Patent:EP2327393 ! Patent
+xref: Patent:EP2334685 ! Patent
+xref: Patent:EP2351484 ! Patent
+xref: Patent:EP2357009 ! Patent
+xref: Patent:EP2359814 ! Patent
+xref: Patent:EP2362875 ! Patent
+xref: Patent:EP2365070 ! Patent
+xref: Patent:EP236940 ! Patent
+xref: Patent:EP237929 ! Patent
+xref: Patent:EP2383260 ! Patent
+xref: Patent:EP2389349 ! Patent
+xref: Patent:EP240228 ! Patent
+xref: Patent:EP2405752 ! Patent
+xref: Patent:EP2407444 ! Patent
+xref: Patent:EP2408301 ! Patent
+xref: Patent:EP2409961 ! Patent
+xref: Patent:EP2411004 ! Patent
+xref: Patent:EP2418194 ! Patent
+xref: Patent:EP2418971 ! Patent
+xref: Patent:EP2421371 ! Patent
+xref: Patent:EP2425720 ! Patent
+xref: Patent:EP2436374 ! Patent
+xref: Patent:EP2438182 ! Patent
+xref: Patent:EP2443927 ! Patent
+xref: Patent:EP2443928 ! Patent
+xref: Patent:EP2444481 ! Patent
+xref: Patent:EP2445488 ! Patent
+xref: Patent:EP245997 ! Patent
+xref: Patent:EP246874 ! Patent
+xref: Patent:EP2517705 ! Patent
+xref: Patent:EP253310 ! Patent
+xref: Patent:EP253412 ! Patent
+xref: Patent:EP253738 ! Patent
+xref: Patent:EP2554549 ! Patent
+xref: Patent:EP2578210 ! Patent
+xref: Patent:EP2579862 ! Patent
+xref: Patent:EP2602260 ! Patent
+xref: Patent:EP2684564 ! Patent
+xref: Patent:EP269303 ! Patent
+xref: Patent:EP274234 ! Patent
+xref: Patent:EP281309 ! Patent
+xref: Patent:EP281459 ! Patent
+xref: Patent:EP284288 ! Patent
+xref: Patent:EP287128 ! Patent
+xref: Patent:EP292689 ! Patent
+xref: Patent:EP294907 ! Patent
+xref: Patent:EP295117 ! Patent
+xref: Patent:EP29579 ! Patent
+xref: Patent:EP296749 ! Patent
+xref: Patent:EP296879 ! Patent
+xref: Patent:EP299402 ! Patent
+xref: Patent:EP306228 ! Patent
+xref: Patent:EP30630 ! Patent
+xref: Patent:EP306323 ! Patent
+xref: Patent:EP321122 ! Patent
+xref: Patent:EP325571 ! Patent
+xref: Patent:EP329464 ! Patent
+xref: Patent:EP334368 ! Patent
+xref: Patent:EP33538 ! Patent
+xref: Patent:EP337601 ! Patent
+xref: Patent:EP339418 ! Patent
+xref: Patent:EP34432 ! Patent
+xref: Patent:EP36636 ! Patent
+xref: Patent:EP367141 ! Patent
+xref: Patent:EP382375 ! Patent
+xref: Patent:EP383579 ! Patent
+xref: Patent:EP384288 ! Patent
+xref: Patent:EP387077 ! Patent
+xref: Patent:EP403159 ! Patent
+xref: Patent:EP409281 ! Patent
+xref: Patent:EP41355 ! Patent
+xref: Patent:EP41491 ! Patent
+xref: Patent:EP415598 ! Patent
+xref: Patent:EP426468 ! Patent
+xref: Patent:EP432677 ! Patent
+xref: Patent:EP432695 ! Patent
+xref: Patent:EP43807 ! Patent
+xref: Patent:EP440372 ! Patent
+xref: Patent:EP443983 ! Patent
+xref: Patent:EP454436 ! Patent
+xref: Patent:EP459136 ! Patent
+xref: Patent:EP463756 ! Patent
+xref: Patent:EP47109 ! Patent
+xref: Patent:EP475610 ! Patent
+xref: Patent:EP478363 ! Patent
+xref: Patent:EP48025 ! Patent
+xref: Patent:EP48301 ! Patent
+xref: Patent:EP4870402 ! Patent
+xref: Patent:EP49118 ! Patent
+xref: Patent:EP501322 ! Patent
+xref: Patent:EP502314 ! Patent
+xref: Patent:EP505322 ! Patent
+xref: Patent:EP50563 ! Patent
+xref: Patent:EP5129 ! Patent
+xref: Patent:EP517371 ! Patent
+xref: Patent:EP51762 ! Patent
+xref: Patent:EP5318 ! Patent
+xref: Patent:EP53435 ! Patent
+xref: Patent:EP549267 ! Patent
+xref: Patent:EP550903 ! Patent
+xref: Patent:EP564409 ! Patent
+xref: Patent:EP57115 ! Patent
+xref: Patent:EP572167 ! Patent
+xref: Patent:EP57401 ! Patent
+xref: Patent:EP580409 ! Patent
+xref: Patent:EP582455 ! Patent
+xref: Patent:EP59596 ! Patent
+xref: Patent:EP62503 ! Patent
+xref: Patent:EP642336 ! Patent
+xref: Patent:EP6639 ! Patent
+xref: Patent:EP68813 ! Patent
+xref: Patent:EP688772 ! Patent
+xref: Patent:EP72014 ! Patent
+xref: Patent:EP7205 ! Patent
+xref: Patent:EP7293 ! Patent
+xref: Patent:EP760665 ! Patent
+xref: Patent:EP76530 ! Patent
+xref: Patent:EP870757 ! Patent
+xref: Patent:EP89167 ! Patent
+xref: Patent:EP927045 ! Patent
+xref: Patent:EP93376 ! Patent
+xref: Patent:EP9425 ! Patent
+xref: Patent:EP95875 ! Patent
+xref: Patent:EP975608 ! Patent
+xref: Patent:EP978561 ! Patent
+xref: Patent:EP99802 ! Patent
+xref: Patent:ES2142703 ! Patent
+xref: Patent:ES8404783 ! Patent
+xref: Patent:FR1167627 ! Patent
+xref: Patent:FR1176919 ! Patent
+xref: Patent:FR1212031 ! Patent
+xref: Patent:FR1296544 ! Patent
+xref: Patent:FR1305992 ! Patent
+xref: Patent:FR1334944 ! Patent
+xref: Patent:FR1344366 ! Patent
+xref: Patent:FR1344645 ! Patent
+xref: Patent:FR1384197 ! Patent
+xref: Patent:FR1434920 ! Patent
+xref: Patent:FR1440629 ! Patent
+xref: Patent:FR1505795 ! Patent
+xref: Patent:FR1508536 ! Patent
+xref: Patent:FR1551055 ! Patent
+xref: Patent:FR1561853 ! Patent
+xref: Patent:FR1569940 ! Patent
+xref: Patent:FR1599495 ! Patent
+xref: Patent:FR2001036 ! Patent
+xref: Patent:FR2003311 ! Patent
+xref: Patent:FR2100682 ! Patent
+xref: Patent:FR2100711 ! Patent
+xref: Patent:FR2100873 ! Patent
+xref: Patent:FR2112111 ! Patent
+xref: Patent:FR2137211 ! Patent
+xref: Patent:FR2384765 ! Patent
+xref: Patent:FR2473525 ! Patent
+xref: Patent:FR2481695 ! Patent
+xref: Patent:FR2872511 ! Patent
+xref: Patent:FR2894961 ! Patent
+xref: Patent:FR2922449 ! Patent
+xref: Patent:FR2943251 ! Patent
+xref: Patent:FR2952816 ! Patent
+xref: Patent:FR2955113 ! Patent
+xref: Patent:FR2959129 ! Patent
+xref: Patent:FR2963553 ! Patent
+xref: Patent:FR2984178 ! Patent
+xref: Patent:FR829926 ! Patent
+xref: Patent:FR886009 ! Patent
+xref: Patent:FR994032 ! Patent
+xref: Patent:GB1003659 ! Patent
+xref: Patent:GB1007334 ! Patent
+xref: Patent:GB1081093 ! Patent
+xref: Patent:GB1084461 ! Patent
+xref: Patent:GB1111564 ! Patent
+xref: Patent:GB1119270 ! Patent
+xref: Patent:GB1120186 ! Patent
+xref: Patent:GB1136214 ! Patent
+xref: Patent:GB1156973 ! Patent
+xref: Patent:GB1206403 ! Patent
+xref: Patent:GB1226773 ! Patent
+xref: Patent:GB1241844 ! Patent
+xref: Patent:GB1311286 ! Patent
+xref: Patent:GB1330878 ! Patent
+xref: Patent:GB1381879 ! Patent
+xref: Patent:GB1393256 ! Patent
+xref: Patent:GB1467561 ! Patent
+xref: Patent:GB1495064 ! Patent
+xref: Patent:GB1549643 ! Patent
+xref: Patent:GB2012167 ! Patent
+xref: Patent:GB2012587 ! Patent
+xref: Patent:GB2022090 ! Patent
+xref: Patent:GB2071095 ! Patent
+xref: Patent:GB2080796 ! Patent
+xref: Patent:GB2099818 ! Patent
+xref: Patent:GB2101114 ! Patent
+xref: Patent:GB2112287 ! Patent
+xref: Patent:GB2120098 ! Patent
+xref: Patent:GB2136425 ! Patent
+xref: Patent:GB2140010 ! Patent
+xref: Patent:GB2206880 ! Patent
+xref: Patent:GB2251615 ! Patent
+xref: Patent:GB2262037 ! Patent
+xref: Patent:GB226255 ! Patent
+xref: Patent:GB2274104 ! Patent
+xref: Patent:GB2456183 ! Patent
+xref: Patent:GB2467901 ! Patent
+xref: Patent:GB2468828 ! Patent
+xref: Patent:GB2470338 ! Patent
+xref: Patent:GB2475359 ! Patent
+xref: Patent:GB2480472 ! Patent
+xref: Patent:GB2484201 ! Patent
+xref: Patent:GB310055 ! Patent
+xref: Patent:GB350897 ! Patent
+xref: Patent:GB353361 ! Patent
+xref: Patent:GB396951 ! Patent
+xref: Patent:GB437171 ! Patent
+xref: Patent:GB507565 ! Patent
+xref: Patent:GB512145 ! Patent
+xref: Patent:GB517272 ! Patent
+xref: Patent:GB540032 ! Patent
+xref: Patent:GB546158 ! Patent
+xref: Patent:GB552887 ! Patent
+xref: Patent:GB557055 ! Patent
+xref: Patent:GB561508 ! Patent
+xref: Patent:GB573479 ! Patent
+xref: Patent:GB573510 ! Patent
+xref: Patent:GB582156 ! Patent
+xref: Patent:GB591858 ! Patent
+xref: Patent:GB600871 ! Patent
+xref: Patent:GB615137 ! Patent
+xref: Patent:GB628497 ! Patent
+xref: Patent:GB654484 ! Patent
+xref: Patent:GB657301 ! Patent
+xref: Patent:GB683950 ! Patent
+xref: Patent:GB706409 ! Patent
+xref: Patent:GB732559 ! Patent
+xref: Patent:GB758224 ! Patent
+xref: Patent:GB768821 ! Patent
+xref: Patent:GB769273 ! Patent
+xref: Patent:GB780193 ! Patent
+xref: Patent:GB792224 ! Patent
+xref: Patent:GB795131 ! Patent
+xref: Patent:GB795174 ! Patent
+xref: Patent:GB795750 ! Patent
+xref: Patent:GB796901 ! Patent
+xref: Patent:GB800250 ! Patent
+xref: Patent:GB804565 ! Patent
+xref: Patent:GB805748 ! Patent
+xref: Patent:GB806584 ! Patent
+xref: Patent:GB807826 ! Patent
+xref: Patent:GB808071 ! Patent
+xref: Patent:GB813861 ! Patent
+xref: Patent:GB814462 ! Patent
+xref: Patent:GB814512 ! Patent
+xref: Patent:GB815203 ! Patent
+xref: Patent:GB822055 ! Patent
+xref: Patent:GB822199 ! Patent
+xref: Patent:GB829246 ! Patent
+xref: Patent:GB829763 ! Patent
+xref: Patent:GB833474 ! Patent
+xref: Patent:GB834990 ! Patent
+xref: Patent:GB839943 ! Patent
+xref: Patent:GB851827 ! Patent
+xref: Patent:GB853555 ! Patent
+xref: Patent:GB854569 ! Patent
+xref: Patent:GB855157 ! Patent
+xref: Patent:GB858187 ! Patent
+xref: Patent:GB860303 ! Patent
+xref: Patent:GB862685 ! Patent
+xref: Patent:GB863474 ! Patent
+xref: Patent:GB866381 ! Patent
+xref: Patent:GB869511 ! Patent
+xref: Patent:GB870286 ! Patent
+xref: Patent:GB873244 ! Patent
+xref: Patent:GB877120 ! Patent
+xref: Patent:GB880400 ! Patent
+xref: Patent:GB881334 ! Patent
+xref: Patent:GB883255 ! Patent
+xref: Patent:GB887886 ! Patent
+xref: Patent:GB891004 ! Patent
+xref: Patent:GB895309 ! Patent
+xref: Patent:GB897826 ! Patent
+xref: Patent:GB898293 ! Patent
+xref: Patent:GB902292 ! Patent
+xref: Patent:GB902703 ! Patent
+xref: Patent:GB905844 ! Patent
+xref: Patent:GB905993 ! Patent
+xref: Patent:GB912015 ! Patent
+xref: Patent:GB912378 ! Patent
+xref: Patent:GB914008 ! Patent
+xref: Patent:GB923414 ! Patent
+xref: Patent:GB925538 ! Patent
+xref: Patent:GB928607 ! Patent
+xref: Patent:GB933867 ! Patent
+xref: Patent:GB937214 ! Patent
+xref: Patent:GB939287 ! Patent
+xref: Patent:GB940488 ! Patent
+xref: Patent:GB940540 ! Patent
+xref: Patent:GB940596 ! Patent
+xref: Patent:GB942152 ! Patent
+xref: Patent:GB971700 ! Patent
+xref: Patent:GB973881 ! Patent
+xref: Patent:GB978178 ! Patent
+xref: Patent:GB978299 ! Patent
+xref: Patent:GB997399 ! Patent
+xref: Patent:HK1033171 ! Patent
+xref: Patent:HK1046237 ! Patent
+xref: Patent:IE48356 ! Patent
+xref: Patent:IL164424 ! Patent
+xref: Patent:IN179769 ! Patent
+xref: Patent:IN183682 ! Patent
+xref: Patent:IN191797 ! Patent
+xref: Patent:IT611046 ! Patent
+xref: Patent:JP11246599 ! Patent
+xref: Patent:JP2001253823 ! Patent
+xref: Patent:JP2002146386 ! Patent
+xref: Patent:JP2002173424 ! Patent
+xref: Patent:JP2002209576 ! Patent
+xref: Patent:JP2003235550 ! Patent
+xref: Patent:JP2004010535 ! Patent
+xref: Patent:JP2004277393 ! Patent
+xref: Patent:JP2004284982 ! Patent
+xref: Patent:JP2005247807 ! Patent
+xref: Patent:JP2005247828 ! Patent
+xref: Patent:JP2005255604 ! Patent
+xref: Patent:JP2005270658 ! Patent
+xref: Patent:JP2006213665 ! Patent
+xref: Patent:JP2008022844 ! Patent
+xref: Patent:JP2008029325 ! Patent
+xref: Patent:JP2008069152 ! Patent
+xref: Patent:JP2008214336 ! Patent
+xref: Patent:JP2008239610 ! Patent
+xref: Patent:JP2008273981 ! Patent
+xref: Patent:JP2009040725 ! Patent
+xref: Patent:JP2009091278 ! Patent
+xref: Patent:JP2009153507 ! Patent
+xref: Patent:JP2009159826 ! Patent
+xref: Patent:JP2009209088 ! Patent
+xref: Patent:JP2010018552 ! Patent
+xref: Patent:JP2010148372 ! Patent
+xref: Patent:JP2010150152 ! Patent
+xref: Patent:JP2010189419 ! Patent
+xref: Patent:JP2011098968 ! Patent
+xref: Patent:JP2012092110 ! Patent
+xref: Patent:JP2013017408 ! Patent
+xref: Patent:JP55009090 ! Patent
+xref: Patent:JP55054883 ! Patent
+xref: Patent:JP7877057 ! Patent
+xref: Patent:JP8031096 ! Patent
+xref: Patent:JP8245359 ! Patent
+xref: Patent:JP9328426 ! Patent
+xref: Patent:KR100644968B ! Patent
+xref: Patent:KR100740598B ! Patent
+xref: Patent:KR20000066932 ! Patent
+xref: Patent:KR20010084363 ! Patent
+xref: Patent:KR20030085421 ! Patent
+xref: Patent:KR20040016648 ! Patent
+xref: Patent:KR20050005633 ! Patent
+xref: Patent:KR20050023998 ! Patent
+xref: Patent:KR20050054712 ! Patent
+xref: Patent:KR20050115906 ! Patent
+xref: Patent:KR20060090019 ! Patent
+xref: Patent:KR20060121623 ! Patent
+xref: Patent:KR20060122577 ! Patent
+xref: Patent:KR20070060715 ! Patent
+xref: Patent:KR20070061879 ! Patent
+xref: Patent:KR20070103124 ! Patent
+xref: Patent:KR20070114938 ! Patent
+xref: Patent:KR20080005253 ! Patent
+xref: Patent:KR20080008859 ! Patent
+xref: Patent:KR20080019002 ! Patent
+xref: Patent:KR20080033345 ! Patent
+xref: Patent:KR20080049174 ! Patent
+xref: Patent:KR20080063014 ! Patent
+xref: Patent:KR20080065716 ! Patent
+xref: Patent:KR20080079237 ! Patent
+xref: Patent:KR20080110881 ! Patent
+xref: Patent:KR20090007505 ! Patent
+xref: Patent:KR20090007558 ! Patent
+xref: Patent:KR20090009997 ! Patent
+xref: Patent:KR20090026341 ! Patent
+xref: Patent:KR20090035605 ! Patent
+xref: Patent:KR20090052096 ! Patent
+xref: Patent:KR20090057172 ! Patent
+xref: Patent:KR20090061107 ! Patent
+xref: Patent:KR20090078824 ! Patent
+xref: Patent:KR20090079608 ! Patent
+xref: Patent:KR20090081435 ! Patent
+xref: Patent:KR20090092481 ! Patent
+xref: Patent:KR20090096682 ! Patent
+xref: Patent:KR20090099899 ! Patent
+xref: Patent:KR20090124397 ! Patent
+xref: Patent:KR20100023676 ! Patent
+xref: Patent:KR20100056511 ! Patent
+xref: Patent:KR20100097843 ! Patent
+xref: Patent:KR20100098447 ! Patent
+xref: Patent:KR20100115622 ! Patent
+xref: Patent:KR20100129858 ! Patent
+xref: Patent:KR20100138395 ! Patent
+xref: Patent:KR20110010166 ! Patent
+xref: Patent:KR20110026271 ! Patent
+xref: Patent:KR20110038678 ! Patent
+xref: Patent:KR20110045493 ! Patent
+xref: Patent:KR20110057895 ! Patent
+xref: Patent:KR20110062726 ! Patent
+xref: Patent:KR20110073699 ! Patent
+xref: Patent:KR20110087900 ! Patent
+xref: Patent:KR20110088743 ! Patent
+xref: Patent:KR20110090142 ! Patent
+xref: Patent:KR20110092804 ! Patent
+xref: Patent:KR20110097058 ! Patent
+xref: Patent:KR20110113228 ! Patent
+xref: Patent:KR20110125221 ! Patent
+xref: Patent:KR20110132629 ! Patent
+xref: Patent:KR20120000824 ! Patent
+xref: Patent:KR20120001996 ! Patent
+xref: Patent:KR20120003540 ! Patent
+xref: Patent:KR20120004393 ! Patent
+xref: Patent:KR20120007809 ! Patent
+xref: Patent:KR20120020903 ! Patent
+xref: Patent:KR20120020904 ! Patent
+xref: Patent:KR20120023665 ! Patent
+xref: Patent:KR20120033557 ! Patent
+xref: Patent:KR20120033699 ! Patent
+xref: Patent:KR20120035741 ! Patent
+xref: Patent:KR20120060192 ! Patent
+xref: Patent:KR20120121684 ! Patent
+xref: Patent:KR20120128451 ! Patent
+xref: Patent:KR20130045846 ! Patent
+xref: Patent:KR20130050834 ! Patent
+xref: Patent:KR20130080422 ! Patent
+xref: Patent:KR20140001929 ! Patent
+xref: Patent:MX2007002924 ! Patent
+xref: Patent:MX2007012517 ! Patent
+xref: Patent:MX2008010826 ! Patent
+xref: Patent:MX2008012657 ! Patent
+xref: Patent:MX2008015049 ! Patent
+xref: Patent:MX2009004170 ! Patent
+xref: Patent:MX2009006117 ! Patent
+xref: Patent:MX2010003631 ! Patent
+xref: Patent:MX2010009933 ! Patent
+xref: Patent:MX2010012712 ! Patent
+xref: Patent:MX2012001660 ! Patent
+xref: Patent:MX2012002637 ! Patent
+xref: Patent:MX2012003411 ! Patent
+xref: Patent:MX2013000640 ! Patent
+xref: Patent:MX2013006564 ! Patent
+xref: Patent:MXPA03006332 ! Patent
+xref: Patent:MY145109 ! Patent
+xref: Patent:MY6500040 ! Patent
+xref: Patent:NL293201 ! Patent
+xref: Patent:NL302527 ! Patent
+xref: Patent:NL6401526 ! Patent
+xref: Patent:NL6401555 ! Patent
+xref: Patent:NL6406089 ! Patent
+xref: Patent:NL6406615 ! Patent
+xref: Patent:NL6407755 ! Patent
+xref: Patent:NL6410359 ! Patent
+xref: Patent:NL6412708 ! Patent
+xref: Patent:NL6503605 ! Patent
+xref: Patent:NL6505799 ! Patent
+xref: Patent:NL6507637 ! Patent
+xref: Patent:NL6509961 ! Patent
+xref: Patent:NL6601040 ! Patent
+xref: Patent:NL6603256 ! Patent
+xref: Patent:NL6603398 ! Patent
+xref: Patent:NL6603997 ! Patent
+xref: Patent:NL6604752 ! Patent
+xref: Patent:NL6605692 ! Patent
+xref: Patent:NL6605956 ! Patent
+xref: Patent:NL6606853 ! Patent
+xref: Patent:NL6608618 ! Patent
+xref: Patent:NL6610580 ! Patent
+xref: Patent:NL6612588 ! Patent
+xref: Patent:NL6612958 ! Patent
+xref: Patent:NL6615385 ! Patent
+xref: Patent:NL6812382 ! Patent
+xref: Patent:NL7206067 ! Patent
+xref: Patent:NL7208895 ! Patent
+xref: Patent:NL7401254 ! Patent
+xref: Patent:NL7503310 ! Patent
+xref: Patent:NL7505470 ! Patent
+xref: Patent:NL8100571 ! Patent
+xref: Patent:NL8100707 ! Patent
+xref: Patent:NZ190244 ! Patent
+xref: Patent:NZ244108 ! Patent
+xref: Patent:NZ336035 ! Patent
+xref: Patent:NZ524752 ! Patent
+xref: Patent:NZ528621 ! Patent
+xref: Patent:NZ533595 ! Patent
+xref: Patent:NZ535654 ! Patent
+xref: Patent:NZ541924 ! Patent
+xref: Patent:NZ548018 ! Patent
+xref: Patent:NZ548020 ! Patent
+xref: Patent:NZ549922 ! Patent
+xref: Patent:NZ553119 ! Patent
+xref: Patent:NZ553660 ! Patent
+xref: Patent:NZ554381 ! Patent
+xref: Patent:NZ556707 ! Patent
+xref: Patent:NZ562124 ! Patent
+xref: Patent:NZ562838 ! Patent
+xref: Patent:NZ563229 ! Patent
+xref: Patent:NZ563818 ! Patent
+xref: Patent:NZ569198 ! Patent
+xref: Patent:NZ570366 ! Patent
+xref: Patent:NZ570537 ! Patent
+xref: Patent:NZ571901 ! Patent
+xref: Patent:NZ574781 ! Patent
+xref: Patent:NZ575703 ! Patent
+xref: Patent:NZ576314 ! Patent
+xref: Patent:NZ576925 ! Patent
+xref: Patent:NZ579368 ! Patent
+xref: Patent:NZ582589 ! Patent
+xref: Patent:NZ585433 ! Patent
+xref: Patent:NZ585870 ! Patent
+xref: Patent:NZ586198 ! Patent
+xref: Patent:NZ587096 ! Patent
+xref: Patent:NZ587123 ! Patent
+xref: Patent:NZ587951 ! Patent
+xref: Patent:NZ592686 ! Patent
+xref: Patent:NZ593632 ! Patent
+xref: Patent:PL391702 ! Patent
+xref: Patent:PT1356744E ! Patent
+xref: Patent:PT1715743 ! Patent
+xref: Patent:PT2016051E ! Patent
+xref: Patent:RS20100424 ! Patent
+xref: Patent:RS51431 ! Patent
+xref: Patent:RU2006104436 ! Patent
+xref: Patent:RU2008143550 ! Patent
+xref: Patent:RU2012112099 ! Patent
+xref: Patent:RU2162692 ! Patent
+xref: Patent:RU2223752 ! Patent
+xref: Patent:RU2228932 ! Patent
+xref: Patent:RU2233165 ! Patent
+xref: Patent:RU2235712 ! Patent
+xref: Patent:RU2242427 ! Patent
+xref: Patent:RU2263656 ! Patent
+xref: Patent:RU2265607 ! Patent
+xref: Patent:RU2365587 ! Patent
+xref: Patent:RU2436770 ! Patent
+xref: Patent:RU2445307 ! Patent
+xref: Patent:RU2445317 ! Patent
+xref: Patent:RU2458933 ! Patent
+xref: Patent:RU2491922 ! Patent
+xref: Patent:RU94026717 ! Patent
+xref: Patent:RU94026845 ! Patent
+xref: Patent:SE522294 ! Patent
+xref: Patent:TW200938215 ! Patent
+xref: Patent:UA81133 ! Patent
+xref: Patent:US1025872 ! Patent
+xref: Patent:US108552 ! Patent
+xref: Patent:US1157169 ! Patent
+xref: Patent:US1564631 ! Patent
+xref: Patent:US1599493 ! Patent
+xref: Patent:US1680108 ! Patent
+xref: Patent:US1680109 ! Patent
+xref: Patent:US1680110 ! Patent
+xref: Patent:US1680111 ! Patent
+xref: Patent:US1680818 ! Patent
+xref: Patent:US1825623 ! Patent
+xref: Patent:US1871136 ! Patent
+xref: Patent:US1894162 ! Patent
+xref: Patent:US1902785 ! Patent
+xref: Patent:US1907701 ! Patent
+xref: Patent:US1932347 ! Patent
+xref: Patent:US1948162 ! Patent
+xref: Patent:US1951302 ! Patent
+xref: Patent:US1954389 ! Patent
+xref: Patent:US1967350 ! Patent
+xref: Patent:US1967351 ! Patent
+xref: Patent:US1972961 ! Patent
+xref: Patent:US1995709 ! Patent
+xref: Patent:US2002004218 ! Patent
+xref: Patent:US2002012694 ! Patent
+xref: Patent:US2002015730 ! Patent
+xref: Patent:US2002025546 ! Patent
+xref: Patent:US2002035083 ! Patent
+xref: Patent:US2002045621 ! Patent
+xref: Patent:US2002051800 ! Patent
+xref: Patent:US2002068757 ! Patent
+xref: Patent:US2002111379 ! Patent
+xref: Patent:US2002111603 ! Patent
+xref: Patent:US2002115667 ! Patent
+xref: Patent:US2002142985 ! Patent
+xref: Patent:US2002151576 ! Patent
+xref: Patent:US2002156015 ! Patent
+xref: Patent:US2002169111 ! Patent
+xref: Patent:US2002182159 ! Patent
+xref: Patent:US2002183395 ! Patent
+xref: Patent:US2002193359 ! Patent
+xref: Patent:US2003026822 ! Patent
+xref: Patent:US2003049220 ! Patent
+xref: Patent:US2003060465 ! Patent
+xref: Patent:US2003064085 ! Patent
+xref: Patent:US2003068276 ! Patent
+xref: Patent:US2003073824 ! Patent
+xref: Patent:US2003078446 ! Patent
+xref: Patent:US2003083230 ! Patent
+xref: Patent:US2003087422 ! Patent
+xref: Patent:US2003087838 ! Patent
+xref: Patent:US2003113309 ! Patent
+xref: Patent:US2003130292 ! Patent
+xref: Patent:US2003139396 ! Patent
+xref: Patent:US2003153592 ! Patent
+xref: Patent:US2003162788 ! Patent
+xref: Patent:US2003190378 ! Patent
+xref: Patent:US2003191115 ! Patent
+xref: Patent:US2003195201 ! Patent
+xref: Patent:US2003212054 ! Patent
+xref: Patent:US2003225155 ! Patent
+xref: Patent:US2003229080 ! Patent
+xref: Patent:US2004044067 ! Patent
+xref: Patent:US2004048813 ! Patent
+xref: Patent:US2004082524 ! Patent
+xref: Patent:US2004102515 ! Patent
+xref: Patent:US2004109883 ! Patent
+xref: Patent:US2004131737 ! Patent
+xref: Patent:US2004157847 ! Patent
+xref: Patent:US2004157864 ! Patent
+xref: Patent:US2004220187 ! Patent
+xref: Patent:US2004259889 ! Patent
+xref: Patent:US2005033090 ! Patent
+xref: Patent:US2005065109 ! Patent
+xref: Patent:US2005075305 ! Patent
+xref: Patent:US2005085495 ! Patent
+xref: Patent:US2005119248 ! Patent
+xref: Patent:US2005137255 ! Patent
+xref: Patent:US2005143458 ! Patent
+xref: Patent:US2005159401 ! Patent
+xref: Patent:US2005163847 ! Patent
+xref: Patent:US2005171346 ! Patent
+xref: Patent:US2005182055 ! Patent
+xref: Patent:US2005182143 ! Patent
+xref: Patent:US2005187269 ! Patent
+xref: Patent:US2005187301 ! Patent
+xref: Patent:US2005187302 ! Patent
+xref: Patent:US2005197301 ! Patent
+xref: Patent:US2005208122 ! Patent
+xref: Patent:US2005222240 ! Patent
+xref: Patent:US2005222242 ! Patent
+xref: Patent:US2005232861 ! Patent
+xref: Patent:US2005245587 ! Patent
+xref: Patent:US2005249702 ! Patent
+xref: Patent:US2005249806 ! Patent
+xref: Patent:US2005267078 ! Patent
+xref: Patent:US2005267117 ! Patent
+xref: Patent:US2005271747 ! Patent
+xref: Patent:US2005272738 ! Patent
+xref: Patent:US2005276762 ! Patent
+xref: Patent:US2006014707 ! Patent
+xref: Patent:US2006020037 ! Patent
+xref: Patent:US2006045896 ! Patent
+xref: Patent:US2006058358 ! Patent
+xref: Patent:US2006083798 ! Patent
+xref: Patent:US2006084692 ! Patent
+xref: Patent:US2006100421 ! Patent
+xref: Patent:US2006127506 ! Patent
+xref: Patent:US2006135424 ! Patent
+xref: Patent:US2006135486 ! Patent
+xref: Patent:US2006154823 ! Patent
+xref: Patent:US2006160736 ! Patent
+xref: Patent:US2006160772 ! Patent
+xref: Patent:US2006166339 ! Patent
+xref: Patent:US2006194295 ! Patent
+xref: Patent:US2006205705 ! Patent
+xref: Patent:US2006222640 ! Patent
+xref: Patent:US2006229352 ! Patent
+xref: Patent:US2006229361 ! Patent
+xref: Patent:US2006234958 ! Patent
+xref: Patent:US2006235001 ! Patent
+xref: Patent:US2006252698 ! Patent
+xref: Patent:US2006258752 ! Patent
+xref: Patent:US2006275366 ! Patent
+xref: Patent:US2006276404 ! Patent
+xref: Patent:US2006276405 ! Patent
+xref: Patent:US2006276406 ! Patent
+xref: Patent:US2006276407 ! Patent
+xref: Patent:US2006281688 ! Patent
+xref: Patent:US2006281689 ! Patent
+xref: Patent:US2007004920 ! Patent
+xref: Patent:US2007010431 ! Patent
+xref: Patent:US2007021351 ! Patent
+xref: Patent:US2007021497 ! Patent
+xref: Patent:US2007026065 ! Patent
+xref: Patent:US2007027134 ! Patent
+xref: Patent:US2007048327 ! Patent
+xref: Patent:US2007049626 ! Patent
+xref: Patent:US2007056663 ! Patent
+xref: Patent:US2007060645 ! Patent
+xref: Patent:US2007066635 ! Patent
+xref: Patent:US2007087973 ! Patent
+xref: Patent:US2007122414 ! Patent
+xref: Patent:US2007128139 ! Patent
+xref: Patent:US2007135629 ! Patent
+xref: Patent:US2007149459 ! Patent
+xref: Patent:US2007155791 ! Patent
+xref: Patent:US2007155829 ! Patent
+xref: Patent:US2007167446 ! Patent
+xref: Patent:US2007172525 ! Patent
+xref: Patent:US2007185155 ! Patent
+xref: Patent:US2007185330 ! Patent
+xref: Patent:US2007191290 ! Patent
+xref: Patent:US2007191406 ! Patent
+xref: Patent:US2007202047 ! Patent
+xref: Patent:US2007212745 ! Patent
+xref: Patent:US2007213306 ! Patent
+xref: Patent:US2007218155 ! Patent
+xref: Patent:US2007219173 ! Patent
+xref: Patent:US2007224297 ! Patent
+xref: Patent:US2007232588 ! Patent
+xref: Patent:US2007254933 ! Patent
+xref: Patent:US2007259900 ! Patent
+xref: Patent:US2007259913 ! Patent
+xref: Patent:US2007281902 ! Patent
+xref: Patent:US2007287664 ! Patent
+xref: Patent:US2007287829 ! Patent
+xref: Patent:US2008009544 ! Patent
+xref: Patent:US2008014272 ! Patent
+xref: Patent:US2008015176 ! Patent
+xref: Patent:US2008025396 ! Patent
+xref: Patent:US2008032989 ! Patent
+xref: Patent:US2008051380 ! Patent
+xref: Patent:US2008051385 ! Patent
+xref: Patent:US2008076921 ! Patent
+xref: Patent:US2008081803 ! Patent
+xref: Patent:US2008085882 ! Patent
+xref: Patent:US2008089861 ! Patent
+xref: Patent:US2008096790 ! Patent
+xref: Patent:US2008098645 ! Patent
+xref: Patent:US2008103334 ! Patent
+xref: Patent:US2008107661 ! Patent
+xref: Patent:US2008108603 ! Patent
+xref: Patent:US2008118586 ! Patent
+xref: Patent:US2008139531 ! Patent
+xref: Patent:US2008139545 ! Patent
+xref: Patent:US2008139593 ! Patent
+xref: Patent:US2008145328 ! Patent
+xref: Patent:US2008146515 ! Patent
+xref: Patent:US2008153885 ! Patent
+xref: Patent:US2008161279 ! Patent
+xref: Patent:US2008161397 ! Patent
+xref: Patent:US2008161412 ! Patent
+xref: Patent:US2008167277 ! Patent
+xref: Patent:US2008167296 ! Patent
+xref: Patent:US2008176300 ! Patent
+xref: Patent:US2008181876 ! Patent
+xref: Patent:US2008199480 ! Patent
+xref: Patent:US2008199511 ! Patent
+xref: Patent:US2008200489 ! Patent
+xref: Patent:US2008207956 ! Patent
+xref: Patent:US2008214512 ! Patent
+xref: Patent:US2008214569 ! Patent
+xref: Patent:US2008214648 ! Patent
+xref: Patent:US2008214666 ! Patent
+xref: Patent:US2008221111 ! Patent
+xref: Patent:US2008221170 ! Patent
+xref: Patent:US2008233188 ! Patent
+xref: Patent:US2008234232 ! Patent
+xref: Patent:US2008253967 ! Patent
+xref: Patent:US2008255062 ! Patent
+xref: Patent:US2008255080 ! Patent
+xref: Patent:US2008255383 ! Patent
+xref: Patent:US2008261899 ! Patent
+xref: Patent:US2008269145 ! Patent
+xref: Patent:US2008269323 ! Patent
+xref: Patent:US2008269326 ! Patent
+xref: Patent:US2008275215 ! Patent
+xref: Patent:US2008280838 ! Patent
+xref: Patent:US2008280849 ! Patent
+xref: Patent:US2008293691 ! Patent
+xref: Patent:US2008293707 ! Patent
+xref: Patent:US2008293992 ! Patent
+xref: Patent:US2008306280 ! Patent
+xref: Patent:US2008311635 ! Patent
+xref: Patent:US2008312258 ! Patent
+xref: Patent:US2008312259 ! Patent
+xref: Patent:US2008318773 ! Patent
+xref: Patent:US2009011028 ! Patent
+xref: Patent:US2009011476 ! Patent
+xref: Patent:US2009036504 ! Patent
+xref: Patent:US2009036539 ! Patent
+xref: Patent:US2009043126 ! Patent
+xref: Patent:US2009044863 ! Patent
+xref: Patent:US2009081673 ! Patent
+xref: Patent:US2009082371 ! Patent
+xref: Patent:US2009082448 ! Patent
+xref: Patent:US2009088574 ! Patent
+xref: Patent:US2009104246 ! Patent
+xref: Patent:US2009118495 ! Patent
+xref: Patent:US2009124662 ! Patent
+xref: Patent:US2009124797 ! Patent
+xref: Patent:US2009137681 ! Patent
+xref: Patent:US2009149545 ! Patent
+xref: Patent:US2009156669 ! Patent
+xref: Patent:US2009176860 ! Patent
+xref: Patent:US2009181990 ! Patent
+xref: Patent:US2009182008 ! Patent
+xref: Patent:US2009186839 ! Patent
+xref: Patent:US2009203758 ! Patent
+xref: Patent:US2009221694 ! Patent
+xref: Patent:US2009221714 ! Patent
+xref: Patent:US2009239808 ! Patent
+xref: Patent:US2009239953 ! Patent
+xref: Patent:US2009247628 ! Patent
+xref: Patent:US2009247634 ! Patent
+xref: Patent:US2009264616 ! Patent
+xref: Patent:US2009265804 ! Patent
+xref: Patent:US2009270435 ! Patent
+xref: Patent:US2009274624 ! Patent
+xref: Patent:US2009275750 ! Patent
+xref: Patent:US2009281088 ! Patent
+xref: Patent:US2009286781 ! Patent
+xref: Patent:US2009292116 ! Patent
+xref: Patent:US2009292138 ! Patent
+xref: Patent:US2009298817 ! Patent
+xref: Patent:US2009298895 ! Patent
+xref: Patent:US2009312274 ! Patent
+xref: Patent:US2010004489 ! Patent
+xref: Patent:US2010008986 ! Patent
+xref: Patent:US2010010078 ! Patent
+xref: Patent:US2010029592 ! Patent
+xref: Patent:US2010029776 ! Patent
+xref: Patent:US2010035939 ! Patent
+xref: Patent:US2010047372 ! Patent
+xref: Patent:US2010048947 ! Patent
+xref: Patent:US2010048957 ! Patent
+xref: Patent:US2010063116 ! Patent
+xref: Patent:US2010069477 ! Patent
+xref: Patent:US2010087364 ! Patent
+xref: Patent:US2010087678 ! Patent
+xref: Patent:US2010099883 ! Patent
+xref: Patent:US2010105930 ! Patent
+xref: Patent:US2010111852 ! Patent
+xref: Patent:US2010120096 ! Patent
+xref: Patent:US2010124551 ! Patent
+xref: Patent:US2010151011 ! Patent
+xref: Patent:US2010152229 ! Patent
+xref: Patent:US2010152297 ! Patent
+xref: Patent:US2010152467 ! Patent
+xref: Patent:US2010167350 ! Patent
+xref: Patent:US2010168249 ! Patent
+xref: Patent:US2010168433 ! Patent
+xref: Patent:US2010174020 ! Patent
+xref: Patent:US2010189704 ! Patent
+xref: Patent:US2010190711 ! Patent
+xref: Patent:US2010190981 ! Patent
+xref: Patent:US2010197570 ! Patent
+xref: Patent:US2010197952 ! Patent
+xref: Patent:US2010204520 ! Patent
+xref: Patent:US2010210721 ! Patent
+xref: Patent:US2010215759 ! Patent
+xref: Patent:US2010216643 ! Patent
+xref: Patent:US2010222285 ! Patent
+xref: Patent:US2010233198 ! Patent
+xref: Patent:US2010234624 ! Patent
+xref: Patent:US2010234643 ! Patent
+xref: Patent:US2010240887 ! Patent
+xref: Patent:US2010240928 ! Patent
+xref: Patent:US2010256204 ! Patent
+xref: Patent:US2010256228 ! Patent
+xref: Patent:US2010256366 ! Patent
+xref: Patent:US2010261628 ! Patent
+xref: Patent:US2010266675 ! Patent
+xref: Patent:US2010273829 ! Patent
+xref: Patent:US2010273876 ! Patent
+xref: Patent:US2010286259 ! Patent
+xref: Patent:US2010297711 ! Patent
+xref: Patent:US2010298137 ! Patent
+xref: Patent:US2010298585 ! Patent
+xref: Patent:US2010298606 ! Patent
+xref: Patent:US2010311995 ! Patent
+xref: Patent:US2010317896 ! Patent
+xref: Patent:US2010323000 ! Patent
+xref: Patent:US2011014246 ! Patent
+xref: Patent:US2011015448 ! Patent
+xref: Patent:US2011015673 ! Patent
+xref: Patent:US2011021580 ! Patent
+xref: Patent:US2011021610 ! Patent
+xref: Patent:US2011021617 ! Patent
+xref: Patent:US2011021810 ! Patent
+xref: Patent:US2011028736 ! Patent
+xref: Patent:US2011034403 ! Patent
+xref: Patent:US2011034428 ! Patent
+xref: Patent:US2011034453 ! Patent
+xref: Patent:US2011038958 ! Patent
+xref: Patent:US2011039937 ! Patent
+xref: Patent:US2011046077 ! Patent
+xref: Patent:US2011046225 ! Patent
+xref: Patent:US2011046409 ! Patent
+xref: Patent:US2011052700 ! Patent
+xref: Patent:US2011054197 ! Patent
+xref: Patent:US2011059503 ! Patent
+xref: Patent:US2011059977 ! Patent
+xref: Patent:US2011060047 ! Patent
+xref: Patent:US2011064679 ! Patent
+xref: Patent:US2011082298 ! Patent
+xref: Patent:US2011086909 ! Patent
+xref: Patent:US2011092557 ! Patent
+xref: Patent:US2011098249 ! Patent
+xref: Patent:US2011098499 ! Patent
+xref: Patent:US2011104099 ! Patent
+xref: Patent:US2011105611 ! Patent
+xref: Patent:US2011105774 ! Patent
+xref: Patent:US2011112083 ! Patent
+xref: Patent:US2011112182 ! Patent
+xref: Patent:US2011112350 ! Patent
+xref: Patent:US2011118243 ! Patent
+xref: Patent:US2011118328 ! Patent
+xref: Patent:US2011123505 ! Patent
+xref: Patent:US2011123702 ! Patent
+xref: Patent:US2011124062 ! Patent
+xref: Patent:US2011124861 ! Patent
+xref: Patent:US2011130366 ! Patent
+xref: Patent:US2011136191 ! Patent
+xref: Patent:US2011144195 ! Patent
+xref: Patent:US2011146702 ! Patent
+xref: Patent:US2011152087 ! Patent
+xref: Patent:US2011152089 ! Patent
+xref: Patent:US2011152098 ! Patent
+xref: Patent:US2011152266 ! Patent
+xref: Patent:US2011152558 ! Patent
+xref: Patent:US2011152577 ! Patent
+xref: Patent:US2011158991 ! Patent
+xref: Patent:US2011160053 ! Patent
+xref: Patent:US2011160059 ! Patent
+xref: Patent:US2011162097 ! Patent
+xref: Patent:US2011165115 ! Patent
+xref: Patent:US2011171313 ! Patent
+xref: Patent:US2011172152 ! Patent
+xref: Patent:US2011177136 ! Patent
+xref: Patent:US2011177571 ! Patent
+xref: Patent:US2011183386 ! Patent
+xref: Patent:US2011190305 ! Patent
+xref: Patent:US2011195946 ! Patent
+xref: Patent:US2011196154 ! Patent
+xref: Patent:US2011201563 ! Patent
+xref: Patent:US2011201565 ! Patent
+xref: Patent:US2011207684 ! Patent
+xref: Patent:US2011212904 ! Patent
+xref: Patent:US2011212909 ! Patent
+xref: Patent:US2011212990 ! Patent
+xref: Patent:US2011223261 ! Patent
+xref: Patent:US2011224290 ! Patent
+xref: Patent:US2011230347 ! Patent
+xref: Patent:US2011230350 ! Patent
+xref: Patent:US2011236453 ! Patent
+xref: Patent:US2011237806 ! Patent
+xref: Patent:US2011245081 ! Patent
+xref: Patent:US2011245283 ! Patent
+xref: Patent:US2011245527 ! Patent
+xref: Patent:US2011251068 ! Patent
+xref: Patent:US2011257439 ! Patent
+xref: Patent:US2011263619 ! Patent
+xref: Patent:US2011263638 ! Patent
+xref: Patent:US2011263693 ! Patent
+xref: Patent:US2011263847 ! Patent
+xref: Patent:US2011263848 ! Patent
+xref: Patent:US2011263906 ! Patent
+xref: Patent:US2011269832 ! Patent
+xref: Patent:US2011269962 ! Patent
+xref: Patent:US2011275598 ! Patent
+xref: Patent:US2011275617 ! Patent
+xref: Patent:US2011275824 ! Patent
+xref: Patent:US2011282100 ! Patent
+xref: Patent:US2011288064 ! Patent
+xref: Patent:US2011288110 ! Patent
+xref: Patent:US2011288294 ! Patent
+xref: Patent:US2011294720 ! Patent
+xref: Patent:US2011313205 ! Patent
+xref: Patent:US2011319432 ! Patent
+xref: Patent:US2011319624 ! Patent
+xref: Patent:US2012010253 ! Patent
+xref: Patent:US2012010293 ! Patent
+xref: Patent:US2012010298 ! Patent
+xref: Patent:US2012014883 ! Patent
+xref: Patent:US2012015090 ! Patent
+xref: Patent:US2012015410 ! Patent
+xref: Patent:US2012016129 ! Patent
+xref: Patent:US2012021075 ! Patent
+xref: Patent:US2012022283 ! Patent
+xref: Patent:US2012029181 ! Patent
+xref: Patent:US2012035203 ! Patent
+xref: Patent:US2012035204 ! Patent
+xref: Patent:US2012041185 ! Patent
+xref: Patent:US2012046272 ! Patent
+xref: Patent:US2012052137 ! Patent
+xref: Patent:US2012053189 ! Patent
+xref: Patent:US2012053238 ! Patent
+xref: Patent:US2012070386 ! Patent
+xref: Patent:US2012071458 ! Patent
+xref: Patent:US2012071531 ! Patent
+xref: Patent:US2012087889 ! Patent
+xref: Patent:US2012094316 ! Patent
+xref: Patent:US2012094978 ! Patent
+xref: Patent:US2012101126 ! Patent
+xref: Patent:US2012108430 ! Patent
+xref: Patent:US2012115879 ! Patent
+xref: Patent:US2012142734 ! Patent
+xref: Patent:US2012164085 ! Patent
+xref: Patent:US2012165388 ! Patent
+xref: Patent:US2012165525 ! Patent
+xref: Patent:US2012237629 ! Patent
+xref: Patent:US2012289533 ! Patent
+xref: Patent:US2012289694 ! Patent
+xref: Patent:US2012309821 ! Patent
+xref: Patent:US2013011444 ! Patent
+xref: Patent:US2013012577 ! Patent
+xref: Patent:US20130178483 ! Patent
+xref: Patent:US2013035316 ! Patent
+xref: Patent:US2013079327 ! Patent
+xref: Patent:US2013079547 ! Patent
+xref: Patent:US2013178464 ! Patent
+xref: Patent:US2013178483 ! Patent
+xref: Patent:US2013253061 ! Patent
+xref: Patent:US2013323225 ! Patent
+xref: Patent:US2014005223 ! Patent
+xref: Patent:US2014038920 ! Patent
+xref: Patent:US2014309111 ! Patent
+xref: Patent:US2014329681 ! Patent
+xref: Patent:US2030792 ! Patent
+xref: Patent:US2053712 ! Patent
+xref: Patent:US2085037 ! Patent
+xref: Patent:US2115250 ! Patent
+xref: Patent:US2152662 ! Patent
+xref: Patent:US2153729 ! Patent
+xref: Patent:US2158098 ! Patent
+xref: Patent:US2168808 ! Patent
+xref: Patent:US2173067 ! Patent
+xref: Patent:US2223493 ! Patent
+xref: Patent:US2223494 ! Patent
+xref: Patent:US2230654 ! Patent
+xref: Patent:US2230962 ! Patent
+xref: Patent:US2233970 ! Patent
+xref: Patent:US2242237 ! Patent
+xref: Patent:US2250480 ! Patent
+xref: Patent:US2275354 ! Patent
+xref: Patent:US2285914 ! Patent
+xref: Patent:US2308232 ! Patent
+xref: Patent:US2322375 ! Patent
+xref: Patent:US2330223 ! Patent
+xref: Patent:US2339083 ! Patent
+xref: Patent:US2350677 ! Patent
+xref: Patent:US2351333 ! Patent
+xref: Patent:US2357149 ! Patent
+xref: Patent:US2360859 ! Patent
+xref: Patent:US2362087 ! Patent
+xref: Patent:US2373952 ! Patent
+xref: Patent:US2374369 ! Patent
+xref: Patent:US2374370 ! Patent
+xref: Patent:US2384355 ! Patent
+xref: Patent:US2385266 ! Patent
+xref: Patent:US2386331 ! Patent
+xref: Patent:US2386852 ! Patent
+xref: Patent:US2393917 ! Patent
+xref: Patent:US2393967 ! Patent
+xref: Patent:US2394003 ! Patent
+xref: Patent:US2394243 ! Patent
+xref: Patent:US2396145 ! Patent
+xref: Patent:US2396639 ! Patent
+xref: Patent:US2402665 ! Patent
+xref: Patent:US2407713 ! Patent
+xref: Patent:US2407966 ! Patent
+xref: Patent:US2408345 ! Patent
+xref: Patent:US2410793 ! Patent
+xref: Patent:US2411664 ! Patent
+xref: Patent:US2411670 ! Patent
+xref: Patent:US2413077 ! Patent
+xref: Patent:US2417584 ! Patent
+xref: Patent:US2421714 ! Patent
+xref: Patent:US2427578 ! Patent
+xref: Patent:US2427878 ! Patent
+xref: Patent:US2429184 ! Patent
+xref: Patent:US2430094 ! Patent
+xref: Patent:US2430891 ! Patent
+xref: Patent:US2435013 ! Patent
+xref: Patent:US2435593 ! Patent
+xref: Patent:US2441498 ! Patent
+xref: Patent:US2447214 ! Patent
+xref: Patent:US2447702 ! Patent
+xref: Patent:US2448767 ! Patent
+xref: Patent:US2459135 ! Patent
+xref: Patent:US2459540 ! Patent
+xref: Patent:US2464203 ! Patent
+xref: Patent:US2464811 ! Patent
+xref: Patent:US2465505 ! Patent
+xref: Patent:US2468423 ! Patent
+xref: Patent:US2470902 ! Patent
+xref: Patent:US2474796 ! Patent
+xref: Patent:US2474821 ! Patent
+xref: Patent:US2478805 ! Patent
+xref: Patent:US2479843 ! Patent
+xref: Patent:US2483871 ! Patent
+xref: Patent:US2483884 ! Patent
+xref: Patent:US2483892 ! Patent
+xref: Patent:US2484029 ! Patent
+xref: Patent:US2492314 ! Patent
+xref: Patent:US2499058 ! Patent
+xref: Patent:US2503059 ! Patent
+xref: Patent:US2506458 ! Patent
+xref: Patent:US2507631 ! Patent
+xref: Patent:US2508791 ! Patent
+xref: Patent:US2512572 ! Patent
+xref: Patent:US2515898 ! Patent
+xref: Patent:US2519886 ! Patent
+xref: Patent:US2527963 ! Patent
+xref: Patent:US2528175 ! Patent
+xref: Patent:US2530451 ! Patent
+xref: Patent:US2534058 ! Patent
+xref: Patent:US2534813 ! Patent
+xref: Patent:US2535245 ! Patent
+xref: Patent:US2535385 ! Patent
+xref: Patent:US2546658 ! Patent
+xref: Patent:US2552584 ! Patent
+xref: Patent:US2553770 ! Patent
+xref: Patent:US2553771 ! Patent
+xref: Patent:US2554511 ! Patent
+xref: Patent:US2554736 ! Patent
+xref: Patent:US2554816 ! Patent
+xref: Patent:US2556665 ! Patent
+xref: Patent:US2560596 ! Patent
+xref: Patent:US2561899 ! Patent
+xref: Patent:US2564241 ! Patent
+xref: Patent:US2565471 ! Patent
+xref: Patent:US2567245 ! Patent
+xref: Patent:US2567351 ! Patent
+xref: Patent:US2575344 ! Patent
+xref: Patent:US2579479 ! Patent
+xref: Patent:US2581868 ! Patent
+xref: Patent:US2583090 ! Patent
+xref: Patent:US2590079 ! Patent
+xref: Patent:US2595405 ! Patent
+xref: Patent:US2602769 ! Patent
+xref: Patent:US2606195 ! Patent
+xref: Patent:US2607773 ! Patent
+xref: Patent:US2608507 ! Patent
+xref: Patent:US2610179 ! Patent
+xref: Patent:US2610181 ! Patent
+xref: Patent:US2616825 ! Patent
+xref: Patent:US2616928 ! Patent
+xref: Patent:US2617821 ! Patent
+xref: Patent:US2623876 ! Patent
+xref: Patent:US2624732 ! Patent
+xref: Patent:US2627491 ! Patent
+xref: Patent:US2628962 ! Patent
+xref: Patent:US2630435 ! Patent
+xref: Patent:US2635977 ! Patent
+xref: Patent:US2635982 ! Patent
+xref: Patent:US2635983 ! Patent
+xref: Patent:US2636902 ! Patent
+xref: Patent:US2645640 ! Patent
+xref: Patent:US2647924 ! Patent
+xref: Patent:US2648667 ! Patent
+xref: Patent:US2648682 ! Patent
+xref: Patent:US2649454 ! Patent
+xref: Patent:US2652356 ! Patent
+xref: Patent:US2653155 ! Patent
+xref: Patent:US2653160 ! Patent
+xref: Patent:US2653899 ! Patent
+xref: Patent:US2654756 ! Patent
+xref: Patent:US2661368 ! Patent
+xref: Patent:US2662906 ! Patent
+xref: Patent:US2663742 ! Patent
+xref: Patent:US2666769 ! Patent
+xref: Patent:US2671088 ! Patent
+xref: Patent:US2676964 ! Patent
+xref: Patent:US2689868 ! Patent
+xref: Patent:US2690448 ! Patent
+xref: Patent:US2691684 ! Patent
+xref: Patent:US2697709 ! Patent
+xref: Patent:US2699054 ! Patent
+xref: Patent:US2702305 ! Patent
+xref: Patent:US2705727 ! Patent
+xref: Patent:US2707704 ! Patent
+xref: Patent:US2709169 ! Patent
+xref: Patent:US2710298 ! Patent
+xref: Patent:US2712012 ! Patent
+xref: Patent:US2712517 ! Patent
+xref: Patent:US2713058 ! Patent
+xref: Patent:US2714608 ! Patent
+xref: Patent:US2715626 ! Patent
+xref: Patent:US2720480 ! Patent
+xref: Patent:US2721866 ! Patent
+xref: Patent:US2723276 ! Patent
+xref: Patent:US2724730 ! Patent
+xref: Patent:US2728779 ! Patent
+xref: Patent:US2736728 ! Patent
+xref: Patent:US2737513 ! Patent
+xref: Patent:US2739968 ! Patent
+xref: Patent:US2740775 ! Patent
+xref: Patent:US2744122 ! Patent
+xref: Patent:US2746900 ! Patent
+xref: Patent:US274810 ! Patent
+xref: Patent:US275057 ! Patent
+xref: Patent:US2753288 ! Patent
+xref: Patent:US2760961 ! Patent
+xref: Patent:US2762799 ! Patent
+xref: Patent:US2762800 ! Patent
+xref: Patent:US2765321 ! Patent
+xref: Patent:US2766174 ! Patent
+xref: Patent:US2766235 ! Patent
+xref: Patent:US2768971 ! Patent
+xref: Patent:US2770545 ! Patent
+xref: Patent:US2770618 ! Patent
+xref: Patent:US2770649 ! Patent
+xref: Patent:US2772280 ! Patent
+xref: Patent:US2773098 ! Patent
+xref: Patent:US2773872 ! Patent
+xref: Patent:US2773903 ! Patent
+xref: Patent:US2774763 ! Patent
+xref: Patent:US2776963 ! Patent
+xref: Patent:US2777859 ! Patent
+xref: Patent:US2778776 ! Patent
+xref: Patent:US2785177 ! Patent
+xref: Patent:US2789110 ! Patent
+xref: Patent:US2789138 ! Patent
+xref: Patent:US2792435 ! Patent
+xref: Patent:US2793157 ! Patent
+xref: Patent:US2794030 ! Patent
+xref: Patent:US2800485 ! Patent
+xref: Patent:US2802002 ! Patent
+xref: Patent:US2802828 ! Patent
+xref: Patent:US2803586 ! Patent
+xref: Patent:US2807611 ! Patent
+xref: Patent:US2807651 ! Patent
+xref: Patent:US2809194 ! Patent
+xref: Patent:US2809920 ! Patent
+xref: Patent:US2812365 ! Patent
+xref: Patent:US2813881 ! Patent
+xref: Patent:US2815349 ! Patent
+xref: Patent:US2816113 ! Patent
+xref: Patent:US2816910 ! Patent
+xref: Patent:US2818390 ! Patent
+xref: Patent:US2820032 ! Patent
+xref: Patent:US2820789 ! Patent
+xref: Patent:US2823203 ! Patent
+xref: Patent:US2826590 ! Patent
+xref: Patent:US2830993 ! Patent
+xref: Patent:US2832719 ! Patent
+xref: Patent:US2833824 ! Patent
+xref: Patent:US2834799 ! Patent
+xref: Patent:US2835675 ! Patent
+xref: Patent:US2835702 ! Patent
+xref: Patent:US2837464 ! Patent
+xref: Patent:US2837518 ! Patent
+xref: Patent:US2838485 ! Patent
+xref: Patent:US2839577 ! Patent
+xref: Patent:US2840565 ! Patent
+xref: Patent:US2840587 ! Patent
+xref: Patent:US2843609 ! Patent
+xref: Patent:US2844625 ! Patent
+xref: Patent:US2848455 ! Patent
+xref: Patent:US2849462 ! Patent
+xref: Patent:US2852511 ! Patent
+xref: Patent:US2858309 ! Patent
+xref: Patent:US2860138 ! Patent
+xref: Patent:US2861104 ! Patent
+xref: Patent:US2861105 ! Patent
+xref: Patent:US2867562 ! Patent
+xref: Patent:US2868800 ! Patent
+xref: Patent:US2872373 ! Patent
+xref: Patent:US2872448 ! Patent
+xref: Patent:US2872457 ! Patent
+xref: Patent:US2875196 ! Patent
+xref: Patent:US2876169 ! Patent
+xref: Patent:US2876225 ! Patent
+xref: Patent:US2878267 ! Patent
+xref: Patent:US2878289 ! Patent
+xref: Patent:US2882209 ! Patent
+xref: Patent:US2882271 ! Patent
+xref: Patent:US2884444 ! Patent
+xref: Patent:US2886595 ! Patent
+xref: Patent:US2887513 ! Patent
+xref: Patent:US2889337 ! Patent
+xref: Patent:US2891079 ! Patent
+xref: Patent:US2891890 ! Patent
+xref: Patent:US2891965 ! Patent
+xref: Patent:US2893992 ! Patent
+xref: Patent:US2895876 ! Patent
+xref: Patent:US2895877 ! Patent
+xref: Patent:US2897216 ! Patent
+xref: Patent:US2897218 ! Patent
+xref: Patent:US2898335 ! Patent
+xref: Patent:US2898340 ! Patent
+xref: Patent:US2899358 ! Patent
+xref: Patent:US2899436 ! Patent
+xref: Patent:US2902484 ! Patent
+xref: Patent:US2902492 ! Patent
+xref: Patent:US2906614 ! Patent
+xref: Patent:US2908611 ! Patent
+xref: Patent:US2911430 ! Patent
+xref: Patent:US2911442 ! Patent
+xref: Patent:US2911447 ! Patent
+xref: Patent:US2913397 ! Patent
+xref: Patent:US2913494 ! Patent
+xref: Patent:US2914563 ! Patent
+xref: Patent:US2916485 ! Patent
+xref: Patent:US2917432 ! Patent
+xref: Patent:US2921070 ! Patent
+xref: Patent:US2921881 ! Patent
+xref: Patent:US2921942 ! Patent
+xref: Patent:US2927110 ! Patent
+xref: Patent:US2928829 ! Patent
+xref: Patent:US2929823 ! Patent
+xref: Patent:US2935503 ! Patent
+xref: Patent:US2937119 ! Patent
+xref: Patent:US2938891 ! Patent
+xref: Patent:US2941995 ! Patent
+xref: Patent:US2944061 ! Patent
+xref: Patent:US2948718 ! Patent
+xref: Patent:US2948725 ! Patent
+xref: Patent:US2948726 ! Patent
+xref: Patent:US2951839 ! Patent
+xref: Patent:US2954384 ! Patent
+xref: Patent:US2955111 ! Patent
+xref: Patent:US2957013 ! Patent
+xref: Patent:US2957880 ! Patent
+xref: Patent:US2961377 ! Patent
+xref: Patent:US2962499 ! Patent
+xref: Patent:US2964537 ! Patent
+xref: Patent:US2966490 ! Patent
+xref: Patent:US2966493 ! Patent
+xref: Patent:US2968158 ! Patent
+xref: Patent:US2971882 ! Patent
+xref: Patent:US2972632 ! Patent
+xref: Patent:US2976296 ! Patent
+xref: Patent:US2979511 ! Patent
+xref: Patent:US2979541 ! Patent
+xref: Patent:US2984686 ! Patent
+xref: Patent:US2985648 ! Patent
+xref: Patent:US2985654 ! Patent
+xref: Patent:US2986573 ! Patent
+xref: Patent:US2990401 ! Patent
+xref: Patent:US2991225 ! Patent
+xref: Patent:US2992162 ! Patent
+xref: Patent:US2994645 ! Patent
+xref: Patent:US2996435 ! Patent
+xref: Patent:US2996501 ! Patent
+xref: Patent:US3000874 ! Patent
+xref: Patent:US3001910 ! Patent
+xref: Patent:US3005023 ! Patent
+xref: Patent:US3007923 ! Patent
+xref: Patent:US3010968 ! Patent
+xref: Patent:US3012946 ! Patent
+xref: Patent:US3013012 ! Patent
+xref: Patent:US3014911 ! Patent
+xref: Patent:US3014938 ! Patent
+xref: Patent:US3017415 ! Patent
+xref: Patent:US3019172 ! Patent
+xref: Patent:US3019173 ! Patent
+xref: Patent:US3019220 ! Patent
+xref: Patent:US3019260 ! Patent
+xref: Patent:US3023146 ! Patent
+xref: Patent:US3024169 ! Patent
+xref: Patent:US3030358 ! Patent
+xref: Patent:US3030388 ! Patent
+xref: Patent:US3031450 ! Patent
+xref: Patent:US3032584 ! Patent
+xref: Patent:US3032585 ! Patent
+xref: Patent:US3038004 ! Patent
+xref: Patent:US3041349 ! Patent
+xref: Patent:US3043832 ! Patent
+xref: Patent:US3046283 ! Patent
+xref: Patent:US3050446 ! Patent
+xref: Patent:US3051701 ! Patent
+xref: Patent:US3053832 ! Patent
+xref: Patent:US3053865 ! Patent
+xref: Patent:US3057780 ! Patent
+xref: Patent:US3058979 ! Patent
+xref: Patent:US3061517 ! Patent
+xref: Patent:US3061616 ! Patent
+xref: Patent:US3066150 ! Patent
+xref: Patent:US3067099 ! Patent
+xref: Patent:US3069328 ! Patent
+xref: Patent:US3069329 ! Patent
+xref: Patent:US3071599 ! Patent
+xref: Patent:US3073866 ! Patent
+xref: Patent:US3074946 ! Patent
+xref: Patent:US3076797 ! Patent
+xref: Patent:US3079379 ! Patent
+xref: Patent:US3084161 ! Patent
+xref: Patent:US3085095 ! Patent
+xref: Patent:US3099654 ! Patent
+xref: Patent:US3104240 ! Patent
+xref: Patent:US3104246 ! Patent
+xref: Patent:US3109843 ! Patent
+xref: Patent:US3111519 ! Patent
+xref: Patent:US3113133 ! Patent
+xref: Patent:US3116203 ! Patent
+xref: Patent:US3116291 ! Patent
+xref: Patent:US3117059 ! Patent
+xref: Patent:US3118876 ! Patent
+xref: Patent:US3118915 ! Patent
+xref: Patent:US3119818 ! Patent
+xref: Patent:US3121076 ! Patent
+xref: Patent:US3121114 ! Patent
+xref: Patent:US3122474 ! Patent
+xref: Patent:US3124571 ! Patent
+xref: Patent:US3126375 ! Patent
+xref: Patent:US3126419 ! Patent
+xref: Patent:US3134718 ! Patent
+xref: Patent:US3135743 ! Patent
+xref: Patent:US3138636 ! Patent
+xref: Patent:US3140289 ! Patent
+xref: Patent:US3141887 ! Patent
+xref: Patent:US3141890 ! Patent
+xref: Patent:US3142673 ! Patent
+xref: Patent:US3144439 ! Patent
+xref: Patent:US3154476 ! Patent
+xref: Patent:US3154578 ! Patent
+xref: Patent:US3155669 ! Patent
+xref: Patent:US3155670 ! Patent
+xref: Patent:US3155674 ! Patent
+xref: Patent:US3157573 ! Patent
+xref: Patent:US3157639 ! Patent
+xref: Patent:US3157640 ! Patent
+xref: Patent:US3159543 ! Patent
+xref: Patent:US3159581 ! Patent
+xref: Patent:US3159639 ! Patent
+xref: Patent:US3160662 ! Patent
+xref: Patent:US3161567 ! Patent
+xref: Patent:US3161644 ! Patent
+xref: Patent:US3161645 ! Patent
+xref: Patent:US3161654 ! Patent
+xref: Patent:US3164600 ! Patent
+xref: Patent:US3168562 ! Patent
+xref: Patent:US3169099 ! Patent
+xref: Patent:US3176013 ! Patent
+xref: Patent:US3177252 ! Patent
+xref: Patent:US3178476 ! Patent
+xref: Patent:US3192198 ! Patent
+xref: Patent:US3192206 ! Patent
+xref: Patent:US3194733 ! Patent
+xref: Patent:US3194802 ! Patent
+xref: Patent:US3198804 ! Patent
+xref: Patent:US3198833 ! Patent
+xref: Patent:US3198834 ! Patent
+xref: Patent:US3200149 ! Patent
+xref: Patent:US3201421 ! Patent
+xref: Patent:US3202660 ! Patent
+xref: Patent:US3202699 ! Patent
+xref: Patent:US3203990 ! Patent
+xref: Patent:US3214335 ! Patent
+xref: Patent:US3214336 ! Patent
+xref: Patent:US3217037 ! Patent
+xref: Patent:US3218318 ! Patent
+xref: Patent:US3225054 ! Patent
+xref: Patent:US3226436 ! Patent
+xref: Patent:US3228831 ! Patent
+xref: Patent:US3231567 ! Patent
+xref: Patent:US3232839 ! Patent
+xref: Patent:US3232923 ! Patent
+xref: Patent:US3232944 ! Patent
+xref: Patent:US3234093 ! Patent
+xref: Patent:US3238216 ! Patent
+xref: Patent:US3239507 ! Patent
+xref: Patent:US3239529 ! Patent
+xref: Patent:US3242044 ! Patent
+xref: Patent:US3243427 ! Patent
+xref: Patent:US3248285 ! Patent
+xref: Patent:US3254088 ! Patent
+xref: Patent:US3254124 ! Patent
+xref: Patent:US3255200 ! Patent
+xref: Patent:US3262850 ! Patent
+xref: Patent:US3271253 ! Patent
+xref: Patent:US3272826 ! Patent
+xref: Patent:US3274209 ! Patent
+xref: Patent:US3275625 ! Patent
+xref: Patent:US3275626 ! Patent
+xref: Patent:US3282926 ! Patent
+xref: Patent:US3282930 ! Patent
+xref: Patent:US3285929 ! Patent
+xref: Patent:US3287458 ! Patent
+xref: Patent:US3290353 ! Patent
+xref: Patent:US3293242 ! Patent
+xref: Patent:US3294803 ! Patent
+xref: Patent:US3296249 ! Patent
+xref: Patent:US3296255 ! Patent
+xref: Patent:US3299104 ! Patent
+xref: Patent:US3300379 ! Patent
+xref: Patent:US3301899 ! Patent
+xref: Patent:US3312590 ! Patent
+xref: Patent:US3312598 ! Patent
+xref: Patent:US3313813 ! Patent
+xref: Patent:US3313848 ! Patent
+xref: Patent:US3326924 ! Patent
+xref: Patent:US3332950 ! Patent
+xref: Patent:US3335181 ! Patent
+xref: Patent:US3338917 ! Patent
+xref: Patent:US3340279 ! Patent
+xref: Patent:US3340298 ! Patent
+xref: Patent:US3341403 ! Patent
+xref: Patent:US3341541 ! Patent
+xref: Patent:US3341593 ! Patent
+xref: Patent:US3342810 ! Patent
+xref: Patent:US3342826 ! Patent
+xref: Patent:US3345365 ! Patent
+xref: Patent:US3349088 ! Patent
+xref: Patent:US3349124 ! Patent
+xref: Patent:US3350411 ! Patent
+xref: Patent:US3356573 ! Patent
+xref: Patent:US3360518 ! Patent
+xref: Patent:US3376311 ! Patent
+xref: Patent:US3377364 ! Patent
+xref: Patent:US3379729 ! Patent
+xref: Patent:US3381009 ! Patent
+xref: Patent:US3382247 ! Patent
+xref: Patent:US3385886 ! Patent
+xref: Patent:US3392168 ! Patent
+xref: Patent:US3393197 ! Patent
+xref: Patent:US3400137 ! Patent
+xref: Patent:US3400147 ! Patent
+xref: Patent:US3408387 ! Patent
+xref: Patent:US3412193 ! Patent
+xref: Patent:US3415821 ! Patent
+xref: Patent:US3419578 ! Patent
+xref: Patent:US3422100 ! Patent
+xref: Patent:US3424752 ! Patent
+xref: Patent:US3433791 ! Patent
+xref: Patent:US3435049 ! Patent
+xref: Patent:US3438991 ! Patent
+xref: Patent:US3440244 ! Patent
+xref: Patent:US3454635 ! Patent
+xref: Patent:US3462536 ! Patent
+xref: Patent:US3463850 ! Patent
+xref: Patent:US3467650 ! Patent
+xref: Patent:US3468885 ! Patent
+xref: Patent:US3468935 ! Patent
+xref: Patent:US3471548 ! Patent
+xref: Patent:US3475465 ! Patent
+xref: Patent:US3475486 ! Patent
+xref: Patent:US3478018 ! Patent
+xref: Patent:US3479396 ! Patent
+xref: Patent:US348024 ! Patent
+xref: Patent:US3489752 ! Patent
+xref: Patent:US3493582 ! Patent
+xref: Patent:US3499016 ! Patent
+xref: Patent:US3499925 ! Patent
+xref: Patent:US3502661 ! Patent
+xref: Patent:US3503967 ! Patent
+xref: Patent:US3505337 ! Patent
+xref: Patent:US3506645 ! Patent
+xref: Patent:US3506720 ! Patent
+xref: Patent:US3507861 ! Patent
+xref: Patent:US3507960 ! Patent
+xref: Patent:US3511836 ! Patent
+xref: Patent:US3516988 ! Patent
+xref: Patent:US3516997 ! Patent
+xref: Patent:US3517100 ! Patent
+xref: Patent:US3520926 ! Patent
+xref: Patent:US3524844 ! Patent
+xref: Patent:US3534041 ! Patent
+xref: Patent:US3536586 ! Patent
+xref: Patent:US3536712 ! Patent
+xref: Patent:US3539573 ! Patent
+xref: Patent:US3546226 ! Patent
+xref: Patent:US3547951 ! Patent
+xref: Patent:US3549498 ! Patent
+xref: Patent:US3555150 ! Patent
+xref: Patent:US3557090 ! Patent
+xref: Patent:US3557127 ! Patent
+xref: Patent:US3557158 ! Patent
+xref: Patent:US3558690 ! Patent
+xref: Patent:US3562257 ! Patent
+xref: Patent:US3565907 ! Patent
+xref: Patent:US3565911 ! Patent
+xref: Patent:US3574189 ! Patent
+xref: Patent:US3576883 ! Patent
+xref: Patent:US3578661 ! Patent
+xref: Patent:US3578671 ! Patent
+xref: Patent:US3579530 ! Patent
+xref: Patent:US3590036 ! Patent
+xref: Patent:US3591584 ! Patent
+xref: Patent:US3598858 ! Patent
+xref: Patent:US3600437 ! Patent
+xref: Patent:US3624103 ! Patent
+xref: Patent:US3629477 ! Patent
+xref: Patent:US3635945 ! Patent
+xref: Patent:US3641021 ! Patent
+xref: Patent:US3644355 ! Patent
+xref: Patent:US3646207 ! Patent
+xref: Patent:US3647794 ! Patent
+xref: Patent:US3649674 ! Patent
+xref: Patent:US3652589 ! Patent
+xref: Patent:US3652637 ! Patent
+xref: Patent:US3654349 ! Patent
+xref: Patent:US3655663 ! Patent
+xref: Patent:US3657237 ! Patent
+xref: Patent:US3657267 ! Patent
+xref: Patent:US3660379 ! Patent
+xref: Patent:US3660575 ! Patent
+xref: Patent:US3661892 ! Patent
+xref: Patent:US3663607 ! Patent
+xref: Patent:US3663696 ! Patent
+xref: Patent:US3665002 ! Patent
+xref: Patent:US3669965 ! Patent
+xref: Patent:US3669966 ! Patent
+xref: Patent:US3674836 ! Patent
+xref: Patent:US3674866 ! Patent
+xref: Patent:US3681346 ! Patent
+xref: Patent:US3686399 ! Patent
+xref: Patent:US3689571 ! Patent
+xref: Patent:US3691279 ! Patent
+xref: Patent:US3692895 ! Patent
+xref: Patent:US3701782 ! Patent
+xref: Patent:US3704245 ! Patent
+xref: Patent:US3714159 ! Patent
+xref: Patent:US3717634 ! Patent
+xref: Patent:US3721687 ! Patent
+xref: Patent:US3728382 ! Patent
+xref: Patent:US3729495 ! Patent
+xref: Patent:US3740395 ! Patent
+xref: Patent:US3752814 ! Patent
+xref: Patent:US3755350 ! Patent
+xref: Patent:US3758528 ! Patent
+xref: Patent:US3758681 ! Patent
+xref: Patent:US3761512 ! Patent
+xref: Patent:US3763167 ! Patent
+xref: Patent:US3775414 ! Patent
+xref: Patent:US3781268 ! Patent
+xref: Patent:US3781328 ! Patent
+xref: Patent:US3787324 ! Patent
+xref: Patent:US3799842 ! Patent
+xref: Patent:US3799934 ! Patent
+xref: Patent:US3801562 ! Patent
+xref: Patent:US3803237 ! Patent
+xref: Patent:US3806534 ! Patent
+xref: Patent:US3808297 ! Patent
+xref: Patent:US3809714 ! Patent
+xref: Patent:US3813384 ! Patent
+xref: Patent:US3816253 ! Patent
+xref: Patent:US3818009 ! Patent
+xref: Patent:US3819635 ! Patent
+xref: Patent:US3821228 ! Patent
+xref: Patent:US3830840 ! Patent
+xref: Patent:US3833730 ! Patent
+xref: Patent:US3835176 ! Patent
+xref: Patent:US3836671 ! Patent
+xref: Patent:US3840531 ! Patent
+xref: Patent:US3843668 ! Patent
+xref: Patent:US3847988 ! Patent
+xref: Patent:US3857891 ! Patent
+xref: Patent:US3857952 ! Patent
+xref: Patent:US3860579 ! Patent
+xref: Patent:US3862149 ! Patent
+xref: Patent:US3862332 ! Patent
+xref: Patent:US3864329 ! Patent
+xref: Patent:US3864479 ! Patent
+xref: Patent:US3869456 ! Patent
+xref: Patent:US3873521 ! Patent
+xref: Patent:US3873693 ! Patent
+xref: Patent:US3882251 ! Patent
+xref: Patent:US3883545 ! Patent
+xref: Patent:US3887708 ! Patent
+xref: Patent:US3890319 ! Patent
+xref: Patent:US3892824 ! Patent
+xref: Patent:US3895026 ! Patent
+xref: Patent:US3896145 ! Patent
+xref: Patent:US3904682 ! Patent
+xref: Patent:US3910924 ! Patent
+xref: Patent:US3910952 ! Patent
+xref: Patent:US3912748 ! Patent
+xref: Patent:US3915795 ! Patent
+xref: Patent:US3925372 ! Patent
+xref: Patent:US3927046 ! Patent
+xref: Patent:US3929768 ! Patent
+xref: Patent:US3931195 ! Patent
+xref: Patent:US3933795 ! Patent
+xref: Patent:US3935255 ! Patent
+xref: Patent:US3935267 ! Patent
+xref: Patent:US3939178 ! Patent
+xref: Patent:US3939270 ! Patent
+xref: Patent:US3948973 ! Patent
+xref: Patent:US3949085 ! Patent
+xref: Patent:US3950333 ! Patent
+xref: Patent:US3951954 ! Patent
+xref: Patent:US3954791 ! Patent
+xref: Patent:US3954872 ! Patent
+xref: Patent:US3957764 ! Patent
+xref: Patent:US3957850 ! Patent
+xref: Patent:US3959322 ! Patent
+xref: Patent:US3960927 ! Patent
+xref: Patent:US3965143 ! Patent
+xref: Patent:US3966757 ! Patent
+xref: Patent:US3974142 ! Patent
+xref: Patent:US3974153 ! Patent
+xref: Patent:US3975512 ! Patent
+xref: Patent:US3975527 ! Patent
+xref: Patent:US3976465 ! Patent
+xref: Patent:US3977943 ! Patent
+xref: Patent:US3979508 ! Patent
+xref: Patent:US3980778 ! Patent
+xref: Patent:US3983140 ! Patent
+xref: Patent:US3984398 ! Patent
+xref: Patent:US3985891 ! Patent
+xref: Patent:US3987200 ! Patent
+xref: Patent:US3991072 ! Patent
+xref: Patent:US3994974 ! Patent
+xref: Patent:US3998834 ! Patent
+xref: Patent:US4005063 ! Patent
+xref: Patent:US4005075 ! Patent
+xref: Patent:US4005218 ! Patent
+xref: Patent:US4009197 ! Patent
+xref: Patent:US4012444 ! Patent
+xref: Patent:US4014909 ! Patent
+xref: Patent:US4017606 ! Patent
+xref: Patent:US4026894 ! Patent
+xref: Patent:US4027019 ! Patent
+xref: Patent:US4035376 ! Patent
+xref: Patent:US4036991 ! Patent
+xref: Patent:US4045576 ! Patent
+xref: Patent:US4046889 ! Patent
+xref: Patent:US4048306 ! Patent
+xref: Patent:US4048311 ! Patent
+xref: Patent:US4051141 ! Patent
+xref: Patent:US4055652 ! Patent
+xref: Patent:US4058519 ! Patent
+xref: Patent:US4058552 ! Patent
+xref: Patent:US4059641 ! Patent
+xref: Patent:US4062848 ! Patent
+xref: Patent:US4062950 ! Patent
+xref: Patent:US4066772 ! Patent
+xref: Patent:US4071536 ! Patent
+xref: Patent:US4071680 ! Patent
+xref: Patent:US4076708 ! Patent
+xref: Patent:US4078071 ! Patent
+xref: Patent:US4079062 ! Patent
+xref: Patent:US4080498 ! Patent
+xref: Patent:US4082848 ! Patent
+xref: Patent:US4085225 ! Patent
+xref: Patent:US4085270 ! Patent
+xref: Patent:US4087424 ! Patent
+xref: Patent:US4088659 ! Patent
+xref: Patent:US4089969 ! Patent
+xref: Patent:US4093723 ! Patent
+xref: Patent:US4097578 ! Patent
+xref: Patent:US4098888 ! Patent
+xref: Patent:US4100197 ! Patent
+xref: Patent:US4102997 ! Patent
+xref: Patent:US4105681 ! Patent
+xref: Patent:US4105776 ! Patent
+xref: Patent:US4107424 ! Patent
+xref: Patent:US4108950 ! Patent
+xref: Patent:US4117118 ! Patent
+xref: Patent:US4124707 ! Patent
+xref: Patent:US4124767 ! Patent
+xref: Patent:US4126637 ! Patent
+xref: Patent:US4127580 ! Patent
+xref: Patent:US4128658 ! Patent
+xref: Patent:US4129564 ! Patent
+xref: Patent:US4130714 ! Patent
+xref: Patent:US413486 ! Patent
+xref: Patent:US4136193 ! Patent
+xref: Patent:US4138581 ! Patent
+xref: Patent:US4144346 ! Patent
+xref: Patent:US4146710 ! Patent
+xref: Patent:US4146719 ! Patent
+xref: Patent:US4151299 ! Patent
+xref: Patent:US4152432 ! Patent
+xref: Patent:US4154839 ! Patent
+xref: Patent:US4156724 ! Patent
+xref: Patent:US4156777 ! Patent
+xref: Patent:US4159373 ! Patent
+xref: Patent:US4160087 ! Patent
+xref: Patent:US4166182 ! Patent
+xref: Patent:US4167574 ! Patent
+xref: Patent:US4169158 ! Patent
+xref: Patent:US4172896 ! Patent
+xref: Patent:US4177290 ! Patent
+xref: Patent:US4179507 ! Patent
+xref: Patent:US4181803 ! Patent
+xref: Patent:US4183948 ! Patent
+xref: Patent:US4188390 ! Patent
+xref: Patent:US4192872 ! Patent
+xref: Patent:US4193926 ! Patent
+xref: Patent:US4194047 ! Patent
+xref: Patent:US4197249 ! Patent
+xref: Patent:US4197297 ! Patent
+xref: Patent:US4199569 ! Patent
+xref: Patent:US4199574 ! Patent
+xref: Patent:US4202896 ! Patent
+xref: Patent:US4203903 ! Patent
+xref: Patent:US4205125 ! Patent
+xref: Patent:US4209533 ! Patent
+xref: Patent:US4210638 ! Patent
+xref: Patent:US4213981 ! Patent
+xref: Patent:US4215135 ! Patent
+xref: Patent:US4215215 ! Patent
+xref: Patent:US4216066 ! Patent
+xref: Patent:US4218469 ! Patent
+xref: Patent:US4218473 ! Patent
+xref: Patent:US4219559 ! Patent
+xref: Patent:US4220719 ! Patent
+xref: Patent:US4225593 ! Patent
+xref: Patent:US4226879 ! Patent
+xref: Patent:US4233299 ! Patent
+xref: Patent:US4234579 ! Patent
+xref: Patent:US4235771 ! Patent
+xref: Patent:US4239760 ! Patent
+xref: Patent:US4241098 ! Patent
+xref: Patent:US4244946 ! Patent
+xref: Patent:US4244951 ! Patent
+xref: Patent:US4246348 ! Patent
+xref: Patent:US4250094 ! Patent
+xref: Patent:US4251532 ! Patent
+xref: Patent:US4252721 ! Patent
+xref: Patent:US4252984 ! Patent
+xref: Patent:US4254129 ! Patent
+xref: Patent:US4255335 ! Patent
+xref: Patent:US4255431 ! Patent
+xref: Patent:US4255449 ! Patent
+xref: Patent:US4258041 ! Patent
+xref: Patent:US4258062 ! Patent
+xref: Patent:US4260684 ! Patent
+xref: Patent:US4263432 ! Patent
+xref: Patent:US4264611 ! Patent
+xref: Patent:US4267320 ! Patent
+xref: Patent:US4271083 ! Patent
+xref: Patent:US4272517 ! Patent
+xref: Patent:US427564 ! Patent
+xref: Patent:US4277479 ! Patent
+xref: Patent:US4278793 ! Patent
+xref: Patent:US4279835 ! Patent
+xref: Patent:US4282251 ! Patent
+xref: Patent:US4284786 ! Patent
+xref: Patent:US4287208 ! Patent
+xref: Patent:US4292308 ! Patent
+xref: Patent:US4292317 ! Patent
+xref: Patent:US4297488 ! Patent
+xref: Patent:US4305955 ! Patent
+xref: Patent:US4307100 ! Patent
+xref: Patent:US4309428 ! Patent
+xref: Patent:US4313931 ! Patent
+xref: Patent:US4313951 ! Patent
+xref: Patent:US4314081 ! Patent
+xref: Patent:US4315007 ! Patent
+xref: Patent:US4315944 ! Patent
+xref: Patent:US4316840 ! Patent
+xref: Patent:US4318729 ! Patent
+xref: Patent:US4327210 ! Patent
+xref: Patent:US4329453 ! Patent
+xref: Patent:US4331803 ! Patent
+xref: Patent:US4335121 ! Patent
+xref: Patent:US4335127 ! Patent
+xref: Patent:US4337201 ! Patent
+xref: Patent:US4338317 ! Patent
+xref: Patent:US4340628 ! Patent
+xref: Patent:US4347186 ! Patent
+xref: Patent:US4349545 ! Patent
+xref: Patent:US4349563 ! Patent
+xref: Patent:US4352803 ! Patent
+xref: Patent:US4355032 ! Patent
+xref: Patent:US4355043 ! Patent
+xref: Patent:US4359578 ! Patent
+xref: Patent:US4361563 ! Patent
+xref: Patent:US4364921 ! Patent
+xref: Patent:US4371529 ! Patent
+xref: Patent:US4372978 ! Patent
+xref: Patent:US4374148 ! Patent
+xref: Patent:US4374829 ! Patent
+xref: Patent:US4382938 ! Patent
+xref: Patent:US4386085 ! Patent
+xref: Patent:US4388313 ! Patent
+xref: Patent:US4390740 ! Patent
+xref: Patent:US4391814 ! Patent
+xref: Patent:US4394524 ! Patent
+xref: Patent:US4395403 ! Patent
+xref: Patent:US4397864 ! Patent
+xref: Patent:US4401822 ! Patent
+xref: Patent:US4404216 ! Patent
+xref: Patent:US4406899 ! Patent
+xref: Patent:US4409214 ! Patent
+xref: Patent:US4410522 ! Patent
+xref: Patent:US4412992 ! Patent
+xref: Patent:US4412993 ! Patent
+xref: Patent:US4413127 ! Patent
+xref: Patent:US4418068 ! Patent
+xref: Patent:US4419364 ! Patent
+xref: Patent:US4427663 ! Patent
+xref: Patent:US4430343 ! Patent
+xref: Patent:US4444778 ! Patent
+xref: Patent:US4444784 ! Patent
+xref: Patent:US4452808 ! Patent
+xref: Patent:US4455432 ! Patent
+xref: Patent:US4456472 ! Patent
+xref: Patent:US4462942 ! Patent
+xref: Patent:US4464382 ! Patent
+xref: Patent:US4472393 ! Patent
+xref: Patent:US4474787 ! Patent
+xref: Patent:US4476122 ! Patent
+xref: Patent:US4476140 ! Patent
+xref: Patent:US4486425 ! Patent
+xref: Patent:US4503067 ! Patent
+xref: Patent:US4504657 ! Patent
+xref: Patent:US4510136 ! Patent
+xref: Patent:US4513006 ! Patent
+xref: Patent:US4515950 ! Patent
+xref: Patent:US4517199 ! Patent
+xref: Patent:US4517359 ! Patent
+xref: Patent:US4520022 ! Patent
+xref: Patent:US4521428 ! Patent
+xref: Patent:US4522838 ! Patent
+xref: Patent:US4526892 ! Patent
+xref: Patent:US4528287 ! Patent
+xref: Patent:US4528367 ! Patent
+xref: Patent:US4529596 ! Patent
+xref: Patent:US4533665 ! Patent
+xref: Patent:US4536516 ! Patent
+xref: Patent:US4536518 ! Patent
+xref: Patent:US4537879 ! Patent
+xref: Patent:US4537957 ! Patent
+xref: Patent:US4544664 ! Patent
+xref: Patent:US4548952 ! Patent
+xref: Patent:US4550175 ! Patent
+xref: Patent:US4551452 ! Patent
+xref: Patent:US4552695 ! Patent
+xref: Patent:US4556518 ! Patent
+xref: Patent:US4559334 ! Patent
+xref: Patent:US4563452 ! Patent
+xref: Patent:US4564706 ! Patent
+xref: Patent:US4572801 ! Patent
+xref: Patent:US4572909 ! Patent
+xref: Patent:US4572912 ! Patent
+xref: Patent:US4593119 ! Patent
+xref: Patent:US4599102 ! Patent
+xref: Patent:US4607036 ! Patent
+xref: Patent:US4613680 ! Patent
+xref: Patent:US4626538 ! Patent
+xref: Patent:US4628062 ! Patent
+xref: Patent:US4628098 ! Patent
+xref: Patent:US4634697 ! Patent
+xref: Patent:US4636505 ! Patent
+xref: Patent:US4654362 ! Patent
+xref: Patent:US4659660 ! Patent
+xref: Patent:US4659716 ! Patent
+xref: Patent:US4665100 ! Patent
+xref: Patent:US4670265 ! Patent
+xref: Patent:US4670444 ! Patent
+xref: Patent:US4672068 ! Patent
+xref: Patent:US4683221 ! Patent
+xref: Patent:US4683242 ! Patent
+xref: Patent:US4687766 ! Patent
+xref: Patent:US4687777 ! Patent
+xref: Patent:US4692464 ! Patent
+xref: Patent:US4696949 ! Patent
+xref: Patent:US4698365 ! Patent
+xref: Patent:US4701460 ! Patent
+xref: Patent:US4703063 ! Patent
+xref: Patent:US4705651 ! Patent
+xref: Patent:US4708956 ! Patent
+xref: Patent:US4710518 ! Patent
+xref: Patent:US4713454 ! Patent
+xref: Patent:US4717720 ! Patent
+xref: Patent:US4721683 ! Patent
+xref: Patent:US4724232 ! Patent
+xref: Patent:US4730000 ! Patent
+xref: Patent:US4739073 ! Patent
+xref: Patent:US4742060 ! Patent
+xref: Patent:US4745122 ! Patent
+xref: Patent:US4751225 ! Patent
+xref: Patent:US4753935 ! Patent
+xref: Patent:US4757066 ! Patent
+xref: Patent:US4758579 ! Patent
+xref: Patent:US4760071 ! Patent
+xref: Patent:US4760137 ! Patent
+xref: Patent:US4767778 ! Patent
+xref: Patent:US4774360 ! Patent
+xref: Patent:US4795486 ! Patent
+xref: Patent:US4797413 ! Patent
+xref: Patent:US4797482 ! Patent
+xref: Patent:US4800191 ! Patent
+xref: Patent:US4804663 ! Patent
+xref: Patent:US4808614 ! Patent
+xref: Patent:US4814470 ! Patent
+xref: Patent:US4816484 ! Patent
+xref: Patent:US4820834 ! Patent
+xref: Patent:US4831031 ! Patent
+xref: Patent:US4839385 ! Patent
+xref: Patent:US4839650 ! Patent
+xref: Patent:US4845123 ! Patent
+xref: Patent:US4847265 ! Patent
+xref: Patent:US4851405 ! Patent
+xref: Patent:US4866048 ! Patent
+xref: Patent:US4879288 ! Patent
+xref: Patent:US4880735 ! Patent
+xref: Patent:US4880918 ! Patent
+xref: Patent:US4885363 ! Patent
+xref: Patent:US4886808 ! Patent
+xref: Patent:US4886812 ! Patent
+xref: Patent:US4894364 ! Patent
+xref: Patent:US4910214 ! Patent
+xref: Patent:US4910332 ! Patent
+xref: Patent:US4933364 ! Patent
+xref: Patent:US4933449 ! Patent
+xref: Patent:US4935437 ! Patent
+xref: Patent:US4939130 ! Patent
+xref: Patent:US4943569 ! Patent
+xref: Patent:US4943581 ! Patent
+xref: Patent:US4954490 ! Patent
+xref: Patent:US4957933 ! Patent
+xref: Patent:US4959366 ! Patent
+xref: Patent:US4962115 ! Patent
+xref: Patent:US4968713 ! Patent
+xref: Patent:US4977144 ! Patent
+xref: Patent:US4978672 ! Patent
+xref: Patent:US4978680 ! Patent
+xref: Patent:US4980470 ! Patent
+xref: Patent:US4990496 ! Patent
+xref: Patent:US4990499 ! Patent
+xref: Patent:US4992257 ! Patent
+xref: Patent:US4992474 ! Patent
+xref: Patent:US4994618 ! Patent
+xref: Patent:US5002953 ! Patent
+xref: Patent:US5006158 ! Patent
+xref: Patent:US5006528 ! Patent
+xref: Patent:US5019583 ! Patent
+xref: Patent:US5021458 ! Patent
+xref: Patent:US5030654 ! Patent
+xref: Patent:US5034377 ! Patent
+xref: Patent:US5035882 ! Patent
+xref: Patent:US5041566 ! Patent
+xref: Patent:US5043345 ! Patent
+xref: Patent:US5053432 ! Patent
+xref: Patent:US5059623 ! Patent
+xref: Patent:US5062884 ! Patent
+xref: Patent:US5075445 ! Patent
+xref: Patent:US5081138 ! Patent
+xref: Patent:US5089509 ! Patent
+xref: Patent:US5112863 ! Patent
+xref: Patent:US5130421 ! Patent
+xref: Patent:US5135950 ! Patent
+xref: Patent:US5138069 ! Patent
+xref: Patent:US5142051 ! Patent
+xref: Patent:US5143916 ! Patent
+xref: Patent:US5149693 ! Patent
+xref: Patent:US5151523 ! Patent
+xref: Patent:US5153191 ! Patent
+xref: Patent:US5177080 ! Patent
+xref: Patent:US5185351 ! Patent
+xref: Patent:US5196438 ! Patent
+xref: Patent:US5196444 ! Patent
+xref: Patent:US5212189 ! Patent
+xref: Patent:US5215755 ! Patent
+xref: Patent:US5229382 ! Patent
+xref: Patent:US52316 ! Patent
+xref: Patent:US5232940 ! Patent
+xref: Patent:US5236952 ! Patent
+xref: Patent:US5238917 ! Patent
+xref: Patent:US5246937 ! Patent
+xref: Patent:US5250534 ! Patent
+xref: Patent:US5256673 ! Patent
+xref: Patent:US5260315 ! Patent
+xref: Patent:US5270317 ! Patent
+xref: Patent:US5273995 ! Patent
+xref: Patent:US5278175 ! Patent
+xref: Patent:US5292756 ! Patent
+xref: Patent:US5298478 ! Patent
+xref: Patent:US5302522 ! Patent
+xref: Patent:US5314914 ! Patent
+xref: Patent:US5340810 ! Patent
+xref: Patent:US5342834 ! Patent
+xref: Patent:US5344932 ! Patent
+xref: Patent:US5356881 ! Patent
+xref: Patent:US5358854 ! Patent
+xref: Patent:US5360800 ! Patent
+xref: Patent:US5360817 ! Patent
+xref: Patent:US5367093 ! Patent
+xref: Patent:US5378804 ! Patent
+xref: Patent:US5382600 ! Patent
+xref: Patent:US5384330 ! Patent
+xref: Patent:US5384403 ! Patent
+xref: Patent:US5395837 ! Patent
+xref: Patent:US5395970 ! Patent
+xref: Patent:US5397797 ! Patent
+xref: Patent:US5399578 ! Patent
+xref: Patent:US5415869 ! Patent
+xref: Patent:US5428031 ! Patent
+xref: Patent:US5430050 ! Patent
+xref: Patent:US5436364 ! Patent
+xref: Patent:US5444076 ! Patent
+xref: Patent:US5464933 ! Patent
+xref: Patent:US5466861 ! Patent
+xref: Patent:US5468743 ! Patent
+xref: Patent:US5470579 ! Patent
+xref: Patent:US5476843 ! Patent
+xref: Patent:US5478820 ! Patent
+xref: Patent:US5489588 ! Patent
+xref: Patent:US5496957 ! Patent
+xref: Patent:US5510353 ! Patent
+xref: Patent:US5519021 ! Patent
+xref: Patent:US5521184 ! Patent
+xref: Patent:US5527891 ! Patent
+xref: Patent:US5532241 ! Patent
+xref: Patent:US5538975 ! Patent
+xref: Patent:US5545644 ! Patent
+xref: Patent:US5550165 ! Patent
+xref: Patent:US5559092 ! Patent
+xref: Patent:US5565447 ! Patent
+xref: Patent:US5569657 ! Patent
+xref: Patent:US5587497 ! Patent
+xref: Patent:US5599548 ! Patent
+xref: Patent:US5602176 ! Patent
+xref: Patent:US5604213 ! Patent
+xref: Patent:US5610178 ! Patent
+xref: Patent:US5622934 ! Patent
+xref: Patent:US5624824 ! Patent
+xref: Patent:US5626872 ! Patent
+xref: Patent:US5633262 ! Patent
+xref: Patent:US5635449 ! Patent
+xref: Patent:US5637579 ! Patent
+xref: Patent:US5637617 ! Patent
+xref: Patent:US5639653 ! Patent
+xref: Patent:US5641666 ! Patent
+xref: Patent:US5650440 ! Patent
+xref: Patent:US5652358 ! Patent
+xref: Patent:US5661151 ! Patent
+xref: Patent:US5663156 ! Patent
+xref: Patent:US5665727 ! Patent
+xref: Patent:US5668089 ! Patent
+xref: Patent:US5679828 ! Patent
+xref: Patent:US5686570 ! Patent
+xref: Patent:US5688792 ! Patent
+xref: Patent:US5693675 ! Patent
+xref: Patent:US5693818 ! Patent
+xref: Patent:US5696159 ! Patent
+xref: Patent:US5696164 ! Patent
+xref: Patent:US5702714 ! Patent
+xref: Patent:US5716627 ! Patent
+xref: Patent:US5733938 ! Patent
+xref: Patent:US5734042 ! Patent
+xref: Patent:US5753495 ! Patent
+xref: Patent:US5756734 ! Patent
+xref: Patent:US5756842 ! Patent
+xref: Patent:US5763476 ! Patent
+xref: Patent:US5763483 ! Patent
+xref: Patent:US5773457 ! Patent
+xref: Patent:US5776962 ! Patent
+xref: Patent:US5786326 ! Patent
+xref: Patent:US5792467 ! Patent
+xref: Patent:US5811547 ! Patent
+xref: Patent:US5824689 ! Patent
+xref: Patent:US5837709 ! Patent
+xref: Patent:US5840714 ! Patent
+xref: Patent:US5858371 ! Patent
+xref: Patent:US5872104 ! Patent
+xref: Patent:US5874447 ! Patent
+xref: Patent:US5908770 ! Patent
+xref: Patent:US5919770 ! Patent
+xref: Patent:US5928663 ! Patent
+xref: Patent:US5952332 ! Patent
+xref: Patent:US5968914 ! Patent
+xref: Patent:US5972840 ! Patent
+xref: Patent:US5972951 ! Patent
+xref: Patent:US6011068 ! Patent
+xref: Patent:US6015800 ! Patent
+xref: Patent:US6028071 ! Patent
+xref: Patent:US6043262 ! Patent
+xref: Patent:US6048976 ! Patent
+xref: Patent:US6057364 ! Patent
+xref: Patent:US6075048 ! Patent
+xref: Patent:US6087358 ! Patent
+xref: Patent:US6087380 ! Patent
+xref: Patent:US6110940 ! Patent
+xref: Patent:US6117873 ! Patent
+xref: Patent:US6153374 ! Patent
+xref: Patent:US6159458 ! Patent
+xref: Patent:US6211244 ! Patent
+xref: Patent:US6222062 ! Patent
+xref: Patent:US6291523 ! Patent
+xref: Patent:US6300281 ! Patent
+xref: Patent:US6303767 ! Patent
+xref: Patent:US6306429 ! Patent
+xref: Patent:US6323185 ! Patent
+xref: Patent:US6323205 ! Patent
+xref: Patent:US6331536 ! Patent
+xref: Patent:US6337325 ! Patent
+xref: Patent:US6338855 ! Patent
+xref: Patent:US6342499 ! Patent
+xref: Patent:US6344461 ! Patent
+xref: Patent:US6348486 ! Patent
+xref: Patent:US6350395 ! Patent
+xref: Patent:US6355785 ! Patent
+xref: Patent:US6359169 ! Patent
+xref: Patent:US6372725 ! Patent
+xref: Patent:US6376525 ! Patent
+xref: Patent:US6403597 ! Patent
+xref: Patent:US641491 ! Patent
+xref: Patent:US6432441 ! Patent
+xref: Patent:US6440434 ! Patent
+xref: Patent:US6440459 ! Patent
+xref: Patent:US6500797 ! Patent
+xref: Patent:US6528487 ! Patent
+xref: Patent:US6531503 ! Patent
+xref: Patent:US6531636 ! Patent
+xref: Patent:US6548292 ! Patent
+xref: Patent:US6589520 ! Patent
+xref: Patent:US6599529 ! Patent
+xref: Patent:US6599530 ! Patent
+xref: Patent:US6670350 ! Patent
+xref: Patent:US6683076 ! Patent
+xref: Patent:US6727228 ! Patent
+xref: Patent:US6727286 ! Patent
+xref: Patent:US6727362 ! Patent
+xref: Patent:US6770673 ! Patent
+xref: Patent:US6869971 ! Patent
+xref: Patent:US6878737 ! Patent
+xref: Patent:US6906102 ! Patent
+xref: Patent:US6933396 ! Patent
+xref: Patent:US6995145 ! Patent
+xref: Patent:US7030095 ! Patent
+xref: Patent:US7060790 ! Patent
+xref: Patent:US7084174 ! Patent
+xref: Patent:US7109310 ! Patent
+xref: Patent:US7109364 ! Patent
+xref: Patent:US7115665 ! Patent
+xref: Patent:US7125875 ! Patent
+xref: Patent:US7276598 ! Patent
+xref: Patent:US7341857 ! Patent
+xref: Patent:US7348000 ! Patent
+xref: Patent:US7375230 ! Patent
+xref: Patent:US7399323 ! Patent
+xref: Patent:US7524993 ! Patent
+xref: Patent:US7544712 ! Patent
+xref: Patent:US7578857 ! Patent
+xref: Patent:US7615672 ! Patent
+xref: Patent:US7629159 ! Patent
+xref: Patent:US7666864 ! Patent
+xref: Patent:US7674605 ! Patent
+xref: Patent:US7678791 ! Patent
+xref: Patent:US7741540 ! Patent
+xref: Patent:US7771972 ! Patent
+xref: Patent:US7790426 ! Patent
+xref: Patent:US7816355 ! Patent
+xref: Patent:US7915199 ! Patent
+xref: Patent:US7941725 ! Patent
+xref: Patent:US8168671 ! Patent
+xref: Patent:US914518 ! Patent
+xref: Patent:WO0000620 ! Patent
+xref: Patent:WO0001392 ! Patent
+xref: Patent:WO0024919 ! Patent
+xref: Patent:WO0025727 ! Patent
+xref: Patent:WO0062779 ! Patent
+xref: Patent:WO0062780 ! Patent
+xref: Patent:WO0100626 ! Patent
+xref: Patent:WO0103681 ! Patent
+xref: Patent:WO0123431 ! Patent
+xref: Patent:WO0129043 ! Patent
+xref: Patent:WO0157016 ! Patent
+xref: Patent:WO0160390 ! Patent
+xref: Patent:WO0173038 ! Patent
+xref: Patent:WO0181612 ! Patent
+xref: Patent:WO0182780 ! Patent
+xref: Patent:WO02088149 ! Patent
+xref: Patent:WO02090261 ! Patent
+xref: Patent:WO0217719 ! Patent
+xref: Patent:WO0218603 ! Patent
+xref: Patent:WO0234297 ! Patent
+xref: Patent:WO0249639 ! Patent
+xref: Patent:WO03008546 ! Patent
+xref: Patent:WO03047747 ! Patent
+xref: Patent:WO03061384 ! Patent
+xref: Patent:WO03082988 ! Patent
+xref: Patent:WO2004005309 ! Patent
+xref: Patent:WO2004006875 ! Patent
+xref: Patent:WO2004007413 ! Patent
+xref: Patent:WO2004010784 ! Patent
+xref: Patent:WO2004014894 ! Patent
+xref: Patent:WO2004016581 ! Patent
+xref: Patent:WO2004018409 ! Patent
+xref: Patent:WO2004018468 ! Patent
+xref: Patent:WO2004019888 ! Patent
+xref: Patent:WO2004020378 ! Patent
+xref: Patent:WO2004029264 ! Patent
+xref: Patent:WO2004054590 ! Patent
+xref: Patent:WO2004056791 ! Patent
+xref: Patent:WO2004058141 ! Patent
+xref: Patent:WO2004060887 ! Patent
+xref: Patent:WO2004064830 ! Patent
+xref: Patent:WO2004069782 ! Patent
+xref: Patent:WO2004069812 ! Patent
+xref: Patent:WO2004076422 ! Patent
+xref: Patent:WO2004078709 ! Patent
+xref: Patent:WO2004083420 ! Patent
+xref: Patent:WO2004087162 ! Patent
+xref: Patent:WO2004087668 ! Patent
+xref: Patent:WO2004089952 ! Patent
+xref: Patent:WO2004091298 ! Patent
+xref: Patent:WO2004095926 ! Patent
+xref: Patent:WO2004106326 ! Patent
+xref: Patent:WO2004113326 ! Patent
+xref: Patent:WO2005011665 ! Patent
+xref: Patent:WO2005016386 ! Patent
+xref: Patent:WO2005018676 ! Patent
+xref: Patent:WO2005020895 ! Patent
+xref: Patent:WO2005021004 ! Patent
+xref: Patent:WO2005023243 ! Patent
+xref: Patent:WO2005025510 ! Patent
+xref: Patent:WO2005025517 ! Patent
+xref: Patent:WO2005027889 ! Patent
+xref: Patent:WO2005028436 ! Patent
+xref: Patent:WO2005028495 ! Patent
+xref: Patent:WO2005037784 ! Patent
+xref: Patent:WO2005041963 ! Patent
+xref: Patent:WO2005041984 ! Patent
+xref: Patent:WO2005044248 ! Patent
+xref: Patent:WO2005046575 ! Patent
+xref: Patent:WO2005051297 ! Patent
+xref: Patent:WO2005053622 ! Patent
+xref: Patent:WO2005054265 ! Patent
+xref: Patent:WO2005056056 ! Patent
+xref: Patent:WO2005063251 ! Patent
+xref: Patent:WO2005063693 ! Patent
+xref: Patent:WO2005063711 ! Patent
+xref: Patent:WO2005063714 ! Patent
+xref: Patent:WO2005065708 ! Patent
+xref: Patent:WO2005066122 ! Patent
+xref: Patent:WO2005067950 ! Patent
+xref: Patent:WO2005068456 ! Patent
+xref: Patent:WO2005068464 ! Patent
+xref: Patent:WO2005070400 ! Patent
+xref: Patent:WO2005072705 ! Patent
+xref: Patent:WO2005075491 ! Patent
+xref: Patent:WO2005077945 ! Patent
+xref: Patent:WO2005087234 ! Patent
+xref: Patent:WO2005092280 ! Patent
+xref: Patent:WO2005095347 ! Patent
+xref: Patent:WO2005095375 ! Patent
+xref: Patent:WO2005105052 ! Patent
+xref: Patent:WO2005105094 ! Patent
+xref: Patent:WO2005105146 ! Patent
+xref: Patent:WO2005107748 ! Patent
+xref: Patent:WO2005110402 ! Patent
+xref: Patent:WO2005112635 ! Patent
+xref: Patent:WO2005115145 ! Patent
+xref: Patent:WO2005117875 ! Patent
+xref: Patent:WO2005120474 ! Patent
+xref: Patent:WO2005121142 ! Patent
+xref: Patent:WO2005123684 ! Patent
+xref: Patent:WO2006001654 ! Patent
+xref: Patent:WO2006004575 ! Patent
+xref: Patent:WO2006005915 ! Patent
+xref: Patent:WO2006006172 ! Patent
+xref: Patent:WO2006018266 ! Patent
+xref: Patent:WO2006019844 ! Patent
+xref: Patent:WO2006020277 ! Patent
+xref: Patent:WO2006020564 ! Patent
+xref: Patent:WO2006021776 ! Patent
+xref: Patent:WO2006022964 ! Patent
+xref: Patent:WO2006024930 ! Patent
+xref: Patent:WO2006029737 ! Patent
+xref: Patent:WO2006035067 ! Patent
+xref: Patent:WO2006035068 ! Patent
+xref: Patent:WO2006035069 ! Patent
+xref: Patent:WO2006048427 ! Patent
+xref: Patent:WO2006050514 ! Patent
+xref: Patent:WO2006059063 ! Patent
+xref: Patent:WO2006061140 ! Patent
+xref: Patent:WO2006067048 ! Patent
+xref: Patent:WO2006069715 ! Patent
+xref: Patent:WO2006081994 ! Patent
+xref: Patent:WO2006085838 ! Patent
+xref: Patent:WO2006086837 ! Patent
+xref: Patent:WO2006088253 ! Patent
+xref: Patent:WO2006099416 ! Patent
+xref: Patent:WO2006103206 ! Patent
+xref: Patent:WO2006104668 ! Patent
+xref: Patent:WO2006107859 ! Patent
+xref: Patent:WO2006114364 ! Patent
+xref: Patent:WO2006116764 ! Patent
+xref: Patent:WO2006120681 ! Patent
+xref: Patent:WO2006122806 ! Patent
+xref: Patent:WO2006124118 ! Patent
+xref: Patent:WO2006124753 ! Patent
+xref: Patent:WO2006125540 ! Patent
+xref: Patent:WO2006127289 ! Patent
+xref: Patent:WO2006127322 ! Patent
+xref: Patent:WO2006128675 ! Patent
+xref: Patent:WO2006130553 ! Patent
+xref: Patent:WO2006130688 ! Patent
+xref: Patent:WO2007002093 ! Patent
+xref: Patent:WO2007009607 ! Patent
+xref: Patent:WO2007011674 ! Patent
+xref: Patent:WO2007011834 ! Patent
+xref: Patent:WO2007012953 ! Patent
+xref: Patent:WO2007016419 ! Patent
+xref: Patent:WO2007018194 ! Patent
+xref: Patent:WO2007022165 ! Patent
+xref: Patent:WO2007022427 ! Patent
+xref: Patent:WO2007023243 ! Patent
+xref: Patent:WO2007024836 ! Patent
+xref: Patent:WO2007030963 ! Patent
+xref: Patent:WO2007030967 ! Patent
+xref: Patent:WO2007031283 ! Patent
+xref: Patent:WO2007031823 ! Patent
+xref: Patent:WO2007034140 ! Patent
+xref: Patent:WO2007036713 ! Patent
+xref: Patent:WO2007041499 ! Patent
+xref: Patent:WO2007047608 ! Patent
+xref: Patent:WO2007047722 ! Patent
+xref: Patent:WO2007048235 ! Patent
+xref: Patent:WO2007051630 ! Patent
+xref: Patent:WO2007054216 ! Patent
+xref: Patent:WO2007059330 ! Patent
+xref: Patent:WO2007064753 ! Patent
+xref: Patent:WO2007065147 ! Patent
+xref: Patent:WO2007066928 ! Patent
+xref: Patent:WO2007068380 ! Patent
+xref: Patent:WO2007068382 ! Patent
+xref: Patent:WO2007071402 ! Patent
+xref: Patent:WO2007076601 ! Patent
+xref: Patent:WO2007078726 ! Patent
+xref: Patent:WO2007082178 ! Patent
+xref: Patent:WO2007082542 ! Patent
+xref: Patent:WO2007082922 ! Patent
+xref: Patent:WO2007084786 ! Patent
+xref: Patent:WO2007089878 ! Patent
+xref: Patent:WO2007090409 ! Patent
+xref: Patent:WO2007092616 ! Patent
+xref: Patent:WO2007100808 ! Patent
+xref: Patent:WO2007103508 ! Patent
+xref: Patent:WO2007105978 ! Patent
+xref: Patent:WO2007107318 ! Patent
+xref: Patent:WO2007107846 ! Patent
+xref: Patent:WO2007112596 ! Patent
+xref: Patent:WO2007113243 ! Patent
+xref: Patent:WO2007113254 ! Patent
+xref: Patent:WO2007117971 ! Patent
+xref: Patent:WO2007119214 ! Patent
+xref: Patent:WO2007121482 ! Patent
+xref: Patent:WO2007122446 ! Patent
+xref: Patent:WO2007123868 ! Patent
+xref: Patent:WO2007125547 ! Patent
+xref: Patent:WO2007128412 ! Patent
+xref: Patent:WO2007132482 ! Patent
+xref: Patent:WO2007137224 ! Patent
+xref: Patent:WO2007137244 ! Patent
+xref: Patent:WO2007138352 ! Patent
+xref: Patent:WO2007139827 ! Patent
+xref: Patent:WO2007143483 ! Patent
+xref: Patent:WO2007144005 ! Patent
+xref: Patent:WO2007144077 ! Patent
+xref: Patent:WO2007144674 ! Patent
+xref: Patent:WO2007147209 ! Patent
+xref: Patent:WO2007147882 ! Patent
+xref: Patent:WO2008001079 ! Patent
+xref: Patent:WO2008001101 ! Patent
+xref: Patent:WO2008002929 ! Patent
+xref: Patent:WO2008006070 ! Patent
+xref: Patent:WO2008007113 ! Patent
+xref: Patent:WO2008009638 ! Patent
+xref: Patent:WO2008009639 ! Patent
+xref: Patent:WO2008010921 ! Patent
+xref: Patent:WO2008011083 ! Patent
+xref: Patent:WO2008011518 ! Patent
+xref: Patent:WO2008013062 ! Patent
+xref: Patent:WO2008015563 ! Patent
+xref: Patent:WO2008017184 ! Patent
+xref: Patent:WO2008017827 ! Patent
+xref: Patent:WO2008017903 ! Patent
+xref: Patent:WO2008020270 ! Patent
+xref: Patent:WO2008025816 ! Patent
+xref: Patent:WO2008026156 ! Patent
+xref: Patent:WO2008026300 ! Patent
+xref: Patent:WO2008028914 ! Patent
+xref: Patent:WO2008031782 ! Patent
+xref: Patent:WO2008032212 ! Patent
+xref: Patent:WO2008033466 ! Patent
+xref: Patent:WO2008034328 ! Patent
+xref: Patent:WO2008043446 ! Patent
+xref: Patent:WO2008046003 ! Patent
+xref: Patent:WO2008048053 ! Patent
+xref: Patent:WO2008052953 ! Patent
+xref: Patent:WO2008053340 ! Patent
+xref: Patent:WO2008055629 ! Patent
+xref: Patent:WO2008058644 ! Patent
+xref: Patent:WO2008059841 ! Patent
+xref: Patent:WO2008060572 ! Patent
+xref: Patent:WO2008062557 ! Patent
+xref: Patent:WO2008063374 ! Patent
+xref: Patent:WO2008064093 ! Patent
+xref: Patent:WO2008066916 ! Patent
+xref: Patent:WO2008068231 ! Patent
+xref: Patent:WO2008072206 ! Patent
+xref: Patent:WO2008072941 ! Patent
+xref: Patent:WO2008073257 ! Patent
+xref: Patent:WO2008073282 ! Patent
+xref: Patent:WO2008075104 ! Patent
+xref: Patent:WO2008075864 ! Patent
+xref: Patent:WO2008076316 ! Patent
+xref: Patent:WO2008076703 ! Patent
+xref: Patent:WO2008079216 ! Patent
+xref: Patent:WO2008082028 ! Patent
+xref: Patent:WO2008085913 ! Patent
+xref: Patent:WO2008089388 ! Patent
+xref: Patent:WO2008089389 ! Patent
+xref: Patent:WO2008090355 ! Patent
+xref: Patent:WO2008095189 ! Patent
+xref: Patent:WO2008095614 ! Patent
+xref: Patent:WO2008100985 ! Patent
+xref: Patent:WO2008103673 ! Patent
+xref: Patent:WO2008104734 ! Patent
+xref: Patent:WO2008104847 ! Patent
+xref: Patent:WO2008105632 ! Patent
+xref: Patent:WO2008106524 ! Patent
+xref: Patent:WO2008106775 ! Patent
+xref: Patent:WO2008111590 ! Patent
+xref: Patent:WO2008113359 ! Patent
+xref: Patent:WO2008113495 ! Patent
+xref: Patent:WO2008115572 ! Patent
+xref: Patent:WO2008116890 ! Patent
+xref: Patent:WO2008123701 ! Patent
+xref: Patent:WO2008129396 ! Patent
+xref: Patent:WO2008131149 ! Patent
+xref: Patent:WO2008135480 ! Patent
+xref: Patent:WO2008138658 ! Patent
+xref: Patent:WO2008138892 ! Patent
+xref: Patent:WO2008140220 ! Patent
+xref: Patent:WO2008142046 ! Patent
+xref: Patent:WO2008144747 ! Patent
+xref: Patent:WO2008150191 ! Patent
+xref: Patent:WO2008150324 ! Patent
+xref: Patent:WO2008151306 ! Patent
+xref: Patent:WO2008153289 ! Patent
+xref: Patent:WO2008156656 ! Patent
+xref: Patent:WO2009000723 ! Patent
+xref: Patent:WO2009006089 ! Patent
+xref: Patent:WO2009007441 ! Patent
+xref: Patent:WO2009019132 ! Patent
+xref: Patent:WO2009022008 ! Patent
+xref: Patent:WO2009022009 ! Patent
+xref: Patent:WO2009024825 ! Patent
+xref: Patent:WO2009025277 ! Patent
+xref: Patent:WO2009025372 ! Patent
+xref: Patent:WO2009031999 ! Patent
+xref: Patent:WO2009033729 ! Patent
+xref: Patent:WO2009035969 ! Patent
+xref: Patent:WO2009039995 ! Patent
+xref: Patent:WO2009041814 ! Patent
+xref: Patent:WO2009043307 ! Patent
+xref: Patent:WO2009044404 ! Patent
+xref: Patent:WO2009044852 ! Patent
+xref: Patent:WO2009048195 ! Patent
+xref: Patent:WO2009053063 ! Patent
+xref: Patent:WO2009053095 ! Patent
+xref: Patent:WO2009060073 ! Patent
+xref: Patent:WO2009062658 ! Patent
+xref: Patent:WO2009072139 ! Patent
+xref: Patent:WO2009072916 ! Patent
+xref: Patent:WO2009080505 ! Patent
+xref: Patent:WO2009085068 ! Patent
+xref: Patent:WO2009087351 ! Patent
+xref: Patent:WO2009088854 ! Patent
+xref: Patent:WO2009089263 ! Patent
+xref: Patent:WO2009098287 ! Patent
+xref: Patent:WO2009111428 ! Patent
+xref: Patent:WO2009114939 ! Patent
+xref: Patent:WO2009118755 ! Patent
+xref: Patent:WO2009120789 ! Patent
+xref: Patent:WO2009120878 ! Patent
+xref: Patent:WO2009126320 ! Patent
+xref: Patent:WO2009129260 ! Patent
+xref: Patent:WO2009133574 ! Patent
+xref: Patent:WO2009135074 ! Patent
+xref: Patent:WO2009144734 ! Patent
+xref: Patent:WO2009152584 ! Patent
+xref: Patent:WO2009155001 ! Patent
+xref: Patent:WO2010000409 ! Patent
+xref: Patent:WO2010001870 ! Patent
+xref: Patent:WO2010004220 ! Patent
+xref: Patent:WO2010010955 ! Patent
+xref: Patent:WO2010012074 ! Patent
+xref: Patent:WO2010013279 ! Patent
+xref: Patent:WO2010016931 ! Patent
+xref: Patent:WO2010017929 ! Patent
+xref: Patent:WO2010018595 ! Patent
+xref: Patent:WO2010019208 ! Patent
+xref: Patent:WO2010021935 ! Patent
+xref: Patent:WO2010023694 ! Patent
+xref: Patent:WO2010028105 ! Patent
+xref: Patent:WO2010030395 ! Patent
+xref: Patent:WO2010030983 ! Patent
+xref: Patent:WO2010037089 ! Patent
+xref: Patent:WO2010038153 ! Patent
+xref: Patent:WO2010045787 ! Patent
+xref: Patent:WO2010046917 ! Patent
+xref: Patent:WO2010047050 ! Patent
+xref: Patent:WO2010048675 ! Patent
+xref: Patent:WO2010049500 ! Patent
+xref: Patent:WO2010051277 ! Patent
+xref: Patent:WO2010052536 ! Patent
+xref: Patent:WO2010053655 ! Patent
+xref: Patent:WO2010063002 ! Patent
+xref: Patent:WO2010065110 ! Patent
+xref: Patent:WO2010067309 ! Patent
+xref: Patent:WO2010067374 ! Patent
+xref: Patent:WO2010071878 ! Patent
+xref: Patent:WO2010072680 ! Patent
+xref: Patent:WO2010072776 ! Patent
+xref: Patent:WO2010072902 ! Patent
+xref: Patent:WO2010074717 ! Patent
+xref: Patent:WO2010074764 ! Patent
+xref: Patent:WO2010075965 ! Patent
+xref: Patent:WO2010080406 ! Patent
+xref: Patent:WO2010083414 ! Patent
+xref: Patent:WO2010085712 ! Patent
+xref: Patent:WO2010086319 ! Patent
+xref: Patent:WO2010094674 ! Patent
+xref: Patent:WO2010099985 ! Patent
+xref: Patent:WO2010101951 ! Patent
+xref: Patent:WO2010102964 ! Patent
+xref: Patent:WO2010106008 ! Patent
+xref: Patent:WO2010107475 ! Patent
+xref: Patent:WO2010107765 ! Patent
+xref: Patent:WO2010109468 ! Patent
+xref: Patent:WO2010110334 ! Patent
+xref: Patent:WO2010114472 ! Patent
+xref: Patent:WO2010114805 ! Patent
+xref: Patent:WO2010114928 ! Patent
+xref: Patent:WO2010117936 ! Patent
+xref: Patent:WO2010121997 ! Patent
+xref: Patent:WO2010122925 ! Patent
+xref: Patent:WO2010123919 ! Patent
+xref: Patent:WO2010125179 ! Patent
+xref: Patent:WO2010127443 ! Patent
+xref: Patent:WO2010129273 ! Patent
+xref: Patent:WO2010133629 ! Patent
+xref: Patent:WO2010135426 ! Patent
+xref: Patent:WO2010136295 ! Patent
+xref: Patent:WO2010136297 ! Patent
+xref: Patent:WO2010137032 ! Patent
+xref: Patent:WO2010139979 ! Patent
+xref: Patent:WO2010139980 ! Patent
+xref: Patent:WO2010149942 ! Patent
+xref: Patent:WO2011004389 ! Patent
+xref: Patent:WO2011005548 ! Patent
+xref: Patent:WO2011012163 ! Patent
+xref: Patent:WO2011012493 ! Patent
+xref: Patent:WO2011012659 ! Patent
+xref: Patent:WO2011014257 ! Patent
+xref: Patent:WO2011014374 ! Patent
+xref: Patent:WO2011015692 ! Patent
+xref: Patent:WO2011016018 ! Patent
+xref: Patent:WO2011016738 ! Patent
+xref: Patent:WO2011017798 ! Patent
+xref: Patent:WO2011019986 ! Patent
+xref: Patent:WO2011027373 ! Patent
+xref: Patent:WO2011027755 ! Patent
+xref: Patent:WO2011028128 ! Patent
+xref: Patent:WO2011030122 ! Patent
+xref: Patent:WO2011038082 ! Patent
+xref: Patent:WO2011038085 ! Patent
+xref: Patent:WO2011039104 ! Patent
+xref: Patent:WO2011039105 ! Patent
+xref: Patent:WO2011042365 ! Patent
+xref: Patent:WO2011047238 ! Patent
+xref: Patent:WO2011056222 ! Patent
+xref: Patent:WO2011058179 ! Patent
+xref: Patent:WO2011061080 ! Patent
+xref: Patent:WO2011063863 ! Patent
+xref: Patent:WO2011063864 ! Patent
+xref: Patent:WO2011063865 ! Patent
+xref: Patent:WO2011064256 ! Patent
+xref: Patent:WO2011066754 ! Patent
+xref: Patent:WO2011066770 ! Patent
+xref: Patent:WO2011069053 ! Patent
+xref: Patent:WO2011071131 ! Patent
+xref: Patent:WO2011073103 ! Patent
+xref: Patent:WO2011075562 ! Patent
+xref: Patent:WO2011076688 ! Patent
+xref: Patent:WO2011080296 ! Patent
+xref: Patent:WO2011080297 ! Patent
+xref: Patent:WO2011080341 ! Patent
+xref: Patent:WO2011089289 ! Patent
+xref: Patent:WO2011092618 ! Patent
+xref: Patent:WO2011093185 ! Patent
+xref: Patent:WO2011095059 ! Patent
+xref: Patent:WO2011098194 ! Patent
+xref: Patent:WO2011100589 ! Patent
+xref: Patent:WO2011102354 ! Patent
+xref: Patent:WO2011103932 ! Patent
+xref: Patent:WO2011104161 ! Patent
+xref: Patent:WO2011105649 ! Patent
+xref: Patent:WO2011106570 ! Patent
+xref: Patent:WO2011108251 ! Patent
+xref: Patent:WO2011108751 ! Patent
+xref: Patent:WO2011108758 ! Patent
+xref: Patent:WO2011108759 ! Patent
+xref: Patent:WO2011108760 ! Patent
+xref: Patent:WO2011109119 ! Patent
+xref: Patent:WO2011109387 ! Patent
+xref: Patent:WO2011110876 ! Patent
+xref: Patent:WO2011112499 ! Patent
+xref: Patent:WO2011120886 ! Patent
+xref: Patent:WO2011121596 ! Patent
+xref: Patent:WO2011123198 ! Patent
+xref: Patent:WO2011123948 ! Patent
+xref: Patent:WO2011125011 ! Patent
+xref: Patent:WO2011125062 ! Patent
+xref: Patent:WO2011126327 ! Patent
+xref: Patent:WO2011128261 ! Patent
+xref: Patent:WO2011130728 ! Patent
+xref: Patent:WO2011131661 ! Patent
+xref: Patent:WO2011132045 ! Patent
+xref: Patent:WO2011132718 ! Patent
+xref: Patent:WO2011133673 ! Patent
+xref: Patent:WO2011140194 ! Patent
+xref: Patent:WO2011141903 ! Patent
+xref: Patent:WO2011142478 ! Patent
+xref: Patent:WO2011143607 ! Patent
+xref: Patent:WO2011147810 ! Patent
+xref: Patent:WO2011150044 ! Patent
+xref: Patent:WO2011151624 ! Patent
+xref: Patent:WO2011151625 ! Patent
+xref: Patent:WO2011159903 ! Patent
+xref: Patent:WO2011160597 ! Patent
+xref: Patent:WO2011161689 ! Patent
+xref: Patent:WO2012002741 ! Patent
+xref: Patent:WO2012006750 ! Patent
+xref: Patent:WO2012011112 ! Patent
+xref: Patent:WO2012011287 ! Patent
+xref: Patent:WO2012016479 ! Patent
+xref: Patent:WO2012018250 ! Patent
+xref: Patent:WO2012020772 ! Patent
+xref: Patent:WO2012020774 ! Patent
+xref: Patent:WO2012020777 ! Patent
+xref: Patent:WO2012021715 ! Patent
+xref: Patent:WO2012022562 ! Patent
+xref: Patent:WO2012025270 ! Patent
+xref: Patent:WO2012025472 ! Patent
+xref: Patent:WO2012025939 ! Patent
+xref: Patent:WO2012027543 ! Patent
+xref: Patent:WO2012035057 ! Patent
+xref: Patent:WO2012038975 ! Patent
+xref: Patent:WO2012040151 ! Patent
+xref: Patent:WO2012040845 ! Patent
+xref: Patent:WO2012041966 ! Patent
+xref: Patent:WO2012044727 ! Patent
+xref: Patent:WO2012045737 ! Patent
+xref: Patent:WO2012047172 ! Patent
+xref: Patent:WO2012048059 ! Patent
+xref: Patent:WO2012049521 ! Patent
+xref: Patent:WO2012051692 ! Patent
+xref: Patent:WO2012054067 ! Patent
+xref: Patent:WO2012055015 ! Patent
+xref: Patent:WO2012066502 ! Patent
+xref: Patent:WO2012066565 ! Patent
+xref: Patent:WO2012077136 ! Patent
+xref: Patent:WO2012083112 ! Patent
+xref: Patent:WO2012085287 ! Patent
+xref: Patent:WO2012085665 ! Patent
+xref: Patent:WO2012103487 ! Patent
+xref: Patent:WO2012106302 ! Patent
+xref: Patent:WO2012107549 ! Patent
+xref: Patent:WO2012107814 ! Patent
+xref: Patent:WO2012109423 ! Patent
+xref: Patent:WO2012109510 ! Patent
+xref: Patent:WO2012119458 ! Patent
+xref: Patent:WO2012121764 ! Patent
+xref: Patent:WO2012123325 ! Patent
+xref: Patent:WO2012151165 ! Patent
+xref: Patent:WO2012152438 ! Patent
+xref: Patent:WO2012153314 ! Patent
+xref: Patent:WO2012160187 ! Patent
+xref: Patent:WO2012160338 ! Patent
+xref: Patent:WO2012174723 ! Patent
+xref: Patent:WO2013000382 ! Patent
+xref: Patent:WO2013016658 ! Patent
+xref: Patent:WO2013017254 ! Patent
+xref: Patent:WO2013038351 ! Patent
+xref: Patent:WO2013052157 ! Patent
+xref: Patent:WO2013057199 ! Patent
+xref: Patent:WO2013060668 ! Patent
+xref: Patent:WO2013064326 ! Patent
+xref: Patent:WO2013071106 ! Patent
+xref: Patent:WO2013076169 ! Patent
+xref: Patent:WO2013090461 ! Patent
+xref: Patent:WO2013100657 ! Patent
+xref: Patent:WO2013173707 ! Patent
+xref: Patent:WO2013179056 ! Patent
+xref: Patent:WO2013179057 ! Patent
+xref: Patent:WO2013192237 ! Patent
+xref: Patent:WO2013192517 ! Patent
+xref: Patent:WO5922695 ! Patent
+xref: Patent:WO8302940 ! Patent
+xref: Patent:WO8402131 ! Patent
+xref: Patent:WO8500599 ! Patent
+xref: Patent:WO8504101 ! Patent
+xref: Patent:WO8505634 ! Patent
+xref: Patent:WO8700834 ! Patent
+xref: Patent:WO9001933 ! Patent
+xref: Patent:WO9102750 ! Patent
+xref: Patent:WO9103267 ! Patent
+xref: Patent:WO9106547 ! Patent
+xref: Patent:WO9109849 ! Patent
+xref: Patent:WO9114679 ! Patent
+xref: Patent:WO9116320 ! Patent
+xref: Patent:WO9117159 ! Patent
+xref: Patent:WO9200965 ! Patent
+xref: Patent:WO9206950 ! Patent
+xref: Patent:WO9206973 ! Patent
+xref: Patent:WO9214743 ! Patent
+xref: Patent:WO9310083 ! Patent
+xref: Patent:WO9312254 ! Patent
+xref: Patent:WO9315078 ! Patent
+xref: Patent:WO9321146 ! Patent
+xref: Patent:WO9324611 ! Patent
+xref: Patent:WO9415882 ! Patent
+xref: Patent:WO9418190 ! Patent
+xref: Patent:WO9421677 ! Patent
+xref: Patent:WO942460 ! Patent
+xref: Patent:WO9428920 ! Patent
+xref: Patent:WO9429303 ! Patent
+xref: Patent:WO9507076 ! Patent
+xref: Patent:WO9507927 ! Patent
+xref: Patent:WO9517407 ! Patent
+xref: Patent:WO9534585 ! Patent
+xref: Patent:WO957271 ! Patent
+xref: Patent:WO9624352 ! Patent
+xref: Patent:WO9640698 ! Patent
+xref: Patent:WO9700679 ! Patent
+xref: Patent:WO9701562 ! Patent
+xref: Patent:WO9731013 ! Patent
+xref: Patent:WO9731908 ! Patent
+xref: Patent:WO9804569 ! Patent
+xref: Patent:WO9811887 ! Patent
+xref: Patent:WO9820149 ! Patent
+xref: Patent:WO9843939 ! Patent
+xref: Patent:WO9856371 ! Patent
+xref: Patent:WO9903854 ! Patent
+xref: Patent:WO9904776 ! Patent
+xref: Patent:WO9907199 ! Patent
+xref: Patent:WO9920271 ! Patent
+xref: Patent:WO9921838 ! Patent
+xref: Patent:WO9930146 ! Patent
+xref: Patent:WO9932492 ! Patent
+xref: Patent:WO9947506 ! Patent
+xref: Patent:WO9949862 ! Patent
+xref: Patent:ZA200708493 ! Patent
+xref: Patent:ZA6808345 ! Patent
+xref: Patent:ZA7205865 ! Patent
+xref: Patent:ZA8001885 ! Patent
+xref: Patent:ZW5287 ! Patent
+xref: SUBMITTER:US20130303743 ! Patent
+
+[Term]
+id: GEMET:5983 ! oxygenation
+xref: CHEBI:25805 ! oxygen atom
+
+[Term]
+id: GEMET:5887 ! ore
+xref: CHEBI:29287 ! gold atom
+
+[Term]
+id: GEMET:4566 ! labelling
+xref: CHEBI:35209 ! label
+
+[Term]
+id: GEMET:3933 ! herbicide
+xref: CHEBI:24527 ! herbicide
+
+[Term]
+id: GEMET:11734 ! sulphur monoxide
+xref: CHEBI:45822 ! sulfur monoxide
+
+[Term]
+id: GEMET:2642 ! element of group VII
+xref: CHEBI:24473 ! halogen
+
+[Term]
+id: GEMET:2639 ! element of group IV
+xref: CHEBI:33306 ! carbon group element atom
+
+[Term]
+id: GEMET:3356 ! food additive
+xref: CHEBI:64047 ! food additive
+
+[Term]
+id: GEMET:6189 ! phosphate
+xref: CHEBI:18367 ! phosphate(3-)
+xref: CHEBI:26020 ! phosphate
+
+[Term]
+id: GEMET:596 ! ash
+xref: CHEBI:29765 ! arsanebis(ylium)
+xref: CHEBI:33104 ! hydridoarsenic(2.) (triplet)
+
+[Term]
+id: GEMET:5456 ! mutagenicity
+xref: CHEBI:25435 ! mutagen
+
+[Term]
+id: GEMET:372 ! amine
+xref: CHEBI:32952 ! amine
+xref: CHEBI:35412 ! aminal
+
+[Term]
+id: GEMET:8680 ! tritium
+xref: CHEBI:29238 ! tritium atom
+
+[Term]
+id: GEMET:5724 ! nuclear fuel
+xref: CHEBI:35231 ! nuclear fuel
+
+[Term]
+id: GEMET:5935 ! organosilicon compound
+xref: CHEBI:25713 ! organosilicon compound
+
+[Term]
+id: GEMET:1082 ! bus
+xref: CHEBI:41264 ! butyl group
+
+[Term]
+id: GEMET:6184 ! pheromone
+xref: CHEBI:26013 ! pheromone
+
+[Term]
+id: GEMET:6109 ! perchloroethylene
+xref: CHEBI:17300 ! tetrachloroethene
+
+[Term]
+id: GEMET:5921 ! organochlorine compound
+xref: CHEBI:36683 ! organochlorine compound
+
+[Term]
+id: GEMET:1121 ! camping
+xref: CHEBI:17489 ! 3',5'-cyclic AMP
+
+[Term]
+id: GEMET:3154 ! fen
+xref: CHEBI:82664 ! iron(0)
+
+[Term]
+id: GEMET:560 ! aromatic compound
+xref: CHEBI:33655 ! aromatic compound
+
+[Term]
+id: GEMET:5937 ! organotin compound
+xref: CHEBI:25717 ! organotin compound
+
+[Term]
+id: GEMET:7042 ! refrigerant
+xref: CHEBI:78433 ! refrigerant
+
+[Term]
+id: GEMET:921 ! bitumen
+xref: CHEBI:82295 ! Bitumens
+
+[Term]
+id: GEMET:1180 ! carcinogenicity
+xref: CHEBI:50903 ! carcinogenic agent
+
+[Term]
+id: GEMET:5613 ! nitrogen oxides
+xref: CHEBI:35196 ! nitrogen oxide
+
+[Term]
+id: GEMET:3462 ! fossil fuel
+xref: CHEBI:35230 ! fossil fuel
+
+[Term]
+id: GEMET:6720 ! propellant
+xref: CHEBI:76414 ! propellant
+
+[Term]
+id: GEMET:2237 ! disinfectant
+xref: CHEBI:48219 ! disinfectant
+
+[Term]
+id: GEMET:1007 ! bromine
+xref: CHEBI:22927 ! bromine atom
+
+[Term]
+id: GEMET:3506 ! fuel additive
+xref: CHEBI:62803 ! fuel additive
+
+[Term]
+id: GEMET:5978 ! oxide
+xref: CHEBI:25741 ! oxide
+
+[Term]
+id: GEMET:3328 ! fluoridation
+xref: CHEBI:17051 ! fluoride
+
+[Term]
+id: GEMET:8428 ! thallium
+xref: CHEBI:30440 ! thallium
+
+[Term]
+id: GEMET:5751 ! nucleic acid
+xref: CHEBI:33696 ! nucleic acid
+
+[Term]
+id: GEMET:5199 ! methane
+xref: CHEBI:16183 ! methane
+
+[Term]
+id: GEMET:1391 ! chlorophyll
+xref: CHEBI:28966 ! chlorophyll
+
+[Term]
+id: GEMET:3061 ! explosive
+xref: CHEBI:63490 ! explosive
+
+[Term]
+id: GEMET:1931 ! cyanate
+xref: CHEBI:23420 ! cyanates
+xref: CHEBI:29195 ! cyanate
+
+[Term]
+id: GEMET:6329 ! plastic
+xref: CHEBI:79056 ! plasticiser
+
+[Term]
+id: GEMET:12017 ! ethanol
+xref: CHEBI:16236 ! ethanol
+xref: CHEBI:23982 ! ethanols
+
+[Term]
+id: GEMET:1933 ! cyanide
+xref: CHEBI:17514 ! cyanide
+xref: CHEBI:23424 ! cyanides
+
+[Term]
+id: GEMET:52 ! acid
+xref: CHEBI:37527 ! acid
+
+[Term]
+id: GEMET:6346 ! plutonium
+xref: CHEBI:33388 ! plutonium atom
+
+[Term]
+id: GEMET:6493 ! polycyclic hydrocarbon
+xref: CHEBI:33666 ! polycyclic hydrocarbon
+
+[Term]
+id: GEMET:329 ! allergen
+xref: CHEBI:50904 ! allergen
+
+[Term]
+id: GEMET:4498 ! iron
+xref: CHEBI:18248 ! iron atom
+
+[Term]
+id: GEMET:700 ! bactericide
+xref: CHEBI:33282 ! antibacterial agent
+
+[Term]
+id: GEMET:4838 ! lipid
+xref: CHEBI:18059 ! lipid
+
+[Term]
+id: GEMET:5612 ! nitrogen monoxide
+xref: CHEBI:16480 ! nitric oxide
+
+[Term]
+id: GEMET:5847 ! oil shale
+xref: CHEBI:80506 ! Shale oils
+
+[Term]
+id: GEMET:4196 ! indicator
+xref: CHEBI:47867 ! indicator
+
+[Term]
+id: GEMET:8673 ! triazine
+xref: CHEBI:38056 ! triazine
+xref: CHEBI:38102 ! triazines
+
+[Term]
+id: GEMET:5676 ! non-metal
+xref: CHEBI:25585 ! nonmetal atom
+
+[Term]
+id: GEMET:311 ! aliphatic compound
+xref: CHEBI:33653 ! aliphatic compound
+
+[Term]
+id: GEMET:8203 ! sulphuric acid
+xref: CHEBI:26836 ! sulfuric acid
+xref: CHEBI:48854 ! sulfurous acid
+
+[Term]
+id: GEMET:298 ! alcohol
+xref: CHEBI:30879 ! alcohol
+
+[Term]
+id: GEMET:8096 ! steroid
+xref: CHEBI:35341 ! steroid
+
+[Term]
+id: GEMET:14849 ! persistant organic pollutant
+xref: CHEBI:77853 ! persistent organic pollutant
+
+[Term]
+id: GEMET:245 ! air
+xref: CHEBI:28843 ! 5-amino-1-(5-phospho-D-ribosyl)imidazole
+
+[Term]
+id: GEMET:8378 ! teratogenicity
+xref: CHEBI:50905 ! teratogenic agent
+
+[Term]
+id: GEMET:8549 ! toxin
+xref: CHEBI:27026 ! toxin
+
+[Term]
+id: GEMET:8554 ! trace element
+xref: CHEBI:27027 ! micronutrient
+
+[Term]
+id: GEMET:5277 ! mineral
+xref: CHEBI:46662 ! mineral
+
+[Term]
+id: GEMET:6755 ! protein
+xref: CHEBI:36080 ! protein
+
+[Term]
+id: GEMET:781 ! beryllium
+xref: CHEBI:30501 ! beryllium atom
+
+[Term]
+id: GEMET:1792 ! copper
+xref: CHEBI:28694 ! copper atom
+xref: CHEBI:30052 ! copper(0)
+
+[Term]
+id: GEMET:352 ! alumina
+xref: CHEBI:30187 ! aluminium oxide
+
+[Term]
+id: GEMET:5593 ! nitrate
+xref: CHEBI:17632 ! nitrate
+xref: CHEBI:51081 ! nitrates
+
+[Term]
+id: GEMET:2640 ! element of group V
+xref: CHEBI:33300 ! pnictogen
+
+[Term]
+id: GEMET:8496 ! titanium dioxide
+xref: CHEBI:32234 ! titanium dioxide
+
+[Term]
+id: GEMET:4483 ! iodine
+xref: CHEBI:24859 ! iodine atom
+
+[Term]
+id: GEMET:375 ! ammonia
+xref: CHEBI:16134 ! ammonia
+
+[Term]
+id: GEMET:2052 ! delta
+xref: CHEBI:36375 ! Delta baryon
+
+[Term]
+id: GEMET:5604 ! nitro compound
+xref: CHEBI:35715 ! nitro compound
+
+[Term]
+id: GEMET:8202 ! sulphur dioxide
+xref: CHEBI:18422 ! sulfur dioxide
+
+[Term]
+id: GEMET:1401 ! chromium
+xref: CHEBI:28073 ! chromium atom
+
+[Term]
+id: GEMET:6846 ! purin
+xref: CHEBI:26401 ! purines
+xref: CHEBI:35584 ! purine
+
+[Term]
+id: GEMET:8190 ! sulphate
+xref: CHEBI:16189 ! sulfate
+xref: CHEBI:26820 ! sulfates
+xref: CHEBI:35175 ! sulfate salt
+
+[Term]
+id: GEMET:3058 ! explosion
+xref: CHEBI:63490 ! explosive
+
+[Term]
+id: GEMET:2638 ! element of group III
+xref: CHEBI:33317 ! boron group element atom
+
+[Term]
+id: GEMET:3343 ! foaming agent
+xref: CHEBI:78007 ! foaming agent
+
+[Term]
+id: GEMET:4167 ! import
+xref: CHEBI:75323 ! lactitol
+
+[Term]
+id: GEMET:1103 ! caesium
+xref: CHEBI:30514 ! caesium atom
+
+[Term]
+id: GEMET:5057 ! tracer
+xref: CHEBI:35204 ! tracer
+
+[Term]
+id: GEMET:3375 ! food preservation
+xref: CHEBI:65255 ! food preservative
+
+[Term]
+id: GEMET:4094 ! hydrochloric acid
+xref: CHEBI:17883 ! hydrogen chloride
+
+[Term]
+id: GEMET:8629 ! transition element
+xref: CHEBI:27081 ! transition element atom
+
+[Term]
+id: GEMET:308 ! alicyclic compound
+xref: CHEBI:33654 ! alicyclic compound
+
+[Term]
+id: GEMET:3505 ! fuel
+xref: CHEBI:33292 ! fuel
+
+[Term]
+id: GEMET:3806 ! gypsum
+xref: CHEBI:48838 ! gypsum
+
+[Term]
+id: GEMET:5165 ! metabolite
+xref: CHEBI:25212 ! metabolite
+
+[Term]
+id: GEMET:5601 ! nitrite
+xref: CHEBI:16301 ! nitrite
+xref: CHEBI:25549 ! nitrites
+
+[Term]
+id: GEMET:6919 ! radioactive tracer
+xref: CHEBI:35207 ! radioactive tracer
+
+[Term]
+id: GEMET:8289 ! tannin
+xref: CHEBI:26848 ! tannin
+
+[Term]
+id: GEMET:13577 ! nitrogen oxide
+xref: CHEBI:35196 ! nitrogen oxide
+
+[Term]
+id: GEMET:1182 ! carcinogen
+xref: CHEBI:50903 ! carcinogenic agent
+
+[Term]
+id: GEMET:9412 ! zinc
+xref: CHEBI:27363 ! zinc atom
+
+[Term]
+id: GEMET:5459 ! mutagen
+xref: CHEBI:25435 ! mutagen
+
+[Term]
+id: GEMET:68 ! actinium
+xref: CHEBI:33337 ! actinium atom
+
+[Term]
+id: GEMET:6196 ! phosphorus
+xref: CHEBI:28659 ! phosphorus atom
+
+[Term]
+id: GEMET:1162 ! carbonate
+xref: CHEBI:23016 ! carbonates
+xref: CHEBI:27594 ! carbon atom
+xref: CHEBI:41609 ! carbonate
+
+[Term]
+id: GEMET:7590 ! selenium
+xref: CHEBI:27568 ! selenium atom
+
+[Term]
+id: GEMET:3937 ! heterocyclic compound
+xref: CHEBI:5686 ! heterocyclic compound
+
+[Term]
+id: GEMET:8057 ! starch
+xref: CHEBI:28017 ! starch
+
+[Term]
+id: GEMET:3566 ! gas
+xref: CHEBI:5206 ! GA
+
+[Term]
+id: GEMET:5154 ! mercury
+xref: CHEBI:16170 ! mercury(0)
+xref: CHEBI:25195 ! mercury atom
+
+[Term]
+id: GEMET:6739 ! prosperity
+xref: CHEBI:9242 ! spiroxamine
+
+[Term]
+id: GEMET:8791 ! uranium
+xref: CHEBI:27214 ! uranium atom
+
+[Term]
+id: GEMET:1111 ! calcium
+xref: CHEBI:22984 ! calcium atom
+xref: CHEBI:29320 ! calcium(0)
+
+[Term]
+id: GEMET:2979 ! ether
+xref: CHEBI:25698 ! ether
+
+[Term]
+id: GEMET:4814 ! lighting
+xref: CHEBI:30212 ! photon
+
+[Term]
+id: GEMET:6499 ! polymer
+xref: CHEBI:60027 ! polymer
+
+[Term]
+id: GEMET:7401 ! salt
+xref: CHEBI:24866 ! salt
+
+[Term]
+id: GEMET:13550 ! camp
+xref: CHEBI:17489 ! 3',5'-cyclic AMP
+
+[Term]
+id: GEMET:4107 ! hydrogen sulphide
+xref: CHEBI:16136 ! hydrogen sulfide
+
+[Term]
+id: GEMET:4723 ! lead
+xref: CHEBI:25016 ! lead atom
+xref: CHEBI:27889 ! lead(0)
+
+[Term]
+id: GEMET:1210 ! catalyst
+xref: CHEBI:35223 ! catalyst
+
+[Term]
+id: GEMET:47 ! acidity
+xref: CHEBI:37527 ! acid
+
+[Term]
+id: GEMET:6588 ! preserve
+xref: CHEBI:31835 ! methylparaben
+
+[Term]
+id: GEMET:3763 ! greenhouse gas
+xref: CHEBI:76413 ! greenhouse gas
+
+[Term]
+id: GEMET:567 ! arsenic
+xref: CHEBI:27563 ! arsenic atom
+xref: CHEBI:29125 ! arsenate(3-)
+
+[Term]
+id: GEMET:4493 ! ion
+xref: CHEBI:24870 ! ion
+
+[Term]
+id: GEMET:5605 ! nitrogen
+xref: CHEBI:25555 ! nitrogen atom
+
+[Term]
+id: GEMET:5618 ! nitrosamine
+xref: CHEBI:35803 ! nitrosamine
+
+[Term]
+id: GEMET:4103 ! hydrogen
+xref: CHEBI:49637 ! hydrogen atom
+
+[Term]
+id: GEMET:719 ! barium
+xref: CHEBI:32594 ! barium atom
+xref: CHEBI:32595 ! barium(0)
+
+[Term]
+id: GEMET:6359 ! poisoning
+xref: CHEBI:64909 ! poison
+
+[Term]
+id: GEMET:3536 ! furan
+xref: CHEBI:24129 ! furans
+xref: CHEBI:35559 ! furan
+
+[Term]
+id: GEMET:1173 ! carbon monoxide
+xref: CHEBI:17245 ! carbon monoxide
+
+[Term]
+id: GEMET:5972 ! oxidation
+xref: CHEBI:25741 ! oxide
+
+[Term]
+id: GEMET:1224 ! cation
+xref: CHEBI:36916 ! cation
+
+[Term]
+id: GEMET:5608 ! nitrogen dioxide
+xref: CHEBI:33101 ! nitrogen dioxide
+
+[Term]
+id: GEMET:6140 ! pesticide
+xref: Alan_Wood's_Pesticides:1,3-dichloropropene ! Pesticides
+xref: Alan_Wood's_Pesticides:2,4,5-t ! Pesticides
+xref: Alan_Wood's_Pesticides:2,4-d ! Pesticides
+xref: Alan_Wood's_Pesticides:76674-21-0 ! Pesticides
+xref: Alan_Wood's_Pesticides:acetamiprid ! Pesticides
+xref: Alan_Wood's_Pesticides:acetochlor ! Pesticides
+xref: Alan_Wood's_Pesticides:alachlor ! Pesticides
+xref: Alan_Wood's_Pesticides:aldimorph ! Pesticides
+xref: Alan_Wood's_Pesticides:ametoctradin ! Pesticides
+xref: Alan_Wood's_Pesticides:amisulbrom ! Pesticides
+xref: Alan_Wood's_Pesticides:amitraz ! Pesticides
+xref: Alan_Wood's_Pesticides:anilazine ! Pesticides
+xref: Alan_Wood's_Pesticides:asulam ! Pesticides
+xref: Alan_Wood's_Pesticides:atraton ! Pesticides
+xref: Alan_Wood's_Pesticides:azaconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:azoxystrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:barban ! Pesticides
+xref: Alan_Wood's_Pesticides:benalaxyl ! Pesticides
+xref: Alan_Wood's_Pesticides:benalaxyl-m ! Pesticides
+xref: Alan_Wood's_Pesticides:benodanil ! Pesticides
+xref: Alan_Wood's_Pesticides:benomyl ! Pesticides
+xref: Alan_Wood's_Pesticides:bentazone ! Pesticides
+xref: Alan_Wood's_Pesticides:benthiavalicarb ! Pesticides
+xref: Alan_Wood's_Pesticides:benzovindiflupyr ! Pesticides
+xref: Alan_Wood's_Pesticides:bilanafos ! Pesticides
+xref: Alan_Wood's_Pesticides:binapacryl ! Pesticides
+xref: Alan_Wood's_Pesticides:biphenyl ! Pesticides
+xref: Alan_Wood's_Pesticides:bitertanol ! Pesticides
+xref: Alan_Wood's_Pesticides:bixafen ! Pesticides
+xref: Alan_Wood's_Pesticides:blasticidin-s ! Pesticides
+xref: Alan_Wood's_Pesticides:boscalid ! Pesticides
+xref: Alan_Wood's_Pesticides:bromacil ! Pesticides
+xref: Alan_Wood's_Pesticides:bromoxynil ! Pesticides
+xref: Alan_Wood's_Pesticides:bromuconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:bupirimate ! Pesticides
+xref: Alan_Wood's_Pesticides:captafol ! Pesticides
+xref: Alan_Wood's_Pesticides:captan ! Pesticides
+xref: Alan_Wood's_Pesticides:carbendazim ! Pesticides
+xref: Alan_Wood's_Pesticides:carbetamide ! Pesticides
+xref: Alan_Wood's_Pesticides:carboxin ! Pesticides
+xref: Alan_Wood's_Pesticides:chinomethionat ! Pesticides
+xref: Alan_Wood's_Pesticides:chloridazon ! Pesticides
+xref: Alan_Wood's_Pesticides:chloroneb ! Pesticides
+xref: Alan_Wood's_Pesticides:chlorothalonil ! Pesticides
+xref: Alan_Wood's_Pesticides:chlorotoluron ! Pesticides
+xref: Alan_Wood's_Pesticides:chlorpyrifos ! Pesticides
+xref: Alan_Wood's_Pesticides:chlorpyrifos-methyl ! Pesticides
+xref: Alan_Wood's_Pesticides:chlozolinate ! Pesticides
+xref: Alan_Wood's_Pesticides:climbazole ! Pesticides
+xref: Alan_Wood's_Pesticides:clofibric%20acid ! Pesticides
+xref: Alan_Wood's_Pesticides:clomazone ! Pesticides
+xref: Alan_Wood's_Pesticides:clothianidin ! Pesticides
+xref: Alan_Wood's_Pesticides:coumoxystrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:cyanazine ! Pesticides
+xref: Alan_Wood's_Pesticides:cyazofamid ! Pesticides
+xref: Alan_Wood's_Pesticides:cyflufenamid ! Pesticides
+xref: Alan_Wood's_Pesticides:cymoxanil ! Pesticides
+xref: Alan_Wood's_Pesticides:cyproconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:cyprodinil ! Pesticides
+xref: Alan_Wood's_Pesticides:derivatives/benthiavalicarb-isopropyl ! Pesticides
+xref: Alan_Wood's_Pesticides:desmedipham ! Pesticides
+xref: Alan_Wood's_Pesticides:diazinon ! Pesticides
+xref: Alan_Wood's_Pesticides:dicamba ! Pesticides
+xref: Alan_Wood's_Pesticides:dichlobenil ! Pesticides
+xref: Alan_Wood's_Pesticides:dichlofluanid ! Pesticides
+xref: Alan_Wood's_Pesticides:dichlorprop ! Pesticides
+xref: Alan_Wood's_Pesticides:dichlorprop-p ! Pesticides
+xref: Alan_Wood's_Pesticides:diclomezine ! Pesticides
+xref: Alan_Wood's_Pesticides:dicloran ! Pesticides
+xref: Alan_Wood's_Pesticides:diethofencarb ! Pesticides
+xref: Alan_Wood's_Pesticides:diethyltoluamide ! Pesticides
+xref: Alan_Wood's_Pesticides:difenoconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:diflufenican ! Pesticides
+xref: Alan_Wood's_Pesticides:diflumetorim ! Pesticides
+xref: Alan_Wood's_Pesticides:dimethachlor ! Pesticides
+xref: Alan_Wood's_Pesticides:dimethenamid ! Pesticides
+xref: Alan_Wood's_Pesticides:dimethirimol ! Pesticides
+xref: Alan_Wood's_Pesticides:dimethoate ! Pesticides
+xref: Alan_Wood's_Pesticides:dimethomorph ! Pesticides
+xref: Alan_Wood's_Pesticides:dimoxystrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:diniconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:diniconazole-m ! Pesticides
+xref: Alan_Wood's_Pesticides:dinocap ! Pesticides
+xref: Alan_Wood's_Pesticides:dinocap-4 ! Pesticides
+xref: Alan_Wood's_Pesticides:dinocap-6 ! Pesticides
+xref: Alan_Wood's_Pesticides:dinoseb ! Pesticides
+xref: Alan_Wood's_Pesticides:dithianon ! Pesticides
+xref: Alan_Wood's_Pesticides:diuron ! Pesticides
+xref: Alan_Wood's_Pesticides:dodemorph ! Pesticides
+xref: Alan_Wood's_Pesticides:dodine ! Pesticides
+xref: Alan_Wood's_Pesticides:edifenphos ! Pesticides
+xref: Alan_Wood's_Pesticides:enoxastrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:epoxiconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:eprinomectin ! Pesticides
+xref: Alan_Wood's_Pesticides:ethaboxam ! Pesticides
+xref: Alan_Wood's_Pesticides:ethirimol ! Pesticides
+xref: Alan_Wood's_Pesticides:ethofumesate ! Pesticides
+xref: Alan_Wood's_Pesticides:etridiazole ! Pesticides
+xref: Alan_Wood's_Pesticides:famoxadone ! Pesticides
+xref: Alan_Wood's_Pesticides:fenamidone ! Pesticides
+xref: Alan_Wood's_Pesticides:fenarimol ! Pesticides
+xref: Alan_Wood's_Pesticides:fenbuconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:fenfuram ! Pesticides
+xref: Alan_Wood's_Pesticides:fenhexamid ! Pesticides
+xref: Alan_Wood's_Pesticides:fenoxycarb ! Pesticides
+xref: Alan_Wood's_Pesticides:fenpiclonil ! Pesticides
+xref: Alan_Wood's_Pesticides:fenpropidin ! Pesticides
+xref: Alan_Wood's_Pesticides:fenpropimorph ! Pesticides
+xref: Alan_Wood's_Pesticides:fenpyrazamine ! Pesticides
+xref: Alan_Wood's_Pesticides:ferbam ! Pesticides
+xref: Alan_Wood's_Pesticides:ferimzone ! Pesticides
+xref: Alan_Wood's_Pesticides:fipronil ! Pesticides
+xref: Alan_Wood's_Pesticides:flonicamid ! Pesticides
+xref: Alan_Wood's_Pesticides:fluazifop ! Pesticides
+xref: Alan_Wood's_Pesticides:fluazinam ! Pesticides
+xref: Alan_Wood's_Pesticides:fludioxonil ! Pesticides
+xref: Alan_Wood's_Pesticides:flufenacet ! Pesticides
+xref: Alan_Wood's_Pesticides:flufenoxystrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:flumorph ! Pesticides
+xref: Alan_Wood's_Pesticides:fluopicolide ! Pesticides
+xref: Alan_Wood's_Pesticides:fluopyram ! Pesticides
+xref: Alan_Wood's_Pesticides:fluoroimide ! Pesticides
+xref: Alan_Wood's_Pesticides:fluoxastrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:fluquinconazol ! Pesticides
+xref: Alan_Wood's_Pesticides:fluroxypyr ! Pesticides
+xref: Alan_Wood's_Pesticides:flusilazole ! Pesticides
+xref: Alan_Wood's_Pesticides:flusulfamide ! Pesticides
+xref: Alan_Wood's_Pesticides:flutolanil ! Pesticides
+xref: Alan_Wood's_Pesticides:flutriafol ! Pesticides
+xref: Alan_Wood's_Pesticides:fluxapyroxad ! Pesticides
+xref: Alan_Wood's_Pesticides:folpet ! Pesticides
+xref: Alan_Wood's_Pesticides:foramsulfuron ! Pesticides
+xref: Alan_Wood's_Pesticides:fuberidazole ! Pesticides
+xref: Alan_Wood's_Pesticides:furalaxyl ! Pesticides
+xref: Alan_Wood's_Pesticides:furametpyr ! Pesticides
+xref: Alan_Wood's_Pesticides:guazatine ! Pesticides
+xref: Alan_Wood's_Pesticides:hexaconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:hexaflumuron ! Pesticides
+xref: Alan_Wood's_Pesticides:hymexazol ! Pesticides
+xref: Alan_Wood's_Pesticides:imazalil ! Pesticides
+xref: Alan_Wood's_Pesticides:imazamox ! Pesticides
+xref: Alan_Wood's_Pesticides:imidacloprid ! Pesticides
+xref: Alan_Wood's_Pesticides:iminoctadine ! Pesticides
+xref: Alan_Wood's_Pesticides:iodocarb ! Pesticides
+xref: Alan_Wood's_Pesticides:ioxynil ! Pesticides
+xref: Alan_Wood's_Pesticides:iprobenfos ! Pesticides
+xref: Alan_Wood's_Pesticides:iprodione ! Pesticides
+xref: Alan_Wood's_Pesticides:iprovalicarb ! Pesticides
+xref: Alan_Wood's_Pesticides:isofetamid ! Pesticides
+xref: Alan_Wood's_Pesticides:isoprothiolane ! Pesticides
+xref: Alan_Wood's_Pesticides:isoproturon ! Pesticides
+xref: Alan_Wood's_Pesticides:isopyrazam ! Pesticides
+xref: Alan_Wood's_Pesticides:isotianil ! Pesticides
+xref: Alan_Wood's_Pesticides:kasugamycin ! Pesticides
+xref: Alan_Wood's_Pesticides:kresoxim-methyl ! Pesticides
+xref: Alan_Wood's_Pesticides:lenacil ! Pesticides
+xref: Alan_Wood's_Pesticides:linuron ! Pesticides
+xref: Alan_Wood's_Pesticides:lufenuron ! Pesticides
+xref: Alan_Wood's_Pesticides:mancozeb ! Pesticides
+xref: Alan_Wood's_Pesticides:mandestrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:mandipropamid ! Pesticides
+xref: Alan_Wood's_Pesticides:maneb ! Pesticides
+xref: Alan_Wood's_Pesticides:mcpa ! Pesticides
+xref: Alan_Wood's_Pesticides:mcpb ! Pesticides
+xref: Alan_Wood's_Pesticides:mecoprop ! Pesticides
+xref: Alan_Wood's_Pesticides:mecoprop-p ! Pesticides
+xref: Alan_Wood's_Pesticides:mepanipyrim ! Pesticides
+xref: Alan_Wood's_Pesticides:mepronil ! Pesticides
+xref: Alan_Wood's_Pesticides:meptyldinocap ! Pesticides
+xref: Alan_Wood's_Pesticides:mesotrione ! Pesticides
+xref: Alan_Wood's_Pesticides:metalaxyl ! Pesticides
+xref: Alan_Wood's_Pesticides:metalaxyl-m ! Pesticides
+xref: Alan_Wood's_Pesticides:metamitron ! Pesticides
+xref: Alan_Wood's_Pesticides:metazachlor ! Pesticides
+xref: Alan_Wood's_Pesticides:methasulfocarb ! Pesticides
+xref: Alan_Wood's_Pesticides:methiocarb ! Pesticides
+xref: Alan_Wood's_Pesticides:methomyl ! Pesticides
+xref: Alan_Wood's_Pesticides:methoxyfenozide ! Pesticides
+xref: Alan_Wood's_Pesticides:metiram ! Pesticides
+xref: Alan_Wood's_Pesticides:metolachlor ! Pesticides
+xref: Alan_Wood's_Pesticides:metominostrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:metrafenone ! Pesticides
+xref: Alan_Wood's_Pesticides:metribuzin ! Pesticides
+xref: Alan_Wood's_Pesticides:metsulfuron-methyl ! Pesticides
+xref: Alan_Wood's_Pesticides:monuron ! Pesticides
+xref: Alan_Wood's_Pesticides:myclobutanil ! Pesticides
+xref: Alan_Wood's_Pesticides:napropamide ! Pesticides
+xref: Alan_Wood's_Pesticides:nicosulfuron ! Pesticides
+xref: Alan_Wood's_Pesticides:novaluron ! Pesticides
+xref: Alan_Wood's_Pesticides:noviflumuron ! Pesticides
+xref: Alan_Wood's_Pesticides:nuarimol ! Pesticides
+xref: Alan_Wood's_Pesticides:octhilinone ! Pesticides
+xref: Alan_Wood's_Pesticides:ofurace ! Pesticides
+xref: Alan_Wood's_Pesticides:orbencarb ! Pesticides
+xref: Alan_Wood's_Pesticides:orysastrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:oxadixyl ! Pesticides
+xref: Alan_Wood's_Pesticides:oxathiapiprolin ! Pesticides
+xref: Alan_Wood's_Pesticides:oxpoconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:oxpoconazole%20fumarate ! Pesticides
+xref: Alan_Wood's_Pesticides:oxycarboxin ! Pesticides
+xref: Alan_Wood's_Pesticides:oxytetracycline ! Pesticides
+xref: Alan_Wood's_Pesticides:pefurazoate ! Pesticides
+xref: Alan_Wood's_Pesticides:pencycuron ! Pesticides
+xref: Alan_Wood's_Pesticides:penflufen ! Pesticides
+xref: Alan_Wood's_Pesticides:penthiopyrad ! Pesticides
+xref: Alan_Wood's_Pesticides:pethoxamid ! Pesticides
+xref: Alan_Wood's_Pesticides:phenmedipham ! Pesticides
+xref: Alan_Wood's_Pesticides:phthalide ! Pesticides
+xref: Alan_Wood's_Pesticides:picoxystrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:pinoxaden ! Pesticides
+xref: Alan_Wood's_Pesticides:piperalin ! Pesticides
+xref: Alan_Wood's_Pesticides:pirimicarb ! Pesticides
+xref: Alan_Wood's_Pesticides:prochloraz ! Pesticides
+xref: Alan_Wood's_Pesticides:procymidone ! Pesticides
+xref: Alan_Wood's_Pesticides:prometon ! Pesticides
+xref: Alan_Wood's_Pesticides:prometryn ! Pesticides
+xref: Alan_Wood's_Pesticides:propachlor ! Pesticides
+xref: Alan_Wood's_Pesticides:propamocarb ! Pesticides
+xref: Alan_Wood's_Pesticides:propaquizafop ! Pesticides
+xref: Alan_Wood's_Pesticides:propazine ! Pesticides
+xref: Alan_Wood's_Pesticides:propiconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:propineb ! Pesticides
+xref: Alan_Wood's_Pesticides:propoxur ! Pesticides
+xref: Alan_Wood's_Pesticides:proquinazid ! Pesticides
+xref: Alan_Wood's_Pesticides:prosulfocarb ! Pesticides
+xref: Alan_Wood's_Pesticides:prothiocarb ! Pesticides
+xref: Alan_Wood's_Pesticides:pymetrozine ! Pesticides
+xref: Alan_Wood's_Pesticides:pyraclostrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:pyrametostrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:pyraoxystrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:pyrazophos ! Pesticides
+xref: Alan_Wood's_Pesticides:pyribencarb ! Pesticides
+xref: Alan_Wood's_Pesticides:pyributicarb ! Pesticides
+xref: Alan_Wood's_Pesticides:pyrifenox ! Pesticides
+xref: Alan_Wood's_Pesticides:pyrimethanil ! Pesticides
+xref: Alan_Wood's_Pesticides:pyriofenone ! Pesticides
+xref: Alan_Wood's_Pesticides:pyrisoxazole ! Pesticides
+xref: Alan_Wood's_Pesticides:pyroquilon ! Pesticides
+xref: Alan_Wood's_Pesticides:quinoxyfen ! Pesticides
+xref: Alan_Wood's_Pesticides:quintozene ! Pesticides
+xref: Alan_Wood's_Pesticides:rimsulfuron ! Pesticides
+xref: Alan_Wood's_Pesticides:s-metolachlor ! Pesticides
+xref: Alan_Wood's_Pesticides:sebuthylazine ! Pesticides
+xref: Alan_Wood's_Pesticides:secbumeton ! Pesticides
+xref: Alan_Wood's_Pesticides:sedaxane ! Pesticides
+xref: Alan_Wood's_Pesticides:silthiofam ! Pesticides
+xref: Alan_Wood's_Pesticides:simazine ! Pesticides
+xref: Alan_Wood's_Pesticides:simeton ! Pesticides
+xref: Alan_Wood's_Pesticides:spiroxamine ! Pesticides
+xref: Alan_Wood's_Pesticides:streptomycin ! Pesticides
+xref: Alan_Wood's_Pesticides:sulcotrione ! Pesticides
+xref: Alan_Wood's_Pesticides:sulfluramid ! Pesticides
+xref: Alan_Wood's_Pesticides:sulfur ! Pesticides
+xref: Alan_Wood's_Pesticides:tebuconazole ! Pesticides
+xref: Alan_Wood's_Pesticides:tebufenozide ! Pesticides
+xref: Alan_Wood's_Pesticides:tebufloquin ! Pesticides
+xref: Alan_Wood's_Pesticides:tebutam ! Pesticides
+xref: Alan_Wood's_Pesticides:tecloftalam ! Pesticides
+xref: Alan_Wood's_Pesticides:tecnazene ! Pesticides
+xref: Alan_Wood's_Pesticides:teflubenzuron ! Pesticides
+xref: Alan_Wood's_Pesticides:terbumeton ! Pesticides
+xref: Alan_Wood's_Pesticides:terbuthylazine ! Pesticides
+xref: Alan_Wood's_Pesticides:terbutryn ! Pesticides
+xref: Alan_Wood's_Pesticides:thiabendazole ! Pesticides
+xref: Alan_Wood's_Pesticides:thiacloprid ! Pesticides
+xref: Alan_Wood's_Pesticides:thiamethoxam ! Pesticides
+xref: Alan_Wood's_Pesticides:thifensulfuron-methyl ! Pesticides
+xref: Alan_Wood's_Pesticides:thifluzamide ! Pesticides
+xref: Alan_Wood's_Pesticides:thiophanate ! Pesticides
+xref: Alan_Wood's_Pesticides:thiophanate-methyl ! Pesticides
+xref: Alan_Wood's_Pesticides:thiram ! Pesticides
+xref: Alan_Wood's_Pesticides:tiadinil ! Pesticides
+xref: Alan_Wood's_Pesticides:tolclofos-methyl ! Pesticides
+xref: Alan_Wood's_Pesticides:tolfenpyrad ! Pesticides
+xref: Alan_Wood's_Pesticides:tolylfluanid ! Pesticides
+xref: Alan_Wood's_Pesticides:triclopyr ! Pesticides
+xref: Alan_Wood's_Pesticides:triclopyricarb ! Pesticides
+xref: Alan_Wood's_Pesticides:tridemorph ! Pesticides
+xref: Alan_Wood's_Pesticides:trifloxystrobin ! Pesticides
+xref: Alan_Wood's_Pesticides:triflumizole ! Pesticides
+xref: Alan_Wood's_Pesticides:trifluralin ! Pesticides
+xref: Alan_Wood's_Pesticides:triforine ! Pesticides
+xref: Alan_Wood's_Pesticides:trinexapac ! Pesticides
+xref: Alan_Wood's_Pesticides:trinexapac-ethyl ! Pesticides
+xref: Alan_Wood's_Pesticides:tritosulfuron ! Pesticides
+xref: Alan_Wood's_Pesticides:validamycin ! Pesticides
+xref: Alan_Wood's_Pesticides:valifenalate ! Pesticides
+xref: Alan_Wood's_Pesticides:vinclozolin ! Pesticides
+xref: Alan_Wood's_Pesticides:zineb ! Pesticides
+xref: Alan_Wood's_Pesticides:ziram ! Pesticides
+xref: Alan_Wood's_Pesticides:zoxamide ! Pesticides
+xref: CHEBI:25944 ! pesticide
+
+[Term]
+id: GEMET:5184 ! metal
+xref: CHEBI:33521 ! metal atom
+
+[Term]
+id: GEMET:2641 ! element of group VI
+xref: CHEBI:33303 ! chalcogen
+
+[Term]
+id: GEMET:5991 ! ozone
+xref: CHEBI:25812 ! ozone
 

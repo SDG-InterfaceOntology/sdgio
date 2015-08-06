@@ -141,7 +141,6 @@ GEMET:10780	initial training
 GEMET:10785	pedagogy
 GEMET:108	administrative law
 GEMET:10818	environmental occupation
-GEMET:1082	bus
 GEMET:10837	organisation of work
 GEMET:1084	business
 GEMET:10847	leisure centre
@@ -189,7 +188,6 @@ GEMET:10991	citizen
 GEMET:10993	territorial community
 GEMET:1101	cadmium contamination
 GEMET:11016	economic plan
-GEMET:1103	caesium
 GEMET:11032	public aid
 GEMET:11034	national accounting
 GEMET:11035	satellite account
@@ -350,7 +348,6 @@ GEMET:11700	sensor
 GEMET:11702	metrology
 GEMET:11706	observation satellite
 GEMET:11714	organic nitrogen
-GEMET:11734	sulphur monoxide
 GEMET:11745	pyralene
 GEMET:11762	genotoxicity
 GEMET:11763	intoxication
@@ -414,7 +411,6 @@ GEMET:12084	thunderstorm
 GEMET:12091	glaze
 GEMET:12096	exploitation of underground water
 GEMET:12098	water infiltration into the ground
-GEMET:1210	catalyst
 GEMET:12104	water table
 GEMET:12107	water catchment protection
 GEMET:12108	water table protection
@@ -764,7 +760,6 @@ GEMET:13570	overflow (outlet)
 GEMET:13572	cutting (vegetative propagation)
 GEMET:13576	eco-balance
 GEMET:13613	oven
-GEMET:1378	chloroethylene
 GEMET:13781	sluice-gate
 GEMET:13839	noise effect
 GEMET:1384	CFC and halons prohibition
@@ -822,7 +817,6 @@ GEMET:1482	clinical symptom
 GEMET:14835	green fiscal instrument
 GEMET:14845	indigenous knowledge
 GEMET:14847	professional society
-GEMET:14849	persistant organic pollutant
 GEMET:14850	sediment mobilisation
 GEMET:14851	habitat destruction
 GEMET:14852	land-based activity
@@ -1110,7 +1104,6 @@ GEMET:2022	deep sea
 GEMET:2023	deep sea deposit
 GEMET:2024	deep-sea disposal
 GEMET:2025	deep sea fishing
-GEMET:2035	defoliation
 GEMET:2036	deforestation
 GEMET:2039	degradability
 GEMET:204	agricultural landscape
@@ -1225,7 +1218,6 @@ GEMET:2360	dry farming
 GEMET:2363	drying out
 GEMET:2364	dual economy
 GEMET:2365	dual waste management
-GEMET:2367	dumping
 GEMET:2372	land disposal
 GEMET:2380	duration of sunshine
 GEMET:2383	dust immission
@@ -1324,11 +1316,6 @@ GEMET:2634	electrotechnical industry
 GEMET:2635	element of group 0
 GEMET:2636	element of group I (alkaline)
 GEMET:2637	element of group II (alkaline earth metals)
-GEMET:2638	element of group III
-GEMET:2639	element of group IV
-GEMET:2640	element of group V
-GEMET:2641	element of group VI
-GEMET:2642	element of group VII
 GEMET:2651	emancipation
 GEMET:2655	emergency law
 GEMET:2656	emergency plan
@@ -1545,7 +1532,6 @@ GEMET:3097	fabric
 GEMET:3099	factor market
 GEMET:3103	factory farming
 GEMET:3106	faecal bacterium
-GEMET:311	aliphatic compound
 GEMET:3110	fallout
 GEMET:3113	fallow area
 GEMET:3115	fallow land
@@ -1555,7 +1541,6 @@ GEMET:313	alkali land
 GEMET:3133	fast traffic
 GEMET:3147	federal law
 GEMET:3149	fee
-GEMET:3169	fertiliser
 GEMET:3171	fertiliser law
 GEMET:3174	fibre
 GEMET:3175	fibreglass
@@ -1607,12 +1592,10 @@ GEMET:3325	fluidised bed
 GEMET:3340	fluvial resource
 GEMET:3341	river transport
 GEMET:3342	fly ash
-GEMET:3343	foaming agent
 GEMET:3345	fodder
 GEMET:3348	mist
 GEMET:335	allocation
 GEMET:336	allocation plan
-GEMET:3360	food colourant
 GEMET:3362	food commerce
 GEMET:3368	food industry
 GEMET:3370	food irradiation
@@ -1667,17 +1650,14 @@ GEMET:3494	freshwater resource
 GEMET:3496	frost
 GEMET:3499	fruit cultivation
 GEMET:3502	fruit tree
-GEMET:3506	fuel additive
 GEMET:3507	fuel alcohol
 GEMET:3509	fuel composition
 GEMET:351	alternative technology
 GEMET:3510	fuel consumption
 GEMET:3516	fuel tank installation
 GEMET:3517	fuel wood
-GEMET:352	alumina
 GEMET:3522	functional substance
 GEMET:3524	soil function
-GEMET:353	aluminium
 GEMET:3533	fur
 GEMET:3538	furnace
 GEMET:3539	furniture
@@ -1745,7 +1725,6 @@ GEMET:3755	green building
 GEMET:3756	green corridor
 GEMET:3757	environmental tax
 GEMET:3760	greenhouse cultivation
-GEMET:3763	greenhouse gas
 GEMET:3766	green manure
 GEMET:3768	green revolution
 GEMET:3770	green space
@@ -1757,7 +1736,6 @@ GEMET:3781	groundwater extraction
 GEMET:3784	groundwater pollution
 GEMET:3785	groundwater protection
 GEMET:3788	group behaviour
-GEMET:3806	gypsum
 GEMET:3810	haematology
 GEMET:3812	hail
 GEMET:3817	haloform
@@ -1847,7 +1825,6 @@ GEMET:4082	hydraulic construction
 GEMET:4085	hydraulics
 GEMET:4088	hydrobiology
 GEMET:4095	hydroculture
-GEMET:4107	hydrogen sulphide
 GEMET:4108	hydrogeology
 GEMET:4109	hydrography
 GEMET:4111	hydrologic disaster
@@ -2005,7 +1982,6 @@ GEMET:4534	judicial assistance
 GEMET:4538	judiciary rule
 GEMET:4541	jurisdiction
 GEMET:4543	jurisprudence
-GEMET:4566	labelling
 GEMET:4571	laboratory experiment
 GEMET:4573	laboratory research
 GEMET:4574	laboratory technique
@@ -2086,7 +2062,6 @@ GEMET:4762	legislative information
 GEMET:4764	legislature
 GEMET:4767	leisure activity
 GEMET:4771	leisure time
-GEMET:478	antifouling agent
 GEMET:4782	leukaemia
 GEMET:4784	levy
 GEMET:4785	lexicon
@@ -2100,7 +2075,6 @@ GEMET:48	acidity degree
 GEMET:4815	separator of light liquids
 GEMET:4818	lignite
 GEMET:4819	lignite mining
-GEMET:4820	lime
 GEMET:4828	limit value
 GEMET:483	antipollution incentive
 GEMET:4830	limnology
@@ -2190,7 +2164,6 @@ GEMET:5051	maritime law
 GEMET:5052	maritime navigation
 GEMET:5055	maritime transport
 GEMET:5056	marker
-GEMET:5057	tracer
 GEMET:5061	market economy
 GEMET:5062	market form
 GEMET:5068	market research
@@ -2216,7 +2189,6 @@ GEMET:5152	mental effect
 GEMET:5155	mercury contamination
 GEMET:516	aquatic recreational amenity
 GEMET:5163	metabolism of pesticides
-GEMET:5165	metabolite
 GEMET:5167	metainformation
 GEMET:5169	metal finishing
 GEMET:5171	metallic mineral
@@ -2348,7 +2320,6 @@ GEMET:5581	new installation
 GEMET:5583	new material
 GEMET:5585	new technology
 GEMET:5598	nitrification
-GEMET:560	aromatic compound
 GEMET:5623	NOEL
 GEMET:5626	noise abatement
 GEMET:5629	noise analysis
@@ -2377,7 +2348,6 @@ GEMET:5668	non-conventional energy
 GEMET:5669	non-ferrous metal industry
 GEMET:5674	non-ionising radiation
 GEMET:5675	non-metallic mineral
-GEMET:5676	non-metal
 GEMET:5677	non-polluting energy source
 GEMET:5679	non-polluting fuel
 GEMET:568	art
@@ -2393,7 +2363,6 @@ GEMET:5713	nuclear energy legislation
 GEMET:5714	nuclear energy use
 GEMET:5718	nuclear explosion (accident)
 GEMET:5721	nuclear facility
-GEMET:5724	nuclear fuel
 GEMET:5727	nuclear fuel element
 GEMET:5734	nuclear debate
 GEMET:5737	nuclear power plant disposal
@@ -2442,7 +2411,6 @@ GEMET:5839	oil recovery vessel
 GEMET:5840	oil refinery
 GEMET:5841	oil refining
 GEMET:5843	oil residue recuperation
-GEMET:5847	oil shale
 GEMET:5848	oil slick
 GEMET:5854	oil tanker
 GEMET:5856	old landfill site
@@ -2456,17 +2424,12 @@ GEMET:5875	open sea fishing
 GEMET:5877	operating data
 GEMET:5880	opinion
 GEMET:5885	installation optimisation
-GEMET:5887	ore
 GEMET:5892	organic carbon
 GEMET:5897	organic farming
 GEMET:59	acoustic property
 GEMET:5902	organic pollutant
 GEMET:5910	organic solvent
 GEMET:5912	organic substance
-GEMET:5921	organochlorine compound
-GEMET:5924	organohalogen compound
-GEMET:5928	organonitrogen compound
-GEMET:5929	organooxygen compound
 GEMET:5931	organophosphorous compound
 GEMET:5936	organosulphur compound
 GEMET:594	asbestos cement
@@ -2482,7 +2445,6 @@ GEMET:5963	overhead power line
 GEMET:5965	overpopulation
 GEMET:5967	overturn (limnology)
 GEMET:5971	ownership
-GEMET:5980	oxidising agent
 GEMET:5986	oxygen content
 GEMET:5992	ozone depletion potential
 GEMET:5993	ozone layer
@@ -2508,7 +2470,6 @@ GEMET:6092	pedestrian zone
 GEMET:6094	pedosphere
 GEMET:6103	penalty
 GEMET:6107	per capita data
-GEMET:6109	perchloroethylene
 GEMET:611	astronautics
 GEMET:6111	percolating water
 GEMET:6115	periphyton
@@ -2660,7 +2621,6 @@ GEMET:6586	preservation of evidence
 GEMET:6591	press
 GEMET:6592	pressing
 GEMET:6594	pressure group
-GEMET:66	actinide
 GEMET:6600	preventive health measure
 GEMET:6602	price
 GEMET:6607	pricing policy of resources
@@ -2698,12 +2658,10 @@ GEMET:668	automobile industry
 GEMET:6681	prognostic data
 GEMET:6708	progress line
 GEMET:6718	propagation process
-GEMET:6720	propellant
 GEMET:6724	properties of materials
 GEMET:6728	property protection
 GEMET:6736	propulsion technique
 GEMET:6737	prosecution
-GEMET:6739	prosperity
 GEMET:6743	protected landscape
 GEMET:6746	protected species
 GEMET:6747	water protection area
@@ -2788,7 +2746,6 @@ GEMET:6992	recording of substances
 GEMET:6997	recovery of landscape
 GEMET:6999	fauna restoration
 GEMET:7	abandoned industrial site
-GEMET:700	bactericide
 GEMET:7000	recovery plan
 GEMET:7001	recreation
 GEMET:7003	recreational area
@@ -3196,13 +3153,8 @@ GEMET:818	bioclimatology
 GEMET:8182	suburb
 GEMET:8185	sugar (product)
 GEMET:8188	sugar industry
-GEMET:8190	sulphate
-GEMET:8192	sulphide
-GEMET:8198	sulphur
 GEMET:820	bioconcentration factor
 GEMET:8200	sulphur concentration
-GEMET:8202	sulphur dioxide
-GEMET:8203	sulphuric acid
 GEMET:8204	sulphur oxide
 GEMET:8212	supervision of building works
 GEMET:8213	supervision of installation
@@ -3541,7 +3493,6 @@ GEMET:9206	water protection
 GEMET:9207	water protection directive
 GEMET:9208	water protection legislation
 GEMET:9209	water pump
-GEMET:921	bitumen
 GEMET:9211	water purification plant
 GEMET:9214	water quality
 GEMET:9215	water quality directive
@@ -3618,4 +3569,3 @@ GEMET:976	boundary layer
 GEMET:986	bradyseism
 GEMET:997	brewing industry
 GEMET:998	brick
-GEMET:GEMET	ID

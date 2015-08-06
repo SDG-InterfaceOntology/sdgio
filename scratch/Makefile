@@ -46,4 +46,4 @@ summary-xrefs-%.txt:
 	grep -c ^id: xrefs-$*-*.obo
 
 no-align.tsv: allx.obo gemet.obo
-	blip-findall -i $< -i gemet.obo "class(X),id_idspace(X,'GEMET'),\+entity_xref(E,X)" -select X -label -use_tabs | sort -u > $@
+	blip-findall -i $< -i gemet.obo "class(X),id_idspace(X,'GEMET'),\+entity_xref(X,_)" -select X -label -use_tabs | sort -u > $@
