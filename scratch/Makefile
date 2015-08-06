@@ -1,5 +1,5 @@
 
-GEMETS = backbone definitions groups
+GEMETS = backbone definitions groups skoscore
 GEMETFS = $(patsubst %,gemet-%.rdf,$(GEMETS))
 
 all: gemet summary-xrefs-gemet.txt xsummary.tsv no-align.tsv
@@ -10,12 +10,19 @@ gemet-backbone.rdf:
 gemet-definitions.rdf:
 	wget 'http://www.eionet.europa.eu/gemet/gemet-definitions.rdf?langcode=en' -O $@
 
+gemet-skoscore.rdf:
+	wget 'http://www.eionet.europa.eu/gemet/gemet-skoscore.rdf?langcode=en' -O $@
+
 gemet-groups.rdf:
 	wget 'http://www.eionet.europa.eu/gemet/gemet-groups.rdf?langcode=en' -O $@
 
 gemet-all.rdf: $(GEMETFS)
 	rdfcat $^ > $@
 
+gemet-full.obo: gemet-all.rdf
+	./translate-gemet-rdf.py > $@.tmp && hacky-fix-gemet-ids.pl $@.tmp > $@.tmp2 && owltools $@.tmp2 -o -f obo $@
+
+# This is the version from the spreadsheet
 gemet.obo: priority-gemet.tsv 
 	perl -npe 's//GEMET:/' $< | cut -f1,2 | tbl2obo.pl  > $@
 
@@ -42,6 +49,9 @@ allx.obo: $(XOBOS)
 
 xsummary.tsv: allx.obo
 	blip-findall -i $< -i gemet.obo -u xref_util prefixset_stats/2 -no_pred > $@.tmp &&  mysort -s -k2 -n -r $@.tmp > $@
+
+gemet-bestmatches.tsv: allx.obo
+	blip-findall -i $< -i gemet.obo -consult sdgutil gemet_rpt/3 -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 summary-xrefs-%.txt:
 	grep -c ^id: xrefs-$*-*.obo
