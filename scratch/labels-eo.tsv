@@ -1,0 +1,483 @@
+EO:0007001	UV-B light regimen	
+EO:0007002	UV-A light regimen	
+EO:0007003	temperate region	
+EO:0007004	loam content	
+EO:0007005	Viridiplantae	green plant
+EO:0007008	Monochoria vaginalis	Asian pickerel weed	heartshape false pickerelweed
+EO:0007009	Eudicotyledon	Eudicot	dicot
+EO:0007010	Sagittaria montevidensis	giant arrowhead
+EO:0007011	Sagittaria longiloba	Flecha de Agua	longlobe arrowhead	narrow-leaf arrowhead
+EO:0007012	Heteranthera limosa	blue mud-plantain	ducksalad
+EO:0007013	Echinodorus berteroi	upright burhead
+EO:0007014	Echinodorus cordifolius	Texas mudbaby	creeping burhead
+EO:0007015	Ammannia spp.	
+EO:0007016	Bacopa spp.	
+EO:0007017	Cyperus difformis	flatsedge	smallflower umbrellaplant
+EO:0007018	Scirpus fluviatilis	river bulrush
+EO:0007019	Cyperus iria	rice field flatsedge
+EO:0007020	Scirpus mucronatus	ricefield bulrush
+EO:0007021	Alisma plantago-aquatica	water plantain
+EO:0007022	Liliopsida	monocot	monocotyledon
+EO:0007023	gaseous environment	
+EO:0007024	aerobic environment	
+EO:0007025	anaerobic environment	
+EO:0007026	Echinochloa glabrescens	barnyardgrass
+EO:0007027	seasonal environment	
+EO:0007028	Echinochloa crus-galli	barnyardgrass	cockspur grass
+EO:0007029	Typha spp.	cattail
+EO:0007030	Leptochloa fascicularis	bearded sprangeltop
+EO:0007031	Mammalia	mammal
+EO:0007033	rabi season	
+EO:0007034	kharif season	
+EO:0007035	winter season	
+EO:0007036	summer season	
+EO:0007037	spring season	
+EO:0007038	autumn season	
+EO:0007041	antibiotic regimen	
+EO:0007043	non-mineral nutrient regimen	
+EO:0007044	mineral nutrient regimen	
+EO:0007045	primary macronutrient	
+EO:0007046	secondary macronutrient	
+EO:0007047	other nutrient regimen	
+EO:0007048	sodium chloride regimen	NaCl treatment
+EO:0007049	soil environment	
+EO:0007050	soil texture	
+EO:0007051	sand content	
+EO:0007052	organic matter content	
+EO:0007053	silt content	
+EO:0007054	clay content	
+EO:0007055	Cochliobolus spp.	
+EO:0007058	soil pH environment	
+EO:0007059	acidic pH soil environment	
+EO:0007060	Sphaerulina oryzina	Cercospora janseana	Cercospora oryzae
+EO:0007061	tropical region	
+EO:0007062	basic pH soil environment	
+EO:0007063	DCMU regimen	3-(3,4-dichloro-phenyl)-1,1-dimethylurea	dichlorophenyldimethyl urea	diuron
+EO:0007064	ecological environment	
+EO:0007065	Entyloma oryzae	Entyloma dactylidis	Entyloma lineatum
+EO:0007066	cytokinin regimen	6-benzylaminopurine	N-benzyl-adenine	verdan senescence
+EO:0007067	hydroponic plant culture media	soilless pant culture media
+EO:0007068	ethylene regimen	
+EO:0007069	gibberellic acid regimen	GA regimen
+EO:0007070	indole acetic acid regimen	IAA regimen
+EO:0007071	suspension cell culture media	
+EO:0007072	Microdochium oryzae	Rhynchosporium oryzae
+EO:0007073	Basidiomycota	basidiomycetes
+EO:0007074	auxin regimen	
+EO:0007075	high light intensity regimen	
+EO:0007076	moderate light intensity regimen	
+EO:0007077	Tilletia barclayana	Neovossia horrida
+EO:0007078	light quantity regimen	photoperiod regimen
+EO:0007079	sulfate fertilizer regimen	
+EO:0007080	jasmonic acid regimen	JA regimen
+EO:0007081	river bank region	
+EO:0007082	sea coast region	
+EO:0007083	Phoma sorghina	
+EO:0007084	other animals	
+EO:0007085	fertilizer regimen	
+EO:0007086	chemical fertilizer regimen	
+EO:0007087	natural fertilizer regimen	organic fertilizer regimen
+EO:0007088	Ceratobasidium oryzae-sativae	Ceratobasidium oryzae-sativae	Ceratobasidium sativae	Rhizoctonia oryzae-sativae
+EO:0007089	bone meal regimen	
+EO:0007090	ammonium nitrate regimen	
+EO:0007091	seaweed extract regimen	
+EO:0007092	wood ash regimen	
+EO:0007093	fish meal regimen	
+EO:0007094	sodium nitrate regimen	
+EO:0007095	calcium nitrate regimen	
+EO:0007096	potassium nitrate regimen	
+EO:0007097	ammonium sulfate regimen	
+EO:0007098	ferrous sulfate regimen	
+EO:0007099	potassium sulfate regimen	
+EO:0007100	superphosphate regimen	
+EO:0007101	urea regimen	
+EO:0007102	nitrogen fertilizer regimen	
+EO:0007103	phosphate fertilizer regimen	
+EO:0007104	NPK fertilizer regimen	
+EO:0007105	abscisic acid regimen	ABA regimen
+EO:0007106	Stramenopiles	chromophyta	heterokont
+EO:0007107	Ascomycota	ascomycetes
+EO:0007108	Proteobacteria	purple bacteria
+EO:0007109	ssRNA positive-strand virus with no DNA stage	
+EO:0007110	dsRNA virus	dsRNA nonenveloped viruses
+EO:0007111	ssRNA negative-strand virus	
+EO:0007112	retroid virus	
+EO:0007113	rice necrosis mosaic virus	RNMV	rice necrosis mosaic virus
+EO:0007114	Lepidoptera	butterfly	moth
+EO:0007115	Spodoptera spp.	
+EO:0007116	Hemiptera	bug
+EO:0007117	Pseudaletia spp.	armyworm
+EO:0007118	Gibberella spp.	
+EO:0007119	Diptera	fly
+EO:0007120	Coleoptera	beetle
+EO:0007121	Thysanoptera	thrips
+EO:0007122	Chilo	stalk borer	stemborer
+EO:0007123	Eysarcoris trimaculatus	rice spotting bug
+EO:0007124	pest/pathogen/animal/plant environment	
+EO:0007126	Hirschmaniella spp.	
+EO:0007127	Meloidogyne spp.	root-knot nematode
+EO:0007128	intermittent light regimen	
+EO:0007129	UV-C light regimen	
+EO:0007130	near infra-red light regimen	near IR light regimen
+EO:0007131	middle infra-red light regimen	
+EO:0007132	far infra-red light regimen	
+EO:0007133	basic pH growth media environment	basic pH environment
+EO:0007134	acidic pH growth media environment	acidic pH environment
+EO:0007135	Magnaporthe spp.	
+EO:0007136	Achlya spp.	
+EO:0007137	Echinochloa spp.	
+EO:0007138	Echinodorus spp.	burhead
+EO:0007139	Sagittaria spp.	arrowhead
+EO:0007140	Scirpus spp.	
+EO:0007141	Cyperus spp.	
+EO:0007142	Scirpophaga spp.	
+EO:0007143	Erwinia spp.	
+EO:0007144	Pseudomonas spp.	
+EO:0007145	Xanthomonas spp.	
+EO:0007146	gravity	
+EO:0007147	growth media	
+EO:0007148	Xanthomonas oryzae	Pseudomonas oryzae
+EO:0007149	chemical mutagen	
+EO:0007151	radiation regimen	light regimen
+EO:0007152	radiation intensity regimen	
+EO:0007153	radiation quantity regimen	
+EO:0007154	radiation quality regimen	
+EO:0007155	soil type	
+EO:0007156	clay soil	
+EO:0007157	loam soil	
+EO:0007158	sandy soil	
+EO:0007159	sandy loam soil	
+EO:0007160	water temperature regimen	
+EO:0007161	air temperature regimen	
+EO:0007162	continuous light regimen	
+EO:0007163	day light regimen	
+EO:0007164	standing deep water	
+EO:0007165	growth hormone regimen	
+EO:0007166	Pythium spinosum	
+EO:0007167	pesticide regimen	
+EO:0007168	hygromycin regimen	Antibiotic A-396-II	hygromycin B regimen
+EO:0007171	pH regimen	
+EO:0007172	flood water	
+EO:0007173	warm/hot temperature regimen	
+EO:0007174	cold temperature regimen	
+EO:0007175	temperature environment	
+EO:0007176	altitute	
+EO:0007177	Pythium myriotylum	
+EO:0007178	atmospheric pressure	barometric pressure
+EO:0007179	Pythium irregulare	
+EO:0007180	2,4-dichlorophenoxyacetic acid	2,4-D regimen	Amidox	B-Selektonon	Crotilin	Decamine	Dicopur	U-5043	Weed Tox	Weedar 64A	Weedone-2,4-DP
+EO:0007181	rainfall	
+EO:0007182	Pythium graminicola	
+EO:0007183	herbicide regimen	
+EO:0007184	Pythium dissotocum	
+EO:0007185	salt regimen	
+EO:0007186	Pythium catenulatum	
+EO:0007187	salicylic acid regimen	
+EO:0007188	Pythium arrhenomanes	
+EO:0007189	chemical regimen	other chemical regimen
+EO:0007190	Ustilaginoidea virens	
+EO:0007191	abiotic environment	
+EO:0007192	Drechslera gigantea	
+EO:0007193	day light intensity	
+EO:0007194	Sclerospora macrospora	Sclerophthora macrospora
+EO:0007195	rice ragged stunt virus	RRSV	rice ragged stunt oryzavirus	rice ragged stunt virus
+EO:0007196	light regimen	artificial daylight	artificial light	day light	natural light	sun light
+EO:0007197	humidity regimen	
+EO:0007198	water environment	
+EO:0007199	long day length regimen	
+EO:0007200	short day length regimen	
+EO:0007202	IR light regimen	
+EO:0007203	far red light regimen	Pfr light
+EO:0007204	1-naphthaleneacetic acid	NAA	Naphthylacetic acid
+EO:0007205	rice grassy stunt 2 virus	RGSV-2
+EO:0007206	Gaeumannomyces graminis	
+EO:0007207	red light regimen	Pr light
+EO:0007208	rice grassy stunt 1 virus	RGSV-1
+EO:0007209	Phomopsis oryzae-sativae	
+EO:0007210	Virus	
+EO:0007211	Cochliobolus miyabeanus	Bipolaris oryzae	Dreschlera oryzae	Helminthosporium oryzae
+EO:0007212	Mycoplasma	
+EO:0007214	Alternaria spp.	
+EO:0007215	orange light regimen	
+EO:0007216	yellow light regimen	
+EO:0007217	green light regimen	
+EO:0007218	blue light regimen	
+EO:0007219	indigo light regimen	
+EO:0007220	violet light regimen	
+EO:0007221	visible light regimen	
+EO:0007222	UV light regimen	
+EO:0007223	cadmium chloride	CdCl2
+EO:0007224	light intensity regimen	
+EO:0007225	fluorine nutrient regimen	
+EO:0007226	Magnaporthe grisea	Piricularia grisea	Pyricularia grisea	Pyricularia oryzae	rice blast fungus
+EO:0007227	Cochliobolus lunatus	
+EO:0007228	chromium nutrient regimen	
+EO:0007229	Gibberella fujikuroi	Fusarium fujikuroi	Fusarium moniliforme
+EO:0007230	iodine nutrient regimen	
+EO:0007231	study type	
+EO:0007232	selenium nutrient regimen	
+EO:0007233	Fungi	
+EO:0007234	Pseudomonas fuscovaginae	Pseudomonas fuscivaginae
+EO:0007235	silicon nutrient regimen	
+EO:0007236	Pseudomonas plantarii	Burkholderia plantarii	Burkholderia vandii
+EO:0007239	micronutrient regimen	trace element regimen
+EO:0007240	macronutrient regimen	
+EO:0007241	nutrient regimen	
+EO:0007242	iron nutrient regimen	
+EO:0007243	Pseudomonas glumae	Burkholderia glumae
+EO:0007244	chlorine nutrient regimen	
+EO:0007245	Erwinia chrysanthemi	
+EO:0007246	Bacteria	eubacteria
+EO:0007247	Erwinia herbicola	Pantoea agglomerans
+EO:0007248	green house study	
+EO:0007249	Xanthomonas oryzae pv. oryzicola	Xanthomonas campestris pv. oryzicola
+EO:0007250	Recilia dorsalis	zigzag leafhopper
+EO:0007251	Pseudomonas syringae pv. panici	
+EO:0007252	Sogatella furcifera	white-backed planthopper
+EO:0007253	molybdenum nutrient regimen	
+EO:0007254	Pseudomonas avenae	Acidovorax avenae
+EO:0007255	laboratory study	
+EO:0007256	field study	open field study
+EO:0007257	Xanthomonas oryzae pv. oryzae	Xanthomonas campestris pv. oryza
+EO:0007258	Oebalus pugnax	rice stink bug
+EO:0007259	soil water content	
+EO:0007260	Diopsis macrophthalma	rice stem borer	stalked-eyed fly
+EO:0007261	copper nutrient regimen	
+EO:0007262	solid growth media	
+EO:0007263	Maliarpha separatella	African white stemborer	African whiteheads	white rice borer
+EO:0007264	Sesamia inferens	pink stem borer	purple borer	purple stem borer
+EO:0007265	liquid growth media	
+EO:0007266	tissue culture growth media	
+EO:0007267	benzothiadiazole regimen	
+EO:0007268	fungicide regimen	
+EO:0007269	growth chamber study	
+EO:0007270	continuous dark (no light) regimen	continuous night regimen
+EO:0007271	low light intensity regimen	
+EO:0007272	Scirpophaga innotata	Tipanaea sericea	white rice stemborer	white stemborer
+EO:0007273	boron nutrient regimen	
+EO:0007274	Scirpophaga incertulas	yellow stem borer
+EO:0007275	Rupela albinella	rice stemborer
+EO:0007276	cobalt nutrient regimen	
+EO:0007277	Chilo polychrysus	dark-headed stemborer
+EO:0007278	oxygen regimen	
+EO:0007279	Chilo suppressalis	Asiatic rice borer	striped stemborer
+EO:0007280	unknown study type	
+EO:0007282	standing water	
+EO:0007283	Stenchaetothrips biformis	oriental rice thrips	rice thrips
+EO:0007284	nitrogen nutrient regimen	
+EO:0007285	rainy season	monsoon season	wet season
+EO:0007286	dry season	
+EO:0007287	DBMIB regimen	2,5-dibromo -6-isopropyl-3-methyl-1,4-benzoquinone
+EO:0007288	magnesium nutrient regimen	
+EO:0007289	Hydrellia philippina	rice whorl maggot
+EO:0007290	kinetin regimen	
+EO:0007291	benzyladenine regimen	6-benzylaminopurine	BAP	Benzylaminopurine	N-(Phenylmethyl)-1H-purin-6-amine	N-benzyl-adenine	verdan senescence inhibitor
+EO:0007292	CCP	carbonyl cyanide phenylhydrazone	carbonylcyanide-m-chlorophenylhydrazone
+EO:0007293	potassium nutrient regimen	
+EO:0007294	Pelopidas mathias	black branded swift	lesser millet skipper	small branded swift
+EO:0007295	sulfur nutrient regimen	
+EO:0007296	Dicladispa armigera	rice hispa
+EO:0007297	calcium nutrient regimen	
+EO:0007298	Sogatodes oryzicola	Tagosodes orizicolus	rice delpahcid
+EO:0007300	Leptocorisa oratorius	paddy bug	rice bug
+EO:0007302	T-DNA insert	
+EO:0007303	carbon nutrient regimen	
+EO:0007304	Marasmia patnalis	leaffolder
+EO:0007305	Cnaphalocrocis medinalis	defloiator	leaffolder	rice leaffolder
+EO:0007306	aluminum nutrient regimen	
+EO:0007307	transposable element insert	TE insert
+EO:0007308	Nephotettix spp	green leafhopper
+EO:0007309	zinc nutrient regimen	
+EO:0007310	Ac/Ds transposable element	
+EO:0007311	Orseolia oryzae	Asian rice gall midge	gall midge
+EO:0007312	Tos-17 transposable element	
+EO:0007313	Pseudaletia separata	armyworm
+EO:0007314	Nymphula depunctalis	caseworm	rice caseworm
+EO:0007315	zero gravity	
+EO:0007316	physical environment	
+EO:0007317	Nilaparvata lugens	brown planthopper
+EO:0007318	rice yellow mottle virus	RYMV
+EO:0007319	warm/hot air temperature regimen	
+EO:0007320	Meloidogyne arenaria	
+EO:0007321	Hirschmaniella spinicaudata	
+EO:0007322	Hirschmaniella oryzae	
+EO:0007323	Hirschmaniella mucronata	
+EO:0007324	Hirschmaniella imamuri	rice root nematode
+EO:0007325	Hirschmaniella caudacrena	
+EO:0007326	mycoplasma like organism	MLO
+EO:0007327	Mycovellosiella oryzae	Ramularia oryzae
+EO:0007328	Pythium spp.	
+EO:0007329	Spodoptera praefica	western yellowstriped armyworm
+EO:0007330	Spodoptera mauritia	Prodenia acronyctoides	lawn armyworm
+EO:0007331	Pseudaletia unipuncta	armyworm
+EO:0007332	cold air temperature regimen	
+EO:0007333	Insecta	insect	true insects
+EO:0007334	Pomacea canaliculata	apple snail	golden apple snail
+EO:0007335	Mollusca	mollusc	mollusk
+EO:0007336	Ditylenchus angustus	rice stem nematode	ufra nematode
+EO:0007337	Nematoda	round worm	roundworm
+EO:0007338	cold water temperature regimen	
+EO:0007339	rice tungro spherical virus	RTSV	rice leaf yellowing virus	rice penyakit mentek virus	rice tungro spherical waikavirus	rice waika virus	rice yellow leaf virus	tungro virus
+EO:0007340	Achlya conspicua	
+EO:0007341	Fusarium	Fusarium spp.
+EO:0007342	Achlya klebsiana	
+EO:0007343	Bovinae	cattle
+EO:0007344	rice tungro bacilliform virus	RTBV	rice yellow orange leaf virus
+EO:0007345	Rodentia	mouse	rat	rodent
+EO:0007346	rice yellow stunt virus	RTYV	RYSV	rice transitory yellowing virus	rice yellow stunt rhabdovirus
+EO:0007347	Aves	bird
+EO:0007348	rice stripe necrosis virus	RSNV
+EO:0007349	Metazoa	Animalia
+EO:0007350	rice stripe virus	RSV
+EO:0007356	rice hoja blanca virus	hoja blanca	rice hoja blanca tenuivirus
+EO:0007357	biotic environment	
+EO:0007358	rice grassy stunt virus	RGSV
+EO:0007359	plant environment ontology	plant treatment ontology	treatment ontology
+EO:0007360	barley yellow dwarf virus	BYDV
+EO:0007361	rice gall dwarf virus	RGDV	rice gall dwarf virus RGDV
+EO:0007362	Balansia oryzae-sativae	Ephelis japonica	Ephelis oryzae
+EO:0007363	Magnaporthe salvinii	Helminthosporium sigmoideum	Helminthosporium sigmoideum var.irregulare.	Leptosphaeria salvinii	Nakataea sigmoidae	Sclerotium oryzae
+EO:0007364	Rhizoctonia oryzae	Rhizoctonia zeae	Waitea circinata
+EO:0007365	rice dwarf virus	RDV	rice dwarf phytoreovirus	rice dwarf phytoreovirus RDV
+EO:0007366	rice black streak dwarf virus	RBSDV	Rice black streak virus	Rice black-streaked dwarf virus	rice black-streaked dwarf fijivirus	rice black-streaked dwarf virus RBSDV
+EO:0007367	Aphelenchoides besseyi	rice white-tip nematode
+EO:0007368	warm/hot water temperature regimen	
+EO:0007369	Meloidogyne salasi	
+EO:0007370	Meloidogyne oryzae	
+EO:0007371	Meloidogyne javanica	root-knot nematode
+EO:0007372	Meloidogyne incognita	southern root-knot nematode
+EO:0007373	mechanical damage	wound	wound treatment	wounding
+EO:0007374	Cylindrocladium scoparium	Calonectria morganii
+EO:0007375	Meloidogyne graminicola	
+EO:0007376	Pyrenochaeta oryzae	
+EO:0007377	Athelia rolfsii	Sclerotium rolfsii
+EO:0007378	Sarocladium oryzae	Acrocylindrium oryzae
+EO:0007379	Thanatephorus cucumeris	Rhizoctonia praticola	Rhizoctonia solani	Thanatephorus praticola	black scurf of potato
+EO:0007382	wind environment	
+EO:0007383	watering regimen	
+EO:0007384	freezing air temperature regimen	
+EO:0007385	irrigated land region	
+EO:0007386	Gerlachia oryzae	Monographella albescens	rice leaf scald
+EO:0007387	manganese nutrient regimen	
+EO:0007388	Alternaria padwickii	Trichoconis padwickii
+EO:0007389	Gibberella zeae	Fusarium graminearum
+EO:0007391	lowland region	rainfed lowland region
+EO:0007392	upland region	
+EO:0007394	desert like region	
+EO:0007395	river delta region	
+EO:0007396	flood prone region	deep water	flooding
+EO:0007397	phosphorus nutrient regimen	
+EO:0007398	sub-tropical region	
+EO:0007399	freezing water temperature regimen	
+EO:0007400	arid region	
+EO:0007401	semiarid region	
+EO:0007402	fungal elicitor	
+EO:0007403	unknown environment	
+EO:0007404	drought environment	
+EO:0007405	Hoagland solution	
+EO:0007406	nitrate regimen	
+EO:0007407	methyl jasmonate	
+EO:0007408	5-methyltryptophan	
+EO:0007409	brassinosteroid	
+EO:0007410	cerebroside elicitor	
+EO:0007411	Pseudomonas fluorescens	Bacillus fluorescens	Bacillus fluorescens liquefaciens	Bacterium fluorescen	Liquidomonas fluorescens
+EO:0007412	zinc sulphate regimen	ZnSO4
+EO:0007413	manganese sulfate regimen	MnSO4
+EO:0007414	peroxide regimen	
+EO:0007415	hydrogen peroxide	
+EO:0007503	1,2-dibromoethane	DBE
+EO:0007504	1,2-dichloroethane	DCE
+EO:0007505	1,2:5,6-dibenzanthracene	
+EO:0007506	1,4-dimethanesulfonoxy-1:4-dimethylbutane	CB2348
+EO:0007507	1,4-dimethanesulfonoxybut-2-yne	CB2058
+EO:0007508	1,4-dimethanesulfonoxybutane	CB2041	busulfan
+EO:0007509	1,6-dimethylsulfonoxy D-mannitol	CB2511
+EO:0007510	1,6-dimethylsulfonoxy L-mannitol	CB2628
+EO:0007511	1-amino-2-naphthol-4-sulfonic acid	
+EO:0007512	1-bromo-2-chloroethane	BCE
+EO:0007513	1-diethylaminoethylethylamino-4-methyl-thioxanthenone	
+EO:0007514	2,5,-bisethylene-imine-1,4-benzoquinone	
+EO:0007515	2-chloroethyl methanesulfonate	CB1506
+EO:0007516	2-fluoroethyl methanesulfonate	CB1522
+EO:0007517	2-methoxyethanol	
+EO:0007518	5-bromouracil	
+EO:0007519	5-bromouridine	
+EO:0007520	7-bromomethyl 12 methyl benz or agr/anthracine	
+EO:0007521	actinomycin D	
+EO:0007522	aminopterin	
+EO:0007523	benzo (or agr)pyrene	
+EO:0007524	caffeine	
+EO:0007525	cisplatin	cis-dichlorodiammineplatinum(II)
+EO:0007526	colchicine	
+EO:0007527	cupric sulfate	
+EO:0007528	diepoxybutane	DEB	erythritol anhydride
+EO:0007529	diepoxyoctane	
+EO:0007530	diethyl sulfate	DES
+EO:0007531	dimethyl sulfoxide	
+EO:0007532	DNA	
+EO:0007533	ethyl ether	
+EO:0007534	ethyl methanesulfonate	CB1528	EMS	Methanesulfonic acid ethyl ester
+EO:0007535	ethyl nitrosourea	ENU
+EO:0007536	ethylene oxide	
+EO:0007537	ethylenimine	EI
+EO:0007538	fagaronine	
+EO:0007539	formaldehyde	
+EO:0007540	boric acid	H3BO3
+EO:0007541	hesperidine	
+EO:0007542	hexamethylmelamine	HMM	altretamine
+EO:0007543	hexamethylphosphoramide	HMPA
+EO:0007544	hycanthon methanesulfonate	HMS
+EO:0007545	ICR 100	2-methoxy-6-[3-(ethyl-2-chloroethyl)aminopropylamino]acridine	quinacrine mustard
+EO:0007546	ICR 170	2-methoxy-6-dichloro-9-(3-ethyl-2-chloroethyl-aminopropylamino)acridine-dihydrochloride
+EO:0007547	iodine	
+EO:0007548	Janus green B	
+EO:0007549	methoxy diethylnitrosamine	
+EO:0007550	methyl methanesulfonate	CB1540	MMS
+EO:0007551	mitomycin C	
+EO:0007552	mustard gas	1,1'-thiobis[2-chloroethane
+EO:0007553	N-methyl-N'-nitro-N-nitrosoguanidine	MNNG	NNG
+EO:0007554	N-nitrosodimethylamine	DMN
+EO:0007555	natural gas	
+EO:0007556	nitrogen mustard	2-chloro-N-(2-chloroethyl)-N-methylethanamine	CB1414	HN2	mechlorethamine
+EO:0007557	nitrosomethyl urea	MNU	N-methyl-N-nitrosourea
+EO:0007558	p-N,N-di(2-chloroethyl)aminophenylvaleric acid	CB1356
+EO:0007559	p-N,N-di-(2-chloroethyl)amino-D-phenylalanine	CB3026
+EO:0007560	p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine	CB3007	melphalan
+EO:0007561	p-N,N-di-(2-chloroethyl)amino-L-phenylalanine	CB3025
+EO:0007562	p-N,N-di-(2-chloroethyl)aminophenylbutyric acid	CB1348	chlorambucil
+EO:0007563	p-N,N-di-(2-chloroethyl)aminophenylethylamine	CB3034
+EO:0007564	p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine	CB3051
+EO:0007565	quinhydrone	
+EO:0007566	S-2-chloroethylcysteine	CB1592
+EO:0007567	sodium bisulfite	
+EO:0007568	sodium fluoride	
+EO:0007569	styryl quinoline	CB3086
+EO:0007570	sulfur mustard	CB1735
+EO:0007571	triaziquone	
+EO:0007572	triethylenemelamine	CB1246	TEM
+EO:0007573	urethane	
+EO:0007574	vinyl carbamate	
+EO:0007610	3-H	tritium
+EO:0007611	3-H-deoxycytidine	
+EO:0007612	3-H-thymidine	
+EO:0007613	32-P	
+EO:0007614	agr ray	
+EO:0007615	Bevatron irradiation	
+EO:0007616	deuteron irradiation	
+EO:0007617	ggr ray	
+EO:0007618	137-Cs or ggr ray	
+EO:0007619	226-Ra or agr ray	radium
+EO:0007620	60-Co or ggr ray	
+EO:0007621	magnetic field	
+EO:0007622	neutrons	
+EO:0007623	252-Cf fission neutrons	
+EO:0007624	radio wave	
+EO:0007625	stratosphere exposure	
+EO:0007626	supersonic-treatment	
+EO:0007628	X-ray	
+EO:0007629	hydrogen regimen	
+EO:0007630	Sclerospora spp.	
+EO:0007631	Sclerospora graminicola	
+EO:0007632	insecticide regimen	
+EO:0007633	imidazolinone	
+EO:0007634	Spodoptera litura	

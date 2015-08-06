@@ -1,0 +1,1322 @@
+TO:0000001	carbon sensitivity	CBSN	carbon deficiency
+TO:0000003	alkali soil sensitivity	AlkS	alkali sensitivity
+TO:0000004	reversible male sterility	RMS
+TO:0000006	calcium sensitivity	CALSN	calcium deficiency
+TO:0000007	sulfur sensitivity	SFSN	sulfur deficiency
+TO:0000008	potassium sensitivity	KSN	potassium deficiency
+TO:0000009	genic male sterility-photoperiod sensitive	PGMS	PPDSNGMS	photoperiod sensitive genic male sterility
+TO:0000010	magnesium sensitivity	MGSN	magnesium deficiency
+TO:0000011	nitrogen sensitivity	NISN	nitrogen deficiency
+TO:0000012	hydrogen sensitivity	hydrogen ion sensitivity	molecular hydrogen sensitivity
+TO:0000013	resistance to disease by mycoplasma-like organism	MLO	MLORS
+TO:0000014	panicle weight	PNWT
+TO:0000015	oxygen sensitivity	oxygen deficiency
+TO:0000016	cobalt sensitivity	COSN
+TO:0000017	anatomy and morphology trait	plant architecture trait	plant structure trait
+TO:0000018	boron sensitivity	BOSN	boron deficiency
+TO:0000019	seedling height	SH
+TO:0000020	black streak dwarf virus resistance	BSDVRS
+TO:0000021	copper sensitivity	CUSN
+TO:0000022	stink bug resistance	SBUGRS
+TO:0000023	fungal infection related grain discoloration	Gd	grain discoloration
+TO:0000024	ligule length	LIGLG	LgL
+TO:0000025	molybdenum sensitivity	
+TO:0000026	aborted tri-nucleate stage	TNUABR
+TO:0000027	culm number	CmN
+TO:0000028	unfilled grain number	UNFILGRNB	unfilled florets per panicle	unfilled grain
+TO:0000029	chlorine sensitivity	CHLORSN
+TO:0000030	sedge weed	
+TO:0000031	silicon sensitivity	
+TO:0000032	selenium sensitivity	
+TO:0000033	iodine sensitivity	
+TO:0000034	chromium sensitivity	CHRSN
+TO:0000035	incompatibility trait	
+TO:0000036	hybrid incompatibility	HYBIC
+TO:0000038	fluorine sensitivity	
+TO:0000040	panicle length	PNLG	PnL
+TO:0000041	brown rice length	BRWLG	Len
+TO:0000042	f1-hybrid incompatibility	F1HYBIC
+TO:0000043	root anatomy and morphology trait	
+TO:0000044	stigma exsertion	STIEX	stigma exsertion of male sterile lines
+TO:0000045	udbatta disease resistance	UDb
+TO:0000046	f2-generation sterility	F2GST
+TO:0000047	sporophytic incompatibility	
+TO:0000048	kernel smut disease resistance	KSRS	KSm
+TO:0000049	gametophytic incompatibility	GPHIC
+TO:0000050	inflorescence branching	panicle branching
+TO:0000051	stem strength	CULMSTR	Cs	STEMSTR	culm strength
+TO:0000052	primary branching of inflorescence	PBR	primary branching of panicle
+TO:0000053	pollen sterility	
+TO:0000054	animal damage resistance	pest resistance
+TO:0000055	leaf lamina pubescence	LBP	LFLHR	LFLPUBES	leaf blade pubescence
+TO:0000056	stem color	
+TO:0000057	grain moisture	
+TO:0000058	herbicide sensitivity	herbicide tolerance	weedicide tolerance
+TO:0000059	node color	NDCL
+TO:0000060	aborted uni-nucleate stage	UNUABR
+TO:0000061	node shattering	brittle node
+TO:0000062	phenol reaction	
+TO:0000063	mimic response	MIRP	disease mimic response	lesion mimic
+TO:0000064	plant embryo anatomy and morphology trait	
+TO:0000065	root color	RTCL
+TO:0000067	genic male sterility-thermo sensitive	TGMS	thermo sensitive genic male sterility
+TO:0000068	lodging incidence	LOI	Lg
+TO:0000069	variegated leaf	albino leaf striping	leaf stripes
+TO:0000070	variegated leaf necrosis	VLFNEC	ragged leaf
+TO:0000071	anthocyanin content	ANTHCN
+TO:0000072	awn length	AWNLG	An	awning
+TO:0000073	manganese sensitivity	MNSN
+TO:0000074	blast disease resistance	blast disease resistance trait	blast disease susceptibility
+TO:0000075	light sensitivity	
+TO:0000077	shoot system anatomy and morphology trait	
+TO:0000078	root dry weight	RTDWT	rdw	rdw/t	root dry weight per tiller	total root dry weight
+TO:0000079	lemma and palea anatomy and morphology trait	lemma and palea related trait
+TO:0000080	micronutrient sensitivity	micronutrient deficiency
+TO:0000081	deep root dry weight	DRTDWT	deep root dry weight per tiller	deep root weight	drw	drw/t
+TO:0000082	zigzag leafhopper resistance	ZLFHRS
+TO:0000083	penetrated root number	PENRTNB	npr	number of penetrating roots
+TO:0000084	root number	RTNB	tnr
+TO:0000085	leaf rolling	LFRL	wilting
+TO:0000086	sheath rot disease resistance	SHROTRS	ShR
+TO:0000087	aroma	AROMA	Sct	odour	scent
+TO:0000088	rice yellow mottle virus resistance	RYMV	RYMVRS
+TO:0000089	panicle type	PNTYPE	Panicle attitude of branches	PnT
+TO:0000090	penetrated root thickness	PENRTTH	prt
+TO:0000092	deep root to shoot ratio	DRTSHRO	deep root length to shoot length ratio	deep root ratio	deep root/shoot ratio	dr/s
+TO:0000093	root pulling force	RTPF	rpf
+TO:0000094	basal root thickness	BARTTH	brt
+TO:0000095	osmotic response sensitivity	OSRPSN	oa
+TO:0000096	ratooning ability	RAAB
+TO:0000097	amylopectin content	AMYPCTCN
+TO:0000098	glutinous endosperm	opaque endosperm	waxy endosperm
+TO:0000099	sugary endosperm	sugary kernel
+TO:0000100	shrunken endosperm	collapsed kernel	transluscent kernel
+TO:0000101	broad-leaved weed	
+TO:0000102	phosphorus sensitivity	PDef	PHOSN	phosphorus deficiency
+TO:0000103	deepwater stress	DWSTR	deep water stress
+TO:0000104	floury endosperm	
+TO:0000105	dull endosperm	glassy endosperm
+TO:0000106	male sterility type	MS
+TO:0000107	endosperm storage protein-1 content	
+TO:0000108	leaf shattering	LFSH	leaf abscission
+TO:0000109	endosperm storage protein-2 content	
+TO:0000110	wild abortive CMS	CMS-WA	WACMS
+TO:0000111	genetically engineered male sterility	
+TO:0000112	disease resistance	disease control	disease resistance trait	disease susceptibility	disease tolerance
+TO:0000113	giant embryo	
+TO:0000114	flooding related trait	
+TO:0000115	root mass density	RTMD	rmd
+TO:0000116	root mass density 0-15	rmd 0-15
+TO:0000117	rat damage resistance	RD
+TO:0000118	root mass density 15-30	rmd 15-30
+TO:0000119	root mass density 30-45	rmd 30-45
+TO:0000120	percent root mass density	PCENTRTMD	prmd
+TO:0000121	ufra damage	U
+TO:0000122	percent root mass density 0-15	prmd 0-15
+TO:0000123	percent root mass density 15-30	prmd 15-30
+TO:0000124	flag leaf angle	FLFAG
+TO:0000125	percent root mass density 30-45	prmd 30-45
+TO:0000126	rice grassy stunt virus-2 resistance	RGSV2	RGSV2RS
+TO:0000127	rice grassy stunt virus-1 resistance	RGSV1	RGSV1RS
+TO:0000128	harvest index	HI	HVID
+TO:0000129	false smut disease resistance	FSRS	FSm
+TO:0000130	far red light sensitivity	FRLTSN	Pfr light sensitivity
+TO:0000131	leaf water potential	LFWP	lwp
+TO:0000132	basal internode diameter	BAINDIA	DBI
+TO:0000133	stature or vigor trait	
+TO:0000134	alkali digestion	ALKDIG	AlkD
+TO:0000135	leaf length	LFLG	LL	lfln
+TO:0000136	relative water content	RELWCN	leaf relative water content	rec
+TO:0000137	days to heading	DTHD	heading date
+TO:0000138	brown rice protein	BRWRPROT	BrP	Prt	brown rice protein content
+TO:0000140	apiculus color	APICL	ApC
+TO:0000141	awn color	AWNCL
+TO:0000142	secondary branching of inflorescence	PnBr	SBR	panicle secondary branching	secondary branching of panicle
+TO:0000143	relative biomass	RB	RELBIOM	relative biomass yield
+TO:0000144	milled rice	MR	milled rice ratio
+TO:0000145	internode length	INLG
+TO:0000146	seed length	SDLG
+TO:0000147	rice hoja blanca disease resistance	HBVRS	RHBV
+TO:0000148	viral disease resistance	
+TO:0000149	seed width	SDWD	plump seed
+TO:0000151	rice skipper resistance	SKIPRS
+TO:0000152	panicle number	NOP	NP	PN	PNNB	TP	number of effective tiller per plant	number of panicle	panicle number per plant	panicle number per tiller	seed setting tillers per plant	spike number
+TO:0000153	relative yield	RELYLD	RY
+TO:0000154	thrips resistance	THRIPSRS
+TO:0000155	drought susceptibility index	DRSID	DRSSID	DSI	drought score	drought sensitivity index
+TO:0000156	penetrated root dry weight	PENRTDWT	PRDW
+TO:0000157	canopy temperature	CANTMP
+TO:0000158	red light sensitivity	Pr light sensitivity	RLTSN
+TO:0000159	blue light sensitivity	BLTSN
+TO:0000160	UV light sensitivity	UV resistance	UVRS	Ultraviolet light sensitivity	Ultraviolet resistance
+TO:0000161	radiation response trait	RADSN	radiation sensitivity	response to radiation
+TO:0000162	grain quality trait	
+TO:0000163	auxin sensitivity	AUXSN	IAA response	IAA sensitivity	indole-3-acetic acid response	indole-3-acetic acid sensitivity
+TO:0000164	stress trait	crop damage	stress resistance	stress susceptibility	stress tolerance
+TO:0000165	panicle exsertion	Exs	PNEX
+TO:0000166	gibberellic acid sensitivity	GA3 response	GASN	GB response	Gibberellin response	gibberellic acid response
+TO:0000167	cytokinin sensitivity	CKSN
+TO:0000168	abiotic stress trait	abiotic stress tolerance
+TO:0000169	chinsurah boro CMS	BOROCMS	CMS-boro
+TO:0000170	elongation ability	Elon
+TO:0000171	height related trait	
+TO:0000172	jasmonic acid sensitivity	JASN
+TO:0000173	ethylene sensitivity	ETHSN	ethylene response
+TO:0000175	rice bacterial blight disease resistance	BB	BBRS	leaf blight
+TO:0000176	macronutrient sensitivity	macronutrient deficiency
+TO:0000177	2,4-dichlorophenoxyacetic acid sensitivity	2,4 D sensitivity	24DSN
+TO:0000178	acid soil sensitivity	
+TO:0000179	biotic stress trait	
+TO:0000180	spikelet fertility	SPKFRT	SpFert	percent sterility	seed setting
+TO:0000181	seed weight	
+TO:0000182	insecticide sensitivity	insecticide tolerance
+TO:0000183	other miscellaneous trait	
+TO:0000184	seed anatomy and morphology trait	
+TO:0000185	stigma color	STICL	SgC
+TO:0000187	anther color	ANTCL
+TO:0000188	drought sensitivity	DRS	DRSN	drought susceptibility
+TO:0000189	embryoless	germless
+TO:0000190	seed coat color	SCC	SDCCL	bran color
+TO:0000191	rice hispa resistance	HISPRS
+TO:0000192	leaf-roller resistance	LFRRS
+TO:0000193	embryo shape	
+TO:0000194	globular embryo	
+TO:0000195	shootless embryo	SHMIN
+TO:0000196	amylose content	AMYCN	Amy
+TO:0000197	ligule color	LIGCL	LgC
+TO:0000198	rootless	RTMIN
+TO:0000199	genic male sterility	GMS
+TO:0000200	brittle culm	
+TO:0000201	panicle color	PNCL
+TO:0000202	germination ratio	GERMRO
+TO:0000203	rice bacterial leaf streak disease resistance	BLS	BLSRS
+TO:0000204	rice seedling blight disease resistance	SDLBTRS	kresek	leaf blight
+TO:0000205	white-backed planthopper resistance	WBPH	WBPHRS
+TO:0000206	leaf angle	LBP	LFAG
+TO:0000207	plant height	Ht	PTHT	shoot height
+TO:0000208	lemma number	
+TO:0000209	palea number	PALNB
+TO:0000210	anther number	ANTNB
+TO:0000211	gel consistency	GELCON	GelC
+TO:0000212	green leafhopper resistance	GLFHRS	GLH
+TO:0000213	rice grassy stunt 1 and 2 virus resistance	RGSVRS
+TO:0000214	anther shape	ANTSHP
+TO:0000215	stamen anatomy and morphology trait	stamen related trait
+TO:0000217	genic male sterility-thermo-photoperiod sensitive	TPGMS	thermo-photoperiod sensitive genic male sterility
+TO:0000218	pollen abortion type	abortion pattern	abortion pattern of male sterile lines
+TO:0000220	rice bug resistance	BUGRS	RB
+TO:0000221	glume color	GLCL	glume discoloration	glume pigmentation	pigmentation of glume
+TO:0000222	head rice	HEADR	head milled rice	head rice ratio
+TO:0000223	pistil anatomy and morphology trait	pistil related trait  
+TO:0000224	iron sensitivity	FESN	FeTox	iron toxicity
+TO:0000225	stamen number	STANB
+TO:0000226	auricleless	AUMIN	auricle absence	auricle absent
+TO:0000227	root length	MRD	MRL	RTLG	maximum root depth	maximum root length
+TO:0000228	moisture content related trait	
+TO:0000229	photoperiod sensitivity trait	PPDSN
+TO:0000230	crown rootless	CWRTMIN
+TO:0000231	endospermless	ENDMIN
+TO:0000232	rice cytoplasmic male sterility	<new synonym>	CMS	cytoplasmic male sterility (sensu Oryza)
+TO:0000233	root volume	RTVOL
+TO:0000234	radicleless	
+TO:0000235	liguleless	LIGMIN
+TO:0000236	crop damage resistance	crop damage resistance trait
+TO:0000237	water stress trait	
+TO:0000238	growth media composition sensitivity	edaphic
+TO:0000240	sterile lemma length	SLmL	STLEMLG
+TO:0000241	leaf number	LFNB
+TO:0000242	microbial damage resistance	
+TO:0000243	in vitro regeneration ability	INVRAB
+TO:0000244	coleoptile color	COLCL
+TO:0000245	pollen free	
+TO:0000246	rice delphacid resistance	DELRS	RDel
+TO:0000247	other nutrient sensitivity	
+TO:0000248	primary macronutrient sensitivity	
+TO:0000249	leaf senescence	Foilar senescence	LFSNS	Sen
+TO:0000250	vigor related trait	
+TO:0000251	secondary macronutrient sensitivity	
+TO:0000252	non-mineral nutrient sensitivity	
+TO:0000253	seed dormancy	SDDOR
+TO:0000254	growth media pH sensitivity	soil pH stress
+TO:0000255	sheath blight disease resistance	SHBTRS	ShB
+TO:0000257	root branching	RTBR	rbr
+TO:0000258	leaf thickness	
+TO:0000259	heat tolerance	HTol
+TO:0000260	bird damage resistance	BD
+TO:0000261	insect damage resistance	insect resistance
+TO:0000262	panicle shape	
+TO:0000264	lemma and palea color	LEMCL	LEMPALCL	Lemma color	LmPC	PALCL	palea color
+TO:0000265	light quality sensitivity	response to light quality
+TO:0000266	chalky endosperm	CHALK	Clk	chalkiness of endosperm
+TO:0000267	inflorescence type	INFLOTYPE	inflorescence type
+TO:0000268	inflorescence shape	
+TO:0000269	100-seed weight	100-grain weight	HGRWT	HSDWT	hundred grain weight	hundred seed weight
+TO:0000270	inflorescence axis angle	
+TO:0000271	inflorescence length	
+TO:0000273	armyworm resistance	AWRRS
+TO:0000274	floret anatomy and morphology trait	floret related trait
+TO:0000275	perianth anatomy and morphology trait	perianth related trait
+TO:0000276	drought tolerance	DRTL	drought resistance
+TO:0000277	biochemical trait	
+TO:0000278	root to shoot ratio	RTSHRO	r/s	root length to shoot length ratio	root/shoot ratio
+TO:0000279	root weight	RTWT	TRW	total root weight
+TO:0000280	seedling vigor	SDLVIG	Sd
+TO:0000281	metabolite content related trait	
+TO:0000282	enzymatic activity and protein content related trait	
+TO:0000283	biological process related trait	
+TO:0000284	ADP glucose pyrophosphorylase activity trait	ADP-glucose pyrophosphorylase	ADP-glucose synthase	ADP-glucose synthetase	ADPG pyrophosphorylase	AGPACT	adenosine diphosphate glucose pyrophosphorylase	adenosine diphosphoglucose pyrophosphorylase	glucose 1-phosphate adenylyltransferase	glucose-1-phosphate adenylyltransferase activity
+TO:0000285	nodal tillering	
+TO:0000286	submergence sensitivity	SUBSN	Sub	submergence tolerance
+TO:0000287	brown rice shape	BRWSHP	BrS
+TO:0000288	alpha-amylase activity	ALPHAAMYASEACT	Amy	alpha amylase	endoamylase	glycogenase	taka-amylase A
+TO:0000289	carotene content	
+TO:0000290	flavonoid content	
+TO:0000291	carbohydrate content	CARBCN
+TO:0000292	yellow dwarf disease resistance	YD	YDRS
+TO:0000293	chlorophyll-a content	chl-a
+TO:0000294	leaf sheath auricle color	AC	AUCL
+TO:0000295	chlorophyll-b content	
+TO:0000296	vegetative vigor	VGVIG	Vg	vegetative growth vigor
+TO:0000297	glucosamine content	2-amino-2-deoxyglucopyranose content	GLUCNCN
+TO:0000298	chlorophyll ratio	CHLRO	chl-a to chl-b ratio	chlorophyll content ratio
+TO:0000299	leaf lamina color	LBC	LFLCL	leaf blade color	leaf color
+TO:0000300	glucose content	D-glucose content	GLUCCN	dextrose content
+TO:0000301	xanthophyll content	XANCN
+TO:0000303	cold tolerance	COLDTL	CTol
+TO:0000304	seed thickness	SDTH
+TO:0000305	glutamine synthetase content	GS1	GS1CN	L-glutamine synthetase	glutamate-ammonia ligase	glutamylhydroxamic synthetase
+TO:0000306	root thickness	RTTH
+TO:0000307	hexose content	HEXCN
+TO:0000308	male fertility restoration trait	MALERF	male fertility restoration in F1 hybrids
+TO:0000310	self-incompatibility	Genetic self-incompatibility
+TO:0000311	invertase activity trait	INVACT	acid invertase	alkaline invertase	beta-D-fructofuranoside fructohydrolase	beta-fructofuranosidase activity	beta-fructosidase	beta-h-fructosidase	fructosylinvertase	glucosucrase	invertin	maxinvert L 1000	saccharase	sucrase
+TO:0000312	NADH glutamate synthase content	L-glutamate synthase (NADH)	L-glutamate synthetase	NADH-dependent glutamate synthase	NADH-glutamate synthase	NADHGOGATCN	glutamate (reduced nicotinamide adenine dinucleotide) synthase	glutamate synthase (NADH) activity	glutamate synthase (NADH2)
+TO:0000313	perodidase-71 content	P71CN
+TO:0000314	phosphoglycerate mutase content	PGAM	PGAMCN
+TO:0000315	bacterial disease resistance	
+TO:0000316	photosynthetic ability	PHOTOSYNAB
+TO:0000317	cutworm resistance	CUWRRS
+TO:0000318	reducing sugar content	REDSUGCN
+TO:0000319	rubisco content	RUBISCOCN
+TO:0000320	rubisco to chlorophyll ratio	RUBISCOCHLRO
+TO:0000321	rubisco to nitrogen content ratio	RUBISCONICNRO
+TO:0000322	phenotypic acceptability	PAcp	overall liking
+TO:0000323	stem rot disease resistance	CULMROTRS	SR
+TO:0000324	rubisco to soluble protein ratio	RUBISCOSPROTRO
+TO:0000325	soluble protein content	SPROTCN
+TO:0000326	leaf color	LFCL
+TO:0000327	shoot system yield trait	BIOMYLD	BY
+TO:0000328	sucrose content	SUCROSECN	saccharose content
+TO:0000329	tillering ability	TIAB	Ti
+TO:0000330	outcrossing potential	extent of outcrossing	extent of outcrossing on male sterile lines
+TO:0000331	sucrose phosphate synthase activity trait	SPS	SPSACT	UDP-glucose-fructose-phosphate glucosyltransferase	sucrose 6-phosphate synthase	sucrose phosphate synthetase	sucrose phosphate-uridine diphosphate glucosyltransferase	sucrose-phosphate synthase activity	sucrosephosphate-UDP glucosyltransferase	uridine diphosphoglucose-fructose phosphate glucosyltransferase
+TO:0000332	rice whorl maggot resistance	RWM	RWMRS
+TO:0000333	sugar content	SUGARCN
+TO:0000335	ligule shape	LIGSHP	LS
+TO:0000336	total amylase activity	TAMYASEACT	amylase activity
+TO:0000337	kneeing ability	KNEAB	KnA	tiller angle
+TO:0000338	beta-amylase activity	BETAAMYASEACT
+TO:0000339	stem thickness	CULMTH	STEMTH	culm thickness	culm thickness (sensu Poaceae)
+TO:0000340	total soluble sugar content	TSOLSUGARCN
+TO:0000342	panicle axis angle	PnAk
+TO:0000343	grass weed	
+TO:0000344	days to flowering trait	DTFL	Delay in flowering time	days to flowering
+TO:0000345	seed viability	SDVIA
+TO:0000346	tiller number	TINB
+TO:0000347	weed damage	
+TO:0000348	sogatodes resistance	SAGRS
+TO:0000349	physiological process related trait	
+TO:0000350	cms-hl type	CMS-HL	HLCMS
+TO:0000351	zinc sensitivity	PDef	ZNSN	zinc deficiency
+TO:0000352	plant dry weight	DMASS	PTDWT	RTWT	dry mass	total dry mass
+TO:0000353	aborted at pollen maturity stage	PMTABR
+TO:0000354	aluminum sensitivity	ALSN	aluminum toxicity
+TO:0000355	heterosis	HET	heterosis in f1 hybrid	hybrid vigor
+TO:0000356	brown spot disease resistance	BS
+TO:0000357	plant growth and development trait	
+TO:0000358	female sterility	FEMST
+TO:0000359	female flowering	DTSLK	FEMFLW	FFLW	Female flower anthesis	Female flower flowering	days to silk
+TO:0000360	leaf elongation rate	LFELRATE	leaf growth rate
+TO:0000361	stem anatomy and morphology trait	core anatomy and morphology trait 
+TO:0000364	leaf collar color	CC	LFCCL	collar color
+TO:0000365	male flowering	MALEFLW	MFLW	male flower anthesis	male flower flowering
+TO:0000366	reproductive growth time	RGTM
+TO:0000367	basal leaf sheath color	BALFSCL	BLSC
+TO:0000368	shoot elongation rate	SHELRATE	elongation of plant height
+TO:0000369	vegetative growth time	VGTM
+TO:0000370	leaf width	LFWD	LW	lfwid
+TO:0000371	yield trait	YLD
+TO:0000372	amylose to amylopectin ratio	AMYAMYPCTRO
+TO:0000373	inflorescence anatomy and morphology trait	ear anatomy and morphology trait	inflorescence anatomy and morphology trait (sensu Oryza)	inflorescence anatomy and morphology trait (sensu Zea)	inflorescence related trait (sensu Poaceae)	inflorescence structure trait	panicle anatomy and morphology trait	panicle related trait	tassel anatomy and morphology trait
+TO:0000374	breakdown viscosity	BRKVIS
+TO:0000375	brown rice ratio	BRWRRO	brown rice length to width ratio
+TO:0000376	consistency viscosity	CONVIS
+TO:0000377	cooked grain elongation	CKKEL	cooked kernel elongation
+TO:0000378	leaf scald disease resistance	LFSRS	LSc
+TO:0000379	cool paste viscosity	CPVIS
+TO:0000381	cracked grain percentage	CRKGRPCENT	fissured grain percentage
+TO:0000382	1000-seed weight	1000-grain weight	TGRWT	TSDWT	thousand grain weight	thousand seed weight
+TO:0000383	grain belly percent white	GRBPCENTWHT
+TO:0000384	nematode damage resistance	NDRS
+TO:0000385	milled grain color	GRCL	MGRCL
+TO:0000386	rice ragged stunt virus resistance	RSVRS
+TO:0000387	plant trait	plant phenotype	plant quality
+TO:0000388	forage yield	FRGYLD	FY	straw yield
+TO:0000389	nuclear mediated male sterility	
+TO:0000390	grain core percent white	GRCPCENTWHT
+TO:0000391	seed size	
+TO:0000392	sterility or fertility trait	
+TO:0000394	drought related trait	dessication related trait
+TO:0000396	grain yield trait	GRYLD	Yld
+TO:0000397	grain size	GRSZ
+TO:0000399	grain thickness	GRTH
+TO:0000400	sterile lemma color	SLmC	STLEMCL
+TO:0000401	plant growth hormone sensitivity	growth regulator sensitivity	plant hormone response
+TO:0000402	grain width	DHULGRWD	GRWD	dehulled grain curved width	dehulled-grain width	width of grain without hull
+TO:0000403	leaf-folder resistance	LF	LFFRS
+TO:0000404	nodal rooting	
+TO:0000405	caseworm resistance	CW	CWRS	float worm	hama putih (indonesian)	paddy caseworm
+TO:0000406	panicle threshability	PNTH	Thr
+TO:0000408	hot paste viscosity	HPVIS
+TO:0000409	peak viscosity	PVIS
+TO:0000410	polished rice protein content	POLRPROTCN
+TO:0000411	seed length to width ratio	GRLGWDRO	SDLGWDRO	grain length to width ratio
+TO:0000412	setback viscosity	SETBK	SETBKVIS	setback
+TO:0000413	rice tungro virus resistance	RTD	RTVRS
+TO:0000414	white rice protein content	WHTRPROTCN	polished rice protein	protein content for polished rice
+TO:0000415	aborted bi-nucleate stage	BNUABR
+TO:0000416	embryo sac abortion	EBSABR
+TO:0000417	lemma and palea pubescence	LmPb
+TO:0000418	bakanae disease resistance	BKRS	Bak
+TO:0000419	vascular leaf anatomy and morphology trait	
+TO:0000420	fertility related trait	
+TO:0000421	pollen fertility	POFRT
+TO:0000422	narrow brown leaf spot disease resistance	NBLFSPRS	NBLS
+TO:0000423	gall midge resistance	GM	GMRS
+TO:0000424	brown planthopper resistance	BPH	BPHRS
+TO:0000425	anther culturability	ANTCAB	anther culture response
+TO:0000426	internode color	CmlC	INCL	culm internode color	stem internode color
+TO:0000427	culm angle	CULMAG	CmA
+TO:0000428	callus induction	CAIND
+TO:0000429	salt sensitivity	SALTSN	Sal	saline sensitivity
+TO:0000430	germination rate	GERMRATE	GERMSP	germination speed
+TO:0000431	ear length	EARLG	earln
+TO:0000432	temperature response trait	
+TO:0000433	ear diameter	EARDIA	eard
+TO:0000434	root activity	RTACT
+TO:0000435	seed longevity	SDLNG
+TO:0000436	spikelet sterility	SPKST
+TO:0000437	male sterility	MALEST	degree of male sterility of male sterile lines	male sterility measure
+TO:0000439	fungal disease resistance	
+TO:0000440	grain number per plant	GRNBPPT
+TO:0000441	humidity related trait	
+TO:0000442	plant fresh weight	PLFWT
+TO:0000443	ear infructescence number	EARNB	ENO	ENP	ear number per plant	ears per 10 plants	ears per plant
+TO:0000444	parasitic weed	
+TO:0000445	seed number	SDNB	seeds per panicle
+TO:0000446	leaf drying	LFDRY
+TO:0000447	filled grain number	FGRNB	FILGRNB	GRNBPPN	filled fruit number	filled grain number per panicle	grain number per panicle (sensu Oryza)	number of grains per panicle
+TO:0000448	filled grain percentage	FGRPCENT	Filled grain percent per panicle
+TO:0000449	grain yield per plant	GRYLDPPL
+TO:0000450	grain yield per panicle	GRYLDPPN
+TO:0000451	large vascular bundle number to spikelet number ratio	LVBNBSPKNBRO
+TO:0000452	leaf area to spikelet number ratio	LFARSPKNBRO
+TO:0000453	panicle to tiller ratio	PNTIRO	panicle tiller ratio	productive tiller percent
+TO:0000454	stem borer resistance	CULMBRRS	SB
+TO:0000455	seed set percent	SDSPCENT	percent seed set
+TO:0000456	spikelet number	SPKNB	number of spikelets per panicle	spikelet number per panicle
+TO:0000457	total biomass yield	TBIOMYLD	dry matter yield	total dry weight
+TO:0000458	drought recovery	DRR
+TO:0000459	root epidermis cell length	RTEPCELLG
+TO:0000460	light intensity sensitivity	light intensity response
+TO:0000461	basic vegetative phase	BAVEGPH
+TO:0000462	gelatinization temperature	GELTZTMP
+TO:0000463	anthesis silking interval	ANTSKIT	ASI	FLWSLKINTER
+TO:0000464	albino plantlet differentiation frequency	ALBPTLDFQ
+TO:0000465	mineral and ion content related trait	
+TO:0000466	carbon content	CBCN
+TO:0000467	cell membrane stability	CELMBSTB
+TO:0000468	leaf blast disease resistance	Bl	LFBLRS
+TO:0000469	days to maturity	DTMT	Mat
+TO:0000470	vascular tissue anatomy and morphology trait	
+TO:0000471	root penetration index	RTPNID
+TO:0000472	vascular bundle number	VBNB
+TO:0000473	grain shattering	GRSH	caryopsis shattering
+TO:0000474	glume opening	glume angle	opening of glume of male sterile lines
+TO:0000475	adventitious root thickness	ADVRTTH
+TO:0000476	growth hormone content	
+TO:0000477	panicle blast disease resistance	PB	PNBLRS
+TO:0000478	abscisic acid concentration	ABA concentration	ABACONC	abscisic acid accumulation	abscisic acid content
+TO:0000479	acid sensitivity	ADSN
+TO:0000480	nutrient sensitivity	nutrient deficiency
+TO:0000481	alkali sensitivity	ALKSN
+TO:0000482	chemical stress sensitivity	
+TO:0000483	germinability at low temperature	GERMABITMP	germination ability at low temperature
+TO:0000484	seed shape	SDSHP
+TO:0000485	sterility related trait	
+TO:0000486	seed color	SDCL
+TO:0000487	endosperm color	ENDCL
+TO:0000488	seed composition based quality trait	
+TO:0000489	carbohydrate composition related trait	
+TO:0000490	protein composition related trait	
+TO:0000491	fat and essential oil composition related trait	
+TO:0000492	leaf shape	LFSHP
+TO:0000493	leaf composition trait	
+TO:0000494	pigment content	
+TO:0000495	chlorophyll content	CHLCN
+TO:0000496	carotenoid content	CRTCN
+TO:0000497	fertility restoration trait	RF
+TO:0000498	female fertility restoration trait	FEMRF
+TO:0000499	flower anatomy and morphology trait	
+TO:0000501	spikelet weight	SPKWT
+TO:0000502	potassium chlorate resistance	KCLO3RS	KClO3 resistance
+TO:0000503	leaf rolling time	LFRLTM
+TO:0000504	leaf temperature	LFTMP
+TO:0000505	leaf weight trait	LFWT
+TO:0000506	nitrogen recycling	NIRCYC	nitrogen conservation
+TO:0000507	osmotic adjustment capacity	OSADJCAP
+TO:0000508	penetrated root length	PENRTLG
+TO:0000510	penetrated to total root ratio	PENTRTRO
+TO:0000511	phosphorus uptake	PHOUP
+TO:0000512	plant survival percentage under submergence	PTSPCENTSUB
+TO:0000513	potassium concentration	KCONC
+TO:0000514	potassium uptake	KUP
+TO:0000515	relative growth rate	RELGRATE
+TO:0000516	relative root length	RELRTLG
+TO:0000517	relative shoot elongation under submergence	RELSHELSUB
+TO:0000519	rooting depth	RTDP	maximum rooting depth
+TO:0000520	stomatal closure rate	STOCSRRATE
+TO:0000521	stomatal closure time	STOCSRTM
+TO:0000522	stomatal conductance	STOCOND
+TO:0000523	stomatal resistance	STORS
+TO:0000524	submergence tolerance	SUBTL
+TO:0000525	sodium to potassium content ratio	NAKRO	Na/K ratio	sodium to potassium ratio
+TO:0000526	sodium concentration	NACONC
+TO:0000527	sodium uptake	NAUP
+TO:0000528	total shoot elongation under submergence	TSHELSUB
+TO:0000529	abaxial stomatal frequency	ABXSTOFQ
+TO:0000530	adaxial stomatal frequency	ADXSTOFQ
+TO:0000531	anther length	ANTLG
+TO:0000532	apiculus hair length	APIHLG	APIHRLG
+TO:0000534	culm color	CULMCL
+TO:0000536	floret color	FLCL
+TO:0000537	flower color	FLCL
+TO:0000538	large vascular bundle number to leaf area ratio	LVBNBLFARRO
+TO:0000539	large vascular bundle number	LVBNB
+TO:0000540	leaf area trait	LFAR
+TO:0000541	leaf height	LFHT
+TO:0000542	leaf length to width ratio	LFLGWDRO
+TO:0000543	leaf nitrogen content	LFNICN
+TO:0000544	mesocotyl length	MCTLG
+TO:0000545	panicle base to lowest branch	PNBLBR	panicle base to first primary branch	panicle base to lowest primary panicle branch	peduncle length from panicle base to first primary branch
+TO:0000546	peduncle top diameter	PDTDIA
+TO:0000547	primary branch number	NPB	PBRNB	PRB	number of primary rachis branches	panicle primary branch number	primary branches per panicle
+TO:0000548	rhizome number	RHZNB	rhizome number per plant
+TO:0000549	rhizome anatomy and morphology trait	
+TO:0000550	rhizome branching angle	RHZBRAG	rhizome branching degree
+TO:0000551	rhizome branching number	RHZBRNB	rhizome branching number per plant
+TO:0000552	shoot dry weight	SHDWT	total shoot dry weight
+TO:0000553	rhizome length	RHZLG	average rhizome length
+TO:0000554	rhizome internode length	RHZINLG	average rhizome internode length
+TO:0000555	rhizome internode number	RHZINNB	average rhizome internode number
+TO:0000556	rhizome dry weight	RHZDWT	rhizome dry weight per plant
+TO:0000557	secondary branch number	SBRNB	secondary branches per panicle
+TO:0000558	small vascular bundle number	SVBNB
+TO:0000559	plant volume	SP	space
+TO:0000560	space per culm	SPPCULM	tiller volume
+TO:0000561	space to culm ratio	SPCULMRO
+TO:0000562	specific leaf area	SLA	SLFAR	leaf specific area
+TO:0000563	spikelet length to width ratio	SPKLGWDRO
+TO:0000564	spikelet width	SPKWD
+TO:0000565	spikelets per panicle length	SPKPPNLG	number of spikelets per cm panicle length	spikelet number per panicle length
+TO:0000566	stomatal frequency	STOFQ
+TO:0000567	tiller angle	TIAG
+TO:0000568	shoot weight	SHWT	total shoot weight
+TO:0000569	white-backed planthopper egg mortality	WBPH egg mortality	WBPHOVI
+TO:0000570	watery lesion percentage	WLPCENT	percentage of watery lesion
+TO:0000571	shoot fresh weight	SHFWT	total shoot fresh weight
+TO:0000572	petal color	
+TO:0000573	sepal color	
+TO:0000574	tepal color	
+TO:0000575	endosperm anatomy and morphology trait	
+TO:0000576	stem length	CULMLG	CmL	STEMLG	core length	culm height	culm length	stem height
+TO:0000577	stem angle	STEMAG
+TO:0000578	root fresh weight	RTFWT	total root fresh weight
+TO:0000579	root dry weight to tiller number ratio	RTDWTTINBRO	deep root dry weight to tiller number ratio
+TO:0000580	cytoplasmic male sterility	
+TO:0000581	inflorescence color	
+TO:0000582	inflorescence number	INFLONB
+TO:0000583	infructescence weight	
+TO:0000586	seminal root length	
+TO:0000587	endosperm quality	End	endosperm quality (sensu Poaceae)
+TO:0000589	average grain weight	GRWT	SDWT	grain weight	kernel weight
+TO:0000590	dehulled grain weight	DHULGRWT	GRWT
+TO:0000591	100-dehulled grain weight	HDGRWT	HDHULGRWT	hundred dehulled-grain weight	hundred grain weight
+TO:0000592	1000-dehulled grain weight	TDGRWT	TDHULGRWT	thousand dehulled-grain weight	thousand grain weight
+TO:0000593	polished grain weight	PLSGRWT
+TO:0000594	100-polished grain weight	HPLSGRWT	hundred polished grain weight
+TO:0000595	1000-polished grain weight	TPLSGRWT	thousand polished grain weight
+TO:0000597	quality trait	
+TO:0000598	protein content	PROTCN	total protein content
+TO:0000599	enzyme activity trait	enzymatic activity	enzyme catalytic activity
+TO:0000600	UV-A light sensitivity	UV-A resistance	UVARS	Ultraviolet-A light sensitivity	Ultraviolet-A resistance
+TO:0000601	UV-B light sensitivity	UV-B resistance	UVBRS	Ultraviolet-A light sensitivity	Ultraviolet-B resistance
+TO:0000602	total fat content	FATCN	lipid content
+TO:0000603	magnesium to potassium content ratio	MGKCNRO	Magnesium to potassium ratio	ratio of magnesium to potassium
+TO:0000604	fat and essential oil content	
+TO:0000605	hydrogen peroxide content	H2O2 content	H2O2CN
+TO:0000606	diastatic power	DIASPWR
+TO:0000607	ash content	
+TO:0000608	sodium content	
+TO:0000609	potassium content	
+TO:0000610	soluble to total protein ratio	STPROTRO	Soluble protein to total protein content ratio
+TO:0000611	malt-extract percentage	MALTEXTPCENT	malt-extract percent
+TO:0000612	grain density	SDDN	test weight
+TO:0000613	groat percentage	GROATPCENT	caryopsis percentage	groat proportion	hull percentage
+TO:0000614	lemma shape	
+TO:0000615	abscisic acid sensitivity	ABA response	ABASN	abscisic acid response
+TO:0000616	leaf perimeter	LFCIRCUM	leaf circumference
+TO:0000617	colored grain percentage	percentage of colored grains	percentage of damaged yellow rice grains	percentage of green rice grains	percentage of red rice grains
+TO:0000618	crushed grain percentage	CRUSHDHULGRPCENT	CRUSHGRPCENT	cracked dehulled-grain percentage	cracked grain percentage	crushed dehulled-grain percentage	percent broken	percentage brokens
+TO:0000619	vivipary	preharvest germination
+TO:0000620	plant embryo development trait	
+TO:0000621	inflorescence development trait	
+TO:0000622	flower development trait	floret development trait
+TO:0000623	involucre bristle length	INVLCBS	bristle length	sterile inflorescence branch length
+TO:0000624	allelopathic effect	ALLELPATHEF
+TO:0000625	spikelet density	SPKDN
+TO:0000626	relative phosphorus distribution between shoot and root	RELPHOCONCSHRT
+TO:0000627	relative phosphorus utilization efficiency	RELPHOUTZEFY
+TO:0000628	pearl millet downy mildew resistance	Pg_DNMDRS
+TO:0000629	days to tassel	days to tassel flowering
+TO:0000630	pedicel length	PDCLG
+TO:0000631	green plantlet differentiation frequency	GRNPTLDFQ
+TO:0000632	Green plantlet yield frequency	GRNPTLYLDFQ
+TO:0000633	relative total dry weight	RELTDWT
+TO:0000634	node number	NDNB
+TO:0000635	popping expansion volume	POPEXPVOL	popcorn volume
+TO:0000636	relative shoot dry weight	RELSHDWT
+TO:0000638	spike width	SPIKEWD
+TO:0000639	seed fertility	SDFRT	percent seed fertility
+TO:0000640	total root number	TRTNB
+TO:0000641	inflorescence primary branch length	PBRLG
+TO:0000642	leaf sheath diameter	LFSDIA
+TO:0000643	bristle length	BRLG
+TO:0000644	relative root dry weight	RELRTDWT
+TO:0000645	relative phosphorus concentration	RELPHOCONC
+TO:0000646	cauline axillary branch number	CAUAXIBRNB
+TO:0000647	relative acid phosphatase activity	RELACIDPASEACT
+TO:0000648	relative phosphorus uptake	RELPHOUP
+TO:0000649	peduncle width	PDCWD
+TO:0000650	lemma length	LEMLG
+TO:0000651	flour color	FLRCL
+TO:0000652	leaf necrosis	LFNEC	leaf scorch
+TO:0000653	seed growth and development trait	
+TO:0000654	shoot system growth and development trait	
+TO:0000655	leaf growth and development trait	
+TO:0000656	root development trait	
+TO:0000657	spikelet anatomy and morphology trait	<new synonym>
+TO:0000658	days to silk	
+TO:0000659	phyllochron	
+TO:0000660	axillary bud dormancy	
+TO:0000661	tiller bud dormancy	
+TO:0000662	barley fusarium head blight resistance	Hv_FUSHEADBTRS
+TO:0000663	wheat fusarium head blight resistance	Ta_FUSHEADBTRS
+TO:0000664	fungal blight disease resistance	
+TO:0000665	grain core area white	GRCARWHT
+TO:0000666	brown rice yield	BRWRYLD
+TO:0000667	cooking or brewing quality	
+TO:0000668	mycotoxin content	
+TO:0000669	deoxynivalenol concentration	DONCONC
+TO:0000670	floret number	FLNB
+TO:0000671	pre-flowering flower abortion	PREFLFLRABR	frequency of pre-flowering floret abortion	pre-flowering floret abortion
+TO:0000672	bran percentage	BRAPCENT	rice bran percentage
+TO:0000673	tetraploid wheat fusarium head blight resistance	Tt_FUSHEADBTRS	tetraploid wheat fusarium head blight disease resistance
+TO:0000674	phytochemical compound content	
+TO:0000675	ferulic acid content	4-hydroxy-3-methoxycinnamic acid	FERULICACIDCN
+TO:0000676	style color	STYCL	color of silk	color of style	silk color
+TO:0000677	third leaf height	3LFHT	3rd leaf height
+TO:0000678	cob diameter	COBDIA	cobd	diameter of central spike of ear 
+TO:0000680	inflorescence circumference	INFLOCIRCUM
+TO:0000681	ear circumference	EARCIRCUM
+TO:0000682	inflorescence height	INFLOHT
+TO:0000683	ear infructescence height	EARHT
+TO:0000684	grassy flavor	GRASSYFLVOR	grassy flavour
+TO:0000685	fruit tenderness	FRTENDER	TENDER
+TO:0000686	juiciness	JUICE	succulence
+TO:0000687	kernel row number per ear	KERROWNB	kernel row
+TO:0000688	kernel row length	KERROWLG	kernel set length
+TO:0000689	grain tenderness	GRTENDER	kernel tenderness
+TO:0000690	Maysin content	MAYSINCN
+TO:0000691	Zea mays northern leaf blight disease resistance	
+TO:0000692	NCLB incubation period	NLFBTINCUBPD
+TO:0000693	NCLB area under disease progress curve	AUDPC	NLFBTPROGCURV
+TO:0000694	fruit crispness	CRISP
+TO:0000695	leaf margin color	LFMCL	leaf margin pigmentation	pigmentation of leaf margin
+TO:0000696	starch content	STARCHCN
+TO:0000697	starch yield	STARCHYLD
+TO:0000698	starchiness	STARCH	mealiness
+TO:0000699	sucrose synthase activity trait	SUSACT
+TO:0000700	fruit sweetness	FRSWEET	SWEET
+TO:0000701	turgor pressure	TURGPRES
+TO:0000702	starch concentration	STARCHCONC
+TO:0000703	amylase activity trait	
+TO:0000704	phosphatase activity trait	phosphoric monoester hydrolase activity
+TO:0000705	acid phosphatase activity	ACIDPASEACT
+TO:0000706	hull color	HULCL
+TO:0000707	pericarp color	DHULGRCL	PERICARPCL	bran color	dehulled grain color	grain color
+TO:0000708	plant color	
+TO:0000709	leaf gloss	
+TO:0000710	globulin protein content	
+TO:0000711	imidazolinone sensitivity	
+TO:0000712	sulfonylurea herbicide sensitivity	
+TO:0000713	brittle endosperm	
+TO:0000714	seminal rootless	absence of seminal roots
+TO:0000715	fascicled ear	
+TO:0000716	etched endosperm	
+TO:0000717	rough endosperm	
+TO:0000718	wrinkled seed	wrinkled kernel
+TO:0000719	leaf vein color	
+TO:0000720	leaf midrib color	
+TO:0000721	leaf adherence	
+TO:0000722	sporocyte development trait	
+TO:0000723	microsporocyte development trait	
+TO:0000724	megasporocyte development trait	
+TO:0000725	megasporocyte number	
+TO:0000726	microsporocyte number	
+TO:0000727	sporogenesis	
+TO:0000728	cell cycle trait	cell division cycle
+TO:0000729	meiotic cell cycle trait	
+TO:0000730	mitotic cell cycle trait	
+TO:0000731	lignin content	
+TO:0000732	lignin monomer content	
+TO:0000733	lignin biosynthesis trait	lignin biosynthesis
+TO:0000734	grain length	DHULGRLG	GRLG	KERLG	kernel length	length of dehulled grain	length of grain without hull
+TO:0000735	plastochron	
+TO:0000736	plant organ anatomy and morphology trait	
+TO:0000737	plant aspect	
+TO:0000738	plant axis anatomy and morphology trait	
+TO:0000739	shoot axis anatomy and morphology trait	
+TO:0000740	branch anatomy and morphology trait	
+TO:0000741	tuber anatomy and morphology trait	
+TO:0000742	subterranean tuber anatomy and morphology trait	
+TO:0000743	subterranean tuber shape	tuber shape
+TO:0000744	subterranean tuber size	tuber size
+TO:0000745	subterranean tuber appearance	tuber appearance
+TO:0000746	subterranean tuber mass	tuber mass
+TO:0000747	phyllome anatomy and morphology trait	
+TO:0000748	leaf anatomy and morphology trait	
+TO:0000749	cotyledon anatomy and morphology trait	
+TO:0000750	seedling cotyledon color	
+TO:0000751	seedling cotyledon number	
+TO:0000752	seedling cotyledon size	
+TO:0000753	coleoptile anatomy and morphology trait	
+TO:0000754	cardinal organ part anatomy and morphology trait	
+TO:0000755	shoot internode anatomy and morphology trait	
+TO:0000756	stem internode anatomy and morphology trait	
+TO:0000757	hypocotyl anatomy and morphology trait	
+TO:0000758	mesocotyl anatomy and morphology trait	
+TO:0000759	seedling hypocotyl color	
+TO:0000760	seedling hypocotyl green	
+TO:0000761	seedling hypocotyl green with bronze band	
+TO:0000762	seedling hypocotyl purple	
+TO:0000763	seedling hypocotyl dark purple	
+TO:0000764	stalk anatomy and morphology trait	
+TO:0000765	petiole anatomy and morphology trait	
+TO:0000766	petiole length	
+TO:0000767	petiole shape	
+TO:0000768	petiole size	
+TO:0000769	seedling hypocotyl anatomy and morphology trait	
+TO:0000770	bacterial blight disease resistance	
+TO:0000771	embryo hypocotyl anatomy and morphology trait	
+TO:0000772	seedling mesocotyl anatomy and morphology trait	
+TO:0000773	embryo mesocotyl anatomy and morphology trait	
+TO:0000774	seedling cotyledon anatomy and morphology trait	
+TO:0000775	embryo cotyledon anatomy and morphology trait	
+TO:0000776	peduncle anatomy and morphology trait	
+TO:0000777	peduncle waxiness	
+TO:0000778	peduncle type	
+TO:0000779	peduncle color	
+TO:0000780	peduncle attachment	pod attachment
+TO:0000781	seedling hypocotyl size	
+TO:0000782	inflorescence axis anatomy and morphology trait	
+TO:0000783	inflorescence axis size	
+TO:0000784	inflorescence branch anatomy and morphology trait	
+TO:0000785	tassel branch anatomy and morphology trait	
+TO:0000786	reproductive shoot system anatomy and morphology trait	
+TO:0000787	inflorescence waxiness	
+TO:0000788	tassel inflorescence anatomy and morphology trait	
+TO:0000789	bud anatomy and morphology trait	
+TO:0000790	axillary bud anatomy and morphology trait	
+TO:0000791	axillary bud size	
+TO:0000792	axillary bud number	
+TO:0000793	axillary bud shape	
+TO:0000794	axillary bud prominence	
+TO:0000795	tassel inflorescence color	
+TO:0000796	tassel inflorescence circumference	
+TO:0000797	tassel inflorescence height	
+TO:0000798	tassel inflorescence length	
+TO:0000799	tassel inflorescence diameter	
+TO:0000800	inflorescence density	panicle density (PO:0009049)
+TO:0000801	inflorescence depth	
+TO:0000802	inflorescence diameter	
+TO:0000803	inflorescence weight	
+TO:0000804	inflorescence width	INFLWD	panicle width
+TO:0000805	inflorescence texture	
+TO:0000806	inflorescence presence	
+TO:0000807	pseudostem anatomy and morphology trait	
+TO:0000808	pseudostem length	
+TO:0000809	pseudostem shape	
+TO:0000810	pseudostem color	
+TO:0000811	pseudostem diameter	
+TO:0000812	tassel branch dry weight	
+TO:0000813	tassel branch number	
+TO:0000814	tassel inflorescence type	
+TO:0000815	bract anatomy and morphology trait	<new synonym>
+TO:0000816	inflorescence bract anatomy and morphology trait	husk
+TO:0000817	inflorescence bract length	husk length
+TO:0000818	inflorescence bract cover	husk cover
+TO:0000819	inflorescence bract color	husk color
+TO:0000820	leaf vein anatomy and morphology trait	
+TO:0000821	leaf vein size	
+TO:0000822	leaf midvein anatomy and morphology trait	leaf midrib
+TO:0000823	leaf midvein thickness	leaf midrib
+TO:0000824	leaf attitude	
+TO:0000825	leaf flexibility	
+TO:0000826	leaf volume	
+TO:0000827	leaf lamina area	
+TO:0000828	leaf cover	
+TO:0000829	leaf lamina anatomy and morphology trait	
+TO:0000830	leaf lamina margin anatomy and morphology trait	
+TO:0000831	adult leaf anatomy and morphology trait	
+TO:0000832	flag leaf anatomy and morphology trait	
+TO:0000833	organ margin anatomy and morphology trait	
+TO:0000834	phyllome margin anatomy and morphology trait	
+TO:0000835	leaf sheath anatomy and morphology trait	
+TO:0000836	multi-tissue plant structure anatomy and morphology trait	
+TO:0000837	cardinal part of a multi-tissue plant structure anatomy and morphology trait	
+TO:0000838	seed coat anatomy and morphology trait	
+TO:0000839	plant structure anatomy and morphology trait	
+TO:0000840	collective plant structure anatomy and morphology trait	
+TO:0000841	collective organ part structure anatomy and morphology trait	
+TO:0000842	collective plant organ structure anatomy and morphology trait	
+TO:0000843	portion of plant tissue anatomy and morphology trait	
+TO:0000844	in vitro plant structure anatomy and morphology trait	
+TO:0000845	collective phyllome structure anatomy and morphology trait	
+TO:0000846	inflorescence primary branch anatomy and morphology trait	
+TO:0000847	panicle anatomy and morphology trait	
+TO:0000848	fruit diameter	
+TO:0000849	fruit attachment	
+TO:0000850	fruit type	
+TO:0000851	fruit hairiness	
+TO:0000852	fruit set	
+TO:0000853	floret shape	
+TO:0000854	floret size	
+TO:0000855	floret diameter	
+TO:0000856	lodicule length	
+TO:0000857	lodicule type	
+TO:0000858	flower diameter	
+TO:0000859	flower shape	
+TO:0000860	flower length	
+TO:0000861	flower abscission zone	
+TO:0000862	floral organ anatomy and morphology trait	
+TO:0000863	petal anatomy and morphology trait	
+TO:0000864	sepal anatomy and morphology trait	
+TO:0000865	tepal anatomy and morphology trait	
+TO:0000866	sporophyll anatomy and morphology trait	
+TO:0000867	megasporophyll anatomy and morphology trait	
+TO:0000868	microsporophyll anatomy and morphology trait	
+TO:0000869	glume anatomy and morphology trait	
+TO:0000870	leaf yield trait	
+TO:0000871	fruit yield trait	
+TO:0000872	leaf erect	
+TO:0000873	leaf prostrate	
+TO:0000874	leaf penduloum	
+TO:0000875	leaf lamina splitting	
+TO:0000876	spine leaf anatomy and morphology trait	
+TO:0000877	spine leaf size	
+TO:0000878	spine leaf color	
+TO:0000879	stem hairiness	
+TO:0000880	seed coat length	
+TO:0000881	flower type	
+TO:0000882	cleistogamus flower	
+TO:0000883	chasmogamous flower	
+TO:0000884	petiolule anatomy and morphology trait	
+TO:0000885	petiolule color	
+TO:0000886	petiolule shape	
+TO:0000887	petiolule length	
+TO:0000888	seed coat luster	
+TO:0000889	seed coat hardness	
+TO:0000890	seed coat proportion	
+TO:0000891	leaf wet weight	
+TO:0000892	stem size	core size
+TO:0000893	stem shape	core shape
+TO:0000894	fruit number trait	accessory fruit number
+TO:0000895	fruit harvest index	
+TO:0000896	leaf harvest index	
+TO:0000897	seed harvest index	
+TO:0000898	root nodule anatomy and morphology trait	
+TO:0000899	root nodule weight	
+TO:0000900	root nodule number	
+TO:0000901	dry fruit color	dry pod color
+TO:0000902	seed coat pigment bleeding	
+TO:0000903	seed coat texture	
+TO:0000904	seed coat pattern	
+TO:0000905	seed yield trait	
+TO:0000906	exocarp anatomy and morphology trait	epicarp anatomy and morphology trait 
+TO:0000907	exocarp thickness	rind thickness
+TO:0000908	fruit hollowness	
+TO:0000909	fruit color uniformity	
+TO:0000910	fruit bitterness trait	
+TO:0000911	trichome anatomy and morphology trait	
+TO:0000912	trichome appressed	
+TO:0000913	trichome acircular	
+TO:0000914	trichome canescent	
+TO:0000915	trichome capillary	
+TO:0000916	trichome clavate	
+TO:0000917	trichome ensiform	
+TO:0000918	trichome hirsute	
+TO:0000919	kernel weight	20 kernel weight	kwt
+TO:0000920	infructescence anatomy and morphology trait	
+TO:0000921	infructescence axis anatomy and morphology trait	
+TO:0000922	cob weight	
+TO:0000923	ear weight	earwt
+TO:0000924	cob color	cobpig
+TO:0000925	non-vascular leaf anatomy and morphology trait	
+TO:0000926	multi-tissue plant structure growth and development trait	
+TO:0000927	plant organ growth and development trait	
+TO:0000928	plant structure growth and development trait	
+TO:0000929	fruit growth and development trait	
+TO:0000930	seed shattering	hilum abscission
+TO:0000931	seed quality trait	
+TO:0000932	mannose content	D-mannose content 	man content 
+TO:0000933	plant phenological trait	
+TO:0000934	photoperiod-sensitive flowering time trait	flowering time response to photoperiod trait
+TO:0000935	kernel weight per ear	
+TO:0000936	infructescence yield trait	
+TO:0000937	kernel number per ear	
+TO:0000938	kernel number per row	 78114  
+TO:0000939	tassel spike length	
+TO:0000940	tassel branch zone length	
+TO:0000941	rank number per ear	
+TO:0000942	aleurone layer anatomy and morphology trait	
+TO:0000943	aleurone layer color	
+TO:0000944	aleurone layer appearance	
+TO:0000945	pericarp anatomy and morphology trait	
+TO:0000946	endocarp anatomy and morphology trait	
+TO:0000947	whole plant growth and development trait	
+TO:0000948	mesocarp anatomy and morphology trait	
+TO:0000949	seedling growth and development trait	
+TO:0001000	glume cover	
+TO:0001001	glume persistence	
+TO:0001002	inflorescence exsertion	
+TO:0001003	plant height uniformity	
+TO:0001004	basal tiller number	basal axillary shoot number
+TO:0001005	basal tiller length	basal tiller height
+TO:0001006	adventitious root number	
+TO:0001007	coleoptile length	
+TO:0001008	days to flag leaf emergence	
+TO:0001009	deep root number	
+TO:0001010	senesced leaf number	dead leaf number
+TO:0001011	deep root weight ratio	deep root dry weight to total root dry weight ratio
+TO:0001012	lateral root length	
+TO:0001013	lateral root number	
+TO:0001014	leaf dry weight	
+TO:0001015	photosynthetic rate	gross photosynthetic rate	leaf photosynthetic rate
+TO:0001016	relative chlorophyll content	
+TO:0001017	water use efficiency	photosynthetic rate to transpiration rate ratio
+TO:0001018	transpiration rate	
+TO:0001019	root to total biomass ratio	root dry weight to total plant dry weight ratio
+TO:0001020	exudate sap volume	Sap per tiller
+TO:0001021	days to inflorescence exsertion	days to inflorescence emergence
+TO:0001022	days to tassel emergence	
+TO:0001023	days to ear shoot emergence	
+TO:0001024	phosphorus content	PHOCN
+TO:0001025	leaf phosphorus content	LFPHOCN
+TO:0001026	respiration rate	
+TO:0001027	net photosynthetic rate	
+TO:0001028	osmotic adjustment break point	Break point of osmotic adjustment
+TO:0001029	relative harvest index	
+TO:0001030	relative leaf area	
+TO:0001031	relative leaf dry weight	
+TO:0001032	relative panicle number	
+TO:0001033	relative spikelet number	relative number of spikelet per panicle
+TO:0001034	relative plant height	
+TO:0001035	stem width	culm diameter	culm width
+TO:0002600	floral organ size	
+TO:0002601	stamen size	
+TO:0002602	pistil size	
+TO:0002603	petal size	
+TO:0002604	sepal size	
+TO:0002605	petal length	
+TO:0002606	petal width	
+TO:0002607	sepal length	
+TO:0002608	sepal width	
+TO:0002609	stamen length	
+TO:0002610	pistil length	
+TO:0002611	homeotic development trait	homeotic mutation
+TO:0002612	vegetative homeotic development trait	
+TO:0002613	reproductive homeotic development trait	
+TO:0002614	floral organ length	
+TO:0002615	floral organ width	
+TO:0002616	flowering time trait	anthesis timing	time of flowering
+TO:0002617	fruit color	
+TO:0002618	endocarp color	
+TO:0002619	mesocarp color	
+TO:0002620	exocarp color	epicarp color
+TO:0002621	fruit columella color	
+TO:0002622	locular tissue trait	
+TO:0002623	pericarp texture	
+TO:0002624	epicarp texture	
+TO:0002625	fruit size	FRSZ	kernel size	pod size
+TO:0002626	fruit length	GRLG	grain length 	pod length
+TO:0002627	fruit width	FRWD	kernel plumpness	kernel width	percentage of plump kernels	plump grain
+TO:0002628	fruit shape	pod shape
+TO:0002629	fruit anatomy and morphology trait	accessory fruit anatomy and morphology trait	berry anatomy and morphology trait  	capsule anatomy and morphology trait 	caryopsis anatomy and morphology trait	citrus fruit anatomy and morphology trait	fruit morphology	grain anatomy and morphology trait	kernel anatomy and morphology trait	nut anatomy and morphology trait	pepo anatomy and morphology trait	pod anatomy and morphology trait	silique anatomy and morphology trait	stone fruit anatomy and morphology trait
+TO:0002630	fruit distal end shape	
+TO:0002631	fruit proximal end shape	
+TO:0002632	fruit abscission zone size	size stem scar size
+TO:0002633	fruit ripening trait	fruit ripening
+TO:0002634	fruit firmness	
+TO:0002635	leaf margin anatomy and morphology trait	leaf margin curvature
+TO:0002636	leaflet number	
+TO:0002637	leaf size	
+TO:0002638	shoot meristem development	shoot meristem abortion
+TO:0002639	shoot branching	
+TO:0002640	fruit set trait	
+TO:0002641	acid detergent fiber	ACIDDETFIBR	ADF
+TO:0002642	dietary fiber related trait	
+TO:0002643	carbon isotope discrimination	CBISOTPDISC
+TO:0002644	dry matter digestibility	DMATTDIGAB
+TO:0002645	malt tenderness	MALTTENDER
+TO:0002646	flour particle size	FLRPARTSZ
+TO:0002647	starch digestibility	STARCHDIG
+TO:0002648	water absorption by seed	WABSORPSD
+TO:0002649	pesticide sensitivity	
+TO:0002650	phototropism	
+TO:0002651	shoot phototropism	coleoptile curvature	coleoptile phototropism
+TO:0002652	root phototropism	
+TO:0002653	endosperm storage protein content	
+TO:0002654	pyruvate orthophosphate dikinase activity trait	PPDK	Pyruvate phosphate dikinase	Pyruvate, phosphate phosphotransferase
+TO:0002655	starch grain size	
+TO:0002656	starch grain shape	
+TO:0002657	oxidative stress	
+TO:0002658	starch grain synthesis	
+TO:0002659	pistil number	
+TO:0002660	cytokinin content	
+TO:0002661	seed maturation	SDMT	asynchronous seed maturation	nonsynchronous seed maturation	synchronous seed maturation
+TO:0002662	leaf rolling tolerance	Cold-induced wilting tolerance	LFRLTL	wilting tolerance
+TO:0002663	leaf necrosis tolerance	Cold-induced necrosis tolerance	LFNECTL	necrosis tolerance
+TO:0002664	leaf yellowing tolerance	Cold-induced yellowing tolerance	LFYTL
+TO:0002665	root hair length	RTHLG	RTHRLG
+TO:0002666	seed phosphorus content	SDPHOCN
+TO:0002667	abscisic acid content	ABA content	ABACN
+TO:0002668	jasmonic acid content	JA content	jasmonate content
+TO:0002669	diterpenoid phytoalexin content	
+TO:0002670	momilactone A content	phytoalexin momilactone A content
+TO:0002671	momilactone B content	phytoalexin momilactone B content
+TO:0002672	auxin content	AUXCN
+TO:0002673	amino acid content	
+TO:0002674	tryptophan content	
+TO:0002675	gibberellic acid content	GA content	GACN	gibberellin content
+TO:0002676	brassinosteroid content	BRCN
+TO:0002677	brassinosteroid sensitivity	BRSN
+TO:0002678	panicleless	
+TO:0002679	inflorescenceless	
+TO:0002680	albumin content	albumen content
+TO:0002681	leaf curling	curled leaf trait	frizzled leaf trait
+TO:0002682	plant cell shape	
+TO:0002683	plant cell anatomy and morphology trait	
+TO:0002684	plant cell size	
+TO:0002685	crown root number	
+TO:0002686	cell growth and development trait	
+TO:0002687	cell elongation trait	cell length
+TO:0002688	leaf lamina joint bending	
+TO:0002689	leaf sheath length	LFSLG
+TO:0002690	leaf lamina length	LFLLG	leaf blade length
+TO:0002691	peduncle length	neck internode length
+TO:0002692	root meristem development	
+TO:0002693	gravity response trait	
+TO:0002694	fruit flavor trait	pod flavor trait
+TO:0002695	beta-carotene content	beta-carotenoid content
+TO:0002696	alpha carotene content	alpha-carotenoid content
+TO:0002697	cyclic carotene content	
+TO:0002698	acyclic carotene content	
+TO:0002699	lycopene content	
+TO:0002700	pungency	
+TO:0002701	lutein content	
+TO:0002702	cercospora leaf spot resistance	
+TO:0002703	protist disease resistance	
+TO:0002704	Meloidogyne incognita resistance	
+TO:0002705	cucurbit downy mildew resistance	
+TO:0002706	Meloidogyne javanica resistance	
+TO:0002707	petiole color	
+TO:0002708	xylem color	
+TO:0002709	phloem color	
+TO:0002710	root shape	
+TO:0002712	stay green trait	
+TO:0002713	cell organelle anatomy and morphology trait	cell organelle development trait	organelle biogenesis trait	organelle structure trait
+TO:0002714	plastid development trait	plastid biogenesis trait	plastid structure trait
+TO:0002715	chloroplast development trait	chloroplast biogenesis trait	chloroplast structure trait
+TO:0002716	leaf sheath auricle pubescence	AUPUBES
+TO:0002717	leaf sheath auricle morphology and anatomy trait	
+TO:0002718	awn anatomy and morphology trait	
+TO:0002719	awn thickness	AWNTH
+TO:0002720	leaf lamina width	LFLWD	leaf blade width
+TO:0002721	leaf sheath width	
+TO:0002722	leaf pubescence	
+TO:0002723	leaf lamina margin pubescence	LFLMPUBES	leaf blade margin pubescence
+TO:0002724	leaf sheath color	LFSCL
+TO:0002725	life cycle habit	LIFECYCHAB
+TO:0002726	sterile lemma shape	STLEMSHP
+TO:0002727	sterile lemma width	STLEMWD
+TO:0002728	fruit quality trait	
+TO:0002729	fruit senescing quality trait	
+TO:0002730	grain shape	DHULGRSHP	GRSHP	dehulled-grain shape
+TO:0002731	grain length to width ratio	DHULGRLGWDRO	GRLHWDRO	dehulled-grain length to width ratio
+TO:0002732	flag leaf angle: early stage	FLFAGERLY	flag leaf attitude: early stage
+TO:0002733	flag leaf angle: late stage	FLFAGLATE	flag leaf attitude: late stage
+TO:0002734	awn presence	AWNPLU
+TO:0002735	straighthead	
+TO:0002736	flower number	
+TO:0002737	floret number per branch	FLNBPBR
+TO:0002738	floret number per inflorescence	FLNBPINFLO	FLNBPPN	floret number per panicle	florets per inflorescence	florets per panicle
+TO:0002739	fruit surface area	FRUTSURFAR
+TO:0002741	grain surface area	DHULGRSURFAR	GRSURFAR	dehulled-grain surface area	hulled-grain surface area	kernel surface area
+TO:0002742	fruit volume	
+TO:0002743	grain volume	DHULGRVOL	GRVOL	dehulled-grain volume
+TO:0002744	fruit curved length	
+TO:0002745	grain curved length	DHULGRCURVLG	curved length of dehulled-grain	dehulled-grain curved length
+TO:0002746	fruit weight	
+TO:0002747	10-dehulled grain weight	10-grain weight	TENDHULGRWT	TENGRWT	ten dehulled-grain weight	ten grain weight
+TO:0002748	ligule anatomy and morphology trait	
+TO:0002749	ligule pubescence	LIGPUBES
+TO:0002750	ligule margin pubescence	LIGMPUBES	ligule margin hairiness
+TO:0002751	inflorescence branch arrangement	INFLBRARANGE	panicle branch arrangement
+TO:0002753	arrangement of inflorescence primary branch	PBRARANGE	arrangement of primary branch	primary branch arrangement
+TO:0002754	inflorescence axis texture	INFLOAXISTEX	PNAXISTEX	panicle axis texture
+TO:0002755	cell organelle development trait	
+TO:0002756	shoot habit	CULMHAB	STEMHAB	culm habit	growth habit	stem habit
+TO:0002757	flag leaf length	FLFLG
+TO:0002758	flag leaf lamina width	FLFLWD	flag leaf blade width
+TO:0002759	grain number	GRNB	kernel number
+TO:0002761	length of grain with hull	HULGRLG	hulled grain length	hulled-grain length
+TO:0002762	width of grain with hull	HULGRWD	hulled grain curved width	hulled grain width
+TO:0002763	curved length of grain with hull	HULGRCURVLG	hulled grain curved length
+TO:0002764	surface area of grain with hull	HULGRSURFAR	hulled-grain surface area
+TO:0002765	volume of grain with hull	HULGRVOL	hulled grain volume
+TO:0002766	ligule margin shape	LIGMSHP
+TO:0002767	rhizome formation	RHZFORM
+TO:0002768	spikelet length	SPKLG
+TO:0005001	linoleic acid content	(9Z,12Z)-Octadecadienoic acid content	(Z,Z)-9,12-octadecadienoic acid content	9-cis,12-cis-Octadecadienoic acid content	9Z,12Z-octadecadienoic acid content	cis,cis-linoleic acid content	high linoleic oil content	linoleic oil content	low linoleic oil content
+TO:0005002	oleic acid content	(9Z)-Octadecenoic acid content	(9Z)-octadec-9-enoic acid content	(Z)-Octadec-9-enoic acid content	cis-9-octadecenoic acid content	high oleic oil content	mid oleic oil content	oleic oil content
+TO:0005003	stearic acid content	high stearic oil content	low stearic oil content	n-octadecanoic acid content	octadecanoic acid content	octadecoic acid content	stearic oil content
+TO:0005004	omega-3 fatty acid content	
+TO:0005005	alpha-linolenic acid content	(9,12,15)-linolenic acid content	(9Z,12Z,15Z)-Octadecatrienoic acid content	(Z,Z,Z)-9,12,15-octadecatrienoic acid content	9,12,15-Octadecatrienoic acid content	9-cis,12-cis,15-cis-octadecatrienoic acid content	all-cis-9,12,15-octadecatrienoic acid content	cis,cis,cis-9,12,15-octadecatrienoic acid content
+TO:0005006	glyphosate sensitivity	glyphosate susceptibility	glyphosate tolerance
+TO:0005007	glufosinate sensitivity	glufosinate susceptibility	glufosinate tolerance
+TO:0005008	acetolactate synthase inhibitor sensitivity	ALS inhibitor susceptibility	ALS inhibitor tolerance	acetolactate synthase inhibitor susceptibility	acetolactate synthase inhibitor tolerance
+TO:0005009	European corn borer resistance	ECB resistance
+TO:0005010	rootworm resistance	
+TO:0006001	salt tolerance	SALTTL
+TO:0006002	proline content	
+TO:0006003	oligosaccharide content	
+TO:0006004	raffinose content	
+TO:0006005	fructose content	
+TO:0006006	monosaccharide content	
+TO:0006007	polysaccharide content	
+TO:0006008	carbohydrate derivative content	
+TO:0006009	lodicule anatomy and morphology trait	
+TO:0006010	lodicule number	
+TO:0006011	lodicule shape	
+TO:0006012	carpel anatomy and morphology trait	
+TO:0006013	carpel number	
+TO:0006014	phyllotaxy	leaf arrangement
+TO:0006015	tissue development trait	
+TO:0006016	meristem tissue development trait	
+TO:0006017	meristem identity	meristem determinacy
+TO:0006018	organ identity	
+TO:0006019	floral organ identity	
+TO:0006020	shoot apical meristem development	
+TO:0006021	vegetative to reproductive phase transition trait	
+TO:0006022	floral organ development trait	
+TO:0006023	lodicule development trait	
+TO:0006024	ectopic lodicule development	
+TO:0006025	floral bract development trait	
+TO:0006026	floral bract number	
+TO:0006027	inflorescence bract development trait	
+TO:0006028	inflorescence bract number	
+TO:0006029	glume number	
+TO:0006030	spikelet meristem identity	
+TO:0006031	inflorescence size	
+TO:0006032	panicle size	
+TO:0006033	floret number per spikelet	FLNBPSPK
+TO:0006034	tertiary branch number	
+TO:0006035	tertiary branching of inflorescence	
+TO:0006036	stem elongation	
+TO:0006037	carpel shape	
+TO:0006038	floral organ number	
+TO:0006039	petal number	
+TO:0006040	sepal number	
+TO:0006041	tepal number	
+TO:0006042	lithium concentration	
+TO:0006043	boron concentration	
+TO:0006044	magnesium concentration	
+TO:0006045	phosphorus concentration	
+TO:0006046	sulfur concentration	
+TO:0006047	calcium concentration	
+TO:0006048	manganese concentration	
+TO:0006049	iron concentration	
+TO:0006050	cobalt concentration	
+TO:0006051	nickel concenteration	
+TO:0006052	copper concentration	
+TO:0006053	zinc concentration	
+TO:0006054	arsenic concentration	
+TO:0006055	selenium concentration	
+TO:0006056	molybdenum concentration	
+TO:0006057	cuperous ion concentration	
+TO:0006058	cuperic ion concentration	
+TO:0006059	cadmium concentration	
+TO:0006060	leaf chlorosis	
+TO:0006061	days to germinate	
+TO:0006062	plant width	
+TO:0006063	leaf margin serrated	
+TO:0006064	rolled leaf	
+TO:0006065	seedling hypocotyl length	
+TO:0006066	leaf trichome density	
+TO:0006067	aphid resistance	
+TO:0006068	germinability in dark	
+TO:0006069	DSDS50	
+TO:0010001	percent germination	
+TO:0011001	leaf lamina color distribution	LFLCLDIST
+TO:0011002	inflorescence primary branch attitude	INFLPBRAATT
+TO:0011003	inflorescence axis color	INFLAXISCL
+TO:0011004	inflorescence branch color	INFLBRACL	panicle branch color
+TO:0011005	penultimate leaf length	PENLFLG	second leaf length
+TO:0011006	penultimate leaf lamina width	PENLFLWD	second leaf width
+TO:0011007	awn width	AWNWD
+TO:0011008	stigma length	STIGLG
+TO:0011009	style length	STYLLG
+TO:0011010	internode color in proxomity to colored node	INCLPROXNDCL
+TO:0012001	leaf area index	
+TO:0012002	chlorophyll content on intact leaf	
+TO:0012003	chlorophyll content in an extract	
+TO:0012004	quantum yield	QY
+TO:0012005	chlorophyll fluorescence induction kinetics	OJIP
+TO:0012006	fluorescence related trait	
+TO:0012007	quantum yield determined by the light curve	
+TO:0012008	quantum yield at a given wavelength	
+TO:0012009	continuous fluorescence yield	F<sub>T</sub>
+TO:0012010	leaf area duration	LAD
+TO:0012011	leaf senescence rate	
+TO:0012012	leaf senescence duration	
+TO:0020001	panicle compactness and shape	
+TO:0020002	grain weight to panicle weight ratio	
+TO:0020003	shoot potassium content	
+TO:0020004	shoot sodium content	
+TO:0020005	sorghum stem borer resistance	
+TO:0020006	chickpea pod borer	
+TO:0020007	sorghum shoot fly resistance	
+TO:0020008	sorghum grain mold	
+TO:0020009	sorghum rust resistance	
+TO:0020010	sorghum downy mildew resistance	
+TO:0020011	chickpea botrytis grey mold resistance	
+TO:0020012	chickpea fusarium wild resistance	
+TO:0020013	chickpea colleotrichum blight resistance	
+TO:0020014	chickpea ascochyta blight resistance	
+TO:0020015	sorghum leaf blight resistance	
+TO:0020016	seed texture	
+TO:0020017	seed coat spots	
+TO:0020018	tertiary shoot branch number	
+TO:0020019	secondary shoot branch number	
+TO:0020020	primary shoot branch number	
+TO:0020021	basal axillary tertiary branch number	
+TO:0020022	basal axillary secondary branch number	
+TO:0020023	basal axillary primary branch number	
+TO:0020024	basal axillary branch number	
+TO:0020025	apical axillary tertiary branch number	
+TO:0020026	apical axillary secondary branch number	
+TO:0020027	apical axillary primary branch number	
+TO:0020028	apical axillary branch number	
+TO:0020029	leaf lamina pubscence length	
+TO:0020030	leaf lamina pubescence density	
+TO:0020031	leaf lamina margin pubescence length	
+TO:0020032	leaf lamina margin pubescence density	
+TO:0020033	glume length	
+TO:0020034	glume width	
+TO:0020035	glume pubescence density	
+TO:0020036	glume pubescence	
+TO:0020037	glume pubescence length	
+TO:0020038	glume waxiness	
+TO:0020051	barley leaf scald disease resistance	scald
+TO:0020052	barley spot blotch disease resistance	spot blotch
+TO:0020053	wheat spot blotch disease resistance	Helminthosporium leaf blotch
+TO:0020054	barley stripe rust disease resistance	BSR	yellow rust
+TO:0020055	wheat stripe rust disease resistance	yellow rust
+TO:0020056	barley leaf rust disease resistance	brown rust
+TO:0020057	wheat leaf rust disease resistance	brown rust
+TO:0020058	barley common root rot resistance	crown rot
+TO:0020059	wheat common root rot resistance	
+TO:0020060	barley powdery mildew disease resistance	
+TO:0020061	wheat powdery mildew disease resistance	
+TO:0020062	barley net form net blotch disease resistance	NFNB
+TO:0020063	barley spot form net blotch disease resistance	SFNB
+TO:0020064	barley septoria disease resistance	SSLB
+TO:0020065	wheat septoria leaf blotch disease resistance	
+TO:0020066	barley leaf streak resistance	
+TO:0020067	barley yellow dwarf virus disease resistance	BYDV
+TO:0020068	beta-glucan content	
+TO:0020069	spike exsertion	
+TO:0020070	beta-glucanase activity trait	
+TO:0020071	beta-glucanase thermostability	
+TO:0020072	residual beta-glucanase activity trait	residual beta-glucanase
+TO:0020073	barley wort protein concentration	wort protein
+TO:0020074	barley wort color	
+TO:0020075	barley malt protein	
+TO:0020076	phenolic compound content	
+TO:0020077	head drop	
+TO:0020078	zeaxanthin content	
+TO:0020079	beta-cryptoxanthin content	
+TO:0020080	stover organic matter digestability	in vitro organic matter digestibility	stover related trait
+TO:0020081	metabolized energy of stover	metabolised energy	stover related traits
+TO:0020082	stover nitrogen content	stover related traits
+TO:0020083	stem diameter	culm diameter
+TO:0020084	spiral leaf	
+TO:0020085	stem senescence	culm senescence
+TO:0020086	neck leaf presence	
+TO:0020087	root cracking	
+TO:0020088	total water soluble content	total dissolved solids content
+TO:0020089	iron content	
+TO:0020090	zinc content	
+TO:0020091	manganese content	
+TO:0020092	copper content	
+TO:0020093	nitrogen content	
+TO:0020094	nitrate content	
+TO:0020095	stomatal process related trait	
+TO:0020096	mineral and ion transport trait	
+TO:0020097	stomatal opening	
+TO:0020098	nitrate sensitivity	
+TO:0020099	nitrate transport	
+TO:0020100	nitrate uptake	
+TO:0020101	starch mobilization	
+TO:0020102	phosphate content	phosphate ion content
+TO:0020103	adventitious root length	
+TO:0020104	adventitious rootless	
+TO:0020105	CW-cytoplasmic male sterility	
+TO:0020106	Indole-3-acetic acid content	IAA content	Indole-3-acetic acid (IAA) content
+TO:0020107	plant cell length	
+TO:0020108	root cortical cell length	
+TO:0020109	vascular bundle development trait	
+TO:0020110	gynoecium development trait	
+TO:0020111	ovary development trait	
+TO:0020112	phosphorus toxicity	
+TO:0020114	shoot phosphorus content	
+TO:0020115	chlorophyll fluorescence quenching	
+TO:0020116	photochemical quenching	
+TO:0020117	non photochemical quenching	NPQ
+TO:0020118	neoxanthin content	
+TO:0020119	violaxanthin content	
+TO:0020120	involucral bract spine presence	spines on involucral bracts
+TO:0020121	arachnid damage resistance	
+TO:0020122	two-spotted spider mite resistance	red spider mite resistance
+TO:0020123	ethanol yield from biomass	

@@ -25,6 +25,7 @@ gemet-labels.tsv: priority-gemet.tsv
 #GEMETX = chebi
 GEMETX = mondo oba mesh sctid chebi eo envo to pato exo
 XOBOS = $(patsubst %, xrefs-gemet-%.obo,$(GEMETX))
+LABELS = $(patsubst %, labels-%.tsv,$(GEMETX))
 
 gemet: $(XOBOS) 
 
@@ -47,3 +48,7 @@ summary-xrefs-%.txt:
 
 no-align.tsv: allx.obo gemet.obo
 	blip-findall -i $< -i gemet.obo "class(X),id_idspace(X,'GEMET'),\+entity_xref(X,_)" -select X -label -use_tabs | sort -u > $@
+
+labels: $(LABELS)
+labels-%.tsv:
+	blip-findall -r $* -consult synreport.pro rpt/3 -grid -use_tabs -no_pred > $@
