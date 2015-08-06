@@ -23,7 +23,7 @@ gemet-labels.txt: priority-gemet.tsv
 	cut -f2 $<  > $@
 
 #GEMETX = chebi
-GEMETX = sctid chebi eo envo to pato exo
+GEMETX = mesh sctid chebi eo envo to pato exo
 XOBOS = $(patsubst %, xrefs-gemet-%.obo,$(GEMETX))
 
 gemet: $(XOBOS) summary-xrefs-gemet.txt xsummary.tsv
@@ -40,7 +40,7 @@ allx.obo: $(XOBOS)
 #	owltools $^ --merge-support-ontologies -o -f obo $@
 
 xsummary.tsv: allx.obo
-	blip-findall -i $< -i gemet.obo -u xref_util prefixset_stats/2 -no_pred > $@
+	blip-findall -i $< -i gemet.obo -u xref_util prefixset_stats/2 -no_pred > $@.tmp &&  mysort -s -k2 -n -r $@.tmp > $@
 
 summary-xrefs-%.txt:
 	grep -c ^id: xrefs-$*-*.obo
