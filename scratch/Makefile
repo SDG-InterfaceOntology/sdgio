@@ -39,7 +39,7 @@ allx.obo: $(XOBOS)
 	obo-cat.pl $^ > $@
 #	owltools $^ --merge-support-ontologies -o -f obo $@
 
-xsummary.txt: allx.obo
+xsummary.tsv: allx.obo
 	blip-findall -i $< -i gemet.obo -u xref_util prefixset_stats/2 -no_pred > $@
 
 summary-xrefs-%.txt:
