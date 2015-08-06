@@ -2,7 +2,7 @@
 GEMETS = backbone definitions groups
 GEMETFS = $(patsubst %,gemet-%.rdf,$(GEMETS))
 
-all: gemet
+all: gemet summary-xrefs-gemet.txt xsummary.tsv no-align.tsv
 
 gemet-backbone.rdf:
 	wget http://www.eionet.europa.eu/gemet/gemet-backbone.rdf -O $@
@@ -23,10 +23,10 @@ gemet-labels.tsv: priority-gemet.tsv
 	cut -f2 $<  > $@
 
 #GEMETX = chebi
-GEMETX = mesh sctid chebi eo envo to pato exo
+GEMETX = mondo oba mesh sctid chebi eo envo to pato exo
 XOBOS = $(patsubst %, xrefs-gemet-%.obo,$(GEMETX))
 
-gemet: $(XOBOS) summary-xrefs-gemet.txt xsummary.tsv
+gemet: $(XOBOS) 
 
 align-gemet-%.tsv: gemet.obo
 	blip-findall -debug index -i ignore_gemet.pro -i $< -r $* -u metadata_nlp -goal index_entity_pair_label_match "class(X),id_idspace(X,'GEMET'),entity_pair_label_reciprocal_best_intermatch(X,Y,S)" -select "x(X,Y,S)" -label -use_tabs -no_pred > $@.tmp && mv $@.tmp $@
