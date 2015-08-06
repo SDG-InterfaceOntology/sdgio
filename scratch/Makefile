@@ -23,7 +23,7 @@ gemet-labels.txt: priority-gemet.tsv
 	cut -f2 $<  > $@
 
 #GEMETX = chebi
-GEMETX = eo envo to pato exo
+GEMETX = sctid chebi eo envo to pato exo
 XOBOS = $(patsubst %, xrefs-gemet-%.obo,$(GEMETX))
 
 gemet: $(XOBOS) summary-xrefs-gemet.txt
