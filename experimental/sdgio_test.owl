@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://purl.unep.org/sdg/sdgio_test"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://purl.unep.org/sdg/sdgio_test">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.unep.org/sdg/imports/envo_import.owl.</Import>
+    <Import>http://purl.unep.org/sdg/imports/obi_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/bfo/2014-05-03/bfo.owl</Import>
+    <Import>http://purl.unep.org/sdg/imports/iao_import.owl.</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Testing only!</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000007"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_00002297"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000249"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="http://purl.obolibrary.org/obo/ENVO_00000856"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000002"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000003"/>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
+            <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000005"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000005"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000005"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000006"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000161"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OBI_0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://purl.unep.org/sdgtest/SDGIOtest_00000007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A sustainable development goal is an objective specification (i.e goal specification) which describes the endpoint of a development process aligned to the Sustainable Development Agenda for 2030.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Draft definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000001</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sustainable development goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000002</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A sustainable development goal indicator value is a data item which provides the coordinate for an indicator with reference to a coordinate system relevant to a measurable outcome dimension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000002</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Draft definition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000002</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sustainable development goal indicator value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000003</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A sustainable development goal target is an indicator value which represents a threshold along a measurable outcome dimension towards or beyond which corresponding indicator values from a socio-economic system should tend in order to to realise the Sustainable Development Agenda for 2030.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000003</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Draft definition. This may not hold for targets which do not state a threshold, but are concerned with improvements or presence/absence. The measurable outcome dimension will have to be defined to accommodate these cases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000003</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sustainable development goal target</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000004</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A sustainable development process is a development process which alters a socio-economic-environmental system such that its sustainable development goal indicator values approach or exceed their respective target values.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000004</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Draft definition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000004</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sustainable development process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000005</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A planned process which evaluaes a socio-economic system and generates data used in the calculation of sustainable development goal indicator values.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000005</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">This class may be replaced by a more general OBI class if appropriate. Draft definition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000005</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">measurement of sustainable development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000006</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A system which is the union of social, economic, and environmental systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000006</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Trivial def for now. May be replaced by a class from ENVO such as &quot;anthropogenic environment&quot; if this is sufficient. Indeed, the SDGs reference all environments, so perhaps &quot;environmental system&quot; is sufficient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000006</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">socio-economic system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000007</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">More correctly an instance rather than a class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://purl.unep.org/sdgtest/SDGIOtest_00000007</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sustainable Development Agenda for 2030</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
