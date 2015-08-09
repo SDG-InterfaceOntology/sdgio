@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.unep.org/sdg/imports/envo_import.owl.#"
+     xml:base="http://purl.unep.org/sdg/imports/envo_import.owl."
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.unep.org/sdg/imports/envo_import.owl."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000000</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May appear on a map.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Geographic_feature</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macroscopic spatial feature</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic geographic feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000002</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:78</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGN:50001</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">man-made feature</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manmade feature</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated place</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000062</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:1097</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:33</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:P.PPL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:P.PPLS</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place or area with clustered or scattered buildings and a permanent human population.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGN:22201</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGN:83002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Populated_place</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhabited place</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhabited region</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">place</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated locality</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated place</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated places</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">settlement</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000070">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">constructed feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A feature that has been constructed by deliberate human effort.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000070</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome is an environmental system to which resident ecological communities have evolved adaptations.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000428</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:biome</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcosytemType</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class is currently being aligned to the Basic Formal Ontology. Following this alignment, its definition and the definitions of its subclasses will be revised.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Biome</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecosystem</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major habitat type</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome that applies to the terrestrial realm.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000446</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPIRE:Terrestrial</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial realm</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000856">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">city</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000856</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:city</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:430</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:483</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:484</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:485</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incorporated populated place.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWEETRealm:City</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGN:83020</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGN:83040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGN:83043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:City</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">municipality</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">town</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urban area</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">village</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waste water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002264"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002001</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:waste_water</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWEETRealm:Wastewater</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water that has been adversely affected in quality by anthropogenic influence.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Waste_water</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002006</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:water</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The liquid form of dihydrogen monoxide.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Water</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002043">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wastewater treatment plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002272"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002043</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:wastewater_treatment_plant</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Wastewater_treatment_plant</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002186">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contaminated water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002186</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:water_pollution</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Contaminated_water</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polluted water</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002264">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waste</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010001"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002264</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:waste</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWEETRealm:Waste</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Waste</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002272">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waste treatment plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002272</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WWTP</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental feature</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity determines an environmental system when its removal would cause the collapse of that system. For example, a seamount determines a seamount environment, acting as its &#39;hub&#39;. This class is currently being aligned to the Basic Formal Ontology. Following this alignment, its definition and the definitions of its subclasses will be revised.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity which determines an environmental system.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002297</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00010483</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Everything under this parent must be a mass noun. This class is currently being aligned to the Basic Formal Ontology. Following this alignment, its definition and the definitions of its subclasses will be revised.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of environmental material</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_0010001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_0010001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic environmental material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropogenic material in or on which organisms may live.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:0010001</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000219">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic terrestrial biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-07T14:45:22Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic terrestrial biome is a terrestrial biome which has community structures determined by human activity.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:01000219</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preliminary definition.</rdfs:comment>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pbuttigi</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000248">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dense settlement biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000219"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-06-14T11:45:47Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:01000248</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pbuttigieg</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000249">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urban biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000248"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-06-14T11:45:47Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An urban biome is a dense settlement biome which has been urbanised.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:01000249</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPIRE:Urban</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pbuttigieg</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000254">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental system</rdfs:label>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-09-23T16:04:08Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A system which has the disposition to environ one or more material entities.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:01000254</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:environment</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In ENVO&#39;s alignment with the Basic Formal Ontology, this class is being considered as a subclass of a proposed BFO class &quot;system&quot;. The relation &quot;environed_by&quot; is also under development. Roughly, a system which includes a material entity (at least partially) within its site and causally influences that entity may be considered to environ it. Following the completion of this alignment, this class&#39; definition and the definitions of its subclasses will be revised.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environment</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_2000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_2000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">industrial wastewate treatment plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002043"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-27T03:16:01Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A wastewater treatment plant that treates industrial wastewater. Industrial wastewater treatment covers the mechanisms and processes used to treat waters that have been contaminated in some way by anthropogenic industrial or commercial activities prior to its release into the environment or its re-use.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:2000002</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.unep.org/sdg/imports/bfo_import.owl.
+
+[Source ontology]
+BFO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 includeAllChildren #entity
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

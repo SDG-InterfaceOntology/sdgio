@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1438891447175" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo_full_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1438891447175" name="duplicate:http://purl.unep.org/sdg/imports/bfo_import.owl." uri="bfo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1438891447175" name="duplicate:http://purl.unep.org/sdg/imports/bfo_import.owl." uri="obi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1438891447175" name="http://purl.unep.org/sdg/imports/envo_import.owl." uri="envo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1438891447175" name="http://purl.unep.org/sdg/imports/iao_import.owl." uri="iao_import.owl"/>
+    </group>
+</catalog>

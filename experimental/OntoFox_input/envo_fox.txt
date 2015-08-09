@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.unep.org/sdg/imports/envo_import.owl.
+
+[Source ontology]
+ENVO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ENVO_00000856 #city
+http://purl.obolibrary.org/obo/ENVO_01000249 #urban biome
+http://purl.obolibrary.org/obo/ENVO_00002186 #contaminated water
+http://purl.obolibrary.org/obo/ENVO_00002001 #waste water
+http://purl.obolibrary.org/obo/ENVO_00002043 #wastewater treatment plant
+http://purl.obolibrary.org/obo/ENVO_2000002 #industrial wastewate treatment plant
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
