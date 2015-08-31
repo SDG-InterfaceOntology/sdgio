@@ -38,8 +38,8 @@ IMPORTS = pato uberon chebi ro bfo envo iao pco
 all_imports: $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # We will edit this as the SDGIO needs become apparent...
-KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:0002176 RO:0000057 BFO:0000057 BFO:0000055 BFO:0000159 BFO:0000086 RO:0002473 RO:0002351 RO:0002131
-# 'part of' 'has part' 'develops from' 'immediate_transformation_of' 'connects' 'has participant' 'has participant at some time' 'realizes' 'has quality at all times' 'has quality at some time' 'composed primarily of' 'has member' 'overlaps'
+KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:0002176 RO:0000057 BFO:0000055 RO:0002473 RO:0002351 RO:0002131
+# 'part of' 'has part' 'develops from' 'immediate_transformation_of' 'connects' 'has participant'  'realizes' 'composed primarily of' 'has member' 'overlaps'
 
 # Create an import module using the OWLAPI module extraction code via OWLTools.
 # We use the standard catalog, but rewrite the import to X to be a local mirror of ALL of X.
