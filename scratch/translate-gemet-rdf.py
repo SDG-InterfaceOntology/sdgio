@@ -24,6 +24,9 @@ def write_stanza(obj):
         print("is_a: "+obj['is_a'])
     if ('group' in obj):
         print("subset: "+get_subset(obj['group']))
+    if ('definition' in obj):
+        defn = obj['definition'].replace("\n"," ").replace("\"","'")
+        print("def: \""+defn+"\" []")
     print("")
 
 def get_term(id):
@@ -48,6 +51,8 @@ for subj1, pred1, obj1 in g:
         get_term(subj)['label'] = obj
     elif pred == 'http://www.w3.org/2004/02/skos/core#broader':
         get_term(subj)['is_a'] = obj
+    elif pred == 'http://www.w3.org/2004/02/skos/core#definition':
+        get_term(subj)['definition'] = obj
     elif pred == 'http://www.eionet.europa.eu/gemet/2004/06/gemet-schema.rdf#group':
         get_term(subj)['group'] = obj
         groupdict[obj] = 1
