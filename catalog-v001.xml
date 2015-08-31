@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+    <!-- ./ -->
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/imports/chebi_import.owl" uri="./imports/chebi_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/imports/ncbitaxon_import.owl" uri="./imports/ncbitaxon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/imports/pato_import.owl" uri="./imports/pato_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/imports/pco_import.owl" uri="./imports/pco_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/imports/po_import.owl" uri="./imports/po_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/imports/ro_import.owl" uri="./imports/ro_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/imports/uberon_import.owl" uri="./imports/uberon_import.owl"/>
+</catalog>

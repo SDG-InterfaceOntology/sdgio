@@ -1,0 +1,2667 @@
+[Term]
+id: GEMET:2748 ! energy type
+xref: SCTID:248272003 ! Energy
+
+[Term]
+id: GEMET:7651 ! shielding device
+xref: SCTID:30115002 ! Shield, device
+
+[Term]
+id: GEMET:11718 ! halogenated compound
+xref: SCTID:14097008 ! Halogen compound
+
+[Term]
+id: GEMET:8724 ! type of management
+xref: SCTID:106333009 ! Manager
+
+[Term]
+id: GEMET:7733 ! sludge
+xref: SCTID:44901006 ! Sludge
+
+[Term]
+id: GEMET:6899 ! radiation sickness
+xref: SCTID:370402009 ! Radiation sickness
+
+[Term]
+id: GEMET:4286 ! infection
+xref: SCTID:278321004 ! Types of infections
+
+[Term]
+id: GEMET:3367 ! food hygiene
+xref: SCTID:229960001 ! Food hygiene types
+
+[Term]
+id: GEMET:7810 ! social problem
+xref: SCTID:161152002 ! Social problem
+
+[Term]
+id: GEMET:3894 ! heating
+xref: SCTID:88999006 ! Heat
+
+[Term]
+id: GEMET:1605 ! communications
+xref: SCTID:133928008 ! Community
+xref: SCTID:263536004 ! Communication
+xref: SCTID:43272002 ! Communicating
+
+[Term]
+id: GEMET:4866 ! living condition
+xref: SCTID:4683004 ! Living condition
+
+[Term]
+id: GEMET:7699 ! silver
+xref: SCTID:41967008 ! Silver
+
+[Term]
+id: GEMET:3695 ! glue
+xref: SCTID:57126000 ! Glue
+
+[Term]
+id: GEMET:8658 ! travel
+xref: SCTID:129018004 ! Traveling
+xref: SCTID:420008001 ! Travel
+
+[Term]
+id: GEMET:8495 ! titanium
+xref: SCTID:1166006 ! Titanium
+
+[Term]
+id: GEMET:2207 ! dioxin
+xref: SCTID:116281006 ! Dioxin
+xref: SCTID:26775004 ! Dioxin
+
+[Term]
+id: GEMET:1746 ! container
+xref: SCTID:42504009 ! Containing
+
+[Term]
+id: GEMET:11612 ! certification
+xref: SCTID:308707006 ! Certificate
+
+[Term]
+id: GEMET:7425 ! sand pit
+xref: SCTID:257697004 ! Sand pit
+
+[Term]
+id: GEMET:4594 ! lake
+xref: SCTID:421084007 ! Lake
+
+[Term]
+id: GEMET:3212 ! fire
+xref: SCTID:80032004 ! Fire
+
+[Term]
+id: GEMET:55 ! acoustic insulation
+xref: SCTID:84211006 ! Acoustical insulator
+
+[Term]
+id: GEMET:1355 ! chimney
+xref: SCTID:224742007 ! Chimney
+
+[Term]
+id: GEMET:1093 ! by-catch
+xref: SCTID:30623001 ! Catch
+
+[Term]
+id: GEMET:3354 ! food
+xref: SCTID:246250009 ! Type of food
+xref: SCTID:255620007 ! Foods
+
+[Term]
+id: GEMET:6279 ! plan
+xref: SCTID:397943006 ! Planned
+
+[Term]
+id: GEMET:5128 ! mechanical engineering
+xref: SCTID:106264008 ! Mechanical engineer
+xref: SCTID:29410004 ! Mechanical engineer
+xref: SCTID:4221007 ! Mechanical engineer
+
+[Term]
+id: GEMET:3151 ! feeding of animals
+xref: SCTID:82566005 ! Animal feed
+
+[Term]
+id: GEMET:373 ! amino acid
+xref: SCTID:52518006 ! Amino acid
+
+[Term]
+id: GEMET:2131 ! detergent
+xref: SCTID:264299001 ! Detergent
+
+[Term]
+id: GEMET:14194 ! swamp
+xref: SCTID:111059006 ! Swamp
+
+[Term]
+id: GEMET:2127 ! detection
+xref: SCTID:10284005 ! Detective
+xref: SCTID:260373001 ! Detected
+
+[Term]
+id: GEMET:388 ! amusement park
+xref: SCTID:257563004 ! Amusement park
+
+[Term]
+id: GEMET:237 ! agrochemical
+xref: SCTID:311439002 ! Agrochemical
+
+[Term]
+id: GEMET:1499 ! coagulation
+xref: SCTID:119266004 ! Coagulation
+xref: SCTID:15117003 ! Coagulant
+xref: SCTID:373746004 ! Coagulant
+
+[Term]
+id: GEMET:1100 ! cadmium
+xref: SCTID:66586000 ! Cadmium
+
+[Term]
+id: GEMET:195 ! agricultural engineering
+xref: SCTID:16305002 ! Agricultural engineer
+
+[Term]
+id: GEMET:4401 ! interest
+xref: SCTID:225469004 ! Interested
+
+[Term]
+id: GEMET:7188 ! restoration
+xref: SCTID:260938008 ! Type of restoration
+
+[Term]
+id: GEMET:2584 ! elderly person
+xref: SCTID:105436006 ! Elderly person
+
+[Term]
+id: GEMET:5305 ! miscellaneous product
+xref: SCTID:10747009 ! Miscellaneous products
+
+[Term]
+id: GEMET:3256 ! fishing
+xref: SCTID:90580008 ! Fish
+
+[Term]
+id: GEMET:4091 ! hydrocarbon
+xref: SCTID:80382003 ! Hydrocarbon
+
+[Term]
+id: GEMET:1992 ! dating
+xref: SCTID:410671006 ! Date
+
+[Term]
+id: GEMET:10919 ! young
+xref: SCTID:84422007 ! Young
+
+[Term]
+id: GEMET:3945 ! higher education
+xref: SCTID:161122005 ! Higher education
+
+[Term]
+id: GEMET:2586 ! electrical engineering
+xref: SCTID:236300002 ! Electrical engineer
+xref: SCTID:25965004 ! Electrical engineer
+
+[Term]
+id: GEMET:6066 ! pathology
+xref: SCTID:29458008 ! Pathologic
+xref: SCTID:394595002 ! Pathology
+
+[Term]
+id: GEMET:4291 ! infiltration
+xref: SCTID:231287002 ! Infiltration
+xref: SCTID:47351003 ! Infiltration
+
+[Term]
+id: GEMET:8589 ! traffic engineering
+xref: SCTID:159232007 ! Traffic engineer
+
+[Term]
+id: GEMET:7516 ! sealing
+xref: SCTID:19314006 ! Seal
+xref: SCTID:278420002 ! Sealing
+
+[Term]
+id: GEMET:88 ! additive
+xref: SCTID:260364009 ! Additive
+
+[Term]
+id: GEMET:5503 ! natural gas
+xref: SCTID:2698003 ! Natural gas
+
+[Term]
+id: GEMET:3087 ! extraction
+xref: SCTID:422077001 ! Extract
+xref: SCTID:62972009 ! Extraction
+
+[Term]
+id: GEMET:7716 ! skin
+xref: SCTID:119325001 ! Skin
+xref: SCTID:20795001 ! Structure of skin region
+xref: SCTID:39937001 ! Skin structure
+
+[Term]
+id: GEMET:5404 ! mountaineering
+xref: SCTID:257644005 ! Mountain
+xref: SCTID:257737006 ! Mountaineering
+
+[Term]
+id: GEMET:9023 ! wall
+xref: SCTID:224727009 ! Walls
+xref: SCTID:272432007 ! Wall structure
+xref: SCTID:68947003 ! Walled
+
+[Term]
+id: GEMET:5025 ! marina
+xref: SCTID:228169006 ! Marina
+
+[Term]
+id: GEMET:2689 ! emulsification
+xref: SCTID:51982005 ! Emulsification
+
+[Term]
+id: GEMET:10048 ! pollution type
+xref: SCTID:102410009 ! Pollution
+
+[Term]
+id: GEMET:312 ! aliphatic hydrocarbon
+xref: SCTID:117496002 ! Aliphatic hydrocarbon
+
+[Term]
+id: GEMET:3347 ! fog
+xref: SCTID:256236005 ! Fog
+
+[Term]
+id: GEMET:1121 ! camping
+xref: SCTID:10496000 ! Camping
+
+[Term]
+id: GEMET:4303 ! information
+xref: SCTID:223458004 ! Informing
+
+[Term]
+id: GEMET:5401 ! mountain
+xref: SCTID:257644005 ! Mountain
+xref: SCTID:257737006 ! Mountaineering
+
+[Term]
+id: GEMET:8501 ! tobacco
+xref: SCTID:39953003 ! Tobacco
+
+[Term]
+id: GEMET:2381 ! dust
+xref: SCTID:33008008 ! Dust
+
+[Term]
+id: GEMET:11795 ! chemical corrosivity
+xref: SCTID:311758007 ! Corrosive chemical
+
+[Term]
+id: GEMET:11889 ! decibel
+xref: SCTID:259042002 ! decibel
+
+[Term]
+id: GEMET:2943 ! environment friendly
+xref: SCTID:224801001 ! Friendly environment
+
+[Term]
+id: GEMET:5613 ! nitrogen oxides
+xref: SCTID:311735009 ! Oxide of nitrogen
+
+[Term]
+id: GEMET:1007 ! bromine
+xref: SCTID:85378003 ! Bromine
+
+[Term]
+id: GEMET:5978 ! oxide
+xref: SCTID:272156001 ! Oxides
+
+[Term]
+id: GEMET:3328 ! fluoridation
+xref: SCTID:372639009 ! Fluoride
+
+[Term]
+id: GEMET:5751 ! nucleic acid
+xref: SCTID:27380003 ! Nucleic acid
+
+[Term]
+id: GEMET:5199 ! methane
+xref: SCTID:11203008 ! Methane
+
+[Term]
+id: GEMET:8664 ! tree
+xref: SCTID:22097005 ! Tree
+
+[Term]
+id: GEMET:52 ! acid
+xref: SCTID:32186004 ! Acidizer
+xref: SCTID:34957004 ! Acid
+
+[Term]
+id: GEMET:4077 ! hurricane
+xref: SCTID:35314007 ! Hurricane
+
+[Term]
+id: GEMET:11204 ! draining
+xref: SCTID:246154008 ! Type of drain
+
+[Term]
+id: GEMET:6662 ! product evaluation
+xref: SCTID:386398003 ! Product evaluation
+
+[Term]
+id: GEMET:5786 ! occupational medicine
+xref: SCTID:394821009 ! Occupational medicine
+
+[Term]
+id: GEMET:4838 ! lipid
+xref: SCTID:70106000 ! Lipid
+
+[Term]
+id: GEMET:1814 ! cosmic radiation
+xref: SCTID:46316000 ! Cosmic radiation
+
+[Term]
+id: GEMET:745 ! battery
+xref: SCTID:50084004 ! Battery
+
+[Term]
+id: GEMET:4288 ! infectious disease
+xref: SCTID:394807007 ! Infectious diseases
+xref: SCTID:40733004 ! Infectious disease
+
+[Term]
+id: GEMET:1888 ! cruising
+xref: SCTID:225530007 ! Cruising
+
+[Term]
+id: GEMET:4267 ! industrial site
+xref: SCTID:272505000 ! Industrial site
+
+[Term]
+id: GEMET:298 ! alcohol
+xref: SCTID:53041004 ! Alcohol
+xref: SCTID:7200002 ! Alcoholism
+
+[Term]
+id: GEMET:8964 ! video
+xref: SCTID:257194007 ! Video
+
+[Term]
+id: GEMET:245 ! air
+xref: SCTID:15158005 ! Air
+
+[Term]
+id: GEMET:10158 ! open sea
+xref: SCTID:257653003 ! Open sea
+
+[Term]
+id: GEMET:9406 ! infant
+xref: SCTID:133931009 ! Infant
+
+[Term]
+id: GEMET:6235 ! physics
+xref: SCTID:19388002 ! Physical
+
+[Term]
+id: GEMET:3483 ! freon
+xref: SCTID:255764006 ! Freons
+
+[Term]
+id: GEMET:6755 ! protein
+xref: SCTID:88878007 ! Protein
+
+[Term]
+id: GEMET:3966 ! hill
+xref: SCTID:257624004 ! Hill
+
+[Term]
+id: GEMET:7057 ! regeneration
+xref: SCTID:34636005 ! Regeneration
+
+[Term]
+id: GEMET:8543 ! toxicology
+xref: SCTID:409967009 ! Toxicology
+xref: SCTID:64427006 ! Toxicologic
+
+[Term]
+id: GEMET:2592 ! electricity
+xref: SCTID:18213006 ! Electricity
+xref: SCTID:258096005 ! Electrical
+
+[Term]
+id: GEMET:8496 ! titanium dioxide
+xref: SCTID:432929006 ! Titanium dioxide
+xref: SCTID:62036000 ! Titanium dioxide
+
+[Term]
+id: GEMET:2857 ! environmentalism
+xref: SCTID:276339004 ! Environment
+
+[Term]
+id: GEMET:4022 ! housing
+xref: SCTID:257630004 ! House
+xref: SCTID:414418009 ! Housed
+
+[Term]
+id: GEMET:12444 ! thickening
+xref: SCTID:263899003 ! Thickened
+
+[Term]
+id: GEMET:1262 ! centrifugation
+xref: SCTID:398475002 ! Centrifugal
+xref: SCTID:85457002 ! Centrifugation
+
+[Term]
+id: GEMET:5081 ! separation
+xref: SCTID:13184001 ! Separated
+xref: SCTID:16640008 ! Separation
+xref: SCTID:260817003 ! Type of separator
+xref: SCTID:263869007 ! Separate
+
+[Term]
+id: GEMET:2956 ! equipment
+xref: SCTID:246137000 ! Equipment
+xref: SCTID:405654002 ! Equipment type
+
+[Term]
+id: GEMET:4523 ! isotope
+xref: SCTID:33638001 ! Isotope
+
+[Term]
+id: GEMET:2015 ! decontamination
+xref: SCTID:409530006 ! Decontamination
+
+[Term]
+id: GEMET:3375 ! food preservation
+xref: SCTID:106441008 ! Food preserver
+xref: SCTID:51386004 ! Food preservative
+
+[Term]
+id: GEMET:1247 ! cement
+xref: SCTID:23390007 ! Cementer
+xref: SCTID:277041000 ! Type of cement
+xref: SCTID:419202002 ! Cement
+xref: SCTID:66265004 ! Cementitis
+
+[Term]
+id: GEMET:7774 ! soaking
+xref: SCTID:42691000 ! Soak
+
+[Term]
+id: GEMET:3505 ! fuel
+xref: SCTID:223373004 ! Fuel
+
+[Term]
+id: GEMET:8141 ! stress
+xref: SCTID:262188008 ! Stress
+xref: SCTID:73595000 ! Stress
+
+[Term]
+id: GEMET:9302 ! whale
+xref: SCTID:20689007 ! Whale
+
+[Term]
+id: GEMET:342 ! alpha radiation
+xref: SCTID:285325000 ! Alpha radiation
+
+[Term]
+id: GEMET:6313 ! planting
+xref: SCTID:228656006 ! Plant structure
+
+[Term]
+id: GEMET:3559 ! garden
+xref: SCTID:34024003 ! Gardener
+
+[Term]
+id: GEMET:7182 ! respiratory tract
+xref: SCTID:321667001 ! Respiratory tract structure
+
+[Term]
+id: GEMET:14906 ! mosaic
+xref: SCTID:255432000 ! Mosaic
+xref: SCTID:8855009 ! Mosaicism
+
+[Term]
+id: GEMET:4158 ! immunology
+xref: SCTID:37523008 ! Immunologic
+
+[Term]
+id: GEMET:1434 ! civil engineering
+xref: SCTID:106262007 ! Civil engineer
+xref: SCTID:29777006 ! Civil engineer
+
+[Term]
+id: GEMET:68 ! actinium
+xref: SCTID:1396009 ! Actinium
+
+[Term]
+id: GEMET:4325 ! injury
+xref: SCTID:246240008 ! Type of injury
+
+[Term]
+id: GEMET:8974 ! virology
+xref: SCTID:76018003 ! Virologic
+
+[Term]
+id: GEMET:5230 ! microscopy
+xref: SCTID:117259009 ! Microscopy
+xref: SCTID:391483001 ! Microscopy
+
+[Term]
+id: GEMET:6196 ! phosphorus
+xref: SCTID:30820000 ! Phosphorus
+
+[Term]
+id: GEMET:6129 ! persistence
+xref: SCTID:130965009 ! Persistence
+xref: SCTID:255222005 ! Persistent
+
+[Term]
+id: GEMET:3498 ! fruit
+xref: SCTID:72511004 ! Fruit
+
+[Term]
+id: GEMET:3937 ! heterocyclic compound
+xref: SCTID:116280007 ! Heterocyclic compound
+
+[Term]
+id: GEMET:5154 ! mercury
+xref: SCTID:280907001 ! Mercurial
+xref: SCTID:45262002 ! Mercury
+xref: SCTID:86506005 ! Mercury
+
+[Term]
+id: GEMET:4599 ! land
+xref: SCTID:224718008 ! Landing
+
+[Term]
+id: GEMET:2979 ! ether
+xref: SCTID:3601005 ! Ether
+
+[Term]
+id: GEMET:5287 ! mining engineering
+xref: SCTID:106267001 ! Mining engineer
+xref: SCTID:13542000 ! Mining engineer
+
+[Term]
+id: GEMET:13550 ! camp
+xref: SCTID:10496000 ! Camping
+
+[Term]
+id: GEMET:4723 ! lead
+xref: SCTID:88488004 ! Lead
+
+[Term]
+id: GEMET:1447 ! classification
+xref: SCTID:278201002 ! Classification
+
+[Term]
+id: GEMET:2212 ! directive
+xref: SCTID:255512003 ! Directions
+xref: SCTID:255589003 ! Direct
+xref: SCTID:260672003 ! Direction
+
+[Term]
+id: GEMET:13261 ! management accounting
+xref: SCTID:158789000 ! Accountant manager
+
+[Term]
+id: GEMET:7073 ! regional plan
+xref: SCTID:397943006 ! Planned
+
+[Term]
+id: GEMET:1956 ! damage
+xref: SCTID:37782003 ! Damage
+
+[Term]
+id: GEMET:2683 ! employment
+xref: SCTID:394571004 ! Employer
+
+[Term]
+id: GEMET:6650 ! processing
+xref: SCTID:415178003 ! Process
+
+[Term]
+id: GEMET:3742 ! gravel pit
+xref: SCTID:257619002 ! Gravel pit
+
+[Term]
+id: GEMET:3518 ! fume
+xref: SCTID:278423000 ! Fume
+
+[Term]
+id: GEMET:3983 ! history
+xref: SCTID:392521001 ! History of
+xref: SCTID:4908009 ! History of
+xref: SCTID:51042001 ! History of
+
+[Term]
+id: GEMET:7843 ! soil
+xref: SCTID:276484003 ! Soiling
+xref: SCTID:415555003 ! Soil
+
+[Term]
+id: GEMET:7612 ! separator
+xref: SCTID:13184001 ! Separated
+xref: SCTID:16640008 ! Separation
+xref: SCTID:260817003 ! Type of separator
+xref: SCTID:263869007 ! Separate
+
+[Term]
+id: GEMET:267 ! airport
+xref: SCTID:257562009 ! Airport
+
+[Term]
+id: GEMET:6485 ! polychlorinated biphenyl
+xref: SCTID:42001007 ! Polychlorinated biphenyl
+
+[Term]
+id: GEMET:6181 ! pharmacology
+xref: SCTID:56183000 ! Pharmacologic
+
+[Term]
+id: GEMET:3311 ! flow
+xref: SCTID:260799006 ! Type of flow
+
+[Term]
+id: GEMET:702 ! bacteriology
+xref: SCTID:4122005 ! Bacteriologic
+
+[Term]
+id: GEMET:2624 ! electronics
+xref: SCTID:258097001 ! Electronic
+xref: SCTID:46602004 ! Electron
+
+[Term]
+id: GEMET:8159 ! submarine
+xref: SCTID:311394009 ! Submariner
+
+[Term]
+id: GEMET:4735 ! leather
+xref: SCTID:19627002 ! Leather
+
+[Term]
+id: GEMET:2963 ! erosion
+xref: SCTID:255304005 ! Erosive
+xref: SCTID:263525006 ! Erosiveness
+
+[Term]
+id: GEMET:5322 ! mobile home
+xref: SCTID:257641002 ! Mobile home
+
+[Term]
+id: GEMET:13336 ! marital status
+xref: SCTID:125680007 ! Marital status
+
+[Term]
+id: GEMET:8516 ! tornado
+xref: SCTID:88644004 ! Tornado
+
+[Term]
+id: GEMET:776 ! benzene
+xref: SCTID:57939002 ! Benzene
+
+[Term]
+id: GEMET:8992 ! vocational training
+xref: SCTID:54106008 ! Vocational training
+
+[Term]
+id: GEMET:8913 ! vegetable oil
+xref: SCTID:412552006 ! Vegetable oil
+
+[Term]
+id: GEMET:8546 ! toxic substance
+xref: SCTID:35331000 ! Toxic substance
+
+[Term]
+id: GEMET:7319 ! route
+xref: SCTID:260670006 ! Route
+
+[Term]
+id: GEMET:12198 ! flushing
+xref: SCTID:238810007 ! Flushing
+
+[Term]
+id: GEMET:2706 ! endocrinology
+xref: SCTID:394583002 ! Endocrinology
+
+[Term]
+id: GEMET:1659 ! compression
+xref: SCTID:300584000 ! Compressible
+xref: SCTID:37204000 ! Compressing
+xref: SCTID:71173004 ! Compression
+
+[Term]
+id: GEMET:7816 ! social service
+xref: SCTID:310134006 ! Social services
+
+[Term]
+id: GEMET:1846 ! covering
+xref: SCTID:255334000 ! Covered
+
+[Term]
+id: GEMET:4084 ! hydraulic engineering
+xref: SCTID:69965009 ! Hydraulics engineer
+
+[Term]
+id: GEMET:322 ! alkane
+xref: SCTID:299982002 ! Alkane
+
+[Term]
+id: GEMET:6806 ! public park
+xref: SCTID:257677009 ! Public park
+
+[Term]
+id: GEMET:11113 ! calculation
+xref: SCTID:258090004 ! Calculated
+
+[Term]
+id: GEMET:1807 ! corridor
+xref: SCTID:224720006 ! Corridor
+
+[Term]
+id: GEMET:1389 ! chlorophenol
+xref: SCTID:16405003 ! Chlorophenol
+
+[Term]
+id: GEMET:10002 ! accounting
+xref: SCTID:106302007 ! Accountant
+xref: SCTID:25285009 ! Accountant
+
+[Term]
+id: GEMET:4548 ! stocking
+xref: SCTID:228184002 ! Stocking
+
+[Term]
+id: GEMET:1126 ! canal
+xref: SCTID:182000 ! Canalization
+xref: SCTID:257577001 ! Canal
+
+[Term]
+id: GEMET:9127 ! waste water
+xref: SCTID:264327008 ! Waste water
+
+[Term]
+id: GEMET:9151 ! water body
+xref: SCTID:38348009 ! Body water
+
+[Term]
+id: GEMET:1244 ! cellulose
+xref: SCTID:68992005 ! Cellulose
+
+[Term]
+id: GEMET:7269 ! river water
+xref: SCTID:421665008 ! River water
+
+[Term]
+id: GEMET:6505 ! polyvinyl chloride
+xref: SCTID:311433001 ! Polyvinyl chloride
+xref: SCTID:35233000 ! Polyvinyl chloride
+
+[Term]
+id: GEMET:4567 ! laboratory
+xref: SCTID:261904005 ! Laboratory
+
+[Term]
+id: GEMET:173 ! age
+xref: SCTID:248280005 ! Aging
+xref: SCTID:397669002 ! Age
+
+[Term]
+id: GEMET:14920 ! line
+xref: SCTID:398008005 ! Type of line
+
+[Term]
+id: GEMET:473 ! antibiotic
+xref: SCTID:255631004 ! Antibiotic
+
+[Term]
+id: GEMET:5569 ! nervous system
+xref: SCTID:25087005 ! Structure of nervous system
+
+[Term]
+id: GEMET:1368 ! chlorinated hydrocarbon
+xref: SCTID:56181003 ! Chlorinated hydrocarbon
+
+[Term]
+id: GEMET:7715 ! skiing
+xref: SCTID:258340006 ! SKI
+xref: SCTID:45033006 ! Skiing
+
+[Term]
+id: GEMET:6884 ! radiation
+xref: SCTID:82107009 ! Radiation
+xref: SCTID:8754004 ! Radiating to
+
+[Term]
+id: GEMET:6358 ! poison
+xref: SCTID:75478009 ! Poisoning
+
+[Term]
+id: GEMET:6587 ! preservative
+xref: SCTID:277405005 ! Preserving
+
+[Term]
+id: GEMET:2693 ! encapsulation
+xref: SCTID:59135002 ! Encapsulated
+
+[Term]
+id: GEMET:3123 ! farm building
+xref: SCTID:257610003 ! Farm building
+
+[Term]
+id: GEMET:2186 ! diffusion
+xref: SCTID:19648000 ! Diffuse
+
+[Term]
+id: GEMET:8680 ! tritium
+xref: SCTID:16082008 ! Tritium
+
+[Term]
+id: GEMET:4317 ! infrared radiation
+xref: SCTID:17871006 ! Infrared radiation
+
+[Term]
+id: GEMET:5415 ! mud flat
+xref: SCTID:285097008 ! Mudflats
+
+[Term]
+id: GEMET:2741 ! energy source
+xref: SCTID:260754003 ! Source of energy
+
+[Term]
+id: GEMET:695 ! background radiation
+xref: SCTID:285336007 ! Background radiation
+
+[Term]
+id: GEMET:5949 ! osmosis
+xref: SCTID:47410001 ! Osmosis
+
+[Term]
+id: GEMET:11116 ! density
+xref: SCTID:125146005 ! Density
+
+[Term]
+id: GEMET:5554 ! necrosis
+xref: SCTID:6574001 ! Necrosis
+
+[Term]
+id: GEMET:6064 ! pathogenic organism
+xref: SCTID:264418008 ! Pathogenic organism
+
+[Term]
+id: GEMET:6033 ! parameter
+xref: SCTID:246446004 ! Parameter
+
+[Term]
+id: GEMET:4359 ! in situ
+xref: SCTID:264031007 ! In situ
+
+[Term]
+id: GEMET:3184 ! filter
+xref: SCTID:236312003 ! Filterer
+
+[Term]
+id: GEMET:2084 ! deposition
+xref: SCTID:46595003 ! Deposition
+
+[Term]
+id: GEMET:5776 ! objection
+xref: SCTID:272734009 ! Object
+
+[Term]
+id: GEMET:945 ! boating
+xref: SCTID:257418003 ! Boat
+
+[Term]
+id: GEMET:992 ! breast milk
+xref: SCTID:226789007 ! Breast milk
+
+[Term]
+id: GEMET:5032 ! marine engineering
+xref: SCTID:311383005 ! Marine engineer
+xref: SCTID:45870003 ! Marine engineer
+
+[Term]
+id: GEMET:3953 ! high protein food
+xref: SCTID:228065003 ! High protein food
+
+[Term]
+id: GEMET:157 ! aerosol
+xref: SCTID:64242006 ! Aerosol
+
+[Term]
+id: GEMET:2103 ! desert
+xref: SCTID:257597006 ! Desert
+
+[Term]
+id: GEMET:8031 ! square
+xref: SCTID:56924007 ! Square
+
+[Term]
+id: GEMET:5498 ! natural environment
+xref: SCTID:224803003 ! Natural environment
+
+[Term]
+id: GEMET:5086 ! material
+xref: SCTID:260769002 ! Materials
+xref: SCTID:276731003 ! Material
+
+[Term]
+id: GEMET:8999 ! volcanic eruption
+xref: SCTID:90978007 ! Volcanic eruption
+
+[Term]
+id: GEMET:6414 ! pollutant exposure
+xref: SCTID:102420004 ! Exposure to pollution
+
+[Term]
+id: GEMET:8296 ! tar
+xref: SCTID:263894008 ! Tar
+
+[Term]
+id: GEMET:11563 ! litigation
+xref: SCTID:44254000 ! Litigation
+
+[Term]
+id: GEMET:3232 ! firm
+xref: SCTID:20583004 ! Firm
+
+[Term]
+id: GEMET:5318 ! mixing
+xref: SCTID:26242008 ! Mixed
+xref: SCTID:421826007 ! Mix
+
+[Term]
+id: GEMET:4917 ! loudness
+xref: SCTID:24547000 ! Loudness
+
+[Term]
+id: GEMET:1526 ! coastal water
+xref: SCTID:257589004 ! Coastal water
+
+[Term]
+id: GEMET:3061 ! explosive
+xref: SCTID:19440001 ! Explosion
+
+[Term]
+id: GEMET:6038 ! parasitology
+xref: SCTID:40512005 ! Parasitologic
+
+[Term]
+id: GEMET:6346 ! plutonium
+xref: SCTID:38327007 ! Plutonium
+
+[Term]
+id: GEMET:4131 ! ice
+xref: SCTID:229871004 ! Icing
+xref: SCTID:896008 ! Ice
+
+[Term]
+id: GEMET:329 ! allergen
+xref: SCTID:277054007 ! Allergen
+xref: SCTID:90260006 ! Allergen
+
+[Term]
+id: GEMET:3721 ! grain
+xref: SCTID:264331002 ! Grain
+
+[Term]
+id: GEMET:6822 ! public utility
+xref: SCTID:257678004 ! Public utility
+
+[Term]
+id: GEMET:474 ! antibody
+xref: SCTID:246233007 ! Antibody type
+xref: SCTID:260840004 ! Type of antibody
+xref: SCTID:68498002 ! Antibody
+
+[Term]
+id: GEMET:8344 ! tectonics
+xref: SCTID:262196003 ! Tectonic
+
+[Term]
+id: GEMET:1001 ! bridge
+xref: SCTID:277035007 ! Type of bridge
+
+[Term]
+id: GEMET:2066 ! demonstrability
+xref: SCTID:10130000 ! Demonstrator
+xref: SCTID:29683002 ! Demonstrable
+
+[Term]
+id: GEMET:8549 ! toxin
+xref: SCTID:246247006 ! Toxin type
+xref: SCTID:264934001 ! Toxin typing
+xref: SCTID:276905006 ! Toxin type
+xref: SCTID:50669009 ! Toxin
+xref: SCTID:80917008 ! Toxin
+
+[Term]
+id: GEMET:3301 ! flooding
+xref: SCTID:111056004 ! Flood
+
+[Term]
+id: GEMET:5277 ! mineral
+xref: SCTID:67630004 ! Miner
+xref: SCTID:87918000 ! Mineral
+
+[Term]
+id: GEMET:5349 ! monitoring equipment
+xref: SCTID:284036006 ! Equipment monitoring
+
+[Term]
+id: GEMET:781 ! beryllium
+xref: SCTID:88014003 ! Beryllium
+
+[Term]
+id: GEMET:13200 ! convenience food
+xref: SCTID:227998008 ! Convenience food
+
+[Term]
+id: GEMET:13088 ! method
+xref: SCTOP_260686004 ! Method
+
+[Term]
+id: GEMET:961 ! bookkeeping
+xref: SCTID:68865000 ! Bookkeeper
+
+[Term]
+id: GEMET:1266 ! ceramics
+xref: SCTID:261253002 ! Ceramic
+
+[Term]
+id: GEMET:121 ! adult
+xref: SCTID:133936004 ! Adult
+
+[Term]
+id: GEMET:8967 ! village
+xref: SCTID:284561004 ! Village
+
+[Term]
+id: GEMET:11752 ! asbestosis
+xref: SCTID:22607003 ! Asbestosis
+
+[Term]
+id: GEMET:3554 ! gamma radiation
+xref: SCTID:76772003 ! Gamma radiation
+
+[Term]
+id: GEMET:4793 ! library
+xref: SCTID:264366000 ! Library
+
+[Term]
+id: GEMET:7899 ! soil type
+xref: SCTID:276484003 ! Soiling
+xref: SCTID:415555003 ! Soil
+
+[Term]
+id: GEMET:5810 ! office
+xref: SCTID:257649000 ! Office
+xref: SCTID:394746004 ! Regional office
+
+[Term]
+id: GEMET:4483 ! iodine
+xref: SCTID:252339003 ! Iodination
+xref: SCTID:44588005 ! Iodine
+
+[Term]
+id: GEMET:375 ! ammonia
+xref: SCTID:421024009 ! Ammonia
+xref: SCTID:43953005 ! Ammonia
+
+[Term]
+id: GEMET:7796 ! social group
+xref: SCTID:160481000 ! Social group
+
+[Term]
+id: GEMET:5890 ! organ
+xref: SCTID:21139007 ! Organization
+xref: SCTID:252401007 ! Organism typing
+xref: SCTID:385650005 ! Organized
+xref: SCTID:410607006 ! Organism
+xref: SCTID:410653004 ! Organism
+
+[Term]
+id: GEMET:1489 ! clothing
+xref: SCTID:81293006 ! Cloth
+
+[Term]
+id: GEMET:1800 ! cork
+xref: SCTID:13818007 ! Cork
+
+[Term]
+id: GEMET:4167 ! import
+xref: SCTID:159644001 ! Importer
+
+[Term]
+id: GEMET:2188 ! digester
+xref: SCTID:26580005 ! Digestant
+xref: SCTID:372684006 ! Digestant
+
+[Term]
+id: GEMET:7933 ! sound
+xref: SCTID:118448000 ! Sounding
+
+[Term]
+id: GEMET:14885 ! reference service
+xref: SCTID:309018005 ! Referred to service
+
+[Term]
+id: GEMET:5444 ! museum
+xref: SCTID:264370008 ! Museum
+
+[Term]
+id: GEMET:5122 ! measuring method
+xref: SCTOP_370129005 ! Measurement method
+
+[Term]
+id: GEMET:2361 ! drying
+xref: SCTID:13880007 ! Dry
+
+[Term]
+id: GEMET:9412 ! zinc
+xref: SCTID:86739005 ! Zinc
+
+[Term]
+id: GEMET:5555 ! need
+xref: SCTID:410525008 ! Needed
+
+[Term]
+id: GEMET:3701 ! golf
+xref: SCTID:15530008 ! Golfing
+
+[Term]
+id: GEMET:5670 ! non-ferrous metal
+xref: SCTID:264879001 ! Non-ferrous metal
+
+[Term]
+id: GEMET:4326 ! ink
+xref: SCTID:46384008 ! Ink
+
+[Term]
+id: GEMET:7880 ! soil pollution
+xref: SCTID:102417007 ! Soil pollution
+
+[Term]
+id: GEMET:8057 ! starch
+xref: SCTID:39360003 ! Starch
+xref: SCTID:412339002 ! Starch
+xref: SCTID:64734009 ! Starch
+
+[Term]
+id: GEMET:3954 ! high-rise building
+xref: SCTID:224640009 ! High-rise building
+
+[Term]
+id: GEMET:1827 ! cotton
+xref: SCTID:388442007 ! Cotton
+xref: SCTID:392520000 ! Cotton
+xref: SCTID:411884007 ! Cotton
+
+[Term]
+id: GEMET:4702 ! laundering
+xref: SCTID:308220005 ! Launderer
+xref: SCTID:61811005 ! Launderer
+
+[Term]
+id: GEMET:6499 ! polymer
+xref: SCTID:33054004 ! Polymerization
+xref: SCTID:412155002 ! Polymer
+
+[Term]
+id: GEMET:3406 ! forest
+xref: SCTID:257616009 ! Forest
+
+[Term]
+id: GEMET:3865 ! health
+xref: SCTID:263775005 ! Health
+
+[Term]
+id: GEMET:9170 ! waterfall
+xref: SCTID:285096004 ! Waterfall
+
+[Term]
+id: GEMET:607 ! association
+xref: SCTID:263534001 ! Association
+
+[Term]
+id: GEMET:47 ! acidity
+xref: SCTID:32186004 ! Acidizer
+xref: SCTID:34957004 ! Acid
+
+[Term]
+id: GEMET:3585 ! gas mixture
+xref: SCTID:303701009 ! Gas mixture
+
+[Term]
+id: GEMET:567 ! arsenic
+xref: SCTID:47809000 ! Arsenic
+
+[Term]
+id: GEMET:5258 ! mill
+xref: SCTID:224650005 ! Mill
+
+[Term]
+id: GEMET:4493 ! ion
+xref: SCTID:48006008 ! Ion
+
+[Term]
+id: GEMET:7181 ! respiratory system
+xref: SCTID:20139000 ! Structure of respiratory system
+
+[Term]
+id: GEMET:10018 ! human body
+xref: SCTID:279495008 ! Human body structure
+
+[Term]
+id: GEMET:10053 ! risk management
+xref: SCTID:225314003 ! Risk management
+
+[Term]
+id: GEMET:6140 ! pesticide
+xref: SCTID:59545008 ! Pesticide
+
+[Term]
+id: GEMET:5991 ! ozone
+xref: SCTID:40057008 ! Ozone
+
+[Term]
+id: GEMET:2238 ! disinfection
+xref: SCTID:311942001 ! Disinfectant
+
+[Term]
+id: GEMET:9327 ! wind
+xref: SCTID:248552009 ! Winded
+xref: SCTID:90569008 ! Wind
+
+[Term]
+id: GEMET:7694 ! silicon
+xref: SCTID:13652007 ! Silicone
+xref: SCTID:51420009 ! Silicon
+
+[Term]
+id: GEMET:8144 ! strontium
+xref: SCTID:43136004 ! Strontium
+
+[Term]
+id: GEMET:6106 ! pentachlorophenol
+xref: SCTID:77025003 ! Pentachlorophenol
+
+[Term]
+id: GEMET:14330 ! teratogenic substance
+xref: SCTID:45986006 ! Teratogenic substance
+
+[Term]
+id: GEMET:4668 ! landslide
+xref: SCTID:49061008 ! Landslide
+
+[Term]
+id: GEMET:3521 ! fumigation
+xref: SCTID:67265007 ! Fumigant
+
+[Term]
+id: GEMET:8037 ! stable
+xref: SCTID:58158008 ! Stable
+
+[Term]
+id: GEMET:591 ! asbestos
+xref: SCTID:16369005 ! Asbestos
+
+[Term]
+id: GEMET:3334 ! fluorine
+xref: SCTID:35883004 ! Fluorine
+
+[Term]
+id: GEMET:2714 ! energy conservation
+xref: SCTID:385688007 ! Energy conservation
+
+[Term]
+id: GEMET:562 ! aromatic hydrocarbon
+xref: SCTID:34862004 ! Aromatic hydrocarbon
+
+[Term]
+id: GEMET:7413 ! sand
+xref: SCTID:128489003 ! Sand
+
+[Term]
+id: GEMET:6507 ! pond
+xref: SCTID:420763003 ! Pond
+
+[Term]
+id: GEMET:10155 ! cliff
+xref: SCTID:257584009 ! Cliff
+
+[Term]
+id: GEMET:11836 ! cardiovascular system
+xref: SCTID:113257007 ! Structure of cardiovascular system
+
+[Term]
+id: GEMET:4810 ! light
+xref: SCTID:22601002 ! Light
+
+[Term]
+id: GEMET:7895 ! soil structure
+xref: SCTID:276484003 ! Soiling
+xref: SCTID:415555003 ! Soil
+
+[Term]
+id: GEMET:1371 ! chlorination
+xref: SCTID:29276003 ! Chlorine
+
+[Term]
+id: GEMET:429 ! animal husbandry
+xref: SCTID:133927003 ! Animal husbandry
+
+[Term]
+id: GEMET:816 ! biocide
+xref: SCTID:255640000 ! Biocide
+
+[Term]
+id: GEMET:6445 ! pollution
+xref: SCTID:102410009 ! Pollution
+
+[Term]
+id: GEMET:7925 ! solvent
+xref: SCTID:61010005 ! Solvent
+
+[Term]
+id: GEMET:2754 ! engine
+xref: SCTID:106269003 ! Engineer
+
+[Term]
+id: GEMET:6183 ! phenol
+xref: SCTID:116613007 ! Phenol
+xref: SCTID:346624001 ! Phenolics
+xref: SCTID:373223000 ! Phenolics
+
+[Term]
+id: GEMET:14499 ! excise
+xref: SCTID:65801008 ! Excision
+
+[Term]
+id: GEMET:5589 ! nickel
+xref: SCTID:33396006 ! Nickel
+
+[Term]
+id: GEMET:8376 ! teratogenesis
+xref: SCTID:58694006 ! Teratogenesis
+
+[Term]
+id: GEMET:7047 ! refugee
+xref: SCTID:161157008 ! Refugee
+
+[Term]
+id: GEMET:8711 ! turbidity
+xref: SCTID:263906002 ! Turbid
+xref: SCTID:38030007 ! Turbidity
+
+[Term]
+id: GEMET:965 ! boron
+xref: SCTID:70597009 ! Boron
+
+[Term]
+id: GEMET:488 ! apartment block
+xref: SCTID:224633008 ! Apartment block
+
+[Term]
+id: GEMET:6901 ! radio
+xref: SCTID:360004001 ! Radio
+
+[Term]
+id: GEMET:2333 ! drilling
+xref: SCTID:80342005 ! Drilling
+
+[Term]
+id: GEMET:7450 ! saprobe
+xref: SCTID:284684003 ! Saprobe
+
+[Term]
+id: GEMET:7686 ! sick building syndrome
+xref: SCTID:19076009 ! Sick building syndrome
+
+[Term]
+id: GEMET:6338 ! platinum
+xref: SCTID:84847000 ! Platinum
+
+[Term]
+id: GEMET:6120 ! permeability
+xref: SCTID:82540007 ! Permeable
+
+[Term]
+id: GEMET:7628 ! sewage
+xref: SCTID:224939005 ! Sewage
+
+[Term]
+id: GEMET:9202 ! water pollution
+xref: SCTID:102414000 ! Water pollution
+
+[Term]
+id: GEMET:4514 ! island
+xref: SCTID:288560006 ! Island
+
+[Term]
+id: GEMET:2245 ! dispersion
+xref: SCTID:86902002 ! Dispersion
+
+[Term]
+id: GEMET:3063 ! export
+xref: SCTID:159645000 ! Exporter
+
+[Term]
+id: GEMET:3530 ! fungicide
+xref: SCTID:19209005 ! Fungicide
+
+[Term]
+id: GEMET:12394 ! mineral oil
+xref: SCTID:111089004 ! Mineral oil
+
+[Term]
+id: GEMET:11701 ! instrumentation
+xref: SCTID:309824003 ! Instrumentation
+
+[Term]
+id: GEMET:11621 ! notification
+xref: SCTID:185087000 ! Notifications
+
+[Term]
+id: GEMET:5852 ! oil spill
+xref: SCTID:57371001 ! Oil spill
+
+[Term]
+id: GEMET:1373 ! chlorine
+xref: SCTID:29276003 ! Chlorine
+
+[Term]
+id: GEMET:1532 ! cobalt
+xref: SCTID:54808007 ! Cobalt
+
+[Term]
+id: GEMET:363 ! amalgam
+xref: SCTID:256447001 ! Amalgam
+xref: SCTID:256448006 ! Amalgam
+xref: SCTID:256449003 ! Amalgam
+
+[Term]
+id: GEMET:5870 ! oncology
+xref: SCTID:3428006 ! Oncologic
+
+[Term]
+id: GEMET:4155 ! immunity
+xref: SCTID:255386009 ! Immune
+
+[Term]
+id: GEMET:6152 ! pet
+xref: SCTID:79139007 ! Petting
+
+[Term]
+id: GEMET:7324 ! rubber
+xref: SCTID:43230003 ! Rubber
+
+[Term]
+id: GEMET:9426 ! zoonosis
+xref: SCTID:28762008 ! Zoonosis
+
+[Term]
+id: GEMET:8893 ! vanadium
+xref: SCTID:18925001 ! Vanadium
+
+[Term]
+id: GEMET:12977 ! patent
+xref: SCTID:56116003 ! Patent
+
+[Term]
+id: GEMET:7465 ! school
+xref: SCTID:257698009 ! School
+xref: SCTID:266981003 ! Schooling
+
+[Term]
+id: GEMET:3933 ! herbicide
+xref: SCTID:71818000 ! Herbicide
+
+[Term]
+id: GEMET:3356 ! food additive
+xref: SCTID:59533004 ! Food additive
+
+[Term]
+id: GEMET:4333 ! inland water
+xref: SCTID:257634008 ! Inland water
+
+[Term]
+id: GEMET:372 ! amine
+xref: SCTID:43201005 ! Amine
+
+[Term]
+id: GEMET:596 ! ash
+xref: SCTID:256251001 ! Ash
+
+[Term]
+id: GEMET:1941 ! cyclone
+xref: SCTID:48071004 ! Cyclone
+
+[Term]
+id: GEMET:678 ! avalanche
+xref: SCTID:82145005 ! Avalanche
+
+[Term]
+id: GEMET:9331 ! windmill
+xref: SCTID:224651009 ! Windmill
+
+[Term]
+id: GEMET:9199 ! water pollutant
+xref: SCTID:102414000 ! Water pollution
+
+[Term]
+id: GEMET:4808 ! lifestyle
+xref: SCTID:134436002 ! Lifestyle
+xref: SCTID:60134006 ! Life style
+
+[Term]
+id: GEMET:2801 ! environmental culture
+xref: SCTID:21808008 ! Environmental culture
+
+[Term]
+id: GEMET:2823 ! environmental hazard
+xref: SCTID:21015004 ! Environmental hazard
+
+[Term]
+id: GEMET:5547 ! nausea
+xref: SCTID:422587007 ! Nausea
+
+[Term]
+id: GEMET:959 ! book
+xref: SCTID:278212002 ! Book
+
+[Term]
+id: GEMET:11270 ! bus station
+xref: SCTID:257575009 ! Bus station
+
+[Term]
+id: GEMET:2945 ! enzyme
+xref: SCTID:90668006 ! Enzyme
+
+[Term]
+id: GEMET:11207 ! chalk
+xref: SCTID:317346002 ! Chalk
+xref: SCTID:418016005 ! Chalk
+
+[Term]
+id: GEMET:3117 ! family
+xref: SCTID:255401001 ! Familial
+xref: SCTID:35359004 ! Family
+
+[Term]
+id: GEMET:10910 ! mountain resort
+xref: SCTID:257645006 ! Mountain resort
+
+[Term]
+id: GEMET:8995 ! volatility
+xref: SCTID:115543007 ! Volatile
+
+[Term]
+id: GEMET:1762 ! contract
+xref: SCTID:78558002 ! Contraction
+
+[Term]
+id: GEMET:6890 ! radiation exposure
+xref: SCTID:218190002 ! Exposure to radiation
+
+[Term]
+id: GEMET:6527 ! population structure
+xref: SCTID:385436007 ! Population
+
+[Term]
+id: GEMET:12395 ! whey
+xref: SCTID:226770007 ! Whey
+
+[Term]
+id: GEMET:7046 ! refuge
+xref: SCTID:161157008 ! Refugee
+
+[Term]
+id: GEMET:4974 ! malaria
+xref: SCTID:61462000 ! Malaria
+
+[Term]
+id: GEMET:3617 ! gene
+xref: SCTID:37717001 ! Gene type
+xref: SCTID:67271001 ! Gene
+
+[Term]
+id: GEMET:8428 ! thallium
+xref: SCTID:71763007 ! Thallium
+
+[Term]
+id: GEMET:7765 ! smoking
+xref: SCTID:64197008 ! Smoke
+
+[Term]
+id: GEMET:1391 ! chlorophyll
+xref: SCTID:14602007 ! Chlorophyll
+
+[Term]
+id: GEMET:6329 ! plastic
+xref: SCTID:417641001 ! Plasticity
+xref: SCTID:61088005 ! Plastic
+
+[Term]
+id: GEMET:13077 ! assay
+xref: SCTID:272392009 ! Assay
+
+[Term]
+id: GEMET:3229 ! firing
+xref: SCTID:80032004 ! Fire
+
+[Term]
+id: GEMET:11559 ! conflict
+xref: SCTID:15863006 ! Conflict
+
+[Term]
+id: GEMET:11671 ! strong acidity
+xref: SCTID:65669009 ! Strong acid
+
+[Term]
+id: GEMET:4196 ! indicator
+xref: SCTID:230165009 ! Indication of
+xref: SCTID:410535002 ! Indicated
+
+[Term]
+id: GEMET:10909 ! seaside resort
+xref: SCTID:257700000 ! Seaside resort
+
+[Term]
+id: GEMET:5218 ! microbiology
+xref: SCTID:269934003 ! Microbiology
+
+[Term]
+id: GEMET:1500 ! coal
+xref: SCTID:34323004 ! Coal
+
+[Term]
+id: GEMET:3999 ! hospital
+xref: SCTID:192065003 ! Hospitalism
+xref: SCTID:22232009 ! Hospital
+
+[Term]
+id: GEMET:12601 ! biological treatment
+xref: SCTID:413648008 ! Biological treatment
+
+[Term]
+id: GEMET:8096 ! steroid
+xref: SCTID:116566001 ! Steroid
+
+[Term]
+id: GEMET:4979 ! malnutrition
+xref: SCTID:272588001 ! Malnutrition
+
+[Term]
+id: GEMET:8742 ! ultraviolet radiation
+xref: SCTID:41355003 ! Ultraviolet radiation
+
+[Term]
+id: GEMET:7233 ! risk
+xref: SCTID:30207005 ! Risk of
+
+[Term]
+id: GEMET:3535 ! fur animal
+xref: SCTID:13215002 ! Animal fur
+
+[Term]
+id: GEMET:7244 ! river
+xref: SCTID:420531007 ! River
+
+[Term]
+id: GEMET:7761 ! smoke
+xref: SCTID:64197008 ! Smoke
+
+[Term]
+id: GEMET:6561 ! power station
+xref: SCTID:284558000 ! Power station
+
+[Term]
+id: GEMET:5058 ! market
+xref: SCTID:284440009 ! Market
+
+[Term]
+id: GEMET:1421 ! city
+xref: SCTID:284560003 ! City
+
+[Term]
+id: GEMET:5510 ! natural material
+xref: SCTID:260786008 ! Natural material
+
+[Term]
+id: GEMET:8926 ! vehicle
+xref: SCTID:261324000 ! Vehicle
+
+[Term]
+id: GEMET:6161 ! petroleum
+xref: SCTID:11699009 ! Petroleum
+
+[Term]
+id: GEMET:1401 ! chromium
+xref: SCTID:111070004 ! Chromium
+
+[Term]
+id: GEMET:751 ! beach
+xref: SCTID:257572007 ! Beach
+
+[Term]
+id: GEMET:8151 ! structure plan
+xref: SCTID:397943006 ! Planned
+
+[Term]
+id: GEMET:6548 ! poultry
+xref: SCTID:28230009 ! Poultry
+
+[Term]
+id: GEMET:3395 ! footpath
+xref: SCTID:284435001 ! Footpath
+
+[Term]
+id: GEMET:3678 ! glass
+xref: SCTID:32039001 ! Glass
+
+[Term]
+id: GEMET:5254 ! milk
+xref: SCTID:70813002 ! Milk
+
+[Term]
+id: GEMET:6240 ! physiology
+xref: SCTID:1360005 ! Physiologic
+
+[Term]
+id: GEMET:8894 ! vandalism
+xref: SCTID:248016003 ! Vandalism
+
+[Term]
+id: GEMET:8641 ! transportation
+xref: SCTID:360300001 ! Transport
+
+[Term]
+id: GEMET:10930 ! goods
+xref: SCTID:20572008 ! Good
+
+[Term]
+id: GEMET:10076 ! occupation
+xref: SCTID:14679004 ! Occupation
+xref: SCTID:276212005 ! Occupation type
+xref: SCTID:87923000 ! Occupational
+
+[Term]
+id: GEMET:3298 ! flood
+xref: SCTID:111056004 ! Flood
+
+[Term]
+id: GEMET:4094 ! hydrochloric acid
+xref: SCTID:27763000 ! Hydrochloric acid
+xref: SCTID:420502008 ! Hydrochloric acid
+
+[Term]
+id: GEMET:1776 ! convention
+xref: SCTID:255333006 ! Conventional
+xref: SCTID:285115002 ! Convent
+
+[Term]
+id: GEMET:2774 ! environmental assessment
+xref: SCTID:225342001 ! Environmental assessment
+
+[Term]
+id: GEMET:8736 ! ultrafiltration
+xref: SCTID:182750009 ! Ultrafiltration
+
+[Term]
+id: GEMET:8503 ! tobacco smoke
+xref: SCTID:102407002 ! Tobacco smoke
+
+[Term]
+id: GEMET:5346 ! monitoring
+xref: SCTID:159057005 ! Monitor
+xref: SCTID:260806004 ! Type of monitor
+
+[Term]
+id: GEMET:7712 ! sizing
+xref: SCTID:246115007 ! Size
+
+[Term]
+id: GEMET:13577 ! nitrogen oxide
+xref: SCTID:311735009 ! Oxide of nitrogen
+
+[Term]
+id: GEMET:1182 ! carcinogen
+xref: SCTID:88376000 ! Carcinogen
+
+[Term]
+id: GEMET:716 ! banking
+xref: SCTID:257568008 ! Bank
+
+[Term]
+id: GEMET:1517 ! coastal environment
+xref: SCTID:224817007 ! Coastal environment
+
+[Term]
+id: GEMET:1162 ! carbonate
+xref: SCTID:259094000 ! Carbonate
+xref: SCTID:87453002 ! Carbon
+
+[Term]
+id: GEMET:2402 ! earthquake
+xref: SCTID:8766005 ! Earthquake
+
+[Term]
+id: GEMET:8791 ! uranium
+xref: SCTID:40584000 ! Uranium
+
+[Term]
+id: GEMET:1111 ! calcium
+xref: SCTID:5540006 ! Calcium
+
+[Term]
+id: GEMET:4550 ! kerosene
+xref: SCTID:62128007 ! Kerosene
+
+[Term]
+id: GEMET:5297 ! mining waste
+xref: SCTID:264369007 ! Mining waste
+
+[Term]
+id: GEMET:7402 ! salt water
+xref: SCTID:46031004 ! Salt water
+
+[Term]
+id: GEMET:7495 ! sea
+xref: SCTID:225742004 ! Sea
+
+[Term]
+id: GEMET:11269 ! railway station
+xref: SCTID:257685000 ! Railway station
+
+[Term]
+id: GEMET:7214 ! rice
+xref: SCTID:67324005 ! Rice
+
+[Term]
+id: GEMET:6588 ! preserve
+xref: SCTID:277405005 ! Preserving
+
+[Term]
+id: GEMET:6788 ! public building
+xref: SCTID:257674002 ! Public building
+
+[Term]
+id: GEMET:8422 ! textile
+xref: SCTID:256245006 ! Textiles
+
+[Term]
+id: GEMET:8353 ! television
+xref: SCTID:255712000 ! Television
+
+[Term]
+id: GEMET:6510 ! pool
+xref: SCTID:69297003 ! Pool
+
+[Term]
+id: GEMET:8435 ! therapy
+xref: SCTID:276239002 ! Therapy
+
+[Term]
+id: GEMET:4504 ! irradiation
+xref: SCTID:359549004 ! Irradiation
+
+[Term]
+id: GEMET:4103 ! hydrogen
+xref: SCTID:2141009 ! Hydrogen
+
+[Term]
+id: GEMET:7878 ! soil pollutant
+xref: SCTID:102417007 ! Soil pollution
+
+[Term]
+id: GEMET:719 ! barium
+xref: SCTID:39290007 ! Barium
+xref: SCTID:426728000 ! Barium
+
+[Term]
+id: GEMET:6359 ! poisoning
+xref: SCTID:75478009 ! Poisoning
+
+[Term]
+id: GEMET:9363 ! wool
+xref: SCTID:412161004 ! Wool
+xref: SCTID:42716000 ! Wool
+
+[Term]
+id: GEMET:3365 ! food contamination
+xref: SCTID:228034007 ! Contaminated food
+
+[Term]
+id: GEMET:1224 ! cation
+xref: SCTID:31046007 ! Cation
+
+[Term]
+id: GEMET:5608 ! nitrogen dioxide
+xref: SCTID:91424007 ! Nitrogen dioxide
+
+[Term]
+id: GEMET:11782 ! laboratory test
+xref: SCTID:15220000 ! Laboratory test
+
+[Term]
+id: GEMET:7629 ! sewage disposal
+xref: SCTID:425012009 ! Sewage disposal
+
+[Term]
+id: GEMET:5184 ! metal
+xref: SCTID:116611009 ! Metal
+xref: SCTID:425620007 ! Metal
+
+[Term]
+id: GEMET:3130 ! farm
+xref: SCTID:257609008 ! Farm
+
+[Term]
+id: GEMET:8898 ! vapour pressure
+xref: SCTID:285402002 ! Vapour pressure
+
+[Term]
+id: GEMET:4934 ! lubricant
+xref: SCTID:257883005 ! Lubrication
+xref: SCTID:350100009 ! Lubricant
+
+[Term]
+id: GEMET:7348 ! rural environment
+xref: SCTID:224804009 ! Rural environment
+
+[Term]
+id: GEMET:6989 ! recommendation
+xref: SCTID:420227002 ! Recommendation to
+
+[Term]
+id: GEMET:11624 ! prescription
+xref: SCTID:16076005 ! Prescription
+xref: SCTID:260885003 ! Prescription
+xref: SCTID:394822002 ! Prescription types
+
+[Term]
+id: GEMET:10140 ! altitude
+xref: SCTID:76661004 ! Altitude
+
+[Term]
+id: GEMET:8986 ! vitamin
+xref: SCTID:87708000 ! Vitamin
+
+[Term]
+id: GEMET:3820 ! halogenated hydrocarbon
+xref: SCTID:41105002 ! Halogenated hydrocarbon
+
+[Term]
+id: GEMET:3512 ! fuel oil
+xref: SCTID:224763009 ! Fuel oil
+
+[Term]
+id: GEMET:1160 ! carbon
+xref: SCTID:259094000 ! Carbonate
+xref: SCTID:87453002 ! Carbon
+
+[Term]
+id: GEMET:10691 ! pruning
+xref: SCTID:227462009 ! Prunes
+
+[Term]
+id: GEMET:8976 ! virus
+xref: SCTID:246256003 ! Virus type
+xref: SCTID:277234002 ! Virus type
+xref: SCTID:49872002 ! Virus
+
+[Term]
+id: GEMET:13147 ! rights
+xref: SCTID:225794002 ! Type of right
+xref: SCTID:24028007 ! Right
+xref: SCTID:264746006 ! To the right
+xref: SCTID:312524003 ! Right
+
+[Term]
+id: GEMET:122 ! adult education
+xref: SCTID:161125007 ! Adult education
+
+[Term]
+id: GEMET:3181 ! filling material
+xref: SCTID:118417008 ! Filling material
+
+[Term]
+id: GEMET:4505 ! irrigation
+xref: SCTID:25951001 ! Irrigation
+xref: SCTID:47056001 ! By irrigation
+xref: SCTID:67889009 ! Irrigation
+xref: SCTID:89747006 ! Irrigator
+
+[Term]
+id: GEMET:90 ! adhesive
+xref: SCTID:42685002 ! Adhesion
+
+[Term]
+id: GEMET:617 ! atmosphere
+xref: SCTID:304607008 ! atmosphere
+
+[Term]
+id: GEMET:6935 ! radon
+xref: SCTID:72927002 ! Radon
+
+[Term]
+id: GEMET:1350 ! child
+xref: SCTID:160499008 ! Child of
+xref: SCTID:67822003 ! Child
+
+[Term]
+id: GEMET:2282 ! document
+xref: SCTID:397934002 ! Documented
+xref: SCTID:397966007 ! Documents
+
+[Term]
+id: GEMET:5303 ! minority
+xref: SCTID:255606000 ! Minor
+xref: SCTID:410599005 ! Minor
+
+[Term]
+id: GEMET:1381 ! chlorofluorocarbon
+xref: SCTID:300057008 ! Chlorofluorocarbon
+
+[Term]
+id: GEMET:8887 ! valley
+xref: SCTID:285098003 ! Valley
+
+[Term]
+id: GEMET:7092 ! rehousing
+xref: SCTID:160750008 ! Rehoused
+
+[Term]
+id: GEMET:6481 ! polybrominated biphenyl
+xref: SCTID:91518003 ! Polybrominated biphenyl
+
+[Term]
+id: GEMET:7776 ! soap
+xref: SCTID:25780000 ! Soap
+
+[Term]
+id: GEMET:1507 ! coal mining
+xref: SCTID:284177007 ! Coal mine
+
+[Term]
+id: GEMET:8272 ! synthetic material
+xref: SCTID:256626009 ! Synthetic material
+
+[Term]
+id: GEMET:3915 ! heavy metal
+xref: SCTID:22907001 ! Heavy metal
+
+[Term]
+id: GEMET:3207 ! fine
+xref: SCTID:3082000 ! Fine
+
+[Term]
+id: GEMET:4724 ! lead compound
+xref: SCTID:49977007 ! Lead compound
+
+[Term]
+id: GEMET:8899 ! varnish
+xref: SCTID:29360009 ! Varnish
+
+[Term]
+id: GEMET:1320 ! chemical process
+xref: SCTID:24014001 ! Chemical processer
+
+[Term]
+id: GEMET:11618 ! homologation
+xref: SCTID:73804003 ! Homology region
+
+[Term]
+id: GEMET:6925 ! radioactivity
+xref: SCTID:32888000 ! Radioactivity
+
+[Term]
+id: GEMET:11713 ! atrazine
+xref: SCTID:85612002 ! Atrazine
+
+[Term]
+id: GEMET:2643 ! chemical element
+xref: SCTID:57795002 ! Chemical element
+
+[Term]
+id: GEMET:5982 ! oxygen
+xref: SCTID:24099007 ! Oxygen
+xref: SCTID:246146006 ! Type of oxygenator
+xref: SCTID:257308009 ! Oxygenator
+
+[Term]
+id: GEMET:6395 ! pollutant
+xref: SCTID:102410009 ! Pollution
+
+[Term]
+id: GEMET:8844 ! urban structure
+xref: SCTID:257723002 ! Urban
+
+[Term]
+id: GEMET:8977 ! viscosity
+xref: SCTID:78949001 ! Viscosity
+
+[Term]
+id: GEMET:454 ! anion
+xref: SCTID:47707009 ! Anion
+
+[Term]
+id: GEMET:7138 ! reservoir
+xref: SCTID:257687008 ! Reservoir
+
+[Term]
+id: GEMET:2286 ! document type
+xref: SCTID:397934002 ! Documented
+xref: SCTID:397966007 ! Documents
+
+[Term]
+id: GEMET:2389 ! dye
+xref: SCTID:61789006 ! Dye
+
+[Term]
+id: GEMET:1168 ! carbon dioxide
+xref: SCTID:31811003 ! Carbon dioxide
+
+[Term]
+id: GEMET:4354 ! insecticide
+xref: SCTID:33278000 ! Insecticide
+
+[Term]
+id: GEMET:4857 ! litter
+xref: SCTID:370553007 ! Litter
+
+[Term]
+id: GEMET:7654 ! ship
+xref: SCTID:224673002 ! Ship
+
+[Term]
+id: GEMET:305 ! algicide
+xref: SCTID:29455006 ! Algicide
+
+[Term]
+id: GEMET:3079 ! externality
+xref: SCTID:261074009 ! External
+
+[Term]
+id: GEMET:4942 ! lye
+xref: SCTID:311721007 ! Lye
+
+[Term]
+id: GEMET:6139 ! pest control
+xref: SCTID:275824000 ! Pest control
+
+[Term]
+id: GEMET:6205 ! photograph
+xref: SCTID:159095000 ! Photographer
+xref: SCTID:257444003 ! Photograph
+xref: SCTID:308017009 ! Photographer
+
+[Term]
+id: GEMET:1159 ! carbohydrate
+xref: SCTID:2331003 ! Carbohydrate
+
+[Term]
+id: GEMET:2358 ! dry cleaning
+xref: SCTID:771004 ! Dry-cleaner
+
+[Term]
+id: GEMET:14918 ! vector
+xref: SCTID:260529001 ! Vectors
+
+[Term]
+id: GEMET:5369 ! morphology
+xref: SCTID:263624003 ! Morphological type
+
+[Term]
+id: GEMET:4945 ! lymphatic system
+xref: SCTID:281344002 ! Structure of region of lymphatic system
+xref: SCTID:89890002 ! Structure of lymphatic system
+
+[Term]
+id: GEMET:5742 ! nuclear reactor
+xref: SCTID:66096004 ! Nuclear reactor
+
+[Term]
+id: GEMET:5983 ! oxygenation
+xref: SCTID:24099007 ! Oxygen
+xref: SCTID:246146006 ! Type of oxygenator
+xref: SCTID:257308009 ! Oxygenator
+
+[Term]
+id: GEMET:10194 ! aquatic environment
+xref: SCTID:285129001 ! Aquatic environment
+
+[Term]
+id: GEMET:1248 ! cement industry
+xref: SCTID:59334006 ! Cement, industrial
+
+[Term]
+id: GEMET:9356 ! wood preservation
+xref: SCTID:86609009 ! Wood preservative
+
+[Term]
+id: GEMET:6189 ! phosphate
+xref: SCTID:259296007 ! Phosphate
+
+[Term]
+id: GEMET:7236 ! risk assessment
+xref: SCTID:225338004 ! Risk assessment
+
+[Term]
+id: GEMET:2895 ! environmental pollution
+xref: SCTID:102411008 ! Environmental pollution
+
+[Term]
+id: GEMET:7593 ! self-monitoring
+xref: SCTID:310858007 ! Self-monitoring
+
+[Term]
+id: GEMET:2663 ! emission
+xref: SCTID:81059003 ! Emission
+
+[Term]
+id: GEMET:1184 ! cardiology
+xref: SCTID:394579002 ! Cardiology
+
+[Term]
+id: GEMET:1305 ! chemical engineering
+xref: SCTID:106265009 ! Chemical engineer
+xref: SCTID:21230004 ! Chemical engineer
+
+[Term]
+id: GEMET:749 ! bay
+xref: SCTID:21024008 ! Baying
+
+[Term]
+id: GEMET:3067 ! exposure
+xref: SCTID:24932003 ! Exposure to
+
+[Term]
+id: GEMET:5150 ! membrane
+xref: SCTID:83097008 ! Membranous
+
+[Term]
+id: GEMET:11359 ! municipal engineering
+xref: SCTID:308036004 ! Municipal engineer
+
+[Term]
+id: GEMET:1180 ! carcinogenicity
+xref: SCTID:88376000 ! Carcinogen
+
+[Term]
+id: GEMET:4310 ! information source
+xref: SCTID:385438008 ! Source of information
+
+[Term]
+id: GEMET:9344 ! woman
+xref: SCTID:224526002 ! Woman
+
+[Term]
+id: GEMET:2352 ! drug abuse
+xref: SCTID:26416006 ! Drug abuse
+
+[Term]
+id: GEMET:13748 ! inner city
+xref: SCTID:224926006 ! Inner city
+
+[Term]
+id: GEMET:2284 ! documentation
+xref: SCTID:397934002 ! Documented
+xref: SCTID:397966007 ! Documents
+
+[Term]
+id: GEMET:2237 ! disinfectant
+xref: SCTID:311942001 ! Disinfectant
+
+[Term]
+id: GEMET:3714 ! government building
+xref: SCTID:264308002 ! Government building
+
+[Term]
+id: GEMET:3183 ! film
+xref: SCTID:420460001 ! Film
+
+[Term]
+id: GEMET:7063 ! regional convention
+xref: SCTID:255333006 ! Conventional
+xref: SCTID:285115002 ! Convent
+
+[Term]
+id: GEMET:9305 ! whaling
+xref: SCTID:20689007 ! Whale
+
+[Term]
+id: GEMET:4722 ! leaching
+xref: SCTID:131181005 ! Leach type
+
+[Term]
+id: GEMET:1933 ! cyanide
+xref: SCTID:259102005 ! Cyanide
+
+[Term]
+id: GEMET:12199 ! canal lock
+xref: SCTID:257578006 ! Canal lock
+
+[Term]
+id: GEMET:1677 ! concrete
+xref: SCTID:224937007 ! Concrete
+
+[Term]
+id: GEMET:4498 ! iron
+xref: SCTID:159780009 ! Ironer
+xref: SCTID:3829006 ! Iron
+
+[Term]
+id: GEMET:8014 ! sports facility
+xref: SCTID:272501009 ! Sports facility
+
+[Term]
+id: GEMET:6758 ! protocol
+xref: SCTID:258049002 ! Protocols
+
+[Term]
+id: GEMET:13325 ! internal migration
+xref: SCTID:73505005 ! Internal migration
+
+[Term]
+id: GEMET:6046 ! car park
+xref: SCTID:257579003 ! Car park
+
+[Term]
+id: GEMET:2712 ! energy
+xref: SCTID:248272003 ! Energy
+
+[Term]
+id: GEMET:9349 ! wood
+xref: SCTID:14402002 ! Wood
+xref: SCTID:264347000 ! Woods
+
+[Term]
+id: GEMET:3007 ! eutrophication
+xref: SCTID:104248003 ! Eutrophication
+
+[Term]
+id: GEMET:8920 ! vegetable
+xref: SCTID:22836000 ! Vegetable
+xref: SCTID:264340003 ! Vegetation
+xref: SCTID:363564008 ! Vegetation
+
+[Term]
+id: GEMET:7938 ! sound level
+xref: SCTID:250888003 ! Sound level
+
+[Term]
+id: GEMET:5119 ! measuring
+xref: SCTID:246445000 ! Measure
+xref: SCTID:258104002 ! Measured
+xref: SCTID:263572006 ! Measured to
+xref: SCTID:272391002 ! Measurement
+xref: SCTID:367346004 ! Measures
+
+[Term]
+id: GEMET:6081 ! peat
+xref: SCTID:224766001 ! Peat
+
+[Term]
+id: GEMET:8554 ! trace element
+xref: SCTID:95970003 ! Trace element
+
+[Term]
+id: GEMET:7272 ! road
+xref: SCTID:272510001 ! Road
+
+[Term]
+id: GEMET:1288 ! channelling
+xref: SCTID:255592004 ! Channel
+
+[Term]
+id: GEMET:1792 ! copper
+xref: SCTID:422528000 ! Copper
+xref: SCTID:66925006 ! Copper
+
+[Term]
+id: GEMET:3485 ! freshwater
+xref: SCTID:5024000 ! Fresh water
+
+[Term]
+id: GEMET:5124 ! meat
+xref: SCTID:28647000 ! Meat
+
+[Term]
+id: GEMET:7420 ! sand dune
+xref: SCTID:285160001 ! Sand dunes
+
+[Term]
+id: GEMET:1213 ! catastrophe
+xref: SCTID:285247003 ! Catastrophization
+
+[Term]
+id: GEMET:1752 ! contamination
+xref: SCTID:281308007 ! Type of contaminant
+xref: SCTID:62604006 ! Contaminated
+
+[Term]
+id: GEMET:4154 ! immune system
+xref: SCTID:116003000 ! Structure of immune system
+
+[Term]
+id: GEMET:1554 ! coke
+xref: SCTID:224765002 ! Coke
+
+[Term]
+id: GEMET:6776 ! psychology
+xref: SCTID:60224009 ! Psychologic
+
+[Term]
+id: GEMET:6846 ! purin
+xref: SCTID:45386002 ! Purine
+
+[Term]
+id: GEMET:8239 ! surveillance
+xref: SCTID:225419007 ! Surveillance
+
+[Term]
+id: GEMET:7769 ! snow
+xref: SCTID:263874004 ! Snow
+
+[Term]
+id: GEMET:6007 ! paint
+xref: SCTID:36864000 ! Paint
+
+[Term]
+id: GEMET:4009 ! hot water
+xref: SCTID:47448006 ! Hot water
+
+[Term]
+id: GEMET:3252 ! fish
+xref: SCTID:90580008 ! Fish
+
+[Term]
+id: GEMET:782 ! beta radiation
+xref: SCTID:256243004 ! Beta radiation
+
+[Term]
+id: GEMET:3058 ! explosion
+xref: SCTID:19440001 ! Explosion
+
+[Term]
+id: GEMET:1410 ! church
+xref: SCTID:284453007 ! Church
+
+[Term]
+id: GEMET:2705 ! endocrine system
+xref: SCTID:113331007 ! Structure of endocrine system
+
+[Term]
+id: GEMET:1231 ! cave
+xref: SCTID:285067000 ! Cave
+
+[Term]
+id: GEMET:8405 ! test
+xref: SCTID:246246002 ! Test type
+xref: SCTID:272393004 ! Tests
+
+[Term]
+id: GEMET:5463 ! mycology
+xref: SCTID:275716001 ! Mycology
+xref: SCTID:69267006 ! Mycologic
+
+[Term]
+id: GEMET:984 ! brackish water
+xref: SCTID:15821007 ! Brackish water
+
+[Term]
+id: GEMET:308 ! alicyclic compound
+xref: SCTID:438465002 ! Alicyclic compound
+
+[Term]
+id: GEMET:25 ! accident
+xref: SCTID:53348004 ! Accidental
+
+[Term]
+id: GEMET:8008 ! sport
+xref: SCTID:415577004 ! Sport
+
+[Term]
+id: GEMET:397 ! analysis
+xref: SCTID:272389005 ! Analysis
+
+[Term]
+id: GEMET:3821 ! halogenated phenol
+xref: SCTID:425935005 ! Halogenated phenol
+
+[Term]
+id: GEMET:5064 ! marketing
+xref: SCTID:284440009 ! Market
+
+[Term]
+id: GEMET:2307 ! dosage
+xref: SCTID:260911001 ! Dosage
+xref: SCTID:277406006 ! Dosages
+
+[Term]
+id: GEMET:1686 ! conductivity
+xref: SCTID:278252000 ! Conduction
+
+[Term]
+id: GEMET:9289 ! welding
+xref: SCTID:43611006 ! Welding
+
+[Term]
+id: GEMET:8959 ! vibration
+xref: SCTID:33679000 ! Vibration
+
+[Term]
+id: GEMET:8102 ! stocktaking
+xref: SCTID:159497002 ! Stocktaker
+
+[Term]
+id: GEMET:7590 ! selenium
+xref: SCTID:22038003 ! Selenium
+
+[Term]
+id: GEMET:265 ! air pollution
+xref: SCTID:102413006 ! Air pollution
+
+[Term]
+id: GEMET:4814 ! lighting
+xref: SCTID:22601002 ! Light
+
+[Term]
+id: GEMET:8707 ! tunnel
+xref: SCTID:262236006 ! Tunnelled
+xref: SCTID:308373007 ! Tunneller
+xref: SCTID:63825002 ! Tunnel
+
+[Term]
+id: GEMET:9147 ! water analysis
+xref: SCTID:59254005 ! Water analysis
+
+[Term]
+id: GEMET:2232 ! disease
+xref: SCTID:64572001 ! Disease
+
+[Term]
+id: GEMET:5575 ! neurotoxicity
+xref: SCTID:19466003 ! Neurotoxicity
+
+[Term]
+id: GEMET:8487 ! time
+xref: SCTID:246512002 ! Timing
+xref: SCTID:410669006 ! Time
+xref: SCTID:410670007 ! Time
+xref: SCTID:417929005 ! Times
+xref: SCTID:59974008 ! Timed
+
+[Term]
+id: GEMET:263 ! air pollutant
+xref: SCTID:102413006 ! Air pollution
+
+[Term]
+id: GEMET:5605 ! nitrogen
+xref: SCTID:36012007 ! Nitrogen
+
+[Term]
+id: GEMET:7669 ! shop
+xref: SCTID:129011005 ! Shopping
+xref: SCTID:257701001 ! Shop
+
+[Term]
+id: GEMET:5362 ! moor
+xref: SCTID:261953005 ! Moores
+
+[Term]
+id: GEMET:3738 ! gravel
+xref: SCTID:261364001 ! Gravel
+
+[Term]
+id: GEMET:2547 ! education
+xref: SCTID:409073007 ! Education
+
+[Term]
+id: GEMET:5618 ! nitrosamine
+xref: SCTID:25931000 ! Nitrosamine
+
+[Term]
+id: GEMET:12586 ! engineering
+xref: SCTID:106269003 ! Engineer
+
+[Term]
+id: GEMET:12174 ! swell
+xref: SCTID:65124004 ! Swelling
+
+[Term]
+id: GEMET:95 ! administration
+xref: SCTID:276213000 ! Administration type
+xref: SCTID:413454004 ! Administration
+xref: SCTID:416118004 ! Administration
+
+[Term]
+id: GEMET:1173 ! carbon monoxide
+xref: SCTID:51765001 ! Carbon monoxide
+
+[Term]
+id: GEMET:1530 ! coating
+xref: SCTID:228224007 ! Coat
+
+[Term]
+id: GEMET:5972 ! oxidation
+xref: SCTID:272156001 ! Oxides
+
+[Term]
+id: GEMET:4473 ! inversion
+xref: SCTID:255513008 ! Inverse
+xref: SCTID:45027002 ! Inversion
+
+[Term]
+id: GEMET:7529 ! season
+xref: SCTID:21864008 ! Seasonal
+xref: SCTID:227553009 ! Seasoning
+
+[Term]
+id: GEMET:8785 ! upbringing
+xref: SCTID:224099005 ! Type of upbringing
+

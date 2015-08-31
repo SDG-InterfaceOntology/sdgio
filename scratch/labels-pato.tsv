@@ -1,0 +1,1605 @@
+PATO:0000001	quality	trait
+PATO:0000004	mobility	
+PATO:0000008	speed	velocity
+PATO:0000011	age	
+PATO:0000014	color	colour	relative color
+PATO:0000015	color hue	
+PATO:0000016	color brightness	color intensity 	color lightness 	color value 
+PATO:0000017	color saturation	
+PATO:0000018	fluorescence	
+PATO:0000019	color pattern	
+PATO:0000021	compatibility	
+PATO:0000025	composition	composed of	compositionality	content	structure, composition
+PATO:0000033	concentration of	concentration
+PATO:0000037	consistency	firmness
+PATO:0000039	direction	
+PATO:0000040	distance	
+PATO:0000043	flavor	
+PATO:0000044	frequency	
+PATO:0000047	biological sex	
+PATO:0000048	hardness	impenetrability	toughness
+PATO:0000049	intensity	
+PATO:0000050	life span	
+PATO:0000051	morphology	
+PATO:0000052	shape	relational shape quality
+PATO:0000056	trophic quality	nutritional quality
+PATO:0000057	occurrence	incidence	temporal
+PATO:0000058	odor	
+PATO:0000060	spatial pattern	distribution	pattern
+PATO:0000062	sleep pattern	
+PATO:0000066	pilosity	
+PATO:0000068	qualitative	
+PATO:0000069	deviation(from_normal)	
+PATO:0000070	amount	count	count in organism	number	presence	presence or absence in organism	quantitative
+PATO:0000077	response to	responsivity
+PATO:0000078	rhythm quality	
+PATO:0000080	amplitude	
+PATO:0000082	persistence	
+PATO:0000083	phase	
+PATO:0000085	sensitivity toward	sensitivity
+PATO:0000117	size	
+PATO:0000119	height	
+PATO:0000122	length	
+PATO:0000125	mass	
+PATO:0000128	weight	
+PATO:0000133	orientation	amount of rotation	angle	angular magnitude	angular placement	plane angle
+PATO:0000136	closure	
+PATO:0000140	position	location	placement	relational spatial quality
+PATO:0000141	structure	relational structural quality
+PATO:0000146	temperature	
+PATO:0000150	texture	
+PATO:0000152	threshold	
+PATO:0000161	rate	
+PATO:0000165	time	
+PATO:0000169	viability	
+PATO:0000185	balance	
+PATO:0000186	behavioral quality	behavioural quality
+PATO:0000188	coordination	
+PATO:0000189	discrimination	
+PATO:0000261	maturity	
+PATO:0000273	fecundity	
+PATO:0000274	fertility	
+PATO:0000276	brood size	litter size
+PATO:0000277	female fertility	
+PATO:0000279	male fertility	
+PATO:0000297	arrested	abolished	incomplete
+PATO:0000299	mobile	
+PATO:0000300	immobile	fixed
+PATO:0000303	increased speed	fast speed	high speed
+PATO:0000304	decreased speed	slow	slow speed
+PATO:0000308	old	
+PATO:0000309	young	
+PATO:0000317	black	
+PATO:0000318	blue	
+PATO:0000319	cyan	
+PATO:0000320	green	
+PATO:0000321	magenta	
+PATO:0000322	red	
+PATO:0000323	white	whitish
+PATO:0000324	yellow	
+PATO:0000327	low brightness	dark
+PATO:0000328	low saturation	dull	pale
+PATO:0000329	blotchy	blotched
+PATO:0000330	irregular spatial pattern	
+PATO:0000331	discolored	
+PATO:0000333	spotted	
+PATO:0000336	colored	pigmented
+PATO:0000337	colorless	unpigmented
+PATO:0000344	compatible	
+PATO:0000345	incompatible	
+PATO:0000365	down	
+PATO:0000366	left	
+PATO:0000367	right	
+PATO:0000370	up	
+PATO:0000374	increased distance	long distance
+PATO:0000375	decreased distance	short distance
+PATO:0000380	increased frequency	frequent	high frequency
+PATO:0000381	decreased frequency	infrequent	low frequency
+PATO:0000383	female	
+PATO:0000384	male	
+PATO:0000386	hard	firm	impenetrable	tough
+PATO:0000387	soft	
+PATO:0000389	acute	
+PATO:0000394	mild intensity	
+PATO:0000395	moderate intensity	
+PATO:0000396	severe intensity	
+PATO:0000402	branched	ramified	ramiform
+PATO:0000403	cleft	
+PATO:0000404	coiled	helical	helicoid	helicoidal	helix-shaped	spiral
+PATO:0000405	curled	
+PATO:0000406	curved	bowing	curled
+PATO:0000407	flat	plate-like
+PATO:0000409	oblate	oblate spheroid
+PATO:0000410	pinnate	feather-like	of a leaf shape
+PATO:0000411	circular	round	rounded
+PATO:0000413	square	
+PATO:0000414	unbranched	
+PATO:0000415	uncoiled	
+PATO:0000422	auxotrophic	
+PATO:0000423	prototrophic	
+PATO:0000427	recurrent	
+PATO:0000428	sporadic	
+PATO:0000438	invariant	constant	uniform
+PATO:0000440	regular spatial pattern	
+PATO:0000441	repetitive	
+PATO:0000453	glabrous	hairless
+PATO:0000454	hairy	
+PATO:0000455	pubescent	
+PATO:0000460	abnormal	aberrant	atypia	atypical	defective
+PATO:0000461	normal	average
+PATO:0000462	absent	absence	absent from organism
+PATO:0000463	conspicuous	distinct
+PATO:0000464	inconspicuous	faint
+PATO:0000467	present	present in organism
+PATO:0000470	increased amount	accessory	increased	increased number	present in greater numbers in organism	supernumerary
+PATO:0000487	responsive to	responsive
+PATO:0000488	unresponsive to	unresponsive
+PATO:0000498	increased duration	chronic	high time	increased period	increased time	prolonged period	slow time
+PATO:0000499	decreased duration	decreased period	decreased time	fast time	low period	shortened period
+PATO:0000500	advanced phase	
+PATO:0000501	dark phase	
+PATO:0000502	delayed	late
+PATO:0000503	light phase	
+PATO:0000504	arrhythmic	
+PATO:0000505	rhythmic	
+PATO:0000513	insensitive toward	insensitive	resistant
+PATO:0000515	tolerant to	tolerant
+PATO:0000516	sensitive toward	sensitive
+PATO:0000546	photoinsensitive	photoresistant
+PATO:0000547	photosensitive	
+PATO:0000569	decreased height	short
+PATO:0000570	increased height	tall
+PATO:0000573	increased length	long
+PATO:0000574	decreased length	short	shortened	stubby
+PATO:0000582	increased weight	heavy	high weight
+PATO:0000583	decreased weight	light weight	low weight
+PATO:0000584	hypertrophic	hypertrophy
+PATO:0000585	hypotrophic	shrunken
+PATO:0000586	increased size	big	enlarged	expanded	great	large
+PATO:0000587	decreased size	hypoplasia	reduced	small	tiny	underdeveloped
+PATO:0000588	vestigial	
+PATO:0000591	increased thickness	high thickness	stout	thick	thickened
+PATO:0000592	decreased thickness	low thickness	slender	thin
+PATO:0000595	increased volume	high volume	large volume
+PATO:0000596	decreased volume	low volume	small volume
+PATO:0000599	decreased width	narrow
+PATO:0000600	increased width	broad	wide	wide/broad
+PATO:0000608	closed	blocked
+PATO:0000609	closure incomplete	
+PATO:0000610	open	
+PATO:0000613	disoriented	
+PATO:0000614	oriented	
+PATO:0000615	anterioralized	
+PATO:0000616	asymmetrical	asymmetric	asymmetry
+PATO:0000617	bent	
+PATO:0000618	bilateral	
+PATO:0000619	crowded	
+PATO:0000620	dorsalized	
+PATO:0000622	erect	upright
+PATO:0000623	exserted	prolapse	prolapsed
+PATO:0000624	inserted into	inserted	introduced into
+PATO:0000625	inverted	backward	reversed
+PATO:0000626	lateralized	
+PATO:0000627	localized	focal	localised
+PATO:0000628	mislocalised	ectopic	mislocalized
+PATO:0000629	misrouted	
+PATO:0000630	posterioralized	
+PATO:0000631	prostrate	
+PATO:0000632	symmetrical	symmetric
+PATO:0000633	uncrowded	
+PATO:0000634	unilateral	
+PATO:0000635	unlocalised	
+PATO:0000636	ventralized	
+PATO:0000638	apoptotic	
+PATO:0000639	degenerate	degeneration
+PATO:0000640	dysplastic	dysplasia
+PATO:0000642	fused with	coalesced	fused	fused to	joined with	merged with
+PATO:0000643	herniated	
+PATO:0000644	hyperplastic	hyperplasia	overdeveloped
+PATO:0000645	hypoplastic	hypoplasia	underdeveloped
+PATO:0000646	malformed	malformation
+PATO:0000647	necrotic	
+PATO:0000648	obstructed	
+PATO:0000651	unfused from	unfused
+PATO:0000665	high brightness	light
+PATO:0000688	asynchronous	
+PATO:0000689	continuous	uninterrupted
+PATO:0000690	discontinuous	intermittent	interrupted
+PATO:0000692	heterochronic	
+PATO:0000694	premature	advanced	early	precocious
+PATO:0000695	synchronous	
+PATO:0000700	rough	coarse
+PATO:0000701	smooth	
+PATO:0000706	increased threshold	high threshold
+PATO:0000708	decreased threshold	low threshold
+PATO:0000718	lethal (sensu genetics)	
+PATO:0000719	viable	
+PATO:0000757	balanced	
+PATO:0000758	unbalanced	
+PATO:0000759	bang sensitive	
+PATO:0000760	increased behavioural activity	hyperactive
+PATO:0000761	decreased behavioural activity	hypoactive
+PATO:0000763	paralysed	palsy
+PATO:0000764	passive	
+PATO:0000769	coordinated	
+PATO:0000770	uncoordinated	
+PATO:0000771	aversion	
+PATO:0000772	indifference	
+PATO:0000773	preference	
+PATO:0000888	female fertile	
+PATO:0000890	male sterile	male infertile
+PATO:0000891	male fertile	
+PATO:0000892	female sterile	female infertile
+PATO:0000911	decreased rate	slow rate
+PATO:0000912	increased rate	fast rate	high rate
+PATO:0000915	thickness	
+PATO:0000918	volume	
+PATO:0000921	width	breadth
+PATO:0000927	photosensitivity	
+PATO:0000936	truncated	truncate
+PATO:0000937	disorganized	
+PATO:0000938	organized	
+PATO:0000941	vacuolated	
+PATO:0000944	sharpness	apiculate
+PATO:0000945	epinastic	
+PATO:0000946	oblong	
+PATO:0000947	elliptic	ellipse-shaped	ellipsoid	elliptical	oval	ovoid
+PATO:0000948	heart shaped	cordate	cordiform
+PATO:0000949	fasciated	
+PATO:0000950	grey	plumbeous
+PATO:0000951	purple	
+PATO:0000952	brown	
+PATO:0000953	orange	
+PATO:0000954	pink	
+PATO:0000955	fertile	
+PATO:0000956	sterile	
+PATO:0000957	opacity	
+PATO:0000963	opaque	clouding	cloudy	non-transparent
+PATO:0000964	transparent	clear
+PATO:0000965	symmetry	
+PATO:0000967	undulate	rippled	sinuate	undulated	undulating	waved	wavy
+PATO:0000969	dwarf-like	dwarfed
+PATO:0000970	permeability	
+PATO:0000973	porosity	
+PATO:0000982	permeable	porous
+PATO:0000983	impermeable	
+PATO:0000984	porous	
+PATO:0000985	non-porous	
+PATO:0000992	viscosity	
+PATO:0000998	viscous	
+PATO:0000999	alternation	
+PATO:0001005	latency	
+PATO:0001018	physical quality	relational physical quality
+PATO:0001019	mass density	density
+PATO:0001020	damage	
+PATO:0001021	energy	
+PATO:0001022	impulse	
+PATO:0001023	momentum	
+PATO:0001024	power	
+PATO:0001025	pressure	
+PATO:0001026	work	W
+PATO:0001028	acceleration	
+PATO:0001029	efficiency	
+PATO:0001030	flux	
+PATO:0001031	elasticity	
+PATO:0001034	strain	
+PATO:0001035	force	force amplitude
+PATO:0001043	susceptibility toward	susceptibility
+PATO:0001046	resistance to	resistance
+PATO:0001051	acute angle to	
+PATO:0001052	obtuse angle to	
+PATO:0001053	convex angle to	
+PATO:0001054	internal angle	
+PATO:0001055	reflex angle to	
+PATO:0001152	susceptible toward	susceptible
+PATO:0001153	insusceptible toward	insusceptible
+PATO:0001154	elongated	
+PATO:0001159	concentrated	
+PATO:0001161	diluted	
+PATO:0001162	increased concentration	high concentration
+PATO:0001163	decreased concentration	low concentration
+PATO:0001164	dense	
+PATO:0001167	damaged	
+PATO:0001168	undamaged	
+PATO:0001171	elastic	
+PATO:0001172	inelastic	
+PATO:0001178	resistant to	resistant
+PATO:0001185	larval	
+PATO:0001186	prepubescent	
+PATO:0001187	pupal	
+PATO:0001188	prepupal	
+PATO:0001189	adolescent	
+PATO:0001190	juvenile	
+PATO:0001191	medial to	
+PATO:0001192	hyperresponsive to	hyperresponsive	increased responsivity
+PATO:0001193	lateral to	lateral
+PATO:0001194	hyporesponsive to	decreased responsivity	hyporesponsive
+PATO:0001195	proximal to	
+PATO:0001196	ventral to	anterior_ to
+PATO:0001199	linear	
+PATO:0001200	T-shaped	
+PATO:0001201	Y-shaped	
+PATO:0001205	dentated	dentate	toothed
+PATO:0001206	serrated	serrate
+PATO:0001208	odorless	
+PATO:0001227	variant	variable
+PATO:0001229	high saturation	bright 	vivid
+PATO:0001230	strength	
+PATO:0001233	dorsal to	dorsal	posterior_to (human torso)	superior_to (human head)
+PATO:0001234	distal to	distal
+PATO:0001236	process quality	quality of a process	quality of occurrent	quality of process	relational quality of occurrent
+PATO:0001241	physical object quality	monadic quality of a continuant	monadic quality of an object	monadic quality of continuant	multiply inhering quality of a physical entity 	quality of a continuant	quality of a single physical entity	quality of an object	quality of continuant
+PATO:0001242	wavelength	
+PATO:0001243	light blue	
+PATO:0001244	dark blue	
+PATO:0001245	dark brown	
+PATO:0001246	light brown	
+PATO:0001247	light cyan	
+PATO:0001248	dark cyan	
+PATO:0001249	dark green	
+PATO:0001250	light green	
+PATO:0001251	dark grey	
+PATO:0001252	light grey	
+PATO:0001253	light magenta	
+PATO:0001254	dark magenta	
+PATO:0001255	light orange	
+PATO:0001256	dark orange	
+PATO:0001257	light deep pink	
+PATO:0001258	deep pink	
+PATO:0001259	dark purple	
+PATO:0001260	light purple	
+PATO:0001261	dark red	
+PATO:0001262	light red	
+PATO:0001263	dark yellow	
+PATO:0001264	light yellow	blond
+PATO:0001265	saturated blue	bright blue
+PATO:0001266	desaturated blue	pale blue
+PATO:0001267	saturated brown	bright brown
+PATO:0001268	desaturated brown	pale brown
+PATO:0001269	saturated cyan	bright cyan 
+PATO:0001270	desaturated cyan	pale cyan
+PATO:0001271	saturated green	bright green
+PATO:0001272	desaturated green	pale green
+PATO:0001275	saturated magenta	bright magenta
+PATO:0001276	desaturated magenta	pale magenta
+PATO:0001277	saturated orange	bright orange
+PATO:0001278	desaturated orange	pale orange
+PATO:0001280	dark pale pink	bright pink 
+PATO:0001281	saturated purple	bright purple
+PATO:0001282	desaturated purple	pale purple
+PATO:0001283	saturated red	bright red
+PATO:0001284	desaturated red	pale red
+PATO:0001285	saturated yellow	bright yellow
+PATO:0001286	desaturated yellow	pale yellow
+PATO:0001287	red brown	
+PATO:0001288	dark red brown	
+PATO:0001289	light red brown	
+PATO:0001290	fluorescent	
+PATO:0001291	electromagnetic (EM) radiation quality	
+PATO:0001292	full-spectrum EM radiation quality	
+PATO:0001293	absorption quality	
+PATO:0001294	radiation reflective quality	
+PATO:0001295	albedo	
+PATO:0001296	luminous flux	
+PATO:0001297	reflectivity	
+PATO:0001298	phosphorescence	
+PATO:0001299	radiation emitting quality	
+PATO:0001300	optical quality	
+PATO:0001301	chromatic property	
+PATO:0001302	vermilion	
+PATO:0001303	variability	variability of a physical quality
+PATO:0001304	variability of temperature	
+PATO:0001305	increased temperature	high temperature	hot
+PATO:0001306	decreased temperature	cold	low temperature
+PATO:0001307	decreased variability of temperature	low variability of temperature
+PATO:0001308	increased variability of temperature	high variability of temperature
+PATO:0001309	duration	period	time
+PATO:0001310	duration of temperature	
+PATO:0001311	decreased duration of temperature	
+PATO:0001312	increased duration of temperature	high duration of temperature
+PATO:0001313	invariant temperature	
+PATO:0001314	variant temperature	
+PATO:0001315	mild increased temperature	
+PATO:0001316	moderate increased temperature	
+PATO:0001317	severe increased temperature	
+PATO:0001318	indiscriminate	
+PATO:0001319	discriminate	
+PATO:0001320	pubescent hair	
+PATO:0001321	right angle to	
+PATO:0001322	straight angle to	
+PATO:0001323	area	
+PATO:0001324	bilateral symmetry	left-right symmetry
+PATO:0001325	radial symmetry	
+PATO:0001327	zygomorphic	
+PATO:0001328	actinomorphic	
+PATO:0001329	flavourful	
+PATO:0001330	flavourless	
+PATO:0001331	odorous	
+PATO:0001332	amorphous	
+PATO:0001333	temporally extended	
+PATO:0001334	diameter	
+PATO:0001335	bacterial mating type	
+PATO:0001337	yeast mating type	
+PATO:0001338	mixed sex	
+PATO:0001339	biomaterial purity	
+PATO:0001340	hermaphrodite	intersex
+PATO:0001341	a mating type (yeast)	a
+PATO:0001342	Saccharomyces cerevisiae mating type	
+PATO:0001343	Schizosaccharomyces pombe mating type	
+PATO:0001344	alpha mating type (yeast)	alpha
+PATO:0001345	h minus	M	h -
+PATO:0001346	h plus	P	h+
+PATO:0001347	F mating type	
+PATO:0001348	F minus mating type	F-
+PATO:0001349	high frequency recombinant	Hfr
+PATO:0001350	angular acceleration	
+PATO:0001351	area density	
+PATO:0001352	linear density	
+PATO:0001353	volumetric density	
+PATO:0001354	translucent	
+PATO:0001355	convex	
+PATO:0001356	pleomorphic	
+PATO:0001357	pulvinate	
+PATO:0001358	umbonate	
+PATO:0001359	rugose	
+PATO:0001360	filamentous	
+PATO:0001361	warty	
+PATO:0001362	fragile	
+PATO:0001364	rhizoidal	
+PATO:0001365	spiny	
+PATO:0001366	punctiform	
+PATO:0001367	lobate	
+PATO:0001368	erose	jagged
+PATO:0001369	raised	
+PATO:0001370	viscid	
+PATO:0001371	mucoid	mucinous	mucous
+PATO:0001372	refractivity	
+PATO:0001373	glistening	glossy	shiny
+PATO:0001374	ploidy	
+PATO:0001375	haploid	
+PATO:0001376	monoploid	
+PATO:0001377	polyploid	
+PATO:0001378	autopolyploid	
+PATO:0001379	allopolyploidy	
+PATO:0001380	paleopolyploid	
+PATO:0001381	triploid	
+PATO:0001382	tetraploid	
+PATO:0001383	pentaploid	
+PATO:0001384	hexaploid	
+PATO:0001385	aneuploid	
+PATO:0001386	monosomy	
+PATO:0001387	disomy	
+PATO:0001388	uniparental disomy	
+PATO:0001389	trisomy	
+PATO:0001390	partial trisomy	
+PATO:0001391	mosaic trisomy	
+PATO:0001392	endopolyploid	
+PATO:0001393	euploid	
+PATO:0001394	diploid	
+PATO:0001395	haplodiploid	
+PATO:0001396	cellular quality	
+PATO:0001397	cellular potency	
+PATO:0001398	self-renewal	
+PATO:0001399	totipotent	
+PATO:0001400	unipotent	
+PATO:0001401	oligopotent	
+PATO:0001402	multipotent	
+PATO:0001403	pluripotent	
+PATO:0001404	nucleate quality	
+PATO:0001405	anucleate	
+PATO:0001406	binucleate	
+PATO:0001407	mononucleate	
+PATO:0001408	ciliatedness	
+PATO:0001409	spindle-shaped	
+PATO:0001410	striated	
+PATO:0001411	structured	
+PATO:0001412	unstructured	
+PATO:0001413	angular velocity	
+PATO:0001414	catalytic activity	
+PATO:0001415	morbidity	
+PATO:0001416	regular duration	
+PATO:0001417	irregular duration	
+PATO:0001418	lethargic	
+PATO:0001419	sharp	
+PATO:0001420	buoyancy	
+PATO:0001421	alive	
+PATO:0001422	dead	
+PATO:0001423	refractile	
+PATO:0001424	violet	
+PATO:0001425	rosy	
+PATO:0001426	maroon	
+PATO:0001427	compound acidity	
+PATO:0001428	medium acidity	
+PATO:0001429	acidic	
+PATO:0001430	alkaline	
+PATO:0001431	adhesivity	adhesiveness	stickiness
+PATO:0001432	decayed	
+PATO:0001433	growth quality of occurrent	growth quality of a process	growth timing quality
+PATO:0001434	reproductive quality	
+PATO:0001435	attachment quality	
+PATO:0001436	sessile (sensu botany)	
+PATO:0001437	sessile (sensu zoology)	
+PATO:0001438	pedicellate	
+PATO:0001439	tonicity	tone
+PATO:0001440	homophilic	
+PATO:0001441	heterophilic	
+PATO:0001442	wholeness	
+PATO:0001444	broken	burst	cracked	fractured	fragmented	hemorrhaged	ruptured	split	torn
+PATO:0001445	disassembled	
+PATO:0001446	whole	
+PATO:0001447	calcified	calcareous	calcification
+PATO:0001448	ossified	
+PATO:0001449	cartilaginous	
+PATO:0001450	edematous	edema	edemic	oedema	oedematous	oedemic
+PATO:0001453	detached from	detached
+PATO:0001454	sensitivity to oxygen	
+PATO:0001455	aerobic	
+PATO:0001456	anaerobic	
+PATO:0001457	sensitivity of a process	sensitivity of occurrent
+PATO:0001458	sensitivity of a process to oxygen	sensitivity of occurrent to oxygen
+PATO:0001459	aerobic (for occurrence)	
+PATO:0001460	anaerobic (for occurrence)	
+PATO:0001461	surface tension	
+PATO:0001462	membrane potential	
+PATO:0001463	action potential	
+PATO:0001464	electric potential	
+PATO:0001465	monstrous	
+PATO:0001466	curved rostral	curved anterior	curved superior (human torso)
+PATO:0001467	curved caudal	curved inferior (human torso)	curved posterior
+PATO:0001468	curved dorsal	curved posterior (human torso)	curved superior (human head)
+PATO:0001469	curved ventral	curved anterior (human torso)	curved inferior (human head)
+PATO:0001470	proportionality to	proportion	proportionality	quotient	rate	ratio
+PATO:0001472	decreased depth	low depth	shallow
+PATO:0001473	duplicated	doubled
+PATO:0001474	anteverted	
+PATO:0001475	increased position	high position
+PATO:0001476	decreased position	low position
+PATO:0001477	retracted	moved 	retruded
+PATO:0001478	collapsed	
+PATO:0001480	spongy	
+PATO:0001481	sloped	
+PATO:0001482	prominent	
+PATO:0001483	aplastic	aplasia	undeveloped
+PATO:0001484	recent	
+PATO:0001485	condensed	compact	compressed	dense	squashed
+PATO:0001486	chronological age	
+PATO:0001487	senescent	
+PATO:0001488	cellular motility	
+PATO:0001490	heterochronic growth	
+PATO:0001491	neotenous growth	neotenic growth
+PATO:0001492	growth rate	
+PATO:0001493	hypertrophic growth	
+PATO:0001494	hypotrophic growth	
+PATO:0001495	notched	indented
+PATO:0001496	brood quality	
+PATO:0001497	brood viability	
+PATO:0001499	spherical	globular	rotund
+PATO:0001500	tapered	taper
+PATO:0001501	immature	underdeveloped
+PATO:0001502	complexity	
+PATO:0001503	simple	
+PATO:0001504	complex	
+PATO:0001505	separated from	discontiguous	divided_from	splitted from
+PATO:0001506	diastatic	
+PATO:0001507	disrupted	
+PATO:0001509	functionality	
+PATO:0001510	functional	
+PATO:0001511	non-functional	defective	disfunctional	failure	functional failure
+PATO:0001512	punctate	dotted	spotted	stippled
+PATO:0001514	delaminated	
+PATO:0001515	variable color	murky
+PATO:0001516	focus	
+PATO:0001517	focused	
+PATO:0001518	blurry	
+PATO:0001519	sound quality	
+PATO:0001520	sound frequency	
+PATO:0001521	sound amplitude	loudness
+PATO:0001522	sound speed	
+PATO:0001523	sound wavelength	
+PATO:0001524	intrasonic	
+PATO:0001525	sonic	
+PATO:0001526	ultrasonic	
+PATO:0001527	quiet	
+PATO:0001528	loud	
+PATO:0001529	cellular spatiotemporal quality	
+PATO:0001530	behavioral quality of a process	behavioral quality of occurrent
+PATO:0001531	cellular adhesivity	
+PATO:0001532	mono-colored	evenly colored	homogeneously colored	homogenously pigmented	uniformly colored
+PATO:0001533	multi-colored	variegated
+PATO:0001534	motley	
+PATO:0001535	dappled	speckled
+PATO:0001536	solubility	
+PATO:0001537	soluble in	soluble
+PATO:0001538	insoluble in	insoluble
+PATO:0001539	amylose composition	amylose compositionality
+PATO:0001540	glutinous	
+PATO:0001541	non-glutinous	
+PATO:0001542	delayed phase	
+PATO:0001543	flexibility	
+PATO:0001544	flexible	bendy
+PATO:0001545	inflexible	stiff	stiffness
+PATO:0001546	quality of a solid	solidity
+PATO:0001547	quality of a gas	gaseous
+PATO:0001548	quality of a liquid	liquidity
+PATO:0001549	increased sensitivity toward	high sensitivity toward	increased sensitivity
+PATO:0001550	decreased sensitivity toward	decreased sensitivity	low sensitivity toward
+PATO:0001551	increased sensitivity of a process	high sensitivity of occurrent	increased sensitivity of occurrent
+PATO:0001552	decreased sensitivity of a process	decreased sensitivity of occurrent	low sensitivity of occurrent
+PATO:0001553	increased sensitivity of a process to oxygen	high sensitivity of occurrent to oxygen
+PATO:0001554	decreased sensitivity of a process to oxygen	low sensitivity of occurrent to oxygen
+PATO:0001555	has number of	cardinality	extra or missing physical or functional parts	has or lacks parts of type	mereological quality	number	number of
+PATO:0001558	lacking processual parts	
+PATO:0001559	having extra function	having supernumerary functions
+PATO:0001561	having extra processual parts	having supernumerary processual parts
+PATO:0001562	decreased mass	low mass	small mass
+PATO:0001563	increased mass	high mass	large mass
+PATO:0001564	extra or missing processual parts	
+PATO:0001566	distributed	diffuse	scattered
+PATO:0001567	undistributed	
+PATO:0001570	having decreased processual parts	
+PATO:0001571	dilated	
+PATO:0001573	isometrical	
+PATO:0001574	flow rate	
+PATO:0001575	decreased pressure	low pressure
+PATO:0001576	increased pressure	high pressure
+PATO:0001577	increased permeability	high permeability
+PATO:0001578	decreased permeability	low permeability
+PATO:0001579	contractility	
+PATO:0001580	increased contractility	high contractility
+PATO:0001581	decreased contractility	low contractility
+PATO:0001583	decreased variability	low variability
+PATO:0001584	increased variability	high variability
+PATO:0001585	conductivity	
+PATO:0001586	variability of rate	
+PATO:0001587	increased variability of rate	high variability of rate
+PATO:0001588	decreased variability of rate	low variability of rate
+PATO:0001590	overlap with	overlap
+PATO:0001591	curvature	
+PATO:0001592	increased curvature	
+PATO:0001593	decreased curvature	
+PATO:0001594	arched	
+PATO:0001595	depth	
+PATO:0001596	increased depth	deep
+PATO:0001597	everted	
+PATO:0001598	protruding	protruding 	relational protruding quality
+PATO:0001599	rotated	rotation
+PATO:0001600	posteriorly rotated	
+PATO:0001601	anteriorly rotated	
+PATO:0001602	distended	expanded 
+PATO:0001603	increased life span	high life span
+PATO:0001604	decreased life span	low life span
+PATO:0001605	disheveled	
+PATO:0001606	greasy	
+PATO:0001607	matted	
+PATO:0001608	patchy	
+PATO:0001609	sparse	
+PATO:0001611	variability of color	
+PATO:0001612	increased variability of color	high variability of color
+PATO:0001613	decreased variability of color	low variability of color
+PATO:0001614	invariant color	
+PATO:0001615	variant color	
+PATO:0001617	deformed	disfigured	distorted
+PATO:0001618	increased tonicity	high tonicity
+PATO:0001619	decreased tonicity	low tonicity
+PATO:0001620	turgor	
+PATO:0001621	decreased turgor	low turgor
+PATO:0001622	increased turgor	high turgor
+PATO:0001623	atrophied	atrophic
+PATO:0001624	decreased functionality	dysfunction	dysfunctional	having decreased function	impaired	lacks function of type	low functionality	partial functionality
+PATO:0001625	increased functionality	high functionality
+PATO:0001626	sufficiency	adequacy
+PATO:0001627	sufficient	adequate
+PATO:0001628	insufficient	inadequate 
+PATO:0001629	aggregated	clumped	clustered
+PATO:0001630	dispersed	
+PATO:0001632	anterior to	preceding	ventral_to
+PATO:0001633	posterior to	posterior (human torso)	superior (human head)
+PATO:0001634	necessity (continuant)	
+PATO:0001635	necessary (continuant)	
+PATO:0001636	unnecessary (continuant)	
+PATO:0001637	necessity of occurrent	
+PATO:0001638	necessary (occurrent)	
+PATO:0001639	unnecessary (occurrent)	
+PATO:0001643	stubby	
+PATO:0001645	protruding into	
+PATO:0001646	protruding out of	exits through	exposed	extruding from
+PATO:0001648	circumference	
+PATO:0001649	curved lateral	
+PATO:0001650	increased resistance to	high resistance to	increased resistance
+PATO:0001651	decreased resistance to	decreased resistance	low resistance to
+PATO:0001652	alignment	
+PATO:0001653	aligned with	aligned 	aligned to
+PATO:0001654	misaligned with	misaligned 	unaligned with
+PATO:0001655	osmolarity	
+PATO:0001656	decreased osmolarity	low osmolarity
+PATO:0001657	increased osmolarity	high osmolarity
+PATO:0001658	dorsally rotated	
+PATO:0001659	ventrally rotated	
+PATO:0001662	fragility	
+PATO:0001663	increased solubility	high solubility
+PATO:0001664	decreased solubility	low solubility
+PATO:0001665	superficial	superficial to
+PATO:0001667	attached to	affixed to	attached
+PATO:0001668	associated with	associated
+PATO:0001669	increased susceptibility toward	high susceptibility toward	increased susceptibility
+PATO:0001670	decreased susceptibility toward	decreased susceptibility	low susceptibility toward
+PATO:0001671	increased distribution	high distribution
+PATO:0001672	decreased distribution	low distribution
+PATO:0001673	cystic	cysts
+PATO:0001674	catalytic (activity) concentration	
+PATO:0001675	decreased efficiency	low efficiency
+PATO:0001676	increased efficiency	high efficiency
+PATO:0001677	inefficient	
+PATO:0001678	efficient	
+PATO:0001679	specific volume	
+PATO:0001680	molar volume	
+PATO:0001681	molar mass	
+PATO:0001682	magnetism	
+PATO:0001683	increased magnetism	high magnetism
+PATO:0001684	decreased magnetism	low magnetism
+PATO:0001685	magnetic	
+PATO:0001686	non-magnetic	
+PATO:0001687	elevation	
+PATO:0001688	increased elevation	elevated	high elevation
+PATO:0001689	decreased elevation	low elevation
+PATO:0001690	contractile	
+PATO:0001691	non-contractile	
+PATO:0001693	increased viscosity	high viscosity
+PATO:0001694	decreased viscosity	low viscosity
+PATO:0001695	increased fecundity	high fecundity
+PATO:0001696	decreased fecundity	low fecundity
+PATO:0001697	decreased photosensitivity	low photosensitivity
+PATO:0001698	increased photosensitivity	high photosensitivity
+PATO:0001699	regular sleep pattern	
+PATO:0001700	irregular sleep pattern	
+PATO:0001701	mature	
+PATO:0001702	saturated violet	bright violet
+PATO:0001703	desaturated violet	pale violet
+PATO:0001704	light violet	
+PATO:0001705	dark violet	
+PATO:0001706	behavioural inactive	
+PATO:0001707	behavioural active	
+PATO:0001708	1-D extent	1-D size
+PATO:0001709	2-D extent	2-D size
+PATO:0001710	3-D extent	3D size
+PATO:0001711	perimeter	
+PATO:0001712	increased perimeter	
+PATO:0001713	decreased perimeter	
+PATO:0001714	increased diameter	
+PATO:0001715	decreased diameter	
+PATO:0001716	non-fragile	resilient	strong	tough
+PATO:0001717	radiation emitting intensity quality	
+PATO:0001718	luminance	
+PATO:0001719	receptivity	
+PATO:0001720	female receptivity	
+PATO:0001721	male receptivity	
+PATO:0001723	increased female receptivity	high female receptivity
+PATO:0001724	decreased female receptivity	low female receptivity
+PATO:0001725	increased male receptivity	high male receptivity
+PATO:0001726	decreased male receptivity	low male receptivity
+PATO:0001727	disposition	tendency
+PATO:0001728	multi-cellular organismal disposition	
+PATO:0001729	shedability	
+PATO:0001730	deciduous (generic)	
+PATO:0001731	deciduous (plant)	
+PATO:0001732	non-deciduous (any body part)	
+PATO:0001733	evergreen (plant)	
+PATO:0001734	semi-deciduous(plant)	
+PATO:0001735	liquid configuration	liquid
+PATO:0001736	solid configuration	solid
+PATO:0001737	gaseus configuration	gas
+PATO:0001738	dissociated from	dissociated
+PATO:0001739	radiation quality	
+PATO:0001740	activity (of a radionuclide)	radioactivity
+PATO:0001741	radioactive	
+PATO:0001742	increased radioactivity	high radioactivity
+PATO:0001743	decreased radioactivity	low radioactivity
+PATO:0001744	radiation exposure	
+PATO:0001745	radiation absorbed dose	
+PATO:0001746	radiation equivalent dose	
+PATO:0001747	radiation effective dose	
+PATO:0001748	invaginated	
+PATO:0001749	paedomorphic growth	hypoplastic growth	pedomorphic growth
+PATO:0001750	postdisplaced growth	
+PATO:0001751	progenetic growth	
+PATO:0001752	peramorphic growth	hyperplastic growth
+PATO:0001753	accelerated growth	
+PATO:0001754	predisplaced growth	precocious growth
+PATO:0001755	hypermorphic growth	
+PATO:0001756	heat conductivity	thermal conduction
+PATO:0001757	electrical conductivity	
+PATO:0001758	nerve conductivity	
+PATO:0001759	granular	
+PATO:0001760	female semi-fertile	
+PATO:0001761	male semi-fertile	
+PATO:0001762	male semi-sterile	
+PATO:0001763	female semi-sterile	
+PATO:0001764	increased age	high age
+PATO:0001765	decreased age	low age
+PATO:0001767	semi-fertile	
+PATO:0001768	semi-lethal (sensu genetics)	
+PATO:0001769	positional polarity	cellular polarity
+PATO:0001770	semi-viable	
+PATO:0001772	surrounding	encircling	enclosing
+PATO:0001773	monophasic	
+PATO:0001774	polyphasic	
+PATO:0001775	dorsal-ventral polarity	
+PATO:0001776	increased flexibility	high flexibility
+PATO:0001777	decreased flexibility	low flexibility
+PATO:0001778	increased strength	high strength
+PATO:0001779	decreased strength	weak
+PATO:0001780	dystrophic	dystrophied	dystrophy
+PATO:0001781	irregular thickness	
+PATO:0001782	increased intensity	high intensity
+PATO:0001783	decreased intensity	low intensity
+PATO:0001784	bifurcated	bifid	forked
+PATO:0001785	splayed	flared
+PATO:0001786	split	clefted	divided	forked	septate
+PATO:0001787	rotational curvature	
+PATO:0001788	increased mass density	high density
+PATO:0001789	domed	
+PATO:0001790	decreased mass density	low density
+PATO:0001791	multi-localised	multi-focal
+PATO:0001792	left side of	
+PATO:0001793	right side of	
+PATO:0001794	coiling	
+PATO:0001795	increased coiling	high coiling
+PATO:0001796	decreased coiling	low coiling
+PATO:0001798	kinked	tightly curled	twisted
+PATO:0001799	ruffled	
+PATO:0001800	water composition	
+PATO:0001801	decreased water composition	dehydrated	dry
+PATO:0001802	loose	
+PATO:0001803	phototoxic	
+PATO:0001804	scaly	squamous
+PATO:0001805	flaky	
+PATO:0001806	sensitivity to irradiation	
+PATO:0001807	decreased sensitivity to irradiation	low sensitivity to irradiation
+PATO:0001808	increased sensitivity to irradiation	high sensitivity to irradiation
+PATO:0001809	tight	
+PATO:0001810	wrinkled	
+PATO:0001813	atonicity	
+PATO:0001814	dystonicity	
+PATO:0001815	fatigability	
+PATO:0001816	increased fatigability	high fatigability
+PATO:0001817	decreased fatigability	low fatigability
+PATO:0001818	progressive	
+PATO:0001819	atretic	atresia
+PATO:0001821	imperforate	
+PATO:0001822	wetness	
+PATO:0001823	wet	
+PATO:0001824	dry	
+PATO:0001825	increased wetness	
+PATO:0001826	decreased wetness	low wetness
+PATO:0001827	pseudohermaphrodite	
+PATO:0001828	male pseudohermaphrodite	
+PATO:0001829	female pseudohermaphrodite	
+PATO:0001830	decreased female fertility	low female fertility
+PATO:0001831	increased female fertility	high female fertility
+PATO:0001832	increased male fertility	high male fertility
+PATO:0001833	decreased male fertility	low male fertility
+PATO:0001834	decreased fertility	low fertility
+PATO:0001835	increased fertility	high fertility
+PATO:0001836	congested	
+PATO:0001838	decreased fluid flow	low flow
+PATO:0001839	increased fluid flow	high flow
+PATO:0001841	remittent intensity	
+PATO:0001842	acidity	pH
+PATO:0001843	decreased acidity	low acidity
+PATO:0001844	increased acidity	high acidity
+PATO:0001845	irregular rhythm	
+PATO:0001846	tangled	
+PATO:0001847	constricted	stenosis	stenotic	stricture
+PATO:0001848	asymmetrically curved	
+PATO:0001849	abrased	
+PATO:0001850	scarred	
+PATO:0001851	swollen	swelling
+PATO:0001852	dislocated	dislocation	luxated	luxation	relational dislocated quality
+PATO:0001853	hydrocephalic	
+PATO:0001854	vertical	
+PATO:0001855	horizontal	
+PATO:0001856	introverted	
+PATO:0001857	concave	
+PATO:0001858	partially paralysed	
+PATO:0001859	increased coordination	high coordination
+PATO:0001860	decreased coordination	low coordination
+PATO:0001861	fasciculated	fascicled
+PATO:0001862	lack of fertility in offspring	grandchildless
+PATO:0001863	chronic	
+PATO:0001865	spheroid	sphericality
+PATO:0001866	prolate	prolate spheroid
+PATO:0001867	rectangular	
+PATO:0001868	autofluorescence	
+PATO:0001869	pathological	
+PATO:0001870	crescent-shaped	bow-shaped	crescentic	lunate
+PATO:0001871	reniform	bean shaped	kidney-shaped
+PATO:0001872	cuboid	block-like	cuboidal
+PATO:0001873	cylindrical	rod-like	rod-shaped	tubulate
+PATO:0001874	discoid	disc-shaped	disk-shaped
+PATO:0001875	triangular	delta shaped	deltoid	triangle	triangle-shaped
+PATO:0001876	dumbbell-shaped	
+PATO:0001877	lanceolate	spear-shaped
+PATO:0001878	sigmoid	S-shaped	sigmoidal
+PATO:0001879	U-shaped	horseshoe	horseshoe shaped
+PATO:0001880	caudate	caudal	tailed
+PATO:0001881	arrow-shaped	sagittate
+PATO:0001882	limaciform	
+PATO:0001883	clavate	club-like	club-shaped	clubbed
+PATO:0001884	hydrophobicity	
+PATO:0001885	hydrophobic	
+PATO:0001886	hydrophilicity	
+PATO:0001887	hydrophilic	
+PATO:0001888	miscibility	
+PATO:0001889	scalloped	crenate	crenulate
+PATO:0001890	tripartite	trifurcate
+PATO:0001891	ovate	eccentric	egg-shaped	oval	ovoid
+PATO:0001892	decreased odor	
+PATO:0001893	increased odor	
+PATO:0001894	phenotypic sex	
+PATO:0001895	mating type	
+PATO:0001896	unlumenized	
+PATO:0001897	lumenized	
+PATO:0001898	increased circumference	
+PATO:0001899	decreased circumference	
+PATO:0001900	front	
+PATO:0001901	back	
+PATO:0001902	unidirectional	
+PATO:0001903	bi-directional	
+PATO:0001904	circling direction	
+PATO:0001905	has normal numbers of parts of type	having physical part
+PATO:0001906	movement quality	
+PATO:0001907	botryoidal	
+PATO:0001908	multinucleate	
+PATO:0001909	trinucleate	
+PATO:0001910	folded	
+PATO:0001911	circling	
+PATO:0001912	physiological state	
+PATO:0001913	ictal	
+PATO:0001914	non-ictal	
+PATO:0001915	anterodorsal to	
+PATO:0001916	posterodorsal to	
+PATO:0001917	anteroventral to	
+PATO:0001918	posteroventral to	
+PATO:0001919	mislocalised dorsally	
+PATO:0001920	mislocalised ventrally	
+PATO:0001921	mislocalised anteriorly	
+PATO:0001922	mislocalised posteriorly	
+PATO:0001923	mislocalised laterally	
+PATO:0001924	mislocalised medially	
+PATO:0001925	surface feature shape	
+PATO:0001926	increased fluorescence	high fluorescence
+PATO:0001927	decreased fluorescence	low fluorescence
+PATO:0001928	blistered	blistering
+PATO:0001929	variability of shape	
+PATO:0001930	variant shape	
+PATO:0001931	invariant shape	
+PATO:0001932	alternate placement	
+PATO:0001933	opposite	
+PATO:0001934	orbicular	
+PATO:0001935	obtuse	roundish
+PATO:0001936	obovate	obovoid
+PATO:0001937	spatulate	spathulate
+PATO:0001938	rhomboid	
+PATO:0001940	gigantic	giant
+PATO:0001941	yellow green	
+PATO:0001942	brown green	olive green
+PATO:0001943	lilac	
+PATO:0001944	yellow orange	
+PATO:0001945	ochre	
+PATO:0001946	banded	striped
+PATO:0001947	netted	net-like 	reticulated
+PATO:0001948	furrowed	fluted
+PATO:0001949	pointleted	
+PATO:0001950	blunt	
+PATO:0001951	whorled	
+PATO:0001952	distichous	
+PATO:0001953	decussate	crosscutting	intercrossing	intersecting
+PATO:0001954	subulate	awl-shaped	needle-like
+PATO:0001955	cuneate	wedge-shaped
+PATO:0001956	variability of size	
+PATO:0001957	decreased variability of size	low variability of size
+PATO:0001958	increased variability of size	high variability of size
+PATO:0001959	defasciculated	
+PATO:0001960	interdigitated	
+PATO:0001961	in contact with	contiguous
+PATO:0001962	involute	
+PATO:0001963	revolute	
+PATO:0001964	circinate	
+PATO:0001965	reclinate	
+PATO:0001966	convolute	
+PATO:0001967	actinodromous	
+PATO:0001968	parallelodromous	
+PATO:0001969	craspedodromous	
+PATO:0001970	brochidodromous	
+PATO:0001971	cladodromous	
+PATO:0001972	reticulodromous	
+PATO:0001973	cuspidate	
+PATO:0001974	retuse	
+PATO:0001975	unserrated	
+PATO:0001976	serration	
+PATO:0001977	angular	angulate
+PATO:0001978	cut	incised
+PATO:0001979	lobed	
+PATO:0001980	digitate	
+PATO:0001981	auriculate	
+PATO:0001982	attenuate	
+PATO:0001983	perfoliate	
+PATO:0001984	decurrent	
+PATO:0001985	frozen	
+PATO:0001986	dissolved	
+PATO:0001987	saccular	sacular
+PATO:0001988	quadrangular	
+PATO:0001989	sinuous	twisted
+PATO:0001990	duration of disease	
+PATO:0001991	immortal	
+PATO:0001992	cellularity	
+PATO:0001993	multicellular	
+PATO:0001994	unicellular	
+PATO:0001995	organismal quality	
+PATO:0001997	decreased amount	decreased	decreased number	present in fewer numbers in organism	reduced	subnumerary
+PATO:0001998	conspicuousness	
+PATO:0001999	lacks parts or has fewer parts of type	loss of
+PATO:0002000	lacks all parts of type	lacks all physical parts of type
+PATO:0002001	has fewer parts of type	decreased number of	has decreased number of	has fewer physical parts of type
+PATO:0002002	has extra parts of type	has extra parts of	has increased number of	having extra physical parts	having supernumerary physical parts	increased number of
+PATO:0002003	population quality	
+PATO:0002005	concavity	
+PATO:0002006	2-D shape	2-D projection	cross-sectional
+PATO:0002007	convex 3-D shape	
+PATO:0002008	concave 3-D shape	
+PATO:0002009	branchiness	
+PATO:0002010	looseness	
+PATO:0002011	neoplastic	tumorous
+PATO:0002012	coating	
+PATO:0002013	fasciculation	
+PATO:0002014	structure, cavities	
+PATO:0002016	magnitude	
+PATO:0002017	increased magnitude	high magnitude
+PATO:0002018	decreased magnitude	low magnitude
+PATO:0002019	aplastic growth	agenesis	dysgenesis
+PATO:0002020	pale pink	
+PATO:0002021	conical	cone-shaped
+PATO:0002022	villiform	
+PATO:0002023	apical-basal polarity	
+PATO:0002024	anterior-posterior polarity	rostral-caudal polarity 	superior-caudal polarity (human torso)
+PATO:0002025	external angle	
+PATO:0002026	non-progressive	
+PATO:0002027	osmolality	
+PATO:0002028	decreased osmolality	low osmolality
+PATO:0002029	increased osmolality	high osmolality
+PATO:0002030	specificity to	
+PATO:0002031	upturned	
+PATO:0002032	forward scatter	
+PATO:0002033	side scatter	
+PATO:0002034	undivided	unseparated
+PATO:0002035	ipsilateral to	ipsilateral
+PATO:0002036	axial to	
+PATO:0002037	degeneration	
+PATO:0002038	non-degenerate	not degenerate
+PATO:0002039	biconcave	
+PATO:0002040	biconvex	
+PATO:0002041	anterior-posterior diameter	
+PATO:0002042	decreased anterior-posterior diameter	low anterior-posterior diameter
+PATO:0002043	increased anterior-posterior diameter	high anterior-posterior diameter
+PATO:0002044	trapezoid	trapezoidal
+PATO:0002045	dendritic	dendriform	dendroid	dendroidal
+PATO:0002046	abaxial to	
+PATO:0002047	adaxial to	
+PATO:0002048	mosaicism	heterogeneity
+PATO:0002049	lateral and rotional curvature	
+PATO:0002050	normal amount	present in normal numbers in organism
+PATO:0002051	increased occurrence	increased incidence
+PATO:0002052	decreased occurrence	decreased incidence
+PATO:0002053	dorso-ventrally flattened	
+PATO:0002054	laterally compressed	laterally flattened	transversely flattened
+PATO:0002055	increased fragility	
+PATO:0002056	decreased fragility	
+PATO:0002057	increased area	
+PATO:0002058	decreased area	
+PATO:0002059	emmision wavelength	
+PATO:0002060	absorption wavelength	
+PATO:0002062	physical quality of a process	
+PATO:0002063	columnar	
+PATO:0002064	fenestrated	
+PATO:0002065	star shaped	stellate
+PATO:0002066	crystal configuration	
+PATO:0002067	stratification	
+PATO:0002068	stratified	
+PATO:0002069	unstratified	
+PATO:0002070	affinity	
+PATO:0002071	increased affinity	
+PATO:0002072	decreased affinity	
+PATO:0002073	avidity	
+PATO:0002074	increased avidity	
+PATO:0002075	decreased avidity	
+PATO:0002076	movement behavioral quality	movement behavioural quality
+PATO:0002077	stacked	
+PATO:0002078	hollow	
+PATO:0002080	broken into two pieces	
+PATO:0002081	shattered	
+PATO:0002082	partially broken	
+PATO:0002083	altered number of	
+PATO:0002087	bullet-shaped	
+PATO:0002088	monocystic	
+PATO:0002089	polycystic	multicystic
+PATO:0002090	adenomatous	
+PATO:0002091	subacute	
+PATO:0002092	anaplastic	
+PATO:0002093	ballooning	
+PATO:0002094	basophilic	
+PATO:0002096	neoplastic, non-malignant	benign
+PATO:0002097	neoplastic, malignant	
+PATO:0002098	neoplastic, metastatic	
+PATO:0002099	differentiated	
+PATO:0002100	undifferentiated	
+PATO:0002101	metaplastic	trans-differentiated
+PATO:0002102	proliferative	
+PATO:0002103	infiltrative	infiltrating
+PATO:0002104	inflammatory	
+PATO:0002105	hemorrhagic	
+PATO:0002106	poorly differentiated	
+PATO:0002107	peripheral	
+PATO:0002108	papillary	
+PATO:0002109	caseous	cheese-like
+PATO:0002110	well differentiated	
+PATO:0002111	moderately well differentiated	
+PATO:0002112	perforate	permeable	pierced
+PATO:0002113	cribriform	
+PATO:0002114	fatty	
+PATO:0002115	fibrinoid	
+PATO:0002116	fibrinopurulent	
+PATO:0002117	glandular	
+PATO:0002118	multiple	
+PATO:0002119	hydropic	
+PATO:0002120	suppurative	purulent
+PATO:0002121	trabecular	
+PATO:0002122	mixed	
+PATO:0002123	minimal	
+PATO:0002124	laminar	
+PATO:0002125	nodular	
+PATO:0002126	osseous	bony
+PATO:0002127	scirrhous	
+PATO:0002128	serous	
+PATO:0002129	neoplastic, invasive	
+PATO:0002130	neoplastic, deeply invasive	
+PATO:0002131	abduction	
+PATO:0002132	neoplastic, non-invasive	
+PATO:0002133	adduction	
+PATO:0002134	fibrillary	fibrillate
+PATO:0002135	delayed closure	
+PATO:0002136	radiopacity	
+PATO:0002137	radiopaque	
+PATO:0002138	edibility	edibleness
+PATO:0002139	edible	
+PATO:0002140	inedible	
+PATO:0002141	irregular density	
+PATO:0002142	bracket	
+PATO:0002143	sloped downward	
+PATO:0002144	increased radiopacity	
+PATO:0002145	decreased radiopacity	
+PATO:0002146	virulence	
+PATO:0002147	reduced virulence	attenuated
+PATO:0002148	increased virulence	
+PATO:0002149	ivory	
+PATO:0002150	splayed caudal	splayed inferior (human torso)	splayed posterior
+PATO:0002151	splayed dorsal	splayed posterior (human torso)
+PATO:0002152	splayed lateral	
+PATO:0002153	splayed rostral	splayed anterior	splayed superior (human torso)
+PATO:0002154	splayed ventral	splayed anterior (human torso)	splayed inferior (human head)
+PATO:0002155	medially rotated	internally rotated
+PATO:0002156	laterally rotated	externally rotated
+PATO:0002157	partially dislocated	partial dislocated towards	subluxation	suluxated towards
+PATO:0002161	bicornuate	
+PATO:0002162	high-arched	
+PATO:0002163	herniated into	
+PATO:0002164	curved medial	
+PATO:0002165	drooping	sagging
+PATO:0002166	premature closure	
+PATO:0002167	herniated out of	
+PATO:0002168	displaced to	mislocalised to
+PATO:0002169	split medially	
+PATO:0002170	split laterally	
+PATO:0002171	split bilaterally	
+PATO:0002172	split radially	
+PATO:0002173	misaligned towards	
+PATO:0002174	misaligned away from	
+PATO:0002175	deviation	
+PATO:0002176	deviation towards the lateral side	
+PATO:0002177	deviation towards the medial side	
+PATO:0002178	mislocalised radially	
+PATO:0002179	mislocalised proximally	
+PATO:0002180	straight	
+PATO:0002181	displaced	
+PATO:0002182	molecular quality	relational molecular quality
+PATO:0002183	cyclicity	
+PATO:0002184	cyclic cyclicity	
+PATO:0002185	acyclic cyclicity	
+PATO:0002186	polarity	
+PATO:0002187	polar polarity	
+PATO:0002188	nonpolar polarity	
+PATO:0002189	electric polarizability	
+PATO:0002190	aromaticity	
+PATO:0002191	aromatic	
+PATO:0002192	non-aromatic	
+PATO:0002193	electric charge	
+PATO:0002194	neutral charge	
+PATO:0002195	positive charge	
+PATO:0002196	negative charge	
+PATO:0002197	electronegativity	
+PATO:0002198	quality of a substance	
+PATO:0002199	meltability	
+PATO:0002200	vaporizability	
+PATO:0002201	handedness	
+PATO:0002202	left handedness	
+PATO:0002203	right handedness	
+PATO:0002204	ambidextrous handedness	
+PATO:0002205	capacitance	
+PATO:0002206	neonatal	
+PATO:0002207	insertion depth	
+PATO:0002208	spoon-shaped	
+PATO:0002209	incisiform	
+PATO:0002210	bulbous	 bulblike	bulb-shaped	swollen
+PATO:0002211	recurved	
+PATO:0002212	slender	gracile
+PATO:0002213	obclavate	
+PATO:0002214	bilobed	
+PATO:0002215	falciform	falcate	hooked	scythe-shaped	sickle-shaped	unciform	uncinate
+PATO:0002216	ubiquinated	Ubiquitylation
+PATO:0002217	nitrated	
+PATO:0002218	demyelinated	
+PATO:0002219	fan-shaped	fan-like
+PATO:0002220	phosphorylated	
+PATO:0002221	increased phosphorylation	hyperphosphorylated
+PATO:0002222	decreased phosphorylation	hypophosporylated 
+PATO:0002223	oxidized	
+PATO:0002224	V-shaped	
+PATO:0002225	L-shaped	
+PATO:0002226	subcylindrical	
+PATO:0002227	cup-shaped	cup-like
+PATO:0002228	acuminate	
+PATO:0002229	subrectangular	
+PATO:0002230	subtriangular	
+PATO:0002231	multifid	
+PATO:0002232	semicircular	half circle	semicircle
+PATO:0002233	far from	distant from	remote from
+PATO:0002234	emarginate	
+PATO:0002235	blade-like	 sword-like	blade-shaped	ensiform 	sword-shaped
+PATO:0002236	aliform	wing-shaped
+PATO:0002237	retrorse	
+PATO:0002238	antrorse	
+PATO:0002239	hourglass-shaped	figure 8 shaped
+PATO:0002240	teardrop-shaped	drop shaped
+PATO:0002241	trilobed	
+PATO:0002242	velocity	
+PATO:0002243	fluid flow rate	volume flow rate	volumetric flow rate
+PATO:0002244	mass flow rate	
+PATO:0002245	increased force	increased force amplitude
+PATO:0002246	decreased force	decreased force amplitude
+PATO:0002247	degree of pigmentation	
+PATO:0002248	pigmented	
+PATO:0002249	unpigmented	depigmented
+PATO:0002250	increased pigmentation	hyperpigmented
+PATO:0002251	decreased pigmentation	hypopigmented
+PATO:0002252	antero-posteriorly flattened	antero-posteriorly compressed
+PATO:0002253	platelike	plate-like
+PATO:0002254	flattened	compressed
+PATO:0002255	grooved	channeled	creased
+PATO:0002256	tricuspidate	tricuspid
+PATO:0002257	multicuspidate	
+PATO:0002258	pointed	
+PATO:0002259	adjacent to	close to	near to	vicinity of
+PATO:0002260	semi erect	semi upright
+PATO:0002261	located in	
+PATO:0002262	phosphorylation	
+PATO:0002263	dephosphorylated	
+PATO:0002264	organization quality	
+PATO:0002265	behavioural activity	
+PATO:0002266	3-D shape	
+PATO:0002267	edge shape	
+PATO:0002268	centered	
+PATO:0002269	accumulation	pooled
+PATO:0002270	increased accumulation	accumulated
+PATO:0002271	decreased accumulation	
+PATO:0002272	parallel to	
+PATO:0002273	marbled	
+PATO:0002274	mottled	
+PATO:0002275	high contrast color pattern	
+PATO:0002276	barred	
+PATO:0002277	iridescent	
+PATO:0002278	articulated with	
+PATO:0002279	tightly articulated with	
+PATO:0002280	broadly articulated with	
+PATO:0002281	biscupidate	bicuspid
+PATO:0002282	increased mobility	
+PATO:0002283	decreased mobility	
+PATO:0002284	tension	
+PATO:0002285	increased branchiness	
+PATO:0002286	decreased branchiness	
+PATO:0002287	increased elasticity	
+PATO:0002288	decreased elasticity	
+PATO:0002289	setose	
+PATO:0002290	aplastic/hypoplastic	
+PATO:0002291	agenesis	
+PATO:0002292	transient	transient structure
+PATO:0002293	permanent	permanent structure
+PATO:0002294	scrobiculate	
+PATO:0002295	areolate	
+PATO:0002296	foveate	foveolate	pitted
+PATO:0002297	decreased cellular motility	
+PATO:0002298	increased cellular motility	
+PATO:0002299	tubular	tube like	tube-shaped	tubulate
+PATO:0002300	increased quality	
+PATO:0002301	decreased quality	
+PATO:0002302	decreased process quality	
+PATO:0002303	decreased object quality	
+PATO:0002304	increased process quality	
+PATO:0002305	increased object quality	
+PATO:0002306	equilateral triangular	
+PATO:0002307	isosceles triangular	
+PATO:0002308	scalene triangular	
+PATO:0002309	fiber shaped	
+PATO:0002310	robust	
+PATO:0002311	fimbriated	
+PATO:0002312	segmented	
+PATO:0002313	telescopic	
+PATO:0002314	ligamentous	
+PATO:0002315	brush-like shape	
+PATO:0002316	autogenous	free
+PATO:0002317	parallelogram	
+PATO:0002318	superelliptic	LamC) curve
+PATO:0002319	squircle	
+PATO:0002320	diamond shaped	
+PATO:0002321	hypoelliptic	
+PATO:0002322	hyperelliptic	
+PATO:0002323	temporal distribution quality	
+PATO:0002324	offset quality	
+PATO:0002325	onset quality	
+PATO:0002326	angle	
+PATO:0002327	increased angle to	
+PATO:0002328	decreased angle to	
+PATO:0002329	hyponastic	
+PATO:0002330	oblanceolate	
+PATO:0002331	adhesive	resinous
+PATO:0002332	non-adhesive	non-resinous
+PATO:0002333	increased adhesivity	
+PATO:0002334	decreased adhesivity	
+PATO:0002335	tholiform	
+PATO:0002336	pyramidal	
+PATO:0002337	lance-ovate	
+PATO:0002338	lanceolate-triangular	
+PATO:0002339	hispid	
+PATO:0002340	hispidulous	
+PATO:0002341	tomentose	
+PATO:0002342	cupulate	
+PATO:0002343	decumbent	
+PATO:0002344	arachnose	
+PATO:0002345	lemon-shaped	
+PATO:0002346	snowman-shaped	
+PATO:0002347	obconical	
+PATO:0002348	ligneous	
+PATO:0002349	basal to	
+PATO:0002350	cauline to	
+PATO:0002351	fleshy	
+PATO:0002352	herbaceous	
+PATO:0002353	activation quality	
+PATO:0002354	active	
+PATO:0002355	inactive	
+PATO:0002356	constitutively active	
+PATO:0002357	D-shaped	
+PATO:0002358	ridged	ridge-like
+PATO:0002359	broad	
+PATO:0002360	tendency	
+PATO:0002361	increased tendency	
+PATO:0002362	decreased tendency	
+PATO:0002363	bronze	
+PATO:0002364	shortened	
+PATO:0002365	intact female	
+PATO:0002366	intact male	
+PATO:0002367	castrated male	
+PATO:0002368	nulliparous	
+PATO:0002369	multiparous	
+PATO:0002370	parity	
+PATO:0002371	primiparous	
+PATO:0002372	grand multi[arous	
+PATO:0002373	mediolateral polarity	
+PATO:0002374	fluctuating	
+PATO:0002375	trumpet-shaped	
+PATO:0002376	inflated	air-filled
+PATO:0002377	uninflated	
+PATO:0002378	acinus	
+PATO:0002379	ovariohysterectomized female	
+PATO:0002380	ovariectomized female	
+PATO:0002381	waxiness	
+PATO:0002382	increased waxiness	
+PATO:0002383	decreased waxiness	
+PATO:0002384	waxy	
+PATO:0002385	striate-angular	
+PATO:0002386	anvil	anvil shaped
+PATO:0002387	peracute	per-acute
+PATO:0002388	pedunculate	
+PATO:0002389	procumbent	
+PATO:0002390	radius	
+PATO:0002391	triradiate	
+PATO:0002392	diagonal to	
+PATO:0002393	increased tolerance to	
+PATO:0002394	decreased tolerance to	
+PATO:0002395	mislocalized abaxially	
+PATO:0002396	mislocalized adaxially	
+PATO:0002397	subcircular	round	rounded
+PATO:0002399	anteromedially rotated	
+PATO:0002400	fusiform	
+PATO:0002401	random pattern	
+PATO:0002402	multifocal to coalescing	
+PATO:0002403	generalized	generalised
+PATO:0002404	segmental	
+PATO:0002405	friability	
+PATO:0002406	friable	
+PATO:0002407	indurated	
+PATO:0002408	watery	
+PATO:0002409	fluid-filled	
+PATO:0002410	beige	
+PATO:0002411	yellow brown	
+PATO:0002412	dark yellow brown	
+PATO:0002413	light yellow brown	
+PATO:0002414	chronic-active	
+PATO:0002415	focally extensive	
+PATO:0002416	sunken	
+PATO:0002417	transmural	
+PATO:0002418	acidophilic	
+PATO:0002419	eosinophilic	
+PATO:0002420	amphiphilic	
+PATO:0002421	cicatricial	
+PATO:0002422	acinar	
+PATO:0002423	papillomatous	
+PATO:0002424	divergent from	
+PATO:0002425	exposed	
+PATO:0002426	scaphoid	
+PATO:0002427	knobbled	
+PATO:0002428	tripodal	
+PATO:0002429	x-shaped	
+PATO:0002430	strap-shaped	
+PATO:0002431	waisted	
+PATO:0002432	spade-shaped	
+PATO:0002433	sculpted surface	
+PATO:0002434	perpendicular to	
+PATO:0002435	abut	
+PATO:0002436	offset	
+PATO:0002437	interlocked with	
+PATO:0002438	subdermal	subcutaneous
+PATO:0002439	w-shaped	
+PATO:0002440	ornamentation	
+PATO:0002441	ornamented	
+PATO:0002442	unornamented	
+PATO:0002443	level with	
+PATO:0002444	mineralized	
+PATO:0002445	torsioned	twisted
+PATO:0002446	anchor-shaped	
+PATO:0002447	quadripartite	
+PATO:0002448	oriented towards	
+PATO:0002449	posteromedial to	
+PATO:0002450	firm	
+PATO:0002451	sexually dimorphic	
+PATO:0002452	decondensed	
+PATO:0002453	eroding	
+PATO:0002454	carpel-like	
+PATO:0002455	corymb-like	
+PATO:0002456	inflorescence-like	
+PATO:0002457	leaf-like	
+PATO:0002458	pin-like	
+PATO:0002459	sepal-like	
+PATO:0002460	shriveled	
+PATO:0002461	wilty	
+PATO:0002462	collagenous	
+PATO:0002463	extends to	
+PATO:0002464	extends beyond	
+PATO:0002465	prism shaped	tent shaped
+PATO:0002466	keyhole shaped	
+PATO:0002467	lathlike	
+PATO:0002468	distensible	
+PATO:0002469	sutured to	
+PATO:0002470	transformed to	
+PATO:0002471	increased velocity	
+PATO:0002472	decreased velocity	
+PATO:0002473	neoplastic, spontaneous	
+PATO:0002474	bitter	
+PATO:0002475	subterminal	
+PATO:0002476	terminal	
+PATO:0002477	brittle	
+PATO:0002478	transversely striated	
+PATO:0002479	obliquely striated	
+PATO:0002480	poorly ossified	
+PATO:0002481	oblique orientation	
+PATO:0002482	slit-like	
+PATO:0002483	external to	
+PATO:0002484	inverted-V shaped	chevron shaped
+PATO:0002485	parallel-sided	
+PATO:0002486	multi-organismal process quality	
+PATO:0002487	single organismal process quality	
+PATO:0002488	overlapping	
+PATO:0002489	overlapped by	
+PATO:0002490	anterior orientation	anteriorly directly
+PATO:0002491	anterodorsal orientation	anterodorsally directed
+PATO:0002492	anterolateral orientation	anterolaterally directed
+PATO:0002493	anteroventral orientation	anteroventrally directed
+PATO:0002494	distal orientation	distally directed
+PATO:0002495	dorsal orientation	dorsally directed
+PATO:0002496	dorsolateral orientation	dorsolaterally directed
+PATO:0002497	lateral orientation	laterally directed
+PATO:0002498	medial orientation	medially directed
+PATO:0002499	posterior orientation	posteriorly directed
+PATO:0002500	ventrolaterally orientation	ventrolaterally directed
+PATO:0002501	ventral orientation	ventrally directed
+PATO:0002502	transverse orientation	transversely oriented
+PATO:0002503	posterolateral orientation	posterolaterally directed
+PATO:0002504	posterodorsal orientation	posterodorsally directed
+PATO:0002505	nucleated	
+PATO:0002506	alobate	
+PATO:0002507	keratinous	
+PATO:0002508	concealed	
+PATO:0002509	hexagonal	
+PATO:0002510	multipartite	
+PATO:0002511	cane-like	cane-shaped
+PATO:0002512	confluent with	
+PATO:0002513	oblique to	
+PATO:0002514	anteromedial orientation	medioanterior orientation
+PATO:0002515	increased elevation relative to	
+PATO:0002516	concealed by	
+PATO:0002517	saddle-shaped	
+PATO:0002518	flush	
+PATO:0002519	cancellous	
+PATO:0002520	scute-like	
+PATO:0002521	funnel-shaped	
+PATO:0002522	keel-shaped	
+PATO:0002523	vertical to	
+PATO:0002524	mesiolateral orientation	
+PATO:0002525	separating	
+PATO:0002526	anterodistal orientation	antero-distal orientation
+PATO:0002527	posterodistal orientation	postero-distal orientation
+PATO:0002533	bipartite	
+PATO:0002534	plowshare shaped	plow-share shaped
+PATO:0002535	peg-like	
+PATO:0002536	boomerang shaped	
+PATO:0002537	subovoid	
+PATO:0002538	concavo-convex	concavoconvex
+PATO:0002539	ring shaped	
+PATO:0002540	spur shaped	
+PATO:0002541	homeostatic	
+PATO:0002628	borderline intensity	
+PATO:0002629	profound intensity	
+PATO:0002630	episodic	
+PATO:0002631	refractory	
+PATO:0002632	secondary	
+PATO:0005000	hemispheroid	
+PATO:0005001	variability of count	variable number
+PATO:0005002	pear shaped	
+PATO:0005003	paddle shaped	
+PATO:0005004	subelliptical	
+PATO:0005005	radiating	
+PATO:0005006	differentiated from	distinct from
+PATO:0005007	hypsodont	
+PATO:0005008	brachydont	
+PATO:0005009	molariform	
+PATO:0005010	plumose	
+PATO:0005011	continuous with	
+PATO:0005012	complete structure	
+PATO:0005013	incomplete structure	
+PATO:0005014	subspherical	
+PATO:0005015	tapered size	gradient of size
+PATO:0005016	surrounded by	enclosed by
+PATO:0005017	labiolingually compressed	
+PATO:0005018	mesiodistally compressed	
+PATO:0005019	curved lingually	
+PATO:0005020	irregularly shaped	
+PATO:0005021	unicuspidate	
+PATO:0005022	uniform diameter	
+PATO:0005023	parasagittal orientation	
+PATO:0005024	longitudinal orientation	
+PATO:0010000	maximally connected	
+PATO:0010001	disconnected	
+PATO:0015001	absence due to degeneration	
+PATO:0015002	process efficacy	
+PATO:0015003	decreased efficacy	
+PATO:0015004	increased efficacy	
+PATO:0020000	genotypic sex	
+PATO:0020001	male genotypic sex	
+PATO:0020002	female genotypic sex	

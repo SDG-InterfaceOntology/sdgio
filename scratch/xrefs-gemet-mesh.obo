@@ -1,0 +1,2014 @@
+[Term]
+id: GEMET:2618 ! electrolysis
+xref: MESH:H01.181.529.307.365 ! electrolysis
+
+[Term]
+id: GEMET:2238 ! disinfection
+xref: MESH:D20.425 ! disinfectant
+xref: MESH:G03.850.780.200.450.850.375 ! disinfection
+
+[Term]
+id: GEMET:9327 ! wind
+xref: MESH:G03.230.300.100.150.185.200 ! wind
+
+[Term]
+id: GEMET:7694 ! silicon
+xref: MESH:D01.268.912.850 ! silicon
+xref: MESH:D02.715.650.700 ! silicone
+
+[Term]
+id: GEMET:8144 ! strontium
+xref: MESH:D01.268.552.850 ! strontium
+
+[Term]
+id: GEMET:5018 ! marble
+xref: MESH:D01.146.275 ! calcium carbonate
+
+[Term]
+id: GEMET:8222 ! surface-active agent
+xref: MESH:D26.866 ! surface-active agent
+
+[Term]
+id: GEMET:6106 ! pentachlorophenol
+xref: MESH:D02.755.190.633 ! pentachlorophenol
+
+[Term]
+id: GEMET:5049 ! marine sediment
+xref: MESH:H01.374.572.400 ! geologic sediment
+
+[Term]
+id: GEMET:5520 ! natural resource conservation
+xref: MESH:G03.230.080 ! conservation of natural resource
+
+[Term]
+id: GEMET:3521 ! fumigation
+xref: MESH:G03.850.780.200.300 ! fumigation
+
+[Term]
+id: GEMET:1996 ! DDT
+xref: MESH:D02.455.526.439.337 ! ddt
+
+[Term]
+id: GEMET:591 ! asbestos
+xref: MESH:D01.578.725.050 ! asbestos
+
+[Term]
+id: GEMET:3011 ! evaluation
+xref: MESH:E05.337 ! evaluation study
+
+[Term]
+id: GEMET:7759 ! smog
+xref: MESH:G03.850.460.100.310 ! smog
+
+[Term]
+id: GEMET:3294 ! flocculant
+xref: MESH:H01.181.529.741.347 ! flocculation
+
+[Term]
+id: GEMET:3334 ! fluorine
+xref: MESH:D01.268.380.300 ! fluorine
+
+[Term]
+id: GEMET:7413 ! sand
+xref: MESH:D01.578.750 ! silicon dioxide
+
+[Term]
+id: GEMET:562 ! aromatic hydrocarbon
+xref: MESH:D02.455.426.559 ! aromatic hydrocarbon
+
+[Term]
+id: GEMET:2691 ! emulsion
+xref: MESH:D26.664.255.165.260 ! emulsion
+
+[Term]
+id: GEMET:3761 ! greenhouse effect
+xref: MESH:G03.230.265 ! greenhouse effect
+
+[Term]
+id: GEMET:4810 ! light
+xref: MESH:G03.230.150.410 ! lighting
+xref: MESH:H01.671.606.552 ! light
+
+[Term]
+id: GEMET:11836 ! cardiovascular system
+xref: MESH:A07 ! cardiovascular system
+
+[Term]
+id: GEMET:7895 ! soil structure
+xref: MESH:G03.230.600 ! soil
+
+[Term]
+id: GEMET:1371 ! chlorination
+xref: MESH:D01.268.380.150 ! chlorine
+
+[Term]
+id: GEMET:5333 ! molecular biology
+xref: MESH:G01.273.343.595 ! molecular biology
+
+[Term]
+id: GEMET:2179 ! diesel fuel
+xref: MESH:G03.230.132.258.630.540 ! gasoline
+
+[Term]
+id: GEMET:6899 ! radiation sickness
+xref: MESH:C21.866.733 ! radiation injury
+
+[Term]
+id: GEMET:612 ! astronomy
+xref: MESH:H01.091 ! astronomy
+
+[Term]
+id: GEMET:8076 ! statistics
+xref: MESH:E05.318.740 ! statistics
+
+[Term]
+id: GEMET:6492 ! polycyclic aromatic hydrocarbon
+xref: MESH:D04.615 ! aromatic polycyclic hydrocarbon
+
+[Term]
+id: GEMET:3894 ! heating
+xref: MESH:G03.230.150.300 ! heating
+xref: MESH:G03.230.300.100.725.710.380 ! heat
+
+[Term]
+id: GEMET:10708 ! resinous plant
+xref: MESH:D24.310.784.500.790 ! plant resin
+
+[Term]
+id: GEMET:6180 ! pharmacokinetics
+xref: MESH:G06.535.780 ! pharmacokinetics
+
+[Term]
+id: GEMET:7535 ! sea water
+xref: MESH:G03.230.700.400 ! seawater
+
+[Term]
+id: GEMET:3295 ! flocculation
+xref: MESH:H01.181.529.741.347 ! flocculation
+
+[Term]
+id: GEMET:1605 ! communications
+xref: MESH:G03.850.505.400.800 ! residence characteristics
+
+[Term]
+id: GEMET:7925 ! solvent
+xref: MESH:D26.837 ! solvent
+
+[Term]
+id: GEMET:6247 ! phytoplankton
+xref: MESH:B01.841.637 ! phytoplankton
+
+[Term]
+id: GEMET:8240 ! survey
+xref: MESH:E05.318.308 ! data collection
+
+[Term]
+id: GEMET:6183 ! phenol
+xref: MESH:D02.755 ! phenol
+xref: MESH:D02.755.595 ! phenol
+
+[Term]
+id: GEMET:5589 ! nickel
+xref: MESH:D01.268.556.607 ! nickel
+
+[Term]
+id: GEMET:379 ! ammonium
+xref: MESH:D01.625.075 ! ammonium compound
+
+[Term]
+id: GEMET:8494 ! tissue
+xref: MESH:A10 ! tissue
+
+[Term]
+id: GEMET:7699 ! silver
+xref: MESH:D01.268.556.812 ! silver
+
+[Term]
+id: GEMET:965 ! boron
+xref: MESH:D01.268.912.075 ! boron
+
+[Term]
+id: GEMET:8495 ! titanium
+xref: MESH:D01.268.557.800 ! titanium
+
+[Term]
+id: GEMET:2207 ! dioxin
+xref: MESH:D03.383.231 ! dioxin
+
+[Term]
+id: GEMET:1746 ! container
+xref: MESH:E05.235 ! containment of biohazard
+
+[Term]
+id: GEMET:5893 ! organic chemistry
+xref: MESH:H01.181.404 ! organic chemistry
+
+[Term]
+id: GEMET:2333 ! drilling
+xref: MESH:B02.649.801.400.130.120.610 ! papio
+
+[Term]
+id: GEMET:3212 ! fire
+xref: MESH:G03.230.100.120 ! fire
+
+[Term]
+id: GEMET:51 ! acid rain
+xref: MESH:D05.284.101.143.050 ! acid rain
+
+[Term]
+id: GEMET:4487 ! ion exchanger
+xref: MESH:H01.181.529.479 ! ion exchange
+
+[Term]
+id: GEMET:1290 ! charcoal
+xref: MESH:D01.268.150.150 ! charcoal
+
+[Term]
+id: GEMET:6338 ! platinum
+xref: MESH:D01.268.556.690 ! platinum
+
+[Term]
+id: GEMET:5524 ! natural science
+xref: MESH:H01 ! natural science
+
+[Term]
+id: GEMET:7628 ! sewage
+xref: MESH:G03.850.460.710.600 ! sewage
+
+[Term]
+id: GEMET:6120 ! permeability
+xref: MESH:H01.181.529.687 ! permeability
+
+[Term]
+id: GEMET:9202 ! water pollution
+xref: MESH:D05.284.903 ! water pollutant
+xref: MESH:G03.850.460.790 ! water pollution
+
+[Term]
+id: GEMET:6263 ! pilot project
+xref: MESH:E05.318.760.750 ! pilot project
+
+[Term]
+id: GEMET:6211 ! photosynthesis
+xref: MESH:G04.742.600 ! photosynthesis
+
+[Term]
+id: GEMET:373 ! amino acid
+xref: MESH:D12.125 ! amino acid
+xref: MESH:D12.125.067 ! acidic amino acid
+
+[Term]
+id: GEMET:2131 ! detergent
+xref: MESH:D26.866.265 ! detergent
+
+[Term]
+id: GEMET:9425 ! zoology
+xref: MESH:G01.273.943 ! zoology
+
+[Term]
+id: GEMET:7045 ! refrigerator
+xref: MESH:E01.450.865.366.643 ! refrigeration
+
+[Term]
+id: GEMET:4182 ! incineration
+xref: MESH:G03.850.860.510.900.600.500 ! incineration
+
+[Term]
+id: GEMET:4209 ! indoor air pollution
+xref: MESH:G03.850.460.100.080 ! indoor air pollution
+
+[Term]
+id: GEMET:237 ! agrochemical
+xref: MESH:D26.025 ! agrochemical
+
+[Term]
+id: GEMET:1100 ! cadmium
+xref: MESH:D01.268.556.137 ! cadmium
+
+[Term]
+id: GEMET:1499 ! coagulation
+xref: MESH:D19.461.270 ! coagulant
+
+[Term]
+id: GEMET:12394 ! mineral oil
+xref: MESH:D02.455.699.500 ! mineral oil
+
+[Term]
+id: GEMET:1373 ! chlorine
+xref: MESH:D01.268.380.150 ! chlorine
+
+[Term]
+id: GEMET:1532 ! cobalt
+xref: MESH:D01.268.556.185 ! cobalt
+
+[Term]
+id: GEMET:4155 ! immunity
+xref: MESH:E02.095.520.400 ! immunization
+xref: MESH:G04.610 ! immunity
+
+[Term]
+id: GEMET:3256 ! fishing
+xref: MESH:B02.493 ! fish
+
+[Term]
+id: GEMET:6152 ! pet
+xref: MESH:B01.030.116 ! domestic animal
+
+[Term]
+id: GEMET:9210 ! water purification
+xref: MESH:G03.850.780.200.800.800.900.900 ! water purification
+
+[Term]
+id: GEMET:4091 ! hydrocarbon
+xref: MESH:D02.455 ! hydrocarbon
+
+[Term]
+id: GEMET:1992 ! dating
+xref: MESH:H01.862.200 ! chronology
+
+[Term]
+id: GEMET:262 ! air movement
+xref: MESH:G03.230.300.100.150.185 ! air movement
+
+[Term]
+id: GEMET:6892 ! radiation monitoring
+xref: MESH:E05.799.638 ! radiation monitoring
+
+[Term]
+id: GEMET:9269 ! weather
+xref: MESH:G03.230.300.100.725 ! weather
+
+[Term]
+id: GEMET:7324 ! rubber
+xref: MESH:D25.720.327.840 ! rubber
+
+[Term]
+id: GEMET:8893 ! vanadium
+xref: MESH:D01.268.556.920 ! vanadium
+
+[Term]
+id: GEMET:3122 ! farm animal
+xref: MESH:B01.030.116 ! domestic animal
+
+[Term]
+id: GEMET:2746 ! energy supply
+xref: MESH:G03.230.132 ! energy-generating resource
+
+[Term]
+id: GEMET:3933 ! herbicide
+xref: MESH:D05.723.366 ! herbicide
+
+[Term]
+id: GEMET:616 ! atlas
+xref: MESH:A02.835.232.834.151.213 ! atla
+
+[Term]
+id: GEMET:1225 ! cattle
+xref: MESH:B02.649.077.380.271 ! cattle
+
+[Term]
+id: GEMET:4184 ! incinerator
+xref: MESH:G03.850.860.510.900.600.500 ! incineration
+
+[Term]
+id: GEMET:3356 ! food additive
+xref: MESH:D26.471 ! food additive
+
+[Term]
+id: GEMET:6066 ! pathology
+xref: MESH:G02.403.776.600 ! pathology
+
+[Term]
+id: GEMET:5456 ! mutagenicity
+xref: MESH:D05.569.468 ! mutagen
+
+[Term]
+id: GEMET:372 ! amine
+xref: MESH:D02.092 ! amine
+xref: MESH:G06.535.140 ! amination
+
+[Term]
+id: GEMET:4015 ! household
+xref: MESH:F01.829.263.315 ! family characteristics
+
+[Term]
+id: GEMET:3567 ! gas chromatography
+xref: MESH:E05.196.181.349 ! gas chromatography
+
+[Term]
+id: GEMET:1333 ! chemical structure
+xref: MESH:D ! Chemical
+
+[Term]
+id: GEMET:7127 ! research
+xref: MESH:H01.770.644 ! research
+
+[Term]
+id: GEMET:13123 ! photography
+xref: MESH:E01.370.350.600 ! photography
+
+[Term]
+id: GEMET:7516 ! sealing
+xref: MESH:B02.649.754.578 ! seal
+
+[Term]
+id: GEMET:9199 ! water pollutant
+xref: MESH:D05.284.903 ! water pollutant
+xref: MESH:G03.850.460.790 ! water pollution
+
+[Term]
+id: GEMET:2606 ! electric power plant
+xref: MESH:H01.671.252.780 ! power plant
+
+[Term]
+id: GEMET:7716 ! skin
+xref: MESH:A17.815 ! skin
+
+[Term]
+id: GEMET:5935 ! organosilicon compound
+xref: MESH:D02.715 ! organosilicon compound
+
+[Term]
+id: GEMET:8951 ! veterinary medicine
+xref: MESH:G02.956 ! veterinary medicine
+
+[Term]
+id: GEMET:309 ! alicyclic hydrocarbon
+xref: MESH:D02.455.426.392 ! alicyclic hydrocarbon
+
+[Term]
+id: GEMET:8501 ! tobacco
+xref: MESH:B06.388.100.905.900 ! tobacco
+
+[Term]
+id: GEMET:5937 ! organotin compound
+xref: MESH:D02.691.850 ! organotin compound
+
+[Term]
+id: GEMET:2945 ! enzyme
+xref: MESH:D08.586 ! enzyme
+
+[Term]
+id: GEMET:2381 ! dust
+xref: MESH:G03.850.460.100.210 ! dust
+
+[Term]
+id: GEMET:1808 ! corrosion
+xref: MESH:H01.181.529.205 ! corrosion
+
+[Term]
+id: GEMET:11207 ! chalk
+xref: MESH:D01.146.275 ! calcium carbonate
+
+[Term]
+id: GEMET:5613 ! nitrogen oxides
+xref: MESH:D01.362.635 ! nitrogen oxide
+
+[Term]
+id: GEMET:3995 ! horse
+xref: MESH:B02.649.709.235.472 ! horse
+
+[Term]
+id: GEMET:3624 ! genetic engineering
+xref: MESH:E05.393.420 ! genetic engineering
+
+[Term]
+id: GEMET:8995 ! volatility
+xref: MESH:H01.181.529.952 ! volatilization
+
+[Term]
+id: GEMET:10039 ! physical chemistry
+xref: MESH:H01.181.529 ! physical chemistry
+
+[Term]
+id: GEMET:1007 ! bromine
+xref: MESH:D01.268.380.112 ! bromine
+
+[Term]
+id: GEMET:8047 ! standard
+xref: MESH:H01.939.808 ! reference standard
+
+[Term]
+id: GEMET:5978 ! oxide
+xref: MESH:D01.248.497.158.685 ! oxide
+xref: MESH:D05.569.540 ! oxidant
+
+[Term]
+id: GEMET:3328 ! fluoridation
+xref: MESH:D01.248.497.158.380 ! fluoride
+xref: MESH:E06.761.382 ! fluoridation
+
+[Term]
+id: GEMET:2824 ! environmental health
+xref: MESH:G02.229 ! environmental health
+
+[Term]
+id: GEMET:435 ! animal nutrition
+xref: MESH:G06.696.116 ! animal nutrition
+
+[Term]
+id: GEMET:3617 ! gene
+xref: MESH:G14.330 ! gene
+
+[Term]
+id: GEMET:8428 ! thallium
+xref: MESH:D01.268.556.847 ! thallium
+
+[Term]
+id: GEMET:5751 ! nucleic acid
+xref: MESH:D13.444 ! nucleic acid
+
+[Term]
+id: GEMET:5199 ! methane
+xref: MESH:D02.455.326.146.571 ! methane
+
+[Term]
+id: GEMET:7765 ! smoking
+xref: MESH:G03.850.460.100.340 ! smoke
+
+[Term]
+id: GEMET:1391 ! chlorophyll
+xref: MESH:D11.557.727.220 ! chlorophyll
+
+[Term]
+id: GEMET:6912 ! radioactive fallout
+xref: MESH:D05.284.638.555 ! radioactive fallout
+
+[Term]
+id: GEMET:3858 ! hazardous waste
+xref: MESH:G03.850.460.710.380 ! hazardous waste
+
+[Term]
+id: GEMET:7079 ! regional statistics
+xref: MESH:E05.318.740 ! statistics
+
+[Term]
+id: GEMET:1931 ! cyanate
+xref: MESH:D02.262 ! cyanate
+
+[Term]
+id: GEMET:6329 ! plastic
+xref: MESH:D25.700 ! plasticizer
+xref: MESH:D25.720.716 ! plastics
+
+[Term]
+id: GEMET:2287 ! dog
+xref: MESH:B02.649.147.308 ! dog
+
+[Term]
+id: GEMET:9092 ! waste management
+xref: MESH:G03.850.780.200.800.800.900 ! waste management
+
+[Term]
+id: GEMET:8664 ! tree
+xref: MESH:B06.915 ! tree
+
+[Term]
+id: GEMET:52 ! acid
+xref: MESH:D01.029 ! acid
+
+[Term]
+id: GEMET:12061 ! desert climate
+xref: MESH:G03.230.300.100.250.325 ! desert climate
+
+[Term]
+id: GEMET:7384 ! salmonella
+xref: MESH:B03.440.450.425.800 ! salmonella
+
+[Term]
+id: GEMET:6493 ! polycyclic hydrocarbon
+xref: MESH:D04 ! polycyclic hydrocarbon
+
+[Term]
+id: GEMET:3229 ! firing
+xref: MESH:G03.230.100.120 ! fire
+
+[Term]
+id: GEMET:5708 ! nuclear accident
+xref: MESH:G03.850.110.250.250 ! radiation accident
+
+[Term]
+id: GEMET:5786 ! occupational medicine
+xref: MESH:G02.403.776.630.510 ! occupational medicine
+
+[Term]
+id: GEMET:4838 ! lipid
+xref: MESH:D10.516 ! lipid
+
+[Term]
+id: GEMET:6230 ! physical science
+xref: MESH:H ! Physical Science
+
+[Term]
+id: GEMET:5179 ! metal plating
+xref: MESH:H01.181.529.307.365.348 ! electroplating
+
+[Term]
+id: GEMET:3808 ! habitat
+xref: MESH:G03.230 ! environment
+
+[Term]
+id: GEMET:4196 ! indicator
+xref: MESH:D26.600.410 ! indicators and reagent
+
+[Term]
+id: GEMET:1814 ! cosmic radiation
+xref: MESH:G03.230.300.100.300 ! cosmic radiation
+
+[Term]
+id: GEMET:5218 ! microbiology
+xref: MESH:G01.273.540 ! microbiology
+
+[Term]
+id: GEMET:1500 ! coal
+xref: MESH:G03.230.132.258.108 ! coal
+
+[Term]
+id: GEMET:3999 ! hospital
+xref: MESH:E02.760.400 ! hospitalization
+
+[Term]
+id: GEMET:2291 ! domesticated animal
+xref: MESH:B01.030.116 ! domestic animal
+
+[Term]
+id: GEMET:7992 ! spectroscopy
+xref: MESH:E05.196.867 ! spectrum analysis
+
+[Term]
+id: GEMET:6316 ! plant physiology
+xref: MESH:G04.742 ! plant physiology
+
+[Term]
+id: GEMET:5197 ! meteorology
+xref: MESH:G03.230.300 ! meteorological factor
+
+[Term]
+id: GEMET:298 ! alcohol
+xref: MESH:D02.033 ! alcohol
+
+[Term]
+id: GEMET:7921 ! solid waste disposal
+xref: MESH:G03.850.780.200.800.800.700 ! refuse disposal
+
+[Term]
+id: GEMET:6915 ! radioactive pollutant
+xref: MESH:D05.284.638 ! radioactive pollutant
+
+[Term]
+id: GEMET:3159 ! fermentation
+xref: MESH:G06.184.405 ! fermentation
+
+[Term]
+id: GEMET:8096 ! steroid
+xref: MESH:D04.808 ! steroid
+
+[Term]
+id: GEMET:5231 ! microwave
+xref: MESH:H01.671.768.638.605 ! microwave
+
+[Term]
+id: GEMET:245 ! air
+xref: MESH:G03.230.300.100.150 ! air
+
+[Term]
+id: GEMET:994 ! breeding
+xref: MESH:E05.820.150 ! breeding
+
+[Term]
+id: GEMET:7597 ! semiconductor
+xref: MESH:H01.288.745 ! semiconductor
+
+[Term]
+id: GEMET:889 ! bioreactor
+xref: MESH:E07.115 ! bioreactor
+
+[Term]
+id: GEMET:6235 ! physics
+xref: MESH:H01.671 ! physics
+
+[Term]
+id: GEMET:3483 ! freon
+xref: MESH:D02.455.526.439.220.300 ! methane chlorofluorocarbon
+
+[Term]
+id: GEMET:6755 ! protein
+xref: MESH:D12.776 ! protein
+xref: MESH:D12.776.124.670 ! protein
+
+[Term]
+id: GEMET:7233 ! risk
+xref: MESH:E05.318.740.600.800 ! risk
+
+[Term]
+id: GEMET:3535 ! fur animal
+xref: MESH:A17.360 ! hair
+
+[Term]
+id: GEMET:7761 ! smoke
+xref: MESH:G03.850.460.100.340 ! smoke
+
+[Term]
+id: GEMET:7057 ! regeneration
+xref: MESH:G04.185.753 ! regeneration
+
+[Term]
+id: GEMET:8543 ! toxicology
+xref: MESH:G01.703.795 ! toxicology
+
+[Term]
+id: GEMET:5593 ! nitrate
+xref: MESH:D01.248.497.158.606 ! nitrate
+
+[Term]
+id: GEMET:5457 ! mutagenicity testing
+xref: MESH:E05.393.560 ! mutagenicity test
+
+[Term]
+id: GEMET:2592 ! electricity
+xref: MESH:G03.230.132.200 ! electricity
+
+[Term]
+id: GEMET:1421 ! city
+xref: MESH:G03.230.069 ! city
+
+[Term]
+id: GEMET:1556 ! cold
+xref: MESH:G03.230.300.100.725.710.300 ! cold
+
+[Term]
+id: GEMET:4156 ! immunoassay
+xref: MESH:E01.450.495.410 ! immunoassay
+
+[Term]
+id: GEMET:12985 ! speech
+xref: MESH:F01.145.209.908.677 ! speech
+
+[Term]
+id: GEMET:8926 ! vehicle
+xref: MESH:D26.664.650.931 ! vehicle
+
+[Term]
+id: GEMET:5604 ! nitro compound
+xref: MESH:D02.640 ! nitro compound
+
+[Term]
+id: GEMET:6161 ! petroleum
+xref: MESH:G03.230.132.258.630 ! petroleum
+
+[Term]
+id: GEMET:2857 ! environmentalism
+xref: MESH:G03.230 ! environment
+
+[Term]
+id: GEMET:1401 ! chromium
+xref: MESH:D01.268.556.175 ! chromium
+
+[Term]
+id: GEMET:6548 ! poultry
+xref: MESH:B02.248.617 ! poultry
+
+[Term]
+id: GEMET:4022 ! housing
+xref: MESH:G03.230.150.360 ! housing
+
+[Term]
+id: GEMET:5254 ! milk
+xref: MESH:A13.622 ! milk
+
+[Term]
+id: GEMET:3678 ! glass
+xref: MESH:D25.720.400 ! glass
+
+[Term]
+id: GEMET:6240 ! physiology
+xref: MESH:G01.782 ! physiology
+
+[Term]
+id: GEMET:4897 ! locomotive
+xref: MESH:G11.427.614.568 ! locomotion
+
+[Term]
+id: GEMET:1262 ! centrifugation
+xref: MESH:E05.181 ! centrifugation
+
+[Term]
+id: GEMET:5081 ! separation
+xref: MESH:F01.829.263.315.500.300 ! divorce
+
+[Term]
+id: GEMET:399 ! analytical chemistry
+xref: MESH:E05.196 ! analytical chemistry
+
+[Term]
+id: GEMET:1348 ! chemistry
+xref: MESH:H01.181 ! chemistry
+
+[Term]
+id: GEMET:2956 ! equipment
+xref: MESH:E07 ! equipment and supply
+
+[Term]
+id: GEMET:4523 ! isotope
+xref: MESH:D01.496 ! isotope
+
+[Term]
+id: GEMET:4126 ! hygiene
+xref: MESH:E02.547 ! hygiene
+
+[Term]
+id: GEMET:2015 ! decontamination
+xref: MESH:G03.850.780.325 ! decontamination
+
+[Term]
+id: GEMET:4094 ! hydrochloric acid
+xref: MESH:D01.029.260.326 ! hydrochloric acid
+
+[Term]
+id: GEMET:3375 ! food preservation
+xref: MESH:D26.471.385 ! food preservative
+
+[Term]
+id: GEMET:1247 ! cement
+xref: MESH:E05.170 ! cementation
+
+[Term]
+id: GEMET:8736 ! ultrafiltration
+xref: MESH:E04.292.975 ! ultrafiltration
+
+[Term]
+id: GEMET:9302 ! whale
+xref: MESH:B02.649.189.865 ! whale
+
+[Term]
+id: GEMET:342 ! alpha radiation
+xref: MESH:H01.671.579.055 ! alpha particle
+
+[Term]
+id: GEMET:6313 ! planting
+xref: MESH:B06 ! plant
+
+[Term]
+id: GEMET:3559 ! garden
+xref: MESH:D03.383.742.698.253.650 ! phenobarbital
+
+[Term]
+id: GEMET:9244 ! water supply
+xref: MESH:G03.850.860.510.915 ! water supply
+
+[Term]
+id: GEMET:5601 ! nitrite
+xref: MESH:D01.248.497.158.635 ! nitrite
+
+[Term]
+id: GEMET:7491 ! screening
+xref: MESH:E01.370.500 ! mass screening
+
+[Term]
+id: GEMET:1462 ! climate
+xref: MESH:G03.230.300.100.250 ! climate
+
+[Term]
+id: GEMET:14906 ! mosaic
+xref: MESH:G13.920.590.175.595 ! mosaicism
+
+[Term]
+id: GEMET:13577 ! nitrogen oxide
+xref: MESH:D01.362.635 ! nitrogen oxide
+
+[Term]
+id: GEMET:1182 ! carcinogen
+xref: MESH:D05.569.100 ! carcinogen
+
+[Term]
+id: GEMET:6146 ! residual pesticide
+xref: MESH:D05.723.697 ! pesticide residue
+
+[Term]
+id: GEMET:1469 ! climate type
+xref: MESH:G03.230.300.100.250 ! climate
+
+[Term]
+id: GEMET:6896 ! radiation protection
+xref: MESH:G03.850.810.425 ! radiation protection
+
+[Term]
+id: GEMET:68 ! actinium
+xref: MESH:D01.268.033.033 ! actinium
+
+[Term]
+id: GEMET:8974 ! virology
+xref: MESH:G01.273.540.859 ! virology
+
+[Term]
+id: GEMET:5230 ! microscopy
+xref: MESH:E05.595 ! microscopy
+
+[Term]
+id: GEMET:6196 ! phosphorus
+xref: MESH:D01.268.666 ! phosphorus
+
+[Term]
+id: GEMET:3498 ! fruit
+xref: MESH:B06.413.024.500 ! fruit
+
+[Term]
+id: GEMET:1162 ! carbonate
+xref: MESH:D01.045.125 ! carbonate
+xref: MESH:D01.268.150 ! carbon
+
+[Term]
+id: GEMET:3937 ! heterocyclic compound
+xref: MESH:D03 ! heterocyclic compound
+
+[Term]
+id: GEMET:5154 ! mercury
+xref: MESH:D01.268.556.504 ! mercury
+
+[Term]
+id: GEMET:2029 ! deer
+xref: MESH:B02.649.077.380.373 ! deer
+
+[Term]
+id: GEMET:8791 ! uranium
+xref: MESH:D01.268.033.950 ! uranium
+
+[Term]
+id: GEMET:4550 ! kerosene
+xref: MESH:G03.230.132.258.630.600 ! kerosene
+
+[Term]
+id: GEMET:1111 ! calcium
+xref: MESH:D01.268.552.100 ! calcium
+
+[Term]
+id: GEMET:2979 ! ether
+xref: MESH:D02.355 ! ether
+
+[Term]
+id: GEMET:7803 ! social medicine
+xref: MESH:G02.403.720 ! social medicine
+
+[Term]
+id: GEMET:2949 ! epidemiology
+xref: MESH:G02.403.290 ! epidemiology
+
+[Term]
+id: GEMET:6523 ! population growth
+xref: MESH:G03.850.505.400.700.660 ! population growth
+
+[Term]
+id: GEMET:7923 ! solubility
+xref: MESH:H01.181.529.827 ! solubility
+
+[Term]
+id: GEMET:4723 ! lead
+xref: MESH:D01.268.556.435 ! lead
+
+[Term]
+id: GEMET:1327 ! chemical
+xref: MESH:D ! Chemical
+
+[Term]
+id: GEMET:898 ! biotechnology
+xref: MESH:G01.550 ! biotechnology
+
+[Term]
+id: GEMET:9160 ! water consumption
+xref: MESH:G10.261.350 ! drinking
+
+[Term]
+id: GEMET:864 ! biological pest control
+xref: MESH:G03.850.780.200.650.650 ! biological pest control
+
+[Term]
+id: GEMET:5765 ! nutrition
+xref: MESH:G02.513 ! nutrition
+
+[Term]
+id: GEMET:8713 ! turbine
+xref: MESH:A02.835.232.781.324.948 ! turbinate
+
+[Term]
+id: GEMET:4103 ! hydrogen
+xref: MESH:D01.268.406 ! hydrogen
+xref: MESH:G06.535.506 ! hydrogenation
+
+[Term]
+id: GEMET:7878 ! soil pollutant
+xref: MESH:D05.284.756 ! soil pollutant
+
+[Term]
+id: GEMET:719 ! barium
+xref: MESH:D01.268.552.050 ! barium
+
+[Term]
+id: GEMET:6359 ! poisoning
+xref: MESH:D05.569.612 ! poison
+
+[Term]
+id: GEMET:5219 ! microclimate
+xref: MESH:G03.230.300.100.250.450 ! microclimate
+
+[Term]
+id: GEMET:3854 ! hazardous substance
+xref: MESH:D05.284.360 ! hazardous substance
+
+[Term]
+id: GEMET:3536 ! furan
+xref: MESH:D03.383.312 ! furan
+
+[Term]
+id: GEMET:8148 ! structure-activity relationship
+xref: MESH:G06.184.872 ! structure-activity relationship
+
+[Term]
+id: GEMET:9363 ! wool
+xref: MESH:A13.970 ! wool
+
+[Term]
+id: GEMET:6204 ! photogrammetry
+xref: MESH:E01.370.350.600.630 ! photogrammetry
+
+[Term]
+id: GEMET:3365 ! food contamination
+xref: MESH:G03.850.460.400 ! food contamination
+
+[Term]
+id: GEMET:5608 ! nitrogen dioxide
+xref: MESH:D01.362.635.600 ! nitrogen dioxide
+
+[Term]
+id: GEMET:1224 ! cation
+xref: MESH:D01.248.497.300 ! cation
+
+[Term]
+id: GEMET:5184 ! metal
+xref: MESH:D01.552 ! metal
+
+[Term]
+id: GEMET:5736 ! nuclear power plant
+xref: MESH:H01.671.252.780 ! power plant
+
+[Term]
+id: GEMET:7843 ! soil
+xref: MESH:G03.230.600 ! soil
+
+[Term]
+id: GEMET:7612 ! separator
+xref: MESH:F01.829.263.315.500.300 ! divorce
+
+[Term]
+id: GEMET:6485 ! polychlorinated biphenyl
+xref: MESH:D02.455.426.559.389.185.698 ! polychlorinated biphenyl
+
+[Term]
+id: GEMET:3815 ! half-life
+xref: MESH:H01.862.405 ! half-life
+
+[Term]
+id: GEMET:4934 ! lubricant
+xref: MESH:H01.671.469 ! lubrication
+
+[Term]
+id: GEMET:6181 ! pharmacology
+xref: MESH:G01.703 ! pharmacology
+
+[Term]
+id: GEMET:702 ! bacteriology
+xref: MESH:G01.273.540.177 ! bacteriology
+
+[Term]
+id: GEMET:4485 ! ion exchange
+xref: MESH:H01.181.529.479 ! ion exchange
+
+[Term]
+id: GEMET:821 ! biodegradability
+xref: MESH:G03.850.860.510.090 ! biodegradation
+
+[Term]
+id: GEMET:8351 ! telemetry
+xref: MESH:E01.370.520.750 ! telemetry
+
+[Term]
+id: GEMET:11852 ! enterovirus
+xref: MESH:B04.820.565.284 ! enterovirus
+
+[Term]
+id: GEMET:10140 ! altitude
+xref: MESH:G03.230.058 ! altitude
+
+[Term]
+id: GEMET:11624 ! prescription
+xref: MESH:E02.319.720 ! drug prescription
+
+[Term]
+id: GEMET:14908 ! image enhancement
+xref: MESH:E01.370.350.600.350 ! image enhancement
+
+[Term]
+id: GEMET:2624 ! electronics
+xref: MESH:H01.288 ! electronics
+xref: MESH:H01.671.579.404.335 ! electron
+
+[Term]
+id: GEMET:8986 ! vitamin
+xref: MESH:D11.786 ! vitamin
+
+[Term]
+id: GEMET:3820 ! halogenated hydrocarbon
+xref: MESH:D02.455.526 ! halogenated hydrocarbon
+
+[Term]
+id: GEMET:5371 ! mortality
+xref: MESH:E05.318.308.985.550 ! mortality
+
+[Term]
+id: GEMET:1160 ! carbon
+xref: MESH:D01.045.125 ! carbonate
+xref: MESH:D01.268.150 ! carbon
+
+[Term]
+id: GEMET:3512 ! fuel oil
+xref: MESH:G03.230.132.258.630.500 ! fuel oil
+
+[Term]
+id: GEMET:1366 ! chloride
+xref: MESH:D01.210.450.150 ! chloride
+
+[Term]
+id: GEMET:8976 ! virus
+xref: MESH:B04 ! virus
+
+[Term]
+id: GEMET:7044 ! refrigeration
+xref: MESH:E01.450.865.366.643 ! refrigeration
+
+[Term]
+id: GEMET:5007 ! manure
+xref: MESH:D26.025.400.600 ! manure
+
+[Term]
+id: GEMET:3646 ! geography
+xref: MESH:H01.374 ! geography
+
+[Term]
+id: GEMET:4505 ! irrigation
+xref: MESH:E05.510 ! irrigation
+
+[Term]
+id: GEMET:90 ! adhesive
+xref: MESH:D26.016 ! adhesive
+xref: MESH:H01.181.529.875.139 ! adhesiveness
+
+[Term]
+id: GEMET:13336 ! marital status
+xref: MESH:F01.829.263.315.500 ! marital status
+
+[Term]
+id: GEMET:6935 ! radon
+xref: MESH:D01.268.271.800 ! radon
+
+[Term]
+id: GEMET:617 ! atmosphere
+xref: MESH:G03.230.300.100 ! atmosphere
+
+[Term]
+id: GEMET:60 ! acoustics
+xref: MESH:H01.671.031 ! acoustics
+
+[Term]
+id: GEMET:776 ! benzene
+xref: MESH:D02.455.426.559.222 ! benzene
+
+[Term]
+id: GEMET:5712 ! nuclear energy
+xref: MESH:G03.230.132.580 ! nuclear energy
+
+[Term]
+id: GEMET:2215 ! disaster
+xref: MESH:G03.230.100 ! disaster
+
+[Term]
+id: GEMET:1381 ! chlorofluorocarbon
+xref: MESH:D02.455.526.439.220 ! chlorofluorocarbon
+
+[Term]
+id: GEMET:826 ! biodegradation
+xref: MESH:G03.850.860.510.090 ! biodegradation
+
+[Term]
+id: GEMET:6481 ! polybrominated biphenyl
+xref: MESH:D02.455.426.559.389.185.680 ! polybrominated biphenyl
+
+[Term]
+id: GEMET:7776 ! soap
+xref: MESH:D26.866.265.861 ! soap
+
+[Term]
+id: GEMET:2706 ! endocrinology
+xref: MESH:G01.782.323 ! endocrinology
+
+[Term]
+id: GEMET:6364 ! polar region
+xref: MESH:G03.230.300.100.250.275 ! cold climate
+
+[Term]
+id: GEMET:5927 ! organometallic compound
+xref: MESH:D02.691 ! organometallic compound
+
+[Term]
+id: GEMET:3915 ! heavy metal
+xref: MESH:D01.268.556 ! heavy metal
+
+[Term]
+id: GEMET:4519 ! isomer
+xref: MESH:H01.181.404.705 ! isomerism
+
+[Term]
+id: GEMET:3650 ! geology
+xref: MESH:H01.419 ! geology
+
+[Term]
+id: GEMET:9398 ! X ray
+xref: MESH:H01.671.768.513.918 ! x-ray
+
+[Term]
+id: GEMET:5658 ! noise type
+xref: MESH:G03.230.400 ! noise
+
+[Term]
+id: GEMET:322 ! alkane
+xref: MESH:D02.455.326.146 ! alkane
+
+[Term]
+id: GEMET:5976 ! oxidation-reduction
+xref: MESH:G06.535.335.531 ! oxidation-reduction
+
+[Term]
+id: GEMET:4273 ! industrial waste
+xref: MESH:D05.284.404 ! industrial waste
+
+[Term]
+id: GEMET:888 ! biophysics
+xref: MESH:G01.344 ! biophysics
+
+[Term]
+id: GEMET:1389 ! chlorophenol
+xref: MESH:D02.455.426.559.389.261.190 ! chlorophenol
+
+[Term]
+id: GEMET:1181 ! carcinogenicity test
+xref: MESH:E05.940.150 ! carcinogenicity test
+
+[Term]
+id: GEMET:6925 ! radioactivity
+xref: MESH:H01.671.579.826 ! radioactivity
+
+[Term]
+id: GEMET:8379 ! teratogen
+xref: MESH:D05.569.864 ! teratogen
+
+[Term]
+id: GEMET:11713 ! atrazine
+xref: MESH:D03.383.931.247 ! atrazine
+
+[Term]
+id: GEMET:4823 ! limestone
+xref: MESH:D01.146.275 ! calcium carbonate
+
+[Term]
+id: GEMET:6798 ! public health
+xref: MESH:G02.403.776.630.560 ! public health
+
+[Term]
+id: GEMET:5982 ! oxygen
+xref: MESH:D01.268.185.550 ! oxygen
+xref: MESH:E07.652 ! oxygenator
+
+[Term]
+id: GEMET:8977 ! viscosity
+xref: MESH:H01.181.529.934 ! viscosity
+
+[Term]
+id: GEMET:7472 ! science
+xref: MESH:H01.770 ! science
+
+[Term]
+id: GEMET:454 ! anion
+xref: MESH:D01.248.497.158 ! anion
+
+[Term]
+id: GEMET:2389 ! dye
+xref: MESH:D26.600.330 ! dye
+
+[Term]
+id: GEMET:9151 ! water body
+xref: MESH:A12.207.200 ! body water
+
+[Term]
+id: GEMET:1244 ! cellulose
+xref: MESH:D09.203.698.365.180 ! cellulose
+
+[Term]
+id: GEMET:1168 ! carbon dioxide
+xref: MESH:D01.200.200 ! carbon dioxide
+
+[Term]
+id: GEMET:4354 ! insecticide
+xref: MESH:D05.723.491 ! insecticide
+
+[Term]
+id: GEMET:2519 ! ecosystem
+xref: MESH:G03.230.116.300 ! ecosystem
+
+[Term]
+id: GEMET:1892 ! crystallography
+xref: MESH:E05.196.309 ! crystallography
+
+[Term]
+id: GEMET:6505 ! polyvinyl chloride
+xref: MESH:D02.455.326.271.884.533.565 ! polyvinyl chloride
+
+[Term]
+id: GEMET:3190 ! filtration
+xref: MESH:E05.196.454 ! filtration
+
+[Term]
+id: GEMET:6199 ! photochemical oxidant
+xref: MESH:D05.284.101.143.631 ! photochemical oxidant
+
+[Term]
+id: GEMET:6139 ! pest control
+xref: MESH:G03.850.780.200.650 ! pest control
+
+[Term]
+id: GEMET:5611 ! nitrogen fixation
+xref: MESH:G04.185.515.120.600 ! nitrogen fixation
+
+[Term]
+id: GEMET:173 ! age
+xref: MESH:G07.168 ! aging
+
+[Term]
+id: GEMET:2882 ! environmental monitoring
+xref: MESH:G03.850.460.350.080 ! environmental monitoring
+
+[Term]
+id: GEMET:4942 ! lye
+xref: MESH:D01.045.250.400 ! lye
+
+[Term]
+id: GEMET:473 ! antibiotic
+xref: MESH:D20.085 ! antibiotics
+
+[Term]
+id: GEMET:2279 ! DNA
+xref: MESH:D13.444.308 ! dna
+
+[Term]
+id: GEMET:5569 ! nervous system
+xref: MESH:A08 ! nervous system
+
+[Term]
+id: GEMET:1368 ! chlorinated hydrocarbon
+xref: MESH:D02.455.526.439 ! chlorinated hydrocarbon
+
+[Term]
+id: GEMET:1159 ! carbohydrate
+xref: MESH:D09.203 ! carbohydrate
+
+[Term]
+id: GEMET:8255 ! sweetener
+xref: MESH:D09.818 ! sweetening agent
+
+[Term]
+id: GEMET:6884 ! radiation
+xref: MESH:H01.671.768 ! radiation
+
+[Term]
+id: GEMET:6358 ! poison
+xref: MESH:D05.569.612 ! poison
+
+[Term]
+id: GEMET:5027 ! marine biology
+xref: MESH:G01.273.476 ! marine biology
+
+[Term]
+id: GEMET:2060 ! demography
+xref: MESH:G03.850.505.400 ! demography
+
+[Term]
+id: GEMET:5983 ! oxygenation
+xref: MESH:D01.268.185.550 ! oxygen
+xref: MESH:E07.652 ! oxygenator
+
+[Term]
+id: GEMET:5742 ! nuclear reactor
+xref: MESH:H01.671.579.694 ! nuclear reactor
+
+[Term]
+id: GEMET:5624 ! noise
+xref: MESH:G03.230.400 ! noise
+
+[Term]
+id: GEMET:4945 ! lymphatic system
+xref: MESH:A15.382.520 ! lymphatic system
+
+[Term]
+id: GEMET:2186 ! diffusion
+xref: MESH:G06.184.307 ! diffusion
+
+[Term]
+id: GEMET:5728 ! nuclear fusion
+xref: MESH:G03.230.132.580.520 ! nuclear fusion
+
+[Term]
+id: GEMET:6189 ! phosphate
+xref: MESH:D01.248.497.158.730 ! phosphate
+
+[Term]
+id: GEMET:1114 ! calibration
+xref: MESH:E05.140 ! calibration
+
+[Term]
+id: GEMET:8680 ! tritium
+xref: MESH:D01.435.719 ! tritium
+
+[Term]
+id: GEMET:695 ! background radiation
+xref: MESH:H01.671.768.513.115 ! background radiation
+
+[Term]
+id: GEMET:5949 ! osmosis
+xref: MESH:G06.184.708 ! osmosis
+
+[Term]
+id: GEMET:5554 ! necrosis
+xref: MESH:C23.550.717 ! necrosis
+
+[Term]
+id: GEMET:12067 ! tropical climate
+xref: MESH:G03.230.300.100.250.600 ! tropical climate
+
+[Term]
+id: GEMET:7236 ! risk assessment
+xref: MESH:E05.318.740.600.800.715 ! risk assessment
+
+[Term]
+id: GEMET:7443 ! sanitation
+xref: MESH:G02.229.782 ! sanitation
+
+[Term]
+id: GEMET:6184 ! pheromone
+xref: MESH:D24.185.641 ! pheromone
+
+[Term]
+id: GEMET:2895 ! environmental pollution
+xref: MESH:D05.284 ! environmental pollutant
+xref: MESH:G03.850.460 ! environmental pollution
+
+[Term]
+id: GEMET:1184 ! cardiology
+xref: MESH:G02.403.776.409.163 ! cardiology
+
+[Term]
+id: GEMET:5138 ! medicinal plant
+xref: MESH:B06.560 ! medicinal plant
+
+[Term]
+id: GEMET:749 ! bay
+xref: MESH:G06.184.154.290 ! bay region (chemistry)
+
+[Term]
+id: GEMET:7362 ! safety
+xref: MESH:G03.850.110.060.075 ! safety
+
+[Term]
+id: GEMET:5150 ! membrane
+xref: MESH:A10.615 ! membrane
+
+[Term]
+id: GEMET:992 ! breast milk
+xref: MESH:A12.200.467 ! human milk
+
+[Term]
+id: GEMET:2947 ! epidemic
+xref: MESH:G03.850.290 ! disease outbreak
+
+[Term]
+id: GEMET:7042 ! refrigerant
+xref: MESH:E01.450.865.366.643 ! refrigeration
+
+[Term]
+id: GEMET:157 ! aerosol
+xref: MESH:D26.664.255.165.055 ! aerosol
+
+[Term]
+id: GEMET:1180 ! carcinogenicity
+xref: MESH:D05.569.100 ! carcinogen
+
+[Term]
+id: GEMET:6947 ! rain
+xref: MESH:G03.230.300.100.725.450 ! rain
+
+[Term]
+id: GEMET:8583 ! traffic accident
+xref: MESH:G03.850.110.320 ! traffic accident
+
+[Term]
+id: GEMET:5733 ! nuclear physics
+xref: MESH:H01.671.579 ! nuclear physics
+
+[Term]
+id: GEMET:4805 ! life science
+xref: MESH:G01 ! biological science
+
+[Term]
+id: GEMET:2352 ! drug abuse
+xref: MESH:D26.664.878 ! street drug
+
+[Term]
+id: GEMET:8999 ! volcanic eruption
+xref: MESH:G03.230.100.200.900 ! volcanic eruption
+
+[Term]
+id: GEMET:3462 ! fossil fuel
+xref: MESH:G03.230.132.258 ! fossil fuel
+
+[Term]
+id: GEMET:8296 ! tar
+xref: MESH:D26.884 ! tar
+
+[Term]
+id: GEMET:2237 ! disinfectant
+xref: MESH:D20.425 ! disinfectant
+xref: MESH:G03.850.780.200.450.850.375 ! disinfection
+
+[Term]
+id: GEMET:2470 ! ecology
+xref: MESH:G01.273.248 ! ecology
+
+[Term]
+id: GEMET:7906 ! solar energy
+xref: MESH:G03.230.132.708 ! solar energy
+
+[Term]
+id: GEMET:4698 ! laser
+xref: MESH:E07.525 ! laser
+
+[Term]
+id: GEMET:9305 ! whaling
+xref: MESH:B02.649.189.865 ! whale
+
+[Term]
+id: GEMET:3061 ! explosive
+xref: MESH:G03.230.100.090 ! explosion
+
+[Term]
+id: GEMET:5496 ! natural disaster
+xref: MESH:G03.230.100.200 ! natural disaster
+
+[Term]
+id: GEMET:12017 ! ethanol
+xref: MESH:D02.033.375 ! ethanol
+
+[Term]
+id: GEMET:6038 ! parasitology
+xref: MESH:G01.273.688 ! parasitology
+
+[Term]
+id: GEMET:1933 ! cyanide
+xref: MESH:D01.248.497.158.291 ! cyanide
+
+[Term]
+id: GEMET:6346 ! plutonium
+xref: MESH:D01.268.033.700 ! plutonium
+
+[Term]
+id: GEMET:4131 ! ice
+xref: MESH:G03.230.700.300 ! ice
+
+[Term]
+id: GEMET:445 ! animal resource
+xref: MESH:B01.030 ! animal
+
+[Term]
+id: GEMET:8088 ! steel
+xref: MESH:D01.485.910 ! steel
+
+[Term]
+id: GEMET:329 ! allergen
+xref: MESH:D24.611.216.063 ! allergen
+
+[Term]
+id: GEMET:4498 ! iron
+xref: MESH:D01.268.556.412 ! iron
+
+[Term]
+id: GEMET:3721 ! grain
+xref: MESH:B06.510.253 ! cereal
+
+[Term]
+id: GEMET:6304 ! plant disease
+xref: MESH:G04.742.675 ! plant disease
+
+[Term]
+id: GEMET:5612 ! nitrogen monoxide
+xref: MESH:D01.339.387 ! nitric oxide
+
+[Term]
+id: GEMET:474 ! antibody
+xref: MESH:D24.611.125 ! antibody
+
+[Term]
+id: GEMET:5722 ! nuclear fission
+xref: MESH:G03.230.132.580.500 ! nuclear fission
+
+[Term]
+id: GEMET:8673 ! triazine
+xref: MESH:D03.383.931 ! triazine
+
+[Term]
+id: GEMET:4342 ! inorganic chemistry
+xref: MESH:H01.181.370 ! inorganic chemistry
+
+[Term]
+id: GEMET:13325 ! internal migration
+xref: MESH:G03.850.505.400.700.350 ! emigration and immigration
+xref: MESH:G03.850.505.400.800.700 ! residential mobility
+
+[Term]
+id: GEMET:340 ! alloy
+xref: MESH:D01.552.033 ! alloy
+
+[Term]
+id: GEMET:5797 ! oceanography
+xref: MESH:H01.374.572 ! oceanography
+
+[Term]
+id: GEMET:8378 ! teratogenicity
+xref: MESH:D05.569.864 ! teratogen
+
+[Term]
+id: GEMET:8549 ! toxin
+xref: MESH:D24.185.926 ! toxin
+
+[Term]
+id: GEMET:3007 ! eutrophication
+xref: MESH:G04.185.320 ! eutrophication
+
+[Term]
+id: GEMET:8920 ! vegetable
+xref: MESH:B06.510.956 ! vegetable
+
+[Term]
+id: GEMET:5119 ! measuring
+xref: MESH:H01.770.644.728 ! research design
+xref: MESH:H01.939 ! weights and measure
+
+[Term]
+id: GEMET:8554 ! trace element
+xref: MESH:D01.268.912 ! trace element
+
+[Term]
+id: GEMET:7729 ! sleep
+xref: MESH:F02.830.855 ! sleep
+
+[Term]
+id: GEMET:1209 ! catalysis
+xref: MESH:H01.181.122.249 ! catalysis
+
+[Term]
+id: GEMET:5277 ! mineral
+xref: MESH:D01.578 ! mineral
+
+[Term]
+id: GEMET:8450 ! thermodynamics
+xref: MESH:H01.671.912 ! thermodynamics
+
+[Term]
+id: GEMET:781 ! beryllium
+xref: MESH:D01.268.552.075 ! beryllium
+
+[Term]
+id: GEMET:13088 ! method
+xref: MESH:E05.581 ! method
+
+[Term]
+id: GEMET:1266 ! ceramics
+xref: MESH:D25.264 ! ceramics
+
+[Term]
+id: GEMET:120 ! adsorption
+xref: MESH:H01.181.529.047 ! adsorption
+
+[Term]
+id: GEMET:3554 ! gamma radiation
+xref: MESH:H01.671.768.513.400 ! gamma ray
+
+[Term]
+id: GEMET:1792 ! copper
+xref: MESH:D01.268.556.195 ! copper
+
+[Term]
+id: GEMET:7091 ! rehabilitation
+xref: MESH:E02.831 ! rehabilitation
+
+[Term]
+id: GEMET:2829 ! environmental impact
+xref: MESH:G03.230 ! environment
+
+[Term]
+id: GEMET:3485 ! freshwater
+xref: MESH:G03.230.700.250 ! fresh water
+
+[Term]
+id: GEMET:4466 ! inventory
+xref: MESH:E07 ! equipment and supply
+
+[Term]
+id: GEMET:428 ! animal housing
+xref: MESH:G03.230.150.360.250 ! animal housing
+
+[Term]
+id: GEMET:7899 ! soil type
+xref: MESH:G03.230.600 ! soil
+
+[Term]
+id: GEMET:2319 ! drainage
+xref: MESH:E02.306 ! drainage
+
+[Term]
+id: GEMET:4154 ! immune system
+xref: MESH:A15.382 ! immune system
+
+[Term]
+id: GEMET:4483 ! iodine
+xref: MESH:D01.268.380.400 ! iodine
+
+[Term]
+id: GEMET:1554 ! coke
+xref: MESH:G03.230.132.258.108.110 ! coke
+
+[Term]
+id: GEMET:375 ! ammonia
+xref: MESH:D01.362.075 ! ammonia
+
+[Term]
+id: GEMET:5890 ! organ
+xref: MESH:B ! Organism
+
+[Term]
+id: GEMET:5094 ! testing of materials
+xref: MESH:E05.570 ! materials testing
+
+[Term]
+id: GEMET:6846 ! purin
+xref: MESH:D03.438.759 ! purine
+
+[Term]
+id: GEMET:7769 ! snow
+xref: MESH:G03.230.300.100.725.480 ! snow
+
+[Term]
+id: GEMET:8280 ! systems theory
+xref: MESH:H01.770.808 ! systems theory
+
+[Term]
+id: GEMET:2167 ! dialysis
+xref: MESH:E05.196.353 ! dialysis
+
+[Term]
+id: GEMET:8940 ! ventilation
+xref: MESH:G03.230.150.520 ! ventilation
+
+[Term]
+id: GEMET:3219 ! fireproofing agent
+xref: MESH:D26.439 ! flame retardant
+
+[Term]
+id: GEMET:3252 ! fish
+xref: MESH:B02.493 ! fish
+
+[Term]
+id: GEMET:782 ! beta radiation
+xref: MESH:H01.671.579.182 ! beta ray
+
+[Term]
+id: GEMET:3058 ! explosion
+xref: MESH:G03.230.100.090 ! explosion
+
+[Term]
+id: GEMET:2705 ! endocrine system
+xref: MESH:A06 ! endocrine system
+
+[Term]
+id: GEMET:10918 ! population density
+xref: MESH:G03.850.505.400.600 ! population density
+
+[Term]
+id: GEMET:8405 ! test
+xref: MESH:A05.360.444.849 ! testis
+xref: MESH:H01.770.644.728 ! research design
+
+[Term]
+id: GEMET:5463 ! mycology
+xref: MESH:G01.273.540.553 ! mycology
+
+[Term]
+id: GEMET:2188 ! digester
+xref: MESH:G10.261.302 ! digestion
+
+[Term]
+id: GEMET:8629 ! transition element
+xref: MESH:D01.268.956 ! transition element
+
+[Term]
+id: GEMET:25 ! accident
+xref: MESH:G03.850.110 ! accident
+
+[Term]
+id: GEMET:7933 ! sound
+xref: MESH:H01.671.031.675 ! sound
+
+[Term]
+id: GEMET:4284 ! infant mortality
+xref: MESH:E05.318.308.985.550.475 ! infant mortality
+
+[Term]
+id: GEMET:1400 ! chromatography
+xref: MESH:E05.196.181 ! chromatography
+
+[Term]
+id: GEMET:6919 ! radioactive tracer
+xref: MESH:D01.496.749.731 ! radioactive tracer
+
+[Term]
+id: GEMET:8289 ! tannin
+xref: MESH:D09.203.408.846 ! tannin
+
+[Term]
+id: GEMET:9412 ! zinc
+xref: MESH:D01.268.556.940 ! zinc
+
+[Term]
+id: GEMET:6889 ! radiation effect
+xref: MESH:G03.850.810.300 ! radiation effect
+
+[Term]
+id: GEMET:6921 ! radioactive waste
+xref: MESH:D05.284.638.638 ! radioactive waste
+
+[Term]
+id: GEMET:777 ! benzopyrene
+xref: MESH:D04.615.799.306 ! benzopyrene
+
+[Term]
+id: GEMET:5459 ! mutagen
+xref: MESH:D05.569.468 ! mutagen
+
+[Term]
+id: GEMET:8959 ! vibration
+xref: MESH:G11.427.050.900 ! vibration
+
+[Term]
+id: GEMET:7880 ! soil pollution
+xref: MESH:D05.284.756 ! soil pollutant
+
+[Term]
+id: GEMET:7590 ! selenium
+xref: MESH:D01.268.185.850 ! selenium
+
+[Term]
+id: GEMET:2892 ! environmental policy
+xref: MESH:G03.230 ! environment
+
+[Term]
+id: GEMET:8057 ! starch
+xref: MESH:D09.203.698.365.855 ! starch
+
+[Term]
+id: GEMET:265 ! air pollution
+xref: MESH:D05.284.101 ! air pollutant
+xref: MESH:G03.850.460.100 ! air pollution
+
+[Term]
+id: GEMET:1567 ! colloid
+xref: MESH:D26.664.255.165 ! colloid
+
+[Term]
+id: GEMET:4814 ! lighting
+xref: MESH:G03.230.150.410 ! lighting
+xref: MESH:H01.671.606.552 ! light
+
+[Term]
+id: GEMET:815 ! biochemistry
+xref: MESH:G01.201 ! biochemistry
+
+[Term]
+id: GEMET:6499 ! polymer
+xref: MESH:D25.720 ! polymer
+
+[Term]
+id: GEMET:7401 ! salt
+xref: MESH:D01.786 ! salt
+
+[Term]
+id: GEMET:47 ! acidity
+xref: MESH:D01.029 ! acid
+
+[Term]
+id: GEMET:2525 ! ecosystem type
+xref: MESH:G03.230.116.300 ! ecosystem
+
+[Term]
+id: GEMET:8487 ! time
+xref: MESH:H01.862 ! time
+
+[Term]
+id: GEMET:567 ! arsenic
+xref: MESH:D01.075 ! arsenical
+xref: MESH:D01.075.025 ! arsenate
+xref: MESH:D01.268.067 ! arsenic
+
+[Term]
+id: GEMET:263 ! air pollutant
+xref: MESH:D05.284.101 ! air pollutant
+xref: MESH:G03.850.460.100 ! air pollution
+
+[Term]
+id: GEMET:5605 ! nitrogen
+xref: MESH:D01.268.604 ! nitrogen
+
+[Term]
+id: GEMET:4493 ! ion
+xref: MESH:D01.248.497 ! ion
+
+[Term]
+id: GEMET:2880 ! environmental medicine
+xref: MESH:G02.403.776.630.250 ! environmental medicine
+
+[Term]
+id: GEMET:4098 ! hydroelectric power plant
+xref: MESH:H01.671.252.780 ! power plant
+
+[Term]
+id: GEMET:4119 ! hydrolysis
+xref: MESH:G06.535.508 ! hydrolysis
+
+[Term]
+id: GEMET:7181 ! respiratory system
+xref: MESH:A04 ! respiratory system
+
+[Term]
+id: GEMET:5618 ! nitrosamine
+xref: MESH:D02.654.442 ! nitrosamine
+
+[Term]
+id: GEMET:406 ! anatomy
+xref: MESH:A ! Anatomy
+xref: MESH:G01.100 ! anatomy
+xref: MESH:G01.100.216 ! regional anatomy
+
+[Term]
+id: GEMET:881 ! biology
+xref: MESH:G01.273 ! biology
+
+[Term]
+id: GEMET:6775 ! psychological stress
+xref: MESH:F01.145.126.990 ! psychological stress
+
+[Term]
+id: GEMET:6282 ! plankton
+xref: MESH:B01.766 ! plankton
+
+[Term]
+id: GEMET:1173 ! carbon monoxide
+xref: MESH:D01.200.250 ! carbon monoxide
+
+[Term]
+id: GEMET:5972 ! oxidation
+xref: MESH:D01.248.497.158.685 ! oxide
+xref: MESH:D05.569.540 ! oxidant
+
+[Term]
+id: GEMET:6140 ! pesticide
+xref: MESH:D05.723 ! pesticide
+
+[Term]
+id: GEMET:4473 ! inversion
+xref: MESH:C23.550.210.420 ! inversion (genetics)
+
+[Term]
+id: GEMET:5784 ! occupational health
+xref: MESH:G02 ! health occupation
+
+[Term]
+id: GEMET:7529 ! season
+xref: MESH:G03.230.560 ! season
+
+[Term]
+id: GEMET:5991 ! ozone
+xref: MESH:D01.268.185.550.500 ! ozone
+

@@ -1,0 +1,81 @@
+ExO:0000000	exposure stressor	
+ExO:0000001	exposure receptor	
+ExO:0000002	exposure event	
+ExO:0000003	exposure outcome	interaction outcome
+ExO:0000004	exposure transport path	
+ExO:0000005	biological agent	
+ExO:0000006	chemical agent	
+ExO:0000007	ecological perturbation	
+ExO:0000008	physical agent	
+ExO:0000009	psychosocial agent	
+ExO:0000010	air transport path	
+ExO:0000011	biomechanical agent	
+ExO:0000012	habitat degradation	
+ExO:0000013	acid rain	
+ExO:0000014	climate change	
+ExO:0000015	poverty	cultural depravation 	indigency
+ExO:0000016	source	
+ExO:0000017	location	Placement
+ExO:0000018	exogenous	External 
+ExO:0000019	indoor	
+ExO:0000020	outdoor	
+ExO:0000021	endogenous	
+ExO:0000023	process	
+ExO:0000024	biological process	
+ExO:0000025	industrial process	
+ExO:0000026	agricultural process	
+ExO:0000028	water transport path	
+ExO:0000029	soil transport path	
+ExO:0000030	ecosphere	
+ExO:0000031	biosphere	anthrosphere
+ExO:0000033	human population	
+ExO:0000034	occupation	
+ExO:0000035	genetic background	
+ExO:0000037	lifestage	
+ExO:0000038	health status	
+ExO:0000039	social characteristic	
+ExO:0000040	cultural background	
+ExO:0000041	education	
+ExO:0000042	human individual	
+ExO:0000043	anatomy	
+ExO:0000044	organ	
+ExO:0000045	tissue	
+ExO:0000046	cell	
+ExO:0000047	biological molecules	
+ExO:0000048	built environment	
+ExO:0000050	temporal quality	Incidence	occurrence quality
+ExO:0000051	frequency	
+ExO:0000052	intermittent	discontinuous	interrupted
+ExO:0000053	continuous	uninterrupted
+ExO:0000054	duration	
+ExO:0000055	route	
+ExO:0000056	ingestion	
+ExO:0000057	inhalation	
+ExO:0000058	absorption	
+ExO:0000059	leaching	
+ExO:0000060	injection	
+ExO:0000061	subcutaneous tissue	Superficial fascia
+ExO:0000062	muscle	
+ExO:0000063	blood	
+ExO:0000064	assay	
+ExO:0000065	intensity	
+ExO:0000066	unit	
+ExO:0000067	measurement	
+ExO:0000070	time	
+ExO:0000071	biological marker	
+ExO:0000072	model	
+ExO:0000073	conceptual	
+ExO:0000074	mathematical	
+ExO:0000075	computational	
+ExO:0000076	dose	
+ExO:0000077	biological response	
+ExO:0000078	molecular response	
+ExO:0000079	disease	
+ExO:0000080	symptom	
+ExO:0000082	public policy	
+ExO:0000083	exposure medium	
+ExO:0000085	commercial product	
+ExO:0000087	exposure intervention	
+ExO:0000088	spatial quality	
+ExO:0000089	human attribute	
+ExO:0000090	method	

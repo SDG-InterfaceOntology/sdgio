@@ -1,0 +1,4632 @@
+10002	accounting	http://purl.obolibrary.org/obo/SCTID_106302007
+10008	consumer product	
+1001	bridge	http://purl.obolibrary.org/obo/ENVO_00000075
+10017	health effect of noise	
+10018	human body	http://purl.obolibrary.org/obo/SCTID_279495008
+10019	human science	
+10024	information transfer	
+10026	juridical act	
+10031	meteorological research	
+10032	natural areas protection	
+10034	natural risks prevention	
+10039	physical chemistry	http://purl.obolibrary.org/obo/MESH_H01.181.529
+10040	physical measurement of pollution	
+10044	plant production	
+10048	pollution type	http://purl.obolibrary.org/obo/SCTID_102410009
+10049	pollution prevention	
+10053	risk management	http://purl.obolibrary.org/obo/SCTID_225314003
+10054	safety system	
+10055	seismic engineering	
+10057	social science	
+10058	surface water management	
+10064	wildlife protection	
+10066	historic centre	
+10067	promotion of trade and industry	
+10068	masonry	
+1007	bromine	http://purl.obolibrary.org/obo/MESH_D01.268.380.112
+10071	sand flat	
+10076	occupation	http://purl.obolibrary.org/obo/ExO_0000034
+10078	folk tradition	
+10084	law branch	
+10085	judicial system	
+10087	chemical measurement of pollution	
+10088	measuring instrument	
+10089	pollutant evolution	
+10092	urban noise	
+10097	cleanliness (hygiene)	
+10099	industrial environment (in general)	
+10102	natural risk	
+10103	natural risk analysis	
+10104	major risk	
+10106	rescue system	
+10107	crisis management	
+10120	tax system	
+10126	concept of environment	
+10128	forest ecology	
+10129	scientific ecology	
+10130	urban ecology	
+10131	ecozone	http://purl.obolibrary.org/obo/ENVO_01000280
+10133	environmental engineering	
+10135	palaeoecology	
+10136	biological heritage	
+10140	altitude	http://purl.obolibrary.org/obo/MESH_G03.230.058
+10143	canyon	http://purl.obolibrary.org/obo/ENVO_00000169
+10149	barrier beach	http://purl.obolibrary.org/obo/ENVO_00000167
+1015	brook	http://purl.obolibrary.org/obo/ENVO_00000023
+10152	creek	http://purl.obolibrary.org/obo/ENVO_00000023
+10154	fault	
+10155	cliff	http://purl.obolibrary.org/obo/ENVO_00000087
+10158	open sea	http://purl.obolibrary.org/obo/SCTID_257653003
+10160	coral reef lagoon	
+10161	river bed	http://purl.obolibrary.org/obo/ENVO_00000384
+10170	alluvial plain	http://purl.obolibrary.org/obo/ENVO_00000258
+10175	barrier reef	
+10189	biotope order	
+10190	sensitive natural area	
+10191	environmental analysis	
+10194	aquatic environment	http://purl.obolibrary.org/obo/ENVO_01000317
+10197	sensitive environment	
+10198	terrestrial environment	
+10199	marine park	http://purl.obolibrary.org/obo/ENVO_00000362
+1020	brushwood	
+10200	regional natural park	
+10201	reserve	
+10202	state biological reserve	
+10203	forest biological reserve	
+10208	voluntary natural reserve	
+10210	central park area	
+10212	protected marine zone	
+10214	peripheral park area	
+10215	alignment	http://purl.obolibrary.org/obo/PATO_0001652
+10217	bocage	
+10225	French formal garden	
+10228	English garden	
+10229	terraced garden	
+10233	terraced landscape	
+10236	mountain protection	
+10237	site protection	
+10238	coast protection	
+1024	bubble policy (emissions trading)	
+10240	site rehabilitation	
+10243	classified site	
+10244	registered site	
+1025	budget	
+10251	urban ecology charter	
+10255	environmental citizenship	
+10256	integrated management	
+10260	sponsorship	
+10263	municipal environment plan	
+10274	public awareness campaign	
+1029	building	http://purl.obolibrary.org/obo/ENVO_00000073
+10305	migratory fish	
+1031	building area	
+1033	building component	
+1039	building industry	http://purl.obolibrary.org/obo/ENVO_00003861
+1041	building land	
+1042	building material	
+10421	marine mammal	
+1044	building materials industry	
+1046	building planning	
+1049	building regulation	
+10495	shelter	
+10496	nesting area	
+10510	animal corridor	
+10511	animal damage	
+10512	animal displacement	
+1052	building site	
+10521	spawning ground	
+10523	animal habitat	
+1054	building site preparation	
+10548	animal reproduction	
+10568	broad-leaved tree	
+10574	sea grass bed	http://purl.obolibrary.org/obo/ENVO_01000059
+1058	building technology	
+1059	building waste	
+10593	riverside vegetation	
+1061	built drainage system	
+10612	graminaceous plant	
+10626	vegetation level	
+1063	built environment	http://purl.obolibrary.org/obo/ExO_0000048
+1064	built structure	
+10640	arboretum	
+10646	variety collection	
+1065	built-up area	
+10651	animal conservatory	
+10652	botanical conservatory	
+10660	introduction of animal species	
+10661	introduction of plant species	
+10666	animal heritage	
+10667	plant heritage	
+1067	bulb cultivation	
+10670	protection of animals	
+10671	animal species reintroduction	
+10672	plant species reintroduction	
+10683	local afforestation	
+10685	windfall	
+10691	pruning	http://purl.obolibrary.org/obo/SCTID_227462009
+10692	forest exploitation	
+10693	mountain forest	
+10694	state forest	
+10695	Mediterranean forest	
+10696	private forest	
+10698	timber forest	
+10699	maquis	http://purl.obolibrary.org/obo/ENVO_00000301
+10703	dry lawn	
+10704	nursery garden	
+10706	forest protection	
+10707	natural regeneration	
+10708	resinous plant	http://purl.obolibrary.org/obo/MESH_D24.310.784.500.790
+10711	coppice with standards	
+10721	game (play)	
+10744	shellfish farming	
+10753	oyster farming	
+10758	commercial fishery	
+10760	national fishing reserve	
+10767	socioeducational activity	
+10773	competitive examination	
+10778	continuing education	
+10780	initial training	
+10785	pedagogy	
+108	administrative law	
+10818	environmental occupation	
+1082	bus	http://purl.obolibrary.org/obo/CHEBI_41264
+10837	organisation of work	
+1084	business	
+10847	leisure centre	
+10851	community facility	
+10860	cycle path	
+10861	ski run	
+10884	touristic route	
+10890	ecomuseum	
+10891	folklore	
+10892	public attendance	
+10893	tourist attendance	
+10895	country lodge	
+10898	lodging	
+10904	public	
+10905	path	http://purl.obolibrary.org/obo/ENVO_00000122
+10906	seaside footpath	
+10907	educational path	
+10909	seaside resort	http://purl.obolibrary.org/obo/SCTID_257700000
+10910	mountain resort	http://purl.obolibrary.org/obo/SCTID_257645006
+10911	winter sports resort	
+10914	touristic unit	
+10915	all-terrain vehicle	
+10918	population density	http://purl.obolibrary.org/obo/MESH_G03.850.505.400.600
+10919	young	http://purl.obolibrary.org/obo/SCTID_84422007
+1092	button-cell battery	
+10922	active population	
+10925	time allocation	
+10927	durable goods	
+10929	non-durable goods	
+1093	by-catch	http://purl.obolibrary.org/obo/SCTID_30623001
+10930	goods	http://purl.obolibrary.org/obo/SCTID_20572008
+10931	goods and services	
+10932	time budget	
+10933	living environment	
+10935	product life cycle	
+10936	ecolabel	
+10938	quality certification	
+10939	living standard	
+1094	by-product	
+10940	supply and demand	
+10959	ecological inequality	
+10960	social inequality	
+10964	myth	
+10968	NIMBY aptitude	
+10971	social psychology	
+10972	social representation	
+10976	feeling for nature	
+10977	socioeconomics	
+1098	cable	
+10981	administrative deed	
+10991	citizen	
+10993	territorial community	
+1100	cadmium	http://purl.obolibrary.org/obo/MESH_D01.268.556.137
+1101	cadmium contamination	
+11016	economic plan	
+1103	caesium	http://purl.obolibrary.org/obo/CHEBI_30514
+11032	public aid	
+11034	national accounting	
+11035	satellite account	
+11038	household expenditure	
+11039	public expenditure	
+11043	intervention fund	
+11044	financial fund	
+11047	economic incentive	
+11048	incentive tax	
+11050	gross domestic product	
+11051	exceptional tax	
+11055	process analysis	
+11057	audit	
+11061	natural heritage assessment	
+11063	water cost	
+11065	ecomarketing	
+11069	patrimonial management	
+11070	pollution control investment	
+11071	environment market	
+11073	antipollution premium	
+11082	water pricing	
+11087	theory of the environment	
+11095	local development	
+11097	market study	
+11100	free trade	
+11103	less developed country	
+11106	North-South relationship	
+1111	calcium	http://purl.obolibrary.org/obo/MESH_D01.268.552.100
+11113	calculation	http://purl.obolibrary.org/obo/SCTID_258090004
+11116	density	http://purl.obolibrary.org/obo/SCTID_125146005
+11118	spatial distribution	
+11119	economic data	
+1112	calcium content	
+11124	index	
+11125	census survey	
+11127	statistical series	
+11128	opinion survey	
+1113	calculation method	
+11130	rate	http://purl.obolibrary.org/obo/PATO_0000161
+11133	seasonal variation	
+11134	scientific committee	
+11135	scientific dispute	
+1114	calibration	http://purl.obolibrary.org/obo/MESH_E05.140
+11146	applied research	
+11148	scientific research	
+1115	calibration of measuring equipment	
+11152	agronomy	
+11153	agrosystem	
+11157	agricultural disaster	
+11158	agricultural undervaluation	
+11159	rural development	
+11165	agricultural hydraulics	
+11170	farming technique	
+11177	forage crop	
+11178	market gardening	http://purl.obolibrary.org/obo/ENVO_01000311
+11184	seed (product)	
+11186	crop treatment	
+11187	phytosanitary treatment	
+11192	aviculture	
+11198	breeding technique	
+11199	transhumance	
+11201	mineral conditioner	
+11204	draining	http://purl.obolibrary.org/obo/SCTID_246154008
+11206	slash and burn culture	
+11207	chalk	http://purl.obolibrary.org/obo/ENVO_00002054
+11209	nitrogenous fertiliser	
+1121	camping	http://purl.obolibrary.org/obo/SCTID_10496000
+11211	phosphatic fertiliser	
+11212	potassium fertiliser	
+11214	purification through the soil	
+11224	soil leaching	
+11226	mineral matter	
+11227	organic matter	
+1123	camping site	
+11231	drainage system	
+11232	irrigation system	
+11233	soil salinity	
+11234	agronomic value	
+11237	mountain management	
+11244	touristic activity management	
+11246	forestry unit	
+11248	equipment plan	
+1126	canal	http://purl.obolibrary.org/obo/ENVO_00000014
+11269	railway station	http://purl.obolibrary.org/obo/SCTID_257685000
+11270	bus station	http://purl.obolibrary.org/obo/SCTID_257575009
+11271	road construction material	
+11272	engineering work	
+11276	railway network	
+11277	road network	
+11289	navigation	
+11294	merchant shipping	
+11296	combined transport	
+1130	cancer	http://purl.obolibrary.org/obo/DOID_162
+11307	urban community	
+11308	urban development document	
+11309	periurban space	
+11312	single family dwelling	
+11321	land use plan	
+11322	urban planning and development	
+11323	land use regime	
+1133	cancer risk	
+11332	new town	
+11333	pre-emption zone	
+11334	land-management intervention area	
+11344	rural architecture	
+11345	traditional architecture	
+11355	building destruction	
+11359	municipal engineering	http://purl.obolibrary.org/obo/SCTID_308036004
+11375	building restoration	
+11427	statutory declaration	
+11429	quality standard	
+11430	European standard	
+11431	ISO standard	
+11433	technical regulation	
+11466	codification	
+11468	doctrine (law)	
+11472	transport law	
+11476	rural law	
+11477	animal rights	
+11478	rights of future generations	
+11479	citizen rights	
+1148	car	http://purl.obolibrary.org/obo/OMIM_604172
+11493	Community ruling	
+11494	order	
+11497	administrative instructions	
+11498	technical instruction	
+11499	law (corpus of rules)	
+11502	hunting licence	
+11504	building permit	
+11506	fishing licence	
+11514	regulation	
+11517	transposition of directive	
+11522	public discussion	
+11523	declaration of public utility	
+11524	private domain	
+11525	public waterways domain	
+11526	public maritime domain	
+11530	public benefit inquiry	
+11531	public inquiry	
+11536	easement	
+11540	crime	
+11549	criminal law procedure	
+11556	judgement (sentence)	
+11559	conflict	http://purl.obolibrary.org/obo/SCTID_15863006
+11563	litigation	http://purl.obolibrary.org/obo/SCTID_44254000
+11583	justice	
+11587	trial	
+1159	carbohydrate	http://purl.obolibrary.org/obo/MESH_D09.203
+1160	carbon	http://purl.obolibrary.org/obo/MESH_D01.045.125
+11611	lease	
+11612	certification	http://purl.obolibrary.org/obo/SCTID_308707006
+11618	homologation	http://purl.obolibrary.org/obo/SCTID_73804003
+1162	carbonate	http://purl.obolibrary.org/obo/MESH_D01.045.125
+11621	notification	http://purl.obolibrary.org/obo/SCTID_185087000
+11623	pre-emption	
+11624	prescription	http://purl.obolibrary.org/obo/MESH_E02.319.720
+11633	pollutant flow	
+11635	ocean-air interface	
+11636	pollutant migration	
+11638	incidental pollution	
+11639	bacteriological pollution	
+11641	diffuse pollution	
+11642	domestic pollution	
+11643	mineral pollution	
+11644	organic pollution	
+11645	photochemical pollution	
+11646	land-based marine pollution	
+11647	toxic pollution	
+11648	river disposal	
+11649	underground disposal	
+11651	urban pollutant	
+11661	prevention measure	
+11662	protective measure	
+11671	strong acidity	http://purl.obolibrary.org/obo/SCTID_65669009
+11675	biological contamination	
+11676	chemical contamination	
+11678	biological effect of pollution	
+1168	carbon dioxide	http://purl.obolibrary.org/obo/MESH_D01.200.200
+11686	irreversibility of the phenomenon	
+11691	quality objective	http://purl.obolibrary.org/obo/PATO_0001241
+11692	solid particle	
+11693	purifying power	
+1170	carbon dioxide tax	
+11700	sensor	
+11701	instrumentation	http://purl.obolibrary.org/obo/SCTID_309824003
+11702	metrology	
+11706	observation satellite	
+11713	atrazine	http://purl.obolibrary.org/obo/MESH_D03.383.931.247
+11714	organic nitrogen	
+11718	halogenated compound	http://purl.obolibrary.org/obo/SCTID_14097008
+1173	carbon monoxide	http://purl.obolibrary.org/obo/MESH_D01.200.250
+11734	sulphur monoxide	http://purl.obolibrary.org/obo/CHEBI_45822
+11745	pyralene	
+11752	asbestosis	http://purl.obolibrary.org/obo/DOID_10320
+11762	genotoxicity	
+11763	intoxication	
+1177	carcass disposal	
+11771	biological test	
+11779	total organic carbon	
+11781	chemical degradation	
+11782	laboratory test	http://purl.obolibrary.org/obo/SCTID_15220000
+11787	oxidisable material	
+11788	dissolved oxygen	
+11789	photodegradation	
+11791	insoluble substance	
+11792	non-volatile substance	
+11793	weakly degradable substance	
+11794	volatile substance	
+11795	chemical corrosivity	http://purl.obolibrary.org/obo/SCTID_311758007
+11798	physicochemical analysis	
+1180	carcinogenicity	http://purl.obolibrary.org/obo/MESH_D05.569.100
+11807	experimental study	
+11809	granulometry	
+1181	carcinogenicity test	http://purl.obolibrary.org/obo/MESH_E05.940.150
+11812	drawing	
+11813	chemical product	http://purl.obolibrary.org/obo/ENVO_2000000
+11814	flammable product	
+11816	organoleptic property	
+1182	carcinogen	http://purl.obolibrary.org/obo/MESH_D05.569.100
+11835	hearing system	
+11836	cardiovascular system	http://purl.obolibrary.org/obo/MESH_A07
+1184	cardiology	http://purl.obolibrary.org/obo/MESH_G02.403.776.409.163
+1185	cardiovascular disease	
+11852	enterovirus	http://purl.obolibrary.org/obo/MESH_B04.820.565.284
+11869	plant biology	
+11879	hearing acuity	
+11889	decibel	http://purl.obolibrary.org/obo/SCTID_259042002
+11896	acoustical quality	
+11909	noise spectrum	
+11912	mechanical vibration	
+11918	airborne noise	
+11921	background noise	
+11922	rolling noise	
+11923	neighbourhood noise	
+11927	acoustic comfort	
+11930	noise exposure plan	
+11958	tidal power station	
+11967	hydroelectric energy	
+11974	small power station	
+11975	water mill	
+1199	carry-over effect	
+11990	power station derating	
+120	adsorption	http://purl.obolibrary.org/obo/MESH_H01.181.529.047
+1200	cartography	
+12004	radioelement	
+12006	fast reactor	
+12007	contaminated area	
+12008	atmospheric aerosol	
+1201	car tyre	
+12011	biofuel	
+12013	forest deterioration	
+12017	ethanol	http://purl.obolibrary.org/obo/MESH_D02.033.375
+12022	motor vehicle pollution	
+12026	atmospheric fallout	
+12027	clean air car	
+1203	cash crop	
+12045	palaeoclimatology	
+12060	continental climate	
+12061	desert climate	http://purl.obolibrary.org/obo/ENVO_01000378
+12062	equatorial climate	
+12063	Mediterranean climate	
+12064	mountain climate	
+12065	oceanic climate	
+12066	temperate climate	
+12067	tropical climate	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.250.600
+12082	atmospheric inversion	
+12084	thunderstorm	
+1209	catalysis	http://purl.obolibrary.org/obo/MESH_H01.181.122.249
+12091	glaze	
+12096	exploitation of underground water	
+12098	water infiltration into the ground	
+121	adult	http://purl.obolibrary.org/obo/SCTID_133936004
+1210	catalyst	http://purl.obolibrary.org/obo/CHEBI_35223
+12104	water table	
+12107	water catchment protection	
+12108	water table protection	
+1212	catalytic converter	
+12122	flood runoff	
+12123	silting up	
+12128	hydrometry	
+1213	catastrophe	http://purl.obolibrary.org/obo/SCTID_285247003
+12131	flood forecast	
+12135	hydrographic network	
+12139	sedimentology	
+12145	hydrographic basin	
+1215	catchment area	
+12151	bathing freshwater	
+12152	demesnial water	
+12153	non-demesnial water	
+12161	bog	http://purl.obolibrary.org/obo/ENVO_00000044
+12165	water desalination	
+12166	bathing seawater	
+12170	ocean outfall	
+12171	ocean exploitation	
+12174	swell	http://purl.obolibrary.org/obo/SCTID_65124004
+12183	estuary pollution	
+12189	river management	
+12198	flushing	http://purl.obolibrary.org/obo/MESH_D005483
+12199	canal lock	http://purl.obolibrary.org/obo/SCTID_257578006
+122	adult education	http://purl.obolibrary.org/obo/SCTID_161125007
+1220	catch yield	
+12202	water weed cutting	
+12204	bank protection	
+1221	category of endangered species	
+12210	retaining reservoir	
+12213	dam draining	
+12214	water corrosivity	
+12215	water quality improvement	
+12216	water taste	
+12219	green tide	
+12220	suspended matter	
+12226	water salinity	http://purl.obolibrary.org/obo/ENVO_00002010
+12231	catchment	http://purl.obolibrary.org/obo/ENVO_00000291
+1224	cation	http://purl.obolibrary.org/obo/MESH_D01.248.497.300
+12240	fountain	
+12248	water reservoir	
+1225	cattle	http://purl.obolibrary.org/obo/MESH_B02.649.077.380.271
+12254	water demineralisation	
+12259	on-site wastewater treatment	
+12260	collective wastewater treatment	
+12263	storm water basin	
+12273	rain water sewer system	
+12275	separate sewer system	
+12276	combined sewer system	
+12277	water aeration	
+12278	individual wastewater treatment	
+12279	sedimentation basin	
+12280	trickling filter	
+12283	used water	
+12284	urban wastewater	
+12285	waste treatment effluent	
+12287	biological wastewater treatment	
+12289	lagooning	http://purl.obolibrary.org/obo/ENVO_00000038
+1229	cause for concern principle	
+12293	water regeneration	
+12301	water resources management	
+1231	cave	http://purl.obolibrary.org/obo/ENVO_00000067
+12318	waste sorting unit	
+12321	scrap dump	
+12325	reclamation industry	
+12341	use of waste as energy source	
+12342	use of waste as material	
+12349	beach cleansing	
+12357	bulky waste	
+12366	alkaline battery	
+12367	electric battery	
+12377	pollution abatement waste	
+12379	health-care activities waste	
+12381	special industrial waste	
+12382	metal waste	
+12383	mineral waste	
+1239	cell (biology)	
+12390	wreck	
+12394	mineral oil	http://purl.obolibrary.org/obo/MESH_D02.455.699.500
+12395	whey	http://purl.obolibrary.org/obo/SCTID_226770007
+12417	sinking of waste	
+1242	cell (energy)	
+12429	residue of grinding	
+12430	treatment residue	
+12431	incineration residue	
+12435	clearing sludge	
+12436	dehydrated sludge	
+1244	cellulose	http://purl.obolibrary.org/obo/MESH_D09.203.698.365.180
+12441	residual waste sludge	
+12444	thickening	http://purl.obolibrary.org/obo/SCTID_263899003
+12446	sludge stabilisation	
+1245	cellulose industry	
+12450	industrial activity	
+12456	industrial wasteland	
+12459	classified facility	
+1247	cement	http://purl.obolibrary.org/obo/MESH_E05.170
+12471	quartering	
+12476	piggery	http://purl.obolibrary.org/obo/ENVO_00003042
+1248	cement industry	http://purl.obolibrary.org/obo/SCTID_59334006
+12482	oil production (chain)	
+12485	hydrocarbon storage tank	
+12488	drilling for oil	
+1249	cement manufacture	
+12511	aggregate extraction	
+12514	mechanical industry	
+12525	timber producing chain	
+12528	packing industry	
+12576	biofiltration	
+12583	dechlorination	
+12586	engineering	http://purl.obolibrary.org/obo/SCTID_106269003
+12587	methanisation	
+12599	aerobic treatment	
+126	advertisement	
+12600	anaerobic treatment	
+12601	biological treatment	http://purl.obolibrary.org/obo/SCTID_413648008
+12605	physicochemical treatment	
+12606	physical treatment	
+12607	primary treatment	
+12608	secondary treatment	
+12609	tertiary treatment	
+12611	vitrification	
+1262	centrifugation	http://purl.obolibrary.org/obo/MESH_E05.181
+12656	underground quarry	
+1266	ceramics	http://purl.obolibrary.org/obo/MESH_D25.264
+12665	geotechnics	
+12666	rock mechanics	
+1267	ceramics industry	
+12676	bush clearing	
+12677	prevention of forest fires	
+12687	flood protection	
+12711	land restoration in mountain areas	
+12717	soil stability	
+12721	volcanology	
+12746	antiseismic regulation	
+12763	civil safety	
+12764	industrial safety	
+12778	risk exposure	
+12783	hazard area	
+12784	technological accident	
+1279	Chagas' disease	http://purl.obolibrary.org/obo/DOID_12140
+12790	ecocatastrophe	
+12793	nuclear hazard	
+1280	chain management	
+12807	major risk installation	
+12808	dangerous installation	
+12814	biotechnological hazard	
+12816	nuclear risk	
+12819	dangerous materials transport	
+12849	disaster zone	
+1286	change in value	
+12861	danger analysis	
+12866	preventive information	
+12872	risk exposure plan	
+1288	channelling	http://purl.obolibrary.org/obo/ENVO_00000395
+12887	damage insurance	
+12889	pollution insurance	
+12893	water damage	
+12898	damage assessment	
+129	product advertising	
+1290	charcoal	http://purl.obolibrary.org/obo/MESH_D01.268.150.150
+12905	compensation for damage	
+1291	negotiable charge	
+1292	map chart	
+12977	patent	http://purl.obolibrary.org/obo/SCTID_56116003
+1298	chemical analysis	
+12982	press release	
+12985	speech	http://purl.obolibrary.org/obo/MESH_F01.145.209.908.677
+1299	chemical composition	
+12994	environmental study	
+13	absorption (exposure)	
+13000	cinematographic film	
+13001	documentary film	
+13002	flora (document)	
+13021	parliamentary report	
+13025	statutory text	
+13026	thesis	
+1303	chemical decontamination	
+13040	CD-ROM	
+13041	information centre	
+1305	chemical engineering	http://purl.obolibrary.org/obo/SCTID_106265009
+13053	technical information	
+1306	chemical fallout	
+13060	information network	
+1307	chemical fertiliser	
+13077	assay	http://purl.obolibrary.org/obo/ExO_0000064
+13088	method	http://purl.obolibrary.org/obo/ExO_0000090
+13098	iron and steel industry	
+1310	chemical industry	
+13100	urban habitat	
+13102	land management and planning	
+13104	rural habitat	
+13106	groundwater quality	
+13107	target setting	
+1311	chemical installation	
+13115	land tax	
+13117	open lawn	
+1312	chemical oceanography	
+13120	human habitat	
+13121	urban concentration	
+13122	home garden	
+13123	photography	http://purl.obolibrary.org/obo/MESH_E01.370.350.600
+13124	bottle cap	
+13127	iron scrap	
+13136	agricultural structure	http://purl.obolibrary.org/obo/ENVO_01000311
+13137	budget policy	
+1314	chemical pest control	
+13145	Community finance	
+13146	organisation of the legal system	
+13147	rights	http://purl.obolibrary.org/obo/SCTID_225794002
+13148	economic structure	
+13149	distributive trade	
+13150	monetary relations	
+13151	monetary economics	
+13152	free movement of capital	
+13154	social framework	
+13156	social protection	
+13157	organisation of teaching	
+13159	business organisation	
+1316	chemical plant	
+13160	business classification	
+13161	legal form of organisations	
+13164	cultivation of agricultural land	
+13165	means of agricultural production	
+13167	processed agricultural produce	
+13168	agri-foodstuff	
+1317	chemical policy	
+13170	economic geography	
+13177	credit	
+13178	freedom	
+13179	industrial structure	
+1318	chemical pollutant	
+13182	stock (trade)	
+13183	sterilisation (biological)	
+13184	environmental economics of firms	
+13186	yield (agricultural)	
+13187	environmental problem solving	
+13188	fodder plant	
+13189	industrial plant (organism)	
+1319	chemical pollution	
+13190	textile plant	
+13192	agricultural real estate	
+13193	agricultural holding	
+13194	type of tenure	
+13196	petrochemical	
+13197	speciality chemical	
+13198	protein product	
+13199	processed foodstuff	
+132	aeration	
+1320	chemical process	http://purl.obolibrary.org/obo/SCTID_24014001
+13200	convenience food	http://purl.obolibrary.org/obo/SCTID_227998008
+13202	mining product	
+13205	root crop	
+13207	cultivation system	
+13209	crop production	
+13210	fisheries structure	
+13211	fishing ground	
+13212	coal industry	
+13213	energy industry	
+13214	communications industry	
+13215	information technology industry	
+13216	vacuum industry	
+13217	preparation for market	
+13218	precision engineering	
+13219	materials technology	
+1322	chemical property	
+13221	audiovisual equipment	
+13222	machinery	
+13223	mechanical equipment	
+13224	pressure equipment	
+13225	thermal equipment	
+13226	industrial manufacturing	
+13227	size of business	
+13228	business activity	
+13229	branch of activity	
+13232	building service	
+13233	mode of transportation	
+13234	destination of transport	
+13236	degradation of the environment	
+13237	Community budget	
+13238	economic support	
+13239	accounting system	
+1324	chemical reaction	
+13240	economic forecasting	
+13241	customs tariff	
+13242	commercial transaction	
+13244	pay policy	
+13245	European Monetary System	
+13246	money market	
+13247	exchange policy	
+13248	credit policy	
+13249	public debt	
+13250	tax on consumption	
+13251	tax on capital	
+13252	income tax	
+13253	taxation policy	
+13254	farm price	
+13255	market price	
+13256	transport cost	
+13257	prices policy	
+13258	economic concentration	
+13259	company structure	
+1326	chemical risk	
+13260	financial management	
+13261	management accounting	http://purl.obolibrary.org/obo/SCTID_158789000
+13262	business policy	
+13263	restriction on competition	
+13264	private international law	
+13265	public international law	
+13266	international economic law	
+13268	criminal liability	
+13269	public contract	
+1327	chemical	http://purl.obolibrary.org/obo/MESH_D
+13270	customs regulation	
+13271	family law	
+13272	traffic regulation	
+13273	regulation of agricultural production	
+13274	law relating to prisons	
+13275	estate rental	
+13276	data processing law	
+13277	competition law	
+13278	restrictive trade practice	
+13279	EC Treaty	
+1328	chemicals act	
+13280	transport regulation	
+13281	Community legal system	
+13282	Community act	
+13283	ruling	
+13284	legal procedure	
+13285	access to the courts	
+13286	organisation (law)	
+13287	legal profession	
+13288	legal system	
+13290	legislative procedure	
+13299	production policy	
+1330	chemical in the environment	
+13301	economic region	
+13306	pollution control measure	
+13307	level of education	
+13308	general education	
+13309	schoolwork	
+13310	school life	
+13311	teaching material	
+13312	documentary system	
+13313	means of communication	
+13314	communications system	
+13316	data processing system	
+13317	social analysis	
+13318	behavioural science	
+13319	health care profession	
+1332	testing of chemicals	
+13320	artificial reproductive technique	
+13321	animal health	
+13324	war victim	
+13325	internal migration	http://purl.obolibrary.org/obo/MESH_G03.850.505.400.700.350
+13326	geographical distribution of population	
+13327	composition of population	
+13329	rights of the individual	
+1333	chemical structure	http://purl.obolibrary.org/obo/MESH_D
+13330	economic rights	
+13333	trend of opinion	
+13335	political ideology	
+13336	marital status	http://purl.obolibrary.org/obo/MESH_F01.829.263.315.500
+13337	socio-cultural group	
+13338	employment structure	
+13339	occupational status	
+13340	termination of employment	
+13341	working population engaged in agriculture	
+13342	leave on social grounds	
+13343	labour force	
+1336	chemical treatment	
+1337	chemical treatment of waste	
+1341	chemical waste	
+1343	chemical weapon	
+1347	chemisorption	
+1348	chemistry	http://purl.obolibrary.org/obo/MESH_H01.181
+135	aerial photograph	
+1350	child	http://purl.obolibrary.org/obo/SCTID_160499008
+1355	chimney	http://purl.obolibrary.org/obo/SCTID_224742007
+13550	camp	http://purl.obolibrary.org/obo/SCTID_10496000
+13552	bank (land)	
+13553	wood hauling	
+13555	royalty	
+13556	chart (act)	
+13557	animal excrement	
+1356	chimney height	
+13561	maintenance (technical)	
+13562	paint room	
+13567	salina	http://purl.obolibrary.org/obo/ENVO_00000019
+13568	hiking trail	
+13570	overflow (outlet)	
+13572	cutting (vegetative propagation)	
+13576	eco-balance	
+13577	nitrogen oxide	http://purl.obolibrary.org/obo/MESH_D01.362.635
+13613	oven	
+1366	chloride	http://purl.obolibrary.org/obo/MESH_D01.210.450.150
+1368	chlorinated hydrocarbon	http://purl.obolibrary.org/obo/MESH_D02.455.526.439
+1371	chlorination	http://purl.obolibrary.org/obo/MESH_D01.268.380.150
+1373	chlorine	http://purl.obolibrary.org/obo/MESH_D01.268.380.150
+13748	inner city	http://purl.obolibrary.org/obo/SCTID_224926006
+1378	chloroethylene	http://purl.obolibrary.org/obo/CHEBI_23142
+13781	sluice-gate	
+1381	chlorofluorocarbon	http://purl.obolibrary.org/obo/MESH_D02.455.526.439.220
+13839	noise effect	
+1384	CFC and halons prohibition	
+1385	partially halogenated chlorofluorohydrocarbon	
+1389	chlorophenol	http://purl.obolibrary.org/obo/MESH_D02.455.426.559.389.261.190
+1391	chlorophyll	http://purl.obolibrary.org/obo/MESH_D11.557.727.220
+13921	deciduous wood	
+13922	mixed woodland	
+1393	chlorosis	
+13976	coniferous tree	
+1399	chromatographic analysis	
+1400	chromatography	http://purl.obolibrary.org/obo/MESH_E05.196.181
+1401	chromium	http://purl.obolibrary.org/obo/MESH_D01.268.556.175
+14082	emergency lodging	
+14098	sorting at source	
+1410	church	http://purl.obolibrary.org/obo/SCTID_284453007
+14146	coastal management	
+14163	ministry building	
+14165	aerial photography	
+1419	citizen awareness	
+14194	swamp	http://purl.obolibrary.org/obo/ENVO_00000233
+14208	legislative process	
+1421	city	http://purl.obolibrary.org/obo/ENVO_00000856
+1422	city centre	
+14236	returnable container	
+14243	waste gas dispersion	
+14245	intermediate product	
+14254	mutagenic substance	
+1426	municipal dumping	
+143	aerobic condition	
+1431	civil air traffic	
+14330	teratogenic substance	http://purl.obolibrary.org/obo/SCTID_45986006
+1434	civil engineering	http://purl.obolibrary.org/obo/SCTID_106262007
+1436	civilian protection	
+1437	civil law	
+14418	municipal heating network	
+1446	class action suits law	
+1447	classification	http://purl.obolibrary.org/obo/SCTID_278201002
+1449	clay	http://purl.obolibrary.org/obo/ENVO_00002982
+14499	excise	http://purl.obolibrary.org/obo/SCTID_65801008
+14543	coniferous wood	
+1456	cleaning up	
+1458	cleansing product	
+14581	underground railway	
+14588	government contracting	
+146	aerobic process	
+1460	clean technology	
+14615	pleasure cruising	
+14619	surface active compound	
+1462	climate	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.250
+14636	pH-value	
+1464	climatic effect	
+14651	craft industry	
+14652	animal remain	
+1466	climate protection	
+14663	chart (nautical)	
+1467	climate resource	
+14671	nature conservation policy	
+1469	climate type	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.250
+1470	climatic alteration	
+1471	climatic change	http://purl.obolibrary.org/obo/ExO_0000014
+14717	environmental sanitation	
+1473	climatic experiment	
+1474	climatic factor	
+1476	climatic zone	
+1479	climatology	
+148	aerobiology	
+1480	climax	
+1482	clinical symptom	
+14835	green fiscal instrument	
+14837	mining	http://purl.obolibrary.org/obo/ENVO_00000076
+14845	indigenous knowledge	
+14847	professional society	
+14849	persistant organic pollutant	http://purl.obolibrary.org/obo/CHEBI_77853
+14850	sediment mobilisation	
+14851	habitat destruction	
+14852	land-based activity	
+14853	physical alteration	
+14854	sectoral assessment	
+14856	information infrastructure	
+14857	geo-referenced information	
+14858	data centre	
+14859	internet service provider	
+14860	electronic information network	
+14861	wide area network	
+14862	Internet	
+14863	World Wide Web	
+14864	homepage	
+14865	hypertext	
+14866	bulletin board system	
+14867	newsgroup	
+14868	electronic mail	
+14869	multimedia technology	
+14870	audio-visual presentation	
+14871	information kit	
+14872	exhibit	
+14873	newsletter	
+14874	radio programme	
+14875	television programme	
+14876	public relations	
+14878	bibliographic information system	
+14879	bibliographic information	
+14880	referral information system	
+14881	referral information	
+14882	statistical information system	
+14883	statistical information	
+14884	library service	
+14885	reference service	http://purl.obolibrary.org/obo/SCTID_309018005
+14886	indexing of documentation	
+14887	document lending	
+14888	inter-library loan	
+14889	selective dissemination of information	
+1489	clothing	http://purl.obolibrary.org/obo/ENVO_02000058
+14890	CD-ROM search service	
+14891	internet search service	
+14892	information clearing-house	
+14893	decision-support system	
+14894	software development	
+14896	information exchange	
+14897	relational database	
+14898	multispectral scanner	
+1490	clothing industry	
+14900	pixel	
+14902	scene identification	
+14903	image processing digital system	
+14904	digital image processing technique	
+14905	pattern recognition	
+14906	mosaic	http://purl.obolibrary.org/obo/MESH_G13.920.590.175.595
+14907	image filtering	
+14908	image enhancement	http://purl.obolibrary.org/obo/MESH_E01.370.350.600.350
+14909	geometric correction	
+1491	cloud	http://purl.obolibrary.org/obo/PATO_0000963
+14910	image registration	
+14911	image classification	
+14912	supervised image classification	
+14913	unsupervised image classification	
+14914	colour composition	
+14915	atmospheric correction	
+14916	GIS digital system	
+14917	GIS digital format	
+14918	vector	http://purl.obolibrary.org/obo/SCTID_260529001
+14919	point	http://purl.obolibrary.org/obo/ENVO_00000167
+14920	line	http://purl.obolibrary.org/obo/SCTID_398008005
+14921	polygon	
+14922	raster	
+14924	GIS digital technique	
+14925	interpolation	
+14926	gridding	
+14927	raster to vector	
+14928	vector to raster	
+14930	national boundary	
+14931	sub-national boundary	
+14932	administrative boundary	
+14933	geo-referenced data	
+14934	geographical projection	
+14935	co-ordinate system	
+14936	latitude	
+14937	longitude	
+14938	remote sensing centre	
+14939	GIS laboratory	
+14940	on-line service	
+14947	underground dump	
+14949	business economics	
+14951	old hazardous site	
+14955	outer space (allocation plan)	
+14956	deep sea mining	
+14957	semi-liquid manure	
+14959	electrical goods industry	
+14960	services providing company	
+14962	restoration of water	
+14963	local heat supply	
+14964	forwarding agent	
+14965	waste avoidance	
+14966	natural independence law	
+14967	offence against the environment	
+14968	provincial/regional law (D)	
+14972	road setting	
+14973	air quality monitoring	
+14974	citizen initiative	
+14975	area under stress	
+14976	storage (process)	
+14982	mountain refuge	
+14983	space research	
+1499	coagulation	http://purl.obolibrary.org/obo/MESH_D19.461.270
+1500	coal	http://purl.obolibrary.org/obo/MESH_G03.230.132.258.108
+1502	coal-based energy	
+15020	insulating material	
+15027	decantation	
+15028	wood resource	
+15029	fishing fleet	
+1503	coal-fired power plant	
+15030	emission to air	
+15031	air quality impact	
+15032	climate change mitigation	
+15033	climate change adaptation	
+15034	alternative fuel	
+15036	material flow	
+15038	non-mineral waste	
+15039	waste prevention	
+15040	other waste	
+1505	coal gasification	
+1506	coal liquefaction	
+1507	coal mining	http://purl.obolibrary.org/obo/ENVO_00002169
+1509	coal refining	
+151	aerodynamic noise	
+1511	coal technology	
+1512	coast	http://purl.obolibrary.org/obo/ENVO_00000303
+1513	coastal area	
+1515	coastal development	
+1516	coastal ecosystem	
+1517	coastal environment	http://purl.obolibrary.org/obo/SCTID_224817007
+1519	coastal erosion	
+1520	coastal fishing	
+1523	coastal pollution	
+1526	coastal water	http://purl.obolibrary.org/obo/ENVO_00002150
+1527	coastal zone planning	
+1530	coating	http://purl.obolibrary.org/obo/SCTID_228224007
+1532	cobalt	http://purl.obolibrary.org/obo/MESH_D01.268.556.185
+1536	chemical oxygen demand	
+1541	code of practice	
+1542	code	
+1550	cogeneration	
+1553	co-incineration	
+1554	coke	http://purl.obolibrary.org/obo/MESH_G03.230.132.258.108.110
+1556	cold	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.725.710.300
+1559	cold zone ecosystem	
+1561	coliform bacterium	
+1567	colloid	http://purl.obolibrary.org/obo/MESH_D26.664.255.165
+157	aerosol	http://purl.obolibrary.org/obo/ENVO_00010505
+1570	colourimetry	
+1574	combination effect	
+1575	combined cycle-power station	
+1576	combined waste water	
+1578	combustibility	
+1582	combustion engine	
+1583	combustion gas	
+1584	combustion residue	
+1588	commercialisation	
+1590	commercial law	
+1591	commercial noise	
+1594	commercial traffic	
+1595	commercial vehicle	
+1596	trade waste	
+1600	common agricultural policy	
+1601	common agreement	
+1605	communications	http://purl.obolibrary.org/obo/MESH_G03.850.505.400.800
+1616	Community law	
+1618	community participation	
+1619	community-pays principle	
+1622	commuter traffic	
+1623	commuting	
+1625	compaction	
+1628	company policy	
+163	aesthetics	
+1630	comparative law	
+1631	comparative test	
+1632	comparison	
+1637	compensatory tax	
+1639	economic competition	
+1641	competitiveness	
+1645	complex formation	
+1646	complexing agent	
+1647	composite pollution	
+1649	compost	http://purl.obolibrary.org/obo/ENVO_00002170
+1651	compostable waste	
+1652	composting	http://purl.obolibrary.org/obo/ENVO_00002170
+1653	composting by producer	
+1659	compression	http://purl.obolibrary.org/obo/SCTID_300584000
+1660	compressor	
+167	afforestation	
+1673	concentration (value)	
+1674	concentration (process)	
+1677	concrete	http://purl.obolibrary.org/obo/SCTID_224937007
+1679	concrete products industry	
+1681	condensation (process)	
+1686	conductivity	http://purl.obolibrary.org/obo/SCTID_278252000
+1691	congress	
+1692	conifer	
+1694	coniferous forest	http://purl.obolibrary.org/obo/ENVO_01000433
+1700	conservation	
+1704	freshwater conservation	
+1706	conservation of genetic resources	
+1708	conservation of monuments	
+171	afterburning	
+1712	constitutional law	
+1718	construction equipment	
+1724	construction noise	
+1725	construction of installations	
+1728	construction technology	
+173	age	http://purl.obolibrary.org/obo/MESH_G07.168
+1730	construction with recycled material	
+1731	construction work	
+1736	consumer behaviour	
+1737	consumer goods	
+1738	consumer group	
+1739	consumer information	
+1740	consumer protection	
+1742	consumer waste	
+1743	consumption	
+1745	consumption pattern	
+1746	container	http://purl.obolibrary.org/obo/MESH_E05.235
+1748	containment (nuclear industry)	
+1751	contaminated soil	http://purl.obolibrary.org/obo/ENVO_00002116
+1752	contamination	http://purl.obolibrary.org/obo/SCTID_281308007
+1759	continuous load	
+1761	contour farming	
+1762	contract	http://purl.obolibrary.org/obo/SCTID_78558002
+1769	controlled burning	
+1772	controlled hunting zone	
+1774	control measure	
+1775	conurbation	
+1776	convention	http://purl.obolibrary.org/obo/SCTID_255333006
+1777	conventional energy	
+1781	cooling	
+1782	cooling oil	
+1784	cooling tower	
+1786	cooling water	
+1792	copper	http://purl.obolibrary.org/obo/MESH_D01.268.556.195
+1793	coppice	
+1796	coral reef	http://purl.obolibrary.org/obo/ENVO_00000150
+1799	core meltdown	
+1800	cork	http://purl.obolibrary.org/obo/SCTID_13818007
+1807	corridor	http://purl.obolibrary.org/obo/SCTID_224720006
+1808	corrosion	http://purl.obolibrary.org/obo/MESH_H01.181.529.205
+1809	corrosion inhibitor	
+1813	cosmetic industry	
+1814	cosmic radiation	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.300
+1817	cost-benefit	
+1818	cost-benefit analysis	
+182	agreement (legal)	
+1820	cost increase	
+1822	cost recovery basis	
+1823	cost reduction	
+1824	cost	
+1825	pollution cost	
+1826	national economic costs	
+1827	cotton	http://purl.obolibrary.org/obo/SCTID_388442007
+183	agreement (contract)	
+1846	covering	http://purl.obolibrary.org/obo/SCTID_255334000
+185	agricultural biotechnology	
+1850	craft	
+1854	credit assistance	
+186	agricultural building	
+1860	criminality	
+1862	criminal law	
+1864	critical level	
+1865	critical load	
+1874	crop protection	
+1875	crop rotation	
+1877	crop waste	
+1880	crossing place	
+1881	crossing place for animals	
+1885	crude oil	
+1888	cruising	http://purl.obolibrary.org/obo/SCTID_225530007
+1891	crystallisation	
+1892	crystallography	http://purl.obolibrary.org/obo/MESH_E05.196.309
+1898	cultivated plant	
+1899	cultivation	
+1902	cultivation method	
+1909	cultural development	
+191	agricultural ecology	
+1911	cultural facility	
+1912	cultural heritage	
+1915	cultural indicator	
+1921	culture (society)	
+1926	curriculum	
+1928	custom and usage	
+1929	customs	
+193	agricultural economics	
+1930	cutting (forestry)	
+1931	cyanate	http://purl.obolibrary.org/obo/MESH_D02.262
+1933	cyanide	http://purl.obolibrary.org/obo/MESH_D01.248.497.158.291
+194	agricultural effluent	
+1941	cyclone	http://purl.obolibrary.org/obo/SCTID_48071004
+1946	cytotoxicity	
+195	agricultural engineering	http://purl.obolibrary.org/obo/SCTID_16305002
+1950	dairy farm	
+1951	dairy industry	
+1952	dairy product	http://purl.obolibrary.org/obo/ENVO_01000011
+1955	dam	http://purl.obolibrary.org/obo/ENVO_00000074
+1956	damage	http://purl.obolibrary.org/obo/SCTID_37782003
+1958	damage from military manoeuvres	
+1959	damage prevention	
+1968	hazardous chemical export	
+1969	dangerous goods	
+197	agricultural equipment	
+1970	dangerous goods law	
+1971	dangerous goods regulation	
+1974	data acquisition	
+1975	data analysis	
+1979	data base	
+1981	data carrier	
+1984	data exchange	
+1986	data processing	
+1988	data protection	
+1989	data recording technique	
+199	agricultural exploitation	
+1992	dating	http://purl.obolibrary.org/obo/MESH_H01.862.200
+1993	decay product	
+1996	DDT	http://purl.obolibrary.org/obo/MESH_D02.455.526.439.337
+20	acceptable risk level	
+2000	debt	
+2001	debt service	
+2002	racking	
+2004	deciduous forest	http://purl.obolibrary.org/obo/ENVO_00000109
+2005	deciduous tree	
+2006	decision	
+2009	decision process	
+2014	decomposition	
+2015	decontamination	http://purl.obolibrary.org/obo/MESH_G03.850.780.325
+202	agricultural land	http://purl.obolibrary.org/obo/ENVO_00000077
+2020	decree	
+2022	deep sea	
+2023	deep sea deposit	
+2024	deep-sea disposal	
+2025	deep sea fishing	
+2029	deer	http://purl.obolibrary.org/obo/MESH_B02.649.077.380.373
+2035	defoliation	http://purl.obolibrary.org/obo/CHEBI_23582
+2036	deforestation	
+2039	degradability	
+204	agricultural landscape	
+2040	degradation	
+2041	degradation of natural resources	
+2042	degradation product	
+2044	degreasing	
+2048	de-inking	
+2050	delinquency	
+2052	delta	http://purl.obolibrary.org/obo/ENVO_00000101
+2053	demand	
+2055	demographic development	
+2056	demographic evolution	
+206	agricultural legislation	
+2060	demography	http://purl.obolibrary.org/obo/MESH_G03.850.505.400
+2062	demolition business	
+2064	demolition waste	
+2066	demonstrability	http://purl.obolibrary.org/obo/SCTID_10130000
+207	agricultural machinery	
+2071	denitrification	
+2072	denitrification of waste gas	
+208	agricultural management	
+2083	deposited particulate matter	
+2084	deposition	http://purl.obolibrary.org/obo/SCTID_46595003
+2088	deregulation	
+2098	desalination	
+2099	desalination plant	
+210	agricultural method	
+2103	desert	http://purl.obolibrary.org/obo/ENVO_00000097
+2105	desertification	
+2109	desertification control	
+2115	design (project)	
+2117	desk study	
+2119	desorption	
+212	agricultural pest	
+2124	desulphurisation	
+2125	desulphurisation of fuel	
+2127	detection	http://purl.obolibrary.org/obo/SCTID_10284005
+2129	detector	
+213	agricultural planning	
+2131	detergent	http://purl.obolibrary.org/obo/MESH_D26.866.265
+2139	determination method	
+2143	detoxification	
+2147	developed country	
+215	agricultural policy	
+2151	developing countries debt	
+2152	developing country	
+2156	development area	
+2158	development model	
+2159	development pattern	
+216	agricultural pollution	
+2160	development planning	
+2161	development plan	
+2167	dialysis	http://purl.obolibrary.org/obo/MESH_E05.196.353
+2173	dictionary	
+2175	didactics	
+2177	diesel engine	
+2179	diesel fuel	http://purl.obolibrary.org/obo/MESH_G03.230.132.258.630.540
+2185	diffuse source	
+2186	diffusion	http://purl.obolibrary.org/obo/MESH_G06.184.307
+2187	digested sludge	
+2188	digester	http://purl.obolibrary.org/obo/MESH_G10.261.302
+219	agricultural production	
+2190	digestion (sewage)	
+2195	digital land model	
+2196	digitising	
+22	access road	
+220	agricultural product	
+2200	diluted acid	
+2207	dioxin	http://purl.obolibrary.org/obo/MESH_D03.383.231
+2211	direct discharger	
+2212	directive	http://purl.obolibrary.org/obo/SCTID_255512003
+2213	disabled person	
+2215	disaster	http://purl.obolibrary.org/obo/MESH_G03.230.100
+2216	disaster cleanup operation	
+2218	disaster contingency plan	
+2219	disaster control service	
+2220	disaster preparedness	
+2221	disaster prevention	
+2222	disaster relief	
+2226	discharge legislation	
+2227	discharge regime	
+2232	disease	http://purl.obolibrary.org/obo/ExO_0000079
+2233	disease cause	
+2237	disinfectant	http://purl.obolibrary.org/obo/MESH_D20.425
+2238	disinfection	http://purl.obolibrary.org/obo/MESH_D20.425
+224	agricultural storage	
+2245	dispersion	http://purl.obolibrary.org/obo/SCTID_86902002
+2246	dispersion calculation	
+2247	displaced person	
+2253	disposal of the dead	
+2254	disposal of warfare materials	
+2257	dissolution	
+2259	dissolved organic carbon	
+2260	distillation	
+2262	distilling industry	
+2263	distortion of competition	
+2269	district heating	
+2270	district heating plant	
+2275	disused military site	
+2276	ditch	http://purl.obolibrary.org/obo/ENVO_00000037
+2279	DNA	http://purl.obolibrary.org/obo/EO_0007532
+2282	document	http://purl.obolibrary.org/obo/SCTID_397934002
+2284	documentation	http://purl.obolibrary.org/obo/SCTID_397934002
+2285	documentation centre	
+2286	document type	http://purl.obolibrary.org/obo/SCTID_397934002
+2287	dog	http://purl.obolibrary.org/obo/MESH_B02.649.147.308
+229	agricultural waste	http://purl.obolibrary.org/obo/ENVO_01000371
+2290	domestic appliance	
+2291	domesticated animal	http://purl.obolibrary.org/obo/MESH_B01.030.116
+2293	domestic fuel	
+2294	domestic fuel oil	
+2298	domestic noise	
+23	access to culture	
+2300	domestic trade	
+2301	domestic waste	
+2304	domestic waste landfill	
+2305	domestic waste water	
+2307	dosage	http://purl.obolibrary.org/obo/SCTID_260911001
+2308	dose	http://purl.obolibrary.org/obo/ExO_0000076
+2309	dose-effect relationship	
+2315	draft legislation	
+2319	drainage	http://purl.obolibrary.org/obo/MESH_E02.306
+232	agriculture	http://purl.obolibrary.org/obo/ENVO_01000311
+2323	drainage water	
+2324	draught animal	
+2326	dredged material	
+2327	dredging	
+233	agriculture and cattle industry	
+2330	olive oil mill wastewater	
+2332	drift net fishing	
+2333	drilling	http://purl.obolibrary.org/obo/MESH_B02.649.801.400.130.120.610
+2336	drilling installation	
+2339	drinking water	http://purl.obolibrary.org/obo/ENVO_00003064
+2340	drinking water protection area	
+2343	drinking water supply	
+2344	drinking water treatment	
+2347	drought	
+235	agriculture framework plan	
+2350	drought control	
+2352	drug abuse	http://purl.obolibrary.org/obo/MESH_D26.664.878
+2354	drug (medicine)	
+2358	dry cleaning	http://purl.obolibrary.org/obo/SCTID_771004
+2359	dry deposition	
+2360	dry farming	
+2361	drying	http://purl.obolibrary.org/obo/SCTID_13880007
+2363	drying out	
+2364	dual economy	
+2365	dual waste management	
+2367	dumping	http://purl.obolibrary.org/obo/CHEBI_17622
+237	agrochemical	http://purl.obolibrary.org/obo/MESH_D26.025
+2372	land disposal	
+2377	dune	http://purl.obolibrary.org/obo/ENVO_00000170
+2380	duration of sunshine	
+2381	dust	http://purl.obolibrary.org/obo/ENVO_00002008
+2383	dust immission	
+2384	dust removal	
+2386	registration obligation	
+2387	dwelling	
+2389	dye	http://purl.obolibrary.org/obo/MESH_D26.600.330
+239	agroforestry	
+2393	dyke	http://purl.obolibrary.org/obo/ENVO_00000178
+2394	dyke reinforcement	
+2398	early warning system	
+240	agroindustry	
+2400	earth's crust	
+2402	earthquake	http://purl.obolibrary.org/obo/SCTID_8766005
+2405	earth science	
+241	agrometeorology	
+2415	East-West trade	
+2422	EC directive	
+2423	EC directive on biocides	
+2424	EC directive on packaging	
+2425	EC directive on waste disposal	
+2426	EC directive on water protection	
+2427	EC ecolabel	
+243	AIDS	http://purl.obolibrary.org/obo/DOID_635
+2434	ecodevelopment	
+2440	ecological assessment	
+2442	ecological bookkeeping	
+245	air	http://purl.obolibrary.org/obo/ENVO_00002005
+2456	ecological niche	
+2457	ecological parameter	
+2461	ecologically sensitive area	
+2463	ecological stocktaking	
+2469	ecologist movement	
+2470	ecology	http://purl.obolibrary.org/obo/MESH_G01.273.248
+2476	economic activity	
+2477	economical-ecological efficiency	
+2478	economic analysis	
+2484	economic development	
+2490	economic growth	
+2493	economic instrument	
+2494	economic management instrument	
+2497	economic planning	
+2498	economic policy	
+25	accident	http://purl.obolibrary.org/obo/MESH_G03.850.110
+2501	economics	
+2505	economic situation	
+2508	economic system	
+2510	economic theory	
+2511	economic trend	
+2512	economic viability	
+2514	economic zoning	
+2516	economy	
+2517	eco-paediatrics	
+2518	ecophysiology	
+2519	ecosystem	http://purl.obolibrary.org/obo/ENVO_00000428
+2520	ecosystem analysis	
+2522	ecosystem degradation	
+2523	ecosystem research	
+2525	ecosystem type	http://purl.obolibrary.org/obo/MESH_G03.230.116.300
+2527	ecotourism	
+2528	ecotoxicity	
+2529	ecotoxicological evaluation	
+253	aircraft	
+2530	ecotoxicology	
+2531	ecotype	
+2534	EC regulation	
+2535	EC regulation on eco-management and audit	
+2536	EC regulation on existing chemicals	
+2539	edaphology	
+2542	edible fat	
+2547	education	http://purl.obolibrary.org/obo/ExO_0000041
+255	aircraft engine emission	
+2554	educational planning	
+2555	education policy	
+2557	educational system	
+256	aircraft noise	
+2564	effect on health	
+2565	effect on man	
+2566	effect on the environment	
+2568	research of the effects	
+2569	efficiency criterion	
+2570	efficiency level	
+2571	effluent	
+2578	EIA directive	
+2579	EIA law	
+2580	EIA (local)	
+2584	elderly person	http://purl.obolibrary.org/obo/SCTID_105436006
+2586	electrical engineering	http://purl.obolibrary.org/obo/SCTID_236300002
+2587	electrical industry	
+2588	electrical storage device	
+2592	electricity	http://purl.obolibrary.org/obo/MESH_G03.230.132.200
+2593	electricity company	
+2594	electricity consumption	
+2595	electricity generation	
+2596	electricity generation cost	
+2597	electricity supply industry	
+2599	electric line	
+2601	electric power	
+2606	electric power plant	http://purl.obolibrary.org/obo/MESH_H01.671.252.780
+2608	electric power supply	
+2612	electric vehicle	
+2617	electrokinetics	
+2618	electrolysis	
+262	air movement	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.150.185
+2623	electronic material	
+2624	electronics	http://purl.obolibrary.org/obo/MESH_H01.288
+2625	electronic scrap	
+2626	electronic scrap regulation	
+2628	electrosmog	
+263	air pollutant	http://purl.obolibrary.org/obo/MESH_D05.284.101
+2633	electrotechnical equipment	
+2634	electrotechnical industry	
+2635	element of group 0	
+2636	element of group I (alkaline)	
+2637	element of group II (alkaline earth metals)	
+2638	element of group III	http://purl.obolibrary.org/obo/CHEBI_33317
+2639	element of group IV	http://purl.obolibrary.org/obo/CHEBI_33306
+2640	element of group V	http://purl.obolibrary.org/obo/CHEBI_33300
+2641	element of group VI	http://purl.obolibrary.org/obo/CHEBI_33303
+2642	element of group VII	http://purl.obolibrary.org/obo/CHEBI_24473
+2643	chemical element	http://purl.obolibrary.org/obo/SCTID_57795002
+265	air pollution	http://purl.obolibrary.org/obo/MESH_D05.284.101
+2651	emancipation	
+2655	emergency law	
+2656	emergency plan	
+2657	emergency relief	
+2658	emergency relief measure	
+2661	emergency shelter	
+2663	emission	http://purl.obolibrary.org/obo/SCTID_81059003
+2665	emission control	
+2666	emission data	
+2667	emission factor	
+2668	emission forecast	
+267	airport	http://purl.obolibrary.org/obo/SCTID_257562009
+2670	emission reduction	
+2671	emission reduction banking	
+2672	emission register	
+2673	emission situation	
+2674	emission source	
+2677	emission standard	
+2679	emission to water	
+2683	employment	http://purl.obolibrary.org/obo/SCTID_394571004
+2684	employment and environment	
+2687	employment level effect	
+2689	emulsification	http://purl.obolibrary.org/obo/SCTID_51982005
+2691	emulsion	http://purl.obolibrary.org/obo/ENVO_00010506
+2693	encapsulation	http://purl.obolibrary.org/obo/SCTID_59135002
+2696	encyclopaedia	
+2697	endangered animal species	
+270	air quality	
+2700	endangered plant species	
+2702	endangered species (IUCN)	
+2704	groundwater endangering	
+2705	endocrine system	http://purl.obolibrary.org/obo/MESH_A06
+2706	endocrinology	http://purl.obolibrary.org/obo/MESH_G01.782.323
+2707	end-of-pipe technology	
+2712	energy	http://purl.obolibrary.org/obo/SCTID_248272003
+2713	energy balance	
+2714	energy conservation	http://purl.obolibrary.org/obo/SCTID_385688007
+2715	energy consumption	
+2716	energy conversion	
+2718	energy demand	
+272	air quality control	
+2720	energy dissipation	
+2722	energy distribution system	
+2723	energy economics	
+2724	energy efficiency	
+2729	energy legislation	
+2730	energy management	
+2731	energy market	
+2733	energy policy	
+2734	energy process	
+2735	energy production	
+2736	energy recovery	
+2738	energy resource	
+274	air quality management	
+2740	energy saving	
+2741	energy source	http://purl.obolibrary.org/obo/SCTID_260754003
+2742	energy source material	
+2744	energy storage	
+2746	energy supply	http://purl.obolibrary.org/obo/MESH_G03.230.132
+2747	energy technology	
+2748	energy type	http://purl.obolibrary.org/obo/PATO_0001021
+2749	energy utilisation	
+2751	energy utilisation pattern	
+2754	engine	http://purl.obolibrary.org/obo/SCTID_106269003
+2756	enlargement programme	
+2758	enriched uranium	
+2759	enrichment	
+2760	adequate food supply	
+2766	environmental accident	
+2767	environmental accounting	
+2769	environmental protection advice	
+277	air safety	
+2771	environmental anxiety	
+2772	environmental sustainable architecture	
+2773	environmental aspect of human settlements	
+2774	environmental assessment	http://purl.obolibrary.org/obo/SCTID_225342001
+2775	environmental assessment criterion	
+2776	environmental auditing	
+2778	environmental awareness	
+2779	environmental balance	
+2782	environmental change	
+2783	environmental chemicals legislation	
+2784	environmental chemistry	
+2786	environmental compatibility	
+2789	environmental consequence	
+279	airspace planning	
+2790	environmental conservation	
+2793	environmental contingency planning	
+2795	environmental control	
+2796	environmental cost	
+2797	environmental crime	
+2798	environmental criminal law	
+2799	environmental criterion	
+28	accidental release of organisms	
+2801	environmental culture	http://purl.obolibrary.org/obo/SCTID_21808008
+2802	environmental damage	
+2803	environmental data	
+2805	environmental development	
+281	air temperature	
+2810	environmental economy issue	
+2811	environmental economics	
+2814	environmental education	
+2817	environmental enterprise	
+2818	environmental ethics	
+282	air traffic	
+2821	environmental fund	
+2823	environmental hazard	http://purl.obolibrary.org/obo/SCTID_21015004
+2824	environmental health	http://purl.obolibrary.org/obo/MESH_G02.229
+2825	environmental health hazard	
+2826	environmental health impact assessment	
+2827	environmental health protection	
+2828	environmental history	
+2829	environmental impact	http://purl.obolibrary.org/obo/MESH_G03.230
+2830	environmental impact assessment	
+2831	environmental impact of agriculture	
+2832	environmental impact of aquaculture	
+2833	environmental impact of energy	
+2834	environmental impact of fishing	
+2835	environmental impact of forestry	
+2836	environmental impact of households	
+2837	environmental impact of industry	
+2838	environmental impact of recreation	
+2839	environmental impact of tourism	
+2840	environmental impact of transport	
+2841	environmental impact statement	
+2844	environmental impact study	
+2845	environmental incentive	
+2847	environmental indicator	
+2848	environmental index	
+2849	environmental industry	
+285	air traffic law	
+2850	environmental informatics	
+2851	environmental information	
+2852	environmental information network	
+2853	environmental information system	
+2856	environmental investment	
+2857	environmentalism	http://purl.obolibrary.org/obo/ENVO_01000254
+2859	environmental law	
+286	air traffic regulation	
+2860	environmental law enforcement	
+2862	environmental legislation	
+2863	environmental legislation on agriculture	
+2864	environmental legislative process	
+2865	environmental liability	
+2866	environmental licence	
+2869	environmentally dangerous substance	
+2870	environmental friendly procurement	
+2871	environmentally friendly product	
+2872	environmentally friendly management	
+2873	environmentally related disease	
+2874	environmentally responsible behaviour	
+2876	environmentally unfriendly firm	
+2877	environmental management	
+2880	environmental medicine	http://purl.obolibrary.org/obo/MESH_G02.403.776.630.250
+2881	environmental misconduct	
+2882	environmental monitoring	http://purl.obolibrary.org/obo/MESH_G03.850.460.350.080
+2884	environmental noise	
+2886	environmental perception	
+2887	environmental performance	
+2889	environmental planning	
+289	air transportation	
+2890	environmental plan	
+2892	environmental policy	http://purl.obolibrary.org/obo/MESH_G03.230
+2893	environmental policy instrument	
+2895	environmental pollution	http://purl.obolibrary.org/obo/MESH_D05.284
+2896	environmental priority	
+2897	environmental programme	
+290	air-water interaction	
+2900	environmental protection	
+2902	environmental protection association	
+2903	environmental protection cost	
+2905	environmental protection in the enterprise	
+2907	environmental protection order	
+2909	environmental protection regulation	
+2910	environmental protection technology	
+2911	environmental psychology	
+2912	environmental quality	
+2913	environmental quality criterion	
+2914	environmental quality objective	
+2915	environmental quality standard	
+2917	environmental report	
+2918	environmental research	
+2920	environmental risk assessment	
+2921	environmental risk	
+2922	environmental science	
+2923	environmental security	
+2924	environmental specimen bank	
+2925	environmental statement (eco-audit)	
+2926	environmental statistics	
+2927	environmental stock exchange	
+2928	environmental subsidy	
+2929	environmental target	
+293	alarm	
+2931	environmental teaching	
+2932	environmental technology	
+2934	environmental terminology	
+2936	environmental training	
+2938	environmental economic valuation	
+2940	environmental vandalism	
+2941	environmental warfare	
+2943	environment friendly	http://purl.obolibrary.org/obo/SCTID_224801001
+2945	enzyme	http://purl.obolibrary.org/obo/MESH_D08.586
+2947	epidemic	http://purl.obolibrary.org/obo/MESH_G03.850.290
+2949	epidemiology	http://purl.obolibrary.org/obo/MESH_G02.403.290
+2956	equipment	http://purl.obolibrary.org/obo/MESH_E07
+2958	equivalent dose	
+2960	ergonomics	
+2963	erosion	http://purl.obolibrary.org/obo/SCTID_255304005
+2964	erosion control	
+2969	estuarine biology	
+2970	estuarine conservation area	
+2972	estuarine ecosystem	
+2973	estuarine oceanography	
+2974	estuary	http://purl.obolibrary.org/obo/ENVO_00000045
+2977	etching	
+2978	etching substance	
+2979	ether	http://purl.obolibrary.org/obo/MESH_D02.355
+298	alcohol	http://purl.obolibrary.org/obo/MESH_D000437
+2980	ethics	
+2982	ethnology	
+30	accident source	
+3000	European nature reserve	
+3007	eutrophication	http://purl.obolibrary.org/obo/MESH_G04.185.320
+3011	evaluation	http://purl.obolibrary.org/obo/MESH_E05.337
+3013	evaluation method	
+3014	evaluation of technology	
+3019	evaporation	
+3027	exact science	
+3028	excavated hole	
+3029	excavation (process)	
+303	algal bloom	http://purl.obolibrary.org/obo/ENVO_2000004
+3031	excavation heap	
+3032	excavation site	
+3033	excessive height of chimney stacks	
+3040	executive order	
+3044	exhaust device	
+3045	exhaust gas	
+3047	existing chemical	
+3049	expenditure	
+305	algicide	http://purl.obolibrary.org/obo/SCTID_29455006
+3050	experiment	
+3054	expert system	
+3057	exploration	
+3058	explosion	http://purl.obolibrary.org/obo/MESH_G03.230.100.090
+3061	explosive	http://purl.obolibrary.org/obo/MESH_G03.230.100.090
+3063	export	http://purl.obolibrary.org/obo/SCTID_159645000
+3064	export licence	
+3065	export of hazardous wastes	
+3067	exposure	http://purl.obolibrary.org/obo/SCTID_24932003
+3071	expropriation	
+3073	extensive cattle farming	
+3079	externality	http://purl.obolibrary.org/obo/ExO_0000018
+308	alicyclic compound	http://purl.obolibrary.org/obo/SCTID_438465002
+3084	extinct species (IUCN)	
+3087	extraction	http://purl.obolibrary.org/obo/SCTID_422077001
+309	alicyclic hydrocarbon	http://purl.obolibrary.org/obo/MESH_D02.455.426.392
+3090	extractive industry	
+3097	fabric	
+3099	factor market	
+3103	factory farming	
+3106	faecal bacterium	
+311	aliphatic compound	http://purl.obolibrary.org/obo/CHEBI_33653
+3110	fallout	
+3113	fallow area	
+3115	fallow land	
+3117	family	http://purl.obolibrary.org/obo/SCTID_255401001
+3119	family planning	
+312	aliphatic hydrocarbon	http://purl.obolibrary.org/obo/SCTID_117496002
+3120	famine	
+3122	farm animal	http://purl.obolibrary.org/obo/MESH_B01.030.116
+3123	farm building	http://purl.obolibrary.org/obo/SCTID_257610003
+313	alkali land	
+3130	farm	http://purl.obolibrary.org/obo/ENVO_00000078
+3133	fast traffic	
+3147	federal law	
+3149	fee	
+3151	feeding of animals	http://purl.obolibrary.org/obo/ENVO_02000047
+3154	fen	http://purl.obolibrary.org/obo/ENVO_00000232
+3159	fermentation	http://purl.obolibrary.org/obo/MESH_G06.184.405
+3169	fertiliser	http://purl.obolibrary.org/obo/CHEBI_33287
+3171	fertiliser law	
+3174	fibre	
+3175	fibreglass	
+3176	field	http://purl.obolibrary.org/obo/ENVO_00000114
+3177	field damage	
+3178	field experiment	
+3179	field study	http://purl.obolibrary.org/obo/EO_0007256
+3181	filling material	http://purl.obolibrary.org/obo/SCTID_118417008
+3182	filling station	
+3183	film	http://purl.obolibrary.org/obo/SCTID_420460001
+3184	filter	http://purl.obolibrary.org/obo/SCTID_236312003
+3186	filter cake	
+319	alkali soil	
+3190	filtration	http://purl.obolibrary.org/obo/MESH_E05.196.454
+3192	final storage	
+3194	finances	
+3195	financial assistance	
+3196	financial compensation	
+3197	financial contribution	
+3199	financial instrument	
+3200	financial law	
+3201	financial market	
+3205	financing	
+3207	fine	http://purl.obolibrary.org/obo/SCTID_3082000
+3209	fine dust	
+3212	fire	http://purl.obolibrary.org/obo/MESH_G03.230.100.120
+3218	fire precaution	
+3219	fireproofing agent	http://purl.obolibrary.org/obo/MESH_D26.439
+322	alkane	http://purl.obolibrary.org/obo/MESH_D02.455.326.146
+3220	fire protection	
+3225	fire safety requirement	
+3226	fire service	
+3229	firing	http://purl.obolibrary.org/obo/MESH_G03.230.100.120
+3232	firm	http://purl.obolibrary.org/obo/SCTID_20583004
+3236	fish disease	http://purl.obolibrary.org/obo/MESH_D005393
+3237	fishery	http://purl.obolibrary.org/obo/ENVO_00000294
+3238	fisheries management	
+3241	fishery resource	
+3243	fishery economics	
+3246	fishery policy	
+3252	fish	http://purl.obolibrary.org/obo/MESH_B02.493
+3254	fish farming	http://purl.obolibrary.org/obo/ENVO_00000294
+3256	fishing	http://purl.obolibrary.org/obo/MESH_B02.493
+326	alkyl compound	
+3260	fishing industry	
+3261	fishing law	
+3263	fishing preserve	
+3266	fishing vessel	
+3269	fish kill	
+3273	fish stock	
+3274	fish toxicity	
+3277	fitting (plumbing)	
+3278	fixed schedule of charges	
+3281	flag of convenience	
+3282	flaring	http://purl.obolibrary.org/obo/PATO_0001785
+3283	rapid test	
+3287	flavouring	http://purl.obolibrary.org/obo/PATO_0001329
+329	allergen	http://purl.obolibrary.org/obo/MESH_D24.611.216.063
+3291	flexible approach to environmental protection	
+3294	flocculant	http://purl.obolibrary.org/obo/MESH_H01.181.529.741.347
+3295	flocculation	http://purl.obolibrary.org/obo/MESH_H01.181.529.741.347
+3298	flood	http://purl.obolibrary.org/obo/SCTID_111056004
+3300	flood control	
+3301	flooding	http://purl.obolibrary.org/obo/SCTID_111056004
+3307	flora restoration	
+3308	flotation	
+3311	flow	http://purl.obolibrary.org/obo/SCTID_260799006
+3315	flow field	
+3316	flowing water	
+3319	flue gas	
+332	allergy	http://purl.obolibrary.org/obo/DOID_1205
+3322	fluidics	
+3324	fluidisation	
+3325	fluidised bed	
+3328	fluoridation	http://purl.obolibrary.org/obo/MESH_D01.248.497.158.380
+3334	fluorine	http://purl.obolibrary.org/obo/MESH_D01.268.380.300
+3340	fluvial resource	
+3341	river transport	
+3342	fly ash	
+3343	foaming agent	http://purl.obolibrary.org/obo/CHEBI_78007
+3345	fodder	
+3347	fog	http://purl.obolibrary.org/obo/SCTID_256236005
+3348	mist	
+335	allocation	
+3354	food	http://purl.obolibrary.org/obo/SCTID_246250009
+3356	food additive	http://purl.obolibrary.org/obo/MESH_D26.471
+336	allocation plan	
+3360	food colourant	http://purl.obolibrary.org/obo/CHEBI_77182
+3362	food commerce	
+3365	food contamination	http://purl.obolibrary.org/obo/MESH_G03.850.460.400
+3367	food hygiene	http://purl.obolibrary.org/obo/SCTID_229960001
+3368	food industry	
+3370	food irradiation	
+3372	food pollutant	
+3375	food preservation	http://purl.obolibrary.org/obo/MESH_D26.471.385
+3376	food processing industry	
+3378	food production (agriculture)	
+3380	food quality	
+3381	food requirement	
+3384	food science	
+3387	food storage	
+3388	foodstuff	
+3391	food technology	
+3392	food transport	
+3395	footpath	http://purl.obolibrary.org/obo/ENVO_00000122
+3396	forage contamination	
+3397	forage law	
+340	alloy	http://purl.obolibrary.org/obo/MESH_D01.552.033
+3401	foreclosure	
+3402	foreign economic relations	
+3405	foreign trade	
+3406	forest	http://purl.obolibrary.org/obo/ENVO_00000111
+341	alluvion	
+3410	forest conservation	
+3411	forest cover destruction	
+3414	forest damage	
+3416	forest ecosystem	
+3419	forest fire	
+342	alpha radiation	http://purl.obolibrary.org/obo/MESH_H01.671.579.055
+3423	forest industry	
+3425	forest management	
+3426	forest pest	
+3430	forest policy	
+3431	forest production	
+3432	forest product	
+3435	forest reserve	
+3437	forest resource assessment	
+3438	forest resource	
+3439	forestry	
+3440	forestry economics	
+3441	forestry law	
+3442	forestry legislation	
+3444	forestry practice	
+3462	fossil fuel	http://purl.obolibrary.org/obo/MESH_G03.230.132.258
+3465	fouling growth	
+3469	four stroke engine	
+3474	framework legislation	
+3477	access to information	
+3481	freight transport	
+3483	freon	http://purl.obolibrary.org/obo/MESH_D02.455.526.439.220.300
+3485	freshwater	http://purl.obolibrary.org/obo/ENVO_00002011
+3487	freshwater biology	
+3488	freshwater degradation	
+3489	freshwater ecosystem	
+349	alternative material	
+3491	freshwater monitoring	
+3492	freshwater organism	
+3493	freshwater pollution	
+3494	freshwater resource	
+3496	frost	
+3498	fruit	http://purl.obolibrary.org/obo/MESH_B06.413.024.500
+3499	fruit cultivation	
+3502	fruit tree	
+3505	fuel	http://purl.obolibrary.org/obo/SCTID_223373004
+3506	fuel additive	http://purl.obolibrary.org/obo/CHEBI_62803
+3507	fuel alcohol	
+3509	fuel composition	
+351	alternative technology	
+3510	fuel consumption	
+3512	fuel oil	http://purl.obolibrary.org/obo/ENVO_00002983
+3516	fuel tank installation	
+3517	fuel wood	
+3518	fume	http://purl.obolibrary.org/obo/SCTID_278423000
+352	alumina	http://purl.obolibrary.org/obo/CHEBI_30187
+3521	fumigation	http://purl.obolibrary.org/obo/MESH_G03.850.780.200.300
+3522	functional substance	
+3524	soil function	
+353	aluminium	http://purl.obolibrary.org/obo/CHEBI_28984
+3530	fungicide	http://purl.obolibrary.org/obo/SCTID_19209005
+3533	fur	
+3535	fur animal	http://purl.obolibrary.org/obo/MESH_A17.360
+3536	furan	http://purl.obolibrary.org/obo/MESH_D03.383.312
+3538	furnace	
+3539	furniture	
+354	aluminium container	
+3540	furniture industry	
+3542	furriery	
+355	aluminium content	
+3550	galvanisation	
+3553	game (animals)	
+3554	gamma radiation	http://purl.obolibrary.org/obo/MESH_H01.671.768.513.400
+3559	garden	http://purl.obolibrary.org/obo/ENVO_00000011
+356	aluminium industry	
+3562	garden waste	
+3564	garrigue	
+3566	gas	http://purl.obolibrary.org/obo/CHEBI_5206
+3567	gas chromatography	http://purl.obolibrary.org/obo/MESH_E05.196.181.349
+3570	gas company	
+3571	gas engine	
+3572	gaseous air pollutant	
+3577	gaseous state	
+3578	treatment of gases	
+3581	gasification	
+3582	gas liquefaction	
+3585	gas mixture	http://purl.obolibrary.org/obo/SCTID_303701009
+3586	gas network	
+3587	gasohol	
+3589	gasoline engine	
+3591	gas pipeline	
+3593	gas powered plant	
+3594	gas purification	
+3595	vapour recovery system	
+3596	gas reservoir	
+3599	gas supply	
+36	accumulation in body tissues	
+360	alveolus	
+3604	gaswork	
+3611	gender issue	
+3613	gene bank	
+3614	general administrative order	
+3615	general chemistry	
+3617	gene	http://purl.obolibrary.org/obo/MESH_G14.330
+3624	genetic engineering	http://purl.obolibrary.org/obo/MESH_E05.393.420
+3625	genetic engineering legislation	
+363	amalgam	http://purl.obolibrary.org/obo/SCTID_256447001
+3632	genetic resource	
+3638	geodesy	
+3645	geographic information system	
+3646	geography	http://purl.obolibrary.org/obo/MESH_H01.374
+3647	geological disaster	
+3648	geological process	
+3650	geology	http://purl.obolibrary.org/obo/MESH_H01.419
+3652	geomorphic process	
+3654	geomorphology	
+3655	geophysics	
+3657	geotechnology	
+3658	geothermal energy	
+3661	germ	
+3673	glacier	http://purl.obolibrary.org/obo/ENVO_00000133
+3676	glaciology	
+3678	glass	http://purl.obolibrary.org/obo/MESH_D25.720.400
+3681	glass industry	
+3686	global aspect	
+3687	global convention	
+3688	Global Environment Facility	
+3690	global model	
+3692	global warming	
+3694	glossary	
+3695	glue	http://purl.obolibrary.org/obo/ENVO_00003076
+3698	goal of individual economic business	
+370	Ames test	
+3701	golf	http://purl.obolibrary.org/obo/SCTID_15530008
+3714	government building	http://purl.obolibrary.org/obo/SCTID_264308002
+3716	government environmental expenditure	
+372	amine	http://purl.obolibrary.org/obo/MESH_D02.092
+3721	grain	http://purl.obolibrary.org/obo/MESH_B06.510.253
+373	amino acid	http://purl.obolibrary.org/obo/MESH_D12.125
+3730	grass fire	
+3733	grassland	http://purl.obolibrary.org/obo/ENVO_00000106
+3734	grassland ecosystem	
+3738	gravel	http://purl.obolibrary.org/obo/ENVO_01000018
+3739	gravel extraction	
+3742	gravel pit	http://purl.obolibrary.org/obo/ENVO_00000473
+3748	grazing	
+375	ammonia	http://purl.obolibrary.org/obo/MESH_D01.362.075
+3754	greenbelt	
+3755	green building	
+3756	green corridor	
+3757	environmental tax	
+3760	greenhouse cultivation	
+3761	greenhouse effect	http://purl.obolibrary.org/obo/MESH_G03.230.265
+3763	greenhouse gas	http://purl.obolibrary.org/obo/CHEBI_76413
+3766	green manure	
+3768	green revolution	
+3770	green space	
+3771	green vegetable	
+3774	grinding	
+3777	gross national product	
+378	ammonification	
+3780	groundwater	http://purl.obolibrary.org/obo/ENVO_00002041
+3781	groundwater extraction	
+3784	groundwater pollution	
+3785	groundwater protection	
+3788	group behaviour	
+379	ammonium	http://purl.obolibrary.org/obo/MESH_D01.625.075
+38	accumulator	http://purl.obolibrary.org/obo/PATO_0002269
+3800	gulf	http://purl.obolibrary.org/obo/ENVO_00000475
+3806	gypsum	http://purl.obolibrary.org/obo/CHEBI_48838
+3808	habitat	http://purl.obolibrary.org/obo/ENVO_00002036
+3810	haematology	
+3812	hail	
+3815	half-life	http://purl.obolibrary.org/obo/MESH_H01.862.405
+3817	haloform	
+3819	halogenated biphenyl	
+3820	halogenated hydrocarbon	http://purl.obolibrary.org/obo/MESH_D02.455.526
+3821	halogenated phenol	http://purl.obolibrary.org/obo/SCTID_425935005
+3822	halogenated pollutant	
+3823	halogenated terphenyl	
+3828	handicraft business	
+3830	handicraft	
+3834	harbour	
+3838	hard-to-dispose-of waste	
+3842	waste water pollution	
+3849	harvest	
+3852	hazard	
+3853	hazard of pollutants	
+3854	hazardous substance	http://purl.obolibrary.org/obo/MESH_D05.284.360
+3855	hazardous substances legislation	
+3857	hazardous waste dump	
+3858	hazardous waste	http://purl.obolibrary.org/obo/MESH_G03.850.460.710.380
+3859	hazardous working material	
+3860	haze	
+3864	headland (farm)	
+3865	health	http://purl.obolibrary.org/obo/SCTID_263775005
+3866	health care	
+3869	health-environment relationship	
+3871	health facility	
+3872	health hazard	
+3874	health legislation	
+3877	health protection	
+3878	health regulation	
+388	amusement park	http://purl.obolibrary.org/obo/SCTID_257563004
+3880	health-related biotechnology	
+3881	health service	
+3884	hearing impairment	
+3885	hearing procedure	
+3886	hearing protection	
+3887	hearing (sense)	
+3890	heat (physics)	
+3891	heat and power station	
+3892	heater	
+3893	heathland	
+3894	heating	http://purl.obolibrary.org/obo/MESH_G03.230.150.300
+3900	heating plant	
+3904	heat pump	
+3906	heat storage	
+3907	heat supply	
+391	anaerobic condition	
+3911	heavy goods vehicle traffic	
+3914	heavy metal load	
+3915	heavy metal	http://purl.obolibrary.org/obo/MESH_D01.268.556
+3917	hedge	http://purl.obolibrary.org/obo/ENVO_00000046
+3933	herbicide	http://purl.obolibrary.org/obo/MESH_D05.723.366
+3937	heterocyclic compound	http://purl.obolibrary.org/obo/MESH_D03
+394	anaerobic process	
+3945	higher education	http://purl.obolibrary.org/obo/SCTID_161122005
+3947	highland ecosystem	
+3949	high mountain	
+3953	high protein food	http://purl.obolibrary.org/obo/SCTID_228065003
+3954	high-rise building	http://purl.obolibrary.org/obo/SCTID_224640009
+3955	high-speed railway	
+3956	high-speed train	
+3958	high tide water	
+3960	high voltage line	
+3963	highway	
+3966	hill	http://purl.obolibrary.org/obo/ENVO_00000083
+397	analysis	http://purl.obolibrary.org/obo/SCTID_272389005
+3971	historical evolution	
+3974	historical monument	
+3975	historical research	
+3977	historical site	
+398	analysis programme	
+3983	history	http://purl.obolibrary.org/obo/SCTID_392521001
+3984	holiday camp	
+3986	holiday	
+399	analytical chemistry	http://purl.obolibrary.org/obo/MESH_E05.196
+3995	horse	http://purl.obolibrary.org/obo/MESH_B02.649.709.235.472
+3998	horticulture	
+3999	hospital	http://purl.obolibrary.org/obo/ENVO_00002173
+4002	hospital waste	
+4008	hotel industry	
+4009	hot water	http://purl.obolibrary.org/obo/SCTID_47448006
+401	analytical equipment	
+4015	household	http://purl.obolibrary.org/obo/MESH_F01.829.263.315
+4016	household chemical	
+4018	household goods	
+402	analytical method	
+4022	housing	http://purl.obolibrary.org/obo/ENVO_01000417
+4027	housing density	
+4029	housing finance	
+4030	housing improvement	
+4032	housing legislation	
+4034	housing need	
+4037	housing programme	
+4039	housing quality standard	
+4040	installation restoration	
+4045	human biology	
+4046	human disease	
+4047	human ecology	
+4049	human exposure to pollutants	
+4051	human health	
+4052	human-made disaster	
+4054	human pathology	
+4055	human physiology	
+4056	human population	http://purl.obolibrary.org/obo/ExO_0000033
+406	anatomy	http://purl.obolibrary.org/obo/ExO_0000043
+4060	human rights	
+4062	human settlement	
+4070	humus	http://purl.obolibrary.org/obo/ENVO_01000000
+4072	hunting	
+4073	hunting reserve	
+4077	hurricane	http://purl.obolibrary.org/obo/SCTID_35314007
+4082	hydraulic construction	
+4084	hydraulic engineering	http://purl.obolibrary.org/obo/SCTID_69965009
+4085	hydraulics	
+4088	hydrobiology	
+4091	hydrocarbon	http://purl.obolibrary.org/obo/MESH_D02.455
+4094	hydrochloric acid	http://purl.obolibrary.org/obo/MESH_D01.029.260.326
+4095	hydroculture	
+4098	hydroelectric power plant	http://purl.obolibrary.org/obo/MESH_H01.671.252.780
+4103	hydrogen	http://purl.obolibrary.org/obo/MESH_D01.268.406
+4107	hydrogen sulphide	http://purl.obolibrary.org/obo/CHEBI_16136
+4108	hydrogeology	
+4109	hydrography	
+4111	hydrologic disaster	
+4115	hydrologic balance	
+4116	hydrologic cycle	
+4118	hydrology	
+4119	hydrolysis	http://purl.obolibrary.org/obo/MESH_G06.535.508
+412	angling	http://purl.obolibrary.org/obo/PATO_0002326
+4120	hydrometeorology	
+4122	water power	
+4124	hydrosphere	
+4126	hygiene	http://purl.obolibrary.org/obo/MESH_E02.547
+4131	ice	http://purl.obolibrary.org/obo/ENVO_01000277
+4132	iceberg	http://purl.obolibrary.org/obo/ENVO_00000298
+4133	ice pack	http://purl.obolibrary.org/obo/ENVO_00000132
+4136	identification of pollutants	
+4137	ideology	
+4140	image processing	
+4141	IMCO code	
+4146	immission	
+4147	immission control	
+4148	immission control law	
+4149	immission damage	
+4150	immission forecast	
+4151	immission limit	
+4152	immission load	
+4154	immune system	http://purl.obolibrary.org/obo/MESH_A15.382
+4155	immunity	http://purl.obolibrary.org/obo/MESH_E02.095.520.400
+4156	immunoassay	http://purl.obolibrary.org/obo/MESH_E01.450.495.410
+4157	immunological disease	
+4158	immunology	http://purl.obolibrary.org/obo/SCTID_37523008
+4159	impact assessment	
+4160	impact minimisation	
+4161	impactor	
+4162	impact prevention	
+4163	impact source	
+4164	implementation law	
+4167	import	http://purl.obolibrary.org/obo/SCTID_159644001
+417	animal disease	http://purl.obolibrary.org/obo/MESH_D000820
+4172	impregnating agent	
+4173	impregnation (materials)	
+4177	sudden load	
+4178	impulsive noise	
+4182	incineration	http://purl.obolibrary.org/obo/MESH_G03.850.860.510.900.600.500
+4183	incineration of waste	
+4184	incinerator	http://purl.obolibrary.org/obo/MESH_G03.850.860.510.900.600.500
+4186	slope	http://purl.obolibrary.org/obo/ENVO_00002000
+4187	income	
+4189	incorporation	
+419	animal dung as fuel	
+4196	indicator	http://purl.obolibrary.org/obo/MESH_D26.600.410
+42	acid deposition	
+4200	indicator of environmental management	
+4202	indicator of environmental quality	
+4204	indigenous forest	
+4205	indigenous technology	
+4206	indirect discharger	
+4209	indoor air pollution	http://purl.obolibrary.org/obo/MESH_G03.850.460.100.080
+421	animal experiment	
+4211	indoor environment	
+4213	industrial area	
+4216	industrial association	
+4217	industrial building	http://purl.obolibrary.org/obo/ENVO_00003861
+4224	industrial crop	
+4226	industrial development	
+4227	industrial dumping	
+4228	industrial economics	
+4229	industrial effluent	
+423	animal foodstuff	
+4231	industrial emission	
+4233	industrial environmental policy	
+4234	industrial equipment	
+4238	industrial fume	
+4242	industrial installation	
+4244	industrialisation	
+4247	industrial legislation	
+4249	industrial material	
+425	animal genetics	
+4250	industrial medicine	
+4251	industrial noise	
+4253	industrial planning	
+4254	industrial plant (building)	
+4255	industrial policy	
+4256	industrial pollution	
+4257	industrial process	http://purl.obolibrary.org/obo/ExO_0000025
+4258	industrial production	
+4259	industrial production statistics	
+4260	industrial product	
+4262	industrial property right	
+4267	industrial site	http://purl.obolibrary.org/obo/SCTID_272505000
+4268	industrial sludge	
+4269	industrial society	
+4273	industrial waste	http://purl.obolibrary.org/obo/ENVO_00002267
+4274	industrial waste gas	
+4276	industrial waste water	
+4278	industrial zoning	
+4279	industry	
+428	animal housing	http://purl.obolibrary.org/obo/ENVO_00003040
+4282	inertisation	
+4283	inert waste	
+4284	infant mortality	http://purl.obolibrary.org/obo/MESH_E05.318.308.985.550.475
+4286	infection	http://purl.obolibrary.org/obo/MESH_D007239
+4288	infectious disease	http://purl.obolibrary.org/obo/SCTID_394807007
+4289	infestation of crops	
+429	animal husbandry	http://purl.obolibrary.org/obo/SCTID_133927003
+4290	infestation of food	
+4291	infiltration	http://purl.obolibrary.org/obo/SCTID_231287002
+4296	inflammable substance	
+4300	inflow	
+4302	informatics	
+4303	information	http://purl.obolibrary.org/obo/SCTID_223458004
+4307	information processing	
+4309	information service	
+4310	information source	http://purl.obolibrary.org/obo/SCTID_385438008
+4311	information system	
+4313	information technology	
+4315	infraction	
+4317	infrared radiation	http://purl.obolibrary.org/obo/SCTID_17871006
+432	animal manure	http://purl.obolibrary.org/obo/ENVO_00003031
+4320	infrasound	
+4321	infrastructure	
+4323	inhabitant	http://purl.obolibrary.org/obo/ENVO_00000062
+4325	injury	http://purl.obolibrary.org/obo/SCTID_246240008
+4326	ink	http://purl.obolibrary.org/obo/SCTID_46384008
+4329	inland fishery	
+4331	inland navigation	
+4333	inland water	http://purl.obolibrary.org/obo/SCTID_257634008
+4336	inland waterways transport	
+434	animal noise	
+4340	innovation	
+4342	inorganic chemistry	http://purl.obolibrary.org/obo/MESH_H01.181.370
+4345	inorganic fertiliser	
+4347	inorganic pollutant	
+435	animal nutrition	http://purl.obolibrary.org/obo/MESH_G06.696.116
+4350	inorganic substance	
+4354	insecticide	http://purl.obolibrary.org/obo/MESH_D05.723.491
+4359	in situ	http://purl.obolibrary.org/obo/SCTID_264031007
+4369	instrument manufacture	
+437	animal physiology	
+4371	sound insulation material	
+4374	insurance	
+4375	insurance business	
+4376	insurance coverage	
+4378	integral natural reserve	
+4382	integrated environmental protection technology	
+4383	integrated pest control	
+4386	integrated pollution control	
+4390	intensive animal husbandry	
+4391	intensive farming	
+4395	interaction of pesticides	
+4398	interchange of electronic data	
+44	acidification	
+4400	interdisciplinary research	
+4401	interest	http://purl.obolibrary.org/obo/SCTID_225469004
+4402	interest group	
+4408	interlaboratory comparison	
+441	animal production	
+4410	intermediate goods	
+4412	intermittent noise	
+4414	internal European market	
+4415	internalisation of environmental costs	
+4419	international competitiveness	
+442	animal product	
+4420	international convention	
+4423	international distribution	
+4424	international division of labour	
+443	animal protection	
+4430	international law	
+4432	internationally important ecosystem	
+4440	international river basin	
+4441	international safety	
+4442	international standardisation	
+4444	international trade	
+445	animal resource	http://purl.obolibrary.org/obo/MESH_B01.030
+4451	interpretation method	
+4454	intertidal zone	http://purl.obolibrary.org/obo/ENVO_00000316
+4455	intervention in nature and landscape	
+4466	inventory	http://purl.obolibrary.org/obo/MESH_E07
+4468	inventory of forest damage	
+4473	inversion	http://purl.obolibrary.org/obo/MESH_C23.550.210.420
+4474	inversion layer	
+4478	investment	
+448	animal for slaughter	
+4480	in vitro assay	
+4481	in vivo assay	
+4483	iodine	http://purl.obolibrary.org/obo/EO_0007547
+4485	ion exchange	http://purl.obolibrary.org/obo/MESH_H01.181.529.479
+4487	ion exchanger	http://purl.obolibrary.org/obo/MESH_H01.181.529.479
+449	animal shelter	
+4491	ionising radiation	
+4492	ionosphere	
+4493	ion	http://purl.obolibrary.org/obo/MESH_D01.248.497
+4498	iron	http://purl.obolibrary.org/obo/MESH_D01.268.556.412
+4501	iron industry	
+4503	ironwork industry	
+4504	irradiation	http://purl.obolibrary.org/obo/SCTID_359549004
+4505	irrigation	http://purl.obolibrary.org/obo/MESH_E05.510
+4507	irrigation canal	http://purl.obolibrary.org/obo/ENVO_00000036
+4509	irrigation farming	
+451	animal textile fibre	
+4514	island	http://purl.obolibrary.org/obo/ENVO_00000098
+4515	island ecosystem	
+4518	insulation (process)	
+4519	isomer	http://purl.obolibrary.org/obo/MESH_H01.181.404.705
+452	animal trade	
+4523	isotope	http://purl.obolibrary.org/obo/MESH_D01.496
+4524	ivory	http://purl.obolibrary.org/obo/PATO_0002149
+453	animal waste	http://purl.obolibrary.org/obo/ENVO_00002276
+4530	joint debtor	
+4531	joint implementation (Rio Conference)	
+4534	judicial assistance	
+4538	judiciary rule	
+454	anion	http://purl.obolibrary.org/obo/MESH_D01.248.497.158
+4541	jurisdiction	
+4543	jurisprudence	
+4545	karst	http://purl.obolibrary.org/obo/ENVO_00000175
+4548	stocking	http://purl.obolibrary.org/obo/SCTID_228184002
+4550	kerosene	http://purl.obolibrary.org/obo/MESH_G03.230.132.258.630.600
+4566	labelling	http://purl.obolibrary.org/obo/CHEBI_35209
+4567	laboratory	http://purl.obolibrary.org/obo/SCTID_261904005
+4571	laboratory experiment	
+4573	laboratory research	
+4574	laboratory technique	
+4575	laboratory waste	
+4577	labour	
+458	antagonism	
+4580	labour law	
+4581	labour market	
+4584	labour relations	
+4586	lacquer	
+4589	lagoon	http://purl.obolibrary.org/obo/ENVO_00000038
+4590	lake basin	
+4593	lake pollution	
+4594	lake	http://purl.obolibrary.org/obo/ENVO_00000020
+4597	lamp	
+4599	land	http://purl.obolibrary.org/obo/SCTID_224718008
+460	antagonistic effect of toxic substances	
+4602	land allotment	
+4603	land and property register	
+4607	land carrying capacity	
+4609	land clearing	
+4610	land conservation	
+4611	land consolidation	
+4612	land cover	
+4614	land development	
+4615	land ecology	
+4621	landfill	http://purl.obolibrary.org/obo/ENVO_00000533
+4623	landfill covering	
+4624	landfill degasification	
+4625	landfill gas	
+4626	landfill leachate	
+4628	land forming	http://purl.obolibrary.org/obo/ENVO_00000191
+4629	landform	http://purl.obolibrary.org/obo/ENVO_00000191
+463	Antarctic ecosystem	
+4633	land occupation	
+4635	land planning	
+4636	land pollution	
+4641	land reclamation	
+4644	land register	
+4646	land restoration	
+4648	landscape	
+4649	landscape after mining	
+4650	landscape alteration	
+4651	landscape architecture	
+4652	landscape component	
+4653	landscape conservation	
+4654	landscape conservation policy	
+4657	landscape ecology	
+4658	landscape management	
+4659	landscape planning	
+4660	landscape protection	
+4661	landscape protection area	
+4662	landscape consumption	
+4663	landscape utilisation	
+4666	land setup	
+4668	landslide	http://purl.obolibrary.org/obo/ENVO_00000520
+4676	land transportation	
+4678	land use	
+468	anthropic activity	
+4680	land use classification	
+4682	land use planning	
+4684	soil use regime	
+4686	land value	
+4691	large combustion plant	
+4698	laser	http://purl.obolibrary.org/obo/MESH_E07.525
+47	acidity	http://purl.obolibrary.org/obo/MESH_D01.029
+4702	laundering	http://purl.obolibrary.org/obo/SCTID_308220005
+4707	law (individual)	
+471	anthropologic reserve	
+4715	neighbourhood law	
+4719	law (science)	
+4722	leaching	http://purl.obolibrary.org/obo/ExO_0000059
+4723	lead	http://purl.obolibrary.org/obo/MESH_D01.268.556.435
+4724	lead compound	http://purl.obolibrary.org/obo/SCTID_49977007
+4725	lead contamination	
+4727	lead-in-petrol law	
+4728	lead level in blood	
+473	antibiotic	http://purl.obolibrary.org/obo/MESH_D20.085
+4731	leakage	
+4735	leather	http://purl.obolibrary.org/obo/SCTID_19627002
+4738	leather industry	
+4739	legal basis	
+474	antibody	http://purl.obolibrary.org/obo/MESH_D24.611.125
+4743	legal regulation	
+4744	legal remedy	
+4746	legal text	
+4749	legislation	
+475	anticipation of danger	
+4752	legislation on pollution	
+4758	water resources legislation	
+4759	legislative authority	
+4760	legislative competence	
+4762	legislative information	
+4764	legislature	
+4767	leisure activity	
+4771	leisure time	
+478	antifouling agent	http://purl.obolibrary.org/obo/CHEBI_51076
+4782	leukaemia	
+4784	levy	
+4785	lexicon	
+4787	liability	
+4788	liability for marine accidents	
+4789	liability for nuclear damages	
+4790	liability legislation	
+4793	library	http://purl.obolibrary.org/obo/SCTID_264366000
+4796	licencing	
+4797	licencing procedure	
+48	acidity degree	
+4805	life science	http://purl.obolibrary.org/obo/MESH_G01
+4808	lifestyle	http://purl.obolibrary.org/obo/SCTID_134436002
+4810	light	http://purl.obolibrary.org/obo/MESH_G03.230.150.410
+4814	lighting	http://purl.obolibrary.org/obo/MESH_G03.230.150.410
+4815	separator of light liquids	
+4818	lignite	
+4819	lignite mining	
+4820	lime	http://purl.obolibrary.org/obo/CHEBI_31344
+4823	limestone	http://purl.obolibrary.org/obo/ENVO_00002053
+4828	limit value	
+483	antipollution incentive	
+4830	limnology	
+4832	linear source of sound	
+4834	liner material	
+4835	line source	
+4838	lipid	http://purl.obolibrary.org/obo/MESH_D10.516
+4839	lipophilic substance	
+4840	liquefied gas	
+4843	liquid manure	
+4845	liquid waste	
+4850	literature	
+4851	literature data bank	
+4852	literature evaluation	
+4853	literature study	
+4855	lithosphere	
+4857	litter	http://purl.obolibrary.org/obo/SCTID_370553007
+4858	littoral	
+486	AOX value	
+4862	livestock	
+4863	livestock breeding	
+4864	livestock farming	
+4866	living condition	http://purl.obolibrary.org/obo/SCTID_4683004
+4867	living marine resource	
+4868	living space	
+4873	load bearing capacity	
+488	apartment block	http://purl.obolibrary.org/obo/SCTID_224633008
+4884	local finance	
+4886	teleheating	
+4888	local building material	
+4889	local passenger service	
+4891	local traffic	
+4893	location of industries	
+4897	locomotive	http://purl.obolibrary.org/obo/OBA_VT0001392
+490	apiculture	
+4902	long-distance traffic	
+4903	long-distance transport	
+4906	long-term effect	
+4907	long-term effect of pollutants	
+4908	long-term experiment	
+4909	long-term forecasting	
+4911	long-term trend	
+4913	lorry	
+4914	loss	http://purl.obolibrary.org/obo/PATO_0001999
+4916	loss of biotope	
+4917	loudness	http://purl.obolibrary.org/obo/SCTID_24547000
+4918	low-cost housing	
+492	appeal	
+4921	lower risk species (IUCN)	
+4922	low flow	http://purl.obolibrary.org/obo/PATO_0001838
+4929	low-level flight	
+493	appeal procedure	
+4931	low-level technology	
+4934	lubricant	http://purl.obolibrary.org/obo/MESH_H01.671.469
+4937	luminosity	
+4942	lye	http://purl.obolibrary.org/obo/MESH_D01.045.250.400
+4945	lymphatic system	http://purl.obolibrary.org/obo/MESH_A15.382.520
+4948	lysimetry	
+495	applied nutrition	
+4952	machine manufacture	
+4956	macroeconomic goal	
+4957	macroeconomics	
+496	applied science	
+4964	magnetic tape	
+4967	mailing list	
+4969	maintenance of environment	
+4971	major accident	
+4974	malaria	http://purl.obolibrary.org/obo/DOID_12365
+4977	malformation	http://purl.obolibrary.org/obo/PATO_0000646
+4979	malnutrition	http://purl.obolibrary.org/obo/SCTID_272588001
+498	appropriate technology	
+4984	man (society)	
+4988	management of natural resources	
+4990	management plan	
+4999	mangrove swamp	http://purl.obolibrary.org/obo/ENVO_00000057
+5000	man-made climate change	
+5003	man-nature relationship	
+5004	manpower	
+5005	manufacturing activity	
+5006	manufacturing trade	
+5007	manure	http://purl.obolibrary.org/obo/MESH_D26.025.400.600
+5009	manure production	
+501	aquaculture	
+5011	map	
+5013	mapping	
+5014	mapping of lichens	
+5018	marble	http://purl.obolibrary.org/obo/OBA_VT0010044
+5023	marginal land	
+5024	mariculture	
+5025	marina	http://purl.obolibrary.org/obo/SCTID_228169006
+5027	marine biology	http://purl.obolibrary.org/obo/MESH_G01.273.476
+5029	marine conservation area	
+503	aquatic animal	
+5030	marine ecology	
+5031	marine ecosystem	
+5032	marine engineering	http://purl.obolibrary.org/obo/SCTID_311383005
+5033	marine environment	http://purl.obolibrary.org/obo/ENVO_01000320
+5034	marine fauna	
+5035	marine fishery	
+5038	marine geology	
+5042	marine monitoring	
+5043	marine organism	
+5044	marine pollution	
+5046	marine reserve	
+5048	marine resources conservation	
+5049	marine sediment	http://purl.obolibrary.org/obo/ENVO_00002113
+505	aquatic ecosystem	
+5051	maritime law	
+5052	maritime navigation	
+5055	maritime transport	
+5056	marker	
+5057	tracer	http://purl.obolibrary.org/obo/CHEBI_35204
+5058	market	http://purl.obolibrary.org/obo/SCTID_284440009
+5061	market economy	
+5062	market form	
+5064	marketing	http://purl.obolibrary.org/obo/SCTID_284440009
+5068	market research	
+5079	mass media	
+5080	mass recreation	
+5081	separation	http://purl.obolibrary.org/obo/MESH_F01.829.263.315.500.300
+5083	mass transport (physics)	
+5086	material	http://purl.obolibrary.org/obo/SCTID_260769002
+5090	material life cycle	
+5093	materials science	
+5094	testing of materials	http://purl.obolibrary.org/obo/MESH_E05.570
+5097	mathematical analysis	
+5099	mathematical method	
+51	acid rain	http://purl.obolibrary.org/obo/ExO_0000013
+5107	maximum admissible concentration	
+5108	maximum immission concentration	
+511	aquatic organism	
+5110	meadow	http://purl.obolibrary.org/obo/ENVO_00000108
+5116	transportation mean	
+5119	measuring	http://purl.obolibrary.org/obo/ExO_0000067
+5123	measuring programme	
+5124	meat	http://purl.obolibrary.org/obo/SCTID_28647000
+5128	mechanical engineering	http://purl.obolibrary.org/obo/SCTID_106264008
+5135	medical science	
+5137	discarded medicinal drug	
+5138	medicinal plant	http://purl.obolibrary.org/obo/MESH_B06.560
+514	aquatic plant	
+5144	medicine (practice)	
+5147	Mediterranean wood	
+5148	melting	
+5150	membrane	http://purl.obolibrary.org/obo/MESH_A10.615
+5152	mental effect	
+5154	mercury	http://purl.obolibrary.org/obo/MESH_D01.268.556.504
+5155	mercury contamination	
+516	aquatic recreational amenity	
+5163	metabolism of pesticides	
+5165	metabolite	http://purl.obolibrary.org/obo/CHEBI_25212
+5167	metainformation	
+5169	metal finishing	
+517	aqueduct	http://purl.obolibrary.org/obo/ENVO_00000072
+5171	metallic mineral	
+5175	metallurgical industry	
+5178	metal oxide	
+5179	metal plating	http://purl.obolibrary.org/obo/MESH_H01.181.529.307.365.348
+518	aquifer	http://purl.obolibrary.org/obo/ENVO_00012408
+5180	metal product	
+5181	metal products industry	
+5184	metal	http://purl.obolibrary.org/obo/MESH_D01.552
+5186	metal smelting	
+5187	metal working	
+5193	meteorological disaster	
+5194	meteorological forecasting	
+5195	meteorological parameter	
+5196	meteorological phenomenon	
+5197	meteorology	http://purl.obolibrary.org/obo/MESH_G03.230.300
+5199	methane	http://purl.obolibrary.org/obo/MESH_D02.455.326.146.571
+52	acid	http://purl.obolibrary.org/obo/MESH_D01.029
+5203	methodology	
+521	arable farming	
+5210	metropolis	
+5215	microbial resource	
+5216	microbiological analysis	
+5218	microbiology	http://purl.obolibrary.org/obo/MESH_G01.273.540
+5219	microclimate	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.250.450
+5221	microclimatology	
+5222	microcomputer	
+5224	microecosystem	
+5225	microelectronics	
+5226	microfiltration	
+5229	micropollutant	
+5230	microscopy	http://purl.obolibrary.org/obo/MESH_E05.595
+5231	microwave	http://purl.obolibrary.org/obo/MESH_H01.671.768.638.605
+5234	migrant labour	
+5236	human migration	
+5243	military activities	
+5245	military air traffic	
+5254	milk	http://purl.obolibrary.org/obo/ENVO_0010129
+5258	mill	http://purl.obolibrary.org/obo/SCTID_224650005
+5261	mine	http://purl.obolibrary.org/obo/ENVO_00000076
+5262	mine filling	
+5264	mineral deposit	http://purl.obolibrary.org/obo/ENVO_01000255
+5265	mineral extraction	
+5267	mineral fibre	
+5268	mineral industry	
+5269	mineralisation	
+527	arboriculture	
+5270	mineralogy	
+5274	mineral resource	
+5277	mineral	http://purl.obolibrary.org/obo/ENVO_01000256
+5279	mineral water	
+5283	minimisation of damage	
+5286	mining district	
+5287	mining engineering	http://purl.obolibrary.org/obo/SCTID_106267001
+5288	mining geology	
+5289	mining industry	
+529	archaeological site	
+5290	mining law	
+5293	mining regulation	
+5295	mining site restoration	
+5297	mining waste	http://purl.obolibrary.org/obo/SCTID_264369007
+5298	ministerial decree	
+530	archaeology	
+5303	minority	http://purl.obolibrary.org/obo/SCTID_255606000
+5305	miscellaneous product	http://purl.obolibrary.org/obo/SCTID_10747009
+5307	miscibility	http://purl.obolibrary.org/obo/PATO_0001888
+5311	mitigation measure	
+5313	mixed farming	
+5316	mixed forest	http://purl.obolibrary.org/obo/ENVO_01000431
+5317	mixed use area	
+5318	mixing	http://purl.obolibrary.org/obo/SCTID_26242008
+5322	mobile home	http://purl.obolibrary.org/obo/SCTID_257641002
+5325	model	http://purl.obolibrary.org/obo/ExO_0000072
+5327	modelling	http://purl.obolibrary.org/obo/ExO_0000072
+5332	moisture	
+5333	molecular biology	http://purl.obolibrary.org/obo/MESH_G01.273.343.595
+5343	monetary assessment	
+5346	monitoring	http://purl.obolibrary.org/obo/SCTID_159057005
+5347	monitoring criterion	
+5348	monitoring data	
+5349	monitoring equipment	http://purl.obolibrary.org/obo/SCTID_284036006
+5350	monitoring network	
+5352	monitoring station	
+5353	monitoring system	
+5354	monitoring technique	
+5357	monopoly	
+5360	monument	
+5362	moor	http://purl.obolibrary.org/obo/ENVO_00000231
+5364	moral persuasion	
+5369	morphology	http://purl.obolibrary.org/obo/SCTID_263624003
+5371	mortality	http://purl.obolibrary.org/obo/MESH_E05.318.308.985.550
+538	architecture	
+5384	motorcycle	
+5388	motor fuel	
+5390	motor vehicle	
+5391	motor vehicle emission	
+5392	motor vehicle exhaust gas	
+5393	motor vehicle industry	
+5395	motorway	
+54	acoustic filter	
+5401	mountain	http://purl.obolibrary.org/obo/ENVO_00000081
+5403	mountain ecosystem	
+5404	mountaineering	http://purl.obolibrary.org/obo/ENVO_00000081
+5405	mountainous area	
+5409	mountain range	http://purl.obolibrary.org/obo/ENVO_00000080
+541	Arctic ecosystem	
+5412	mowing	
+5415	mud flat	http://purl.obolibrary.org/obo/ENVO_00000192
+5417	mud (sediment)	
+5418	mulch	
+5421	multinational firm	
+5424	multiple use management area	
+5428	municipal cleansing	
+5429	municipal cleansing service	
+5430	municipal environmental policy	
+5432	municipal law	
+5437	municipal waste	
+5439	municipal water distribution system	
+544	distribution area	
+5440	municipal water management	
+5443	muscular system	
+5444	museum	http://purl.obolibrary.org/obo/SCTID_264370008
+5449	music	
+5450	mussel farming	
+5456	mutagenicity	http://purl.obolibrary.org/obo/MESH_D05.569.468
+5457	mutagenicity testing	http://purl.obolibrary.org/obo/MESH_E05.393.560
+5459	mutagen	http://purl.obolibrary.org/obo/MESH_D05.569.468
+5461	mutated micro-organisms release	
+5463	mycology	http://purl.obolibrary.org/obo/MESH_G01.273.540.553
+547	area of potential pollution	
+5474	national conservation programme	
+5475	national economy	
+5476	national environmental accounting	
+5478	cultural goods	
+5479	nationalisation	
+5482	national legislation	
+5484	national park	http://purl.obolibrary.org/obo/ENVO_00000367
+5489	national reserve	
+5494	natural area	
+5496	natural disaster	http://purl.obolibrary.org/obo/MESH_G03.230.100.200
+5497	natural drainage system	
+5498	natural environment	http://purl.obolibrary.org/obo/SCTID_224803003
+55	acoustic insulation	http://purl.obolibrary.org/obo/SCTID_84211006
+5500	natural fertiliser	
+5501	natural fibre	
+5502	natural forest	
+5503	natural gas	http://purl.obolibrary.org/obo/EO_0007555
+5504	natural gas exploration	
+5505	natural gas extraction	
+5506	natural hazard	
+5507	natural heritage	
+5508	rights of nature	
+551	arid land ecosystem	
+5510	natural material	http://purl.obolibrary.org/obo/SCTID_260786008
+5511	natural monument	http://purl.obolibrary.org/obo/ENVO_00000359
+5513	natural park	
+5518	natural radioactivity	
+552	arid land	
+5520	natural resource conservation	http://purl.obolibrary.org/obo/MESH_G03.230.080
+5521	natural resource	
+5523	natural scenery	
+5524	natural science	http://purl.obolibrary.org/obo/MESH_H01
+5529	natural stone	
+5530	natural value	
+5537	nature conservation	
+5538	nature conservation legislation	
+5539	nature conservation programme	
+5544	nature protection	
+5545	nature reserve	http://purl.obolibrary.org/obo/ENVO_00000363
+5547	nausea	http://purl.obolibrary.org/obo/MESH_D009325
+5550	navigational hazard	
+5554	necrosis	http://purl.obolibrary.org/obo/MESH_C23.550.717
+5555	need	http://purl.obolibrary.org/obo/SCTID_410525008
+5559	neighbourhood improvement scheme	
+5569	nervous system	http://purl.obolibrary.org/obo/MESH_A08
+557	armament conversion	
+5571	net resource depletion	
+5572	netting policy (emissions trading)	
+5575	neurotoxicity	http://purl.obolibrary.org/obo/DOID_3602
+5577	neutralisation	
+5580	new community	
+5581	new installation	
+5583	new material	
+5585	new technology	
+5589	nickel	http://purl.obolibrary.org/obo/MESH_D01.268.556.607
+5593	nitrate	http://purl.obolibrary.org/obo/MESH_D01.248.497.158.606
+5598	nitrification	
+560	aromatic compound	http://purl.obolibrary.org/obo/CHEBI_33655
+5601	nitrite	http://purl.obolibrary.org/obo/MESH_D01.248.497.158.635
+5604	nitro compound	http://purl.obolibrary.org/obo/MESH_D02.640
+5605	nitrogen	http://purl.obolibrary.org/obo/MESH_D01.268.604
+5608	nitrogen dioxide	http://purl.obolibrary.org/obo/MESH_D01.362.635.600
+5611	nitrogen fixation	http://purl.obolibrary.org/obo/MESH_G04.185.515.120.600
+5612	nitrogen monoxide	http://purl.obolibrary.org/obo/MESH_D01.339.387
+5613	nitrogen oxides	http://purl.obolibrary.org/obo/MESH_D01.362.635
+5618	nitrosamine	http://purl.obolibrary.org/obo/MESH_D02.654.442
+562	aromatic hydrocarbon	http://purl.obolibrary.org/obo/MESH_D02.455.426.559
+5623	NOEL	
+5624	noise	http://purl.obolibrary.org/obo/MESH_G03.230.400
+5626	noise abatement	
+5629	noise analysis	
+5630	noise barrier	
+5631	noise control	
+5633	noise disturbance	
+5635	noise emission	
+5637	noise emission levy	
+5638	noise-free technology	
+564	aromatic substance	
+5640	noise immission	
+5643	noise legislation	
+5644	noise level	
+5646	noise measurement	
+5648	noise monitoring	
+5650	noise pollutant	
+5651	noise pollution	
+5653	noise protection	
+5654	noise reduction	
+5658	noise type	http://purl.obolibrary.org/obo/MESH_G03.230.400
+566	arrangement for a deposit on packaging	
+5662	nomad	
+5664	nomenclature	
+5666	non-biodegradable pollutant	
+5667	non-built-up area	
+5668	non-conventional energy	
+5669	non-ferrous metal industry	
+567	arsenic	http://purl.obolibrary.org/obo/MESH_D01.075
+5670	non-ferrous metal	http://purl.obolibrary.org/obo/SCTID_264879001
+5674	non-ionising radiation	
+5675	non-metallic mineral	
+5676	non-metal	http://purl.obolibrary.org/obo/CHEBI_25585
+5677	non-polluting energy source	
+5679	non-polluting fuel	
+568	art	
+5684	non-renewable energy resource	
+5685	non-renewable resource	
+5686	non-residential building	
+5687	non-returnable container	
+5690	norm	
+5691	normalisation	
+57	acoustic level	
+5701	novel food	
+5708	nuclear accident	http://purl.obolibrary.org/obo/MESH_G03.850.110.250.250
+5712	nuclear energy	http://purl.obolibrary.org/obo/MESH_G03.230.132.580
+5713	nuclear energy legislation	
+5714	nuclear energy use	
+5718	nuclear explosion (accident)	
+5721	nuclear facility	
+5722	nuclear fission	http://purl.obolibrary.org/obo/MESH_G03.230.132.580.500
+5724	nuclear fuel	http://purl.obolibrary.org/obo/CHEBI_35231
+5727	nuclear fuel element	
+5728	nuclear fusion	http://purl.obolibrary.org/obo/MESH_G03.230.132.580.520
+5733	nuclear physics	http://purl.obolibrary.org/obo/MESH_H01.671.579
+5734	nuclear debate	
+5736	nuclear power plant	http://purl.obolibrary.org/obo/ENVO_00002271
+5737	nuclear power plant disposal	
+5741	nuclear reaction	
+5742	nuclear reactor	http://purl.obolibrary.org/obo/MESH_H01.671.579.694
+5745	nuclear research centre	
+5746	nuclear safety	
+5747	nuclear test	
+5750	nuclear weapon	
+5751	nucleic acid	http://purl.obolibrary.org/obo/MESH_D13.444
+5752	nuisance	
+5755	nursery (plant breeding)	
+5756	nutrient medium	
+5758	nutrient content	
+5761	nutrient removal	
+5765	nutrition	http://purl.obolibrary.org/obo/MESH_G02.513
+5769	nutritive value of food	
+5774	oak	
+5776	objection	http://purl.obolibrary.org/obo/SCTID_272734009
+5777	obligation to inform	
+5778	obligation to label	
+5781	occupational disease	http://purl.obolibrary.org/obo/MESH_D009784
+5783	occupational group	
+5784	occupational health	http://purl.obolibrary.org/obo/MESH_G02
+5785	occupational health care	
+5786	occupational medicine	http://purl.obolibrary.org/obo/MESH_G02.403.776.630.510
+5787	occupational safety	
+5788	occupational safety regulation	
+5789	ocean	http://purl.obolibrary.org/obo/ENVO_00000015
+579	artificial lake	http://purl.obolibrary.org/obo/ENVO_00000377
+5791	ocean circulation	
+5792	ocean current	http://purl.obolibrary.org/obo/ENVO_00000147
+5793	ocean dumping	
+5797	oceanography	http://purl.obolibrary.org/obo/MESH_H01.374.572
+5799	ocean temperature	
+5804	odour	http://purl.obolibrary.org/obo/TO_0000087
+5806	odour nuisance	
+5809	environmental criminality	
+5810	office	http://purl.obolibrary.org/obo/SCTID_257649000
+5812	official hearing	
+5814	off-peak commuting	
+5816	off-peak travelling	
+5818	off-peak working	
+5820	offset policy (emissions trading)	
+5823	offshore mining	
+5824	offshore oil drilling	
+5825	off-site	
+5827	oil binding agent	
+5829	oil-based energy	
+5830	oil boom	
+5831	oil disaster	
+5833	oil exploration	
+5834	oil extraction	
+5835	oil and fat industry	
+5836	oil pipeline	
+5837	oil pollution	
+5838	oil pollution abatement	
+5839	oil recovery vessel	
+5840	oil refinery	
+5841	oil refining	
+5843	oil residue recuperation	
+5847	oil shale	http://purl.obolibrary.org/obo/CHEBI_80506
+5848	oil slick	
+5852	oil spill	http://purl.obolibrary.org/obo/ENVO_00002061
+5854	oil tanker	
+5856	old landfill site	
+5857	polluted site	
+5858	antiquated plant	
+5862	olfactory pollution	
+5863	olfactometry	
+5869	onchocerciasis	http://purl.obolibrary.org/obo/DOID_11678
+587	artificial satellite	
+5870	oncology	http://purl.obolibrary.org/obo/SCTID_3428006
+5874	opencast mining	
+5875	open sea fishing	
+5877	operating data	
+5880	opinion	
+5885	installation optimisation	
+5887	ore	http://purl.obolibrary.org/obo/CHEBI_29287
+5890	organ	http://purl.obolibrary.org/obo/ENVO_01000162
+5892	organic carbon	
+5893	organic chemistry	http://purl.obolibrary.org/obo/MESH_H01.181.404
+5897	organic farming	
+59	acoustic property	
+5902	organic pollutant	
+591	asbestos	http://purl.obolibrary.org/obo/MESH_D01.578.725.050
+5910	organic solvent	
+5912	organic substance	
+5913	organic waste	http://purl.obolibrary.org/obo/ENVO_00002873
+5921	organochlorine compound	http://purl.obolibrary.org/obo/CHEBI_36683
+5924	organohalogen compound	http://purl.obolibrary.org/obo/CHEBI_36684
+5927	organometallic compound	http://purl.obolibrary.org/obo/MESH_D02.691
+5928	organonitrogen compound	http://purl.obolibrary.org/obo/CHEBI_35352
+5929	organooxygen compound	http://purl.obolibrary.org/obo/CHEBI_36963
+5931	organophosphorous compound	
+5935	organosilicon compound	http://purl.obolibrary.org/obo/MESH_D02.715
+5936	organosulphur compound	
+5937	organotin compound	http://purl.obolibrary.org/obo/MESH_D02.691.850
+594	asbestos cement	
+5944	orography	
+5949	osmosis	http://purl.obolibrary.org/obo/MESH_G06.184.708
+5953	local recreation	
+5956	overburden	
+5957	overcrowding	
+5958	overexploitation	
+5959	overfertilisation	
+596	ash	http://purl.obolibrary.org/obo/SCTID_256251001
+5960	overfishing	
+5962	overgrazing	
+5963	overhead power line	
+5965	overpopulation	
+5967	overturn (limnology)	
+5971	ownership	
+5972	oxidation	http://purl.obolibrary.org/obo/MESH_D01.248.497.158.685
+5976	oxidation-reduction	http://purl.obolibrary.org/obo/MESH_G06.535.335.531
+5978	oxide	http://purl.obolibrary.org/obo/MESH_D01.248.497.158.685
+5980	oxidising agent	http://purl.obolibrary.org/obo/CHEBI_63248
+5982	oxygen	http://purl.obolibrary.org/obo/MESH_D01.268.185.550
+5983	oxygenation	http://purl.obolibrary.org/obo/MESH_D01.268.185.550
+5986	oxygen content	
+5987	oxygen deficiency	http://purl.obolibrary.org/obo/TO_0000015
+5991	ozone	http://purl.obolibrary.org/obo/MESH_D01.268.185.550.500
+5992	ozone depletion potential	
+5993	ozone layer	
+5994	ozone layer depletion	
+5995	ozonisation	
+5999	packaging	
+60	acoustics	http://purl.obolibrary.org/obo/MESH_H01.671.031
+6001	packaging waste	
+6007	paint	http://purl.obolibrary.org/obo/SCTID_36864000
+6009	painting business	
+6012	paint shop	
+6013	palaeontology	
+6023	paper	
+6026	paper industry	
+6033	parameter	http://purl.obolibrary.org/obo/SCTID_246446004
+6038	parasitology	http://purl.obolibrary.org/obo/MESH_G01.273.688
+6046	car park	http://purl.obolibrary.org/obo/SCTID_257579003
+6047	parking provision	
+6051	participation	
+6055	particle separator	
+6059	passenger transport	
+6061	pasture	http://purl.obolibrary.org/obo/ENVO_00000266
+6062	paste-like waste	
+6063	pathogen	
+6064	pathogenic organism	http://purl.obolibrary.org/obo/SCTID_264418008
+6065	pathologic effect	
+6066	pathology	http://purl.obolibrary.org/obo/MESH_G02.403.776.600
+6068	pattern of urban growth	
+607	association	http://purl.obolibrary.org/obo/SCTID_263534001
+6081	peat	http://purl.obolibrary.org/obo/ENVO_00005774
+6084	peat extraction	
+6092	pedestrian zone	
+6094	pedosphere	
+6103	penalty	
+6106	pentachlorophenol	http://purl.obolibrary.org/obo/MESH_D02.755.190.633
+6107	per capita data	
+6109	perchloroethylene	http://purl.obolibrary.org/obo/CHEBI_17300
+611	astronautics	
+6111	percolating water	
+6115	periphyton	
+6118	permafrost ecosystem	
+612	astronomy	http://purl.obolibrary.org/obo/MESH_H01.091
+6120	permeability	http://purl.obolibrary.org/obo/MESH_H01.181.529.687
+6123	permissible exposure limit	
+6128	peroxyacetylnitrate	
+6129	persistence	http://purl.obolibrary.org/obo/SCTID_130965009
+6131	persistence of pesticides	
+6138	pest	
+6139	pest control	http://purl.obolibrary.org/obo/MESH_G03.850.780.200.650
+6140	pesticide	http://purl.obolibrary.org/obo/MESH_D05.723
+6143	pesticide control standard	
+6144	pesticide pathway	
+6146	residual pesticide	http://purl.obolibrary.org/obo/MESH_D05.723.697
+6149	pest infestation	
+6152	pet	http://purl.obolibrary.org/obo/MESH_B01.030.116
+6154	petrochemical industry	
+6156	petrol	
+616	atlas	http://purl.obolibrary.org/obo/MESH_A02.835.232.834.151.213
+6161	petroleum	http://purl.obolibrary.org/obo/ENVO_00002984
+6162	petroleum consumption	
+6163	petroleum geology	
+6164	petroleum industry	
+6169	conservation of petroleum resources	
+617	atmosphere	http://purl.obolibrary.org/obo/ENVO_01000267
+6177	pharmaceutical industry	
+6179	pharmaceutical waste	
+6180	pharmacokinetics	http://purl.obolibrary.org/obo/MESH_G06.535.780
+6181	pharmacology	http://purl.obolibrary.org/obo/MESH_G01.703
+6183	phenol	http://purl.obolibrary.org/obo/MESH_D02.755
+6184	pheromone	http://purl.obolibrary.org/obo/MESH_D24.185.641
+6187	philosophy	
+6189	phosphate	http://purl.obolibrary.org/obo/MESH_D01.248.497.158.730
+6190	phosphate removal	
+6192	phosphate substitute	
+6196	phosphorus	http://purl.obolibrary.org/obo/MESH_D01.268.666
+6197	photochemical agent	
+6198	photochemical effect	
+6199	photochemical oxidant	http://purl.obolibrary.org/obo/MESH_D05.284.101.143.631
+6200	photochemical product	
+6201	photochemical reaction	
+6202	photochemical smog	
+6204	photogrammetry	http://purl.obolibrary.org/obo/MESH_E01.370.350.600.630
+6205	photograph	http://purl.obolibrary.org/obo/SCTID_159095000
+621	atmospheric chemistry	
+6211	photosynthesis	http://purl.obolibrary.org/obo/MESH_G04.742.600
+622	atmospheric circulation	
+6221	physical conditions	
+6222	physical geography	
+6224	physical oceanography	
+6225	physical planning	
+6226	physical pollutant	
+6227	physical pollution	
+623	atmospheric component	
+6230	physical science	http://purl.obolibrary.org/obo/MESH_H
+6233	physicochemical process	
+6234	physicochemical purification	
+6235	physics	http://purl.obolibrary.org/obo/MESH_H01.671
+624	atmospheric composition	
+6240	physiology	http://purl.obolibrary.org/obo/MESH_G01.782
+6244	phytopathology	
+6247	phytoplankton	http://purl.obolibrary.org/obo/MESH_B01.841.637
+6248	phytosociology	
+625	atmospheric emission	
+6250	phytotoxicity	
+6252	pickling plant	
+6253	satellite image	
+626	atmospheric humidity	
+6261	pilotage	
+6262	pilot plant	
+6263	pilot project	http://purl.obolibrary.org/obo/MESH_E05.318.760.750
+627	atmospheric layering	
+6270	pipeline	
+6274	pipe	
+6276	plain	http://purl.obolibrary.org/obo/ENVO_00000086
+6279	plan	http://purl.obolibrary.org/obo/SCTID_397943006
+6280	plane source	
+6282	plankton	http://purl.obolibrary.org/obo/MESH_B01.766
+6285	planned urban development	
+629	atmospheric model	
+6290	planning law	
+6291	planning measure	
+6293	Planning-Programming-Budgeting System	
+6298	plant breeding	
+6304	plant disease	http://purl.obolibrary.org/obo/MESH_G04.742.675
+6305	plant equipment	
+6307	plant genetics	
+6309	plant health care	
+631	atmospheric monitoring	
+6310	plant protection product	
+6313	planting	http://purl.obolibrary.org/obo/MESH_B06
+6316	plant physiology	http://purl.obolibrary.org/obo/MESH_G04.742
+6318	plant protection	
+6319	testing of plant protection products	
+632	atmospheric ozone	
+6325	plant textile fibre	
+6326	plant trade	
+6327	plasma technology	
+6329	plastic	http://purl.obolibrary.org/obo/ENVO_01000404
+633	atmospheric particulate	
+6336	plastic waste	
+6338	platinum	http://purl.obolibrary.org/obo/MESH_D01.268.556.690
+6339	playground	
+634	atmospheric physics	
+6346	plutonium	http://purl.obolibrary.org/obo/MESH_D01.268.033.700
+6355	poaching	
+6357	point source	
+6358	poison	http://purl.obolibrary.org/obo/MESH_D011041
+6359	poisoning	http://purl.obolibrary.org/obo/MESH_D011041
+636	atmospheric pollution	
+6362	polar ecosystem	
+6364	polar region	http://purl.obolibrary.org/obo/ENVO_01000238
+6365	polder	http://purl.obolibrary.org/obo/ENVO_00000286
+6368	police law	
+637	atmospheric precipitation	
+6376	conservation policy	
+6382	political ecology	
+639	atmospheric process	
+6395	pollutant	http://purl.obolibrary.org/obo/SCTID_102410009
+6396	pollutant absorption	
+6397	pollutant accumulation	
+6399	pollutant analysis	
+640	atmospheric science	
+6400	pollutant assessment	
+6402	pollutant behaviour	
+6404	pollutant concentration	
+6405	pollutant degradation	
+6406	pollutant deposition	
+6407	pollutant dispersion	
+6409	pollutant distribution	
+641	atmospheric structure	
+6412	pollutant elimination	
+6413	pollutant emission	
+6414	pollutant exposure	http://purl.obolibrary.org/obo/SCTID_102420004
+6415	pollutant formation	
+6417	pollutant immission	
+6418	pollutant immobilisation	
+6421	pollutant level	
+6422	pollutant load	
+6423	pollutant mobilisation	
+6425	pollutant monitoring	
+6428	pollutant pathway	
+6429	pollutant reduction	
+6430	pollutant remobilisation	
+6438	pollutant source identification	
+6441	polluted matter	
+6443	polluter-pays principle	
+6445	pollution	http://purl.obolibrary.org/obo/SCTID_102410009
+6446	pollution abatement	
+6447	pollution abatement equipment	
+6451	pollution control	
+6452	pollution control equipment	
+6453	pollution control regulation	
+6454	pollution control technology	
+6458	pollution criterion	
+6459	pollution effect	
+6462	pollution indicator	
+6464	pollution liability	
+6465	pollution load	
+6467	pollution measurement	
+6469	pollution monitoring	
+6470	pollution norm	
+6472	pollution risk	
+6473	pollution sink	
+6474	source of pollution	
+6481	polybrominated biphenyl	http://purl.obolibrary.org/obo/MESH_D02.455.426.559.389.185.680
+6485	polychlorinated biphenyl	http://purl.obolibrary.org/obo/MESH_D02.455.426.559.389.185.698
+6486	polychlordibenzo-p-dioxin	
+6487	polychlorinated dibenzofuran	
+6488	polychlorinated terphenyl	
+6492	polycyclic aromatic hydrocarbon	http://purl.obolibrary.org/obo/MESH_D04.615
+6493	polycyclic hydrocarbon	http://purl.obolibrary.org/obo/MESH_D04
+6497	polyethylene terephtalate	
+6498	polymerisation	
+6499	polymer	http://purl.obolibrary.org/obo/MESH_D25.720
+6505	polyvinyl chloride	http://purl.obolibrary.org/obo/MESH_D02.455.326.271.884.533.565
+6507	pond	http://purl.obolibrary.org/obo/ENVO_00000033
+6508	tailings pond	
+6510	pool	http://purl.obolibrary.org/obo/SCTID_69297003
+6517	population distribution	
+6520	population ecology	
+6523	population growth	http://purl.obolibrary.org/obo/MESH_G03.850.505.400.700.660
+6525	population movement	
+6527	population structure	http://purl.obolibrary.org/obo/SCTID_385436007
+6528	population trend	
+6536	post-treatment	
+6540	potash	
+6541	rock salt mining	
+6548	poultry	http://purl.obolibrary.org/obo/MESH_B02.248.617
+6549	poultry farming	
+6551	poverty	http://purl.obolibrary.org/obo/ExO_0000015
+6552	power company	
+6558	power-heat relation	
+6561	power station	http://purl.obolibrary.org/obo/SCTID_284558000
+6570	precipitation (chemical)	
+6579	prefabricated building	
+658	audiovisual media	
+6583	preliminary proceedings	
+6584	premium	
+6586	preservation of evidence	
+6587	preservative	http://purl.obolibrary.org/obo/SCTID_277405005
+6588	preserve	http://purl.obolibrary.org/obo/SCTID_277405005
+6591	press	
+6592	pressing	
+6594	pressure group	
+66	actinide	http://purl.obolibrary.org/obo/CHEBI_33320
+6600	preventive health measure	
+6602	price	
+6607	pricing policy of resources	
+6610	primary education	
+6614	primary energy consumption	
+6619	primary sector	
+6622	primary forest	
+6623	precautionary principle	
+6624	principle of sustainability	
+6627	printing industry	
+6630	printing work	
+6631	prior informed consent	
+6632	prior notification for hazardous waste transport	
+6634	private car	
+6636	private household	
+6637	private law	
+6640	private sector	
+6641	private transport	
+6643	privatisation	
+6647	procedural law	
+665	automatic detection	
+6650	processing	http://purl.obolibrary.org/obo/ExO_0000023
+6654	process technology	
+6655	process water	
+6658	producer liability	
+6660	product	
+6661	product comparison	
+6662	product evaluation	http://purl.obolibrary.org/obo/SCTID_386398003
+6663	product identification	
+6664	product information	
+6670	productivity	
+6672	productivity trend	
+6675	product liability	
+6676	product standard	
+6678	profit	
+668	automobile industry	
+6681	prognostic data	
+6708	progress line	
+6718	propagation process	
+6720	propellant	http://purl.obolibrary.org/obo/CHEBI_76414
+6724	properties of materials	
+6728	property protection	
+6736	propulsion technique	
+6737	prosecution	
+6739	prosperity	http://purl.obolibrary.org/obo/CHEBI_9242
+6740	protected area	http://purl.obolibrary.org/obo/ENVO_00000358
+6743	protected landscape	
+6746	protected species	
+6747	water protection area	
+6749	protection from neighbours	
+6750	protection of birds	
+6752	protection of species	
+6753	protection system	
+6755	protein	http://purl.obolibrary.org/obo/MESH_D12.776
+6758	protocol	http://purl.obolibrary.org/obo/SCTID_258049002
+6773	psychic effect	
+6774	psychological effect	
+6775	psychological stress	http://purl.obolibrary.org/obo/MESH_F01.145.126.990
+6776	psychology	http://purl.obolibrary.org/obo/SCTID_60224009
+6777	psychosomatic effect	
+6778	psychosomatic illness	
+678	avalanche	http://purl.obolibrary.org/obo/SCTID_82145005
+6785	public action	
+6787	public bath	
+6788	public building	http://purl.obolibrary.org/obo/SCTID_257674002
+6790	public domain	
+6791	public emergency limit	
+6793	public finance	
+6794	public financing	
+6798	public health	http://purl.obolibrary.org/obo/MESH_G02.403.776.630.560
+6799	public hearing	
+68	actinium	http://purl.obolibrary.org/obo/MESH_D01.268.033.033
+680	avalanche protection	
+6801	public information	
+6802	public law	
+6804	public opinion	
+6805	public opinion polling	
+6806	public park	http://purl.obolibrary.org/obo/SCTID_257677009
+6808	public participation	
+6810	public procurement	
+6815	traffic route construction	
+6816	public sector	
+6817	public service	
+6818	public transport	
+6821	public transport vehicle	
+6822	public utility	http://purl.obolibrary.org/obo/SCTID_257678004
+6824	public works	
+6827	pulmonary disease	
+6828	pulp	
+6830	pulp industry	
+6831	pump	
+6833	pumping	
+6835	purchase	
+6838	purification	
+6841	purification facility	
+6842	purification plant	
+6846	purin	http://purl.obolibrary.org/obo/MESH_D03.438.759
+685	aviation law	
+6855	pyrolysis	
+6859	quality assurance	
+6860	quality control	
+6861	quality of life	
+6867	quarry	http://purl.obolibrary.org/obo/ENVO_00000284
+6870	quarrying	http://purl.obolibrary.org/obo/ENVO_00000284
+6882	race relations	
+6883	radar	
+6884	radiation	http://purl.obolibrary.org/obo/MESH_H01.671.768
+6887	radiation damage	
+6888	radiation dose	
+6889	radiation effect	http://purl.obolibrary.org/obo/MESH_G03.850.810.300
+6890	radiation exposure	http://purl.obolibrary.org/obo/SCTID_218190002
+6892	radiation monitoring	http://purl.obolibrary.org/obo/MESH_E05.799.638
+6894	radiation physics	
+6896	radiation protection	http://purl.obolibrary.org/obo/MESH_G03.850.810.425
+6897	radiation protection law	
+6899	radiation sickness	http://purl.obolibrary.org/obo/MESH_C21.866.733
+6901	radio	http://purl.obolibrary.org/obo/SCTID_360004001
+6904	radioactive contamination	
+6908	radioactive decontamination	
+6909	radioactive dumping	
+6911	radioactive emission	
+6912	radioactive fallout	http://purl.obolibrary.org/obo/MESH_D05.284.638.555
+6915	radioactive pollutant	http://purl.obolibrary.org/obo/MESH_D05.284.638
+6918	radioactive substance	
+6919	radioactive tracer	http://purl.obolibrary.org/obo/MESH_D01.496.749.731
+6920	radioactive tracer technique	
+6921	radioactive waste	http://purl.obolibrary.org/obo/MESH_D05.284.638.638
+6923	radioactive waste management	
+6925	radioactivity	http://purl.obolibrary.org/obo/MESH_H01.671.579.826
+6928	radionuclide	
+693	background level	
+6935	radon	http://purl.obolibrary.org/obo/MESH_D01.268.271.800
+6937	rag	
+6939	railroad vehicle	
+6940	rail traffic	
+6941	rail transport	
+6942	railway	http://purl.obolibrary.org/obo/ENVO_00000065
+6947	rain	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.725.450
+6949	rain forest	http://purl.obolibrary.org/obo/ENVO_00000109
+695	background radiation	http://purl.obolibrary.org/obo/MESH_H01.671.768.513.115
+6950	rainout	
+6951	rain water	
+6953	raising a site	
+6959	random test	
+6962	rape (plant)	
+6963	rapid transit train	
+6965	rare species	
+6967	raw material	
+6968	raw material consumption	
+6970	raw material securing	
+6975	reaction kinetics	
+6977	reactor	
+6978	reactor safety	
+6979	reforestation	
+6982	reasonableness	
+6989	recommendation	http://purl.obolibrary.org/obo/SCTID_420227002
+699	bacterial bed	
+6992	recording of substances	
+6997	recovery of landscape	
+6999	fauna restoration	
+7	abandoned industrial site	
+700	bactericide	http://purl.obolibrary.org/obo/CHEBI_33282
+7000	recovery plan	
+7001	recreation	
+7003	recreational area	
+7009	recyclability	
+7010	recyclable plastic	
+7012	recycled material	
+7014	recycled paper	
+7015	recycling	
+7018	life-cycle management	
+7019	recycling management and waste law	
+702	bacteriology	http://purl.obolibrary.org/obo/MESH_G01.273.540.177
+7021	recycling potential	
+7023	recycling ratio	
+7029	red tide	http://purl.obolibrary.org/obo/ENVO_01000057
+7030	chemical reduction	
+7034	reef	http://purl.obolibrary.org/obo/ENVO_00000130
+7035	refinery	
+7036	refining	
+7038	reflectometry	
+7042	refrigerant	http://purl.obolibrary.org/obo/MESH_E01.450.865.366.643
+7043	refrigeration industry	
+7044	refrigeration	http://purl.obolibrary.org/obo/MESH_E01.450.865.366.643
+7045	refrigerator	http://purl.obolibrary.org/obo/MESH_E01.450.865.366.643
+7046	refuge	http://purl.obolibrary.org/obo/SCTID_161157008
+7047	refugee	http://purl.obolibrary.org/obo/SCTID_161157008
+7050	refuse collection vehicle	
+7051	refuse derived fuel	
+7056	refuse-sludge compost	
+7057	regeneration	http://purl.obolibrary.org/obo/MESH_G04.185.753
+7058	retrofitting of old plants	
+7063	regional convention	http://purl.obolibrary.org/obo/SCTID_255333006
+7070	regional law	
+7073	regional plan	http://purl.obolibrary.org/obo/SCTID_397943006
+7077	regional regulation	
+7079	regional statistics	http://purl.obolibrary.org/obo/MESH_E05.318.740
+7083	registration proceeding	
+7084	renewable raw material	
+7086	regulation on maximum permissible limits	
+7087	ordinance	
+7089	regulative law	
+709	balance (economic)	
+7090	regulatory control	
+7091	rehabilitation	http://purl.obolibrary.org/obo/MESH_E02.831
+7092	rehousing	http://purl.obolibrary.org/obo/SCTID_160750008
+7093	reintroduction	
+7097	release of organisms	
+7099	religion	
+71	action group	
+710	balancing of interests	
+7102	remote sensing	
+7104	renaturation	
+7107	renewable energy source	
+7108	renewable resource	
+7112	repair business	
+7115	replacement cost	
+7116	reporting process	
+7119	reprocessing	
+7126	rescue service	
+7127	research	http://purl.obolibrary.org/obo/MESH_H01.770.644
+7129	research centre	
+7135	research project	
+7137	biological reserve	
+7138	reservoir	http://purl.obolibrary.org/obo/ENVO_00000025
+7143	residential area	
+7144	residential building	
+7146	residential area with traffic calmings	
+7149	residual amount of water	
+7155	residual risk	
+7156	residual waste	
+7159	residue analysis	
+716	banking	http://purl.obolibrary.org/obo/ENVO_00000141
+7160	residue recycling	
+7161	resin	
+7167	resorption	
+7168	resource	
+7169	resource appraisal	
+7170	resource conservation	
+7172	resource exploitation	
+7173	resource reserve	
+7175	resources management	
+7179	respiratory disease	
+718	sewage spreading prohibition	
+7180	respiratory protection apparatus	
+7181	respiratory system	http://purl.obolibrary.org/obo/MESH_A04
+7182	respiratory tract	http://purl.obolibrary.org/obo/SCTID_321667001
+7185	impact reversal	
+7188	restoration	http://purl.obolibrary.org/obo/SCTID_260938008
+7189	restoration measure	
+719	barium	http://purl.obolibrary.org/obo/MESH_D01.268.552.050
+7191	restriction of production	
+7193	retail trade	
+7194	retarding basin	
+7195	retrofitting	
+7197	return to nature	
+7198	reusable container	
+72	activated carbon	
+7201	reuse of materials	
+7202	revegetation	
+7204	reverse osmosis	
+7214	rice	http://purl.obolibrary.org/obo/SCTID_67324005
+7222	right to information	
+7227	rinsing	
+7230	riparian zone	
+7231	rising (geological)	
+7232	rising sea level	
+7233	risk	http://purl.obolibrary.org/obo/MESH_E05.318.740.600.800
+7235	risk analysis	
+7236	risk assessment	http://purl.obolibrary.org/obo/MESH_E05.318.740.600.800.715
+7237	risk-benefit analysis	
+7238	risk communication	
+7240	risk perception	
+7241	risk reduction	
+7244	river	http://purl.obolibrary.org/obo/ENVO_00000022
+7251	river basin development	
+7257	river channelling	
+726	baseline monitoring	
+7266	river pollution	
+7269	river water	http://purl.obolibrary.org/obo/SCTID_421665008
+7272	road	http://purl.obolibrary.org/obo/ENVO_00000064
+7276	road construction	
+7279	road maintenance	
+728	base (chemical)	
+7282	road safety	
+7283	road salt	
+7293	road traffic	
+7295	road traffic engineering	
+7296	road transport	
+7298	rock	http://purl.obolibrary.org/obo/ENVO_00001995
+73	activated sludge	http://purl.obolibrary.org/obo/ENVO_00002046
+730	basic food requirement	
+7302	rock wool	
+731	basicity	
+7314	rotary furnace	
+7319	route	http://purl.obolibrary.org/obo/SCTID_260670006
+7320	route planning	
+7324	rubber	http://purl.obolibrary.org/obo/MESH_D25.720.327.840
+7326	rubber processing	
+7327	rubber processing industry	
+7328	rubber waste	
+7340	runoff	
+7345	rural area	
+7348	rural environment	http://purl.obolibrary.org/obo/SCTID_224804009
+7352	rural population	
+7353	rural settlement	
+7354	agritourism	
+7355	rural water supply	
+736	batch process	
+7362	safety	http://purl.obolibrary.org/obo/MESH_G03.850.110.060.075
+7363	safety analysis	
+7364	safety measure	
+7366	safety rule	
+7367	safety standard	
+7369	safety standard for building	
+7370	safety study	
+7376	salination	
+7384	salmonella	http://purl.obolibrary.org/obo/MESH_B03.440.450.425.800
+7390	salt content	
+7395	salt load	
+7396	salt marsh	http://purl.obolibrary.org/obo/ENVO_00000054
+7397	salt meadow	
+740	bathing water	
+7400	salt plug	
+7401	salt	http://purl.obolibrary.org/obo/MESH_D01.786
+7402	salt water	http://purl.obolibrary.org/obo/ENVO_00002010
+7404	salvage	
+7407	sampling	
+7410	sampling technique	
+7413	sand	http://purl.obolibrary.org/obo/ENVO_01000017
+7419	sand dune fixation	
+7420	sand dune	http://purl.obolibrary.org/obo/ENVO_00000170
+7423	sand extraction	
+7425	sand pit	http://purl.obolibrary.org/obo/ENVO_00000028
+7436	sanitary fitting	
+7438	sanitary landfill	
+7443	sanitation	http://purl.obolibrary.org/obo/MESH_G02.229.782
+7444	sanitation plan	
+7449	saprobic index	
+745	battery	http://purl.obolibrary.org/obo/SCTID_50084004
+7450	saprobe	http://purl.obolibrary.org/obo/SCTID_284684003
+7457	saving	
+7458	sawdust	
+746	battery disposal	
+7464	schistosomiasis	http://purl.obolibrary.org/obo/DOID_1395
+7465	school	http://purl.obolibrary.org/obo/SCTID_257698009
+7470	school teaching	
+7472	science	http://purl.obolibrary.org/obo/MESH_H01.770
+7477	scientific and technical information	
+7478	scientific co-operation	
+7482	scoping procedure	
+7483	scrap material	
+7484	scrap material market	
+7485	scrap material price	
+7486	scrap metal	
+7489	scrap vehicle	
+749	bay	http://purl.obolibrary.org/obo/ENVO_00000032
+7491	screening	http://purl.obolibrary.org/obo/MESH_E01.370.500
+7495	sea	http://purl.obolibrary.org/obo/ENVO_00000016
+7497	sea bed	http://purl.obolibrary.org/obo/ENVO_00000482
+7498	sea bed exploitation	
+7500	sea bed mining	
+7502	sea circulation	
+751	beach	http://purl.obolibrary.org/obo/ENVO_00000091
+7513	sea level	
+7514	sea level rise	
+7516	sealing	http://purl.obolibrary.org/obo/MESH_B02.649.754.578
+7519	seal (technical)	
+7520	sea outfall	
+7525	sea resource	
+7528	seashore	http://purl.obolibrary.org/obo/ENVO_00000485
+7529	season	http://purl.obolibrary.org/obo/MESH_G03.230.560
+7531	seasonal migration	
+7535	sea water	http://purl.obolibrary.org/obo/ENVO_00002149
+7536	sea water desalination	
+7538	sea water protection	
+7541	secondary biotope	
+7542	secondary education	
+7548	secondary sector	
+7551	second-hand goods	
+7554	economic sector	
+7557	security of installations	
+7560	sedimentary basin	
+7562	sedimentation (industrial process)	
+7563	sedimentation (geology)	
+7565	sediment	http://purl.obolibrary.org/obo/ENVO_00002007
+7566	sediment transport	
+7568	seed dressing	
+7571	water seepage	
+7574	seepage water	
+7575	seismic activity	
+7578	seismic monitoring	
+7579	seismic sea wave	
+7582	seizure of profits	
+7584	selection of technology	
+7586	selective breeding of animals	
+7588	selective breeding of plants	
+7590	selenium	http://purl.obolibrary.org/obo/MESH_D01.268.185.850
+7592	self-help programme	
+7593	self-monitoring	http://purl.obolibrary.org/obo/SCTID_310858007
+7594	self-purification	
+7595	semi-arid land ecosystem	
+7597	semiconductor	http://purl.obolibrary.org/obo/MESH_H01.288.745
+7599	semimanufactured product	
+760	bee conservation	
+7600	semi-metal	
+7603	sensitive area	
+7604	sensitivity analysis	
+7609	separated collection	
+761	beef cattle	
+7611	separation at source	
+7612	separator	http://purl.obolibrary.org/obo/MESH_F01.829.263.315.500.300
+7613	septic tank	
+7618	service area	
+7622	settlement concentration	
+7625	urban sprawl	
+7627	settling tank	
+7628	sewage	http://purl.obolibrary.org/obo/ENVO_00002018
+7629	sewage disposal	http://purl.obolibrary.org/obo/SCTID_425012009
+7630	sewage farm	
+7632	sewage sludge	
+7636	sewage treatment system	
+7641	sewerage system	
+7651	shielding device	http://purl.obolibrary.org/obo/SCTID_30115002
+7652	shifting cultivation	
+7654	ship	http://purl.obolibrary.org/obo/SCTID_224673002
+7655	shipbuilding	
+7659	shipping accident	
+766	behaviour of substances	
+7662	ship garbage	
+7663	ship waste disposal	
+7668	shooting range	
+7669	shop	http://purl.obolibrary.org/obo/ENVO_00002221
+7670	shopping centre	
+7679	show	
+768	beneficial organism	
+7680	shredder	
+7681	refuse shredder	
+7683	shrub	http://purl.obolibrary.org/obo/ENVO_00000109
+7684	shunting yard	
+7686	sick building syndrome	http://purl.obolibrary.org/obo/DOID_2710
+7688	side effect	
+7689	side effects of pharmaceutical drugs	
+7690	sieving	
+7692	silencer	
+7694	silicon	http://purl.obolibrary.org/obo/MESH_D01.268.912.850
+7697	silo	
+7698	silt	http://purl.obolibrary.org/obo/ENVO_01000016
+7699	silver	http://purl.obolibrary.org/obo/MESH_D01.268.556.812
+77	active participation	
+7702	simulation	
+7707	sintering	
+7709	site selection	
+7712	sizing	http://purl.obolibrary.org/obo/SCTID_246115007
+7715	skiing	http://purl.obolibrary.org/obo/SCTID_258340006
+7716	skin	http://purl.obolibrary.org/obo/MESH_A17.815
+7718	skyline destruction	
+772	benthic division	
+7720	slag	
+7724	slaughterhouse	
+7725	slaughterhouse waste	
+7726	slaughtering of animals	
+7729	sleep	http://purl.obolibrary.org/obo/MESH_F02.830.855
+773	benthic ecosystem	
+7730	sleep disturbance	
+7731	excavation side	
+7733	sludge	http://purl.obolibrary.org/obo/ENVO_00002044
+7737	sludge digestion	
+7738	sludge incineration	
+7739	sludge settling pond	
+7740	sludge treatment	
+7742	sluice	
+7747	small and medium sized industry	
+775	benthos	
+7755	small-scale furnace	
+7756	small-scale inducer	
+7759	smog	http://purl.obolibrary.org/obo/MESH_G03.850.460.100.310
+776	benzene	http://purl.obolibrary.org/obo/MESH_D02.455.426.559.222
+7760	smog warning	
+7761	smoke	http://purl.obolibrary.org/obo/MESH_G03.850.460.100.340
+7763	smoke prevention	
+7765	smoking	http://purl.obolibrary.org/obo/MESH_G03.850.460.100.340
+7769	snow	http://purl.obolibrary.org/obo/ENVO_01000406
+777	benzopyrene	http://purl.obolibrary.org/obo/MESH_D04.615.799.306
+7771	snowslide	
+7774	soaking	http://purl.obolibrary.org/obo/SCTID_42691000
+7776	soap	http://purl.obolibrary.org/obo/MESH_D26.866.265.861
+7781	social behaviour	
+7784	social condition	
+7787	social cost	
+7788	internalisation of external costs	
+7790	social development	
+7791	social differentiation	
+7793	social dynamics	
+7795	social facility	
+7796	social group	http://purl.obolibrary.org/obo/SCTID_160481000
+7798	social indicator	
+78	intervention on land	
+7803	social medicine	http://purl.obolibrary.org/obo/MESH_G02.403.720
+7804	social-minded behaviour	
+7805	social movement	
+7807	social participation	
+7809	social policy	
+781	beryllium	http://purl.obolibrary.org/obo/MESH_D01.268.552.075
+7810	social problem	http://purl.obolibrary.org/obo/SCTID_161152002
+7811	social process	
+7813	social relief	
+7815	social security	
+7816	social service	http://purl.obolibrary.org/obo/SCTID_310134006
+7817	social structure	http://purl.obolibrary.org/obo/OBA_VT0002557
+7818	social survey	
+7819	social system	
+782	beta radiation	http://purl.obolibrary.org/obo/MESH_H01.671.579.182
+7821	social value	
+7822	social welfare	
+7823	society	
+7825	socioeconomic aspect of human settlements	
+7826	socioeconomic factor	
+7827	socioeconomic impact of biotechnologies	
+783	beverage industry	
+7830	sociological survey	
+7831	sociology	
+7832	sociopolitical aspect	
+7839	softening	
+784	beverage	
+7840	softening agent	
+7842	software	
+7843	soil	http://purl.obolibrary.org/obo/MESH_G03.230.600
+7844	soil acidification	
+7845	soil air	
+7846	soil analysis	
+7847	soil biology	
+7848	soil capability	
+7849	soil chemistry	
+7850	soil compaction	
+7851	soil condition	
+7852	soil conservation	
+7853	soil conservation legislation	
+7855	soil damage	
+7856	soil decontamination	
+7857	soil degradation	
+7858	soil erosion	
+786	bibliography	
+7860	soil fertility	http://purl.obolibrary.org/obo/ENVO_00005754
+7861	soil fertilisation	
+7862	soil formation	
+7863	soil improvement	
+7866	soil layer	
+7867	soil loading	
+7868	soil map	
+7871	soil mechanics	
+7873	soil mineralogy	
+7874	soil moisture	
+7875	soil moisture regime	
+7876	soil organism	
+7878	soil pollutant	http://purl.obolibrary.org/obo/MESH_D05.284.756
+788	bicycle	
+7880	soil pollution	http://purl.obolibrary.org/obo/MESH_D05.284.756
+7881	soil process	
+7882	soil profile	
+7884	soil quality	
+7886	soil resource	
+7889	soil salination	
+7890	soil science	
+7892	soil settling	
+7894	soil stabilisation	
+7895	soil structure	http://purl.obolibrary.org/obo/ENVO_00001998
+7896	soil subsidence	
+7897	soil surface sealing	
+7898	soil texture	http://purl.obolibrary.org/obo/EO_0007050
+7899	soil type	http://purl.obolibrary.org/obo/EO_0007155
+79	act	
+7900	soil use	
+7902	soil water	
+7904	solar cell	
+7905	solar collector	
+7906	solar energy	http://purl.obolibrary.org/obo/MESH_G03.230.132.708
+7907	solar energy technology	
+7908	solar heating	
+7910	solar power station	
+7912	solar radiation	
+792	bilateral convention	
+7920	solid waste	
+7921	solid waste disposal	http://purl.obolibrary.org/obo/MESH_G03.850.780.200.800.800.700
+7923	solubility	http://purl.obolibrary.org/obo/MESH_H01.181.529.827
+7925	solvent	http://purl.obolibrary.org/obo/MESH_D26.837
+7926	solvent recovery	
+7928	sonic boom	
+7929	soot	
+7930	sorption	
+7933	sound	http://purl.obolibrary.org/obo/ENVO_00000393
+7936	sound emission	
+7937	sound immission	
+7938	sound level	http://purl.obolibrary.org/obo/SCTID_250888003
+7939	sound measurement	
+794	bilge oil	
+7941	soundproofing	
+7942	sound propagation	
+7945	sound transmission	
+795	bilge water	
+7969	space transportation	
+7970	space travel	
+7972	space waste	
+7973	spasmodic croup	
+7974	spatial mobility	
+7978	special law	
+798	bioaccumulation	
+7981	special waste	
+7983	conservation of species	
+7984	species conservation programme	
+7986	species reintroduction	
+7992	spectroscopy	http://purl.obolibrary.org/obo/MESH_E05.196.867
+7994	speed	http://purl.obolibrary.org/obo/PATO_0000008
+7996	speed limit	
+8	abandoned vehicle	
+800	bioaccumulative pollutant	
+8000	spillage	
+8004	spoil dump	
+8008	sport	http://purl.obolibrary.org/obo/SCTID_415577004
+8014	sports facility	http://purl.obolibrary.org/obo/ENVO_00000565
+8019	spray can	
+8020	sprayed asbestos	
+8025	spring (hydrology, land)	
+8028	spring water	
+8029	spurting	
+8031	square	http://purl.obolibrary.org/obo/SCTID_56924007
+8032	squatter settlement	
+8036	stabilisation lagoon	
+8037	stable	http://purl.obolibrary.org/obo/SCTID_58158008
+8039	stack	http://purl.obolibrary.org/obo/ENVO_00000419
+8047	standard	http://purl.obolibrary.org/obo/MESH_H01.939.808
+8048	standardisation	
+8051	standard for building industry	
+8056	staple food	
+8057	starch	http://purl.obolibrary.org/obo/TO_0000698
+8067	state of the art	
+8068	data on the state of the environment	
+8069	report on the state of the environment	
+807	biochemical method	
+8070	state of waste	
+8073	station	
+8074	statistical analysis	
+8075	statistical data	
+8076	statistics	http://purl.obolibrary.org/obo/MESH_E05.318.740
+8077	waste statistics	
+8078	status of development	
+8082	prescription statutory limitation	
+8084	steady noise	
+8086	steam generator	
+8088	steel	http://purl.obolibrary.org/obo/MESH_D01.485.910
+8089	steel industry	
+8095	sterilisation (process)	
+8096	steroid	http://purl.obolibrary.org/obo/MESH_D04.808
+8098	incentive fund	
+8100	stock management	
+8102	stocktaking	http://purl.obolibrary.org/obo/SCTID_159497002
+8104	stone	
+8110	storage dam	
+8115	storm	
+8117	storm damage	
+812	biochemical process	
+8122	stove	
+8125	stratification	http://purl.obolibrary.org/obo/PATO_0002067
+8128	stratosphere	
+8129	stratospheric ozone depletion	
+813	biochemical substance	
+8133	stream measurement	
+8136	street cleaning	
+8140	strength of materials	
+8141	stress	http://purl.obolibrary.org/obo/SCTID_262188008
+8143	strip mining	
+8144	strontium	http://purl.obolibrary.org/obo/MESH_D01.268.552.850
+8145	structural adjustment program	
+8148	structure-activity relationship	http://purl.obolibrary.org/obo/MESH_G06.184.872
+8149	structure-borne noise	
+815	biochemistry	http://purl.obolibrary.org/obo/MESH_G01.201
+8151	structure plan	http://purl.obolibrary.org/obo/SCTID_397943006
+8159	submarine	http://purl.obolibrary.org/obo/SCTID_311394009
+816	biocide	http://purl.obolibrary.org/obo/SCTID_255640000
+8162	subsequent order	
+8163	subsidence	
+8165	subsidy	
+8167	subsoil	
+8168	subsoil drainage	
+8171	substitutability (chemistry)	
+8173	substitution of halogenated compounds	
+8174	substitution of phosphate	
+8175	substrate cultivation	
+8179	subtropical ecosystem	
+818	bioclimatology	
+8182	suburb	
+8185	sugar (product)	
+8188	sugar industry	
+8190	sulphate	http://purl.obolibrary.org/obo/CHEBI_16189
+8192	sulphide	http://purl.obolibrary.org/obo/CHEBI_15138
+8198	sulphur	http://purl.obolibrary.org/obo/CHEBI_17909
+820	bioconcentration factor	
+8200	sulphur concentration	
+8202	sulphur dioxide	http://purl.obolibrary.org/obo/CHEBI_18422
+8203	sulphuric acid	http://purl.obolibrary.org/obo/CHEBI_26836
+8204	sulphur oxide	
+821	biodegradability	http://purl.obolibrary.org/obo/MESH_G03.850.860.510.090
+8212	supervision of building works	
+8213	supervision of installation	
+8219	supply (trade)	
+8222	surface-active agent	http://purl.obolibrary.org/obo/MESH_D26.866
+8225	surface runoff	
+8227	surface treatment	
+8229	surface water	http://purl.obolibrary.org/obo/ENVO_00002042
+823	biodegradable pollutant	
+8236	surgical waste	
+8237	surplus	
+8239	surveillance	http://purl.obolibrary.org/obo/SCTID_225419007
+8240	survey	http://purl.obolibrary.org/obo/MESH_E05.318.308
+8247	sustainable development	
+8249	sustainable development indicator	
+8250	sustainable use	
+8252	marsh	http://purl.obolibrary.org/obo/ENVO_00000035
+8255	sweetener	http://purl.obolibrary.org/obo/MESH_D09.818
+826	biodegradation	http://purl.obolibrary.org/obo/MESH_G03.850.860.510.090
+8262	synecology	
+8263	synergism	
+8265	synergistic effect of toxic substances	
+8268	synthetic detergent	
+8269	synthetic fibres industry	
+8272	synthetic material	http://purl.obolibrary.org/obo/SCTID_256626009
+8273	synthetic materials industry	
+8275	synthetic textile fibre	
+8278	systems analysis	
+8279	systems comparison	
+8280	systems theory	http://purl.obolibrary.org/obo/MESH_H01.770.808
+8283	taking of evidence	
+8284	tanker (truck)	
+8285	tanker (ship)	
+8286	tank farm	
+8289	tannin	http://purl.obolibrary.org/obo/MESH_D09.203.408.846
+8296	tar	http://purl.obolibrary.org/obo/MESH_D26.884
+8299	target group	
+83	adaptation period	
+830	bioethics	
+8301	tariff	
+8303	tar production	
+8304	tar sand	
+8305	tar use	
+8307	tax	
+8308	taxation	
+8309	tax differentiation	
+8312	tax law	
+8319	teaching	
+832	biogas	
+8321	teaching method	
+8326	technical regulation for dangerous substances	
+833	biogeochemical cycle	
+8330	technological change	
+8333	technological development	
+8334	technological hazard	
+8337	technological process	
+8339	technology	
+834	biogeochemistry	
+8340	technology acceptance	
+8341	technology assessment	
+8342	technology transfer	
+8344	tectonics	http://purl.obolibrary.org/obo/SCTID_262196003
+8347	telecommunications	
+8351	telemetry	http://purl.obolibrary.org/obo/MESH_E01.370.520.750
+8353	television	http://purl.obolibrary.org/obo/SCTID_255712000
+836	biogeography	
+8360	temperate ecosystem	
+8361	temperate forest	
+8362	temperate woodland	
+8367	temporary housing	
+8369	temporary shelter	
+8371	temporary storage	
+8376	teratogenesis	http://purl.obolibrary.org/obo/MESH_D064793
+8377	teratogenesis screening	
+8378	teratogenicity	http://purl.obolibrary.org/obo/MESH_D05.569.864
+8379	teratogen	http://purl.obolibrary.org/obo/MESH_D05.569.864
+8380	terminology	
+8386	terrestrial area	
+8387	terrestrial biological resource	
+8388	terrestrial ecosystem	
+84	chemical addition	
+8401	territory	
+8403	tertiary sector	
+8405	test	http://purl.obolibrary.org/obo/MESH_A05.360.444.849
+8407	test animal	
+8411	testing guideline	
+8412	testing method	
+8415	test organism	
+8421	textile industry	
+8422	textile	http://purl.obolibrary.org/obo/ENVO_02000001
+8428	thallium	http://purl.obolibrary.org/obo/MESH_D01.268.556.847
+8433	theory of money	
+8434	theory of the welfare state	
+8435	therapy	http://purl.obolibrary.org/obo/SCTID_276239002
+8440	thermal insulation	
+8442	thermal pollution	
+8443	thermal power plant	
+8446	thermal sea power	
+8447	thermal treatment	
+8448	thermal water	
+8450	thermodynamics	http://purl.obolibrary.org/obo/MESH_H01.671.912
+8452	thermoselect process	
+8454	thesaurus	
+8470	threshold value	
+8475	tidal power	
+8478	tidal water	
+8480	tide	
+8486	timber industry	
+8487	time	http://purl.obolibrary.org/obo/ExO_0000070
+8490	tin (element)	
+8494	tissue	http://purl.obolibrary.org/obo/ExO_0000045
+8495	titanium	http://purl.obolibrary.org/obo/MESH_D01.268.557.800
+8496	titanium dioxide	http://purl.obolibrary.org/obo/SCTID_432929006
+8501	tobacco	http://purl.obolibrary.org/obo/MESH_B06.388.100.905.900
+8503	tobacco smoke	http://purl.obolibrary.org/obo/SCTID_102407002
+851	biological engineering	
+8516	tornado	http://purl.obolibrary.org/obo/SCTID_88644004
+8521	total parameter	
+8522	tourism	
+8525	tourist facility	
+8527	touristic zone	
+8537	toxic effect	
+8538	toxicity	
+8539	toxicity of pesticides	
+8540	toxic metal	
+8541	toxicological assessment	
+8542	toxicological testing	
+8543	toxicology	http://purl.obolibrary.org/obo/MESH_G01.703.795
+8545	toxic product	
+8546	toxic substance	http://purl.obolibrary.org/obo/SCTID_35331000
+8547	toxic waste	
+8549	toxin	http://purl.obolibrary.org/obo/MESH_D24.185.926
+8554	trace element	http://purl.obolibrary.org/obo/MESH_D01.268.912
+8556	trace material	
+8562	tracking plan	
+8564	tradeable permit	
+8566	trade and consumption	
+8567	trade barrier	
+8569	trade (economic)	
+8572	trade (profession)	
+8573	trade relations	
+8574	trade restriction	
+8576	trades union	
+8579	traditional culture	
+8580	traditional health care	
+8582	traffic	
+8583	traffic accident	http://purl.obolibrary.org/obo/MESH_G03.850.110.320
+8585	traffic control	
+8586	traffic control measure	
+8588	traffic emission	
+8589	traffic engineering	http://purl.obolibrary.org/obo/SCTID_159232007
+8590	traffic infrastructure	
+8592	traffic jam	
+8595	traffic monitoring	
+8596	traffic noise	
+8597	traffic noise control	
+8598	traffic on water	
+8599	traffic route	
+86	additional packaging	
+8606	train	
+8607	training	
+8608	training centre	
+861	biological monitoring	
+8610	trajectory	
+8621	transboundary pollution	
+8626	transitional arrangement	
+8627	transitional settlement	
+8629	transition element	http://purl.obolibrary.org/obo/MESH_D01.268.956
+8633	transportation business	
+8634	transportation by pipeline	
+8639	transportation policy	
+864	biological pest control	http://purl.obolibrary.org/obo/MESH_G03.850.780.200.650.650
+8641	transportation	http://purl.obolibrary.org/obo/SCTID_360300001
+8648	transport planning	
+865	biological pollutant	
+8650	transport (physics)	
+8653	transport system	
+8655	trapping	
+8658	travel	http://purl.obolibrary.org/obo/SCTID_129018004
+8659	travel cost	
+866	biological pollution	
+8663	treaty	
+8664	tree	http://purl.obolibrary.org/obo/MESH_B06.915
+8667	tree nursery	
+8671	trend	
+8673	triazine	http://purl.obolibrary.org/obo/MESH_D03.383.931
+8675	trickle irrigation	
+8679	trinity of principles	
+8680	tritium	http://purl.obolibrary.org/obo/MESH_D01.435.719
+8683	trophic level	
+8685	tropical ecosystem	
+8686	tropical forest ecosystem	
+8687	tropical forest	
+8688	tropical rain forest	http://purl.obolibrary.org/obo/ENVO_00000109
+8693	tropics	http://purl.obolibrary.org/obo/ENVO_01000204
+8695	troposphere	
+8696	tropospheric ozone	
+87	addition polymer	
+8701	trunk road	
+8703	tumour	
+8704	tundra	http://purl.obolibrary.org/obo/ENVO_00000112
+8707	tunnel	http://purl.obolibrary.org/obo/ENVO_00000068
+8711	turbidity	http://purl.obolibrary.org/obo/SCTID_263906002
+8713	turbine	http://purl.obolibrary.org/obo/MESH_A02.835.232.781.324.948
+8719	tween-deck tanker	
+8720	twin-hull craft	
+8721	two-stroke engine	
+8722	type of business	
+8723	type of claim	
+8724	type of management	http://purl.obolibrary.org/obo/SCTID_106333009
+8727	typhoon	
+873	biological resource	
+8731	tyre	
+8736	ultrafiltration	http://purl.obolibrary.org/obo/MESH_E04.292.975
+8739	ultrasound	
+8742	ultraviolet radiation	http://purl.obolibrary.org/obo/SCTID_41355003
+8747	uncontrolled dump	
+8755	landfill base sealing	
+8758	underground storage	
+8760	underground train	
+8761	underprivileged people	
+8762	undertaking business	
+8766	underwater outlet	
+8768	unemployment	
+878	biological waste gas purification	
+8780	unleaded petrol	
+8782	clean air area	
+8784	raw water	
+8785	upbringing	http://purl.obolibrary.org/obo/SCTID_224099005
+879	biological waste treatment	
+8791	uranium	http://purl.obolibrary.org/obo/MESH_D01.268.033.950
+8794	urban action program	
+8797	urban area	
+88	additive	http://purl.obolibrary.org/obo/SCTID_260364009
+8801	urban decay	
+8803	urban design	
+8804	urban development	
+8805	urban development law	
+8807	urban ecosystem	
+881	biology	http://purl.obolibrary.org/obo/MESH_G01.273
+8811	urban facility	
+8812	urban flows (resources)	
+8815	urban green	
+882	bioluminescence	
+8820	urbanisation	
+8824	urban landscape	
+8826	urban management	
+8829	urban planning	
+8832	urban policy	
+8833	urban pollution	
+8834	urban population	
+8839	urban renewal	
+8840	urban sanitation	
+8841	urban settlement	
+8843	urban stress	
+8844	urban structure	http://purl.obolibrary.org/obo/SCTID_257723002
+8845	urban study	
+8847	urban traffic	
+885	biomass energy	
+8850	urban water	
+8866	scrap tyre	
+8870	use of leisure time	
+8872	user advantage	
+8875	utilisation of calorific value	
+8876	local resource utilisation	
+8877	utilisation of pesticides	
+8879	resource utilisation	
+888	biophysics	http://purl.obolibrary.org/obo/MESH_G01.344
+8886	indefinite legal concept	
+8887	valley	http://purl.obolibrary.org/obo/ENVO_00000100
+889	bioreactor	http://purl.obolibrary.org/obo/ENVO_00002123
+8892	valued ecosystem component	
+8893	vanadium	http://purl.obolibrary.org/obo/MESH_D01.268.556.920
+8894	vandalism	http://purl.obolibrary.org/obo/SCTID_248016003
+8895	vanished species	
+8898	vapour pressure	http://purl.obolibrary.org/obo/SCTID_285402002
+8899	varnish	http://purl.obolibrary.org/obo/SCTID_29360009
+8906	vector of human diseases	
+8908	vegetation cover	
+8909	vegetable cultivation	
+891	biosafety	
+8910	plant ecology	
+8912	plant selection	
+8913	vegetable oil	http://purl.obolibrary.org/obo/ENVO_00003975
+8918	plant reproduction	
+8919	plant resource	
+8920	vegetable	http://purl.obolibrary.org/obo/MESH_B06.510.956
+8921	vegetable waste	
+8926	vehicle	http://purl.obolibrary.org/obo/MESH_D26.664.650.931
+8929	vehicle exhaust gas	
+8931	vehicle inspection	
+8934	vehicle manufacturing industry	
+894	biosphere reserve	http://purl.obolibrary.org/obo/ENVO_00000376
+8940	ventilation	http://purl.obolibrary.org/obo/MESH_G03.230.150.520
+895	biosynthesis	
+8951	veterinary medicine	http://purl.obolibrary.org/obo/MESH_G02.956
+8955	viaduct	
+8959	vibration	http://purl.obolibrary.org/obo/MESH_G11.427.050.900
+8964	video	http://purl.obolibrary.org/obo/SCTID_257194007
+8967	village	http://purl.obolibrary.org/obo/SCTID_284561004
+8969	vinasse	
+8974	virology	http://purl.obolibrary.org/obo/MESH_G01.273.540.859
+8976	virus	http://purl.obolibrary.org/obo/EO_0007210
+8977	viscosity	http://purl.obolibrary.org/obo/MESH_H01.181.529.934
+898	biotechnology	http://purl.obolibrary.org/obo/MESH_G01.550
+8986	vitamin	http://purl.obolibrary.org/obo/MESH_D11.786
+8987	viticulture	
+8990	vocabulary	
+8992	vocational training	http://purl.obolibrary.org/obo/SCTID_54106008
+8993	volatile organic compound	
+8995	volatility	http://purl.obolibrary.org/obo/MESH_H01.181.529.952
+8997	volcanic area	
+8999	volcanic eruption	http://purl.obolibrary.org/obo/MESH_G03.230.100.200.900
+90	adhesive	http://purl.obolibrary.org/obo/ENVO_00003076
+9003	volcanism	
+9004	volcano	http://purl.obolibrary.org/obo/ENVO_00000247
+9008	waste income	
+901	biotope	
+9010	voluntary work	
+9013	vulcanisation	
+9015	vulnerable species (IUCN)	
+9019	Wadden Sea	
+902	biotope network	
+9022	wage system	
+9023	wall	http://purl.obolibrary.org/obo/SCTID_224727009
+9028	war	
+903	biotope protection	
+9034	warning plan	
+9035	warning system	
+9040	wastage	
+9041	waste	http://purl.obolibrary.org/obo/ENVO_00002264
+9042	waste air	
+9043	waste air purification (gas)	
+9044	waste analysis	
+9045	waste assimilation capacity	
+9048	waste balance	
+9049	waste bin	
+9051	type of waste	
+9052	waste charge	
+9053	waste classification	
+9054	waste collection	
+9055	waste collection at source	
+9057	waste composition	
+9058	waste conversion technique	
+9059	waste degasification	
+9062	waste disposal	
+9063	waste disposal act	
+9065	waste disposal cost	
+9067	waste disposal in the ground	
+9068	waste disposal charge	
+9069	waste dump	
+9071	waste dumping	
+9072	waste exchange	
+9073	waste export	
+9074	waste-fed heating and power plant	
+9075	waste-fed heating plant	
+9076	waste-fed power station	
+9077	waste gas	
+9078	waste gas emission	
+9079	waste gas examination	
+9080	waste gas reduction	
+9082	waste glass	
+9083	waste gypsum	
+9085	waste heat	
+9086	waste heat charge	
+9087	waste heat utilisation	
+9088	waste importation permit	
+9090	waste incinerator	
+9091	waste legislation	
+9092	waste management	http://purl.obolibrary.org/obo/MESH_G03.850.780.200.800.800.900
+9095	waste minimisation	
+9096	waste minimisation potential	
+9098	waste oil	
+9099	waste paper	
+91	acceptable daily intake	
+9103	waste processing industry	
+9105	waste reclamation	
+9106	waste recovery	
+9107	waste recycling	
+9108	waste reduction	
+9110	waste removal industry	
+9116	waste sorting	
+9118	waste storage	
+9119	waste transport	
+9121	waste treatment	
+9123	waste treatment plant	http://purl.obolibrary.org/obo/ENVO_00002272
+9125	waste use	
+9126	waste volume	
+9127	waste water	http://purl.obolibrary.org/obo/ENVO_00002001
+9128	waste water charge	
+9129	waste water discharge	
+913	bird sanctuary	
+9130	waste water disposal	
+9132	wastewater from trade	
+9133	waste water legislation	
+9135	waste water load	
+9136	waste water purification	
+9138	waste water quality	
+9139	waste water reduction	
+9140	waste water sludge	
+9141	waste water statistics	
+9143	waste water treatment	
+9144	waste water treatment plant	http://purl.obolibrary.org/obo/ENVO_00002043
+9147	water analysis	http://purl.obolibrary.org/obo/SCTID_59254005
+9151	water body	http://purl.obolibrary.org/obo/ENVO_00000063
+9153	water bottom	
+9157	water collection	
+9159	water conservation	
+9160	water consumption	http://purl.obolibrary.org/obo/MESH_G10.261.350
+9161	watercourse	http://purl.obolibrary.org/obo/ENVO_00000029
+9164	water demand	
+9165	water distribution system	
+9166	water endangering	
+9168	water erosion	
+9169	water extraction	
+917	birth control	
+9170	waterfall	http://purl.obolibrary.org/obo/ENVO_00000040
+9172	hydrologic flow	
+9176	water for agricultural use	
+9178	water for consumption	
+9180	water for industrial use	
+9184	water hardness	
+9190	water level	
+9193	waterlogged land	
+9195	water management	
+9196	water monitoring	
+9199	water pollutant	http://purl.obolibrary.org/obo/ENVO_00002186
+9202	water pollution	http://purl.obolibrary.org/obo/ENVO_00002186
+9203	water pollution prevention	
+9206	water protection	
+9207	water protection directive	
+9208	water protection legislation	
+9209	water pump	
+921	bitumen	http://purl.obolibrary.org/obo/CHEBI_82295
+9210	water purification	http://purl.obolibrary.org/obo/MESH_G03.850.780.200.800.800.900.900
+9211	water purification plant	
+9214	water quality	
+9215	water quality directive	
+9216	water quality management	
+9217	water quantity management	
+9220	water regulatory authority	
+9221	water resource	
+9223	water resources conservation	
+9225	water resources development	
+9227	water reuse	
+9229	water salination	http://purl.obolibrary.org/obo/ENVO_00002010
+9230	water saving	
+9231	water science	
+9232	water (geographic)	
+9234	watershed management	
+9235	watershed	http://purl.obolibrary.org/obo/ENVO_00000292
+9236	waterside development	
+9241	water statistics	
+9242	water (substance)	
+9244	water supply	http://purl.obolibrary.org/obo/MESH_G03.850.860.510.915
+9245	water transportation	
+9246	water treatment	
+9251	water utilisation	
+9254	waterway	
+9255	water well	http://purl.obolibrary.org/obo/ENVO_01000002
+9257	waterworks	
+9259	wave energy	
+926	black coal	
+9262	sea wave	
+9269	weather	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.725
+9274	weather modification	
+9276	weather monitoring	
+9278	weather forecasting	
+9280	weed	
+9281	weed control	
+9289	welding	http://purl.obolibrary.org/obo/SCTID_43611006
+9290	well	http://purl.obolibrary.org/obo/ENVO_00000026
+9297	wetland	http://purl.obolibrary.org/obo/ENVO_00000043
+9298	wetlands ecosystem	
+9299	wet process	
+930	blast furnace	
+9300	wet scrubber	
+9301	wet waste	
+9302	whale	http://purl.obolibrary.org/obo/MESH_B02.649.189.865
+9305	whaling	http://purl.obolibrary.org/obo/MESH_B02.649.189.865
+9308	wholesale trade	
+9314	wildlife conservation	
+9318	wildlife population statistics	
+932	bleaching agent	
+9321	wildlife sanctuary	
+9324	willingness-to-pay	
+9325	willingness-to-pay analysis	
+9327	wind	http://purl.obolibrary.org/obo/MESH_G03.230.300.100.150.185.200
+933	bleaching clay	
+9330	wind erosion	
+9331	windmill	http://purl.obolibrary.org/obo/SCTID_224651009
+9335	wind power	
+9336	wind power station	
+934	bleaching process	
+9344	woman	http://purl.obolibrary.org/obo/SCTID_224526002
+9347	woman's status	
+9348	timber	
+9349	wood	http://purl.obolibrary.org/obo/ENVO_00002040
+935	blood (tissue)	
+9352	woodland clearance	
+9353	woodland ecosystem	
+9356	wood preservation	http://purl.obolibrary.org/obo/SCTID_86609009
+9358	wood product	
+9362	wood waste	
+9363	wool	http://purl.obolibrary.org/obo/MESH_A13.970
+9366	work accident	
+9367	worked-out open cut	
+9369	working condition	
+9371	working hours	
+9373	working the soil	
+9375	workplace	
+9382	world heritage site	http://purl.obolibrary.org/obo/ENVO_00000375
+9389	write-off	
+9391	wrongful act	
+9392	wrongful government act	
+9395	xenobiotic substance	
+9398	X ray	http://purl.obolibrary.org/obo/EO_0007628
+9404	yield (economy)	
+9406	infant	http://purl.obolibrary.org/obo/SCTID_133931009
+9407	youth	
+9409	youth work	
+9412	zinc	http://purl.obolibrary.org/obo/MESH_D01.268.556.940
+9417	zoning	
+9422	zoological garden	http://purl.obolibrary.org/obo/ENVO_00010625
+9425	zoology	http://purl.obolibrary.org/obo/MESH_G01.273.943
+9426	zoonosis	http://purl.obolibrary.org/obo/SCTID_28762008
+945	boating	http://purl.obolibrary.org/obo/SCTID_257418003
+947	biochemical oxygen demand	
+95	administration	http://purl.obolibrary.org/obo/ENVO_00000004
+953	boiler	
+954	boiling point	
+959	book	http://purl.obolibrary.org/obo/SCTID_278212002
+961	bookkeeping	http://purl.obolibrary.org/obo/SCTID_68865000
+965	boron	http://purl.obolibrary.org/obo/MESH_D01.268.912.075
+969	botanical garden	http://purl.obolibrary.org/obo/ENVO_00010624
+975	boundary crossing	
+976	boundary layer	
+984	brackish water	http://purl.obolibrary.org/obo/ENVO_00002019
+986	bradyseism	
+992	breast milk	http://purl.obolibrary.org/obo/ENVO_02000031
+994	breeding	http://purl.obolibrary.org/obo/OBA_VT0002566
+997	brewing industry	
+998	brick	
+GEMET	ID	http://purl.obolibrary.org/obo/CHEBI_64366

@@ -1,0 +1,44 @@
+[Term]
+id: GEMET:7843 ! soil
+xref: EO:0007155 ! soil type
+
+[Term]
+id: GEMET:8976 ! virus
+xref: EO:0007210 ! Virus
+
+[Term]
+id: GEMET:2279 ! DNA
+xref: EO:0007532 ! DNA
+
+[Term]
+id: GEMET:3179 ! field study
+xref: EO:0007256 ! field study
+
+[Term]
+id: GEMET:7895 ! soil structure
+xref: EO:0007155 ! soil type
+
+[Term]
+id: GEMET:4483 ! iodine
+xref: EO:0007547 ! iodine
+
+[Term]
+id: GEMET:7899 ! soil type
+xref: EO:0007155 ! soil type
+
+[Term]
+id: GEMET:9398 ! X ray
+xref: EO:0007628 ! X-ray
+
+[Term]
+id: GEMET:8693 ! tropics
+xref: EO:0007061 ! tropical region
+
+[Term]
+id: GEMET:5503 ! natural gas
+xref: EO:0007555 ! natural gas
+
+[Term]
+id: GEMET:7898 ! soil texture
+xref: EO:0007050 ! soil texture
+

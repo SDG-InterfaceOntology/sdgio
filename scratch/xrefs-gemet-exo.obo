@@ -1,0 +1,92 @@
+[Term]
+id: GEMET:7319 ! route
+xref: ExO:0000055 ! route
+
+[Term]
+id: GEMET:5327 ! modelling
+xref: ExO:0000072 ! model
+
+[Term]
+id: GEMET:8494 ! tissue
+xref: ExO:0000045 ! tissue
+
+[Term]
+id: GEMET:1471 ! climatic change
+xref: ExO:0000014 ! climate change
+
+[Term]
+id: GEMET:4257 ! industrial process
+xref: ExO:0000025 ! industrial process
+
+[Term]
+id: GEMET:10076 ! occupation
+xref: ExO:0000034 ! occupation
+
+[Term]
+id: GEMET:2232 ! disease
+xref: ExO:0000079 ! disease
+
+[Term]
+id: GEMET:5119 ! measuring
+xref: ExO:0000067 ! measurement
+
+[Term]
+id: GEMET:8487 ! time
+xref: ExO:0000070 ! time
+
+[Term]
+id: GEMET:3079 ! externality
+xref: ExO:0000018 ! exogenous
+
+[Term]
+id: GEMET:1063 ! built environment
+xref: ExO:0000048 ! built environment
+
+[Term]
+id: GEMET:5325 ! model
+xref: ExO:0000072 ! model
+
+[Term]
+id: GEMET:4722 ! leaching
+xref: ExO:0000059 ! leaching
+
+[Term]
+id: GEMET:2547 ! education
+xref: ExO:0000041 ! education
+
+[Term]
+id: GEMET:51 ! acid rain
+xref: ExO:0000013 ! acid rain
+
+[Term]
+id: GEMET:13088 ! method
+xref: ExO:0000090 ! method
+
+[Term]
+id: GEMET:406 ! anatomy
+xref: ExO:0000043 ! anatomy
+
+[Term]
+id: GEMET:4056 ! human population
+xref: ExO:0000033 ! human population
+
+[Term]
+id: GEMET:6650 ! processing
+xref: ExO:0000023 ! process
+
+[Term]
+id: GEMET:13077 ! assay
+xref: ExO:0000064 ! assay
+
+[Term]
+id: GEMET:6551 ! poverty
+xref: ExO:0000015 ! poverty
+
+[Term]
+id: GEMET:2308 ! dose
+xref: ExO:0000076 ! dose
+
+[Term]
+id: GEMET:5890 ! organ
+xref: ExO:0000044 ! organ
+
