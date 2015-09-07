@@ -1,0 +1,26 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+
+Ontology: <http://purl.unep.org/sdg/imports/bfo_seed.owl>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+Class: <http://purl.obolibrary.org/obo/BFO_0000016> # disposition
+Class: <http://purl.obolibrary.org/obo/BFO_0000017> # realizable entity
+Class: <http://purl.obolibrary.org/obo/BFO_0000034> # function
+Class: <http://purl.obolibrary.org/obo/BFO_0000015> # process
+Class: <http://purl.obolibrary.org/obo/BFO_0000144> # process profile
+Class: <http://purl.obolibrary.org/obo/BFO_0000024> # fiat object
+Class: <http://purl.obolibrary.org/obo/BFO_0000030> # object
+Class: <http://purl.obolibrary.org/obo/BFO_0000027> # object aggregate
+Class: <http://purl.obolibrary.org/obo/BFO_0000029> # site
