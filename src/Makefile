@@ -8,9 +8,12 @@
 OBO=http://purl.obolibrary.org/obo
 SDG=http://purl.unep.org/sdg
 USECAT= --catalog-xml catalog-v001.xml
-SRC= sdgio.owl
+SRC= sdgio-edit.owl
 
-all: all_imports
+all: sdgio.owl
+
+sdgio.owl: sdgio-edit.owl
+	ontology-release-runner --catalog-xml catalog-v001.xml  --skip-format owx --run-obo-basic-dag-check  --error-report sdgio-errors.txt $< --allow-overwrite --asserted --simple
 
 # ----------------------------------------
 # Regenerate imports
