@@ -67,3 +67,4 @@ Class: <http://purl.obolibrary.org/obo/ENVO_02500017>   # anthropogenic reforest
 Class: <http://purl.obolibrary.org/obo/ENVO_02500013>   # reforestation
 Class: <http://purl.obolibrary.org/obo/ENVO_02500011>   # afforestation
 Class: <http://purl.obolibrary.org/obo/ENVO_00000022>   # river
+Class: <http://purl.obolibrary.org/obo/ENVO_01000687>   # coast
