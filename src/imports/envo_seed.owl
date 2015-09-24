@@ -66,3 +66,4 @@ Class: <http://purl.obolibrary.org/obo/ENVO_02500005>   # land degradation
 Class: <http://purl.obolibrary.org/obo/ENVO_02500017>   # anthropogenic reforestation
 Class: <http://purl.obolibrary.org/obo/ENVO_02500013>   # reforestation
 Class: <http://purl.obolibrary.org/obo/ENVO_02500011>   # afforestation
+Class: <http://purl.obolibrary.org/obo/ENVO_00000022>   # river
