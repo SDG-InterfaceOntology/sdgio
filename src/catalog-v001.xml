@@ -10,5 +10,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.unep.org/sdg/imports/po_import.owl" uri="./imports/po_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.unep.org/sdg/imports/ro_import.owl" uri="./imports/ro_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.unep.org/sdg/imports/bfo_import.owl" uri="./imports/bfo_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.unep.org/sdg/imports/iao_import.owl" uri="./imports/iao_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.unep.org/sdg/imports/uberon_import.owl" uri="./imports/uberon_import.owl"/>
 </catalog>
