@@ -13,7 +13,7 @@ SRC= sdgio-edit.owl
 all: sdgio.owl
 
 sdgio.owl: sdgio-edit.owl
-	ontology-release-runner --catalog-xml catalog-v001.xml  --skip-format owx --run-obo-basic-dag-check  --error-report sdgio-errors.txt $< --allow-overwrite --asserted --simple
+	robot merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
 # ----------------------------------------
 # Regenerate imports
