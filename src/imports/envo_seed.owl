@@ -68,3 +68,7 @@ Class: <http://purl.obolibrary.org/obo/ENVO_02500013>   # reforestation
 Class: <http://purl.obolibrary.org/obo/ENVO_02500011>   # afforestation
 Class: <http://purl.obolibrary.org/obo/ENVO_00000022>   # river
 Class: <http://purl.obolibrary.org/obo/ENVO_01000687>   # coast
+Class: <http://purl.obolibrary.org/obo/ENVO_00000015>   # ocean
+Class: <http://purl.obolibrary.org/obo/ENVO_00000016>   # sea
+Class: <http://purl.obolibrary.org/obo/ENVO_01000680>   # polluted lake
+Class: <http://purl.obolibrary.org/obo/ENVO_00000020>   # lake
