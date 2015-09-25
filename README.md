@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SDG-InterfaceOntology/sdgio.svg?branch=master)](https://travis-ci.org/SDG-InterfaceOntology/sdgio)
+
 # The SDGIO
 The repository for the Sustainable Development Goals Interface Ontology (SDGIO)
 
