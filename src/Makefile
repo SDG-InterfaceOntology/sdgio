@@ -77,7 +77,7 @@ mirror/pco.owl: imports/pco_basic.obo
 	OWLTOOLS_MEMORY=12G owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
 
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/import_%.owl: mirror/%.owl imports/%_terms.txt
+imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	robot extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 
 
