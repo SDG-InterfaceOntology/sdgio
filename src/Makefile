@@ -9,11 +9,21 @@ OBO=http://purl.obolibrary.org/obo
 SDG=http://purl.unep.org/sdg
 USECAT= --catalog-xml catalog-v001.xml
 SRC= sdgio-edit.owl
+ROBOT=./robot
 
 all: sdgio.owl
 
-sdgio.owl: sdgio-edit.owl
-	robot merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
+sdgio.owl: sdgio-edit.owl $(ROBOT)
+	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
+
+
+ROBOJENKINS=http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin
+
+robot.jar:
+	wget $(ROBOJENKINS)/$@ -O $@
+robot: robot.jar
+	wget $(ROBOJENKINS)/$@ -O $@ && chmod +x $@
+
 
 # ----------------------------------------
 # Regenerate imports
