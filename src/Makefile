@@ -18,6 +18,7 @@ all: sdgio.owl
 sdgio.owl: sdgio-edit.owl $(MODULE_FILES)
 	robot merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ convert -o sdgio.obo
 
+
 # ----------------------------------------
 # Regenerate imports
 # ----------------------------------------
