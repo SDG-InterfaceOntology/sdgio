@@ -1,0 +1,56 @@
+http://purl.obolibrary.org/obo/ENVO_01000629 # climate change
+http://purl.obolibrary.org/obo/ENVO_01000249 # urban biome
+http://purl.obolibrary.org/obo/ENVO_00000856 # city
+http://purl.obolibrary.org/obo/ENVO_01000710 # flood
+http://purl.obolibrary.org/obo/ENVO_01000711 # coastal flood
+http://purl.obolibrary.org/obo/ENVO_01000714 # storm surge
+http://purl.obolibrary.org/obo/ENVO_01000713 # flash flood
+http://purl.obolibrary.org/obo/ENVO_01000712 # riverine flood
+http://purl.obolibrary.org/obo/ENVO_02500002 # flooding
+http://purl.obolibrary.org/obo/ENVO_01000717 # areal flooding
+http://purl.obolibrary.org/obo/ENVO_01000707 # coastal flooding
+http://purl.obolibrary.org/obo/ENVO_01000716 # storm surge process
+http://purl.obolibrary.org/obo/ENVO_01000709 # flash flooding
+http://purl.obolibrary.org/obo/ENVO_01000708 # riverine flooding
+http://purl.obolibrary.org/obo/ENVO_01000718 # urban flooding
+http://purl.obolibrary.org/obo/ENVO_01000634 # volcanic eruption
+http://purl.obolibrary.org/obo/ENVO_01000656 # effusive eruption
+http://purl.obolibrary.org/obo/ENVO_01000655 # explosive eruption
+http://purl.obolibrary.org/obo/ENVO_01000702 # ash fall process 
+http://purl.obolibrary.org/obo/ENVO_01000730 # lava flow process
+http://purl.obolibrary.org/obo/ENVO_01000689 # tsunami
+http://purl.obolibrary.org/obo/ENVO_01000715 # meteotsunami
+http://purl.obolibrary.org/obo/ENVO_01000690 # mass wasting
+http://purl.obolibrary.org/obo/ENVO_01000692 # landslide process
+http://purl.obolibrary.org/obo/ENVO_01000700 # sturzstrom
+http://purl.obolibrary.org/obo/ENVO_01000696 # mass wasting flow (process)
+http://purl.obolibrary.org/obo/ENVO_01000691 # avalanche
+http://purl.obolibrary.org/obo/ENVO_01000698 # debris flow
+http://purl.obolibrary.org/obo/ENVO_01000697 # mudflow
+http://purl.obolibrary.org/obo/ENVO_01000699 # lahar
+http://purl.obolibrary.org/obo/ENVO_01000695 # mudslide
+http://purl.obolibrary.org/obo/ENVO_01000693 # rockfall
+http://purl.obolibrary.org/obo/ENVO_01000268 # atmospheric water vapour
+http://purl.obolibrary.org/obo/ENVO_01000451 # atmospheric carbon dioxide
+http://purl.obolibrary.org/obo/ENVO_01000537 # atmospheric ozone
+http://purl.obolibrary.org/obo/ENVO_00002186 # contaminated water
+http://purl.obolibrary.org/obo/ENVO_00003064 # drinking water
+http://purl.obolibrary.org/obo/ENVO_00002001 # waste water
+http://purl.obolibrary.org/obo/ENVO_00002193 # pulp-bleaching waste water
+http://purl.obolibrary.org/obo/ENVO_00002018 # sewage
+http://purl.obolibrary.org/obo/ENVO_02500012 # deforestation
+http://purl.obolibrary.org/obo/ENVO_02500001 # desertification
+http://purl.obolibrary.org/obo/ENVO_01000677 # earthquake
+http://purl.obolibrary.org/obo/ENVO_01000678 # tectonic earthquake
+http://purl.obolibrary.org/obo/ENVO_01000679 # megathrust earthquake
+http://purl.obolibrary.org/obo/ENVO_01000694 # geological subsidence
+http://purl.obolibrary.org/obo/ENVO_02500005 # land degradation
+http://purl.obolibrary.org/obo/ENVO_02500017 # anthropogenic reforestation
+http://purl.obolibrary.org/obo/ENVO_02500013 # reforestation
+http://purl.obolibrary.org/obo/ENVO_02500011 # afforestation
+http://purl.obolibrary.org/obo/ENVO_00000022 # river
+http://purl.obolibrary.org/obo/ENVO_01000687 # coast
+http://purl.obolibrary.org/obo/ENVO_00000015 # ocean
+http://purl.obolibrary.org/obo/ENVO_00000016 # sea
+http://purl.obolibrary.org/obo/ENVO_01000680 # polluted lake
+http://purl.obolibrary.org/obo/ENVO_00000020 # lake

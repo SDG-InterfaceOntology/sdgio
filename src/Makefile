@@ -10,10 +10,13 @@ SDG=http://purl.unep.org/sdg
 USECAT= --catalog-xml catalog-v001.xml
 SRC= sdgio-edit.owl
 
+MODULES=exposure
+MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
+
 all: sdgio.owl
 
-sdgio.owl: sdgio-edit.owl
-	robot merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
+sdgio.owl: sdgio-edit.owl $(MODULE_FILES)
+	robot merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ convert -o sdgio.obo
 
 # ----------------------------------------
 # Regenerate imports
@@ -44,11 +47,6 @@ all_imports: $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, import
 KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:0002176 RO:0000057 BFO:0000055 RO:0002473 RO:0002351 RO:0002131
 # 'part of' 'has part' 'develops from' 'immediate_transformation_of' 'connects' 'has participant'  'realizes' 'composed primarily of' 'has member' 'overlaps'
 
-# Create an import module using the OWLAPI module extraction code via OWLTools.
-# We use the standard catalog, but rewrite the import to X to be a local mirror of ALL of X.
-# After extraction, we further reduce the ontology by creating a "mingraph" (removes all annotations except label). We may want to keep more than label for SDGIO for ease-of-use. This can either be done here or in the front end web portal.
-imports/%_import.owl: $(SRC) mirror/%.owl imports/%_seed.owl
-	owltools  $(USECAT) --map-ontology-iri $(SDG_IMPORTS_BASE_URI)/imports/$*_import.owl mirror/$*.owl $< imports/$*_seed.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --remove-axiom-annotations --make-subset-by-properties $(KEEPRELS) --set-ontology-id $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 
 imports/%_import.obo: imports/%_import.owl
 	owltools $(USECAT) $< -o -f obo $@
@@ -78,7 +76,9 @@ mirror/ncbitaxon.owl: ncbitaxon.obo
 mirror/pco.owl: imports/pco_basic.obo
 	OWLTOOLS_MEMORY=12G owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
 
-
+# Use ROBOT, driven entirely by terms lists NOT from source ontology
+imports/import_%.owl: mirror/%.owl imports/%_terms.txt
+	robot extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 
 
 # CODE BELOW HERE IS FROM ENVO's MAKEFILE AND IS YET TO BE IMPLEMENTED FOR SDGIO
@@ -103,3 +103,20 @@ mirror/pco.owl: imports/pco_basic.obo
 # ----------------------------------------
 #mappings/gold-mapping.txt: envo-simple.obo
 #	blip-findall -u metadata_nlp_parent_dist2_hook -r obol_av -i sources/gold.obo -i $< -u metadata_nlp -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && cut -f1-4 $@.tmp | sort -u > $@
+
+
+
+# ----------------------------------------
+# ROBO-TEMPLATES **NEW**
+# ----------------------------------------
+DEV := $(SDG)sdgio/dev/
+
+modules/%.owl: templates/%.tsv
+	echo '' > $@
+	robot merge \
+	--input sdgio-edit.owl \
+	template \
+	--template $< \
+	annotate \
+	--ontology-iri "$(DEV)$@" \
+	--output $@
