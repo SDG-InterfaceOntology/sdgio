@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.unep.org/sdgsdgio/dev/modules/exposure.owl#"
+     xml:base="http://purl.unep.org/sdgsdgio/dev/modules/exposure.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.unep.org/sdgsdgio/dev/modules/exposure.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- SDGIO:1000001 -->
+
+    <owl:Class rdf:about="SDGIO:1000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure to mudslides</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.unep.org/sdg/SDGIO_00000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000695"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any exposure of humans to mudfalls</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- SDGIO:1000002 -->
+
+    <owl:Class rdf:about="SDGIO:1000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure to flood</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.unep.org/sdg/SDGIO_00000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000710"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any exposure of humans to any kind of flooding</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- SDGIO:1000003 -->
+
+    <owl:Class rdf:about="SDGIO:1000003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure to flash flood</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.unep.org/sdg/SDGIO_00000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000709"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any exposure of humans to flash flooding</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- SDGIO:1000004 -->
+
+    <owl:Class rdf:about="SDGIO:1000004">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure to polluted lake</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.unep.org/sdg/SDGIO_00000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000680"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any exposure of humans to a polluted lake</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- SDGIO:1000005 -->
+
+    <owl:Class rdf:about="SDGIO:1000005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure to contaminated water</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.unep.org/sdg/SDGIO_00000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002186"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any exposure of humans to contaminated water</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002186"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000680"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000695"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000709"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000710"/>
+    
+
+
+    <!-- https://purl.unep.org/sdg/SDGIO_00000014 -->
+
+    <owl:Class rdf:about="https://purl.unep.org/sdg/SDGIO_00000014"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.0.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+
