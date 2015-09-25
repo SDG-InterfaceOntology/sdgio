@@ -20,4 +20,5 @@ branches:
 notifications:
   email:
     - cjmungall@lbl.gov
+    - pbuttigi@mpi-bremen.de
 
