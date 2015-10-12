@@ -65,7 +65,7 @@ imports/%_import.obo: imports/%_import.owl
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
-	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
+	owltools $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
 mirror/ro.owl: $(SRC)
 	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
