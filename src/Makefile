@@ -58,7 +58,7 @@ KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:000
 # We use the standard catalog, but rewrite the import to X to be a local mirror of ALL of X.
 # After extraction, we further reduce the ontology by creating a "mingraph" (removes all annotations except label). We may want to keep more than label for SDGIO for ease-of-use. This can either be done here or in the front end web portal.
 imports/%_import.owl: $(SRC) mirror/%.owl imports/%_seed.owl
-	owltools  $(USECAT) --map-ontology-iri $(SDG_IMPORTS_BASE_URI)/imports/$*_import.owl mirror/$*.owl $< imports/$*_seed.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --remove-axiom-annotations --make-subset-by-properties $(KEEPRELS) --set-ontology-id $(SDG_IMPORTS_BASE_URI)/$@ -o $@
+	owltools  $(USECAT) --map-ontology-iri $(SDG_IMPORTS_BASE_URI)/imports/$*_import.owl mirror/$*.owl $< imports/$*_seed.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --remove-axiom-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 
 imports/%_import.obo: imports/%_import.owl
 	owltools $(USECAT) $< -o -f obo $@
@@ -68,7 +68,7 @@ mirror/%.owl: $(SRC)
 	owltools $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
 mirror/ro.owl: $(SRC)
-	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
+	owltools $(OBO)/ro.owl --merge-imports-closure --remove-annotation-assertions -l -s -d -o $@
 .PRECIOUS: mirror/%.owl
 
 mirror/uberon.owl: $(SRC)
