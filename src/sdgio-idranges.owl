@@ -1,0 +1,49 @@
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: idsfor: <http://purl.obolibrary.org/obo/IAO_0000598>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: allocatedto: <http://purl.obolibrary.org/obo/IAO_0000597>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: idprefix: <http://purl.obolibrary.org/obo/IAO_0000599>
+Prefix: iddigits: <http://purl.obolibrary.org/obo/IAO_0000596>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: idrange: <http://purl.obolibrary.org/obo/ro/idrange/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+
+
+
+Ontology: <https://purl.unep.org/sdg/sdgio-idranges.owl>
+
+
+Annotations: 
+    idsfor: "SDGIO",
+    idprefix: "https://purl.unep.org/sdg/SDGIO_",
+    iddigits: 8
+
+AnnotationProperty: idprefix:
+
+    
+AnnotationProperty: iddigits:
+
+    
+AnnotationProperty: idsfor:
+
+    
+AnnotationProperty: allocatedto:
+
+    
+Datatype: idrange:1
+
+    Annotations: 
+        allocatedto: "Pier Luigi Buttigieg"
+    
+    EquivalentTo: 
+        xsd:integer[>= 00000000 , <= 00010000]
+    
+    
+Datatype: xsd:integer
+
+    
+Datatype: rdf:PlainLiteral
+
+    
