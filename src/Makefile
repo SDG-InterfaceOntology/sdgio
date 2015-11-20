@@ -15,10 +15,17 @@ ROBOT=./robot
 MODULES=
 MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
 
+# Ontology dependencies
+# We don't include clo, as this is currently not working
+IMPORTS = pato uberon chebi ro bfo envo iao pco obi ogms
+IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
+
 all: sdgio.owl
 
-sdgio.owl: sdgio-edit.owl $(MODULE_FILES) $(ROBOT)
-	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ convert -o sdgio.obo
+sdgio.owl: sdgio-edit.owl $(MODULE_FILES) $(IMPORTS_OWL) $(ROBOT)
+	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ 
+sdgio.obo: sdgio.owl $(ROBOT)
+	$(ROBOT) convert -i $< -o sdgio.obo
 #sdgio.owl: sdgio-edit.owl $(ROBOT)
 #	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
@@ -28,7 +35,7 @@ ROBOJENKINS=http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/
 robot.jar:
 	wget $(ROBOJENKINS)/$@ -O $@
 robot: robot.jar
-	wget $(ROBOJENKINS)/$@ -O $@ && chmod +x $@
+	wget $(ROBOJENKINS)/$@ -O $@ && chmod +x $@ && touch $@
 
 
 # ----------------------------------------
@@ -42,12 +49,9 @@ robot: robot.jar
 # Base URI for local subset imports
 SDG_IMPORTS_BASE_URI = $(SDG)
 
-# Ontology dependencies
-# We don't include clo, as this is currently not working
-IMPORTS = pato uberon chebi ro bfo envo iao pco obi ogms
 
 # Make this target to regenerate ALL
-all_imports: $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
+all_imports: $(IMPORTS_OWL)
 
 # We will edit this as the SDGIO needs become apparent...
 KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:0002176 RO:0000057 BFO:0000055 RO:0002473 RO:0002351 RO:0002131
@@ -66,13 +70,14 @@ mirror/%.owl: $(SRC)
 	owltools $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
 
+SIMPLIFY= --merge-imports-closure --extract-mingraph --remove-abox --make-subset-by-properties -f // --remove-annotation-assertions -r -l -s -o
 # we need to remove text defs from IAO as they conflict
 mirror/iao.owl: $(SRC)
-	owltools $(OBO)/iao.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
+	owltools $(OBO)/iao.owl $(SIMPLIFY)  $@
 mirror/obi.owl: $(SRC)
 	owltools $(OBO)/obi.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
 mirror/ogms.owl: $(SRC)
-	owltools $(OBO)/ogms.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
+	owltools $(OBO)/ogms.owl $(SIMPLIFY) $@
 mirror/bfo.owl: $(SRC)
 	owltools $(OBO)/bfo.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
 .PRECIOUS: mirror/%.owl
