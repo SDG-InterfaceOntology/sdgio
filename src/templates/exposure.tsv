@@ -1,7 +1,7 @@
 SDGIO ID	RDFS Label	Textual Definition	Logical Definition Type	Parent	Exposure To
 ID	A rdfs:label	A definition	CLASS_TYPE	C %	C 'has participant' some %
 SDGIO:1000001	exposure to mudslides	Any exposure of humans to mudfalls	equivalent	exposure	mudslide
-SDGIO:1000002	exposure to flood	Any exposure of humans to any kind of flooding	equivalent	exposure	flood
+SDGIO:1000002	exposure to flood	Exposure to flood is an exposure process in which an the processes executed by an entity are causally connected to those executed by a coastal flood.	equivalent	exposure	flood
 SDGIO:1000003	exposure to flash flood	Any exposure of humans to flash flooding	equivalent	exposure	flash flooding
 SDGIO:1000004	exposure to polluted lake	Any exposure of humans to a polluted lake	equivalent	exposure	polluted lake
 SDGIO:1000005	exposure to contaminated water	Any exposure of humans to contaminated water	equivalent	exposure	contaminated water
