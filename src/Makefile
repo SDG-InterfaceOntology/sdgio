@@ -44,7 +44,7 @@ SDG_IMPORTS_BASE_URI = $(SDG)
 
 # Ontology dependencies
 # We don't include clo, as this is currently not working
-IMPORTS = pato uberon chebi ro bfo envo iao pco
+IMPORTS = pato uberon chebi ro bfo envo iao pco obi ogms
 
 # Make this target to regenerate ALL
 all_imports: $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
@@ -56,6 +56,7 @@ KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:000
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
 imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
+.PRECIOUS: imports/%_import.owl
 
 imports/%_import.obo: imports/%_import.owl
 	owltools $(USECAT) $< -o -f obo $@
@@ -68,7 +69,10 @@ mirror/%.owl: $(SRC)
 # we need to remove text defs from IAO as they conflict
 mirror/iao.owl: $(SRC)
 	owltools $(OBO)/iao.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
-.PRECIOUS: mirror/%.owl
+mirror/obi.owl: $(SRC)
+	owltools $(OBO)/obi.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
+mirror/ogms.owl: $(SRC)
+	owltools $(OBO)/ogms.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
 mirror/bfo.owl: $(SRC)
 	owltools $(OBO)/bfo.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
 .PRECIOUS: mirror/%.owl
