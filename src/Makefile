@@ -17,7 +17,7 @@ MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
 
 all: sdgio.owl
 
-sdgio.owl: sdgio-edit.owl $(MODULE_FILES)
+sdgio.owl: sdgio-edit.owl $(MODULE_FILES) $(ROBOT)
 	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ convert -o sdgio.obo
 #sdgio.owl: sdgio-edit.owl $(ROBOT)
 #	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
@@ -54,7 +54,7 @@ KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:000
 # 'part of' 'has part' 'develops from' 'immediate_transformation_of' 'connects' 'has participant'  'realizes' 'composed primarily of' 'has member' 'overlaps'
 
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt
+imports/%_import.owl: mirror/%.owl imports/%_terms.txt $(ROBOT)
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
