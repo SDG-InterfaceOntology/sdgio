@@ -1,6 +1,6 @@
-language: python
-python:
-  - "3.4"
+language: java
+jdk:
+  - openjdk7
 
 # command to install dependencies
 #install:
