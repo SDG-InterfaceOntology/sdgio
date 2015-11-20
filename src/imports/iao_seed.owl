@@ -23,4 +23,7 @@ Class: <http://purl.obolibrary.org/obo/IAO_0000109> # measurement datum
 ObjectProperty: <http://purl.obolibrary.org/obo/IAO_0000583> # has measurement datum
 ObjectProperty: <http://purl.obolibrary.org/obo/IAO_0000004> # has measurement value
 
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000600> # has measurement value
+  Annotations: rdfs:label "elucidation"
+
 

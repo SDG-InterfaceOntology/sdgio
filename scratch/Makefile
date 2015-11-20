@@ -86,7 +86,7 @@ compositional-rest.obo:
 MONTS =  envo po pato exo
 IMONTS=  $(patsubst %, -r %,$(MONTS))
 omine.tsv:
-	blip-findall -debug index -debug ominfo -goal init_ontominer  -u ontominer -i gemet-full.obo $(IMONTS) concept_enriched/7 -label -no_pred > $@
+	blip-findall -debug index -debug ominfo -goal init_ontominer  -u ontominer -i gemet-full.obo $(IMONTS) concept_enriched/7 -label -no_pred > $@.tmp && mysort -k 3 -n -r $@.tmp > $@
 
 pred_rel.tsv: omine.tsv
 	blip-findall -debug index -goal init_ontominer  -u ontominer -i gemet-full.obo $(IMONTS) has_differentia/5 -label -no_pred  > $@
