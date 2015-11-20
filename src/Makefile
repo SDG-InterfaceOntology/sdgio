@@ -19,8 +19,8 @@ all: sdgio.owl
 
 sdgio.owl: sdgio-edit.owl $(MODULE_FILES)
 	robot merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ convert -o sdgio.obo
-sdgio.owl: sdgio-edit.owl $(ROBOT)
-	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
+#sdgio.owl: sdgio-edit.owl $(ROBOT)
+#	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
 
 ROBOJENKINS=http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin
@@ -36,15 +36,8 @@ robot: robot.jar
 # ----------------------------------------
 # Uses OWLAPI Module Extraction code
 
-# Type 'make imports/X_import.owl' whenever you wish to refresh the import for an ontology X. This is when:
-#
-#  1. X has changed and we want to include these changes
-#  2. We have added one or more new IRIs from X into $(SRC)
-#  3. We have removed references to one or more IRIs in X from $(SRC)
-#
-# You should NOT edit these files directly, changes will be overwritten.
-#
-# If you want to add something to these, edit $(SRC) and add an axiom with an IRI from X. You don't need to add any information about X.
+# Type 'make imports/X_import.owl' whenever you wish to refresh the import for an ontology X. This regenerates the import
+# module using the 'imports/X_terms.txt' file
 
 # Base URI for local subset imports
 SDG_IMPORTS_BASE_URI = $(SDG)
@@ -60,6 +53,9 @@ all_imports: $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, import
 KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:0002176 RO:0000057 BFO:0000055 RO:0002473 RO:0002351 RO:0002131
 # 'part of' 'has part' 'develops from' 'immediate_transformation_of' 'connects' 'has participant'  'realizes' 'composed primarily of' 'has member' 'overlaps'
 
+# Use ROBOT, driven entirely by terms lists NOT from source ontology
+imports/%_import.owl: mirror/%.owl imports/%_terms.txt
+	robot extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 
 imports/%_import.obo: imports/%_import.owl
 	owltools $(USECAT) $< -o -f obo $@
@@ -68,6 +64,15 @@ imports/%_import.obo: imports/%_import.owl
 mirror/%.owl: $(SRC)
 	owltools $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
+
+# we need to remove text defs from IAO as they conflict
+mirror/iao.owl: $(SRC)
+	owltools $(OBO)/iao.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
+.PRECIOUS: mirror/%.owl
+mirror/bfo.owl: $(SRC)
+	owltools $(OBO)/bfo.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
+.PRECIOUS: mirror/%.owl
+
 mirror/ro.owl: $(SRC)
 	owltools $(OBO)/ro.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -d -o $@
 .PRECIOUS: mirror/%.owl
@@ -89,9 +94,6 @@ mirror/ncbitaxon.owl: ncbitaxon.obo
 mirror/pco.owl: imports/pco_basic.obo
 	OWLTOOLS_MEMORY=12G owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
 
-# Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-	robot extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 
 
 # CODE BELOW HERE IS FROM ENVO's MAKEFILE AND IS YET TO BE IMPLEMENTED FOR SDGIO
