@@ -1,5 +1,5 @@
 test:
-	cd src && make
+	cd src && make test
 
 sdgio-bundle.owl: sdgio.owl
 	owltools --use-catalog $< --merge-imports-closure -o $@

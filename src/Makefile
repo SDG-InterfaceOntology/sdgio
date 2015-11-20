@@ -20,9 +20,10 @@ MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
 IMPORTS = pato uberon chebi ro bfo envo iao pco obi ogms
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
-all: sdgio.owl
+all: all_imports sdgio.owl
+test: sdgio.owl
 
-sdgio.owl: sdgio-edit.owl $(MODULE_FILES) $(IMPORTS_OWL) $(ROBOT)
+sdgio.owl: sdgio-edit.owl $(MODULE_FILES)  $(ROBOT)
 	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ 
 sdgio.obo: sdgio.owl $(ROBOT)
 	$(ROBOT) convert -i $< -o sdgio.obo
