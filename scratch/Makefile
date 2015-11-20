@@ -73,3 +73,32 @@ compositional.obo:
 
 compositional-rest.obo:
 	obo-subtract.pl compositional.obo allx.obo > $@
+
+
+# EXPERIMENTAL
+
+%-ann.ttl: %.obo
+	blip  -i $< ontol-annotate  -to ttl > $@.tmp && mv $@.tmp $@
+
+%-ann.owl: %.obo %-ann.ttl
+	owltools $^ --merge-support-ontologies -o $@
+
+MONTS =  envo po pato exo
+IMONTS=  $(patsubst %, -r %,$(MONTS))
+omine.tsv:
+	blip-findall -debug index -debug ominfo -goal init_ontominer  -u ontominer -i gemet-full.obo $(IMONTS) concept_enriched/7 -label -no_pred > $@
+
+pred_rel.tsv: omine.tsv
+	blip-findall -debug index -goal init_ontominer  -u ontominer -i gemet-full.obo $(IMONTS) has_differentia/5 -label -no_pred  > $@
+
+
+links.obo:
+	blip-findall  -goal init_ontominer  -u ontominer -i gemet-full.obo direct_concept_token/2 -no_pred | tbl2obolinks.pl --rel mentions > $@
+
+
+#targets-annotated.txt: targets.txt
+#	blip -debug index -r envo -i gemet-full.obo annotate $< > $@
+##	blip $(IOBOS) annotate $< > $@
+
+targets-annotated.txt: targets.txt
+	/ann-tgts.pl $< > $@

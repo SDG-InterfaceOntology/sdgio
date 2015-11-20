@@ -9,14 +9,26 @@ OBO=http://purl.obolibrary.org/obo
 SDG=http://purl.unep.org/sdg
 USECAT= --catalog-xml catalog-v001.xml
 SRC= sdgio-edit.owl
+ROBOT=./robot
 
-MODULES=exposure
+##MODULES=exposure
+MODULES=
 MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
 
 all: sdgio.owl
 
 sdgio.owl: sdgio-edit.owl $(MODULE_FILES)
 	robot merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ convert -o sdgio.obo
+sdgio.owl: sdgio-edit.owl $(ROBOT)
+	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
+
+
+ROBOJENKINS=http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin
+
+robot.jar:
+	wget $(ROBOJENKINS)/$@ -O $@
+robot: robot.jar
+	wget $(ROBOJENKINS)/$@ -O $@ && chmod +x $@
 
 
 # ----------------------------------------
@@ -54,10 +66,10 @@ imports/%_import.obo: imports/%_import.owl
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
-	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
+	owltools $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
 mirror/ro.owl: $(SRC)
-	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
+	owltools $(OBO)/ro.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -d -o $@
 .PRECIOUS: mirror/%.owl
 
 mirror/uberon.owl: $(SRC)

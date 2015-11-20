@@ -16,6 +16,11 @@ AnnotationProperty: rdfs:label
     
 Datatype: xsd:string
 
+Class: <http://purl.obolibrary.org/obo/ENVO_01000416>   # ultrafine respirable suspended particulate matter
+Class: <http://purl.obolibrary.org/obo/ENVO_01000415>   # fine respirable suspended particulate matter
+Class: <http://purl.obolibrary.org/obo/ENVO_01000405>   # respirable suspended particulate matter
+Class: <http://purl.obolibrary.org/obo/ENVO_01000436>   # waterborne particulate matter
+Class: <http://purl.obolibrary.org/obo/ENVO_01000060>   # particulate matter
 Class: <http://purl.obolibrary.org/obo/ENVO_01000629>   # climate change
 Class: <http://purl.obolibrary.org/obo/ENVO_01000249>   # urban biome
 Class: <http://purl.obolibrary.org/obo/ENVO_00000856>   # city
