@@ -1,0 +1,793 @@
+format-version: 1.2
+ontology: http://purl.unep.org/sdg/imports/obi_import.owl
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000428> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000002>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000178> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000030>)) <http://purl.obolibrary.org/obo/BFO_0000040>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000103> <http://purl.obolibrary.org/obo/IAO_0000229>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000420> <http://purl.obolibrary.org/obo/IAO_0000421>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000663>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0500000>) <http://purl.obolibrary.org/obo/OBI_0000339>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000456>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000202> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000833> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/OBI_0000066>))))) <http://purl.obolibrary.org/obo/BFO_0000023>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000339> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/IAO_0000104>) <http://purl.obolibrary.org/obo/BFO_0000015>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000458>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000471> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/OBI_0500000>)) <http://purl.obolibrary.org/obo/OBI_0000011>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000648> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0200175>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000663> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200179>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000023>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000707> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000704>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000792> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200188>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000835> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000571>) ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000947> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200166>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000005>) <http://purl.obolibrary.org/obo/IAO_0000064>))))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000101> <http://purl.obolibrary.org/obo/IAO_0000038>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200111> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000101> <http://purl.obolibrary.org/obo/IAO_0000038>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200172>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200175> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200178>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000648>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000037> <http://purl.obolibrary.org/obo/IAO_0000179> <http://purl.obolibrary.org/obo/IAO_0000180> <http://purl.obolibrary.org/obo/IAO_0000183> <http://purl.obolibrary.org/obo/IAO_0000184>)))\nEquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000761> <http://purl.obolibrary.org/obo/OBI_0000775>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000766> <http://purl.obolibrary.org/obo/OBI_0000764>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000768> <http://purl.obolibrary.org/obo/OBI_0000763>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000768> <http://purl.obolibrary.org/obo/OBI_0000767>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000772> <http://purl.obolibrary.org/obo/OBI_0000778>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000773> <http://purl.obolibrary.org/obo/OBI_0000762>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000774> <http://purl.obolibrary.org/obo/OBI_0000755>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000777> <http://purl.obolibrary.org/obo/OBI_0000760>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000782> <http://purl.obolibrary.org/obo/OBI_0000780>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000783> <http://purl.obolibrary.org/obo/OBI_0000781>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#bug-database> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/tracker>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#homepage> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#mailing-list> <http://purl.obolibrary.org/obo/iao/project> <mailto:information-ontology@googlegroups.com>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#release> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#repository> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/repository>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#wiki> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/documentation>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> <http://purl.obolibrary.org/obo/iao.owl>)\nDataPropertyAssertion(<http://usefulinc.com/ns/doap#revision> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> \"SVN $Revision: 717 $\")\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#browse> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/browse>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#bug-database> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/tracker>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#homepage> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#mailing-list> <http://purl.obolibrary.org/obo/obi/project> <mailto:obi-users@googlegroups.com>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#release> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/2015-09-15/obi.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#repository> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/repository>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#wiki> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/wiki>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/obi/2015-09-15/obi.owl> <http://purl.obolibrary.org/obo/obi/2015-09-15/obi.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/obi/2015-09-15/obi.owl> <http://purl.obolibrary.org/obo/obi.owl>)\nDataPropertyAssertion(<http://usefulinc.com/ns/doap#revision> <http://purl.obolibrary.org/obo/obi/2015-09-15/obi.owl> \"SVN Revision: exported\")\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)\nDifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)\nDifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)\n)
+
+[Term]
+id: BFO:0000001
+name: entity
+
+[Term]
+id: BFO:0000002
+name: continuant
+is_a: BFO:0000001 ! entity
+disjoint_from: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000003
+name: occurrent
+is_a: BFO:0000001 ! entity
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+is_a: BFO:0000002 ! continuant
+disjoint_from: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000015
+name: process
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000017
+name: realizable entity
+is_a: BFO:0000020 ! specifically dependent continuant
+disjoint_from: BFO:0000019 ! quality
+
+[Term]
+id: BFO:0000019
+name: quality
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000023
+name: role
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000031
+name: generically dependent continuant
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000040
+name: material entity
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: IAO:0000003
+name: measurement unit label
+is_a: IAO:0000009 ! datum label
+
+[Term]
+id: IAO:0000005
+name: objective specification
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000007
+name: action specification
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000009
+name: datum label
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000010
+name: software
+is_a: IAO:0000104 ! plan specification
+
+[Term]
+id: IAO:0000015
+name: information carrier
+is_a: BFO:0000019 ! quality
+intersection_of: BFO:0000019 ! quality
+intersection_of: RO:0000059 IAO:0000030 ! concretizes information content entity
+
+[Term]
+id: IAO:0000027
+name: data item
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000030
+name: information content entity
+is_a: BFO:0000031 ! generically dependent continuant
+relationship: IAO:0000136 BFO:0000001 ! is about entity
+
+[Term]
+id: IAO:0000033
+name: directive information entity
+is_a: IAO:0000030 ! information content entity
+relationship: IAO:0000136 BFO:0000017 ! is about realizable entity
+
+[Term]
+id: IAO:0000037
+name: dot plot
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000038
+name: graph
+is_a: IAO:0000309 ! diagram
+
+[Term]
+id: IAO:0000064
+name: algorithm
+is_a: IAO:0000104 ! plan specification
+
+[Term]
+id: IAO:0000078
+name: curation status specification
+is_a: IAO:0000102 ! data about an ontology part
+
+[Term]
+id: IAO:0000098
+name: data format specification
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000100
+name: data set
+is_a: IAO:0000027 ! data item
+
+[Term]
+id: IAO:0000101
+name: image
+is_a: IAO:0000308 ! figure
+
+[Term]
+id: IAO:0000102
+name: data about an ontology part
+is_a: IAO:0000027 ! data item
+
+[Term]
+id: IAO:0000104
+name: plan specification
+is_a: IAO:0000033 ! directive information entity
+relationship: BFO:0000051 IAO:0000005 ! has part objective specification
+relationship: BFO:0000051 IAO:0000007 ! has part action specification
+
+[Term]
+id: IAO:0000178
+name: material information bearer
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: IAO:0000179
+name: histogram
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000180
+name: heatmap
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000183
+name: dendrogram
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000184
+name: scatter plot
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000225
+name: obsolescence reason specification
+is_a: IAO:0000102 ! data about an ontology part
+
+[Term]
+id: IAO:0000308
+name: figure
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000309
+name: diagram
+is_a: IAO:0000308 ! figure
+
+[Term]
+id: IAO:0000310
+name: document
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000409
+name: denotator type
+is_a: IAO:0000102 ! data about an ontology part
+
+[Term]
+id: IAO:0000572
+name: documenting
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 IAO:0000030 ! has_specified_input information content entity
+relationship: OBI:0000299 IAO:0000310 ! has_specified_output document
+
+[Term]
+id: NCBITaxon:10239
+name: Viruses
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:117571
+name: Euteleostomi
+is_a: NCBITaxon:7742 ! Vertebrata <Metazoa>
+
+[Term]
+id: NCBITaxon:2
+name: Bacteria
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:2157
+name: Archaea
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:314146
+name: Euarchontoglires
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:32523
+name: Tetrapoda
+is_a: NCBITaxon:117571 ! Euteleostomi
+
+[Term]
+id: NCBITaxon:32524
+name: Amniota
+is_a: NCBITaxon:32523 ! Tetrapoda
+
+[Term]
+id: NCBITaxon:33154
+name: Opisthokonta
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33213
+name: Bilateria
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:40674
+name: Mammalia
+is_a: NCBITaxon:32524 ! Amniota
+
+[Term]
+id: NCBITaxon:7742
+name: Vertebrata <Metazoa>
+is_a: NCBITaxon:33213 ! Bilateria
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+is_a: NCBITaxon:314146 ! Euarchontoglires
+
+[Term]
+id: OBI:0000011
+name: planned process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: OBI:0000014
+name: regulator role
+is_a: OBI:0000017 ! regulatory role
+
+[Term]
+id: OBI:0000017
+name: regulatory role
+is_a: BFO:0000023 ! role
+
+[Term]
+id: OBI:0000018
+name: material supplier role
+is_a: OBI:0000947 ! service provider role
+
+[Term]
+id: OBI:0000023
+name: classified data set
+is_a: IAO:0000100 ! data set
+
+[Term]
+id: OBI:0000047
+name: processed material
+is_a: BFO:0000040 ! material entity
+intersection_of: BFO:0000040 ! material entity
+intersection_of: OBI:0000312 OBI:0000094 ! is_specified_output_of material processing
+
+[Term]
+id: OBI:0000066
+name: investigation
+is_a: OBI:0000011 ! planned process
+relationship: BFO:0000051 IAO:0000572 ! has part documenting
+relationship: BFO:0000051 OBI:0000338 ! has part drawing a conclusion based on data
+relationship: BFO:0000051 OBI:0000471 ! has part study design execution
+
+[Term]
+id: OBI:0000094
+name: material processing
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
+relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
+relationship: OBI:0000299 BFO:0000040 ! has_specified_output material entity
+relationship: OBI:0000299 OBI:0000047 ! has_specified_output processed material
+
+[Term]
+id: OBI:0000202
+name: investigation agent role
+is_a: BFO:0000023 ! role
+relationship: BFO:0000054 OBI:0000066 ! realized in investigation
+
+[Term]
+id: OBI:0000245
+name: organization
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: OBI:0000272
+name: protocol
+is_a: IAO:0000104 ! plan specification
+
+[Term]
+id: OBI:0000338
+name: drawing a conclusion based on data
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+relationship: OBI:0000299 OBI:0001909 ! has_specified_output conclusion based on data
+
+[Term]
+id: OBI:0000339
+name: planning
+is_a: BFO:0000015 ! process
+
+[Term]
+id: OBI:0000450
+name: regulatory agency
+is_a: OBI:0000245 ! organization
+intersection_of: OBI:0000245 ! organization
+intersection_of: RO:0000087 OBI:0000014 ! has role regulator role
+
+[Term]
+id: OBI:0000456
+name: material transformation objective
+is_a: IAO:0000005 ! objective specification
+
+[Term]
+id: OBI:0000457
+name: manufacturing
+is_a: OBI:0000094 ! material processing
+relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
+relationship: OBI:0000299 OBI:0000047 ! has_specified_output processed material
+
+[Term]
+id: OBI:0000458
+name: manufacturing objective
+is_a: OBI:0000456 ! material transformation objective
+
+[Term]
+id: OBI:0000471
+name: study design execution
+is_a: OBI:0000011 ! planned process
+
+[Term]
+id: OBI:0000571
+name: manufacturer role
+is_a: BFO:0000023 ! role
+relationship: BFO:0000054 OBI:0000457 ! realized in manufacturing
+
+[Term]
+id: OBI:0000648
+name: clustered data set
+is_a: IAO:0000100 ! data set
+
+[Term]
+id: OBI:0000663
+name: class prediction data transformation
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0000700
+name: support vector machine
+is_a: OBI:0000663 ! class prediction data transformation
+relationship: OBI:0000417 OBI:0200179 ! achieves_planned_objective class prediction objective
+
+[Term]
+id: OBI:0000704
+name: decision tree induction objective
+is_a: OBI:0200166 ! data transformation objective
+
+[Term]
+id: OBI:0000707
+name: decision tree building data transformation
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0000713
+name: GenePattern software
+is_a: IAO:0000010 ! software
+
+[Term]
+id: OBI:0000726
+name: peak matching
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0000727
+name: k-nearest neighbors
+is_a: OBI:0200171 ! partitioning data transformation
+is_a: OBI:0200175 ! class discovery data transformation
+relationship: OBI:0000299 OBI:0000648 ! has_specified_output clustered data set
+relationship: OBI:0000417 OBI:0200172 ! achieves_planned_objective partitioning objective
+relationship: OBI:0000417 OBI:0200178 ! achieves_planned_objective class discovery objective
+
+[Term]
+id: OBI:0000749
+name: CART
+is_a: OBI:0000707 ! decision tree building data transformation
+relationship: OBI:0000417 OBI:0000704 ! achieves_planned_objective decision tree induction objective
+
+[Term]
+id: OBI:0000792
+name: statistical model validation
+is_a: OBI:0200171 ! partitioning data transformation
+
+[Term]
+id: OBI:0000835
+name: manufacturer
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: OBI:0000947
+name: service provider role
+is_a: BFO:0000023 ! role
+relationship: BFO:0000054 OBI:0000011 ! realized in planned process
+
+[Term]
+id: OBI:0000963
+name: categorical label
+is_a: IAO:0000009 ! datum label
+
+[Term]
+id: OBI:0001000
+name: questionnaire
+is_a: IAO:0000310 ! document
+
+[Term]
+id: OBI:0001909
+name: conclusion based on data
+is_a: IAO:0000030 ! information content entity
+relationship: OBI:0000124 IAO:0000027 ! is_supported_by_data data item
+relationship: OBI:0000312 OBI:0000338 ! is_specified_output_of drawing a conclusion based on data
+
+[Term]
+id: OBI:0100026
+name: organism
+is_a: BFO:0000040 ! material entity
+union_of: NCBITaxon:10239 ! Viruses
+union_of: NCBITaxon:2 ! Bacteria
+union_of: NCBITaxon:2157 ! Archaea
+union_of: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: OBI:0200000
+name: data transformation
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+relationship: OBI:0000299 IAO:0000027 ! has_specified_output data item
+relationship: OBI:0000299 IAO:0000027 ! has_specified_output data item
+
+[Term]
+id: OBI:0200033
+name: leave one out cross validation method
+is_a: OBI:0000792 ! statistical model validation
+relationship: OBI:0000417 OBI:0200188 ! achieves_planned_objective cross validation objective
+
+[Term]
+id: OBI:0200041
+name: k-means clustering
+is_a: OBI:0200171 ! partitioning data transformation
+is_a: OBI:0200175 ! class discovery data transformation
+relationship: OBI:0000299 OBI:0000648 ! has_specified_output clustered data set
+relationship: OBI:0000417 OBI:0200172 ! achieves_planned_objective partitioning objective
+relationship: OBI:0000417 OBI:0200178 ! achieves_planned_objective class discovery objective
+
+[Term]
+id: OBI:0200042
+name: hierarchical clustering
+is_a: OBI:0200175 ! class discovery data transformation
+relationship: OBI:0000299 OBI:0000648 ! has_specified_output clustered data set
+relationship: OBI:0000417 OBI:0200178 ! achieves_planned_objective class discovery objective
+
+[Term]
+id: OBI:0200050
+name: dimensionality reduction
+is_a: OBI:0200175 ! class discovery data transformation
+relationship: OBI:0000299 OBI:0000648 ! has_specified_output clustered data set
+relationship: OBI:0000417 OBI:0200178 ! achieves_planned_objective class discovery objective
+
+[Term]
+id: OBI:0200051
+name: principal components analysis dimensionality reduction
+is_a: OBI:0200050 ! dimensionality reduction
+
+[Term]
+id: OBI:0200111
+name: data visualization
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+
+[Term]
+id: OBI:0200166
+name: data transformation objective
+is_a: IAO:0000005 ! objective specification
+
+[Term]
+id: OBI:0200171
+name: partitioning data transformation
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0200172
+name: partitioning objective
+is_a: OBI:0200166 ! data transformation objective
+
+[Term]
+id: OBI:0200175
+name: class discovery data transformation
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0200178
+name: class discovery objective
+is_a: OBI:0200166 ! data transformation objective
+
+[Term]
+id: OBI:0200179
+name: class prediction objective
+is_a: OBI:0200166 ! data transformation objective
+
+[Term]
+id: OBI:0200188
+name: cross validation objective
+is_a: OBI:0200172 ! partitioning objective
+
+[Term]
+id: OBI:0200190
+name: clustered data visualization
+is_a: OBI:0200111 ! data visualization
+relationship: OBI:0000293 OBI:0000648 ! has_specified_input clustered data set
+
+[Term]
+id: OBI:0500000
+name: study design
+is_a: IAO:0000104 ! plan specification
+relationship: BFO:0000051 OBI:0000272 ! has part protocol
+
+[Term]
+id: PATO:0000186
+name: behavioral quality
+is_a: PATO:0001237 ! quality of a single physical entity
+
+[Term]
+id: PATO:0001237
+name: quality of a single physical entity
+is_a: BFO:0000019 ! quality
+
+[Term]
+id: PATO:0002201
+name: handedness
+is_a: PATO:0000186 ! behavioral quality
+
+[Term]
+id: PATO:0002202
+name: left handedness
+is_a: PATO:0002201 ! handedness
+
+[Term]
+id: PATO:0002203
+name: right handedness
+is_a: PATO:0002201 ! handedness
+
+[Term]
+id: PATO:0002204
+name: ambidextrous handedness
+is_a: PATO:0002201 ! handedness
+
+[Term]
+id: Subset
+is_a: IAO:0000102 ! data about an ontology part
+
+[Term]
+id: UO:0000001
+name: length unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000002
+name: mass unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000003
+name: time unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000005
+name: temperature unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000006
+name: substance unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000051
+name: concentration unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000095
+name: volume unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000105
+name: frequency unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000270
+name: volumetric flow rate unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Term]
+id: UO:0000280
+name: rate unit
+is_a: IAO:0000003 ! measurement unit label
+
+[Typedef]
+id: BFO:0000050
+name: part of
+is_transitive: true
+inverse_of: BFO:0000051 ! has part
+
+[Typedef]
+id: BFO:0000051
+name: has part
+is_transitive: true
+
+[Typedef]
+id: BFO:0000054
+name: realized in
+domain: BFO:0000017 ! realizable entity
+range: BFO:0000015 ! process
+
+[Typedef]
+id: BFO:0000055
+name: realizes
+domain: BFO:0000015 ! process
+range: BFO:0000017 ! realizable entity
+inverse_of: BFO:0000054 ! realized in
+
+[Typedef]
+id: IAO:0000136
+name: is about
+domain: IAO:0000030 ! information content entity
+
+[Typedef]
+id: IAO:0000219
+name: denotes
+is_a: IAO:0000136 ! is about
+
+[Typedef]
+id: OBI:0000124
+name: is_supported_by_data
+domain: OBI:0001909 ! conclusion based on data
+range: IAO:0000027 ! data item
+
+[Typedef]
+id: OBI:0000293
+name: has_specified_input
+domain: OBI:0000011 ! planned process
+is_a: RO:0000057 ! has participant
+
+[Typedef]
+id: OBI:0000295
+name: is_specified_input_of
+range: OBI:0000011 ! planned process
+is_a: RO:0000056 ! participates in
+inverse_of: OBI:0000293 ! has_specified_input
+
+[Typedef]
+id: OBI:0000299
+name: has_specified_output
+domain: OBI:0000011 ! planned process
+is_a: RO:0000057 ! has participant
+inverse_of: OBI:0000312 ! is_specified_output_of
+
+[Typedef]
+id: OBI:0000312
+name: is_specified_output_of
+range: OBI:0000011 ! planned process
+is_a: RO:0000056 ! participates in
+
+[Typedef]
+id: OBI:0000417
+name: achieves_planned_objective
+domain: OBI:0000011 ! planned process
+range: IAO:0000005 ! objective specification
+
+[Typedef]
+id: OBI:0000833
+name: objective_achieved_by
+domain: IAO:0000005 ! objective specification
+range: OBI:0000011 ! planned process
+inverse_of: OBI:0000417 ! achieves_planned_objective
+
+[Typedef]
+id: RO:0000052
+name: inheres in
+
+[Typedef]
+id: RO:0000053
+name: bearer of
+range: BFO:0000020 ! specifically dependent continuant
+inverse_of: RO:0000052 ! inheres in
+
+[Typedef]
+id: RO:0000056
+name: participates in
+domain: BFO:0000002 ! continuant
+range: BFO:0000003 ! occurrent
+
+[Typedef]
+id: RO:0000057
+name: has participant
+domain: BFO:0000003 ! occurrent
+range: BFO:0000002 ! continuant
+inverse_of: RO:0000056 ! participates in
+
+[Typedef]
+id: RO:0000058
+name: is concretized as
+domain: BFO:0000031 ! generically dependent continuant
+range: BFO:0000020 ! specifically dependent continuant
+inverse_of: RO:0000059 ! concretizes
+
+[Typedef]
+id: RO:0000059
+name: concretizes
+domain: BFO:0000020 ! specifically dependent continuant
+range: BFO:0000031 ! generically dependent continuant
+
+[Typedef]
+id: RO:0000081
+name: role of
+is_a: RO:0000052 ! inheres in
+
+[Typedef]
+id: RO:0000087
+name: has role
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000023 ! role
+is_a: RO:0000053 ! bearer of
+inverse_of: RO:0000081 ! role of
+
