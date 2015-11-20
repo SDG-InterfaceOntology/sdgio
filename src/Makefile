@@ -18,7 +18,7 @@ MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
 all: sdgio.owl
 
 sdgio.owl: sdgio-edit.owl $(MODULE_FILES)
-	robot merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ convert -o sdgio.obo
+	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true -o $@ convert -o sdgio.obo
 #sdgio.owl: sdgio-edit.owl $(ROBOT)
 #	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
@@ -55,7 +55,7 @@ KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:000
 
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
 imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-	robot extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
+	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 
 imports/%_import.obo: imports/%_import.owl
 	owltools $(USECAT) $< -o -f obo $@
@@ -128,7 +128,7 @@ DEV := $(SDG)sdgio/dev/
 
 modules/%.owl: templates/%.tsv
 	echo '' > $@
-	robot merge \
+	$(ROBOT) merge \
 	--input sdgio-edit.owl \
 	template \
 	--template $< \
