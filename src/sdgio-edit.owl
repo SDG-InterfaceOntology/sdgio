@@ -200,9 +200,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://purl.u
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.unep.org/sdg/SDGIO_00010003> "TO DO"@en)
 SubClassOf(<https://purl.unep.org/sdg/SDGIO_00010003> <http://purl.obolibrary.org/obo/BFO_0000023>)
 AnnotationAssertion(rdfs:label <https://purl.unep.org/sdg/SDGIO_00010004> "employment"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.unep.org/sdg/SDGIO_00010004> "A planned process wherein some employee role is realized by performing actions specified by a bearer of some employer role."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://purl.unep.org/sdg/SDGIO_00010004> "DRAFT"@en)
-SubClassOf(<https://purl.unep.org/sdg/SDGIO_00010004> <http://purl.obolibrary.org/obo/BFO_0000015>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.unep.org/sdg/SDGIO_00010004> "A planned process wherein a person performs actions for remuneration that are specified by an employer."@en)
+SubClassOf(<https://purl.unep.org/sdg/SDGIO_00010004> <http://purl.obolibrary.org/obo/OBI_0000011>)
 AnnotationAssertion(rdfs:label <https://purl.unep.org/sdg/SDGIO_00010005> "agricultural household"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://purl.unep.org/sdg/SDGIO_00010005> "A PCO 'household' AND and has ENVO 'agricultural feature'.
 
