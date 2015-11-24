@@ -15,6 +15,7 @@ Import(<http://purl.unep.org/sdg/imports/ro_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/iao_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/chebi_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/obi_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/ncbitaxon_import.owl>)
 Annotation(rdfs:comment "This is the Sustainable Development Goals Interface Ontology (SDGIO) developed to support the realisation of the SDGs by providing a semantically coherent representations of relevant entities."^^xsd:string)
 
 Declaration(Class(<https://purl.unep.org/sdg/SDGIO_00000000>))
