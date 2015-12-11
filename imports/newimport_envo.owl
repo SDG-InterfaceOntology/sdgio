@@ -1,0 +1,831 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.unep.org/sdg/imports/newimport_envo.owl#"
+     xml:base="http://purl.unep.org/sdg/imports/newimport_envo.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.unep.org/sdg/imports/newimport_envo.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic geographic feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000015">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001999"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000016">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001999"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">river</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000023">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stream</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000618"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated place</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000070">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">constructed feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000856">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">city</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001999">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marine water body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waste water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002264"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sewage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002186">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contaminated water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002193">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulp-bleaching waste water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002264">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waste</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003064">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking water</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_0010001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_0010001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic environmental material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000219">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic terrestrial biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000248">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dense settlement biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000219"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000249">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urban biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000248"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000254">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002577"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000266">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water vapour</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000268">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmospheric water vapour</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000451">
+        <rdfs:label>atmospheric carbon dioxide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000537">
+        <rdfs:label>atmospheric ozone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000617">
+        <rdfs:label xml:lang="en">lentic water body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000618">
+        <rdfs:label xml:lang="en">lotic water body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000629">
+        <rdfs:label xml:lang="en">climate change</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000634">
+        <rdfs:label xml:lang="en">volcanic eruption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000655">
+        <rdfs:label xml:lang="en">explosive eruption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000656">
+        <rdfs:label xml:lang="en">effusive eruption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000677">
+        <rdfs:label xml:lang="en">earthquake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000678">
+        <rdfs:label xml:lang="en">tectonic earthquake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000677"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000679">
+        <rdfs:label xml:lang="en">megathrust earthquake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000678"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000680">
+        <rdfs:label xml:lang="en">polluted lake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000687">
+        <rdfs:label xml:lang="en">coast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000689">
+        <rdfs:label xml:lang="en">tsunami</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000690">
+        <rdfs:label xml:lang="en">mass wasting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000691">
+        <rdfs:label xml:lang="en">avalanche</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000696"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000692">
+        <rdfs:label xml:lang="en">landslide process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000690"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000693">
+        <rdfs:label xml:lang="en">rockfall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000690"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000694">
+        <rdfs:label xml:lang="en">geological subsidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000695">
+        <rdfs:label xml:lang="en">mudslide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000690"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000696">
+        <rdfs:label xml:lang="en">mass wasting flow</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000690"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000697">
+        <rdfs:label xml:lang="en">mudflow</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000696"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000698">
+        <rdfs:label xml:lang="en">debris flow</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000696"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000699">
+        <rdfs:label xml:lang="en">lahar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000697"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000700">
+        <rdfs:label xml:lang="en">sturzstrom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000692"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000702">
+        <rdfs:label xml:lang="en">ash fall process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000707">
+        <rdfs:label xml:lang="en">coastal flooding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000708">
+        <rdfs:label xml:lang="en">riverine flooding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000709">
+        <rdfs:label xml:lang="en">flash flooding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000710">
+        <rdfs:label xml:lang="en">flood</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000711">
+        <rdfs:label xml:lang="en">coastal flood</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000710"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000712">
+        <rdfs:label xml:lang="en">riverine flood</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000710"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000713">
+        <rdfs:label xml:lang="en">flash flood</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000710"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000714">
+        <rdfs:label xml:lang="en">storm surge</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000711"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000715">
+        <rdfs:label xml:lang="en">metotsunami</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000689"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000716">
+        <rdfs:label xml:lang="en">storm surge process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000707"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000717">
+        <rdfs:label xml:lang="en">areal flooding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000718">
+        <rdfs:label xml:lang="en">urban flooding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000730">
+        <rdfs:label xml:lang="en">lava flow process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500000">
+        <rdfs:label xml:lang="en">environmental system process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500001">
+        <rdfs:label xml:lang="en">desertification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500002">
+        <rdfs:label xml:lang="en">flooding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500005">
+        <rdfs:label>land degradation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500011">
+        <rdfs:label>afforestation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500012">
+        <rdfs:label>deforestation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500013">
+        <rdfs:label>reforestation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500032"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500017">
+        <rdfs:label>anthropogenic reforestation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500013"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500027"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500027">
+        <rdfs:label>anthropogenic environmental process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500032">
+        <rdfs:label>revegetation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RO_0002577">
+        <rdfs:label>system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity consisting of multiple components that are causally integrated.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.jbiomedsem.com/content/4/1/43</obo:IAO_0000119>
+        <obo:IAO_0000116>May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43</obo:IAO_0000116>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.0.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+

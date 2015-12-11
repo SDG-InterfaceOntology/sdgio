@@ -1,0 +1,114 @@
+format-version: 1.2
+ontology: http://purl.unep.org/sdg/imports/pato_import.owl
+
+[Term]
+id: PATO:0000001
+name: quality
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
+synonym: "trait" EXACT []
+
+[Term]
+id: PATO:0000011
+name: age
+def: "A time quality inhering in a bearer by virtue of how long the bearer has existed." [WordNet:WordNet]
+is_a: PATO:0000165 ! time
+
+[Term]
+id: PATO:0000140
+name: position
+def: "A spatial quality inhering in a bearer by virtue of the bearer's spatial location relative to other objects in the vicinity." [PATOC:GVG]
+synonym: "location" EXACT []
+synonym: "placement" EXACT []
+synonym: "relational spatial quality" EXACT []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000165
+name: time
+def: "A quality in which events occur in sequence." [PATOC:GVG]
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000308
+name: old
+def: "An age which is relatively high." [PATOC:GVG]
+is_a: PATO:0000011 ! age
+
+[Term]
+id: PATO:0000309
+name: young
+def: "An age which is relatively low." [PATOC:GVG]
+is_a: PATO:0000011 ! age
+
+[Term]
+id: PATO:0001018
+name: physical quality
+def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." [PATOC:GVG]
+synonym: "relational physical quality" EXACT []
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001241
+name: physical object quality
+def: "A quality which inheres in a continuant." [PATOC:GVG]
+synonym: "monadic quality of a continuant" EXACT []
+synonym: "monadic quality of an object" NARROW []
+synonym: "monadic quality of continuant" NARROW []
+synonym: "multiply inhering quality of a physical entity " EXACT []
+synonym: "quality of a continuant" EXACT []
+synonym: "quality of a single physical entity" EXACT []
+synonym: "quality of an object" EXACT []
+synonym: "quality of continuant" EXACT []
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001546
+name: quality of a solid
+def: "A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable." [Chemistry:http\://chemistry.about.com/od/chemistryglossary/a/soliddefinition.htm]
+synonym: "solidity" EXACT []
+is_a: PATO:0002198 ! quality of a substance
+
+[Term]
+id: PATO:0001547
+name: quality of a gas
+def: "A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape." [Chemistry:http\://chemistry.about.com/od/chemistryglossary/a/gasdefinition.htm, PATOC:GVG]
+synonym: "gaseous" EXACT []
+is_a: PATO:0002198 ! quality of a substance
+
+[Term]
+id: PATO:0001548
+name: quality of a liquid
+def: "A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape." [url:http\://www.chemistry-dictionary.com/definition/liquid.php]
+synonym: "liquidity" EXACT []
+is_a: PATO:0002198 ! quality of a substance
+
+[Term]
+id: PATO:0001598
+name: protruding
+def: "A quality inhering in a bearer by virtue of the bearer's extending out above or beyond a surface or boundary." [WordNet:WordNet]
+synonym: "protruding " EXACT []
+synonym: "relational protruding quality" EXACT []
+is_a: PATO:0000140 ! position
+
+[Term]
+id: PATO:0001646
+name: protruding out of
+def: "A quality inhering into a bearer by virtue of the bearer's extending out above or beyond its surface or boundary and outwards in relation to the physical space occupied by another entity." [PATOC:nc]
+synonym: "exits through" RELATED []
+synonym: "exposed" RELATED []
+synonym: "extruding from" EXACT []
+is_a: PATO:0001598 ! protruding
+
+[Term]
+id: PATO:0002138
+name: edibility
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to being fit to be eaten." [PATOC:VO]
+synonym: "edibleness" EXACT []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0002198
+name: quality of a substance
+def: "A quality inhering in a bearer by virtue of its constitution." [PATOC:GVG]
+is_a: PATO:0001018 ! physical quality
+

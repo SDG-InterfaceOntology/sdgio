@@ -1,0 +1,283 @@
+format-version: 1.2
+ontology: http://purl.unep.org/sdg/imports/chebi_import.owl
+
+[Term]
+id: CHEBI:15377
+name: water
+def: "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms." []
+synonym: "[H]O[H]" RELATED SMILES [ChEBI:]
+synonym: "[OH2]" RELATED [IUPAC:]
+synonym: "acqua" RELATED [ChEBI:]
+synonym: "agua" RELATED [ChEBI:]
+synonym: "aqua" RELATED [ChEBI:]
+synonym: "BOUND OXYGEN" RELATED [PDBeChem:]
+synonym: "BOUND WATER" RELATED [PDBeChem:]
+synonym: "dihydridooxygen" RELATED [IUPAC:]
+synonym: "dihydrogen oxide" RELATED [IUPAC:]
+synonym: "DISORDERED SOLVENT" RELATED [PDBeChem:]
+synonym: "eau" RELATED [ChEBI:]
+synonym: "GLUCOSE 4-O4 GROUP" RELATED [PDBeChem:]
+synonym: "H2O" RELATED FORMULA [ChEBI:]
+synonym: "H2O" RELATED [KEGG COMPOUND:]
+synonym: "H2O" RELATED [UniProt:]
+synonym: "HOH" RELATED [ChEBI:]
+synonym: "hydrogen hydroxide" RELATED [ChEBI:]
+synonym: "InChI=1S/H2O/h1H2" RELATED InChI [ChEBI:]
+synonym: "oxidane" EXACT IUPAC_NAME [IUPAC:]
+synonym: "OXYGEN ATOM" RELATED [PDBeChem:]
+synonym: "Steam" RELATED [HMDB:]
+synonym: "Wasser" RELATED [ChEBI:]
+synonym: "WATER" EXACT [PDBeChem:]
+synonym: "Water" EXACT [KEGG COMPOUND:]
+synonym: "water" EXACT [PDBeChem:]
+synonym: "water" EXACT IUPAC_NAME [IUPAC:]
+synonym: "XLYOFNOQVPJJNP-UHFFFAOYSA-N" RELATED InChIKey [ChEBI:]
+is_a: CHEBI:33693 ! oxygen hydride
+is_a: CHEBI:37176 ! mononuclear parent hydride
+is_a: CHEBI:52625 ! inorganic hydroxy compound
+
+[Term]
+id: CHEBI:18276
+name: dihydrogen
+def: "An elemental molecule consisting of two hydrogens joined by a single bond." []
+synonym: "[H][H]" RELATED SMILES [ChEBI:]
+synonym: "dihydrogen" EXACT [ChEBI:]
+synonym: "dihydrogen" EXACT IUPAC_NAME [IUPAC:]
+synonym: "E 949" RELATED [ChEBI:]
+synonym: "E-949" RELATED [ChEBI:]
+synonym: "E949" RELATED [ChEBI:]
+synonym: "H2" RELATED [KEGG COMPOUND:]
+synonym: "H2" RELATED [IUPAC:]
+synonym: "H2" RELATED FORMULA [ChEBI:]
+synonym: "H2" RELATED [UniProt:]
+synonym: "Hydrogen" RELATED [KEGG COMPOUND:]
+synonym: "InChI=1S/H2/h1H" RELATED InChI [ChEBI:]
+synonym: "molecular hydrogen" RELATED [ChEBI:]
+synonym: "UFHFLCQGNIYNRP-UHFFFAOYSA-N" RELATED InChIKey [ChEBI:]
+is_a: CHEBI:25362 ! elemental molecule
+is_a: CHEBI:33260 ! elemental hydrogen
+
+[Term]
+id: CHEBI:23367
+name: molecular entity
+def: "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "entidad molecular" RELATED [IUPAC:]
+synonym: "entidades moleculares" RELATED [IUPAC:]
+synonym: "entite moleculaire" RELATED [IUPAC:]
+synonym: "molecular entities" RELATED [IUPAC:]
+synonym: "molecular entity" EXACT IUPAC_NAME [IUPAC:]
+synonym: "molekulare Entitaet" RELATED [ChEBI:]
+is_a: CHEBI:24431 ! chemical entity
+
+[Term]
+id: CHEBI:24431
+name: chemical entity
+def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "chemical entity" EXACT [UniProt:]
+synonym: "grouped_by_chemistry" RELATED [ChEBI:]
+
+[Term]
+id: CHEBI:24651
+name: hydroxides
+def: "Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-))." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "hydroxides" EXACT [ChEBI:]
+is_a: CHEBI:25806 ! oxygen molecular entity
+is_a: CHEBI:33608 ! hydrogen molecular entity
+is_a: CHEBI:37577 ! heteroatomic molecular entity
+
+[Term]
+id: CHEBI:24835
+name: inorganic molecular entity
+def: "A molecular entity that contains no carbon." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "anorganische Verbindungen" RELATED [ChEBI:]
+synonym: "inorganic compounds" RELATED [ChEBI:]
+synonym: "inorganic entity" RELATED [ChEBI:]
+synonym: "inorganic molecular entities" RELATED [ChEBI:]
+synonym: "inorganics" RELATED [ChEBI:]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:25362
+name: elemental molecule
+def: "A molecule all atoms of which have the same atomic number." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "homoatomic molecule" RELATED [ChEBI:]
+synonym: "homoatomic molecules" RELATED [ChEBI:]
+is_a: CHEBI:25367 ! molecule
+is_a: CHEBI:33259 ! elemental molecular entity
+
+[Term]
+id: CHEBI:25367
+name: molecule
+def: "Any polyatomic entity that is an electrically neutral entity consisting of more than one atom." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "molecula" RELATED [IUPAC:]
+synonym: "molecule" EXACT [IUPAC:]
+synonym: "molecules" RELATED [IUPAC:]
+synonym: "Molekuel" RELATED [ChEBI:]
+synonym: "neutral molecular compounds" RELATED [IUPAC:]
+is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:25806
+name: oxygen molecular entity
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "oxygen compounds" RELATED [ChEBI:]
+synonym: "oxygen molecular entities" RELATED [ChEBI:]
+synonym: "oxygen molecular entity" EXACT [ChEBI:]
+is_a: CHEBI:33304 ! chalcogen molecular entity
+
+[Term]
+id: CHEBI:33242
+name: inorganic hydride
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "inorganic hydrides" RELATED [ChEBI:]
+is_a: CHEBI:24835 ! inorganic molecular entity
+is_a: CHEBI:33692 ! hydrides
+
+[Term]
+id: CHEBI:33259
+name: elemental molecular entity
+def: "A molecular entity all atoms of which have the same atomic number." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "homoatomic entity" RELATED [ChEBI:]
+synonym: "homoatomic molecular entities" RELATED [ChEBI:]
+synonym: "homoatomic molecular entity" RELATED [ChEBI:]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:33260
+name: elemental hydrogen
+synonym: "." RELATED FORMULA [ChEBI:]
+is_a: CHEBI:24835 ! inorganic molecular entity
+is_a: CHEBI:33259 ! elemental molecular entity
+is_a: CHEBI:33608 ! hydrogen molecular entity
+
+[Term]
+id: CHEBI:33304
+name: chalcogen molecular entity
+def: "Any p-block molecular entity containing a chalcogen." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "chalcogen compounds" RELATED [ChEBI:]
+synonym: "chalcogen molecular entities" RELATED [ChEBI:]
+synonym: "chalcogen molecular entity" EXACT [ChEBI:]
+is_a: CHEBI:33675 ! p-block molecular entity
+
+[Term]
+id: CHEBI:33579
+name: main group molecular entity
+def: "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "main group compounds" RELATED [ChEBI:]
+synonym: "main group molecular entities" RELATED [ChEBI:]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:33608
+name: hydrogen molecular entity
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "hydrogen compounds" RELATED [ChEBI:]
+synonym: "hydrogen molecular entities" RELATED [ChEBI:]
+is_a: CHEBI:33674 ! s-block molecular entity
+
+[Term]
+id: CHEBI:33674
+name: s-block molecular entity
+def: "An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "s-block compounds" RELATED [ChEBI:]
+synonym: "s-block molecular entities" RELATED [ChEBI:]
+synonym: "s-block molecular entity" EXACT [ChEBI:]
+is_a: CHEBI:33579 ! main group molecular entity
+
+[Term]
+id: CHEBI:33675
+name: p-block molecular entity
+def: "A main group molecular entity that contains one or more atoms of a p-block element." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "p-block compounds" RELATED [ChEBI:]
+synonym: "p-block molecular entities" RELATED [ChEBI:]
+synonym: "p-block molecular entitiy" RELATED [ChEBI:]
+is_a: CHEBI:33579 ! main group molecular entity
+
+[Term]
+id: CHEBI:33692
+name: hydrides
+def: "Hydrides are chemical compounds of hydrogen with other chemical elements." []
+synonym: "." RELATED FORMULA [ChEBI:]
+is_a: CHEBI:33608 ! hydrogen molecular entity
+is_a: CHEBI:37577 ! heteroatomic molecular entity
+
+[Term]
+id: CHEBI:33693
+name: oxygen hydride
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "hydrides of oxygen" RELATED [ChEBI:]
+synonym: "oxygen hydride" EXACT [ChEBI:]
+synonym: "oxygen hydrides" RELATED [ChEBI:]
+is_a: CHEBI:36902 ! chalcogen hydride
+
+[Term]
+id: CHEBI:36357
+name: polyatomic entity
+def: "Any molecular entity consisting of more than one atom." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "polyatomic entities" RELATED [ChEBI:]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:36902
+name: chalcogen hydride
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "chalcogen hydride" EXACT [ChEBI:]
+synonym: "chalcogen hydrides" RELATED [ChEBI:]
+is_a: CHEBI:33242 ! inorganic hydride
+is_a: CHEBI:33304 ! chalcogen molecular entity
+
+[Term]
+id: CHEBI:37176
+name: mononuclear parent hydride
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "mononuclear hydride" RELATED [ChEBI:]
+synonym: "mononuclear hydrides" RELATED [IUPAC:]
+synonym: "mononuclear parent hydrides" EXACT IUPAC_NAME [IUPAC:]
+is_a: CHEBI:33692 ! hydrides
+
+[Term]
+id: CHEBI:37577
+name: heteroatomic molecular entity
+def: "A molecular entity consisting of two or more chemical elements." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "chemical compound" RELATED [ChEBI:]
+synonym: "heteroatomic molecular entities" RELATED [ChEBI:]
+is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:50906
+name: role
+def: "A role is particular behaviour which a material entity may exhibit." []
+
+[Term]
+id: CHEBI:51086
+name: chemical role
+def: "A role played by the molecular entity or part thereof within a chemical context." []
+is_a: CHEBI:50906 ! role
+
+[Term]
+id: CHEBI:52625
+name: inorganic hydroxy compound
+synonym: "inorganic hydroxides" RELATED [ChEBI:]
+is_a: CHEBI:24651 ! hydroxides
+is_a: CHEBI:24835 ! inorganic molecular entity
+
+[Term]
+id: CHEBI:78298
+name: environmental contaminant
+def: "Any minor or unwanted substance introduced into the environment that can have undesired effects." []
+synonym: "environmental contaminants" RELATED [ChEBI:]
+is_a: CHEBI:51086 ! chemical role
+

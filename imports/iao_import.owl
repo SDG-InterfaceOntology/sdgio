@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.unep.org/sdg/imports/iao_import.owl#"
+     xml:base="http://purl.unep.org/sdg/imports/iao_import.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.unep.org/sdg/imports/iao_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
+        <rdfs:label xml:lang="en">objective specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000007">
+        <rdfs:label xml:lang="en">action specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033">
+        <rdfs:label xml:lang="en">directive information entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000078">
+        <rdfs:label xml:lang="en">curation status specification</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000002"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000102">
+        <rdfs:label xml:lang="en">data about an ontology part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
+        <rdfs:label xml:lang="en">measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000225">
+        <rdfs:label xml:lang="en">obsolescence reason specification</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000103"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000409">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">denotator type</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000410"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000420"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000421"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000002 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
+        <rdfs:label xml:lang="en">example to be eventually removed</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000103 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000103">
+        <rdfs:label xml:lang="en">failed exploratory term</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000120 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120">
+        <rdfs:label xml:lang="en">metadata complete</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000121 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121">
+        <rdfs:label xml:lang="en">organizational term</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <rdfs:label xml:lang="en">ready for release</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000123 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123">
+        <rdfs:label xml:lang="en">metadata incomplete</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000124 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124">
+        <rdfs:label xml:lang="en">uncurated</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000226 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
+        <rdfs:label xml:lang="en">placeholder removed</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000227 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
+        <rdfs:label xml:lang="en">terms merged</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000228 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
+        <rdfs:label xml:lang="en">term imported</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000229 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
+        <rdfs:label xml:lang="en">term split</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000410 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000410">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">universal</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000420 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000420">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defined class</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000421 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000421">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">named class expression</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000423 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423">
+        <rdfs:label xml:lang="en">to be replaced with external ontology term</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000428 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428">
+        <rdfs:label xml:lang="en">requires discussion</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.0.1+9a6586b) http://owlapi.sourceforge.net -->
+

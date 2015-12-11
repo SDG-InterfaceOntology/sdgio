@@ -1,0 +1,647 @@
+format-version: 1.2
+ontology: http://purl.unep.org/sdg/imports/envo_import.owl
+
+[Term]
+id: BFO:0000002
+name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000040
+name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: ENVO:00000000
+name: geographic feature
+synonym: "macroscopic spatial feature" EXACT []
+is_a: ENVO:00002297 ! environmental feature
+
+[Term]
+id: ENVO:00000002
+name: anthropogenic geographic feature
+def: "An anthropogenic geographic feature is a geographic feature\nresulting from the influence of human beings on nature." [ORCID:0000-0002-4366-3088]
+synonym: "man-made feature" RELATED []
+synonym: "manmade feature" RELATED []
+is_a: ENVO:00000000 ! geographic feature
+
+[Term]
+id: ENVO:00000015
+name: ocean
+def: "Continuous saline-water bodies that surround the continents and fill the Earth's great depressions." [ADL:FTT]
+synonym: "Ocean" EXACT [NASA:earthrealm]
+synonym: "ocean" EXACT [Geonames:feature]
+synonym: "ocean region" RELATED [ADL:FTT]
+synonym: "sea" RELATED [USGS:SDTS]
+is_a: ENVO:00001999 ! marine water body
+
+[Term]
+id: ENVO:00000016
+name: sea
+def: "A large expanse of saline water usually connected with an ocean." [Wikipedia:Sea]
+synonym: "channel" NARROW []
+synonym: "closed sea" NARROW [USGS:SDTS]
+synonym: "marginal sea" NARROW [USGS:SDTS]
+synonym: "open sea" NARROW [USGS:SDTS]
+synonym: "open sound" NARROW [USGS:SDTS]
+synonym: "open water" NARROW [USGS:SDTS]
+synonym: "Sea" EXACT [NASA:earthrealm]
+synonym: "sea" EXACT [ADL:FTT]
+synonym: "sea" EXACT [Geonames:feature]
+is_a: ENVO:00001999 ! marine water body
+
+[Term]
+id: ENVO:00000020
+name: lake
+def: "A body of water or other liquid of considerable size contained on a body of land." [Wikipedia:Lake]
+synonym: "broad" RELATED []
+synonym: "catch basin" NARROW [USGS:SDTS]
+synonym: "LAKE" EXACT [USGS:SDTS]
+synonym: "Lake" EXACT [NASA:earthrealm]
+synonym: "lake" EXACT [Geonames:feature]
+synonym: "lakes" EXACT [Geonames:feature]
+synonym: "llyn" RELATED []
+synonym: "loch" RELATED []
+synonym: "lochan" RELATED [ADL:FTT]
+synonym: "lough" RELATED []
+synonym: "mere" RELATED []
+synonym: "mortlake" RELATED [USGS:SDTS]
+synonym: "open water" NARROW [USGS:SDTS]
+synonym: "pasteuer lake" RELATED [USGS:SDTS]
+synonym: "tarn" NARROW [ADL:FTT]
+is_a: ENVO:01000617 ! lentic water body
+
+[Term]
+id: ENVO:00000022
+name: river
+def: "Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system." [ADL:FTT]
+synonym: "braided river" NARROW [USGS:SDTS]
+synonym: "rio" EXACT [USGS:SDTS]
+synonym: "rio" EXACT [ADL:FTT]
+synonym: "River" EXACT [NASA:earthrealm]
+synonym: "watercourse" BROAD [USGS:SDTS]
+is_a: ENVO:00000023 ! stream
+
+[Term]
+id: ENVO:00000023
+name: stream
+def: "Linear body of water flowing on the Earth's surface." [USGS:http\://mapping.usgs.gov/www/ti/GNIS/gnis_users_guide_appendixc.html]
+synonym: "beck" RELATED [USGS:SDTS]
+synonym: "braided stream" NARROW [USGS:SDTS]
+synonym: "brook" RELATED [ADL:FTT]
+synonym: "brook" RELATED [Getty:TGN]
+synonym: "burn (hydrographic)" RELATED [ADL:FTT]
+synonym: "Creek" RELATED [NASA:earthrealm]
+synonym: "creek" RELATED [ADL:FTT]
+synonym: "creek" RELATED [Getty:TGN]
+synonym: "creek" RELATED [USGS:SDTS]
+synonym: "fork (hydrographic" NARROW [ADL:FTT]
+synonym: "glacial stream" NARROW [USGS:SDTS]
+synonym: "lode" NARROW [USGS:SDTS]
+synonym: "millstream" NARROW []
+synonym: "rivulet" RELATED [USGS:SDTS]
+synonym: "Stream" EXACT [NASA:earthrealm]
+synonym: "stream" EXACT [Geonames:feature]
+synonym: "stream bend" NARROW [ADL:FTT]
+synonym: "streams" EXACT [Geonames:feature]
+synonym: "watercourse" BROAD [ADL:FTT]
+synonym: "watercourse" BROAD [USGS:SDTS]
+is_a: ENVO:00000029 ! watercourse
+
+[Term]
+id: ENVO:00000029
+name: watercourse
+def: "A flowing body of water." [Wikipedia:Watercourse]
+synonym: "awawa" RELATED [USGS:SDTS]
+synonym: "barranca" RELATED [USGS:SDTS]
+synonym: "beck" RELATED [USGS:SDTS]
+synonym: "branch" RELATED [USGS:SDTS]
+synonym: "brook" RELATED [USGS:SDTS]
+synonym: "course" RELATED [USGS:SDTS]
+synonym: "culvert" NARROW [USGS:SDTS]
+synonym: "draw" RELATED [USGS:SDTS]
+synonym: "dredged channel" NARROW [USGS:SDTS]
+synonym: "fork" NARROW [USGS:SDTS]
+synonym: "gulch" NARROW [USGS:SDTS]
+synonym: "gully" NARROW [USGS:SDTS]
+synonym: "gut" NARROW [USGS:SDTS]
+synonym: "gut" NARROW [Getty:TGN]
+synonym: "gutter" NARROW [USGS:SDTS]
+synonym: "kill" NARROW [USGS:SDTS]
+synonym: "lode" NARROW [USGS:SDTS]
+synonym: "moat" RELATED [USGS:SDTS]
+synonym: "narrows" NARROW [Geonames:feature]
+synonym: "narrows" NARROW [USGS:SDTS]
+synonym: "narrows" RELATED [Getty:TGN]
+synonym: "narrows (hydrographic)" RELATED [ADL:FTT]
+synonym: "overflow channel" NARROW [USGS:SDTS]
+synonym: "passage" NARROW [USGS:SDTS]
+synonym: "passage" NARROW [Getty:TGN]
+synonym: "pup" NARROW [USGS:SDTS]
+synonym: "race" NARROW [USGS:SDTS]
+synonym: "ravine" NARROW [USGS:SDTS]
+synonym: "reach" NARROW [Getty:TGN]
+synonym: "reach" NARROW [Geonames:feature]
+synonym: "reach" NARROW [USGS:SDTS]
+synonym: "rill" NARROW [USGS:SDTS]
+synonym: "rio" NARROW [USGS:SDTS]
+synonym: "rivulet" NARROW [USGS:SDTS]
+synonym: "run" NARROW [Getty:TGN]
+synonym: "run" NARROW [USGS:SDTS]
+synonym: "runnel" NARROW [USGS:SDTS]
+synonym: "seachannel" NARROW [USGS:SDTS]
+synonym: "seaway" NARROW [USGS:SDTS]
+synonym: "spillway" NARROW [USGS:SDTS]
+synonym: "spillway" NARROW [Geonames:feature]
+synonym: "stream" NARROW [ADL:FTT]
+synonym: "tideway" NARROW [USGS:SDTS]
+synonym: "wash" NARROW [USGS:SDTS]
+synonym: "water gap" NARROW [USGS:SDTS]
+synonym: "WATERCOURSE" EXACT [USGS:SDTS]
+synonym: "watercourse" EXACT [Geonames:feature]
+synonym: "waterway" RELATED [USGS:SDTS]
+is_a: ENVO:01000618 ! lotic water body
+
+[Term]
+id: ENVO:00000062
+name: populated place
+def: "Place or area with clustered or scattered buildings and a permanent human population." [USGS:http\://mapping.usgs.gov/www/ti/GNIS/gnis_users_guide_appendixc.html]
+synonym: "inhabited place" EXACT [Getty:TGN]
+synonym: "inhabited region" RELATED []
+synonym: "place" BROAD [USGS:SDTS]
+synonym: "populated locality" RELATED []
+synonym: "populated place" EXACT [Geonames:feature]
+synonym: "populated places" EXACT [Geonames:feature]
+synonym: "settlement" RELATED [USGS:SDTS]
+is_a: ENVO:00000070 ! constructed feature
+
+[Term]
+id: ENVO:00000063
+name: water body
+def: "An accumulation of water of varying size." [Wikipedia:Body_of_water]
+synonym: "aquatic feature" EXACT []
+synonym: "bodies of water" EXACT [Getty:TGN]
+synonym: "body of water" EXACT [Getty:TGN]
+synonym: "body of water" EXACT [ADL:FTT]
+synonym: "hydrographic feature" BROAD [ADL:FTT]
+synonym: "waterbody" EXACT []
+is_a: ENVO:00000000 ! geographic feature
+
+[Term]
+id: ENVO:00000070
+name: constructed feature
+def: "A feature that has been constructed by deliberate human effort." [MA:ma]
+is_a: ENVO:00000002 ! anthropogenic geographic feature
+
+[Term]
+id: ENVO:00000428
+name: biome
+def: "A biome is an environmental system to which resident ecological communities have evolved adaptations." [DOI:10.1186/2041-1480-4-43, Wikipedia:Biome]
+synonym: "ecosystem" RELATED []
+synonym: "EcosytemType" RELATED [NASA:earthrealm]
+synonym: "major habitat type" EXACT [WWF:Biome]
+is_a: ENVO:01000254 ! environmental system
+
+[Term]
+id: ENVO:00000446
+name: terrestrial biome
+def: "A biome that applies to the terrestrial realm." [Wikipedia:Biome#Terrestrial_biomes]
+synonym: "terrestrial realm" RELATED []
+is_a: ENVO:00000428 ! biome
+
+[Term]
+id: ENVO:00000856
+name: city
+def: "Incorporated populated place." [ADL:FTT]
+synonym: "municipality" RELATED [FTT:FTT, Getty:TGN]
+synonym: "town" RELATED [ADL:FTT]
+synonym: "urban area" RELATED [ADL:FTT]
+synonym: "village" RELATED [ADL:FTT, Getty:TGN]
+is_a: ENVO:00000062 ! populated place
+
+[Term]
+id: ENVO:00001999
+name: marine water body
+def: "A significant accumulation of water which is part of a marine biome." []
+synonym: "body of marine water" EXACT []
+synonym: "marine waterbody" EXACT []
+is_a: ENVO:01000617 ! lentic water body
+
+[Term]
+id: ENVO:00002001
+name: waste water
+def: "Water that has been adversely affected in quality by anthropogenic influence." [Wikipedia:Wastewater]
+is_a: ENVO:00002186 ! contaminated water
+is_a: ENVO:00002264 ! waste
+
+[Term]
+id: ENVO:00002006
+name: water
+def: "An environmental material primarily composed of dihydrogen oxide in its liquid form." [MA:ma]
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:00002011
+name: fresh water
+synonym: "freshwater" EXACT []
+is_a: ENVO:00002006 ! water
+
+[Term]
+id: ENVO:00002018
+name: sewage
+def: "Wastewater that is contaminated with feces or urine," [Wikipedia:Wastewater]
+is_a: ENVO:00002001 ! waste water
+
+[Term]
+id: ENVO:00002186
+name: contaminated water
+synonym: "polluted water" EXACT []
+is_a: ENVO:00002006 ! water
+
+[Term]
+id: ENVO:00002193
+name: pulp-bleaching waste water
+is_a: ENVO:00002001 ! waste water
+
+[Term]
+id: ENVO:00002264
+name: waste
+is_a: ENVO:0010001 ! anthropogenic environmental material
+
+[Term]
+id: ENVO:00002297
+name: environmental feature
+def: "A material entity which determines an environmental system." [DOI:10.1186/2041-1480-4-43, NM:nm, ORCID:0000-0002-4366-3088]
+
+[Term]
+id: ENVO:00003064
+name: drinking water
+def: "Drinking water is water which may be consumed by humans with no adverse effects on their health." []
+synonym: "potable water" EXACT []
+is_a: ENVO:00002011 ! fresh water
+
+[Term]
+id: ENVO:00010483
+name: environmental material
+def: "A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system." [DOI:10.1186/2041-1480-4-43, MA:ma, ORCID:0000-0002-4366-3088, URL:http\://ontology.buffalo.edu/smith/articles/niches.html]
+synonym: "portion of environmental material" EXACT []
+
+[Term]
+id: ENVO:0010001
+name: anthropogenic environmental material
+def: "Anthropogenic material in or on which organisms may live." [MA:ma]
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000219
+name: anthropogenic terrestrial biome
+def: "An anthropogenic terrestrial biome is a terrestrial biome which has community structures determined by human activity." []
+is_a: ENVO:00000446 ! terrestrial biome
+
+[Term]
+id: ENVO:01000248
+name: dense settlement biome
+def: "A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use." [DOI:10.1111/j.1466-8238.2010.00540.x, DOI:10.1890/070062]
+is_a: ENVO:01000219 ! anthropogenic terrestrial biome
+
+[Term]
+id: ENVO:01000249
+name: urban biome
+def: "An urban biome is a dense settlement biome which has been urbanised." [DOI:10.1111/j.1466-8238.2010.00540.x, DOI:10.1890/070062]
+is_a: ENVO:01000248 ! dense settlement biome
+
+[Term]
+id: ENVO:01000254
+name: environmental system
+def: "A system which has the disposition to environ one or more material entities." [DOI:10.1186/2041-1480-4-43]
+synonym: "environment" EXACT []
+is_a: RO:0002577 ! system
+
+[Term]
+id: ENVO:01000266
+name: water vapour
+def: "Water vapour is a vapour which is the gas phase of water." [Wikipedia:Water_vapor]
+synonym: "aqueous vapor" EXACT [Wikipedia:Water_vapor]
+synonym: "aqueous vapour" EXACT [Wikipedia:Water_vapor]
+synonym: "water vapor" EXACT [Wikipedia:Water_vapor]
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000268
+name: atmospheric water vapour
+def: "Atmospheric water vapour is water vapour that is part of an atmosphere." [Wikipedia:Water_vapor]
+synonym: "atmospheric water vapor" EXACT [Wikipedia:Water_vapor]
+is_a: ENVO:01000266 ! water vapour
+
+[Term]
+id: ENVO:01000451
+name: atmospheric carbon dioxide
+def: "Atmospheric carbon dioxide is an environmental material composed of carbon dioxide in its gaseous form present in the atmosphere." []
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000537
+name: atmospheric ozone
+def: "Atmospheric ozone is an environmental material primarily composed of ozone in its gaseous form and present in the atmosphere." []
+synonym: "atmospheric ozone" RELATED [http://www.eionet.europa.eu/gemet/concept/632] {def="A triatomic molecule of oxygen; a natural constituent of the atmosphere, with the highest concentrations in the ozone layer or stratosphere; it is found at a level between 15 and 30 km above the Earth, which prevents harmful ultraviolet B radiation, which causes skin cancer and threatens plant life, from reaching the ground. The fragile shield is being damaged by chemicals released on Earth. The main chemicals that are depleting stratospheric ozone are chlorofluorocarbons (CFCs), which are used in refrigerators, aerosols and as cleaners in many industries and halons, which are used in fire extinguishers. The damage is caused when these chemicals release highly reactive forms of chlorine and bromine. (Source: GILP96 / WRIGHT)"}
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000617
+name: lentic water body
+def: "A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow." []
+is_a: ENVO:00000063 ! water body
+
+[Term]
+id: ENVO:01000618
+name: lotic water body
+def: "A lotic water body is a water body in which the accumulated water, in its totality, is flowing." []
+is_a: ENVO:00000063 ! water body
+
+[Term]
+id: ENVO:01000629
+name: climate change
+def: "The long-term fluctuations in temperature, precipitation, wind, and all other aspects of the Earth's climate. External processes, such as solar-irradiance variations, variations of the Earth's orbital parameters (eccentricity, precession, and inclination), lithosphere motions, and volcanic activity, are factors in climatic variation. Internal variations of the climate system, e.g., changes in the abundance of greenhouse gases, also may produce fluctuations of sufficient magnitude and variability to explain observed climate change through the feedback processes interrelating the components of the climate system." [GEMET:http\://www.eionet.europa.eu/gemet/concept/1471]
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000634
+name: volcanic eruption
+def: "A volcanic process is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure." [Adapted from Wikipedia:Types_of_volcanic_eruptions]
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000655
+name: explosive eruption
+def: "An explosive eruption is a volcanic process in which pressurised magma is violently expelled and froths into volcanic ash. Explosive eruptions can eject a cloud of rocks, dust, gas, and pyroclastic material  which may then collapse, creating a pyroclastic flow of hot volcanic matter." [Adapted from Wikipedia:Explosive_eruption]
+is_a: ENVO:01000634 ! volcanic eruption
+
+[Term]
+id: ENVO:01000656
+name: effusive eruption
+def: "An effusive eruption is a volcanic eruption during which lava flows onto the ground." [Adapted from Wikipedia:Effusive_eruption]
+is_a: ENVO:01000634 ! volcanic eruption
+
+[Term]
+id: ENVO:01000677
+name: earthquake
+def: "An earthquake is a process whereby the surface of a planet shakes due to the passage of seismic waves through rocks. Seismic waves are produced when some form of energy stored in a planet's crust is suddenly released. Elastic strain, gravity, chemical reactions, or even the motion of massive bodies can produce earthquakes." [Adapted from URL:http\://www.britannica.com/science/earthquake-geology, Adapted from Wikipedia:Earthquake]
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000678
+name: tectonic earthquake
+def: "A tectonic earthquake is an earthquake caused by the release of elastic strain. A tectonic earthquake occurs when strains in rock masses have accumulated to a point where the resulting stresses exceed the strength of the rocks, and sudden fracturing results." [URL:http\://www.britannica.com/science/earthquake-geology]
+is_a: ENVO:01000677 ! earthquake
+
+[Term]
+id: ENVO:01000679
+name: megathrust earthquake
+def: "A megathrust earthquake is a tectonic earthquake which occurs at subduction zones at destructive plate boundaries (convergent boundaries). These interplate earthquakes are the planet's most powerful, with moment magnitudes that can exceed 9.0." [Adapted from URL:http\://www.britannica.com/science/earthquake-geology, Adapted from Wikipedia:Earthquake]
+is_a: ENVO:01000678 ! tectonic earthquake
+
+[Term]
+id: ENVO:01000680
+name: polluted lake
+def: "A lake which has concentrations of environmental contaminants high enough to harm the ecosystems associated with it." []
+is_a: ENVO:00000020 ! lake
+
+[Term]
+id: ENVO:01000687
+name: coast
+def: "A coast is the area where land meets the sea, ocean, or lake." [Adapted from Wikipedia:Coast]
+is_a: ENVO:00000000 ! geographic feature
+
+[Term]
+id: ENVO:01000689
+name: tsunami
+def: "A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami." [Adapted from Wikipedia:Tsunami]
+synonym: "seismic sea wave" EXACT []
+synonym: "tidal wave" EXACT []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000690
+name: mass wasting
+def: "Mass wasting is the geomorphic process by which solid environmental material such as soil, sand, regolith, and/or rock move downslope typically as a mass, largely under the force of gravity, but frequently affected by water and water content as in submarine environments and mudslides." [Adapted from Wikipedia:Mass_wasting]
+synonym: "mass movement" BROAD []
+synonym: "slope movement" EXACT []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000691
+name: avalanche
+def: "An avalanche is a rapid flow of snow down a sloping surface." [Adapted from Wikipedia:Mass_wasting]
+synonym: "snowslide" EXACT []
+synonym: "snowslip" EXACT []
+is_a: ENVO:01000696 ! mass wasting flow
+
+[Term]
+id: ENVO:01000692
+name: landslide process
+def: "A landslide is a process whereby a large mass of earth and rocks moves down a hill or a mountainside." [Adapted from Wikipedia:Mass_wasting]
+synonym: "landslip" EXACT []
+is_a: ENVO:01000690 ! mass wasting
+
+[Term]
+id: ENVO:01000693
+name: rockfall
+is_a: ENVO:01000690 ! mass wasting
+
+[Term]
+id: ENVO:01000694
+name: geological subsidence
+def: "A subsidence process is a geomorphologic process in which a surface shifts downward relative to a datum such as sea-level." [Adapted from Wikipedia:Subsidence]
+synonym: "subsidence" BROAD []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000695
+name: mudslide
+is_a: ENVO:01000690 ! mass wasting
+
+[Term]
+id: ENVO:01000696
+name: mass wasting flow
+def: "A mass wasting flow is a form of mass wasting during which the moving materials behave similarly to a flowing fluid. Water, air and ice are often involved in enabling fluidlike motion of the material." [Adapted from Wikipedia:Mass_wasting]
+synonym: "flow" BROAD []
+is_a: ENVO:01000690 ! mass wasting
+
+[Term]
+id: ENVO:01000697
+name: mudflow
+def: "A mudflow is a form of mass wasting which involves very rapid to extremely rapid surging flow of debris that has become partially or fully liquified by the addition of significant amounts of water to clay-rich source material." [Adapted from Wikipedia:Mudflow]
+synonym: "mud flow" EXACT []
+is_a: ENVO:01000696 ! mass wasting flow
+
+[Term]
+id: ENVO:01000698
+name: debris flow
+is_a: ENVO:01000696 ! mass wasting flow
+
+[Term]
+id: ENVO:01000699
+name: lahar
+def: "A lahar is a type of mudflow or debris flow composed of a slurry of pyroclastic material, rocky debris, and water. The material flows down from a volcano, typically along a river valley." [Adapted from Wikipedia:Lahar]
+is_a: ENVO:01000697 ! mudflow
+
+[Term]
+id: ENVO:01000700
+name: sturzstrom
+def: "A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop — as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen." [Adapted from Wikipedia:Sturtzstrom]
+is_a: ENVO:01000692 ! landslide process
+
+[Term]
+id: ENVO:01000702
+name: ash fall process
+def: "An ash fall process is a process in which volcanic ash formed during an explosive volcanic eruption, phreatomagmatic eruption, or during material transport in pyroclastic density currents is pulled towards the planetary surface by gravity." [Adapted from Wikipedia:Volcanic_ash]
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000707
+name: coastal flooding
+def: "Coastal flooding is a process in which normally dry, low-lying land near a coast is flooded by sea water." [Adapted from Wikipedia:Coastal_flood]
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000708
+name: riverine flooding
+def: "Riverine flooding is a process in which the flow rate of river water exceeds the capacity of its channel, thus flooding neighbouring land. Bends and meanders in a river channel are particularly disposed to such flooding." [Adapted from Wikipedia:Flood#Riverine]
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000709
+name: flash flooding
+def: "Flash flooding is a process in which low-lying land is inundated with water for a short period of time and are usually the result of precipitation or a breach in the container of a water body." [Adapted from Wikipedia:Flash_flood]
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000710
+name: flood
+def: "An unusual accumulation of water above the ground caused by high tide, heavy rain, melting snow or rapid runoff from paved areas." [GEMET:http\://www.eionet.europa.eu/gemet/concept/3298]
+is_a: ENVO:00000063 ! water body
+
+[Term]
+id: ENVO:01000711
+name: coastal flood
+def: "A coastal flood is a flood which is formed as a result of large amounts of water from marine water bodies or large lakes being transported to usually dry land by displacement processes such as high winds or seismic activity." [Adapted from Wikipedia:Flood#Estuarine_and_coastal]
+is_a: ENVO:01000710 ! flood
+
+[Term]
+id: ENVO:01000712
+name: riverine flood
+def: "A riverine flood is a flood which is formed as a result of a river's flow rate exceeding the capacity of its channel." []
+is_a: ENVO:01000710 ! flood
+
+[Term]
+id: ENVO:01000713
+name: flash flood
+def: "A flash flood is a flood formed by the rapid flooding of geomorphic low-lying areas. It may be caused by heavy rain associated with a severe thunderstorm, hurricane, tropical storm, or meltwater from ice or snow flowing over ice sheets or snowfields. Flash floods may also occur after the collapse of a natural ice or debris dam, or a human structure such as a man-made dam. Flash floods are distinguished from a regular flood by a timescale of less than six hours." [Adapted from Wikipedia:Flash_flood]
+is_a: ENVO:01000710 ! flood
+
+[Term]
+id: ENVO:01000714
+name: storm surge
+def: "A storm surge is a coastal flood which is caused by low-pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides." [Adapted from Wikipedia:Storm_surge]
+is_a: ENVO:01000711 ! coastal flood
+
+[Term]
+id: ENVO:01000715
+name: metotsunami
+def: "A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure." [Adapted from Wikipedia:Meteotsunami]
+is_a: ENVO:01000689 ! tsunami
+
+[Term]
+id: ENVO:01000716
+name: storm surge process
+def: "A storm surge process is a coastal flooding process which is caused by low pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides." [Adapted from Wikipedia:Storm_surge]
+is_a: ENVO:01000707 ! coastal flooding
+
+[Term]
+id: ENVO:01000717
+name: areal flooding
+def: "Areal flooding is a flooding process in which flat or low-lying areas become inundated with water due to water input exceeding infiltration, evaporation, or run off." [Adapted from Wikipedia:Flood#Areal]
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000718
+name: urban flooding
+def: "Urban flooding is a flooding process in which land or property in a built environment, particularly in more densely populated areas, is inundated due to the rate of water input exceeding that of water drainage provided by the environment's drainage systems." [Adapted from Wikipedia:Flood#Urban_flooding]
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000730
+name: lava flow process
+def: "A process in which a volume of lava emitted during an effusive eruption moves along a solid surface." [Adapted from Wikipedia:Lava]
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500000
+name: environmental system process
+
+[Term]
+id: ENVO:02500001
+name: desertification
+def: "a type of land degradation in which a relatively dry land region becomes increasingly arid, typically losing its bodies of water as well as vegetation and wildlife." [https://en.wikipedia.org/wiki/Desertification]
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500002
+name: flooding
+def: "A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water." [GEMET: http\://www.eionet.europa.eu/gemet/concept/3301]
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500005
+name: land degradation
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500011
+name: afforestation
+def: "Establishment of a new forest by seeding or planting of nonforested land." [GEMET:http\://www.eionet.europa.eu/gemet/concept/167]
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500012
+name: deforestation
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500013
+name: reforestation
+def: "The planting of trees in areas in where forests have previously been cleared." [Adapted from GEMET:http\://www.eionet.europa.eu/gemet/concept/6979]
+is_a: ENVO:02500032 ! revegetation
+
+[Term]
+id: ENVO:02500017
+name: anthropogenic reforestation
+is_a: ENVO:02500013 ! reforestation
+is_a: ENVO:02500027 ! anthropogenic environmental process
+
+[Term]
+id: ENVO:02500027
+name: anthropogenic environmental process
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500032
+name: revegetation
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: RO:0002577
+name: system
+def: "A material entity consisting of multiple components that are causally integrated." []
+is_a: BFO:0000040 ! material entity
+property_value: IAO:0000116 "May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43" xsd:string
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000119 http://www.jbiomedsem.com/content/4/1/43 xsd:string
+

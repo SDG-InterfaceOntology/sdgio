@@ -1,0 +1,568 @@
+format-version: 1.2
+ontology: http://purl.unep.org/sdg/imports/ro_import.owl
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002008> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001199>) <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002008> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001199>) <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/RO_0000052>) <http://purl.obolibrary.org/obo/RO_0000057>)\n)
+
+[Term]
+id: BFO:0000002
+name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+
+[Term]
+id: BFO:0000003
+name: occurrent
+def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000015
+name: process
+def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000017
+name: realizable entity
+def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000019
+name: quality
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000023
+name: role
+def: "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts." []
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000031
+name: generically dependent continuant
+def: "A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000040
+name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: CARO:0000003
+name: anatomical structure
+is_a: CARO:0000006 ! material anatomical entity
+
+[Term]
+id: CARO:0000006
+name: material anatomical entity
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: PATO:0000001
+name: quality
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: PATO:0000051
+name: morphology
+is_a: BFO:0000019 ! quality
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0000052
+name: shape
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0001199
+name: linear
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0001241
+name: physical object quality
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: RO:0002577
+name: system
+def: "A material entity consisting of multiple components that are causally integrated." []
+is_a: BFO:0000040 ! material entity
+
+[Typedef]
+id: BFO:0000050
+name: part of
+def: "a core relation that holds between a part and its whole" []
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+inverse_of: BFO:0000051 ! has part
+
+[Typedef]
+id: BFO:0000051
+name: has part
+def: "a core relation that holds between a whole and its part" []
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+
+[Typedef]
+id: BFO:0000054
+name: realized in
+domain: BFO:0000017 ! realizable entity
+range: BFO:0000015 ! process
+
+[Typedef]
+id: BFO:0000055
+name: realizes
+domain: BFO:0000015 ! process
+range: BFO:0000017 ! realizable entity
+inverse_of: BFO:0000054 ! realized in
+
+[Typedef]
+id: BFO:0000062
+name: preceded by
+def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: BFO:0000050 BFO:0000062
+is_transitive: true
+is_a: RO:0002086 ! ends after
+inverse_of: BFO:0000063 ! precedes
+
+[Typedef]
+id: BFO:0000063
+name: precedes
+def: "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: BFO:0000050 BFO:0000063
+is_transitive: true
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0000052
+name: inheres in
+def: "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence" []
+is_a: RO:0002314 ! inheres in part of
+
+[Typedef]
+id: RO:0000053
+name: bearer of
+def: "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence" []
+range: BFO:0000020 ! specifically dependent continuant
+inverse_of: RO:0000052 ! inheres in
+
+[Typedef]
+id: RO:0000056
+name: participates in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+domain: BFO:0000002 ! continuant
+range: BFO:0000003 ! occurrent
+
+[Typedef]
+id: RO:0000057
+name: has participant
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+domain: BFO:0000003 ! occurrent
+range: BFO:0000002 ! continuant
+holds_over_chain: BFO:0000051 RO:0000057
+inverse_of: RO:0000056 ! participates in
+
+[Typedef]
+id: RO:0000058
+name: is concretized as
+def: "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants." []
+domain: BFO:0000031 ! generically dependent continuant
+range: BFO:0000020 ! specifically dependent continuant
+
+[Typedef]
+id: RO:0000059
+name: concretizes
+def: "A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant." []
+domain: BFO:0000020 ! specifically dependent continuant
+range: BFO:0000031 ! generically dependent continuant
+inverse_of: RO:0000058 ! is concretized as
+
+[Typedef]
+id: RO:0000080
+name: quality of
+def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
+is_a: RO:0000052 ! inheres in
+inverse_of: RO:0000086 ! has quality
+
+[Typedef]
+id: RO:0000081
+name: role of
+def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
+is_a: RO:0000052 ! inheres in
+
+[Typedef]
+id: RO:0000086
+name: has quality
+def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
+range: BFO:0000019 ! quality
+is_a: RO:0000053 ! bearer of
+
+[Typedef]
+id: RO:0000087
+name: has role
+def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000023 ! role
+is_a: RO:0000053 ! bearer of
+inverse_of: RO:0000081 ! role of
+
+[Typedef]
+id: RO:0002008
+name: coincident with
+def: "A relation that holds between two linear structures that are approximately parallel to each other for their entire length and where either the two structures are adjacent to each other or one is part of the other." []
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
+id: RO:0002086
+name: ends after
+is_transitive: true
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002131
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+holds_over_chain: BFO:0000050 BFO:0000050
+holds_over_chain: BFO:0000051 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: BFO:0000051 RO:0002131
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
+id: RO:0002151
+name: partially overlaps
+def: "x partially overlaps y iff there exists some z such that z is part of x and z is part of y, and it is also the case that neither x is part of y or y is part of x" []
+is_a: RO:0002131 ! overlaps
+
+[Typedef]
+id: RO:0002163
+name: spatially disjoint from
+def: "A is spatially_disjoint_from B if and only if they have no parts in common" []
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
+id: RO:0002170
+name: connected to
+def: "a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b" []
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
+id: RO:0002177
+name: attached to part of
+def: "a is attached to part of b if a is attached to b, or a is attached to some p, where p is part of b." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+holds_over_chain: RO:0002371 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002323 ! mereotopologically related to
+is_a: RO:0002567 ! biomechanically related to
+
+[Typedef]
+id: RO:0002202
+name: develops from
+def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000004 ! independent continuant
+is_transitive: true
+is_a: RO:0002258 ! developmentally preceded by
+
+[Typedef]
+id: RO:0002203
+name: develops into
+is_transitive: true
+is_a: RO:0002286 ! developmentally succeeded by
+is_a: RO:0002387 ! has potential to develop into
+is_a: RO:0002388 ! has potential to directly develop into
+inverse_of: RO:0002202 ! develops from
+
+[Typedef]
+id: RO:0002215
+name: capable of
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000015 ! process
+is_a: RO:0002216 ! capable of part of
+
+[Typedef]
+id: RO:0002216
+name: capable of part of
+def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
+holds_over_chain: RO:0002215 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in
+
+[Typedef]
+id: RO:0002217
+name: actively participates in
+def: "x actively participates in y if and only if x participates in y and x realizes some active role" []
+is_a: RO:0000056 ! participates in
+inverse_of: RO:0002218 ! has active participant
+
+[Typedef]
+id: RO:0002218
+name: has active participant
+def: "x has participant y if and only if x realizes some active role that inheres in y" []
+is_a: RO:0000057 ! has participant
+
+[Typedef]
+id: RO:0002220
+name: adjacent to
+def: "x adjacent to y if and only if x and y share a boundary" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000004 ! independent continuant
+is_a: RO:0002163 ! spatially disjoint from
+
+[Typedef]
+id: RO:0002222
+name: temporally related to
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+
+[Typedef]
+id: RO:0002233
+name: has input
+def: "p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+is_a: RO:0000057 ! has participant
+
+[Typedef]
+id: RO:0002234
+name: has output
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
+is_a: RO:0000057 ! has participant
+
+[Typedef]
+id: RO:0002254
+name: has developmental contribution from
+def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
+domain: CARO:0000003 ! anatomical structure
+range: CARO:0000003 ! anatomical structure
+holds_over_chain: BFO:0000051 RO:0002202
+is_a: RO:0002258 ! developmentally preceded by
+
+[Typedef]
+id: RO:0002255
+name: developmentally contributes to
+holds_over_chain: RO:0002203 BFO:0000050
+is_a: RO:0002286 ! developmentally succeeded by
+is_a: RO:0002385 ! has potential to developmentally contribute to
+inverse_of: RO:0002254 ! has developmental contribution from
+
+[Typedef]
+id: RO:0002258
+name: developmentally preceded by
+def: "Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p" []
+is_a: RO:0002324 ! developmentally related to
+
+[Typedef]
+id: RO:0002286
+name: developmentally succeeded by
+def: "Inverse of developmentally preceded by" []
+is_a: RO:0002384 ! has developmental potential involving
+inverse_of: RO:0002258 ! developmentally preceded by
+
+[Typedef]
+id: RO:0002314
+name: inheres in part of
+def: "q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w." []
+holds_over_chain: RO:0000052 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002502 ! depends on
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002323
+name: mereotopologically related to
+def: "A mereological relationship or a topological relationship" []
+
+[Typedef]
+id: RO:0002324
+name: developmentally related to
+def: "A relationship that holds between entities participating in some developmental process (GO:0032502)" []
+
+[Typedef]
+id: RO:0002326
+name: contributes to
+is_a: RO:0002216 ! capable of part of
+is_a: RO:0002329 ! part of structure that is capable of
+
+[Typedef]
+id: RO:0002328
+name: functionally related to
+
+[Typedef]
+id: RO:0002329
+name: part of structure that is capable of
+def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
+holds_over_chain: BFO:0000050 RO:0002215 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002331
+name: involved in
+def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
+is_a: RO:0002431 ! involved in or regulates
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002352
+name: input of
+is_a: RO:0000056 ! participates in
+is_a: RO:0002328 ! functionally related to
+inverse_of: RO:0002233 ! has input
+
+[Typedef]
+id: RO:0002353
+name: output of
+is_a: RO:0000056 ! participates in
+is_a: RO:0002328 ! functionally related to
+inverse_of: RO:0002234 ! has output
+
+[Typedef]
+id: RO:0002371
+name: attached to
+def: "a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a" []
+is_symmetric: true
+is_a: RO:0002170 ! connected to
+is_a: RO:0002177 ! attached to part of
+
+[Typedef]
+id: RO:0002384
+name: has developmental potential involving
+def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
+is_a: RO:0002324 ! developmentally related to
+
+[Typedef]
+id: RO:0002385
+name: has potential to developmentally contribute to
+def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002387
+name: has potential to develop into
+def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y" []
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002388
+name: has potential to directly develop into
+def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
+is_a: RO:0002387 ! has potential to develop into
+
+[Typedef]
+id: RO:0002404
+name: causally downstream of
+def: "inverse of upstream of" []
+is_a: BFO:0000062 ! preceded by
+is_a: RO:0002427 ! causally downstream of or within
+inverse_of: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002410
+name: causally related to
+def: "This relation groups causal relations between material entities and causal relations between processes" []
+is_a: RO:0002609 ! related via dependence to
+
+[Typedef]
+id: RO:0002411
+name: causally upstream of
+def: "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain" []
+is_a: BFO:0000063 ! precedes
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0002418
+name: causally upstream of or within
+def: "p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q." []
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+
+[Typedef]
+id: RO:0002427
+name: causally downstream of or within
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+inverse_of: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0002431
+name: involved in or regulates
+def: "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p" []
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in
+
+[Typedef]
+id: RO:0002434
+name: interacts with
+def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
+synonym: "in pairwise interaction with" EXACT []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_symmetric: true
+
+[Typedef]
+id: RO:0002500
+name: causal agent in
+def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
+is_a: RO:0002595 ! causal relation between material entity and a process
+
+[Typedef]
+id: RO:0002501
+name: causal relation between processes
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002502
+name: depends on
+
+[Typedef]
+id: RO:0002567
+name: biomechanically related to
+def: "A relation that holds between elements of a musculoskeletal system or its analogs." []
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002584
+name: has part structure that is capable of
+def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
+holds_over_chain: BFO:0000051 RO:0002215
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002595 ! causal relation between material entity and a process
+
+[Typedef]
+id: RO:0002595
+name: causal relation between material entity and a process
+def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000015 ! process
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002608
+name: has causal agent
+def: "Inverse of 'causal agent in'" []
+is_a: RO:0002410 ! causally related to
+inverse_of: RO:0002500 ! causal agent in
+
+[Typedef]
+id: RO:0002609
+name: related via dependence to
+def: "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
+
