@@ -24,7 +24,8 @@ all: all_imports sdgio.owl
 test: sdgio.owl
 
 sdgio.owl: sdgio-edit.owl $(MODULE_FILES)  $(ROBOT)
-	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o tmp-$@ && owltools $(USECAT) tmp-$@ --remove-imports-declarations -o $@
+	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o $@
+###	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o tmp-$@ && owltools $(USECAT) tmp-$@ --remove-imports-declarations -o $@
 sdgio.obo: sdgio.owl $(ROBOT)
 	$(ROBOT) convert -i $< -o sdgio.obo
 #sdgio.owl: sdgio-edit.owl $(ROBOT)
