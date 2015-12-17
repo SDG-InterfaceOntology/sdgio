@@ -54,3 +54,6 @@ http://purl.obolibrary.org/obo/ENVO_00000015 # ocean
 http://purl.obolibrary.org/obo/ENVO_00000016 # sea
 http://purl.obolibrary.org/obo/ENVO_01000680 # polluted lake
 http://purl.obolibrary.org/obo/ENVO_00000020 # lake
+http://purl.obolibrary.org/obo/ENVO_01000744 # human dwelling
+http://purl.obolibrary.org/obo/ENVO_01000653 # slum
+http://purl.obolibrary.org/obo/ENVO_01000665 # waste role
