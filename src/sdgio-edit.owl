@@ -246,8 +246,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.un
 See issue #36"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010011> <http://purl.obolibrary.org/obo/BFO_0000023>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.unep.org/sdg/SDGIO_00010012> "http://unhabitat.org/wp-content/uploads/2015/04/Habitat-III-Issue-Paper-20_Housing-2.0.pdf")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010012> "DRAFT
-Will need to be properly placed within ENVO hierarchy when available."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010012> "TO DO
+create an equivalency:
+`human dwelling` and bearer_of some (`inadequate housing quality`)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010012> "According to UN Habitat the full criteria for inadequate housing include “location” and “cultural adequacy”. However, a careful reading indicates they are addressed by the other criteria. For example, location near polluted or dangerous areas would also be covered under the description for habitability."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010012> "A human dwelling that lacks any one of the following: access to basic services, affordability, habitability, security of tenure, or accessibility."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010012> "inadequate housing"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010012> <http://purl.obolibrary.org/obo/ENVO_00000070>)
@@ -300,9 +302,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "definition source")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "term editor")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000114> "has curation status")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000424> "expand expression to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001900> "temporal interpretation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000232> "curator note")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
