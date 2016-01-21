@@ -1,0 +1,13 @@
+#!/bin/sh
+# Determine if the shell is Cygwin or standard bash to handle dirname behaviours.
+uname -a | grep -E "Cygwin|CYGWIN" &>/dev/null
+
+# if a Cygwin shell is detected, the first statement will be used
+if [ "$?" -eq 0 ]
+then
+  DIR="$( cd "$( dirname -- "$0" )" && pwd )"
+  exec java -jar $(cygpath -w "$DIR/robot.jar") "$@"
+else
+  DIR="$( cd "$( dirname "$0" )" && pwd )"
+  exec java -jar "$DIR/robot.jar" "$@"
+fi 
