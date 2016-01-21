@@ -1,5 +1,5 @@
-# This Makefile is for use by the ENVO Release Manager (currently cjm)
-# Also used by Jenkins: http://build.berkeleybop.org/job/build-envo
+# This Makefile is for use by the SDGIO Release Managers (currently cjm and plb)
+# As used by Jenkins: http://build.berkeleybop.org/job/build-envo
 # 
 # requirements: Oort (http://code.google.com/p/owltools/wiki/OortIntro)
 #
