@@ -108,6 +108,10 @@ mirror/po.owl: $(SRC)
 	owltools $(OBO)/po.owl --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/po.owl -o $@
 .PRECIOUS: mirror/%.owl
 
+mirror/envo.owl: $(SRC)
+	owltools $(OBO)/envo.owl --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/envo.owl -o $@
+.PRECIOUS: mirror/%.owl
+
 ncbitaxon.obo:
 	wget -N $(OBO)/ncbitaxon.obo
 .PRECIOUS: ncbitaxon.obo

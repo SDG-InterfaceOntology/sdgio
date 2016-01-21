@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.unep.org/sdg/imports/envo_import.owl#"
      xml:base="http://purl.unep.org/sdg/imports/envo_import.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.unep.org/sdg/imports/envo_import.owl"/>
     
 
@@ -28,33 +28,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     
 
 
@@ -96,12 +72,61 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:label xml:lang="en">occurrent</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An entity that has temporal parts and that happens, unfolds or develops through time.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
         <rdfs:label xml:lang="en">independent continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:label xml:lang="en">process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017">
+        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:IAO_0000115 xml:lang="en">A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
+        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
+        <rdfs:label xml:lang="en">role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -136,13 +161,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">man-made feature</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manmade feature</oboInOwl:hasRelatedSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature
-resulting from the influence of human beings on nature.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -157,36 +175,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean region</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</oboInOwl:hasRelatedSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000015"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuous saline-water bodies that surround the continents and fill the Earth&apos;s great depressions.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000015"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NASA:earthrealm</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocean</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000015"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean region</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000015"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ocean</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000015"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -205,60 +193,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open water</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NASA:earthrealm</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marginal sea</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open sea</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large expanse of saline water usually connected with an ocean.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Sea</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">closed sea</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open water</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open sound</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -284,72 +218,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pasteuer lake</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tarn</oboInOwl:hasNarrowSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mortlake</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open water</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAKE</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lochan</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lake</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lakes</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tarn</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catch basin</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A body of water or other liquid of considerable size contained on a body of land.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Lake</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pasteuer lake</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lake</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NASA:earthrealm</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -364,42 +232,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rio</oboInOwl:hasExactSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</oboInOwl:hasBroadSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rio</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000022"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000022"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NASA:earthrealm</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">River</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000022"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rio</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000022"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">braided river</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000022"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000022"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -426,126 +258,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streams</oboInOwl:hasExactSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</oboInOwl:hasBroadSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creek</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear body of water flowing on the Earth&apos;s surface.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:http://mapping.usgs.gov/www/ti/GNIS/gnis_users_guide_appendixc.html</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beck</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stream</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creek</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NASA:earthrealm</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fork (hydrographic</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brook</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glacial stream</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creek</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creek</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stream bend</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burn (hydrographic)</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streams</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brook</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rivulet</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NASA:earthrealm</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stream</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">braided stream</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lode</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -597,300 +309,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waterway</oboInOwl:hasRelatedSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narrows (hydrographic)</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gut</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">barranca</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">runnel</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">run</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kill</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pup</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rill</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narrows</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narrows</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spillway</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seachannel</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waterway</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overflow channel</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stream</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branch</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lode</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">course</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rio</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water gap</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wash</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reach</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seaway</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brook</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">run</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passage</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">draw</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dredged channel</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passage</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gut</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tideway</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fork</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WATERCOURSE</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moat</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culvert</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ravine</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beck</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reach</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">race</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rivulet</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gutter</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gully</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gulch</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narrows</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spillway</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reach</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A flowing body of water.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Watercourse</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">awawa</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -908,42 +326,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated places</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">settlement</oboInOwl:hasRelatedSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhabited place</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place or area with clustered or scattered buildings and a permanent human population.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:http://mapping.usgs.gov/www/ti/GNIS/gnis_users_guide_appendixc.html</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">settlement</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated place</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:feature</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated places</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USGS:SDTS</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">place</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -959,36 +341,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrographic feature</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waterbody</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bodies of water</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An accumulation of water of varying size.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Body_of_water</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrographic feature</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body of water</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body of water</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -999,12 +351,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A feature that has been constructed by deliberate human effort.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A feature that has been constructed by deliberate human effort.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1012,31 +358,13 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biome</rdfs:label>
+        <rdfs:label>biome</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome is an environmental system to which resident ecological communities have evolved adaptations.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcosytemType</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecosystem</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major habitat type</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WWF:Biome</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major habitat type</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcosytemType</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NASA:earthrealm</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome is an environmental system to which resident ecological communities have evolved adaptations.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1186/2041-1480-4-43</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Biome</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1048,12 +376,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome that applies to the terrestrial realm.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial realm</oboInOwl:hasRelatedSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome that applies to the terrestrial realm.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Biome#Terrestrial_biomes</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1061,45 +383,13 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000856">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">city</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000658"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incorporated populated place.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">municipality</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">town</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urban area</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">village</oboInOwl:hasRelatedSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urban area</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000856"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">village</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000856"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:FTT</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getty:TGN</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">municipality</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000856"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">town</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000856"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADL:FTT</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incorporated populated place.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000856"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1123,12 +413,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water that has been adversely affected in quality by anthropogenic influence.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water that has been adversely affected in quality by anthropogenic influence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Wastewater</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1139,12 +423,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental material primarily composed of dihydrogen oxide in its liquid form.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental material primarily composed of dihydrogen oxide in its liquid form.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1165,12 +443,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wastewater that is contaminated with feces or urine,</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wastewater that is contaminated with feces or urine,</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Wastewater</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002018"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1196,8 +468,9 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <!-- http://purl.obolibrary.org/obo/ENVO_00002264 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002264">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waste</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waste material</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010001"/>
+        <obo:IAO_0000115>A material which is not the desired output of a process and which is typically the input of a process which removes it from its producer (e.g. a disposal process).</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1206,16 +479,9 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002297">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity which determines an environmental system.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity which determines an environmental system.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1186/2041-1480-4-43</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM:nm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1224,8 +490,8 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003064">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking water</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
-        <oboInOwl:hasExactSynonym>potable water</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>Drinking water is water which may be consumed by humans with no adverse effects on their health.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>potable water</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -1234,18 +500,10 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of environmental material</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1186/2041-1480-4-43</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://ontology.buffalo.edu/smith/articles/niches.html</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1256,12 +514,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropogenic material in or on which organisms may live.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropogenic material in or on which organisms may live.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1282,13 +534,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000219"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1111/j.1466-8238.2010.00540.x</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1890/070062</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000248"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1299,13 +544,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000248"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An urban biome is a dense settlement biome which has been urbanised.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An urban biome is a dense settlement biome which has been urbanised.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1111/j.1466-8238.2010.00540.x</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1890/070062</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000249"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1317,12 +555,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A system which has the disposition to environ one or more material entities.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environment</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A system which has the disposition to environ one or more material entities.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1186/2041-1480-4-43</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1336,30 +568,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aqueous vapour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water vapor</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Water_vapor</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aqueous vapor</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water vapour is a vapour which is the gas phase of water.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Water_vapor</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Water_vapor</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water vapor</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Water_vapor</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aqueous vapour</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -1371,18 +579,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atmospheric water vapour is water vapour that is part of an atmosphere.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmospheric water vapor</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Water_vapor</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmospheric water vapor</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000268"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atmospheric water vapour is water vapour that is part of an atmosphere.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Water_vapor</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000268"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1401,16 +597,9 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000537">
         <rdfs:label>atmospheric ozone</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
-        <obo:IAO_0000115>Atmospheric ozone is an environmental material primarily composed of ozone in its gaseous form and present in the atmosphere.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>atmospheric ozone</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>Atmospheric ozone is an environmental material primarily composed of ozone in its gaseous form and present in the atmosphere.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>atmospheric ozone</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.eionet.europa.eu/gemet/concept/632</oboInOwl:hasDbXref>
-        <obo:IAO_0000115>A triatomic molecule of oxygen; a natural constituent of the atmosphere, with the highest concentrations in the ozone layer or stratosphere; it is found at a level between 15 and 30 km above the Earth, which prevents harmful ultraviolet B radiation, which causes skin cancer and threatens plant life, from reaching the ground. The fragile shield is being damaged by chemicals released on Earth. The main chemicals that are depleting stratospheric ozone are chlorofluorocarbons (CFCs), which are used in refrigerators, aerosols and as cleaners in many industries and halons, which are used in fire extinguishers. The damage is caused when these chemicals release highly reactive forms of chlorine and bromine. (Source: GILP96 / WRIGHT)</obo:IAO_0000115>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000537"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
     
 
 
@@ -1441,12 +630,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <obo:IAO_0000115>The long-term fluctuations in temperature, precipitation, wind, and all other aspects of the Earth&apos;s climate. External processes, such as solar-irradiance variations, variations of the Earth&apos;s orbital parameters (eccentricity, precession, and inclination), lithosphere motions, and volcanic activity, are factors in climatic variation. Internal variations of the climate system, e.g., changes in the abundance of greenhouse gases, also may produce fluctuations of sufficient magnitude and variability to explain observed climate change through the feedback processes interrelating the components of the climate system.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>The long-term fluctuations in temperature, precipitation, wind, and all other aspects of the Earth&apos;s climate. External processes, such as solar-irradiance variations, variations of the Earth&apos;s orbital parameters (eccentricity, precession, and inclination), lithosphere motions, and volcanic activity, are factors in climatic variation. Internal variations of the climate system, e.g., changes in the abundance of greenhouse gases, also may produce fluctuations of sufficient magnitude and variability to explain observed climate change through the feedback processes interrelating the components of the climate system.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GEMET:http://www.eionet.europa.eu/gemet/concept/1471</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000629"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1457,12 +640,16 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <obo:IAO_0000115>A volcanic process is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Types_of_volcanic_eruptions</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A volcanic process is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000634"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000653">
+        <rdfs:label xml:lang="en">slum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000658"/>
+        <obo:IAO_0000115>A slum is a heavily populated urban informal settlement with substandard housing in which households lack any one of the following: access to improved water, access to improved sanitation, sufficient-living area, durability of housing, or security of tenure.</obo:IAO_0000115>
+    </owl:Class>
     
 
 
@@ -1473,12 +660,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000634"/>
         <obo:IAO_0000115>An explosive eruption is a volcanic process in which pressurised magma is violently expelled and froths into volcanic ash. Explosive eruptions can eject a cloud of rocks, dust, gas, and pyroclastic material  which may then collapse, creating a pyroclastic flow of hot volcanic matter.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from Wikipedia:Explosive_eruption</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>An explosive eruption is a volcanic process in which pressurised magma is violently expelled and froths into volcanic ash. Explosive eruptions can eject a cloud of rocks, dust, gas, and pyroclastic material  which may then collapse, creating a pyroclastic flow of hot volcanic matter.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000655"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1489,12 +670,26 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000634"/>
         <obo:IAO_0000115>An effusive eruption is a volcanic eruption during which lava flows onto the ground.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from Wikipedia:Effusive_eruption</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>An effusive eruption is a volcanic eruption during which lava flows onto the ground.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000656"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000658">
+        <rdfs:label xml:lang="en">dense settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+        <obo:IAO_0000115>A settlement with a high density of buildings and inhabitants.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000665">
+        <rdfs:label xml:lang="en">waste role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A role that is realized in some process wherein the bearer is discarded or not utilized further.</obo:IAO_0000115>
+    </owl:Class>
     
 
 
@@ -1503,15 +698,8 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000677">
         <rdfs:label xml:lang="en">earthquake</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
-        <obo:IAO_0000115>An earthquake is a process whereby the surface of a planet shakes due to the passage of seismic waves through rocks. Seismic waves are produced when some form of energy stored in a planet&apos;s crust is suddenly released. Elastic strain, gravity, chemical reactions, or even the motion of massive bodies can produce earthquakes.</obo:IAO_0000115>
+        <obo:IAO_0000115>An earthquake is a process whereby part of the surface of a planet shakes due to the passage of seismic waves through rocks. Seismic waves are produced when some form of energy stored in a planet&apos;s crust is suddenly released. Elastic strain, gravity, chemical reactions, or even the motion of massive bodies can produce earthquakes.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from URL:http://www.britannica.com/science/earthquake-geology</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from Wikipedia:Earthquake</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>An earthquake is a process whereby the surface of a planet shakes due to the passage of seismic waves through rocks. Seismic waves are produced when some form of energy stored in a planet&apos;s crust is suddenly released. Elastic strain, gravity, chemical reactions, or even the motion of massive bodies can produce earthquakes.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000677"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1522,12 +710,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000677"/>
         <obo:IAO_0000115>A tectonic earthquake is an earthquake caused by the release of elastic strain. A tectonic earthquake occurs when strains in rock masses have accumulated to a point where the resulting stresses exceed the strength of the rocks, and sudden fracturing results.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://www.britannica.com/science/earthquake-geology</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A tectonic earthquake is an earthquake caused by the release of elastic strain. A tectonic earthquake occurs when strains in rock masses have accumulated to a point where the resulting stresses exceed the strength of the rocks, and sudden fracturing results.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000678"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1538,13 +720,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000678"/>
         <obo:IAO_0000115>A megathrust earthquake is a tectonic earthquake which occurs at subduction zones at destructive plate boundaries (convergent boundaries). These interplate earthquakes are the planet&apos;s most powerful, with moment magnitudes that can exceed 9.0.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from URL:http://www.britannica.com/science/earthquake-geology</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from Wikipedia:Earthquake</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A megathrust earthquake is a tectonic earthquake which occurs at subduction zones at destructive plate boundaries (convergent boundaries). These interplate earthquakes are the planet&apos;s most powerful, with moment magnitudes that can exceed 9.0.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000679"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1565,12 +740,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115>A coast is the area where land meets the sea, ocean, or lake.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>A coast is the area where land meets the sea, ocean, or lake.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Coast</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000687"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1580,15 +749,9 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:label xml:lang="en">tsunami</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <oboInOwl:hasExactSynonym>tidal wave</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>seismic sea wave</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>seismic sea wave</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Tsunami</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000689"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1601,12 +764,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasBroadSynonym>mass movement</oboInOwl:hasBroadSynonym>
         <obo:IAO_0000115>Mass wasting is the geomorphic process by which solid environmental material such as soil, sand, regolith, and/or rock move downslope typically as a mass, largely under the force of gravity, but frequently affected by water and water content as in submarine environments and mudslides.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>Mass wasting is the geomorphic process by which solid environmental material such as soil, sand, regolith, and/or rock move downslope typically as a mass, largely under the force of gravity, but frequently affected by water and water content as in submarine environments and mudslides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Mass_wasting</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000690"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1615,16 +772,10 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000691">
         <rdfs:label xml:lang="en">avalanche</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000696"/>
+        <oboInOwl:hasExactSynonym>snowslip</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>An avalanche is a rapid flow of snow down a sloping surface.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>snowslide</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>snowslip</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Mass_wasting</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>An avalanche is a rapid flow of snow down a sloping surface.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000691"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1633,15 +784,9 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000692">
         <rdfs:label xml:lang="en">landslide process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000690"/>
-        <obo:IAO_0000115>A landslide is a process whereby a large mass of earth and rocks moves down a hill or a mountainside.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>landslip</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A landslide is a process whereby a large mass of earth and rocks moves down a hill or a mountainside.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Mass_wasting</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A landslide is a process whereby a large mass of earth and rocks moves down a hill or a mountainside.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000692"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1662,12 +807,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <obo:IAO_0000115>A subsidence process is a geomorphologic process in which a surface shifts downward relative to a datum such as sea-level.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>subsidence</oboInOwl:hasBroadSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>A subsidence process is a geomorphologic process in which a surface shifts downward relative to a datum such as sea-level.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Subsidence</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000694"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1685,15 +824,9 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000696">
         <rdfs:label xml:lang="en">mass wasting flow</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000690"/>
-        <oboInOwl:hasBroadSynonym>flow</oboInOwl:hasBroadSynonym>
         <obo:IAO_0000115>A mass wasting flow is a form of mass wasting during which the moving materials behave similarly to a flowing fluid. Water, air and ice are often involved in enabling fluidlike motion of the material.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>flow</oboInOwl:hasBroadSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Mass_wasting</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A mass wasting flow is a form of mass wasting during which the moving materials behave similarly to a flowing fluid. Water, air and ice are often involved in enabling fluidlike motion of the material.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000696"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1705,12 +838,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <obo:IAO_0000115>A mudflow is a form of mass wasting which involves very rapid to extremely rapid surging flow of debris that has become partially or fully liquified by the addition of significant amounts of water to clay-rich source material.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>mud flow</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>A mudflow is a form of mass wasting which involves very rapid to extremely rapid surging flow of debris that has become partially or fully liquified by the addition of significant amounts of water to clay-rich source material.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Mudflow</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000697"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1730,12 +857,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000697"/>
         <obo:IAO_0000115>A lahar is a type of mudflow or debris flow composed of a slurry of pyroclastic material, rocky debris, and water. The material flows down from a volcano, typically along a river valley.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Lahar</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A lahar is a type of mudflow or debris flow composed of a slurry of pyroclastic material, rocky debris, and water. The material flows down from a volcano, typically along a river valley.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000699"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1746,12 +867,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000692"/>
         <obo:IAO_0000115>A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop — as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Sturtzstrom</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop — as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000700"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1762,12 +877,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <obo:IAO_0000115>An ash fall process is a process in which volcanic ash formed during an explosive volcanic eruption, phreatomagmatic eruption, or during material transport in pyroclastic density currents is pulled towards the planetary surface by gravity.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>An ash fall process is a process in which volcanic ash formed during an explosive volcanic eruption, phreatomagmatic eruption, or during material transport in pyroclastic density currents is pulled towards the planetary surface by gravity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Volcanic_ash</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000702"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1778,12 +887,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
         <obo:IAO_0000115>Coastal flooding is a process in which normally dry, low-lying land near a coast is flooded by sea water.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from Wikipedia:Coastal_flood</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>Coastal flooding is a process in which normally dry, low-lying land near a coast is flooded by sea water.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000707"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1794,12 +897,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
         <obo:IAO_0000115>Riverine flooding is a process in which the flow rate of river water exceeds the capacity of its channel, thus flooding neighbouring land. Bends and meanders in a river channel are particularly disposed to such flooding.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>Riverine flooding is a process in which the flow rate of river water exceeds the capacity of its channel, thus flooding neighbouring land. Bends and meanders in a river channel are particularly disposed to such flooding.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Flood#Riverine</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000708"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1810,12 +907,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
         <obo:IAO_0000115>Flash flooding is a process in which low-lying land is inundated with water for a short period of time and are usually the result of precipitation or a breach in the container of a water body.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>Flash flooding is a process in which low-lying land is inundated with water for a short period of time and are usually the result of precipitation or a breach in the container of a water body.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Flash_flood</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000709"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1826,12 +917,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
         <obo:IAO_0000115>An unusual accumulation of water above the ground caused by high tide, heavy rain, melting snow or rapid runoff from paved areas.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEMET:http://www.eionet.europa.eu/gemet/concept/3298</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>An unusual accumulation of water above the ground caused by high tide, heavy rain, melting snow or rapid runoff from paved areas.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000710"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1842,12 +927,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000710"/>
         <obo:IAO_0000115>A coastal flood is a flood which is formed as a result of large amounts of water from marine water bodies or large lakes being transported to usually dry land by displacement processes such as high winds or seismic activity.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Flood#Estuarine_and_coastal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A coastal flood is a flood which is formed as a result of large amounts of water from marine water bodies or large lakes being transported to usually dry land by displacement processes such as high winds or seismic activity.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000711"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1868,12 +947,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000710"/>
         <obo:IAO_0000115>A flash flood is a flood formed by the rapid flooding of geomorphic low-lying areas. It may be caused by heavy rain associated with a severe thunderstorm, hurricane, tropical storm, or meltwater from ice or snow flowing over ice sheets or snowfields. Flash floods may also occur after the collapse of a natural ice or debris dam, or a human structure such as a man-made dam. Flash floods are distinguished from a regular flood by a timescale of less than six hours.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Flash_flood</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A flash flood is a flood formed by the rapid flooding of geomorphic low-lying areas. It may be caused by heavy rain associated with a severe thunderstorm, hurricane, tropical storm, or meltwater from ice or snow flowing over ice sheets or snowfields. Flash floods may also occur after the collapse of a natural ice or debris dam, or a human structure such as a man-made dam. Flash floods are distinguished from a regular flood by a timescale of less than six hours.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000713"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1884,12 +957,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000711"/>
         <obo:IAO_0000115>A storm surge is a coastal flood which is caused by low-pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>A storm surge is a coastal flood which is caused by low-pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Storm_surge</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000714"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1900,12 +967,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000689"/>
         <obo:IAO_0000115>A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Meteotsunami</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000715"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1916,12 +977,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000707"/>
         <obo:IAO_0000115>A storm surge process is a coastal flooding process which is caused by low pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>A storm surge process is a coastal flooding process which is caused by low pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Storm_surge</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000716"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1932,12 +987,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
         <obo:IAO_0000115>Areal flooding is a flooding process in which flat or low-lying areas become inundated with water due to water input exceeding infiltration, evaporation, or run off.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>Areal flooding is a flooding process in which flat or low-lying areas become inundated with water due to water input exceeding infiltration, evaporation, or run off.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Flood#Areal</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000717"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1948,12 +997,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
         <obo:IAO_0000115>Urban flooding is a flooding process in which land or property in a built environment, particularly in more densely populated areas, is inundated due to the rate of water input exceeding that of water drainage provided by the environment&apos;s drainage systems.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>Urban flooding is a flooding process in which land or property in a built environment, particularly in more densely populated areas, is inundated due to the rate of water input exceeding that of water drainage provided by the environment&apos;s drainage systems.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Flood#Urban_flooding</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000718"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -1964,12 +1007,16 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <obo:IAO_0000115>A process in which a volume of lava emitted during an effusive eruption moves along a solid surface.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from Wikipedia:Lava</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A process in which a volume of lava emitted during an effusive eruption moves along a solid surface.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000730"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000744">
+        <rdfs:label xml:lang="en">human dwelling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+        <obo:IAO_0000115>A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other &apos;substantial&apos; structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any &apos;open fields beyond&apos;. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.</obo:IAO_0000115>
+    </owl:Class>
     
 
 
@@ -1977,6 +1024,7 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500000">
         <rdfs:label xml:lang="en">environmental system process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </owl:Class>
     
 
@@ -1988,12 +1036,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <obo:IAO_0000115>a type of land degradation in which a relatively dry land region becomes increasingly arid, typically losing its bodies of water as well as vegetation and wildlife.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>a type of land degradation in which a relatively dry land region becomes increasingly arid, typically losing its bodies of water as well as vegetation and wildlife.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Desertification"/>
-    </owl:Axiom>
     
 
 
@@ -2004,12 +1046,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <obo:IAO_0000115>A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>GEMET: http://www.eionet.europa.eu/gemet/concept/3301</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -2018,6 +1054,7 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500005">
         <rdfs:label>land degradation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>A process which diminishes the functioning of an ecosystem located on land.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2029,12 +1066,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <obo:IAO_0000115>Establishment of a new forest by seeding or planting of nonforested land.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedTarget>Establishment of a new forest by seeding or planting of nonforested land.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GEMET:http://www.eionet.europa.eu/gemet/concept/167</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500011"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -2054,12 +1085,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500032"/>
         <obo:IAO_0000115>The planting of trees in areas in where forests have previously been cleared.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref>Adapted from GEMET:http://www.eionet.europa.eu/gemet/concept/6979</oboInOwl:hasDbXref>
-        <owl:annotatedTarget>The planting of trees in areas in where forests have previously been cleared.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500013"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
     
 
 
@@ -2097,13 +1122,10 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:label>system</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity consisting of multiple components that are causally integrated.</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000119>http://www.jbiomedsem.com/content/4/1/43</obo:IAO_0000119>
-        <obo:IAO_0000116>May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43</obo:IAO_0000116>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 0.0.1+9a6586b) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 0.0.1+6049ab4) http://owlapi.sourceforge.net -->
 
