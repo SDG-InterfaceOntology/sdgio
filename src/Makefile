@@ -1,5 +1,5 @@
-# This Makefile is for use by the ENVO Release Manager (currently cjm)
-# Also used by Jenkins: http://build.berkeleybop.org/job/build-envo
+# This Makefile is for use by the SDGIO Release Managers (currently cjm and plb)
+# As used by Jenkins: http://build.berkeleybop.org/job/build-envo
 # 
 # requirements: Oort (http://code.google.com/p/owltools/wiki/OortIntro)
 #
@@ -12,6 +12,8 @@ SRC= sdgio-edit.owl
 ROBOT=./robot
 
 ##MODULES=exposure
+## will need a module for harzards and other defined tasks
+## such as land rights, chemicals and wastes, ecosystem services ...
 MODULES=
 MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
 
@@ -31,7 +33,10 @@ sdgio.obo: sdgio.owl $(ROBOT)
 #sdgio.owl: sdgio-edit.owl $(ROBOT)
 #	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
-
+# The URL below will pull the latest, successful ROBOT build from the Berkeley servers.
+# ROBOT itself is in the "robot.jar" file, so it will execute across platforms with Java. There is a
+# launch script "robot" which is called later in this file. If you're running Cygwin,
+# that script will use cygpath to make sure everything is findable.
 ROBOJENKINS=http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin
 
 robot.jar:
@@ -51,6 +56,8 @@ release: sdgio.owl
 # Type 'make imports/X_import.owl' whenever you wish to refresh the import for an ontology X. This regenerates the import
 # module using the 'imports/X_terms.txt' file
 
+# Type 'make all_imports' if you want to regenerate all the imports at once.
+
 # Base URI for local subset imports
 SDG_IMPORTS_BASE_URI = $(SDG)
 
@@ -67,6 +74,7 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt $(ROBOT)
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
+# Use owltools to create OBO files for the imports
 imports/%_import.obo: imports/%_import.owl
 	owltools $(USECAT) $< -o -f obo $@
 
@@ -87,28 +95,44 @@ mirror/bfo.owl: $(SRC)
 	owltools $(OBO)/bfo.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
 .PRECIOUS: mirror/%.owl
 
+# Note that we do not simplify RO - we need the relations to be imported.
 mirror/ro.owl: $(SRC)
 	owltools $(OBO)/ro.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -d -o $@
 .PRECIOUS: mirror/%.owl
 
 mirror/uberon.owl: $(SRC)
 	owltools $(OBO)/uberon.owl  --remove-axiom-annotations  --make-subset-by-properties -f $(KEEPRELS) --remove-dangling-annotations --remove-annotation-assertions -l -s -d --set-ontology-id $(OBO)/uberon.owl -o $@
-
 .PRECIOUS: mirror/%.owl
+
 mirror/po.owl: $(SRC)
 	owltools $(OBO)/po.owl --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/po.owl -o $@
 .PRECIOUS: mirror/%.owl
+
+mirror/envo.owl: $(SRC)
+	owltools $(OBO)/envo.owl --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/envo.owl -o $@
+.PRECIOUS: mirror/%.owl
+
 ncbitaxon.obo:
 	wget -N $(OBO)/ncbitaxon.obo
 .PRECIOUS: ncbitaxon.obo
+
 mirror/ncbitaxon.owl: ncbitaxon.obo
 	OWLTOOLS_MEMORY=12G owltools $< --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations  --set-ontology-id $(OBO)/ncbitaxon.owl -o $@
 .PRECIOUS: mirror/ncbitaxon.owl
 
 mirror/pco.owl: imports/pco_basic.obo
-	OWLTOOLS_MEMORY=12G owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
+	owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
 
 
+	
+# ----------------------------------------
+# Reports
+# ----------------------------------------
+# Generate a CSV term list from the OWL files created.
+#reports/sdgio-%.csv: sdgio.owl sparql/%.sparql
+#	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && mv $@.tmp $@
+
+	
 
 # CODE BELOW HERE IS FROM ENVO's MAKEFILE AND IS YET TO BE IMPLEMENTED FOR SDGIO
 # ----------------------------------------
@@ -119,13 +143,6 @@ mirror/pco.owl: imports/pco_basic.obo
 #	owltools $< --extract-ontology-subset --subset EnvO-Lite-GSC --iri $(OBO)/envo/subsets/$@ -o $@
 #subsets/EnvO-Lite-GSC.obo: subsets/EnvO-Lite-GSC.owl
 #	obolib-owl2obo $< -o $@
-
-# ----------------------------------------
-# Reports
-# ----------------------------------------
-#reports/envo-%.csv: envo.owl sparql/%.sparql
-#	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && mv $@.tmp $@
-
 
 # ----------------------------------------
 # Temp
