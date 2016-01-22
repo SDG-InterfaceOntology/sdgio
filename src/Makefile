@@ -39,7 +39,7 @@ robot.jar:
 robot: robot.jar
 	wget $(ROBOJENKINS)/$@ -O $@ && chmod +x $@ && touch $@
 
-release: sdgio.owl sdgio.obo
+release: sdgio.owl 
 	cp $^ ../ && cp imports/* ../imports
 
 
