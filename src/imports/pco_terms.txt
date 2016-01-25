@@ -1,1 +1,2 @@
 http://purl.obolibrary.org/obo/PCO_0000002 # ecological community
+http://purl.obolibrary.org/obo/PCO_0000030 # agricultural household
