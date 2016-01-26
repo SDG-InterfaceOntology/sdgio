@@ -57,3 +57,4 @@ http://purl.obolibrary.org/obo/ENVO_00000020 # lake
 http://purl.obolibrary.org/obo/ENVO_01000744 # human dwelling
 http://purl.obolibrary.org/obo/ENVO_01000653 # slum
 http://purl.obolibrary.org/obo/ENVO_01000665 # waste role
+http://purl.obolibrary.org/obo/ENVO_01000741 # recycling process
