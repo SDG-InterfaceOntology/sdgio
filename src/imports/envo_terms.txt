@@ -70,3 +70,4 @@ http://purl.obolibrary.org/obo/ENVO_01000247 # rangeland biome
 http://purl.obolibrary.org/obo/ENVO_01000245 # cropland biome
 http://purl.obolibrary.org/obo/ENVO_01000769 # carbon dioxide emission process
 http://purl.obolibrary.org/obo/ENVO_01000770 # carbon dioxide emission
+http://purl.obolibrary.org/obo/ENVO_00000358 # protected area
