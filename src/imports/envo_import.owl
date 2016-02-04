@@ -324,7 +324,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated locality</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated place</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated places</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">settlement</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">settlement</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -357,7 +357,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biome</rdfs:label>
         <rdfs:label>biome</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome is an environmental system to which resident ecological communities have evolved adaptations.</obo:IAO_0000115>
@@ -523,6 +522,38 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic terrestrial biome</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic terrestrial biome is a terrestrial biome which has community structures determined by human activity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>human biome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>anthrome</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000245">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cropland biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000219"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cropland biome is an anthropogenic terrestrial biome which is primarily used for agricultural activity and which contains no village or larger human settlement.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000246">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">village biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000219"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A village biome is an anthropogenic terrestrial biome which contains settlements such as villages, towns, and/or small cities and which is primarily used for agricultural activity.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000247">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rangeland biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000219"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rangeland biome is an anthropogenic terrestrial biome which is primarily used for the rearing and grazing of livestock.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -578,6 +609,17 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atmospheric water vapour is water vapour that is part of an atmosphere.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmospheric water vapor</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000408">
+        <rdfs:label>environmental zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental zone is an environmental feature whose extent is determined by the presence or influence of one or more material entities or processes. An environmental zone may, itself, assume the role of an environmental feature.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental area</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -865,7 +907,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000700">
         <rdfs:label xml:lang="en">sturzstrom</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000692"/>
-        <obo:IAO_0000115>A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop — as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.</obo:IAO_0000115>
+        <obo:IAO_0000115>A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop â€” as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1010,12 +1052,133 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000741">
+        <rdfs:label xml:lang="en">recycling process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>A process in which has inputs which bear waste roles and outputs which bear resource roles.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000742">
+        <rdfs:label xml:lang="en">carbon-bearing gas emission process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>A carbon emission process is any environmental process which outputs a carbon-bearing gas.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>carbon emission process</oboInOwl:hasBroadSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000743">
+        <rdfs:label xml:lang="en">land consumption process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500005"/>
+        <obo:IAO_0000115>A process in which natural ecosystems present over an expanse of land are removed and replaced with anthropogenic ecosystems.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000744 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000744">
         <rdfs:label xml:lang="en">human dwelling</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
         <obo:IAO_0000115>A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other &apos;substantial&apos; structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any &apos;open fields beyond&apos;. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000762">
+        <rdfs:label xml:lang="en">sparsely populated settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+        <obo:IAO_0000115>A settlement with a low density of buildings and inhabitants.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000763">
+        <rdfs:label xml:lang="en">rural settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000762"/>
+        <obo:IAO_0000115>A settlement which has lower population density than a town, city, or other urban environment and is primarily used for agricultural or pastoral activity.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000764">
+        <rdfs:label xml:lang="en">formal settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+        <obo:IAO_0000115>A settlement which has been established and is managed through officially sanctioned processes and is recognised as legal by a competent authority.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000765">
+        <rdfs:label xml:lang="en">informal settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+        <obo:IAO_0000115>A settlement which is not associated with or directed by official planning processes and which typically lacks municipal services and infrastructure such as sanitation, water services, and waste management services.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000767">
+        <rdfs:label xml:lang="en">illegal settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+        <obo:IAO_0000115>A settlement on land that the inhabitants have no legal claim to or occupy illegally.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000769">
+        <rdfs:label xml:lang="en">carbon dioxide emission process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000742"/>
+        <obo:IAO_0000115>A carbon emission process is any environmental process which releases carbon dioxide gas into the atmosphere.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000770 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000770">
+        <rdfs:label xml:lang="en">cabon dioxide emission</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <obo:IAO_0000115>A volume of carbon dioxide gas emitted by a carbon dioxide emission process.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000772">
+        <rdfs:label xml:lang="en">rural area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
+        <obo:IAO_0000115>An area which is outside of a town, city, or urban area. Rural areas are primarily used for agriculture or pastoralism and may contain rural settlements.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000773">
+        <rdfs:label xml:lang="en">village</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000062"/>
+        <obo:IAO_0000115>A village is a clustered human settlement or community, larger than a hamlet but smaller than a town, with a population ranging from a few hundred to a few thousand. Though often located in rural areas, the term urban village is also applied to certain urban neighbourhoods. Villages are normally permanent, with fixed dwellings; however, transient villages can occur. Further, the dwellings of a village are fairly close to one another, not scattered broadly over the landscape, as a dispersed settlement.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1074,6 +1237,9 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500012">
         <rdfs:label>deforestation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <oboInOwl:hasBroadSynonym>clearance</oboInOwl:hasBroadSynonym>
+        <obo:IAO_0000115>The removal of forest and undergrowth to, for example, increase the surface of arable land or to use the timber for construction or industrial purposes.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>clearing</oboInOwl:hasBroadSynonym>
     </owl:Class>
     
 
