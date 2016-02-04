@@ -59,3 +59,14 @@ http://purl.obolibrary.org/obo/ENVO_01000653 # slum
 http://purl.obolibrary.org/obo/ENVO_01000665 # waste role
 http://purl.obolibrary.org/obo/ENVO_01000741 # recycling process
 http://purl.obolibrary.org/obo/ENVO_01000743 # land consumption process
+http://purl.obolibrary.org/obo/ENVO_01000772 # rural area
+http://purl.obolibrary.org/obo/ENVO_01000763 # rural settlement
+http://purl.obolibrary.org/obo/ENVO_01000764 # formal settlement
+http://purl.obolibrary.org/obo/ENVO_01000765 # informal settlement
+http://purl.obolibrary.org/obo/ENVO_01000767 # illegal settlement
+http://purl.obolibrary.org/obo/ENVO_01000773 # village
+http://purl.obolibrary.org/obo/ENVO_01000246 # village biome
+http://purl.obolibrary.org/obo/ENVO_01000247 # rangeland biome
+http://purl.obolibrary.org/obo/ENVO_01000245 # cropland biome
+http://purl.obolibrary.org/obo/ENVO_01000769 # carbon dioxide emission process
+http://purl.obolibrary.org/obo/ENVO_01000770 # carbon dioxide emission
