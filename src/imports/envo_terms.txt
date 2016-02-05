@@ -72,3 +72,4 @@ http://purl.obolibrary.org/obo/ENVO_01000769 # carbon dioxide emission process
 http://purl.obolibrary.org/obo/ENVO_01000770 # carbon dioxide emission
 http://purl.obolibrary.org/obo/ENVO_00000358 # protected area
 http://purl.obolibrary.org/obo/ENVO_01000778 # important site
+http://purl.obolibrary.org/obo/ENVO_00000560 # nuclear weapons test site

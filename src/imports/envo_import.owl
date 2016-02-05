@@ -388,6 +388,26 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000559">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weapons test site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region at which weapons, typically military, are tested.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000560">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear weapons test site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000559"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weapons test site at which nuclear weapons are, or have been, tested.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000562">

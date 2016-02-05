@@ -216,6 +216,12 @@ def: "A feature that has been constructed by deliberate human effort." []
 is_a: ENVO:00000002 ! anthropogenic geographic feature
 
 [Term]
+id: ENVO:00000358
+name: protected area
+def: "An area of land and/or a body of water especially dedicated to the protection and maintenance of biological diversity, and of natural and associated cultural resources, and managed through legal or other effective means." []
+is_a: ENVO:00000562 ! park
+
+[Term]
 id: ENVO:00000428
 name: biome
 def: "A biome is an environmental system to which resident ecological communities have evolved adaptations." []
@@ -230,6 +236,24 @@ name: terrestrial biome
 def: "A biome that applies to the terrestrial realm." []
 synonym: "terrestrial realm" RELATED []
 is_a: ENVO:00000428 ! biome
+
+[Term]
+id: ENVO:00000559
+name: weapons test site
+def: "A region at which weapons, typically military, are tested." []
+is_a: ENVO:00000002 ! anthropogenic geographic feature
+
+[Term]
+id: ENVO:00000560
+name: nuclear weapons test site
+def: "A weapons test site at which nuclear weapons are, or have been, tested." []
+is_a: ENVO:00000559 ! weapons test site
+
+[Term]
+id: ENVO:00000562
+name: park
+def: "A bounded area of land, or water, usually in its natural or semi-natural (landscaped) state and set aside for some purpose, usually to do with recreation or conservation." []
+is_a: ENVO:00000002 ! anthropogenic geographic feature
 
 [Term]
 id: ENVO:00000856
@@ -725,6 +749,23 @@ def: "A village is a clustered human settlement or community, larger than a haml
 is_a: ENVO:00000062 ! populated place
 
 [Term]
+id: ENVO:01000778
+name: important site
+def: "An environmental zone which contains, as determined by an officially mandated selection process, one or more ecosystems which include, as parts, ecological communities of global significance for conservation due to their vulnerability and irreplaceability." []
+synonym: "Alliance for Zero Extinction Sites" NARROW []
+synonym: "Ecologically and Biologically Significant Area" NARROW []
+synonym: "Important Bird Area" NARROW []
+synonym: "Important Mammal Area" NARROW []
+synonym: "Important Plant Area" NARROW []
+synonym: "Important Site for Freshwater Biodiversity" NARROW []
+synonym: "IUCN Important Site for Freshwater Biodiversity" NARROW []
+synonym: "key biodiversity area" EXACT []
+synonym: "Prime Butterfly Area" NARROW []
+synonym: "Ramsar Sites" NARROW []
+is_a: ENVO:01000408 ! environmental zone
+is_a: PCO:0000002 ! ecological community
+
+[Term]
 id: ENVO:02500000
 name: environmental system process
 is_a: BFO:0000015 ! process
@@ -782,6 +823,18 @@ is_a: ENVO:02500000 ! environmental system process
 id: ENVO:02500032
 name: revegetation
 is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: PCO:0000000
+name: collection of organisms
+def: "A material entity that consists of two or more organisms, viruses, or viroids." []
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: PCO:0000002
+name: ecological community
+def: "A collection of organisms of at least two different species, living in a particular area." []
+is_a: PCO:0000000 ! collection of organisms
 
 [Term]
 id: RO:0002577

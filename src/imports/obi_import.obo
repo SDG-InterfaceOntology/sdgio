@@ -474,6 +474,11 @@ relationship: OBI:0000124 IAO:0000027 ! is_supported_by_data data item
 relationship: OBI:0000312 OBI:0000338 ! is_specified_output_of drawing a conclusion based on data
 
 [Term]
+id: OBI:0001933
+name: value specification
+is_a: IAO:0000030 ! information content entity
+
+[Term]
 id: OBI:0100026
 name: organism
 is_a: BFO:0000040 ! material entity
