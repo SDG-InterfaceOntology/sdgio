@@ -1228,7 +1228,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000778">
         <rdfs:label xml:lang="en">important site</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000002"/>
         <oboInOwl:hasNarrowSynonym>Ramsar Sites</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Important Mammal Area</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Prime Butterfly Area</oboInOwl:hasNarrowSynonym>
@@ -1339,26 +1338,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500032">
         <rdfs:label>revegetation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection of organisms</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity that consists of two or more organisms, viruses, or viroids.</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCO_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000002">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecological community</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of organisms of at least two different species, living in a particular area.</obo:IAO_0000115>
     </owl:Class>
     
 
