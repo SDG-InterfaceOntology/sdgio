@@ -131,6 +131,14 @@ mirror/pco.owl: imports/pco_basic.obo
 # Generate a CSV term list from the OWL files created.
 reports/sdgio-%.csv: sdgio.owl sparql/%.sparql
 	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && mv $@.tmp $@
+	
+	
+# ----------------------------------------
+# Graph export
+# ----------------------------------------
+# Generate a CSV term list from the OWL files created.
+#graphs/sdgio-%.csv: sdgio.owl sparql/%.sparql
+#	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && mv $@.tmp $@
 
 	
 
