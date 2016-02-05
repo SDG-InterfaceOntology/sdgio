@@ -354,6 +354,16 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000358">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protected area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000562"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area of land and/or a body of water especially dedicated to the protection and maintenance of biological diversity, and of natural and associated cultural resources, and managed through legal or other effective means.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
@@ -374,6 +384,16 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome that applies to the terrestrial realm.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial realm</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000562">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">park</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bounded area of land, or water, usually in its natural or semi-natural (landscaped) state and set aside for some purpose, usually to do with recreation or conservation.</obo:IAO_0000115>
     </owl:Class>
     
 
