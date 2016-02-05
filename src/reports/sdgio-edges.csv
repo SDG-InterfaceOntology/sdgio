@@ -1,0 +1,426 @@
+subjectClass,subectClassLabel,relationship,relationshipLabel,objectClass,objectClassLabel
+http://purl.obolibrary.org/obo/OBI_0000457,,http://purl.obolibrary.org/obo/OBI_0000293,has_specified_input,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.unep.org/sdg/SDGIO_00000019,,http://purl.obolibrary.org/obo/BFO_0000051,has part,http://purl.unep.org/sdg/SDGIO_00000018,exposure to contaminated water
+http://purl.unep.org/sdg/SDGIO_00000017,,http://purl.obolibrary.org/obo/RO_0000057,has participant,http://purl.obolibrary.org/obo/ENVO_00010483,environmental material
+http://purl.obolibrary.org/obo/OBI_0001909,,http://purl.obolibrary.org/obo/OBI_0000312,is_specified_output_of,http://purl.obolibrary.org/obo/OBI_0000338,drawing a conclusion based on data
+http://purl.obolibrary.org/obo/OBI_0000338,,http://purl.obolibrary.org/obo/OBI_0000293,has_specified_input,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.unep.org/sdg/SDGIO_00010028,,http://purl.obolibrary.org/obo/RO_0002217,actively participates in,http://purl.unep.org/sdg/SDGIO_00010027,ownership
+http://purl.obolibrary.org/obo/OBI_0000066,,http://purl.obolibrary.org/obo/BFO_0000051,has part,http://purl.obolibrary.org/obo/OBI_0000338,drawing a conclusion based on data
+http://purl.obolibrary.org/obo/OBI_0200000,,http://purl.obolibrary.org/obo/OBI_0000293,has_specified_input,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.obolibrary.org/obo/OBI_0000457,,http://purl.obolibrary.org/obo/OBI_0000299,has_specified_output,http://purl.obolibrary.org/obo/OBI_0000047,processed material
+http://purl.unep.org/sdg/SDGIO_00000015,,http://purl.obolibrary.org/obo/RO_0000057,has participant,http://purl.obolibrary.org/obo/ENVO_01000710,flood
+http://purl.obolibrary.org/obo/OBI_0000749,,http://purl.obolibrary.org/obo/OBI_0000417,achieves_planned_objective,http://purl.obolibrary.org/obo/OBI_0000704,decision tree induction objective
+http://purl.obolibrary.org/obo/OBI_0200000,,http://purl.obolibrary.org/obo/OBI_0000299,has_specified_output,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.obolibrary.org/obo/OBI_0200033,,http://purl.obolibrary.org/obo/OBI_0000417,achieves_planned_objective,http://purl.obolibrary.org/obo/OBI_0200188,cross validation objective
+http://purl.obolibrary.org/obo/IAO_0000572,,http://purl.obolibrary.org/obo/OBI_0000299,has_specified_output,http://purl.obolibrary.org/obo/IAO_0000310,document
+http://purl.obolibrary.org/obo/IAO_0000572,,http://purl.obolibrary.org/obo/OBI_0000293,has_specified_input,http://purl.obolibrary.org/obo/IAO_0000030,information content entity
+http://purl.unep.org/sdg/SDGIO_00010002,,http://purl.obolibrary.org/obo/BFO_0000054,realized in,http://purl.unep.org/sdg/SDGIO_00010004,employment
+http://purl.obolibrary.org/obo/IAO_0000104,,http://purl.obolibrary.org/obo/BFO_0000051,has part,http://purl.obolibrary.org/obo/IAO_0000007,action specification
+http://purl.unep.org/sdg/SDGIO_00000016,,http://purl.obolibrary.org/obo/RO_0000057,has participant,http://purl.obolibrary.org/obo/ENVO_01000711,coastal flood
+http://purl.obolibrary.org/obo/IAO_0000033,,http://purl.obolibrary.org/obo/IAO_0000136,is about,http://purl.obolibrary.org/obo/BFO_0000017,realizable entity
+http://purl.obolibrary.org/obo/OBI_0000727,,http://purl.obolibrary.org/obo/OBI_0000417,achieves_planned_objective,http://purl.obolibrary.org/obo/OBI_0200172,partitioning objective
+http://purl.unep.org/sdg/SDGIO_00010008,,http://purl.obolibrary.org/obo/BFO_0000050,part of,http://purl.unep.org/sdg/SDGIO_00010001,education
+http://purl.obolibrary.org/obo/OBI_0000094,,http://purl.obolibrary.org/obo/OBI_0000299,has_specified_output,http://purl.obolibrary.org/obo/OBI_0000047,processed material
+http://purl.unep.org/sdg/SDGIO_00010004,,http://purl.obolibrary.org/obo/RO_0002218,has active participant,http://purl.unep.org/sdg/SDGIO_00010005,employee
+http://purl.obolibrary.org/obo/OBI_0200041,,http://purl.obolibrary.org/obo/OBI_0000417,achieves_planned_objective,http://purl.obolibrary.org/obo/OBI_0200172,partitioning objective
+http://purl.obolibrary.org/obo/IAO_0000104,,http://purl.obolibrary.org/obo/BFO_0000051,has part,http://purl.obolibrary.org/obo/IAO_0000005,objective specification
+http://purl.unep.org/sdg/SDGIO_00010014,,http://purl.obolibrary.org/obo/RO_0000053,bearer of,http://purl.unep.org/sdg/SDGIO_00010013,medicine role
+http://purl.obolibrary.org/obo/OBI_0000338,,http://purl.obolibrary.org/obo/OBI_0000299,has_specified_output,http://purl.obolibrary.org/obo/OBI_0001909,conclusion based on data
+http://purl.unep.org/sdg/SDGIO_00010003,,http://purl.obolibrary.org/obo/BFO_0000054,realized in,http://purl.unep.org/sdg/SDGIO_00010004,employment
+http://purl.unep.org/sdg/SDGIO_00000018,,http://purl.obolibrary.org/obo/RO_0000057,has participant,http://purl.obolibrary.org/obo/ENVO_00002186,contaminated water
+http://purl.obolibrary.org/obo/OBI_0000700,,http://purl.obolibrary.org/obo/OBI_0000417,achieves_planned_objective,http://purl.obolibrary.org/obo/OBI_0200179,class prediction objective
+http://purl.obolibrary.org/obo/OBI_0000066,,http://purl.obolibrary.org/obo/BFO_0000051,has part,http://purl.obolibrary.org/obo/IAO_0000572,documenting
+http://purl.obolibrary.org/obo/OBI_0001909,,http://purl.obolibrary.org/obo/OBI_0000124,is_supported_by_data,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.obolibrary.org/obo/IAO_0000030,,http://purl.obolibrary.org/obo/IAO_0000136,is about,http://purl.obolibrary.org/obo/BFO_0000001,entity
+http://purl.obolibrary.org/obo/OBI_0000094,,http://purl.obolibrary.org/obo/OBI_0000293,has_specified_input,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.unep.org/sdg/SDGIO_00010007,,http://purl.obolibrary.org/obo/BFO_0000050,part of,http://purl.unep.org/sdg/SDGIO_00010001,education
+http://purl.obolibrary.org/obo/OBI_0200111,,http://purl.obolibrary.org/obo/OBI_0000293,has_specified_input,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.obolibrary.org/obo/OBI_0500000,,http://purl.obolibrary.org/obo/BFO_0000051,has part,http://purl.obolibrary.org/obo/OBI_0000272,protocol
+http://purl.obolibrary.org/obo/OBI_0000066,,http://purl.obolibrary.org/obo/BFO_0000051,has part,http://purl.obolibrary.org/obo/OBI_0000471,study design execution
+http://purl.obolibrary.org/obo/NCBITaxon_131567,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_1,root
+http://purl.obolibrary.org/obo/ENVO_00000446,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000428,biome
+http://purl.obolibrary.org/obo/OBI_0000704,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200166,data transformation objective
+http://purl.obolibrary.org/obo/OBI_0200172,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200166,data transformation objective
+http://purl.obolibrary.org/obo/OBI_0200179,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200166,data transformation objective
+http://purl.obolibrary.org/obo/OBI_0200178,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200166,data transformation objective
+http://purl.obolibrary.org/obo/OBI_0000457,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000094,material processing
+http://purl.obolibrary.org/obo/PATO_0001199,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0000052,shape
+http://purl.obolibrary.org/obo/NCBITaxon_314293,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_376913,Haplorrhini
+http://purl.obolibrary.org/obo/PATO_0001241,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0000001,quality
+http://purl.obolibrary.org/obo/NCBITaxon_33511,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_33213,Bilateria
+http://purl.unep.org/sdg/SDGIO_00010039,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00010014,medicine
+http://purl.obolibrary.org/obo/OBI_0000963,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000009,datum label
+http://purl.obolibrary.org/obo/IAO_0000003,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000009,datum label
+http://purl.obolibrary.org/obo/BFO_0000004,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000002,continuant
+http://purl.unep.org/sdg/SDGIO_00010031,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000002,continuant
+http://purl.obolibrary.org/obo/BFO_0000031,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000002,continuant
+http://purl.obolibrary.org/obo/BFO_0000020,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000002,continuant
+http://purl.obolibrary.org/obo/CHEBI_15377,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_37176,mononuclear parent hydride
+http://purl.obolibrary.org/obo/NCBITaxon_376913,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_9443,Primates
+http://purl.unep.org/sdg/SDGIO_00000006,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000005,access system
+http://purl.obolibrary.org/obo/NCBITaxon_33208,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_33154,Opisthokonta
+http://purl.obolibrary.org/obo/IAO_0000038,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000309,diagram
+http://purl.obolibrary.org/obo/ENVO_01000679,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000678,tectonic earthquake
+http://purl.obolibrary.org/obo/ENVO_00000022,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000023,stream
+http://purl.obolibrary.org/obo/NCBITaxon_33213,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_6072,Eumetazoa
+http://purl.unep.org/sdg/SDGIO_00000008,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00010037,right
+http://purl.unep.org/sdg/SDGIO_00010022,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00010037,right
+http://purl.unep.org/sdg/SDGIO_00010038,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00010037,right
+http://purl.unep.org/sdg/SDGIO_00010010,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.unep.org/sdg/SDGIO_00010018,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.obolibrary.org/obo/ENVO_01000665,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.obolibrary.org/obo/OBI_0000571,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.unep.org/sdg/SDGIO_00010037,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.unep.org/sdg/SDGIO_00010013,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.obolibrary.org/obo/OBI_0000017,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.unep.org/sdg/SDGIO_00010017,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.obolibrary.org/obo/OBI_0000947,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.unep.org/sdg/SDGIO_00010003,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.unep.org/sdg/SDGIO_00010011,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.unep.org/sdg/SDGIO_00010002,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.obolibrary.org/obo/OBI_0000202,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000023,role
+http://purl.obolibrary.org/obo/CHEBI_33693,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_36902,chalcogen hydride
+http://purl.obolibrary.org/obo/CHEBI_24651,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_25806,oxygen molecular entity
+http://purl.obolibrary.org/obo/ENVO_00002001,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002264,waste material
+http://purl.obolibrary.org/obo/OBI_0000713,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000010,software
+http://purl.obolibrary.org/obo/PATO_0002204,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0002201,handedness
+http://purl.obolibrary.org/obo/PATO_0002203,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0002201,handedness
+http://purl.obolibrary.org/obo/PATO_0002202,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0002201,handedness
+http://purl.obolibrary.org/obo/ENVO_01000694,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_02500032,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000677,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000742,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_02500011,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000634,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_02500012,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000690,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_02500027,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_02500005,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000741,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_02500002,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000702,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000689,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000730,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_02500001,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/ENVO_01000629,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500000,environmental system process
+http://purl.obolibrary.org/obo/OBI_0000458,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000456,material transformation objective
+http://purl.obolibrary.org/obo/OBI_0200042,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200175,class discovery data transformation
+http://purl.obolibrary.org/obo/OBI_0000727,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200175,class discovery data transformation
+http://purl.obolibrary.org/obo/OBI_0200041,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200175,class discovery data transformation
+http://purl.obolibrary.org/obo/OBI_0200050,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200175,class discovery data transformation
+http://purl.obolibrary.org/obo/OBI_0200051,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200050,dimensionality reduction
+http://purl.obolibrary.org/obo/CHEBI_24651,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_37577,heteroatomic molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33692,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_37577,heteroatomic molecular entity
+http://purl.obolibrary.org/obo/PATO_0002201,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0000186,behavioral quality
+http://purl.obolibrary.org/obo/OBI_0200190,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200111,data visualization
+http://purl.obolibrary.org/obo/ENVO_01000699,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000697,mudflow
+http://purl.obolibrary.org/obo/ENVO_02500013,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500032,revegetation
+http://purl.obolibrary.org/obo/PATO_0000308,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0000011,age
+http://purl.obolibrary.org/obo/PATO_0000309,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0000011,age
+http://purl.obolibrary.org/obo/ENVO_01000678,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000677,earthquake
+http://purl.obolibrary.org/obo/ENVO_01000769,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000742,carbon-bearing gas emission process
+http://purl.obolibrary.org/obo/IAO_0000015,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000019,quality
+http://purl.unep.org/sdg/SDGIO_00010040,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000019,quality
+http://purl.unep.org/sdg/SDGIO_00010029,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000019,quality
+http://purl.unep.org/sdg/SDGIO_00010041,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000019,quality
+http://purl.obolibrary.org/obo/PATO_0001237,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000019,quality
+http://purl.obolibrary.org/obo/PATO_0000051,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000019,quality
+http://purl.obolibrary.org/obo/NCBITaxon_7776,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_7742,Vertebrata <Metazoa>
+http://purl.obolibrary.org/obo/OBI_0001000,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000310,document
+http://purl.obolibrary.org/obo/PATO_0001546,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0002198,quality of a substance
+http://purl.obolibrary.org/obo/PATO_0001547,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0002198,quality of a substance
+http://purl.obolibrary.org/obo/PATO_0001548,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0002198,quality of a substance
+http://purl.obolibrary.org/obo/OBI_0000014,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000017,regulatory role
+http://purl.obolibrary.org/obo/ENVO_00002001,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002186,contaminated water
+http://purl.obolibrary.org/obo/BFO_0000141,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000004,independent continuant
+http://purl.obolibrary.org/obo/BFO_0000040,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000004,independent continuant
+http://purl.unep.org/sdg/SDGIO_00000013,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000004,independent continuant
+http://purl.unep.org/sdg/SDGIO_00010020,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000004,independent continuant
+http://purl.obolibrary.org/obo/CHEBI_36902,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33304,chalcogen molecular entity
+http://purl.obolibrary.org/obo/CHEBI_25806,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33304,chalcogen molecular entity
+http://purl.obolibrary.org/obo/NCBITaxon_6072,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_33208,Metazoa
+http://purl.unep.org/sdg/SDGIO_00000018,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000017,exposure to contaminated environmental material
+http://purl.obolibrary.org/obo/ENVO_01000219,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000446,terrestrial biome
+http://purl.unep.org/sdg/SDGIO_00010034,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00010004,employment
+http://purl.unep.org/sdg/SDGIO_00010035,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00010004,employment
+http://purl.obolibrary.org/obo/PATO_0002138,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0001018,physical quality
+http://purl.obolibrary.org/obo/PATO_0002198,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0001018,physical quality
+http://purl.obolibrary.org/obo/PATO_0000165,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0001018,physical quality
+http://purl.obolibrary.org/obo/PATO_0000140,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0001018,physical quality
+http://purl.obolibrary.org/obo/NCBITaxon_314146,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_1437010,Boreoeutheria
+http://purl.obolibrary.org/obo/PATO_0000011,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0000165,time
+http://purl.obolibrary.org/obo/NCBITaxon_2759,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_131567,cellular organisms
+http://purl.obolibrary.org/obo/ENVO_01000765,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000062,populated place
+http://purl.obolibrary.org/obo/ENVO_01000764,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000062,populated place
+http://purl.obolibrary.org/obo/ENVO_01000773,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000062,populated place
+http://purl.obolibrary.org/obo/ENVO_01000762,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000062,populated place
+http://purl.obolibrary.org/obo/ENVO_01000658,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000062,populated place
+http://purl.obolibrary.org/obo/ENVO_01000767,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000062,populated place
+http://purl.obolibrary.org/obo/NCBITaxon_117571,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_117570,Teleostomi
+http://purl.obolibrary.org/obo/BFO_0000015,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000003,occurrent
+http://purl.obolibrary.org/obo/OBI_0200188,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200172,partitioning objective
+http://purl.obolibrary.org/obo/PCO_0000002,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PCO_0000000,collection of organisms
+http://purl.obolibrary.org/obo/PCO_0000018,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PCO_0000000,collection of organisms
+http://purl.obolibrary.org/obo/ENVO_00000358,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000562,park
+http://purl.obolibrary.org/obo/IAO_0000030,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000031,generically dependent continuant
+http://purl.obolibrary.org/obo/ENVO_01000656,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000634,volcanic eruption
+http://purl.obolibrary.org/obo/ENVO_01000655,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000634,volcanic eruption
+http://purl.obolibrary.org/obo/CHEBI_51086,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_50906,role
+http://purl.obolibrary.org/obo/CHEBI_33608,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33674,s-block molecular entity
+http://purl.obolibrary.org/obo/PATO_0001018,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0001241,physical object quality
+http://purl.obolibrary.org/obo/PATO_0000051,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0001241,physical object quality
+http://purl.obolibrary.org/obo/PCO_0000001,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PCO_0000018,collection of organisms of the same species
+http://purl.obolibrary.org/obo/CHEBI_23367,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_24431,chemical entity
+http://purl.obolibrary.org/obo/ENVO_01000687,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000000,geographic feature
+http://purl.obolibrary.org/obo/ENVO_00000063,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000000,geographic feature
+http://purl.obolibrary.org/obo/ENVO_00000002,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000000,geographic feature
+http://purl.obolibrary.org/obo/ENVO_01000268,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000266,water vapour
+http://purl.obolibrary.org/obo/IAO_0000064,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000104,plan specification
+http://purl.obolibrary.org/obo/IAO_0000010,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000104,plan specification
+http://purl.obolibrary.org/obo/OBI_0500000,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000104,plan specification
+http://purl.obolibrary.org/obo/OBI_0000272,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000104,plan specification
+http://purl.unep.org/sdg/SDGIO_00010023,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000104,plan specification
+http://purl.obolibrary.org/obo/BFO_0000029,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000141,immaterial entity
+http://purl.unep.org/sdg/SDGIO_00010014,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.unep.org/sdg/SDGIO_00010030,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/BFO_0000027,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.unep.org/sdg/SDGIO_00010026,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/OBI_0000835,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/BFO_0000030,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/OBI_0100026,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/OBI_0000245,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/ENVO_00010483,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/RO_0002577,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/OBI_0000047,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.unep.org/sdg/SDGIO_00010024,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/CARO_0000006,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/ENVO_00002297,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/IAO_0000178,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.unep.org/sdg/SDGIO_00010028,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/BFO_0000024,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000040,material entity
+http://purl.obolibrary.org/obo/CHEBI_52625,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_24651,hydroxides
+http://purl.obolibrary.org/obo/IAO_0000309,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000308,figure
+http://purl.obolibrary.org/obo/IAO_0000101,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000308,figure
+http://purl.unep.org/sdg/SDGIO_00000016,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000015,exposure to flood
+http://purl.obolibrary.org/obo/ENVO_01000249,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000248,dense settlement biome
+http://purl.obolibrary.org/obo/NCBITaxon_89593,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_7711,Chordata
+http://purl.obolibrary.org/obo/OBI_0000018,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000947,service provider role
+http://purl.obolibrary.org/obo/NCBITaxon_8287,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_117571,Euteleostomi
+http://purl.obolibrary.org/obo/NCBITaxon_9606,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_9605,Homo
+http://purl.unep.org/sdg/SDGIO_00010043,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.obolibrary.org/obo/IAO_0000109,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.unep.org/sdg/SDGIO_00000003,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.obolibrary.org/obo/IAO_0000102,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.obolibrary.org/obo/IAO_0000100,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000027,data item
+http://purl.obolibrary.org/obo/NCBITaxon_32524,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_32523,Tetrapoda
+http://purl.obolibrary.org/obo/OBI_0200166,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000005,objective specification
+http://purl.unep.org/sdg/SDGIO_00000000,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000005,objective specification
+http://purl.obolibrary.org/obo/OBI_0000456,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000005,objective specification
+http://purl.obolibrary.org/obo/CHEBI_25362,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33259,elemental molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33260,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33259,elemental molecular entity
+http://purl.obolibrary.org/obo/OBI_0200033,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000792,statistical model validation
+http://purl.obolibrary.org/obo/ENVO_01000772,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000408,environmental zone
+http://purl.obolibrary.org/obo/ENVO_01000691,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000696,mass wasting flow
+http://purl.obolibrary.org/obo/ENVO_01000697,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000696,mass wasting flow
+http://purl.obolibrary.org/obo/ENVO_01000698,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000696,mass wasting flow
+http://purl.obolibrary.org/obo/NCBITaxon_9526,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_314293,Simiiformes
+http://purl.obolibrary.org/obo/NCBITaxon_32525,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_40674,Mammalia
+http://purl.obolibrary.org/obo/CHEBI_24651,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33608,hydrogen molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33692,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33608,hydrogen molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33260,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33608,hydrogen molecular entity
+http://purl.obolibrary.org/obo/NCBITaxon_10239,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0100026,organism
+http://purl.obolibrary.org/obo/NCBITaxon_2157,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0100026,organism
+http://purl.obolibrary.org/obo/NCBITaxon_2,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0100026,organism
+http://purl.obolibrary.org/obo/NCBITaxon_2759,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0100026,organism
+http://purl.obolibrary.org/obo/ENVO_00000029,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000618,lotic water body
+http://purl.obolibrary.org/obo/ENVO_01000695,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000690,mass wasting
+http://purl.obolibrary.org/obo/ENVO_01000693,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000690,mass wasting
+http://purl.obolibrary.org/obo/ENVO_01000696,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000690,mass wasting
+http://purl.obolibrary.org/obo/ENVO_01000692,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000690,mass wasting
+http://purl.obolibrary.org/obo/CHEBI_37577,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_36357,polyatomic entity
+http://purl.obolibrary.org/obo/CHEBI_25367,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_36357,polyatomic entity
+http://purl.obolibrary.org/obo/IAO_0000009,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000030,information content entity
+http://purl.obolibrary.org/obo/IAO_0000310,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000030,information content entity
+http://purl.obolibrary.org/obo/IAO_0000308,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000030,information content entity
+http://purl.obolibrary.org/obo/IAO_0000027,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000030,information content entity
+http://purl.obolibrary.org/obo/OBI_0001909,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000030,information content entity
+http://purl.obolibrary.org/obo/IAO_0000033,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000030,information content entity
+http://purl.obolibrary.org/obo/CHEBI_33259,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_23367,molecular entity
+http://purl.obolibrary.org/obo/CHEBI_36357,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_23367,molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33579,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_23367,molecular entity
+http://purl.obolibrary.org/obo/CHEBI_24835,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_23367,molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33304,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33675,p-block molecular entity
+http://purl.obolibrary.org/obo/OBI_0000450,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000245,organization
+http://purl.obolibrary.org/obo/NCBITaxon_40674,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_32524,Amniota
+http://purl.obolibrary.org/obo/OBI_0000700,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000663,class prediction data transformation
+http://purl.obolibrary.org/obo/NCBITaxon_9347,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_32525,Theria <Mammalia>
+http://purl.obolibrary.org/obo/NCBITaxon_1338369,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_8287,Sarcopterygii
+http://purl.obolibrary.org/obo/ENVO_01000618,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000063,water body
+http://purl.obolibrary.org/obo/ENVO_01000710,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000063,water body
+http://purl.obolibrary.org/obo/ENVO_01000617,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000063,water body
+http://purl.obolibrary.org/obo/ENVO_02500017,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500027,anthropogenic environmental process
+http://purl.obolibrary.org/obo/ENVO_01000743,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500005,land degradation
+http://purl.obolibrary.org/obo/NCBITaxon_9604,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_314295,Hominoidea
+http://purl.obolibrary.org/obo/CHEBI_33674,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33579,main group molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33675,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33579,main group molecular entity
+http://purl.unep.org/sdg/SDGIO_00010012,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000744,human dwelling
+http://purl.obolibrary.org/obo/NCBITaxon_7711,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_33511,Deuterostomia
+http://purl.obolibrary.org/obo/ENVO_01000770,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00010483,environmental material
+http://purl.obolibrary.org/obo/ENVO_01000266,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00010483,environmental material
+http://purl.obolibrary.org/obo/ENVO_00002006,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00010483,environmental material
+http://purl.obolibrary.org/obo/ENVO_01000537,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00010483,environmental material
+http://purl.obolibrary.org/obo/ENVO_0010001,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00010483,environmental material
+http://purl.obolibrary.org/obo/ENVO_01000451,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00010483,environmental material
+http://purl.unep.org/sdg/SDGIO_00010033,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PCO_0000001,population
+http://purl.obolibrary.org/obo/ENVO_00000023,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000029,watercourse
+http://purl.unep.org/sdg/SDGIO_00000019,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000016,exposure to coastal flood
+http://purl.obolibrary.org/obo/CHEBI_36902,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33242,inorganic hydride
+http://purl.obolibrary.org/obo/NCBITaxon_207598,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_9604,Hominidae
+http://purl.obolibrary.org/obo/ENVO_00000562,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000002,anthropogenic geographic feature
+http://purl.obolibrary.org/obo/ENVO_00000070,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000002,anthropogenic geographic feature
+http://purl.obolibrary.org/obo/NCBITaxon_117570,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_7776,Gnathostomata <vertebrate>
+http://purl.obolibrary.org/obo/NCBITaxon_9605,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_207598,Homininae
+http://purl.unep.org/sdg/SDGIO_00010008,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.obolibrary.org/obo/OBI_0000094,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.obolibrary.org/obo/OBI_0000338,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.obolibrary.org/obo/OBI_0200111,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.unep.org/sdg/SDGIO_00010004,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.obolibrary.org/obo/OBI_0000471,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.obolibrary.org/obo/IAO_0000572,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.obolibrary.org/obo/OBI_0000066,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.unep.org/sdg/SDGIO_00010001,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.unep.org/sdg/SDGIO_00010025,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.unep.org/sdg/SDGIO_00010016,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.obolibrary.org/obo/OBI_0200000,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.unep.org/sdg/SDGIO_00010007,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.unep.org/sdg/SDGIO_00010015,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.unep.org/sdg/SDGIO_00010006,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000011,planned process
+http://purl.obolibrary.org/obo/ENVO_01000254,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/RO_0002577,system
+http://purl.obolibrary.org/obo/CHEBI_37176,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33692,hydrides
+http://purl.obolibrary.org/obo/CHEBI_33242,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33692,hydrides
+http://purl.obolibrary.org/obo/CHEBI_33242,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_24835,inorganic molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33260,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_24835,inorganic molecular entity
+http://purl.obolibrary.org/obo/CHEBI_52625,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_24835,inorganic molecular entity
+http://purl.obolibrary.org/obo/NCBITaxon_314295,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_9526,Catarrhini
+http://purl.obolibrary.org/obo/ENVO_00002186,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002006,water
+http://purl.obolibrary.org/obo/ENVO_00002011,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002006,water
+http://purl.obolibrary.org/obo/IAO_0000104,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000033,directive information entity
+http://purl.obolibrary.org/obo/IAO_0000007,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000033,directive information entity
+http://purl.obolibrary.org/obo/IAO_0000098,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000033,directive information entity
+http://purl.obolibrary.org/obo/IAO_0000005,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000033,directive information entity
+http://purl.obolibrary.org/obo/NCBITaxon_32523,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_1338369,Dipnotetrapodomorpha
+http://purl.unep.org/sdg/SDGIO_00000009,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.unep.org/sdg/SDGIO_00000007,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.unep.org/sdg/SDGIO_00010021,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.unep.org/sdg/SDGIO_00000021,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.unep.org/sdg/SDGIO_00010019,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.obolibrary.org/obo/BFO_0000034,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.unep.org/sdg/SDGIO_00010042,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.unep.org/sdg/SDGIO_00000020,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.unep.org/sdg/SDGIO_00000010,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.unep.org/sdg/SDGIO_00000024,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000016,disposition
+http://purl.obolibrary.org/obo/ENVO_01000708,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500002,flooding
+http://purl.obolibrary.org/obo/ENVO_01000709,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500002,flooding
+http://purl.obolibrary.org/obo/ENVO_01000717,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500002,flooding
+http://purl.obolibrary.org/obo/ENVO_01000718,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500002,flooding
+http://purl.obolibrary.org/obo/ENVO_01000707,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500002,flooding
+http://purl.obolibrary.org/obo/OBI_0000749,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0000707,decision tree building data transformation
+http://purl.obolibrary.org/obo/OBI_0200175,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200000,data transformation
+http://purl.obolibrary.org/obo/OBI_0000663,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200000,data transformation
+http://purl.obolibrary.org/obo/OBI_0000707,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200000,data transformation
+http://purl.obolibrary.org/obo/OBI_0200171,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200000,data transformation
+http://purl.obolibrary.org/obo/OBI_0000726,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200000,data transformation
+http://purl.obolibrary.org/obo/IAO_0000225,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000102,data about an ontology part
+http://purl.obolibrary.org/obo/IAO_0000078,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000102,data about an ontology part
+http://purl.obolibrary.org/obo/IAO_0000409,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000102,data about an ontology part
+http://purl.obolibrary.org/obo/CARO_0000003,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CARO_0000006,material anatomical entity
+http://purl.obolibrary.org/obo/ENVO_01000763,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000762,sparsely populated settlement
+http://purl.obolibrary.org/obo/ENVO_01000712,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000710,flood
+http://purl.obolibrary.org/obo/ENVO_01000713,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000710,flood
+http://purl.obolibrary.org/obo/ENVO_01000711,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000710,flood
+http://purl.obolibrary.org/obo/NCBITaxon_7742,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_89593,Craniata <chordata>
+http://purl.obolibrary.org/obo/CHEBI_78298,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_51086,chemical role
+http://purl.obolibrary.org/obo/CHEBI_18276,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_25362,elemental molecule
+http://purl.obolibrary.org/obo/PATO_0001598,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0000140,position
+http://purl.obolibrary.org/obo/CHEBI_18276,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33260,elemental hydrogen
+http://purl.obolibrary.org/obo/ENVO_00000062,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000070,constructed feature
+http://purl.obolibrary.org/obo/ENVO_01000744,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000070,constructed feature
+http://purl.obolibrary.org/obo/PATO_0000186,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0001237,quality of a single physical entity
+http://purl.obolibrary.org/obo/ENVO_00000428,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000254,environmental system
+http://purl.unep.org/sdg/SDGIO_00000005,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000254,environmental system
+http://purl.obolibrary.org/obo/ENVO_01000714,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000711,coastal flood
+http://purl.obolibrary.org/obo/IAO_0000184,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000038,graph
+http://purl.obolibrary.org/obo/IAO_0000179,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000038,graph
+http://purl.obolibrary.org/obo/IAO_0000180,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000038,graph
+http://purl.obolibrary.org/obo/IAO_0000183,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000038,graph
+http://purl.obolibrary.org/obo/IAO_0000037,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000038,graph
+http://purl.obolibrary.org/obo/OBI_0000023,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000100,data set
+http://purl.obolibrary.org/obo/OBI_0000648,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000100,data set
+http://purl.unep.org/sdg/SDGIO_00000017,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000014,exposure
+http://purl.unep.org/sdg/SDGIO_00000015,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000014,exposure
+http://purl.obolibrary.org/obo/ENVO_00000020,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000617,lentic water body
+http://purl.obolibrary.org/obo/ENVO_00001999,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000617,lentic water body
+http://purl.obolibrary.org/obo/ENVO_00002193,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002001,waste water
+http://purl.obolibrary.org/obo/ENVO_00002018,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002001,waste water
+http://purl.obolibrary.org/obo/ENVO_00003064,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002011,fresh water
+http://purl.obolibrary.org/obo/ENVO_02500017,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_02500013,reforestation
+http://purl.obolibrary.org/obo/BFO_0000002,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000001,entity
+http://purl.obolibrary.org/obo/BFO_0000003,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000001,entity
+http://purl.obolibrary.org/obo/ENVO_01000247,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000219,anthropogenic terrestrial biome
+http://purl.obolibrary.org/obo/ENVO_01000245,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000219,anthropogenic terrestrial biome
+http://purl.obolibrary.org/obo/ENVO_01000248,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000219,anthropogenic terrestrial biome
+http://purl.obolibrary.org/obo/ENVO_01000246,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000219,anthropogenic terrestrial biome
+http://purl.obolibrary.org/obo/UO_0000005,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000003,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000105,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000006,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000051,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000280,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000001,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000095,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000270,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/UO_0000002,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/IAO_0000003,measurement unit label
+http://purl.obolibrary.org/obo/ENVO_01000700,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000692,landslide process
+http://purl.obolibrary.org/obo/NCBITaxon_9443,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_314146,Euarchontoglires
+http://purl.obolibrary.org/obo/ENVO_01000715,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000689,tsunami
+http://purl.obolibrary.org/obo/NCBITaxon_33154,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_2759,Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_1437010,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_9347,Eutheria
+http://purl.obolibrary.org/obo/ENVO_00000856,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000658,dense settlement
+http://purl.obolibrary.org/obo/ENVO_01000653,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000658,dense settlement
+http://purl.obolibrary.org/obo/ENVO_01000680,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00000020,lake
+http://purl.unep.org/sdg/SDGIO_00000023,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000020,risk
+http://purl.unep.org/sdg/SDGIO_00000022,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000020,risk
+http://purl.unep.org/sdg/SDGIO_00010036,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000020,risk
+http://purl.obolibrary.org/obo/ENVO_00002264,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_0010001,anthropogenic environmental material
+http://purl.obolibrary.org/obo/CHEBI_15377,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_33693,oxygen hydride
+http://purl.obolibrary.org/obo/PATO_0000052,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0000051,morphology
+http://purl.obolibrary.org/obo/CHEBI_25362,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_25367,molecule
+http://purl.obolibrary.org/obo/ENVO_00000000,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002297,environmental feature
+http://purl.obolibrary.org/obo/ENVO_01000408,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00002297,environmental feature
+http://purl.obolibrary.org/obo/OBI_0000727,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200171,partitioning data transformation
+http://purl.obolibrary.org/obo/OBI_0200041,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200171,partitioning data transformation
+http://purl.obolibrary.org/obo/OBI_0000792,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/OBI_0200171,partitioning data transformation
+http://purl.obolibrary.org/obo/BFO_0000023,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000017,realizable entity
+http://purl.obolibrary.org/obo/BFO_0000016,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000017,realizable entity
+http://purl.obolibrary.org/obo/PATO_0000001,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000020,specifically dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000019,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000020,specifically dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000017,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000020,specifically dependent continuant
+http://purl.obolibrary.org/obo/PATO_0001646,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/PATO_0001598,protruding
+http://purl.obolibrary.org/obo/ENVO_00000016,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00001999,marine water body
+http://purl.obolibrary.org/obo/ENVO_00000015,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_00001999,marine water body
+http://purl.obolibrary.org/obo/ENVO_01000716,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/ENVO_01000707,coastal flooding
+http://purl.unep.org/sdg/SDGIO_00010027,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.unep.org/sdg/SDGIO_00000004,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.obolibrary.org/obo/BFO_0000144,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.obolibrary.org/obo/ENVO_02500000,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.obolibrary.org/obo/OBI_0000339,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.unep.org/sdg/SDGIO_00000012,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.unep.org/sdg/SDGIO_00000028,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.unep.org/sdg/SDGIO_00000030,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.obolibrary.org/obo/OBI_0000011,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.unep.org/sdg/SDGIO_00000014,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.unep.org/sdg/SDGIO_00000011,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/BFO_0000015,process
+http://purl.obolibrary.org/obo/CHEBI_15377,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/CHEBI_52625,inorganic hydroxy compound
+http://purl.unep.org/sdg/SDGIO_00000026,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000024,vulnerability
+http://purl.unep.org/sdg/SDGIO_00000027,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.unep.org/sdg/SDGIO_00000024,vulnerability
+http://purl.unep.org/sdg/SDGIO_00010005,,http://www.w3.org/2000/01/rdf-schema#subClassOf,,http://purl.obolibrary.org/obo/NCBITaxon_9606,Homo sapiens
