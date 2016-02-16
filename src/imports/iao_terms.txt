@@ -2,3 +2,4 @@ http://purl.obolibrary.org/obo/IAO_0000005 # objective specification
 http://purl.obolibrary.org/obo/IAO_0000007 # action specification
 http://purl.obolibrary.org/obo/IAO_0000027 # data item
 http://purl.obolibrary.org/obo/IAO_0000109 # measurement datum
+http://purl.obolibrary.org/obo/IAO_0000104 # plan specification
