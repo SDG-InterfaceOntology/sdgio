@@ -338,6 +338,11 @@ name: organization
 is_a: BFO:0000040 ! material entity
 
 [Term]
+id: OBI:0000260
+name: plan
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
 id: OBI:0000272
 name: protocol
 is_a: IAO:0000104 ! plan specification

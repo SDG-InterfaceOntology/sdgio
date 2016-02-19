@@ -52,6 +52,11 @@ name: data about an ontology part
 is_a: IAO:0000027 ! data item
 
 [Term]
+id: IAO:0000104
+name: plan specification
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
 id: IAO:0000109
 name: measurement datum
 is_a: IAO:0000027 ! data item

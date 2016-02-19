@@ -672,7 +672,7 @@ is_a: ENVO:02500000 ! environmental system process
 [Term]
 id: ENVO:01000741
 name: recycling process
-def: "A process in which has inputs which bear waste roles and outputs which bear resource roles." []
+def: "A process in which some input bearing a waste role is consumed to produce an output which bears a resource role." []
 is_a: ENVO:02500000 ! environmental system process
 
 [Term]
@@ -763,7 +763,26 @@ synonym: "key biodiversity area" EXACT []
 synonym: "Prime Butterfly Area" NARROW []
 synonym: "Ramsar Sites" NARROW []
 is_a: ENVO:01000408 ! environmental zone
-is_a: PCO:0000002 ! ecological community
+
+[Term]
+id: ENVO:01000779
+name: public infrastructure
+def: "The system of public works in a country, state or region, including roads, utility lines and public buildings." []
+synonym: "infrastructure" BROAD []
+is_a: ENVO:00000070 ! constructed feature
+
+[Term]
+id: ENVO:01000784
+name: illegal informal settlement
+def: "A populated place where groups of housing units have been constructed on land that the occupants have no legal claim to, or occupy illegally, or where dwellings are not in compliance with current planning and building regulations." []
+synonym: "informal settlement" BROAD []
+is_a: ENVO:01000765 ! informal settlement
+
+[Term]
+id: ENVO:01000785
+name: material extraction process
+def: "A planned process during which a portion of environmental material is removed from a material entity." []
+is_a: ENVO:02500000 ! environmental system process
 
 [Term]
 id: ENVO:02500000
@@ -823,18 +842,6 @@ is_a: ENVO:02500000 ! environmental system process
 id: ENVO:02500032
 name: revegetation
 is_a: ENVO:02500000 ! environmental system process
-
-[Term]
-id: PCO:0000000
-name: collection of organisms
-def: "A material entity that consists of two or more organisms, viruses, or viroids." []
-is_a: BFO:0000040 ! material entity
-
-[Term]
-id: PCO:0000002
-name: ecological community
-def: "A collection of organisms of at least two different species, living in a particular area." []
-is_a: PCO:0000000 ! collection of organisms
 
 [Term]
 id: RO:0002577

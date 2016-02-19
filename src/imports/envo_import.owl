@@ -1097,7 +1097,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000741">
         <rdfs:label xml:lang="en">recycling process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
-        <obo:IAO_0000115>A process in which has inputs which bear waste roles and outputs which bear resource roles.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process in which some input bearing a waste role is consumed to produce an output which bears a resource role.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1239,6 +1239,38 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym>Important Plant Area</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000115>An environmental zone which contains, as determined by an officially mandated selection process, one or more ecosystems which include, as parts, ecological communities of global significance for conservation due to their vulnerability and irreplaceability.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym>Important Site for Freshwater Biodiversity</oboInOwl:hasNarrowSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000779">
+        <rdfs:label xml:lang="en">public infrastructure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+        <oboInOwl:hasBroadSynonym>infrastructure</oboInOwl:hasBroadSynonym>
+        <obo:IAO_0000115>The system of public works in a country, state or region, including roads, utility lines and public buildings.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000784">
+        <rdfs:label xml:lang="en">illegal informal settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000765"/>
+        <obo:IAO_0000115>A populated place where groups of housing units have been constructed on land that the occupants have no legal claim to, or occupy illegally, or where dwellings are not in compliance with current planning and building regulations.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>informal settlement</oboInOwl:hasBroadSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000785">
+        <rdfs:label xml:lang="en">material extraction process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>A planned process during which a portion of environmental material is removed from a material entity.</obo:IAO_0000115>
     </owl:Class>
     
 
