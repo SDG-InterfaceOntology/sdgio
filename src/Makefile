@@ -124,15 +124,16 @@ mirror/pco.owl: imports/pco_basic.obo
 	owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
 
 
-	
 # ----------------------------------------
 # Reports
 # ----------------------------------------
+sdgio-merged.owl: sdgio.owl
+	owltools $(USECAT) $< --merge-imports-closure -o $@
+
 # Generate a CSV term list from the OWL files created.
-reports/sdgio-%.csv: sdgio.owl sparql/%.sparql
+reports/sdgio-%.csv: sdgio-merged.owl sparql/%.sparql
 	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && mv $@.tmp $@
-	
-	
+
 # ----------------------------------------
 # Graph export
 # ----------------------------------------
@@ -140,7 +141,7 @@ reports/sdgio-%.csv: sdgio.owl sparql/%.sparql
 #graphs/sdgio-%.csv: sdgio.owl sparql/%.sparql
 #	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && mv $@.tmp $@
 
-	
+
 
 # CODE BELOW HERE IS FROM ENVO's MAKEFILE AND IS YET TO BE IMPLEMENTED FOR SDGIO
 # ----------------------------------------
