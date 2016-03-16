@@ -43,6 +43,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
@@ -72,6 +78,12 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <rdfs:label>definition source</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
     
 
 
@@ -205,8 +217,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:label xml:lang="en">has part</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
     </owl:ObjectProperty>
     
@@ -394,19 +404,17 @@
     <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
-        <rdfs:label xml:lang="en">has participant</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">a relation between a process and a continuant, in which the continuant is somehow involved in the process</obo:IAO_0000115>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -579,18 +587,18 @@
         <rdfs:label xml:lang="en">connected to</rdfs:label>
         <obo:IAO_0000115>a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002323"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RO_0002577"/>
-            </owl:Restriction>
-        </rdfs:range>
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RO_0002577"/>
             </owl:Restriction>
         </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RO_0002577"/>
+            </owl:Restriction>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -805,11 +813,11 @@
         <obo:IAO_0000115>q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002502"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002314"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002314"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -1451,8 +1459,8 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydrogen oxide</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acqua</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1463,6 +1471,32 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUND OXYGEN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasser</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidane</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/H2O/h1H2</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
@@ -1470,26 +1504,8 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUND WATER</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WATER</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acqua</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[OH2]</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1501,19 +1517,25 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOH</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agua</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WATER</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydridooxygen</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OXYGEN ATOM</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1525,20 +1547,14 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLUCOSE 4-O4 GROUP</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OXYGEN ATOM</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agua</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2O</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[OH2]</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1550,26 +1566,20 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISORDERED SOLVENT</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLUCOSE 4-O4 GROUP</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eau</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2O</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aqua</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steam</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen hydroxide</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1582,41 +1592,39 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasser</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eau</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISORDERED SOLVENT</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steam</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen hydroxide</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOH</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aqua</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidane</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUND WATER</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydrogen oxide</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUND OXYGEN</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     
 
@@ -1641,58 +1649,7 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydrogen</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H][H]</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#SMILES"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydrogen</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UFHFLCQGNIYNRP-UHFFFAOYSA-N</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#InChIKey"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrogen</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E-949</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular hydrogen</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E 949</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1704,9 +1661,41 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H][H]</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#SMILES"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E-949</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/H2/h1H</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#InChI"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular hydrogen</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1717,16 +1706,35 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E 949</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydrogen</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/H2/h1H</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UFHFLCQGNIYNRP-UHFFFAOYSA-N</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#InChI"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#InChIKey"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydrogen</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     
 
@@ -1753,14 +1761,8 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1778,14 +1780,20 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1810,16 +1818,16 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grouped_by_chemistry</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     
 
@@ -1836,17 +1844,17 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxides</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxides</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxides</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     
 
@@ -1866,18 +1874,6 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anorganische Verbindungen</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic molecular entities</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic compounds</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -1890,7 +1886,19 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anorganische Verbindungen</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic entity</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic molecular entities</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1917,13 +1925,13 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoatomic molecules</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoatomic molecule</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25362"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoatomic molecule</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoatomic molecules</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25362"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1951,15 +1959,20 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutral molecular compounds</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutral molecular compounds</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecules</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molekuel</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -1970,9 +1983,10 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutral molecular compounds</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1980,12 +1994,6 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molekuel</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -2002,9 +2010,9 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen compounds</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
@@ -2014,9 +2022,9 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen compounds</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
@@ -2066,7 +2074,7 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoatomic molecular entities</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoatomic molecular entity</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33259"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -2085,7 +2093,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoatomic molecular entity</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoatomic molecular entities</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33259"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -2123,10 +2131,11 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
@@ -2135,11 +2144,10 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
@@ -2161,16 +2169,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entities</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entities</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entities</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2192,12 +2200,6 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen molecular entities</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen compounds</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
@@ -2207,6 +2209,12 @@
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen molecular entities</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen compounds</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -2225,12 +2233,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entity</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block compounds</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
@@ -2239,15 +2241,21 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entities</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entity</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block compounds</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entity</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-block molecular entities</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -2264,6 +2272,13 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entitiy</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block compounds</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
@@ -2273,13 +2288,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entities</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2358,16 +2366,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entities</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entities</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entities</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
@@ -2416,13 +2424,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mononuclear parent hydrides</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mononuclear parent hydrides</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
@@ -2434,6 +2435,13 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mononuclear hydride</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mononuclear parent hydrides</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
@@ -2456,13 +2464,13 @@
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroatomic molecular entities</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical compound</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical compound</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroatomic molecular entities</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -4117,14 +4125,14 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4590,6 +4598,18 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000572"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -4609,18 +4629,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000572"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -4638,18 +4646,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
@@ -4658,6 +4654,18 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4744,14 +4752,14 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4820,14 +4828,14 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4875,6 +4883,12 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -4884,12 +4898,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000457"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4998,6 +5006,12 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200171"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200175"/>
         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -5010,12 +5024,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200172"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
@@ -5190,24 +5198,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -5225,6 +5215,24 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                         </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5338,6 +5346,18 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -5347,18 +5367,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6585,8 +6593,8 @@ http://purl.obolibrary.org/obo/DRON_00000001</obo:IAO_0000119>
 material entity and bearer_of some medicine role</obo:IAO_0000116>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:comment>See https://en.wikipedia.org/wiki/Pharmaceutical_drug</rdfs:comment>
         <owl:annotatedTarget xml:lang="en">A material entity that is used in the process of preventing, treating, diagnosing, or studying disease or disorder.</owl:annotatedTarget>
+        <rdfs:comment>See https://en.wikipedia.org/wiki/Pharmaceutical_drug</rdfs:comment>
         <rdfs:comment>Close match: http://purl.obolibrary.org/obo/CHEBI_52217</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010014"/>
@@ -6750,8 +6758,8 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
         <rdfs:comment xml:lang="en">The act of ownership, that is, the process of ownership wherein an owner is actively engaging in exercising their right to own, needs to be distinguished from a person who merely bears the rights, but is not currently an owner.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">A process in which a person or organization, the owner, exercises their right to use, sell, rent, or gift an object.</owl:annotatedTarget>
         <rdfs:comment>http://www.eionet.europa.eu/gemet/concept?cp=5971&amp;langcode=en&amp;ns=1</rdfs:comment>
+        <owl:annotatedTarget xml:lang="en">A process in which a person or organization, the owner, exercises their right to use, sell, rent, or gift an object.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010027"/>
     </owl:Axiom>
@@ -6878,8 +6886,8 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">A right of a person or population to effective protection of their property rights, especially against evictions or involuntary removal from their land or residence, without appropriate objective legal procedure.</obo:IAO_0000116>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:comment>Derived from http://www.fao.org/docrep/005/y4307e/y4307e05.htm</rdfs:comment>
         <owl:annotatedTarget xml:lang="en">A right of a person or population to effective protection of their property rights, especially against evictions or involuntary removal from their land or residence, without appropriate objective legal procedure.</owl:annotatedTarget>
+        <rdfs:comment>Derived from http://www.fao.org/docrep/005/y4307e/y4307e05.htm</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
         <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010038"/>
     </owl:Axiom>
@@ -6895,16 +6903,16 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
         <rdfs:comment xml:lang="en">Essential medicines are intended to be available within the context of functioning health systems at all times in adequate amounts, in the appropriate dosage forms, with assured quality, and at a price the individual and the community can afford.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">Essential medicines are intended to be available within the context of functioning health systems at all times in adequate amounts, in the appropriate dosage forms, with assured quality, and at a price the individual and the community can afford.</owl:annotatedTarget>
         <rdfs:comment>Source http://apps.who.int/medicinedocs/en/d/Js4875e/5.2.html#Js4875e.5.2</rdfs:comment>
-        <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010039"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">A medicine that is necessary to meet the priority health-care needs of a population according to treatment prevalence, efficacy, safety, and comparative cost-effectiveness.</owl:annotatedTarget>
-        <rdfs:comment>Source http://apps.who.int/medicinedocs/en/d/Js4875e/5.2.html#Js4875e.5.2</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010039"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:comment>Source http://apps.who.int/medicinedocs/en/d/Js4875e/5.2.html#Js4875e.5.2</rdfs:comment>
+        <owl:annotatedTarget xml:lang="en">Essential medicines are intended to be available within the context of functioning health systems at all times in adequate amounts, in the appropriate dosage forms, with assured quality, and at a price the individual and the community can afford.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010039"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
     </owl:Axiom>
     
 
@@ -6917,8 +6925,8 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">A quality of a human dwelling by virtue of its dispositions to provide for its inhabitants: physical safety, adequate space, protection against the elements and other hazards to health and structure.</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:comment>Source http://unhabitat.org/wp-content/uploads/2015/04/Habitat-III-Issue-Paper-20_Housing-2.0.pdf</rdfs:comment>
         <owl:annotatedTarget xml:lang="en">A quality of a human dwelling by virtue of its dispositions to provide for its inhabitants: physical safety, adequate space, protection against the elements and other hazards to health and structure.</owl:annotatedTarget>
+        <rdfs:comment>Source http://unhabitat.org/wp-content/uploads/2015/04/Habitat-III-Issue-Paper-20_Housing-2.0.pdf</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010040"/>
     </owl:Axiom>
@@ -6968,8 +6976,8 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
         <rdfs:comment xml:lang="en">The Gross Inland Energy Consumption (GIEC) is calculated as the sum of the gross inland consumption of the five sources of energy: solid fuels, oil, gas, nuclear and renewable sources. To monitor trends, GDP is in constant prices to avoid the impact of inflation, base year 2005.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:comment>http://www.eea.europa.eu/data-and-maps/indicators/total-primary-energy-intensity-2</rdfs:comment>
         <owl:annotatedTarget xml:lang="en">The Gross Inland Energy Consumption (GIEC) is calculated as the sum of the gross inland consumption of the five sources of energy: solid fuels, oil, gas, nuclear and renewable sources. To monitor trends, GDP is in constant prices to avoid the impact of inflation, base year 2005.</owl:annotatedTarget>
+        <rdfs:comment>http://www.eea.europa.eu/data-and-maps/indicators/total-primary-energy-intensity-2</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010044"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
     </owl:Axiom>
@@ -7122,8 +7130,8 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Thresholds for predominance (just a bigger share than any other economic activity? greater than a third of all activity? one half?) would make this class more meaningful.</obo:IAO_0000116>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref>http://www.eionet.europa.eu/gemet/concept?cp=4244</oboInOwl:hasDbXref>
         <owl:annotatedTarget xml:lang="en">A process which results in manufacturing becoming the predominant economic activity within a nation or region.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://www.eionet.europa.eu/gemet/concept?cp=4244</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.unep.org/sdg/SDGIO_00010056"/>
     </owl:Axiom>
@@ -8950,7 +8958,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/goal-10">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000000"/>
         <rdfs:label>Reduce inequality within and among countries</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
     </owl:NamedIndividual>
     
 
@@ -9017,7 +9025,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/goal-16">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000000"/>
         <rdfs:label>Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_10002"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_11583"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2562"/>
@@ -9056,7 +9064,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/goal-3">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000000"/>
         <rdfs:label>Ensure healthy lives and promote well-being for all at all ages</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000026"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000026"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_173"/>
     </owl:NamedIndividual>
     
@@ -9134,7 +9142,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-1-1">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000147"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000147"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5119"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_6551"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-1"/>
@@ -9148,7 +9156,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-1-2">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_173"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_6551"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-1"/>
@@ -9162,7 +9170,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-1-3">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_11662"/>
         <sdg:MENTIONS rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-1"/>
@@ -9188,7 +9196,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-1-5">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2215"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2505"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2811"/>
@@ -9205,7 +9213,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-10-1">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_11130"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_4187"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_6523"/>
@@ -9220,7 +9228,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-10-2">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_173"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2501"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5887"/>
@@ -9262,7 +9270,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-10-5">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500041"/>
+        <obo:BFO_0000051 rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500041"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_11514"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_3201"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-10"/>
@@ -9303,7 +9311,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-11-1">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000653"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000653"/>
         <sdg:MENTIONS rdf:resource="http://purl.unep.org/sdg/SDGIO_00010042"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-11"/>
         <obo:RO_0002230 rdf:resource="http://purl.unep.org/sdg/year-2030"/>
@@ -9330,7 +9338,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-11-3">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.unep.org/sdg/SDGIO_00010050"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-11"/>
         <obo:RO_0002230 rdf:resource="http://purl.unep.org/sdg/year-2030"/>
@@ -9456,7 +9464,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-12-6">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000614"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000614"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_4303"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-12"/>
     </owl:NamedIndividual>
@@ -9468,7 +9476,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-12-7">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Promote public procurement practices that are sustainable, in accordance with national policies and priorities</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_6370"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_6810"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-12"/>
@@ -9495,7 +9503,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-13-1">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_1462"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5496"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5506"/>
@@ -9533,7 +9541,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-14-1">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500042"/>
+        <obo:BFO_0000051 rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500042"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_14852"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5763"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-14"/>
@@ -9547,7 +9555,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-14-2">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000015"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000015"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_1094"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_14146"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-14"/>
@@ -9561,7 +9569,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-14-3">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000631"/>
+        <obo:BFO_0000051 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000631"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-14"/>
     </owl:NamedIndividual>
     
@@ -9584,7 +9592,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-14-5">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_4303"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_4430"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5029"/>
@@ -9599,7 +9607,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-14-6">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000294"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000294"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_6709"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_8165"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-14"/>
@@ -9657,7 +9665,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-15-3">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500005"/>
+        <obo:BFO_0000051 rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500005"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2105"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_4646"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_7857"/>
@@ -9741,7 +9749,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-15-9">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_11034"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_827"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-15"/>
@@ -9802,8 +9810,8 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-16-4">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000475"/>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000696"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000475"/>
+        <obo:BFO_0000051 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000696"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_11540"/>
         <sdg:MENTIONS rdf:resource="http://purl.unep.org/sdg/SDGIO_00010048"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-16"/>
@@ -9887,7 +9895,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-17-10">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Promote a universal, rules-based, open, non-discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000444"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000444"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_13283"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-17"/>
     </owl:NamedIndividual>
@@ -9986,8 +9994,8 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-17-18">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-17"/>
         <obo:RO_0002230 rdf:resource="http://purl.unep.org/sdg/year-2020"/>
     </owl:NamedIndividual>
@@ -9999,7 +10007,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-17-19">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries </rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2147"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-17"/>
         <obo:RO_0002230 rdf:resource="http://purl.unep.org/sdg/year-2030"/>
@@ -10024,7 +10032,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-17-3">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Mobilize additional financial resources for developing countries from multiple sources</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_7168"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_88"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-17"/>
@@ -10147,7 +10155,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-2-3">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000078"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000078"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2683"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_3356"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-2"/>
@@ -10196,7 +10204,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-3-2">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5371"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-3"/>
         <obo:RO_0002230 rdf:resource="http://purl.unep.org/sdg/year-2030"/>
@@ -10224,7 +10232,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-3-4">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000026"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000026"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2232"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_3865"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5371"/>
@@ -10279,7 +10287,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-3-8">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.unep.org/sdg/SDGIO_00010039"/>
+        <obo:RO_0000057 rdf:resource="http://purl.unep.org/sdg/SDGIO_00010039"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-3"/>
     </owl:NamedIndividual>
     
@@ -10418,7 +10426,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-5-3">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000040"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000040"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_1350"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-5"/>
     </owl:NamedIndividual>
@@ -10430,7 +10438,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-5-4">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Recognize and value unpaid care and domestic work through the provision of public services, infrastructure and social protection policies and the promotion of shared responsibility within the household and the family as nationally appropriate</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_3117"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_4015"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_7184"/>
@@ -10458,10 +10466,10 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-5-6">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000104"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000104"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_11527"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2282"/>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-5"/>
     </owl:NamedIndividual>
     
@@ -10487,7 +10495,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-6-2">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000444"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000444"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_4126"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5555"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_7443"/>
@@ -10516,7 +10524,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-6-4">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_9244"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-6"/>
         <obo:RO_0002230 rdf:resource="http://purl.unep.org/sdg/year-2030"/>
@@ -10542,7 +10550,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-6-6">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000019"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000019"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_518"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_7269"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-6"/>
@@ -10609,7 +10617,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-8-10">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000167"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000167"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_4374"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_7621"/>
         <sdg:MENTIONS rdf:resource="http://purl.unep.org/sdg/SDGIO_00000007"/>
@@ -10698,7 +10706,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_2562"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_5119"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_6709"/>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-8"/>
     </owl:NamedIndividual>
     
@@ -10733,8 +10741,8 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-9-1">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000026"/>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000026"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <sdg:MENTIONS rdf:resource="http://purl.unep.org/sdg/SDGIO_00000007"/>
         <sdg:MENTIONS rdf:resource="http://purl.unep.org/sdg/SDGIO_00010041"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-9"/>
@@ -10773,7 +10781,7 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/target-9-4">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/SDGIO_00000001"/>
         <rdfs:label>upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities</rdfs:label>
-        <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000779"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000779"/>
         <sdg:MENTIONS rdf:resource="http://purl.obolibrary.org/obo/GEMET_7195"/>
         <obo:BFO_0000050 rdf:resource="http://purl.unep.org/sdg/goal-9"/>
         <obo:RO_0002230 rdf:resource="http://purl.unep.org/sdg/year-2030"/>
@@ -10856,6 +10864,10 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
         <rdfs:label>OBO foundry unique label</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>term editor</rdfs:label>
     </rdf:Description>
@@ -10864,6 +10876,10 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
         <rdfs:label>curator note</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
+        <rdfs:label xml:lang="en">has participant</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a relation between a process and a continuant, in which the continuant is somehow involved in the process</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
         <rdfs:label>example of usage</rdfs:label>
@@ -10884,6 +10900,14 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
      -->
 
     <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -10895,14 +10919,6 @@ See https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
         </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>

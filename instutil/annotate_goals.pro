@@ -36,7 +36,8 @@ annotate_label(C,MC) :-
         class(MC,MCN),
         debug(ann,'Annotating: ~w ==> ~w "~w"',[L,MC,MCN]),
         is_ok(MC),
-        format('<~w> mentions: ~w .~n',[C,MC]),
+        cls_rel(MC,R),
+        format('<~w> ~w ~w .~n',[C,R,MC]),
         fail.
 
 is_ok(C) :-
