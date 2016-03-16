@@ -6,17 +6,21 @@ informal settlement,"A settlement which is not associated with or directed by of
 rockfall,,http://purl.obolibrary.org/obo/ENVO_01000693
 Hominoidea,,http://purl.obolibrary.org/obo/NCBITaxon_314295
 peak matching,,http://purl.obolibrary.org/obo/OBI_0000726
-Teleostomi,,http://purl.obolibrary.org/obo/NCBITaxon_117570
-investigation,,http://purl.obolibrary.org/obo/OBI_0000066
 rate unit,,http://purl.obolibrary.org/obo/UO_0000280
+investigation,,http://purl.obolibrary.org/obo/OBI_0000066
+Teleostomi,,http://purl.obolibrary.org/obo/NCBITaxon_117570
 permission to access,A disposition of an environmental system to allow an entity to approach and use a resource.,http://purl.unep.org/sdg/SDGIO_00000010
 Viruses,,http://purl.obolibrary.org/obo/NCBITaxon_10239
-independent continuant,"A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.",http://purl.obolibrary.org/obo/BFO_0000004
+,,_:b0
 frequency unit,,http://purl.obolibrary.org/obo/UO_0000105
+,,_:b1
 main group molecular entity,"A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.",http://purl.obolibrary.org/obo/CHEBI_33579
+independent continuant,"A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.",http://purl.obolibrary.org/obo/BFO_0000004
 ownership,"A process in which a person or organization, the owner, exercises their right to use, sell, rent, or gift an object.",http://purl.unep.org/sdg/SDGIO_00010027
 owner role,"A role that inheres in a person and is realized in processes of exercising the right to use, occupy, sell, rent, or gift an object (such as a parcel of land).",http://purl.unep.org/sdg/SDGIO_00010018
 partitioning objective,,http://purl.obolibrary.org/obo/OBI_0200172
+,,_:b2
+right to tenure,,http://purl.unep.org/sdg/SDGIO_00010047
 formal employment,,http://purl.unep.org/sdg/SDGIO_00010034
 flood,"An unusual accumulation of water above the ground caused by high tide, heavy rain, melting snow or rapid runoff from paved areas.",http://purl.obolibrary.org/obo/ENVO_01000710
 landslide process,A landslide is a process whereby a large mass of earth and rocks moves down a hill or a mountainside.,http://purl.obolibrary.org/obo/ENVO_01000692
@@ -33,11 +37,9 @@ vulnerability towards flooding,A vulnerability borne by an entity which may be i
 city,Incorporated populated place.,http://purl.obolibrary.org/obo/ENVO_00000856
 s-block molecular entity,An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.,http://purl.obolibrary.org/obo/CHEBI_33674
 lava flow process,A process in which a volume of lava emitted during an effusive eruption moves along a solid surface.,http://purl.obolibrary.org/obo/ENVO_01000730
-chalcogen hydride,,http://purl.obolibrary.org/obo/CHEBI_36902
 informal employment,,http://purl.unep.org/sdg/SDGIO_00010035
+chalcogen hydride,,http://purl.obolibrary.org/obo/CHEBI_36902
 exposure to contaminated water,An exposure process in which an the processes executed by an entity are causally connected to those executed by a portion of contaminated water.,http://purl.unep.org/sdg/SDGIO_00000018
-,,_:b0
-,,_:b1
 resilience,"A disposition of an entity to recover its previous composition, qualities, and functionality following some perturbation.",http://purl.unep.org/sdg/SDGIO_00010021
 dot plot,,http://purl.obolibrary.org/obo/IAO_0000037
 processed material,,http://purl.obolibrary.org/obo/OBI_0000047
@@ -45,10 +47,10 @@ water vapour,Water vapour is a vapour which is the gas phase of water.,http://pu
 mass unit,,http://purl.obolibrary.org/obo/UO_0000002
 debris flow,,http://purl.obolibrary.org/obo/ENVO_01000698
 established and operational policy,A policy which is actively being implemented and managed in some set of appropriate processes for a long enough time to be generally accepted and functional.,http://purl.unep.org/sdg/SDGIO_00010023
-,,_:b2
 security of tenure,,http://purl.unep.org/sdg/SDGIO_00010038
 figure,,http://purl.obolibrary.org/obo/IAO_0000308
 organism,,http://purl.obolibrary.org/obo/OBI_0100026
+,,_:b3
 chemical entity,"A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",http://purl.obolibrary.org/obo/CHEBI_24431
 investigation agent role,,http://purl.obolibrary.org/obo/OBI_0000202
 carbon dioxide emission process,A carbon emission process is any environmental process which releases carbon dioxide gas into the atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000769
@@ -60,97 +62,104 @@ generically dependent continuant,A continuant that is dependent on one or other 
 cabon dioxide emission,A volume of carbon dioxide gas emitted by a carbon dioxide emission process.,http://purl.obolibrary.org/obo/ENVO_01000770
 vulnerability,"A disposition of an entity to undergo change, usually negative or undesirable change, in response to some exposure.",http://purl.unep.org/sdg/SDGIO_00000024
 collection of organisms,"A material entity that consists of two or more organisms, viruses, or viroids.",http://purl.obolibrary.org/obo/PCO_0000000
-,,_:b3
 right bearer,A organism or organization that is the bearer of a right.,http://purl.unep.org/sdg/SDGIO_00010024
 Eukaryota,,http://purl.obolibrary.org/obo/NCBITaxon_2759
 risk of flooding,The risk that a bearer realises its vulnerability towards flooding when participating in a process which exposes the bearer to a flooding hazard.,http://purl.unep.org/sdg/SDGIO_00000022
 carbon-bearing gas emission process,A carbon emission process is any environmental process which outputs a carbon-bearing gas.,http://purl.obolibrary.org/obo/ENVO_01000742
 molecular entity,"Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.",http://purl.obolibrary.org/obo/CHEBI_23367
+,,_:b4
 resilience strengthening process,"A process which increases an entity's disposition to recover its previous composition, qualities, and functionality following some perturbation.",http://purl.unep.org/sdg/SDGIO_00000028
 anthropogenic geographic feature,"An anthropogenic geographic feature is a geographic feature
 resulting from the influence of human beings on nature.",http://purl.obolibrary.org/obo/ENVO_00000002
+asset,An independent continuant under the control of some person or organisation which confers an economic benefit in some economic system.,http://purl.unep.org/sdg/SDGIO_00010048
 mudflow,A mudflow is a form of mass wasting which involves very rapid to extremely rapid surging flow of debris that has become partially or fully liquified by the addition of significant amounts of water to clay-rich source material.,http://purl.obolibrary.org/obo/ENVO_01000697
 CART,,http://purl.obolibrary.org/obo/OBI_0000749
 coast,"A coast is the area where land meets the sea, ocean, or lake.",http://purl.obolibrary.org/obo/ENVO_01000687
 mudslide,,http://purl.obolibrary.org/obo/ENVO_01000695
+material intensity of an economy,A data item which represents the ratio of domestic material consumption to gross domestic product at constant prices.,http://purl.unep.org/sdg/SDGIO_00010063
 deforestation,"The removal of forest and undergrowth to, for example, increase the surface of arable land or to use the timber for construction or industrial purposes.",http://purl.obolibrary.org/obo/ENVO_02500012
-regulatory agency,,http://purl.obolibrary.org/obo/OBI_0000450
 p-block molecular entity,A main group molecular entity that contains one or more atoms of a p-block element.,http://purl.obolibrary.org/obo/CHEBI_33675
+regulatory agency,,http://purl.obolibrary.org/obo/OBI_0000450
 atmospheric carbon dioxide,Atmospheric carbon dioxide is an environmental material composed of carbon dioxide in its gaseous form present in the atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000451
 data item,,http://purl.obolibrary.org/obo/IAO_0000027
+,,_:b5
 hazard disposition,A disposition of an entity to cause harm or damage to another entity.,http://purl.unep.org/sdg/SDGIO_00000021
+,,_:b6
 k-nearest neighbors,,http://purl.obolibrary.org/obo/OBI_0000727
 quality,A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities,http://purl.obolibrary.org/obo/PATO_0000001
 terrestrial biome,A biome that applies to the terrestrial realm.,http://purl.obolibrary.org/obo/ENVO_00000446
+energy intensity,A data item which represents the ratio between the gross inland consumption of energy and gross domestic product calculated for a calendar year.,http://purl.unep.org/sdg/SDGIO_00010044
 service provider role,,http://purl.obolibrary.org/obo/OBI_0000947
 image,,http://purl.obolibrary.org/obo/IAO_0000101
 anthropogenic reforestation,,http://purl.obolibrary.org/obo/ENVO_02500017
-waste material,A material which is not the desired output of a process and which is typically the input of a process which removes it from its producer (e.g. a disposal process).,http://purl.obolibrary.org/obo/ENVO_00002264
 ,,http://usefulinc.com/ns/doap#Project
+waste material,A material which is not the desired output of a process and which is typically the input of a process which removes it from its producer (e.g. a disposal process).,http://purl.obolibrary.org/obo/ENVO_00002264
 manufacturer,,http://purl.obolibrary.org/obo/OBI_0000835
 cropland biome,A cropland biome is an anthropogenic terrestrial biome which is primarily used for agricultural activity and which contains no village or larger human settlement.,http://purl.obolibrary.org/obo/ENVO_01000245
 study design,,http://purl.obolibrary.org/obo/OBI_0500000
-urban biome,An urban biome is a dense settlement biome which has been urbanised.,http://purl.obolibrary.org/obo/ENVO_01000249
 questionnaire,,http://purl.obolibrary.org/obo/OBI_0001000
+urban biome,An urban biome is a dense settlement biome which has been urbanised.,http://purl.obolibrary.org/obo/ENVO_01000249
 Chordata,,http://purl.obolibrary.org/obo/NCBITaxon_7711
 inorganic molecular entity,A molecular entity that contains no carbon.,http://purl.obolibrary.org/obo/CHEBI_24835
-,,_:b4
 dense settlement biome,"A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use.",http://purl.obolibrary.org/obo/ENVO_01000248
 protruding out of,A quality inhering into a bearer by virtue of the bearer's extending out above or beyond its surface or boundary and outwards in relation to the physical space occupied by another entity.,http://purl.obolibrary.org/obo/PATO_0001646
-,,_:b5
 waste water,Water that has been adversely affected in quality by anthropogenic influence.,http://purl.obolibrary.org/obo/ENVO_00002001
 time,A quality in which events occur in sequence.,http://purl.obolibrary.org/obo/PATO_0000165
 protruding,A quality inhering in a bearer by virtue of the bearer's extending out above or beyond a surface or boundary.,http://purl.obolibrary.org/obo/PATO_0001598
 village,"A village is a clustered human settlement or community, larger than a hamlet but smaller than a town, with a population ranging from a few hundred to a few thousand. Though often located in rural areas, the term urban village is also applied to certain urban neighbourhoods. Villages are normally permanent, with fixed dwellings; however, transient villages can occur. Further, the dwellings of a village are fairly close to one another, not scattered broadly over the landscape, as a dispersed settlement.",http://purl.obolibrary.org/obo/ENVO_01000773
+material extraction process,A planned process during which a portion of environmental material is removed from a material entity.,http://purl.obolibrary.org/obo/ENVO_01000785
 tourism,"A process in which a visitor travels to and stays in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes. All the activities performed by the visitor in preparation for and during their trip are parts of this process.",http://purl.unep.org/sdg/SDGIO_00000030
 unemployed,"A person or population that is not employed, but eligible for and currently seeking employment.",http://purl.unep.org/sdg/SDGIO_00010026
 environmental feature,A material entity which determines an environmental system.,http://purl.obolibrary.org/obo/ENVO_00002297
+plan,,http://purl.obolibrary.org/obo/OBI_0000260
 essential service,A service which is necessary to sustain human life.,http://purl.unep.org/sdg/SDGIO_00010006
 atmospheric ozone,Atmospheric ozone is an environmental material primarily composed of ozone in its gaseous form and present in the atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000537
-,,_:b6
 owner,"A person or organization that participates in an ownership process wherein they realize their role as owner by exercising their right to use, sell, rent, or gift an object.",http://purl.unep.org/sdg/SDGIO_00010028
+value specification,,http://purl.obolibrary.org/obo/OBI_0001933
 afforestation,Establishment of a new forest by seeding or planting of nonforested land.,http://purl.obolibrary.org/obo/ENVO_02500011
+asset role,A role inhering in an independent continuant which is realized by conferring an economic benefit to the person or organization which controls it in some economic system.,http://purl.unep.org/sdg/SDGIO_00010049
 elemental hydrogen,,http://purl.obolibrary.org/obo/CHEBI_33260
 hydrogen molecular entity,,http://purl.obolibrary.org/obo/CHEBI_33608
-,,_:b7
 safe,A low risk of entities in some environment to realize their hazard disposition towards humans.,http://purl.unep.org/sdg/SDGIO_00010036
+,,_:b7
 environmental system,A system which has the disposition to environ one or more material entities.,http://purl.obolibrary.org/obo/ENVO_01000254
 data about an ontology part,,http://purl.obolibrary.org/obo/IAO_0000102
 ambidextrous handedness,,http://purl.obolibrary.org/obo/PATO_0002204
 areal flooding,"Areal flooding is a flooding process in which flat or low-lying areas become inundated with water due to water input exceeding infiltration, evaporation, or run off.",http://purl.obolibrary.org/obo/ENVO_01000717
 classified data set,,http://purl.obolibrary.org/obo/OBI_0000023
-,,_:b8
-populated place,Place or area with clustered or scattered buildings and a permanent human population.,http://purl.obolibrary.org/obo/ENVO_00000062
 process,"An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.",http://purl.obolibrary.org/obo/BFO_0000015
+populated place,Place or area with clustered or scattered buildings and a permanent human population.,http://purl.obolibrary.org/obo/ENVO_00000062
 material supplier role,,http://purl.obolibrary.org/obo/OBI_0000018
 organization,,http://purl.obolibrary.org/obo/OBI_0000245
-,,_:b9
 Euarchontoglires,,http://purl.obolibrary.org/obo/NCBITaxon_314146
 young,An age which is relatively low.,http://purl.obolibrary.org/obo/PATO_0000309
 material information bearer,,http://purl.obolibrary.org/obo/IAO_0000178
 sustainable access system,"A system that provides access to some resource in a sustainable manner. That is, the system provides someone or something the ability, right, and permission to approach and use some resource in a way that will not irreversibly exhaust the resources on which the system depends.",http://purl.unep.org/sdg/SDGIO_00000006
+,,_:b8
 ability to access,The disposition of an environmental system to physically provide a resource to the consumer or user of that resource.,http://purl.unep.org/sdg/SDGIO_00000009
+,,_:b9
 ocean,Continuous saline-water bodies that surround the continents and fill the Earth's great depressions.,http://purl.obolibrary.org/obo/ENVO_00000015
 quality of a gas,A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape.,http://purl.obolibrary.org/obo/PATO_0001547
 right of access,"A disposition of a human societal system to recognise and protect, through various means, the ability of an entity to approach and use a resource.",http://purl.unep.org/sdg/SDGIO_00000008
 action specification,,http://purl.obolibrary.org/obo/IAO_0000007
 physical object quality,A quality which inheres in a continuant.,http://purl.obolibrary.org/obo/PATO_0001241
 pulp-bleaching waste water,,http://purl.obolibrary.org/obo/ENVO_00002193
-,,_:b10
 time unit,,http://purl.obolibrary.org/obo/UO_0000003
+material input per capita,A data item which represents the ratio of material input and total population.,http://purl.unep.org/sdg/SDGIO_00010065
 measurement datum,,http://purl.obolibrary.org/obo/IAO_0000109
 Euteleostomi,,http://purl.obolibrary.org/obo/NCBITaxon_117571
 objective specification,,http://purl.obolibrary.org/obo/IAO_0000005
 inorganic hydride,,http://purl.obolibrary.org/obo/CHEBI_33242
 function,,http://purl.obolibrary.org/obo/BFO_0000034
 watercourse,A flowing body of water.,http://purl.obolibrary.org/obo/ENVO_00000029
+weapons test site,"A region at which weapons, typically military, are tested.",http://purl.obolibrary.org/obo/ENVO_00000559
+,,_:b10
 right handedness,,http://purl.obolibrary.org/obo/PATO_0002203
+position,A spatial quality inhering in a bearer by virtue of the bearer's spatial location relative to other objects in the vicinity.,http://purl.obolibrary.org/obo/PATO_0000140
 ,,http://usefulinc.com/ns/doap#SVNRepository
 Homininae,,http://purl.obolibrary.org/obo/NCBITaxon_207598
-position,A spatial quality inhering in a bearer by virtue of the bearer's spatial location relative to other objects in the vicinity.,http://purl.obolibrary.org/obo/PATO_0000140
-,,_:b11
-,,_:b12
-,,_:b13
+material footprint per capita,A data item which represents the ratio of material footprint and total population.,http://purl.unep.org/sdg/SDGIO_00010064
+natural capital,A collection of material entities which is composed of material natural assets and the ecosystem services which depend on them.,http://purl.unep.org/sdg/SDGIO_00010053
 conclusion based on data,,http://purl.obolibrary.org/obo/OBI_0001909
 data transformation,,http://purl.obolibrary.org/obo/OBI_0200000
 lake,A body of water or other liquid of considerable size contained on a body of land.,http://purl.obolibrary.org/obo/ENVO_00000020
@@ -159,37 +168,43 @@ diagram,,http://purl.obolibrary.org/obo/IAO_0000309
 educator role,A role that inheres in a human and is realized in the process of imparting knowledge and skill to others.,http://purl.unep.org/sdg/SDGIO_00010010
 biome,A biome is an environmental system to which resident ecological communities have evolved adaptations.,http://purl.obolibrary.org/obo/ENVO_00000428
 Sarcopterygii,,http://purl.obolibrary.org/obo/NCBITaxon_8287
+,,_:b11
 use of a resource,A process in which a resource is consumed or confers some benefit to the user.,http://purl.unep.org/sdg/SDGIO_00000011
+,,_:b12
 elemental molecule,A molecule all atoms of which have the same atomic number.,http://purl.obolibrary.org/obo/CHEBI_25362
 effusive eruption,An effusive eruption is a volcanic eruption during which lava flows onto the ground.,http://purl.obolibrary.org/obo/ENVO_01000656
+,,_:b13
 marine water body,A significant accumulation of water which is part of a marine biome.,http://purl.obolibrary.org/obo/ENVO_00001999
+,,_:b14
 regulator role,,http://purl.obolibrary.org/obo/OBI_0000014
+nuclear weapons test site,"A weapons test site at which nuclear weapons are, or have been, tested.",http://purl.obolibrary.org/obo/ENVO_00000560
 process of being educated,A planned process wherein a person acquires knowledge or skill. It is part of an education process.,http://purl.unep.org/sdg/SDGIO_00010008
 constructed feature,A feature that has been constructed by deliberate human effort.,http://purl.obolibrary.org/obo/ENVO_00000070
 scatter plot,,http://purl.obolibrary.org/obo/IAO_0000184
 age,A time quality inhering in a bearer by virtue of how long the bearer has existed.,http://purl.obolibrary.org/obo/PATO_0000011
+,,_:b15
 flooding,"A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water.",http://purl.obolibrary.org/obo/ENVO_02500002
 fiat object part,,http://purl.obolibrary.org/obo/BFO_0000024
-,,_:b14
 Bilateria,,http://purl.obolibrary.org/obo/NCBITaxon_33213
-,,_:b15
-human dwelling,"A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other 'substantial' structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any 'open fields beyond'. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.",http://purl.obolibrary.org/obo/ENVO_01000744
 oxygen hydride,,http://purl.obolibrary.org/obo/CHEBI_33693
+human dwelling,"A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other 'substantial' structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any 'open fields beyond'. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.",http://purl.obolibrary.org/obo/ENVO_01000744
 riverine flooding,"Riverine flooding is a process in which the flow rate of river water exceeds the capacity of its channel, thus flooding neighbouring land. Bends and meanders in a river channel are particularly disposed to such flooding.",http://purl.obolibrary.org/obo/ENVO_01000708
+recycling process,A process in which some input bearing a waste role is consumed to produce an output which bears a resource role.,http://purl.obolibrary.org/obo/ENVO_01000741
 sustainable development process,"A process in which the parts of a socio-economic-environmental system, as well as their interactions and qualities, transition to meet one or more sustainable development goals.",http://purl.unep.org/sdg/SDGIO_00000004
 water body,An accumulation of water of varying size.,http://purl.obolibrary.org/obo/ENVO_00000063
 hydrides,Hydrides are chemical compounds of hydrogen with other chemical elements.,http://purl.obolibrary.org/obo/CHEBI_33692
+,,_:b16
 urban flooding,"Urban flooding is a flooding process in which land or property in a built environment, particularly in more densely populated areas, is inundated due to the rate of water input exceeding that of water drainage provided by the environment's drainage systems.",http://purl.obolibrary.org/obo/ENVO_01000718
 mass wasting flow,"A mass wasting flow is a form of mass wasting during which the moving materials behave similarly to a flowing fluid. Water, air and ice are often involved in enabling fluidlike motion of the material.",http://purl.obolibrary.org/obo/ENVO_01000696
 Simiiformes,,http://purl.obolibrary.org/obo/NCBITaxon_314293
-,,_:b16
 ,,_:b17
 mass wasting,"Mass wasting is the geomorphic process by which solid environmental material such as soil, sand, regolith, and/or rock move downslope typically as a mass, largely under the force of gravity, but frequently affected by water and water content as in submarine environments and mudslides.",http://purl.obolibrary.org/obo/ENVO_01000690
 lotic water body,"A lotic water body is a water body in which the accumulated water, in its totality, is flowing.",http://purl.obolibrary.org/obo/ENVO_01000618
-class prediction objective,,http://purl.obolibrary.org/obo/OBI_0200179
+,,_:b18
 sewage,"Wastewater that is contaminated with feces or urine,",http://purl.obolibrary.org/obo/ENVO_00002018
-k-means clustering,,http://purl.obolibrary.org/obo/OBI_0200041
+class prediction objective,,http://purl.obolibrary.org/obo/OBI_0200179
 explosive eruption,"An explosive eruption is a volcanic process in which pressurised magma is violently expelled and froths into volcanic ash. Explosive eruptions can eject a cloud of rocks, dust, gas, and pyroclastic material  which may then collapse, creating a pyroclastic flow of hot volcanic matter.",http://purl.obolibrary.org/obo/ENVO_01000655
+k-means clustering,,http://purl.obolibrary.org/obo/OBI_0200041
 Vertebrata <Metazoa>,,http://purl.obolibrary.org/obo/NCBITaxon_7742
 employee,A person that bears an employee role.,http://purl.unep.org/sdg/SDGIO_00010005
 material transformation objective,,http://purl.obolibrary.org/obo/OBI_0000456
@@ -202,19 +217,19 @@ hierarchical clustering,,http://purl.obolibrary.org/obo/OBI_0200042
 ,,http://usefulinc.com/ns/doap#Version
 approaching a resource,"A process in which a potential consumer of a resource decreases their spatial distance to that resource, acting out of the right, permission, and ability of access.",http://purl.unep.org/sdg/SDGIO_00000012
 Deuterostomia,,http://purl.obolibrary.org/obo/NCBITaxon_33511
-site,,http://purl.obolibrary.org/obo/BFO_0000029
 manufacturing objective,,http://purl.obolibrary.org/obo/OBI_0000458
+site,,http://purl.obolibrary.org/obo/BFO_0000029
 secure right,A right which is protected by a sustainable system.,http://purl.unep.org/sdg/SDGIO_00010022
 anthropogenic environmental material,Anthropogenic material in or on which organisms may live.,http://purl.obolibrary.org/obo/ENVO_0010001
+industrialisation,A process which results in manufacturing becoming the predominant economic activity within a nation or region.,http://purl.unep.org/sdg/SDGIO_00010056
 Archaea,,http://purl.obolibrary.org/obo/NCBITaxon_2157
 resource,A material or immaterial entity which may confer benefit to its user or consumer.,http://purl.unep.org/sdg/SDGIO_00000013
 exposure to contaminated environmental material,An exposure process in which an the processes executed by an entity are causally connected to those executed by a portion of contaminated environmental material.,http://purl.unep.org/sdg/SDGIO_00000017
 immaterial entity,,http://purl.obolibrary.org/obo/BFO_0000141
 graph,,http://purl.obolibrary.org/obo/IAO_0000038
-,,_:b18
 ,,_:b19
-riverine flood,A riverine flood is a flood which is formed as a result of a river's flow rate exceeding the capacity of its channel.,http://purl.obolibrary.org/obo/ENVO_01000712
 Boreoeutheria,,http://purl.obolibrary.org/obo/NCBITaxon_1437010
+riverine flood,A riverine flood is a flood which is formed as a result of a river's flow rate exceeding the capacity of its channel.,http://purl.obolibrary.org/obo/ENVO_01000712
 resource role,A role which is realized by conferring some benefit to its consumer.,http://purl.unep.org/sdg/SDGIO_00010017
 material entity,An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.,http://purl.obolibrary.org/obo/BFO_0000040
 specifically dependent continuant,A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.,http://purl.obolibrary.org/obo/BFO_0000020
@@ -224,36 +239,37 @@ megathrust earthquake,"A megathrust earthquake is a tectonic earthquake which oc
 hydroxides,Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-)).,http://purl.obolibrary.org/obo/CHEBI_24651
 data visualization,,http://purl.obolibrary.org/obo/OBI_0200111
 document,,http://purl.obolibrary.org/obo/IAO_0000310
+wealth,"A data item which represents the total value of the assets under the control of a person, population or organisation.",http://purl.unep.org/sdg/SDGIO_00010051
 Haplorrhini,,http://purl.obolibrary.org/obo/NCBITaxon_376913
 anthropogenic environmental process,,http://purl.obolibrary.org/obo/ENVO_02500027
-right,,http://purl.unep.org/sdg/SDGIO_00010037
 coastal flood,A coastal flood is a flood which is formed as a result of large amounts of water from marine water bodies or large lakes being transported to usually dry land by displacement processes such as high winds or seismic activity.,http://purl.obolibrary.org/obo/ENVO_01000711
+right,,http://purl.unep.org/sdg/SDGIO_00010037
 oxygen molecular entity,,http://purl.obolibrary.org/obo/CHEBI_25806
-,,_:b20
 education,A planned process wherein knowledge and skill is imparted.,http://purl.unep.org/sdg/SDGIO_00010001
 drawing a conclusion based on data,,http://purl.obolibrary.org/obo/OBI_0000338
 volumetric flow rate unit,,http://purl.obolibrary.org/obo/UO_0000270
 clustered data set,,http://purl.obolibrary.org/obo/OBI_0000648
 directive information entity,,http://purl.obolibrary.org/obo/IAO_0000033
-,,_:b21
+,,_:b20
 curation status specification,,http://purl.obolibrary.org/obo/IAO_0000078
 leave one out cross validation method,,http://purl.obolibrary.org/obo/OBI_0200033
-sturzstrom,A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop â€” as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.,http://purl.obolibrary.org/obo/ENVO_01000700
 Theria <Mammalia>,,http://purl.obolibrary.org/obo/NCBITaxon_32525
+sturzstrom,A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop â€” as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.,http://purl.obolibrary.org/obo/ENVO_01000700
 datum label,,http://purl.obolibrary.org/obo/IAO_0000009
-exposure to flood,An exposure process in which an the processes executed by an entity are causally connected to those executed by a flood.,http://purl.unep.org/sdg/SDGIO_00000015
 habitability,"A quality of a human dwelling by virtue of its dispositions to provide for its inhabitants: physical safety, adequate space, protection against the elements and other hazards to health and structure.",http://purl.unep.org/sdg/SDGIO_00010040
+exposure to flood,An exposure process in which an the processes executed by an entity are causally connected to those executed by a flood.,http://purl.unep.org/sdg/SDGIO_00000015
 population,"A collection of organisms, all of the same species, that live in the same place.",http://purl.obolibrary.org/obo/PCO_0000001
-,,_:b22
 regulatory role,,http://purl.obolibrary.org/obo/OBI_0000017
 polyatomic entity,Any molecular entity consisting of more than one atom.,http://purl.obolibrary.org/obo/CHEBI_36357
 physical quality,A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.,http://purl.obolibrary.org/obo/PATO_0001018
 inadequate housing,"A human dwelling that lacks any one of the following: access to basic services, affordability, habitability, security of tenure, or accessibility.",http://purl.unep.org/sdg/SDGIO_00010012
-revegetation,,http://purl.obolibrary.org/obo/ENVO_02500032
 social protection service,"A service that promotes, secures, and maintains socio-economic rights.",http://purl.unep.org/sdg/SDGIO_00010016
+revegetation,,http://purl.obolibrary.org/obo/ENVO_02500032
 waste role,A role that is realized in some process wherein the bearer is discarded or not utilized further.,http://purl.obolibrary.org/obo/ENVO_01000665
 Opisthokonta,,http://purl.obolibrary.org/obo/NCBITaxon_33154
+,,_:b21
 decision tree building data transformation,,http://purl.obolibrary.org/obo/OBI_0000707
+material intensity,,http://purl.unep.org/sdg/SDGIO_00010062
 partitioning data transformation,,http://purl.obolibrary.org/obo/OBI_0200171
 heteroatomic molecular entity,A molecular entity consisting of two or more chemical elements.,http://purl.obolibrary.org/obo/CHEBI_37577
 Hominidae,,http://purl.obolibrary.org/obo/NCBITaxon_9604
@@ -262,13 +278,13 @@ data format specification,,http://purl.obolibrary.org/obo/IAO_0000098
 Bacteria,,http://purl.obolibrary.org/obo/NCBITaxon_2
 rangeland biome,A rangeland biome is an anthropogenic terrestrial biome which is primarily used for the rearing and grazing of livestock.,http://purl.obolibrary.org/obo/ENVO_01000247
 desertification,"a type of land degradation in which a relatively dry land region becomes increasingly arid, typically losing its bodies of water as well as vegetation and wildlife.",http://purl.obolibrary.org/obo/ENVO_02500001
-,,_:b23
 atmospheric water vapour,Atmospheric water vapour is water vapour that is part of an atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000268
+,,_:b22
 ,,http://www.geneontology.org/formats/oboInOwl#Subset
 rural settlement,"A settlement which has lower population density than a town, city, or other urban environment and is primarily used for agricultural or pastoral activity.",http://purl.obolibrary.org/obo/ENVO_01000763
 information carrier,,http://purl.obolibrary.org/obo/IAO_0000015
-recycling process,A process in which has inputs which bear waste roles and outputs which bear resource roles.,http://purl.obolibrary.org/obo/ENVO_01000741
 handedness,,http://purl.obolibrary.org/obo/PATO_0002201
+good ambient water quality,An ambient water quality value which is specified when the water sampled from water bodies in a specified area poses little or no risk to normal ecosystem functioning or human health.,http://purl.unep.org/sdg/SDGIO_00010046
 coastal flooding,"Coastal flooding is a process in which normally dry, low-lying land near a coast is flooded by sea water.",http://purl.obolibrary.org/obo/ENVO_01000707
 quality of a liquid,"A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape.",http://purl.obolibrary.org/obo/PATO_0001548
 fragile state,"A state which has an elevated risk towards a loss of centralized government control and protection, or a lowered resilience to perturbation, or an inability to maintain basic services, or a lack of social equality.",http://purl.unep.org/sdg/SDGIO_00010020
@@ -278,12 +294,13 @@ sparsely populated settlement,A settlement with a low density of buildings and i
 ecological community,"A collection of organisms of at least two different species, living in a particular area.",http://purl.obolibrary.org/obo/PCO_0000002
 geological subsidence,A subsidence process is a geomorphologic process in which a surface shifts downward relative to a datum such as sea-level.,http://purl.obolibrary.org/obo/ENVO_01000694
 clustered data visualization,,http://purl.obolibrary.org/obo/OBI_0200190
-,,_:b24
 storm surge process,"A storm surge process is a coastal flooding process which is caused by low pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.",http://purl.obolibrary.org/obo/ENVO_01000716
-linear,,http://purl.obolibrary.org/obo/PATO_0001199
+,,_:b23
+domestic resource consumption,A resource consumption value which pertains to the environmental systems which overlap with a national economic system.,http://purl.unep.org/sdg/SDGIO_00010055
 realizable entity,"A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.",http://purl.obolibrary.org/obo/BFO_0000017
-land consumption process,A process in which natural ecosystems present over an expanse of land are removed and replaced with anthropogenic ecosystems.,http://purl.obolibrary.org/obo/ENVO_01000743
+linear,,http://purl.obolibrary.org/obo/PATO_0001199
 substance unit,,http://purl.obolibrary.org/obo/UO_0000006
+land consumption process,A process in which natural ecosystems present over an expanse of land are removed and replaced with anthropogenic ecosystems.,http://purl.obolibrary.org/obo/ENVO_01000743
 volcanic eruption,"A volcanic process is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure.",http://purl.obolibrary.org/obo/ENVO_01000634
 net permanent forest loss,A data item about some process of forest loss and which represents a negative change in forest area over a sufficiently long time period.,http://purl.unep.org/sdg/SDGIO_00010043
 role,"A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.",http://purl.obolibrary.org/obo/BFO_0000023
@@ -291,32 +308,41 @@ cellular organisms,,http://purl.obolibrary.org/obo/NCBITaxon_131567
 material processing,,http://purl.obolibrary.org/obo/OBI_0000094
 Craniata <chordata>,,http://purl.obolibrary.org/obo/NCBITaxon_89593
 employment status,,http://purl.unep.org/sdg/SDGIO_00010029
+inclusive,"A dependent continuant inhering in a bearer by virtue of that bearer having a range of entities, identified by a policy or regulatory specification, as parts or participants.",http://purl.unep.org/sdg/SDGIO_00010050
 Dipnotetrapodomorpha,,http://purl.obolibrary.org/obo/NCBITaxon_1338369
 old,An age which is relatively high.,http://purl.obolibrary.org/obo/PATO_0000308
 polluted lake,A lake which has concentrations of environmental contaminants high enough to harm the ecosystems associated with it.,http://purl.obolibrary.org/obo/ENVO_01000680
+inclusive wealth,"A wealth value which is the sum of human, manufactured, natural, and health capital assets.",http://purl.unep.org/sdg/SDGIO_00010052
 class prediction data transformation,,http://purl.obolibrary.org/obo/OBI_0000663
-,,_:b25
+,,_:b24
 rural area,"An area which is outside of a town, city, or urban area. Rural areas are primarily used for agriculture or pastoralism and may contain rural settlements.",http://purl.obolibrary.org/obo/ENVO_01000772
 process of educating,A planned process wherein a person imparts knowledge or skill to one or more people. It is part of an education process.,http://purl.unep.org/sdg/SDGIO_00010007
 metotsunami,A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.,http://purl.obolibrary.org/obo/ENVO_01000715
 anatomical structure,,http://purl.obolibrary.org/obo/CARO_0000003
+important site,"An environmental zone which contains, as determined by an officially mandated selection process, one or more ecosystems which include, as parts, ecological communities of global significance for conservation due to their vulnerability and irreplaceability.",http://purl.obolibrary.org/obo/ENVO_01000778
 Catarrhini,,http://purl.obolibrary.org/obo/NCBITaxon_9526
 geographic feature,,http://purl.obolibrary.org/obo/ENVO_00000000
 employed,A person or population that participates in employment processes during a specified time interval.,http://purl.unep.org/sdg/SDGIO_00010030
+natural asset,An asset which is the result of or itself an environmental process that has not been substantially altered by human activity.,http://purl.unep.org/sdg/SDGIO_00010054
 class discovery data transformation,,http://purl.obolibrary.org/obo/OBI_0200175
-,,_:b26
+public infrastructure,"The system of public works in a country, state or region, including roads, utility lines and public buildings.",http://purl.obolibrary.org/obo/ENVO_01000779
 water,An environmental material primarily composed of dihydrogen oxide in its liquid form.,http://purl.obolibrary.org/obo/ENVO_00002006
+,,_:b25
 plan specification,,http://purl.obolibrary.org/obo/IAO_0000104
 medicine role,"A role that inheres in a molecular entity and is realized in the process of preventing, treating, diagnosing, or studying disease or disorder.",http://purl.unep.org/sdg/SDGIO_00010013
+,,_:b26
 volume unit,,http://purl.obolibrary.org/obo/UO_0000095
 principal components analysis dimensionality reduction,,http://purl.obolibrary.org/obo/OBI_0200051
-mononuclear parent hydride,,http://purl.obolibrary.org/obo/CHEBI_37176
+resource consumption,"A data item which estimates the metric tonnage of resource materials imported into or extracted from an environmental system and used as input for economic processes in that system, minus the tonnage of materials exported from that system.",http://purl.unep.org/sdg/SDGIO_00010059
 environmental zone,"An environmental zone is an environmental feature whose extent is determined by the presence or influence of one or more material entities or processes. An environmental zone may, itself, assume the role of an environmental feature.",http://purl.obolibrary.org/obo/ENVO_01000408
+mononuclear parent hydride,,http://purl.obolibrary.org/obo/CHEBI_37176
 Homo sapiens,,http://purl.obolibrary.org/obo/NCBITaxon_9606
 planning,,http://purl.obolibrary.org/obo/OBI_0000339
 river,"Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system.",http://purl.obolibrary.org/obo/ENVO_00000022
 system,A material entity consisting of multiple components that are causally integrated.,http://purl.obolibrary.org/obo/RO_0002577
+,,_:b27
 object aggregate,,http://purl.obolibrary.org/obo/BFO_0000027
+illegal informal settlement,"A populated place where groups of housing units have been constructed on land that the occupants have no legal claim to, or occupy illegally, or where dwellings are not in compliance with current planning and building regulations.",http://purl.obolibrary.org/obo/ENVO_01000784
 morphology,,http://purl.obolibrary.org/obo/PATO_0000051
 exposure to coastal flood,An exposure process in which the processes executed by an entity are causally connected to those executed by a coastal flood.,http://purl.unep.org/sdg/SDGIO_00000016
 root,,http://purl.obolibrary.org/obo/NCBITaxon_1
@@ -328,79 +354,89 @@ village biome,"A village biome is an anthropogenic terrestrial biome which conta
 quality of a single physical entity,,http://purl.obolibrary.org/obo/PATO_0001237
 protected area,"An area of land and/or a body of water especially dedicated to the protection and maintenance of biological diversity, and of natural and associated cultural resources, and managed through legal or other effective means.",http://purl.obolibrary.org/obo/ENVO_00000358
 environmental system process,,http://purl.obolibrary.org/obo/ENVO_02500000
+,,_:b28
 Mammalia,,http://purl.obolibrary.org/obo/NCBITaxon_40674
 stream,Linear body of water flowing on the Earth's surface.,http://purl.obolibrary.org/obo/ENVO_00000023
-,,_:b27
 occurrent,"An entity that has temporal parts and that happens, unfolds or develops through time.",http://purl.obolibrary.org/obo/BFO_0000003
 vulnerability towards drowning,A vulnerability borne by an entity which may be killed by drowning.,http://purl.unep.org/sdg/SDGIO_00000027
 class discovery objective,,http://purl.obolibrary.org/obo/OBI_0200178
-temperature unit,,http://purl.obolibrary.org/obo/UO_0000005
 material anatomical entity,,http://purl.obolibrary.org/obo/CARO_0000006
+temperature unit,,http://purl.obolibrary.org/obo/UO_0000005
 earthquake,"An earthquake is a process whereby part of the surface of a planet shakes due to the passage of seismic waves through rocks. Seismic waves are produced when some form of energy stored in a planet's crust is suddenly released. Elastic strain, gravity, chemical reactions, or even the motion of massive bodies can produce earthquakes.",http://purl.obolibrary.org/obo/ENVO_01000677
 quality,,http://purl.obolibrary.org/obo/BFO_0000019
 employee role,A role that inheres in a person and is realized in an employment process by performing actions for remuneration.,http://purl.unep.org/sdg/SDGIO_00010002
 access to basic services,"A disposition of a person or population who bears the ability, right, and permission to utilize available basic services in the community in which they reside.",http://purl.unep.org/sdg/SDGIO_00010042
+,,_:b29
 inorganic hydroxy compound,,http://purl.obolibrary.org/obo/CHEBI_52625
 Homo,,http://purl.obolibrary.org/obo/NCBITaxon_9605
 planned process,,http://purl.obolibrary.org/obo/OBI_0000011
 access,"A disposition that inheres in a person or population who bears the ability, right, and permission to approach and use an accessible resource.",http://purl.unep.org/sdg/SDGIO_00000007
 decision tree induction objective,,http://purl.obolibrary.org/obo/OBI_0000704
 data transformation objective,,http://purl.obolibrary.org/obo/OBI_0200166
+material trade balance,A data item that represents the resource material trade surplus or deficit in of a nation's economy and is calculated in physical units as total amount of resource materials import minus exports.,http://purl.unep.org/sdg/SDGIO_00010061
 dimensionality reduction,,http://purl.obolibrary.org/obo/OBI_0200050
 water-borne disease,A disease which is transmitted via a medium composed of water.,http://purl.unep.org/sdg/SDGIO_00010019
 dihydrogen,An elemental molecule consisting of two hydrogens joined by a single bond.,http://purl.obolibrary.org/obo/CHEBI_18276
-Metazoa,,http://purl.obolibrary.org/obo/NCBITaxon_33208
 collection of organisms of the same species,"A material entity that has as parts two or more organisms, viruses, or viroids of the same species and no members of any other species.",http://purl.obolibrary.org/obo/PCO_0000018
+Metazoa,,http://purl.obolibrary.org/obo/NCBITaxon_33208
 quality of a substance,A quality inhering in a bearer by virtue of its constitution.,http://purl.obolibrary.org/obo/PATO_0002198
 park,"A bounded area of land, or water, usually in its natural or semi-natural (landscaped) state and set aside for some purpose, usually to do with recreation or conservation.",http://purl.obolibrary.org/obo/ENVO_00000562
 illegal settlement,A settlement on land that the inhabitants have no legal claim to or occupy illegally.,http://purl.obolibrary.org/obo/ENVO_01000767
-,,_:b28
 risk,A disposition of a bearer to realise one or more of its vulnerabilities when participating in a process which exposes the bearer to one or more corresponding hazards.,http://purl.unep.org/sdg/SDGIO_00000020
 information content entity,,http://purl.obolibrary.org/obo/IAO_0000030
+,,_:b30
 basic service,"A service which is needed by humans to maintain their health and well-being, or enable economic, social, and cultural development.",http://purl.unep.org/sdg/SDGIO_00010025
+,,_:b31
+material footprint,"""A data item which estimates the metric tonnage of resource materials required to serve the final demand of a nation and is computed as raw material equivalent of imports (RMEIM) plus domestic extraction (DE) minus raw material equivalents of exports (RMEEX).""",http://purl.unep.org/sdg/SDGIO_00010057
 risk of drowning,The risk that a bearer realises its vulnerability towards drowning when participating in a process which exposes the bearer to a drowning hazard.,http://purl.unep.org/sdg/SDGIO_00000023
-employment,A planned process wherein an employee performs actions that are specified by an employer for remuneration.,http://purl.unep.org/sdg/SDGIO_00010004
 protocol,,http://purl.obolibrary.org/obo/OBI_0000272
+employment,A planned process wherein an employee performs actions that are specified by an employer for remuneration.,http://purl.unep.org/sdg/SDGIO_00010004
 process profile,,http://purl.obolibrary.org/obo/BFO_0000144
 formal settlement,A settlement which has been established and is managed through officially sanctioned processes and is recognised as legal by a competent authority.,http://purl.obolibrary.org/obo/ENVO_01000764
 edibility,A physical quality inhering in a bearer by virtue of the bearer's disposition to being fit to be eaten.,http://purl.obolibrary.org/obo/PATO_0002138
 environmental contaminant,Any minor or unwanted substance introduced into the environment that can have undesired effects.,http://purl.obolibrary.org/obo/CHEBI_78298
 GenePattern software,,http://purl.obolibrary.org/obo/OBI_0000713
+student,A person that bears an educatee role.,http://purl.unep.org/sdg/SDGIO_00010067
 water,An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms.,http://purl.obolibrary.org/obo/CHEBI_15377
 sustainable development indicator,A state of one or more parts of a socio-economic-environmental system which represents the state of the entire system.,http://purl.unep.org/sdg/SDGIO_00000002
+ambient water quality,A value specification about the amount of total dissolved solids (TDS); percentage dissolved oxygen (% DO); dissolved inorganic nitrogen (DIN); dissolved inorganic phosphorus (DIP); and abundance of Escherichia coli (E. coli) in a volume of water sampled from water bodies in an area.,http://purl.unep.org/sdg/SDGIO_00010045
 support vector machine,,http://purl.obolibrary.org/obo/OBI_0000700
 slum,"A slum is a heavily populated urban informal settlement with substandard housing in which households lack any one of the following: access to improved water, access to improved sanitation, sufficient-living area, durability of housing, or security of tenure.",http://purl.obolibrary.org/obo/ENVO_01000653
+,,_:b32
 access system,"An environmental system which provides access to some resource. That is, the system has the disposition to physically provide and allow use of a given resource and allows the user of that resource to exercise their right and permission to access the resource.",http://purl.unep.org/sdg/SDGIO_00000005
-,,_:b29
-educatee role,A role that inheres in a human and is realized in the process of acquiring knowledge and skill.,http://purl.unep.org/sdg/SDGIO_00010011
 fresh water,,http://purl.obolibrary.org/obo/ENVO_00002011
+educatee role,A role that inheres in a human and is realized in the process of acquiring knowledge and skill.,http://purl.unep.org/sdg/SDGIO_00010011
 chemical role,A role played by the molecular entity or part thereof within a chemical context.,http://purl.obolibrary.org/obo/CHEBI_51086
 statistical model validation,,http://purl.obolibrary.org/obo/OBI_0000792
 categorical label,,http://purl.obolibrary.org/obo/OBI_0000963
-rural,Any entity associated with a rural settlement or area.,http://purl.unep.org/sdg/SDGIO_00010031
 climate change,"The long-term fluctuations in temperature, precipitation, wind, and all other aspects of the Earth's climate. External processes, such as solar-irradiance variations, variations of the Earth's orbital parameters (eccentricity, precession, and inclination), lithosphere motions, and volcanic activity, are factors in climatic variation. Internal variations of the climate system, e.g., changes in the abundance of greenhouse gases, also may produce fluctuations of sufficient magnitude and variability to explain observed climate change through the feedback processes interrelating the components of the climate system.",http://purl.obolibrary.org/obo/ENVO_01000629
+rural,Any entity associated with a rural settlement or area.,http://purl.unep.org/sdg/SDGIO_00010031
 reforestation,The planting of trees in areas in where forests have previously been cleared.,http://purl.obolibrary.org/obo/ENVO_02500013
 tsunami,"A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.",http://purl.obolibrary.org/obo/ENVO_01000689
+,,_:b33
+,,_:b34
+contaminated water,,http://purl.obolibrary.org/obo/ENVO_00002186
 medicine,"A material entity that is used in the process of preventing, treating, diagnosing, or studying disease or disorder.",http://purl.unep.org/sdg/SDGIO_00010014
 histogram,,http://purl.obolibrary.org/obo/IAO_0000179
-contaminated water,,http://purl.obolibrary.org/obo/ENVO_00002186
+,,_:b35
 storm surge,"A storm surge is a coastal flood which is caused by low-pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.",http://purl.obolibrary.org/obo/ENVO_01000714
 rural population,A population of humans that lives in a rural settlement or rural area.,http://purl.unep.org/sdg/SDGIO_00010033
-behavioral quality,,http://purl.obolibrary.org/obo/PATO_0000186
 affordable,A quality of an entity by virtue of it having a cost within the financial means of a person who has a median income.,http://purl.unep.org/sdg/SDGIO_00010041
+behavioral quality,,http://purl.obolibrary.org/obo/PATO_0000186
 exposure,A process in which the processes executed by one entity are causally connected to those executed by another.,http://purl.unep.org/sdg/SDGIO_00000014
 anthropogenic terrestrial biome,An anthropogenic terrestrial biome is a terrestrial biome which has community structures determined by human activity.,http://purl.obolibrary.org/obo/ENVO_01000219
 obsolescence reason specification,,http://purl.obolibrary.org/obo/IAO_0000225
-algorithm,,http://purl.obolibrary.org/obo/IAO_0000064
 Amniota,,http://purl.obolibrary.org/obo/NCBITaxon_32524
+algorithm,,http://purl.obolibrary.org/obo/IAO_0000064
 sea,A large expanse of saline water usually connected with an ocean.,http://purl.obolibrary.org/obo/ENVO_00000016
 cross validation objective,,http://purl.obolibrary.org/obo/OBI_0200188
 data set,,http://purl.obolibrary.org/obo/IAO_0000100
 Eumetazoa,,http://purl.obolibrary.org/obo/NCBITaxon_6072
-,,_:b30
 ash fall process,"An ash fall process is a process in which volcanic ash formed during an explosive volcanic eruption, phreatomagmatic eruption, or during material transport in pyroclastic density currents is pulled towards the planetary surface by gravity.",http://purl.obolibrary.org/obo/ENVO_01000702
 sustainable development target,A threshold value of a sustainable development indicator or a set of threshold values of several such indicators towards or beyond which corresponding indicator values from a socio-economic-environmental system should tend in order to meet a sustainable development goal.,http://purl.unep.org/sdg/SDGIO_00000001
-,,_:b31
+direct material input,A data item that estimates the metric tonnage of all resource materials which are input for the production and consumption activities of a nation's economy and is calculated by adding used domestic extraction with imported materials.,http://purl.unep.org/sdg/SDGIO_00010060
+material trade balance per capita,A data item which represents the ratio of material trade balance and total population.,http://purl.unep.org/sdg/SDGIO_00010066
+,,_:b36
 role,A role is particular behaviour which a material entity may exhibit.,http://purl.obolibrary.org/obo/CHEBI_50906
 land degradation,A process which diminishes the functioning of an ecosystem located on land.,http://purl.obolibrary.org/obo/ENVO_02500005
 study design execution,,http://purl.obolibrary.org/obo/OBI_0000471
@@ -408,8 +444,7 @@ environmental material,A portion of environmental material is a fiat object whic
 quality of a solid,A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable.,http://purl.obolibrary.org/obo/PATO_0001546
 molecule,Any polyatomic entity that is an electrically neutral entity consisting of more than one atom.,http://purl.obolibrary.org/obo/CHEBI_25367
 disposition,,http://purl.obolibrary.org/obo/BFO_0000016
-,,_:b32
 lahar,"A lahar is a type of mudflow or debris flow composed of a slurry of pyroclastic material, rocky debris, and water. The material flows down from a volcano, typically along a river valley.",http://purl.obolibrary.org/obo/ENVO_01000699
+dense settlement,A settlement with a high density of buildings and inhabitants.,http://purl.obolibrary.org/obo/ENVO_01000658
 avalanche,An avalanche is a rapid flow of snow down a sloping surface.,http://purl.obolibrary.org/obo/ENVO_01000691
 heatmap,,http://purl.obolibrary.org/obo/IAO_0000180
-dense settlement,A settlement with a high density of buildings and inhabitants.,http://purl.obolibrary.org/obo/ENVO_01000658
