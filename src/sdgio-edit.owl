@@ -113,11 +113,13 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010065>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010066>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010067>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010068>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010070>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010032>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010058>))
+Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010069>))
 ############################
 #   Annotation Properties
 ############################
@@ -142,9 +144,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "def
 
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010032> "UNEP preferred label"@en)
 
-# Annotation Property: <http://purl.unep.org/sdg/SDGIO_00010058> (alternate definition)
+# Annotation Property: <http://purl.unep.org/sdg/SDGIO_00010058> (UNEP definition)
 
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010058> "alternate definition"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010058> "UNEP definition"@en)
+
+# Annotation Property: <http://purl.unep.org/sdg/SDGIO_00010069> (UNEP ignore)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010069> "UNEP ignore")
 
 
 
@@ -406,7 +412,10 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010005> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00010006> (essential service)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010006> "A service which is necessary to sustain human life."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010006> "There may a desire to generalize this class to \"any service which is (minimally) necessary for the completion of some objective."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010006> "Perhaps generalize this class: \"any service which is (minimally) necessary for the completion of some objective.\""@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010006> "Still undecided how 'essential service' relates to 'basic service' and if their usage in the indicators is synonymous. Most likely both classes will be given equivalent axioms so subclasses are inferred. That needs to be worked out.
+https://github.com/SDG-InterfaceOntology/sdgio/issues/63
+https://github.com/SDG-InterfaceOntology/sdgio/issues/64")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010006> "essential service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010006> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
@@ -474,7 +483,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010014> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00010015> (health care service)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010015> "A service that promotes, secures, and maintains health care rights and the processes that realize them."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010015> "DRAFT"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010015> "health care service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010015> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
@@ -483,7 +491,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010015> <http://purl.obolibrary.org
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010016> "A service that promotes, secures, and maintains socio-economic rights."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010016> "Needs definiton source.
 Should the clause \"and the processes that realize them\" be added to definition?"@en)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010016> "draft"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010016> "social protection service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010016> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
@@ -550,6 +557,9 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010024> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00010025> (basic service)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010025> "A service which is needed by humans to maintain their health and well-being, or enable economic, social, and cultural development."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010025> "Still undecided how 'essential service' relates to 'basic service' and if their usage in the indicators is synonymous. Most likely both classes will be given equivalent axioms so subclasses are inferred. That needs to be worked out.
+https://github.com/SDG-InterfaceOntology/sdgio/issues/63
+https://github.com/SDG-InterfaceOntology/sdgio/issues/64")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010025> "basic service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010025> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
@@ -557,7 +567,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010025> <http://purl.obolibrary.org
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://stats.oecd.org/glossary/detail.asp?ID=2791") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010026> "A person or population that is not employed, but eligible for and currently seeking employment."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010026> "Eventually a defined class, axiomitized using classes for employment status.
-See https://github.com/SDG-InterfaceOntology/sdgio/issues/37"@en)
+https://github.com/SDG-InterfaceOntology/sdgio/issues/37"@en)
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010026> "The criteria varies for deciding if a person who is not employed also qualifies as unemployed."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010026> "unemployed"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010026> <http://purl.obolibrary.org/obo/BFO_0000040>)
@@ -709,7 +719,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010048> <http://purl.unep.org/sdg/S
 # Class: <http://purl.unep.org/sdg/SDGIO_00010049> (asset role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010049> "A resource role inhering in an independent continuant which is realized by conferring an economic benefit to the person or organization which controls it in some economic system."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010049> "a resource role which is realized by conferring an economic benefit to the person or organization which controls its bearer in some economic system")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010049> "asset role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010049> <http://purl.unep.org/sdg/SDGIO_00010017>)
 
@@ -743,7 +752,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010053> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010054> (natural asset)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010054> "An asset which is the result of or itself an environmental process that has not been substantially altered by human activity."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010054> "An asset which is the output of an environmental process and has not been substantially altered by human activity."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010054> "raw material")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010054> "natural asset"@en)
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010054> ObjectIntersectionOf(<http://purl.unep.org/sdg/SDGIO_00010048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010068>)))
@@ -839,8 +848,17 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010067> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010068> (natural asset role)
 
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010068> "natural asset role"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010068> "An asset role which inheres in some independent continuant that is the output of an environmental process and has not been substantially altered by human activity.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010068> "natural asset role")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010068> <http://purl.unep.org/sdg/SDGIO_00010049>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00010070> (processual asset)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010070> "A process which produces assets, increases the value of existing assets, leads to the realisation of non-material assets, or reduces the costs associated with some economic process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010070> "https://github.com/SDG-InterfaceOntology/sdgio/issues/91")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010070> "processual asset")
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.unep.org/sdg/SDGIO_00010048>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010070> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
