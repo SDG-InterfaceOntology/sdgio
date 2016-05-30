@@ -119,6 +119,11 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010072>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010073>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010074>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010075>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010076>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010077>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010078>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010079>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010080>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -213,7 +218,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000006> <http://purl.unep.org/sdg/S
 # Class: <http://purl.unep.org/sdg/SDGIO_00000007> (access)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000007> "A disposition that inheres in a person or population who bears the ability, right, and permission to approach and use an accessible resource."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000007> "It is not clear if 'access' is a subclass of 'disposition' or a sibling to 'disposition'. How to best express the reciprocal dependence of an entity’s ability to access and a resource’s accessibility, along with an access system, including the right and permission, is still under development. Refer to https://github.com/SDG-InterfaceOntology/sdgio/issues/57"@en)
+AnnotationAssertion(Annotation(rdfs:comment "https://github.com/SDG-InterfaceOntology/sdgio/issues/57") <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000007> "It is not clear if 'access' is a subclass of 'disposition' or a sibling to 'disposition'. How to best express the reciprocal dependence of an entity’s ability to access and a resource’s accessibility, along with an access system, including the right and permission, is still under development."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000007> "access"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000007> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
@@ -240,11 +245,12 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000010> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00000011> (use of a resource)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000011> "A process in which a resource is consumed or confers some benefit to the user."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000011> "Must be aligned with an upper-level ontology. Unclear whether the resource must confer advantage to a user - the user may not be consuming the entity as a resource (i.e. triggering its resource disposition)."@en)
+AnnotationAssertion(Annotation(rdfs:comment "Since we define 'resource' wrt benefit, then \"use\" of resource implies the realization the resource role. Some process in which a material entity bearing a resource role participates, but does not realize that role, say, child removes twigs from bird nest, would not be a ‘use of resource process’, by definition. The twig’s resource role is realized in the bird’s building process, not child’s taking process. -MJ") <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000011> "Must be aligned with an upper-level ontology. Unclear whether the resource must confer advantage to a user - the user may not be consuming the entity as a resource (i.e. triggering its resource disposition)."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000011> "use of a resource"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0100026>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.unep.org/sdg/SDGIO_00010017>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00000013>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002218> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/PCO_0000001>)))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000012> (approaching a resource)
 
@@ -324,7 +330,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000020> <http://purl.obolibrary.org
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000021> "A disposition of an entity to cause harm or damage to another entity.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000021> "Many things can have some degree of a 'hazard disposition' (e.g. the floor, a glass, etc). Thus, usage of this class should probably be linked to an estimated probability or a fixed list of hazards.")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000021> "Draft.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000021> "hazard disposition"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000021> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
@@ -344,8 +349,8 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000023> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000024> (vulnerability)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000024> "A disposition of an entity to undergo change, usually negative or undesirable change, in response to some exposure.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000024> "The links between vulnerability, exposure, risk, and hazard are being developed. This definition will be updated accordingly. The definition currently used could be used for 'susceptible' too. Vulnerable has negative connotations.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000024> "A disposition of an entity to undergo change, usually negative or undesirable change, in response to some exposure."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000024> "The links between vulnerability, exposure, risk, and hazard are being developed. This definition will be updated accordingly. The definition currently used could be used for 'susceptible' too. Vulnerable has negative connotations."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000024> "vulnerability"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
@@ -518,7 +523,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010018> ObjectSomeValuesFrom(<http:
 # Class: <http://purl.unep.org/sdg/SDGIO_00010019> (water-borne disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010019> "A disease which is transmitted via a medium composed of water."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010019> "Needs to be placed under OGMS 'disease' once it is imported and probably made an equivalent class. It should be aligned with Disease Ontology. Refer to https://github.com/SDG-InterfaceOntology/sdgio/issues/33"@en)
+AnnotationAssertion(Annotation(rdfs:comment "https://github.com/SDG-InterfaceOntology/sdgio/issues/33") <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010019> "Should be a sublcass of OGMS 'disease' and probably made an equivalent class, aligned with Disease Ontology."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010019> "water-borne disease"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010019> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
@@ -564,9 +569,8 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010024> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00010025> (basic service)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010025> "A service which is needed by humans to maintain their health and well-being, or enable economic, social, and cultural development."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010025> "Still undecided how 'essential service' relates to 'basic service' and if their usage in the indicators is synonymous. Most likely both classes will be given equivalent axioms so subclasses are inferred. That needs to be worked out.
-https://github.com/SDG-InterfaceOntology/sdgio/issues/63
-https://github.com/SDG-InterfaceOntology/sdgio/issues/64")
+AnnotationAssertion(Annotation(rdfs:comment "https://github.com/SDG-InterfaceOntology/sdgio/issues/63
+https://github.com/SDG-InterfaceOntology/sdgio/issues/64") <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010025> "Still undecided how 'essential service' relates to 'basic service' and if their usage in the indicators is synonymous. Most likely both classes will be given equivalent axioms so subclasses are inferred. That needs to be worked out."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010025> "basic service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010025> <http://purl.unep.org/sdg/SDGIO_00010071>)
 
@@ -623,20 +627,23 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010033> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010034> (formal employment process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010034> "TO DO : define wrt to established policies and procedures, protections, curricula, etc.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010034> "formal employment")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010034> "formal employment process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010034> <http://purl.unep.org/sdg/SDGIO_00010004>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010035> (informal employment process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010035> "TO DO : define wrt to established policies and procedures, protections, curricula, etc.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010035> "informal employment")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010035> "informal employment process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010035> <http://purl.unep.org/sdg/SDGIO_00010004>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010036> (safe)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010036> "A low risk of entities in some environment to realize their hazard disposition towards humans."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010036> "Defined class for organizational purposes."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010036> "Need to work out some example subclasses to determine if definition holds."@en)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010036> "What determines some process or material is “safe” is dependent on the particular interplay between the processes, their participants, and the potential exposure to hazards, and to some extent, the policies being implemented to confirm or ensure something is safe. It is related to estimation of risk and thresholds."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010036> "Defined class for organizational purposes. Need to work out examples of subclasses to see if the definition holds."@en)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010036> "What determines some process or material is safe is dependent on the particular interplay between the processes, their participants, and the potential exposure to hazards, and to some extent, the policies being implemented to confirm or ensure something is safe. It is related to estimation of risk and thresholds."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010036> "safe"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010036> <http://purl.unep.org/sdg/SDGIO_00000020>)
 
@@ -675,9 +682,8 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010041> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00010042> (access to basic services)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010042> "A disposition of a person or population who bears the ability, right, and permission to utilize available basic services in the community in which they reside."@en)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010042> "Draft"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010042> "access to basic services"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010042> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010042> <http://purl.unep.org/sdg/SDGIO_00000007>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010043> (net permanent forest loss)
 
@@ -869,23 +875,28 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010070> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010071> (service)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010071> "A process which produces, mantains, or manipulates one or more resources.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010071> "TO DO: define wrt 'resource' and conferring some benefit.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010071> "service")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010071> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010072> (ecosystem service)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010072> "environmental system service")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010072> "environmental service")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010072> "ecosystem service")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010072> <http://purl.unep.org/sdg/SDGIO_00010071>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010073> (informal education process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010073> "TO DO : define wrt to established policies and procedures, protections, curricula, etc.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010073> "informal education")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010073> "informal education process")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010073> <http://purl.unep.org/sdg/SDGIO_00010001>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010074> (formal education process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010074> "TO DO : define wrt to established policies and procedures, protections, curricula, etc.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010074> "formal education")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010074> "formal education process")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010074> <http://purl.unep.org/sdg/SDGIO_00010001>)
 
@@ -897,6 +908,31 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010075> "educator")
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010075> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010010>)))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010075> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00010076> (water and sanitation service)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010076> "water and sanitation service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010076> <http://purl.unep.org/sdg/SDGIO_00010071>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00010077> (waste management service)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010077> "waste management service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010077> <http://purl.unep.org/sdg/SDGIO_00010071>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00010078> (transportation service)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010078> "transportation service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010078> <http://purl.unep.org/sdg/SDGIO_00010071>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00010079> (electrical service)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010079> "electrical service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010079> <http://purl.unep.org/sdg/SDGIO_00010071>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00010080> (emergency service)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010080> "emergency service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010080> <http://purl.unep.org/sdg/SDGIO_00010071>)
 
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
