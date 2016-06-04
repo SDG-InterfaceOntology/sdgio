@@ -33,6 +33,9 @@ sdgio.obo: sdgio.owl $(ROBOT)
 #sdgio.owl: sdgio-edit.owl $(ROBOT)
 #	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
+sdgio-normalized.json: sdgio.owl
+	rdfcat -out JSONLD $< > $@.tmp && mv $@.tmp $@
+
 # The URL below will pull the latest, successful ROBOT build from the Berkeley servers.
 # ROBOT itself is in the "robot.jar" file, so it will execute across platforms with Java. There is a
 # launch script "robot" which is called later in this file. If you're running Cygwin,
