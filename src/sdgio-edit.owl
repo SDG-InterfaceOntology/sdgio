@@ -905,6 +905,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010074> <http://purl.unep.org/sdg/S
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010075> "A person that imparts knowledge and skill to one or more students during an education process.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010075> "instructor")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010075> "teacher")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.unep.org/sdg/SDGIO_00010075> "schoolteacher")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010075> "educator")
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010075> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010010>)))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010075> <http://purl.obolibrary.org/obo/BFO_0000040>)
