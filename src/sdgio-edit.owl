@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.unep.org/sdg/sdgio.owl#>)
+Prefix(:=<http://purl.unep.org/sdg/sdgio.owl/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -875,7 +875,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010070> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010071> (service)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010071> "A process which produces, mantains, or manipulates one or more resources.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010071> "A process which produces, maintains, or manipulates one or more resources.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010071> "TO DO: define wrt 'resource' and conferring some benefit.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010071> "service")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010071> <http://purl.obolibrary.org/obo/BFO_0000015>)
