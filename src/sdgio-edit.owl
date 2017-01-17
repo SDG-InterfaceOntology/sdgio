@@ -44,10 +44,16 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000021>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000022>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000023>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000024>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000025>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000026>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000027>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000028>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000029>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000030>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000031>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000032>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000033>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000034>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010001>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010002>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010003>))
@@ -169,6 +175,18 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010069> "UNEP i
 #   Classes
 ############################
 
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000004> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000020> "true"^^xsd:boolean)
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00000000> (sustainable development goal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000000> "An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030 plan specification.")
@@ -194,6 +212,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000003> "DRAFT"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000003> "sustainable development goal indicator value"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000003> <http://purl.obolibrary.org/obo/IAO_0000027>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00000002>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000004> (sustainable development process)
 
@@ -354,6 +373,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.un
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000024> "vulnerability"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
+# Class: <http://purl.unep.org/sdg/SDGIO_00000025> (affordable housing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Affordable_housing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000025> "Affordable housing is housing which has been deemed affordable to those with a median household income as rated by a country, State (province), region or municipality using a recognized Housing Affordability Index.")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000025> "In rating affordability, the World Bank and the United Nations recommend the Median Multiple indicator. This indicator rates affordability of housing by dividing the median house price by gross [before tax] annual median household income.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000025> "affordable housing"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000025> <http://purl.obolibrary.org/obo/ENVO_01000744>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.unep.org/sdg/SDGIO_00010041>))
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00000026> (vulnerability towards flooding)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000026> "A vulnerability borne by an entity which may be impacted by flooding.")
@@ -372,6 +399,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000028> "resilience strengthening process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000028> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
+# Class: <http://purl.unep.org/sdg/SDGIO_00000029> (sanitation service)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.eionet.europa.eu/gemet/concept/7443") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000029> "A service in which the service provider participates in processes which preserve or improve the service consumer's health status.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.eionet.europa.eu/gemet/concept/7443") <http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000029> "The use of practical measures for the preservation of public health.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000029> "sanitation service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000029> <http://purl.unep.org/sdg/SDGIO_00010071>)
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00000030> (tourism)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000030> "A process in which a visitor travels to and stays in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes. All the activities performed by the visitor in preparation for and during their trip are parts of this process.")
@@ -380,6 +414,29 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.un
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000030> "Adapted from the definition used by the World Tourism Organization.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000030> "tourism"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000030> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000031> (provisioning ecosystem service)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000031> "An ecosystem service in which the material or energy outputs of one or more ecosystem processes benefit a service consumer.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000031> "provisioning ecosystem service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000031> <http://purl.unep.org/sdg/SDGIO_00010072>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000032> (regulating ecosystem service)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000032> "An ecosystem service in which one or more ecosystem processes benefit a service consumer by buffering the impacts of environmental perturbations.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000032> "regulating ecosystem service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000032> <http://purl.unep.org/sdg/SDGIO_00010072>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000033> (supporting ecosystem service)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000033> "habitat ecosystem service")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000033> "supporting ecosystem service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000033> <http://purl.unep.org/sdg/SDGIO_00010072>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000034> (cultural ecosystem service)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000034> "cultural ecosystem service"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000034> <http://purl.unep.org/sdg/SDGIO_00010072>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010001> (education process)
 
@@ -735,25 +792,27 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010049> "asset role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010049> <http://purl.unep.org/sdg/SDGIO_00010017>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00010050> (inclusive)
+# Class: <http://purl.unep.org/sdg/SDGIO_00010050> (inclusivity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010050> "A dependent continuant inhering in a bearer by virtue of that bearer having a range of entities, identified by a policy or regulatory specification, as parts or participants."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010050> "A dependent continuant inhering in a bearer by virtue of that bearer having a specified range of entities, identified by a policy or regulatory specification, as parts or participants."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010050> "Defined class for organizational purposes. Should not be subclassed."@en)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010050> "inclusive"@en)
-EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010050> <http://purl.unep.org/sdg/SDGIO_00010052>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010050> <http://purl.obolibrary.org/obo/BFO_0000002>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010050> "inclusivity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010050> <http://purl.obolibrary.org/obo/BFO_0000020>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010051> (wealth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010051> "A data item which represents the total value of the assets under the control of a person, population or organisation."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010051> "wealth"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010051> <http://purl.obolibrary.org/obo/IAO_0000027>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00010048>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010052> (inclusive wealth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010052> "A wealth value which is the sum of human, manufactured, natural, and health capital assets."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010052> "the semantics of \"inclusive\" are yet to be finalised, the \"has quality\" object property may be changed.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010052> "inclusive wealth"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010052> <http://purl.unep.org/sdg/SDGIO_00010051>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.unep.org/sdg/SDGIO_00010050>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010053> (natural capital)
 
@@ -875,13 +934,16 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010070> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010071> (service)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010071> "A process which produces, maintains, or manipulates one or more resources.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010071> "TO DO: define wrt 'resource' and conferring some benefit.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010071> "A process in which one or more resources are provided to a service recipient by a service provider.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010071> "Note that this is close but not semantically equivalent to OBI's service, which must be a planned process.
+TO DO: define wrt 'resource' and conferring some benefit.
+https://github.com/SDG-InterfaceOntology/sdgio/issues/110")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010071> "service")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010071> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010072> (ecosystem service)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.teebweb.org/resources/glossary-of-terms/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010072> "A service in which an ecosystem, usually natural, provides benefit to the well-being of human service consumers.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010072> "environmental service")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010072> "ecosystem service")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010072> <http://purl.unep.org/sdg/SDGIO_00010071>)
@@ -917,11 +979,15 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010076> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010077> (waste management service)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "http://www.eionet.europa.eu/gemet/concept/9092") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010077> "The total supervision of waste production, handling, processing, storage, and transport from its point of generation to its final acceptable disposal.")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010077> "A service in which the service provider")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010077> "waste management service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010077> <http://purl.unep.org/sdg/SDGIO_00010071>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00002264>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010078> (transportation service)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010078> "A service in which the service provider conveys the service consumer from one location to another, usually with some form of vehicle.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010078> "transportation service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010078> <http://purl.unep.org/sdg/SDGIO_00010071>)
 
@@ -936,6 +1002,9 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010080> "emerge
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010080> <http://purl.unep.org/sdg/SDGIO_00010071>)
 
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000003> "true"^^xsd:boolean)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000031> "true"^^xsd:boolean)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000144> "true"^^xsd:boolean)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000114> "has curation status")
@@ -946,4 +1015,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000424> "exp
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000589> "OBO foundry unique label")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000600> "elucidation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001900> "temporal interpretation")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://usefulinc.com/ns/doap#Project> "true"^^xsd:boolean)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://usefulinc.com/ns/doap#SVNRepository> "true"^^xsd:boolean)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://usefulinc.com/ns/doap#Version> "true"^^xsd:boolean)
 )
