@@ -216,12 +216,14 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.obolibrary.org
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000001> "A threshold value of a sustainable development indicator or a set of threshold values of several such indicators towards or beyond which corresponding indicator values from a socio-economic-environmental system should tend in order to meet a sustainable development goal.")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000001> "Draft.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000001> "sustainable development target"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000002> (sustainable development indicator)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000002> "A state of one or more parts of a socio-economic-environmental system which represents the state of the entire system.")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000002> "Draft. the \"state\" must be clarified. Possibly a factor of the parts of the subsystem and their qualities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000002> "A material entity which is composed of one or more parts of an environmental system, including its natural and anthropogenic socioeconomic components, which is thought to represent the state of the entire system.")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000002> "Draft. the \"state\" must be clarified. Possibly a factor of the parts of the subsystem and their qualities. Note that this may become a subclass of system.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000002> "sustainable development indicator"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000002> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000003> (sustainable development goal indicator value)
 
@@ -492,8 +494,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010004> ObjectSomeValuesFrom(<http:
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010005> "A person that bears an employee role."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010005> "employee"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010005> "employed person"@en)
-EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010002>)))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010005> <http://purl.obolibrary.org/obo/BFO_0000040>)
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00010004>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010002>))))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010006> (essential service)
 
@@ -604,9 +605,9 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010019> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00010020> (fragile state)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010020> "A state which has an elevated risk towards a loss of centralized government control and protection, or a lowered resilience to perturbation, or an inability to maintain basic services, or a lack of social equality."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010020> "Needs to aligned with an upper level ontology, as a subclass of 'state', possibly as a defined class composed of 'state' and the appropriate risk disposition."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010020> "Right now a sublcass of ENVO's national geopolitical entity, but this may be revised when more specific semantics are revealed by domain experts in geopolitics."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010020> "fragile state"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010020> <http://purl.obolibrary.org/obo/BFO_0000004>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010020> <http://purl.obolibrary.org/obo/ENVO_00000009>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010021> (resilience)
 
@@ -664,7 +665,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.un
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010027> "ownership")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010027> "The act of ownership is a process wherein an owner exercises their rights associated with owning and needs to be distinguished from acts associated with right of tenure."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010027> "ownership process"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010027> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010027> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010028> (owner)
 
@@ -682,6 +683,8 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010029> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00010030> (employed)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010030> "A person or population that participates in employment processes during a specified time interval."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010030> "This may have to be a defined class that aggregates `employed person` and `population of employed people`.")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010030> "Individuals or groups in employment are often collectively referred to as \"the employed\". This term serves to capture that meaning.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010030> "employed"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010030> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
@@ -862,7 +865,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010055> <http://purl.unep.org/sdg/S
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.eionet.europa.eu/gemet/concept?cp=4244") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010056> "A process which results in manufacturing becoming the predominant economic activity within a nation or region."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010056> "Thresholds for predominance (just a bigger share than any other economic activity? greater than a third of all activity? one half?) would make this class more meaningful."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010056> "industrialisation"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010056> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010056> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010057> (material footprint)
 
@@ -933,7 +936,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010066> <http://purl.obolibrary.org
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010067> "A person that acquires knowledge and skill from some educator during an education process."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010067> "student"@en)
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010067> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010011>)))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010067> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010068> (natural asset role)
 
@@ -987,7 +989,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.unep.org/sdg/SDGIO_00010075> "schoolteacher")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010075> "educator")
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010075> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010010>)))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010075> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010076> (water and sanitation service)
 

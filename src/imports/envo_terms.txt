@@ -76,3 +76,9 @@ http://purl.obolibrary.org/obo/ENVO_00000560 # nuclear weapons test site
 http://purl.obolibrary.org/obo/ENVO_01000779 # public infrastructure
 http://purl.obolibrary.org/obo/ENVO_01000785 # material extraction process
 http://purl.obolibrary.org/obo/ENVO_01000784 # illegal informal settlement
+http://purl.obolibrary.org/obo/ENVO_00000124 # supranational geopolitical entity
+http://purl.obolibrary.org/obo/ENVO_00000009 # national geopolitical entity
+http://purl.obolibrary.org/obo/ENVO_00000008 # fourth-order administrative region
+http://purl.obolibrary.org/obo/ENVO_00000007 # third-order administrative region
+http://purl.obolibrary.org/obo/ENVO_00000006 # second-order administrative region
+http://purl.obolibrary.org/obo/ENVO_00000005 # first-order administrative region
