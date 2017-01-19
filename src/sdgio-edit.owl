@@ -472,14 +472,12 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010001> ObjectSomeValuesFrom(<http:
 AnnotationAssertion(Annotation(rdfs:comment "Adapted from http://purl.obolibrary.org/obo/ERO_0000787"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010002> "A role that inheres in a person and is realized by performing actions specified by an employer in return for remuneration."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010002> "employee role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010002> <http://purl.obolibrary.org/obo/BFO_0000023>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00010004>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010003> (employer role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010003> "A role that inheres in a person or organization in virtue of the fact the bearer specifies actions to be performed for remuneration by one or more persons that bear an employee role."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010003> "employer role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010003> <http://purl.obolibrary.org/obo/BFO_0000023>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00010004>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010004> (employment process)
 
@@ -487,14 +485,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010004> "employment"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010004> "employment process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010004> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002218> <http://purl.unep.org/sdg/SDGIO_00010005>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010005> (employed person)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010005> "A person that bears an employee role."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010005> "employee"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010005> "employed person"@en)
-EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00010004>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010002>))))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010005> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010002>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010006> (essential service)
 
