@@ -308,10 +308,11 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000013> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000014> (exposure)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000014> "A process in which the processes executed by one entity are causally connected to those executed by another.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000014> "The semantics of this class are being discussed and are very likely to change. Obsolescence is likely.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000014> "A process which begins when an entity participates in an already unfolding process and during which that entity realises one or more of its dispositions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000014> "The semantics of this class are being discussed and are very likely to change. Obsolescence is possible.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000014> "This class may be replaced by a class in EXO, pending a clarification on the scope of its meaning. Right now it is essentially the same as 'interaction'.
 https://github.com/SDG-InterfaceOntology/sdgio/issues/21")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000014> "Consider that when \"E died of exposure to P\", E died as an outcome of the processes which were initated by E's participation in P, in which E's dispositions to react to P (or its parts or participants) were realised.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000014> "exposure"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000014> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
