@@ -297,7 +297,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000012> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00000013> (resource)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000013> "A material or immaterial entity which may confer benefit to its user or consumer."@en)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000013> "In this case, the entity to which access is sought. For eample: food, clean water, housing, legal system, health care system, medicine, or the bearer of information."@en)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000013> "Access to resources beneficial to humans is a central theme in the SDG process. For eample access to the resources of food, clean water, housing, legal system, health care system, medicine, or the bearer of information."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000013> "resource"@en)
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010017>)))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000013> <http://purl.obolibrary.org/obo/BFO_0000004>)
