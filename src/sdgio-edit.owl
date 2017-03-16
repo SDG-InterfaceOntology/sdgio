@@ -725,6 +725,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010036> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010037> (right)
 
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010037> "Term not further defined. Further input is needed from the legal domain.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010037> "right"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010037> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
