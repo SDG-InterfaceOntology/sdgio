@@ -572,7 +572,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010014> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010015> (health care service)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010015> "A service that promotes, secures, and maintains health care rights and the processes that realize them."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010015> "A service which is designed to promote, secure, and maintain the health of an individual human or a population of humans."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010015> "health care service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010015> <http://purl.unep.org/sdg/SDGIO_00010071>)
 
