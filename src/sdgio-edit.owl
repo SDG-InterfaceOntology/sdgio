@@ -202,8 +202,8 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.oboli
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000000> (sustainable development goal)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000000> "An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030 plan specification.")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000000> "Draft.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000000> "An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030.")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000000> "Draft definition, but close to final.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000000> "sustainable development goal"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.obolibrary.org/obo/IAO_0000005>)
 
