@@ -200,10 +200,6 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.oboli
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000004> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
-
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000020> "true"^^xsd:boolean)
-
 # Class: <http://purl.unep.org/sdg/SDGIO_00000000> (sustainable development goal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000000> "An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030 plan specification.")
@@ -815,12 +811,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010049> "asset role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010049> <http://purl.unep.org/sdg/SDGIO_00010017>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00010050> (inclusivity)
+# Class: <http://purl.unep.org/sdg/SDGIO_00010050> (inclusiveness)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010050> "A dependent continuant inhering in a bearer by virtue of that bearer having a specified range of entities, identified by a policy or regulatory specification, as parts or participants."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010050> "Defined class for organizational purposes. Should not be subclassed."@en)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010050> "inclusivity"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010050> <http://purl.obolibrary.org/obo/BFO_0000020>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010050> "A dispostion which is realised when an entity provides services to, or has as its parts, a  range of entities identified by a policy or regulatory specification."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010050> "Draft and under review. Should not be subclassed."@en)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010050> "For example, an organization is marked by inclusiveness when the services it provides are, as a matter of policy or regulatory specification, open to a range of communities specified in a policy or legal document.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010050> "inclusiveness"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010050> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010051> (wealth)
 
@@ -1164,6 +1161,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/s
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000003> "true"^^xsd:boolean)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000020> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000031> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000144> "true"^^xsd:boolean)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
