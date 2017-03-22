@@ -192,10 +192,6 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010069> "UNEP i
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
-
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
-
 # Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000004> "true"^^xsd:boolean)
@@ -687,13 +683,16 @@ AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010030> "Indi
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010030> "employed"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010030> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00010031> (rural)
+# Class: <http://purl.unep.org/sdg/SDGIO_00010031> (rural entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010031> "Any entity associated with a rural settlement or area."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010031> "Defined class for organizational purposes. Should not be subclassed."@en)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010031> "rural"@en)
-EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010031> ObjectUnionOf(<http://purl.obolibrary.org/obo/ENVO_01000245> <http://purl.obolibrary.org/obo/ENVO_01000246> <http://purl.obolibrary.org/obo/ENVO_01000247> <http://purl.obolibrary.org/obo/ENVO_01000763> <http://purl.obolibrary.org/obo/ENVO_01000772> <http://purl.unep.org/sdg/SDGIO_00010033>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010031> <http://purl.obolibrary.org/obo/BFO_0000002>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010031> "Defined class for organizational purposes. Should not be subclassed. Should be converted into some form of quality."@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010031> "rural entity"@en)
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00010031> ObjectUnionOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/ENVO_01000772>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectUnionOf(<http://purl.obolibrary.org/obo/ENVO_01000245> <http://purl.obolibrary.org/obo/ENVO_01000246> <http://purl.obolibrary.org/obo/ENVO_01000247> <http://purl.obolibrary.org/obo/ENVO_01000763>))))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010031> <http://purl.obolibrary.org/obo/BFO_0000004>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectUnionOf(<http://purl.obolibrary.org/obo/ENVO_01000245> <http://purl.obolibrary.org/obo/ENVO_01000246> <http://purl.obolibrary.org/obo/ENVO_01000247> <http://purl.obolibrary.org/obo/ENVO_01000763>)))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/ENVO_01000772>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> ObjectComplementOf(<http://purl.obolibrary.org/obo/ENVO_01000248>)))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010033> (rural population)
 
@@ -1161,6 +1160,7 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000051> "revita
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/sdg/SDGIO_00000051>)
 
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000003> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000020> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000031> "true"^^xsd:boolean)

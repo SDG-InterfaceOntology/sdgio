@@ -4,6 +4,7 @@ http://purl.obolibrary.org/obo/RO_0002233 # has input
 http://purl.obolibrary.org/obo/RO_0002234 # has output
 http://purl.obolibrary.org/obo/BFO_0000051 # has part
 http://purl.obolibrary.org/obo/RO_0002220 # adjacent to
+http://purl.obolibrary.org/obo/RO_0001025 # located in
 http://purl.obolibrary.org/obo/RO_0000056 # participates in
 http://purl.obolibrary.org/obo/RO_0002217 # actively participates in
 http://purl.obolibrary.org/obo/RO_0002371 # attached to
