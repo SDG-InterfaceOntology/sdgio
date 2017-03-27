@@ -320,10 +320,8 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">river</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">River</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">braided river</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rio</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</oboInOwl:hasBroadSynonym>
     </owl:Class>
     
 
@@ -1044,7 +1042,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000700">
         <rdfs:label xml:lang="en">sturzstrom</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000692"/>
-        <obo:IAO_0000115>A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop — as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.</obo:IAO_0000115>
+        <obo:IAO_0000115>A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop â€” as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1053,7 +1051,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000702">
         <rdfs:label xml:lang="en">ash fall process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000875"/>
         <obo:IAO_0000115>An ash fall process is a process in which volcanic ash formed during an explosive volcanic eruption, phreatomagmatic eruption, or during material transport in pyroclastic density currents is pulled towards the planetary surface by gravity.</obo:IAO_0000115>
     </owl:Class>
     
@@ -1389,6 +1387,16 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">liquid environmental material</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115>An environmental material which is in a liquid state.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000875">
+        <rdfs:label xml:lang="en">precipitation process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>A precipitation process is a process in which a portion of some substance segregates from a material in which that substance or its precursors were dissolved or suspended in and settles due to a force such as gravity or centrifugal force.</obo:IAO_0000115>
     </owl:Class>
     
 
