@@ -54,6 +54,8 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000031>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000032>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000033>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000034>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000052>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000053>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010001>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010002>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010003>))
@@ -274,7 +276,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000010> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000011> (use of a resource)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000011> "A process in which a resource is consumed or confers some benefit to the user."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000011> "A process during which a resource is consumed and confers some benefit to the user."@en)
 AnnotationAssertion(Annotation(rdfs:comment "Since we define 'resource' wrt benefit, then \"use\" of resource implies the realization the resource role. Some process in which a material entity bearing a resource role participates, but does not realize that role, say, child removes twigs from bird nest, would not be a ‘use of resource process’, by definition. The twig’s resource role is realized in the bird’s building process, not child’s taking process. -MJ") <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000011> "Must be aligned with an upper-level ontology. Unclear whether the resource must confer advantage to a user - the user may not be consuming the entity as a resource (i.e. triggering its resource disposition)."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000011> "use of a resource"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
@@ -298,61 +300,69 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000013> "resour
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010017>)))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000013> <http://purl.obolibrary.org/obo/BFO_0000004>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00000014> (exposure)
+# Class: <http://purl.unep.org/sdg/SDGIO_00000014> (exposure process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000014> "A process which begins when an entity participates in an already unfolding process and during which that entity realises one or more of its dispositions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000014> "A process which is causally within or downstream of another process whose direct or indirect effects cause one or more entities to realise one or more of their dispositions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000014> "The semantics of this class are being discussed and are very likely to change. Obsolescence is possible.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000014> "This class may be replaced by a class in EXO, pending a clarification on the scope of its meaning. Right now it is essentially the same as 'interaction'.
 https://github.com/SDG-InterfaceOntology/sdgio/issues/21")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000014> "A process during which an entity is impacted by some agent or preceeding event.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.unep.org/sdg/SDGIO_00000014> "exposure")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000014> "Consider that when \"E died of exposure to P\", E died as an outcome of the processes which were initated by E's participation in P, in which E's dispositions to react to P (or its parts or participants) were realised.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000014> "exposure"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000014> "exposure process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000014> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00000015> (exposure to flood)
+# Class: <http://purl.unep.org/sdg/SDGIO_00000015> (exposure to flooding)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000015> "An exposure process in which an the processes executed by an entity are causally connected to those executed by a flood.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000015> "An exposure process which is causally downstream of or within a flooding process and during which an entity realises one or more of its dispositions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000015> "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000015> "exposure to flood"@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000015> "A process during which an entity is directly or indirectly impacted by flooding.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000015> "exposure to flooding"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000015> <http://purl.unep.org/sdg/SDGIO_00000014>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_01000710>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_02500002>))
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00000016> (exposure to coastal flood)
+# Class: <http://purl.unep.org/sdg/SDGIO_00000016> (exposure to coastal flooding)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000016> "An exposure process in which the processes executed by an entity are causally connected to those executed by a coastal flood.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000016> "An exposure process which is causally downstream of or within a coastal flooding process and during which an entity realises one or more of its dispositions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000016> "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000016> "exposure to coastal flood"@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000016> "A process during which an entity is directly or indirectly impacted by coastal flooding.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000016> "exposure to coastal flooding"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000016> <http://purl.unep.org/sdg/SDGIO_00000015>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_01000711>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_01000707>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000017> (exposure to contaminated environmental material)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000017> "An exposure process in which an the processes executed by an entity are causally connected to those executed by a portion of contaminated environmental material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000017> "An exposure process during which a portion of contaminated environmental material is the causal agent in an entity realising one or more of its dispositions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000017> "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000017> "An exposure process during which an entity is directly or indirectly impacted by a contaminated environmental material.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000017> "exposure to contaminated environmental material"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000017> <http://purl.unep.org/sdg/SDGIO_00000014>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00010483>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002608> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00010483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_78298>))))))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000018> (exposure to contaminated water)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000018> "An exposure process in which an the processes executed by an entity are causally connected to those executed by a portion of contaminated water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000018> "An exposure process during which a portion of contaminated water is the causal agent in an entity realising one or more of its dispositions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000018> "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000018> "An exposure process during which an entity is impacted by contaminated water impacts an entity.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000018> "exposure to contaminated water"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000018> <http://purl.unep.org/sdg/SDGIO_00000017>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00002186>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002608> <http://purl.obolibrary.org/obo/ENVO_00002186>))
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00000019> (exposure to contaminated lake flood)
+# Class: <http://purl.unep.org/sdg/SDGIO_00000019> (exposure to the flooding of a contaminated lake)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000019> "An exposure process in which an the processes executed by an entity are causally connected to those executed by the floodwaters of a contaminated lake.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000019> "An exposure process which is causally downstream of or within the flooding of a contaminated lake and during which an entity realises one or more of its dispositions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000019> "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely. The relation to contaminated water should be 'composed primarily of'. To be imported.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000019> "exposure to contaminated lake flood"@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000019> "A process during which an entity is directly or indirectly impacted by the flooding of a contaminated lake.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000019> "exposure to the flooding of a contaminated lake"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000019> <http://purl.unep.org/sdg/SDGIO_00000016>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00000018>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_00002186>))))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002608> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002473> <http://purl.obolibrary.org/obo/ENVO_00002186>))))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000020> (risk)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000020> "A disposition of a bearer to realise one or more of its vulnerabilities when participating in a process which exposes the bearer to one or more corresponding hazards.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000020> "A disposition of a bearer to realise one or more of its vulnerabilities when participating in a process which exposes the bearer to a hazard or combination of hazards.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000020> "https://github.com/SDG-InterfaceOntology/sdgio/issues/22")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000020> "The possibility that an entity's vulnerabilities will be realised when exposed to a hazard.")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000020> "Risk is increased when harm or damage is realised and when an entity is likely to encounter a hazard in some process.  The probability of this disposition being realised can be assigned on the information or data level.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000020> "risk"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000020> <http://purl.obolibrary.org/obo/BFO_0000016>)
@@ -374,16 +384,18 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000022> <http://purl.unep.org/sdg/S
 # Class: <http://purl.unep.org/sdg/SDGIO_00000023> (risk of drowning)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000023> "The risk that a bearer realises its vulnerability towards drowning when participating in a process which exposes the bearer to a drowning hazard.")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000023> "")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000023> "Draft")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000023> "risk of drowning"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000023> <http://purl.unep.org/sdg/SDGIO_00000020>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000024> (vulnerability)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000024> "A disposition of an entity to undergo change, usually negative or undesirable change, in response to some exposure."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000024> "A disposition of an entity to undergo undesirable change in response to some exposure."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000024> "The links between vulnerability, exposure, risk, and hazard are being developed. This definition will be updated accordingly. The definition currently used could be used for 'susceptible' too. Vulnerable has negative connotations."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000024> "vulnerability"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00000014>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000025> (affordable housing)
 
@@ -449,6 +461,20 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000033> <http://purl.unep.org/sdg/S
 
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000034> "cultural ecosystem service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000034> <http://purl.unep.org/sdg/SDGIO_00010072>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000052> (exposed tangible asset)
+
+AnnotationAssertion(Annotation(rdfs:comment "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000052> "A tangible asset which is at risk of being damaged by or lost during hazardous events.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000052> "The term \"exposure\" is often used to refer to the sum of entities, or their value, that are at risk of being damaged or destroyed by some process. We distinguish that from the process of exposure in SDGIO.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000052> "Measures of exposure can include the number of people or types of assets in an area. These can be combined with the specific vulnerability and capacity of the exposed elements to any particular hazard to estimate the quantitative risks associated with that hazard in the area of interest.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000052> "exposed tangible asset"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000052> <http://purl.unep.org/sdg/SDGIO_00010048>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000053> (vulnerability towards respiratory disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000053> "A vulnerability borne by an entity that may develop respiratory disease.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000053> "vulnerability towards respiratory disease"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000053> <http://purl.unep.org/sdg/SDGIO_00000024>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010001> (education process)
 
@@ -655,7 +681,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010026> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010027> (ownership process)
 
-AnnotationAssertion(Annotation(rdfs:comment "http://www.eionet.europa.eu/gemet/concept?cp=5971&langcode=en&ns=1") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010027> "A process in which a person or organization, the owner, exercises their right to use, sell, rent, or gift an object."@en)
+AnnotationAssertion(Annotation(rdfs:comment "http://www.eionet.europa.eu/gemet/concept?cp=5971&langcode=en&ns=1") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010027> "A process during which a person or organization, the owner, exercises their right to use, sell, rent, or gift an object."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010027> "This may be converted into a relation rather than a class. Subrelations such as 'land ownership' would be defined by domain and range constraints."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010027> "ownership")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010027> "The act of ownership is a process wherein an owner exercises their rights associated with owning and needs to be distinguished from acts associated with right of tenure."@en)
@@ -716,8 +742,9 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010035> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010036> (safe)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010036> "A low risk of entities in some environment to realize their hazard disposition towards humans."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010036> "A risk disposition which is very difficult to realise."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010036> "Defined class for organizational purposes. Need to work out examples of subclasses to see if the definition holds."@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00010036> "Having a very low to negligible risk of being harmed.")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010036> "What determines some process or material is safe is dependent on the particular interplay between the processes, their participants, and the potential exposure to hazards, and to some extent, the policies being implemented to confirm or ensure something is safe. It is related to estimation of risk and thresholds."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010036> "safe"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010036> <http://purl.unep.org/sdg/SDGIO_00000020>)

@@ -1,0 +1,9 @@
+http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+http://purl.obolibrary.org/obo/BFO_0000017 # realizable entity
+http://purl.obolibrary.org/obo/BFO_0000034 # function
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+http://purl.obolibrary.org/obo/BFO_0000144 # process profile
+http://purl.obolibrary.org/obo/BFO_0000024 # fiat object
+http://purl.obolibrary.org/obo/BFO_0000030 # object
+http://purl.obolibrary.org/obo/BFO_0000027 # object aggregate
+http://purl.obolibrary.org/obo/BFO_0000029 # site

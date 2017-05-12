@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: http://purl.unep.org/sdg/imports/obi_import.owl
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000428> <http://purl.obolibrary.org/obo/IAO_0000423>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000178> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000030>)) <http://purl.obolibrary.org/obo/BFO_0000040>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000103> <http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000420> <http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000421>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000663>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0500000>) <http://purl.obolibrary.org/obo/OBI_0000339>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000456>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000202> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000833> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/OBI_0000066>))))) <http://purl.obolibrary.org/obo/BFO_0000023>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000339> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/IAO_0000104>) <http://purl.obolibrary.org/obo/BFO_0000015>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000458>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000471> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/OBI_0500000>)) <http://purl.obolibrary.org/obo/OBI_0000011>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000648> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0200175>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000663> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200179>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000023>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000707> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000704>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000792> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200188>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000835> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000571>) ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000947> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200166>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000005>) <http://purl.obolibrary.org/obo/IAO_0000064>))))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000101> <http://purl.obolibrary.org/obo/IAO_0000038>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200111> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000101> <http://purl.obolibrary.org/obo/IAO_0000038>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200172>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200175> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200178>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000648>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000037> <http://purl.obolibrary.org/obo/IAO_0000179> <http://purl.obolibrary.org/obo/IAO_0000180> <http://purl.obolibrary.org/obo/IAO_0000183> <http://purl.obolibrary.org/obo/IAO_0000184>)))\nEquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000761> <http://purl.obolibrary.org/obo/OBI_0000775>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000766> <http://purl.obolibrary.org/obo/OBI_0000764>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000768> <http://purl.obolibrary.org/obo/OBI_0000763>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000768> <http://purl.obolibrary.org/obo/OBI_0000767>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000772> <http://purl.obolibrary.org/obo/OBI_0000778>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000773> <http://purl.obolibrary.org/obo/OBI_0000762>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000774> <http://purl.obolibrary.org/obo/OBI_0000755>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000777> <http://purl.obolibrary.org/obo/OBI_0000760>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000782> <http://purl.obolibrary.org/obo/OBI_0000780>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000783> <http://purl.obolibrary.org/obo/OBI_0000781>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#bug-database> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/tracker>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#homepage> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#mailing-list> <http://purl.obolibrary.org/obo/iao/project> <mailto:information-ontology@googlegroups.com>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#release> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#repository> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/repository>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#wiki> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/documentation>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> <http://purl.obolibrary.org/obo/iao.owl>)\nDataPropertyAssertion(<http://usefulinc.com/ns/doap#revision> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> \"SVN $Revision: 717 $\")\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#browse> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/browse>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#bug-database> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/tracker>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#homepage> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#mailing-list> <http://purl.obolibrary.org/obo/obi/project> <mailto:obi-users@googlegroups.com>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#release> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#repository> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/repository>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#wiki> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/wiki>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl> <http://purl.obolibrary.org/obo/obi.owl>)\nDataPropertyAssertion(<http://usefulinc.com/ns/doap#revision> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl> \"SVN Revision: exported\")\nDifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)\nDifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000428> <http://purl.obolibrary.org/obo/IAO_0000423>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000178> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000030>)) <http://purl.obolibrary.org/obo/BFO_0000040>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000103> <http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000420> <http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000421>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000663>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0500000>) <http://purl.obolibrary.org/obo/OBI_0000339>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000456>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>) <http://purl.obolibrary.org/obo/BFO_0000040>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000202> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000833> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/OBI_0000066>))))) <http://purl.obolibrary.org/obo/BFO_0000023>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000339> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/IAO_0000104>) <http://purl.obolibrary.org/obo/BFO_0000015>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000458>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000471> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/OBI_0500000>)) <http://purl.obolibrary.org/obo/OBI_0000011>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000648> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0200175>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000663> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200179>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000023>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000707> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000704>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000792> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200188>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000835> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000571>) ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000941> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000947> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200166>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000005>) <http://purl.obolibrary.org/obo/IAO_0000064>))))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000101> <http://purl.obolibrary.org/obo/IAO_0000038>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200111> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000101> <http://purl.obolibrary.org/obo/IAO_0000038>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200172>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200175> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200178>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000648>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000037> <http://purl.obolibrary.org/obo/IAO_0000179> <http://purl.obolibrary.org/obo/IAO_0000180> <http://purl.obolibrary.org/obo/IAO_0000183> <http://purl.obolibrary.org/obo/IAO_0000184>)))\nEquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))\nIrreflexiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000761> <http://purl.obolibrary.org/obo/OBI_0000775>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000766> <http://purl.obolibrary.org/obo/OBI_0000764>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000768> <http://purl.obolibrary.org/obo/OBI_0000763>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000768> <http://purl.obolibrary.org/obo/OBI_0000767>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000772> <http://purl.obolibrary.org/obo/OBI_0000778>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000773> <http://purl.obolibrary.org/obo/OBI_0000762>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000774> <http://purl.obolibrary.org/obo/OBI_0000755>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000777> <http://purl.obolibrary.org/obo/OBI_0000760>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000782> <http://purl.obolibrary.org/obo/OBI_0000780>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000783> <http://purl.obolibrary.org/obo/OBI_0000781>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#bug-database> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/tracker>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#homepage> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#mailing-list> <http://purl.obolibrary.org/obo/iao/project> <mailto:information-ontology@googlegroups.com>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#release> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#repository> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/repository>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#wiki> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/documentation>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> <http://purl.obolibrary.org/obo/iao.owl>)\nDataPropertyAssertion(<http://usefulinc.com/ns/doap#revision> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> \"SVN $Revision: 717 $\")\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#browse> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/browse>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#bug-database> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/tracker>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#homepage> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#mailing-list> <http://purl.obolibrary.org/obo/obi/project> <mailto:obi-users@googlegroups.com>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#release> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#repository> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/repository>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#wiki> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/wiki>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl> <http://purl.obolibrary.org/obo/obi.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl> <http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl>)\nDataPropertyAssertion(<http://usefulinc.com/ns/doap#revision> <http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl> \"SVN Revision: Unversioned directory\")\nDifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)\nDifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)\n)
 
 [Term]
 id: BFO:0000001
@@ -327,6 +327,11 @@ relationship: OBI:0000299 BFO:0000040 ! has_specified_output material entity
 relationship: OBI:0000299 OBI:0000047 ! has_specified_output processed material
 
 [Term]
+id: OBI:0000112
+name: specimen role
+is_a: BFO:0000023 ! role
+
+[Term]
 id: OBI:0000202
 name: investigation agent role
 is_a: BFO:0000023 ! role
@@ -400,9 +405,23 @@ name: clustered data set
 is_a: IAO:0000100 ! data set
 
 [Term]
+id: OBI:0000659
+name: specimen collection process
+is_a: OBI:0000011 ! planned process
+intersection_of: OBI:0000011 ! planned process
+intersection_of: OBI:0000417 OBI:0000684 ! achieves_planned_objective specimen collection objective
+relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
+relationship: OBI:0000299 OBI:0100051 ! has_specified_output specimen
+
+[Term]
 id: OBI:0000663
 name: class prediction data transformation
 is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0000684
+name: specimen collection objective
+is_a: IAO:0000005 ! objective specification
 
 [Term]
 id: OBI:0000700
@@ -456,10 +475,23 @@ name: manufacturer
 is_a: BFO:0000040 ! material entity
 
 [Term]
+id: OBI:0000941
+name: service consumer role
+is_a: BFO:0000023 ! role
+
+[Term]
 id: OBI:0000947
 name: service provider role
 is_a: BFO:0000023 ! role
 relationship: BFO:0000054 OBI:0000011 ! realized in planned process
+
+[Term]
+id: OBI:0000953
+name: processed specimen
+is_a: OBI:0000047 ! processed material
+is_a: OBI:0100051 ! specimen
+intersection_of: OBI:0000047 ! processed material
+intersection_of: OBI:0100051 ! specimen
 
 [Term]
 id: OBI:0000963
@@ -467,9 +499,22 @@ name: categorical label
 is_a: IAO:0000009 ! datum label
 
 [Term]
+id: OBI:0000993
+name: service provision objective
+is_a: IAO:0000005 ! objective specification
+
+[Term]
 id: OBI:0001000
 name: questionnaire
 is_a: IAO:0000310 ! document
+
+[Term]
+id: OBI:0001173
+name: service
+is_a: OBI:0000011 ! planned process
+intersection_of: OBI:0000011 ! planned process
+intersection_of: BFO:0000055 OBI:0000947 {all_some="true"} ! realizes service provider role
+relationship: BFO:0000051 OBI:0000011 ! has part planned process
 
 [Term]
 id: OBI:0001909
@@ -484,6 +529,13 @@ name: value specification
 is_a: IAO:0000030 ! information content entity
 
 [Term]
+id: OBI:0002076
+name: collection of specimens
+is_a: BFO:0000040 ! material entity
+intersection_of: BFO:0000040 ! material entity
+intersection_of: RO:0002351 OBI:0100051 {all_only="true"} ! has member specimen
+
+[Term]
 id: OBI:0100026
 name: organism
 is_a: BFO:0000040 ! material entity
@@ -491,6 +543,13 @@ union_of: NCBITaxon:10239 ! Viruses
 union_of: NCBITaxon:2 ! Bacteria
 union_of: NCBITaxon:2157 ! Archaea
 union_of: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: OBI:0100051
+name: specimen
+is_a: BFO:0000040 ! material entity
+intersection_of: BFO:0000040 ! material entity
+intersection_of: RO:0000087 OBI:0000112 ! has role specimen role
 
 [Term]
 id: OBI:0200000
@@ -718,13 +777,13 @@ id: OBI:0000293
 name: has_specified_input
 domain: OBI:0000011 ! planned process
 is_a: RO:0000057 ! has participant
+inverse_of: OBI:0000295 ! is_specified_input_of
 
 [Typedef]
 id: OBI:0000295
 name: is_specified_input_of
 range: OBI:0000011 ! planned process
 is_a: RO:0000056 ! participates in
-inverse_of: OBI:0000293 ! has_specified_input
 
 [Typedef]
 id: OBI:0000299
@@ -744,13 +803,13 @@ id: OBI:0000417
 name: achieves_planned_objective
 domain: OBI:0000011 ! planned process
 range: IAO:0000005 ! objective specification
+inverse_of: OBI:0000833 ! objective_achieved_by
 
 [Typedef]
 id: OBI:0000833
 name: objective_achieved_by
 domain: IAO:0000005 ! objective specification
 range: OBI:0000011 ! planned process
-inverse_of: OBI:0000417 ! achieves_planned_objective
 
 [Typedef]
 id: RO:0000052
@@ -780,13 +839,13 @@ id: RO:0000058
 name: is concretized as
 domain: BFO:0000031 ! generically dependent continuant
 range: BFO:0000020 ! specifically dependent continuant
-inverse_of: RO:0000059 ! concretizes
 
 [Typedef]
 id: RO:0000059
 name: concretizes
 domain: BFO:0000020 ! specifically dependent continuant
 range: BFO:0000031 ! generically dependent continuant
+inverse_of: RO:0000058 ! is concretized as
 
 [Typedef]
 id: RO:0000081
@@ -800,4 +859,15 @@ domain: BFO:0000004 ! independent continuant
 range: BFO:0000023 ! role
 is_a: RO:0000053 ! bearer of
 inverse_of: RO:0000081 ! role of
+
+[Typedef]
+id: RO:0002350
+name: member of
+is_a: BFO:0000050 ! part of
+inverse_of: RO:0002351 ! has member
+
+[Typedef]
+id: RO:0002351
+name: has member
+is_a: BFO:0000051 ! has part
 

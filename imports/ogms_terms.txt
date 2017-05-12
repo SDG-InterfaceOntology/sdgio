@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/OGMS_0000096 # health care process
+http://purl.obolibrary.org/obo/OGMS_0000031 # disease

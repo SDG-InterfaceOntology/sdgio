@@ -1,0 +1,17 @@
+http://purl.obolibrary.org/obo/IAO_0000005 # objective specification
+http://purl.obolibrary.org/obo/IAO_0000007 # action specification
+http://purl.obolibrary.org/obo/IAO_0000027 # data item
+http://purl.obolibrary.org/obo/IAO_0000109 # measurement datum
+http://purl.obolibrary.org/obo/IAO_0000104 # plan specification
+http://purl.obolibrary.org/obo/IAO_0000078 # curation status specification
+http://purl.obolibrary.org/obo/IAO_0000124 # uncurated
+http://purl.obolibrary.org/obo/IAO_0000123 # metadata incomplete
+http://purl.obolibrary.org/obo/IAO_0000120 # metadata complete
+http://purl.obolibrary.org/obo/IAO_0000122 # ready for release
+http://purl.obolibrary.org/obo/IAO_0000428 # requires discussion
+http://purl.obolibrary.org/obo/IAO_0000423 # to be replaced by an external ontology term
+http://purl.obolibrary.org/obo/IAO_0000125 # pending final vetting
+http://purl.obolibrary.org/obo/IAO_0000002 # example to be eventually removed
+http://purl.obolibrary.org/obo/IAO_0000121 # organizational term
+http://purl.obolibrary.org/obo/IAO_0000114 # has curation status
+

@@ -936,7 +936,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000690">
         <rdfs:label xml:lang="en">mass wasting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
         <oboInOwl:hasExactSynonym>slope movement</oboInOwl:hasExactSynonym>
         <oboInOwl:hasBroadSynonym>mass movement</oboInOwl:hasBroadSynonym>
         <obo:IAO_0000115>Mass wasting is the geomorphic process by which solid environmental material such as soil, sand, regolith, and/or rock move downslope typically as a mass, largely under the force of gravity, but frequently affected by water and water content as in submarine environments and mudslides.</obo:IAO_0000115>
@@ -980,7 +980,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000694">
         <rdfs:label xml:lang="en">geological subsidence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
         <obo:IAO_0000115>A subsidence process is a geomorphologic process in which a surface shifts downward relative to a datum such as sea-level.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>subsidence</oboInOwl:hasBroadSynonym>
     </owl:Class>
@@ -1201,7 +1201,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000742">
         <rdfs:label xml:lang="en">carbon-bearing gas emission process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000093"/>
         <obo:IAO_0000115>A carbon emission process is any environmental process which outputs a carbon-bearing gas.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>carbon emission process</oboInOwl:hasBroadSynonym>
     </owl:Class>
@@ -1395,8 +1395,22 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000875">
         <rdfs:label xml:lang="en">precipitation process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
         <obo:IAO_0000115>A precipitation process is a process in which a portion of some substance segregates from a material in which that substance or its precursors were dissolved or suspended in and settles due to a force such as gravity or centrifugal force.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000930">
+        <rdfs:label xml:lang="en">ecological corridor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+        <oboInOwl:hasRelatedSynonym>animal corridor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>wildlife corridor</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>An ecosystem which bridges two or more adjoing ecosystems and through which organisms may move or propagate.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>habitat corridor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>green corridor</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -1482,6 +1496,15 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500026">
+        <rdfs:label>anthropogenic modulatory intervention process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500027"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_02500027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500027">
@@ -1505,6 +1528,128 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500032">
         <rdfs:label>revegetation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500036">
+        <rdfs:label>environmental pollution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <oboInOwl:hasExactSynonym>pollution</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An environmental system process that results in the introduction of contaminants into an environment.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500037">
+        <rdfs:label>air pollution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
+        <obo:IAO_0000115>A pollution process that releases particulates into the atmosphere.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500038">
+        <rdfs:label>soil pollution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
+        <obo:IAO_0000115>A pollution process during which soil is contaminated.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500039">
+        <rdfs:label>water pollution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
+        <obo:IAO_0000115>A pollution process during which water is contaminated.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500040">
+        <rdfs:label>plastic pollution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
+        <obo:IAO_0000115>A pollution process that results in increased levels of plastic in the environment.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500041">
+        <rdfs:label>environmental monitoring</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>An process in which environmental parameters and variables are continually assayed.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>monitoring</oboInOwl:hasBroadSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500042">
+        <rdfs:label>pollution control</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500026"/>
+        <oboInOwl:hasNarrowSynonym>pollution prevention</oboInOwl:hasNarrowSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500043">
+        <rdfs:label>pollution monitoring</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500041"/>
+        <obo:IAO_0000115>A monitoring process that assays the level of environmental pollutants to determine the presence of effect of environmental pollution.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500044">
+        <rdfs:label>urban pollution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
+        <obo:IAO_0000115>A pollution process that results in increased levels of pollutants in an urban environment.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000010">
+        <rdfs:label xml:lang="en">material transport process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>A process during which material is displaced from it&apos;s original location and transported either to a new location or back to the original location.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000092">
+        <rdfs:label xml:lang="en">gas emission process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
+        <obo:IAO_0000115>A material transport process during which a portion of gaseous environmental material is transported into the atmosphere.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000093">
+        <rdfs:label xml:lang="en">hydrocarbon gas emission process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000092"/>
+        <obo:IAO_0000115>A gas emission process during which a portion of hydrocarbon gas is transported into the atmosphere.</obo:IAO_0000115>
     </owl:Class>
     
 

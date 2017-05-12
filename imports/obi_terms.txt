@@ -1,0 +1,10 @@
+http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+http://purl.obolibrary.org/obo/OBI_0000066 # investigation
+http://purl.obolibrary.org/obo/OBI_0200000 # data transformation
+http://purl.obolibrary.org/obo/OBI_0200111 # data visualization
+http://purl.obolibrary.org/obo/OBI_0001933 # value specification
+http://purl.obolibrary.org/obo/OBI_0000260 # plan
+http://purl.obolibrary.org/obo/OBI_0001173 # service
+http://purl.obolibrary.org/obo/OBI_0000941 # service consumer role
+http://purl.obolibrary.org/obo/OBI_0000947 # service provider role
+http://purl.obolibrary.org/obo/OBI_0000993 # service provision objective

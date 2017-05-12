@@ -1,0 +1,2197 @@
+format-version: 1.2
+data-version: http://purl.unep.org/sdg/releases/2016-01-21/sdgio.owl
+remark: This is the Sustainable Development Goals Interface Ontology (SDGIO) developed to support the realisation of the SDGs by providing a semantically coherent representations of relevant entities.
+import: http://purl.unep.org/sdg/imports/bfo_import.owl
+import: http://purl.unep.org/sdg/imports/chebi_import.owl
+import: http://purl.unep.org/sdg/imports/envo_import.owl
+import: http://purl.unep.org/sdg/imports/iao_import.owl
+import: http://purl.unep.org/sdg/imports/ncbitaxon_import.owl
+import: http://purl.unep.org/sdg/imports/obi_import.owl
+import: http://purl.unep.org/sdg/imports/pato_import.owl
+import: http://purl.unep.org/sdg/imports/pco_import.owl
+import: http://purl.unep.org/sdg/imports/ro_import.owl
+import: http://purl.unep.org/sdg/imports/uberon_import.owl
+ontology: http://purl.unep.org/sdg/sdgio.owl
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000001> owl:Thing)\nSubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24431> owl:Thing)\nSubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50906> owl:Thing)\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000428> <http://purl.obolibrary.org/obo/IAO_0000423>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000178> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000030>)) <http://purl.obolibrary.org/obo/BFO_0000040>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000103> <http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000420> <http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000421>))\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1> owl:Thing)\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000663>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0500000>) <http://purl.obolibrary.org/obo/OBI_0000339>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000456>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000202> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000833> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/OBI_0000066>))))) <http://purl.obolibrary.org/obo/BFO_0000023>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000339> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/IAO_0000104>) <http://purl.obolibrary.org/obo/BFO_0000015>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000458>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000471> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/OBI_0500000>)) <http://purl.obolibrary.org/obo/OBI_0000011>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000648> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0200175>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000663> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200179>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000023>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000707> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000704>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000792> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200188>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000835> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000571>) ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0000947> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200166>))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000005>) <http://purl.obolibrary.org/obo/IAO_0000064>))))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000101> <http://purl.obolibrary.org/obo/IAO_0000038>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200111> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000101> <http://purl.obolibrary.org/obo/IAO_0000038>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200172>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200175> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0200178>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000648>)))\nSubClassOf(<http://purl.obolibrary.org/obo/OBI_0200190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectUnionOf(<http://purl.obolibrary.org/obo/IAO_0000037> <http://purl.obolibrary.org/obo/IAO_0000179> <http://purl.obolibrary.org/obo/IAO_0000180> <http://purl.obolibrary.org/obo/IAO_0000183> <http://purl.obolibrary.org/obo/IAO_0000184>)))\nSubClassOf(<http://purl.obolibrary.org/obo/PCO_0000000> owl:Thing)\nSubClassOf(<http://purl.unep.org/sdg/SDGIO_00000001> owl:Thing)\nSubClassOf(<http://purl.unep.org/sdg/SDGIO_00000002> owl:Thing)\nSubClassOf(<http://purl.unep.org/sdg/SDGIO_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_00002186>) <http://purl.obolibrary.org/obo/ENVO_00000020>)))\nSubClassOf(<http://usefulinc.com/ns/doap#Project> owl:Thing)\nSubClassOf(<http://usefulinc.com/ns/doap#SVNRepository> owl:Thing)\nSubClassOf(<http://usefulinc.com/ns/doap#Version> owl:Thing)\nEquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002008> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001199>) <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002008> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001199>) <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000761> <http://purl.obolibrary.org/obo/OBI_0000775>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000766> <http://purl.obolibrary.org/obo/OBI_0000764>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000768> <http://purl.obolibrary.org/obo/OBI_0000763>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000768> <http://purl.obolibrary.org/obo/OBI_0000767>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000772> <http://purl.obolibrary.org/obo/OBI_0000778>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000773> <http://purl.obolibrary.org/obo/OBI_0000762>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000774> <http://purl.obolibrary.org/obo/OBI_0000755>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000777> <http://purl.obolibrary.org/obo/OBI_0000760>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000782> <http://purl.obolibrary.org/obo/OBI_0000780>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000783> <http://purl.obolibrary.org/obo/OBI_0000781>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#bug-database> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/tracker>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#homepage> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#mailing-list> <http://purl.obolibrary.org/obo/iao/project> <mailto:information-ontology@googlegroups.com>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#release> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#repository> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/repository>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#wiki> <http://purl.obolibrary.org/obo/iao/project> <http://purl.obolibrary.org/obo/iao/documentation>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> <http://purl.obolibrary.org/obo/iao.owl>)\nDataPropertyAssertion(<http://usefulinc.com/ns/doap#revision> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> \"SVN $Revision: 717 $\")\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#browse> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/browse>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#bug-database> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/tracker>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#homepage> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#mailing-list> <http://purl.obolibrary.org/obo/obi/project> <mailto:obi-users@googlegroups.com>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#release> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#repository> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/repository>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#wiki> <http://purl.obolibrary.org/obo/obi/project> <http://purl.obolibrary.org/obo/obi/wiki>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl>)\nObjectPropertyAssertion(<http://usefulinc.com/ns/doap#file-release> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl> <http://purl.obolibrary.org/obo/obi.owl>)\nDataPropertyAssertion(<http://usefulinc.com/ns/doap#revision> <http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl> \"SVN Revision: exported\")\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/RO_0000052>) <http://purl.obolibrary.org/obo/RO_0000057>)\nDifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)\nDifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)\n)
+
+[Term]
+id: BFO:0000001
+name: entity
+
+[Term]
+id: BFO:0000002
+name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+is_a: BFO:0000001 ! entity
+disjoint_from: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000003
+name: occurrent
+def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
+is_a: BFO:0000001 ! entity
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+is_a: BFO:0000002 ! continuant
+disjoint_from: BFO:0000020 ! specifically dependent continuant
+disjoint_from: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000015
+name: process
+def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000016
+name: disposition
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000017
+name: realizable entity
+def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
+is_a: BFO:0000020 ! specifically dependent continuant
+disjoint_from: BFO:0000019 ! quality
+
+[Term]
+id: BFO:0000019
+name: quality
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000023
+name: role
+def: "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts." []
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000024
+name: fiat object part
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000027
+name: object aggregate
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000029
+name: site
+is_a: BFO:0000141 ! immaterial entity
+
+[Term]
+id: BFO:0000030
+name: object
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000031
+name: generically dependent continuant
+def: "A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000034
+name: function
+is_a: BFO:0000016 ! disposition
+
+[Term]
+id: BFO:0000040
+name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
+is_a: BFO:0000004 ! independent continuant
+disjoint_from: BFO:0000141 ! immaterial entity
+
+[Term]
+id: BFO:0000141
+name: immaterial entity
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: BFO:0000144
+name: process profile
+is_a: BFO:0000015 ! process
+
+[Term]
+id: CARO:0000003
+name: anatomical structure
+is_a: CARO:0000006 ! material anatomical entity
+
+[Term]
+id: CARO:0000006
+name: material anatomical entity
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: CHEBI:15377
+name: water
+def: "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms." []
+synonym: "[H]O[H]" RELATED SMILES [ChEBI:]
+synonym: "[OH2]" RELATED [IUPAC:]
+synonym: "acqua" RELATED [ChEBI:]
+synonym: "agua" RELATED [ChEBI:]
+synonym: "aqua" RELATED [ChEBI:]
+synonym: "BOUND OXYGEN" RELATED [PDBeChem:]
+synonym: "BOUND WATER" RELATED [PDBeChem:]
+synonym: "dihydridooxygen" RELATED [IUPAC:]
+synonym: "dihydrogen oxide" RELATED [IUPAC:]
+synonym: "DISORDERED SOLVENT" RELATED [PDBeChem:]
+synonym: "eau" RELATED [ChEBI:]
+synonym: "GLUCOSE 4-O4 GROUP" RELATED [PDBeChem:]
+synonym: "H2O" RELATED [UniProt:]
+synonym: "H2O" RELATED [KEGG COMPOUND:]
+synonym: "H2O" RELATED FORMULA [ChEBI:]
+synonym: "HOH" RELATED [ChEBI:]
+synonym: "hydrogen hydroxide" RELATED [ChEBI:]
+synonym: "InChI=1S/H2O/h1H2" RELATED InChI [ChEBI:]
+synonym: "oxidane" EXACT IUPAC_NAME [IUPAC:]
+synonym: "OXYGEN ATOM" RELATED [PDBeChem:]
+synonym: "Steam" RELATED [HMDB:]
+synonym: "Wasser" RELATED [ChEBI:]
+synonym: "WATER" EXACT [PDBeChem:]
+synonym: "Water" EXACT [KEGG COMPOUND:]
+synonym: "water" EXACT [PDBeChem:]
+synonym: "water" EXACT IUPAC_NAME [IUPAC:]
+synonym: "XLYOFNOQVPJJNP-UHFFFAOYSA-N" RELATED InChIKey [ChEBI:]
+is_a: CHEBI:33693 ! oxygen hydride
+is_a: CHEBI:37176 ! mononuclear parent hydride
+is_a: CHEBI:52625 ! inorganic hydroxy compound
+
+[Term]
+id: CHEBI:18276
+name: dihydrogen
+def: "An elemental molecule consisting of two hydrogens joined by a single bond." []
+synonym: "[H][H]" RELATED SMILES [ChEBI:]
+synonym: "dihydrogen" EXACT IUPAC_NAME [IUPAC:]
+synonym: "dihydrogen" EXACT [ChEBI:]
+synonym: "E 949" RELATED [ChEBI:]
+synonym: "E-949" RELATED [ChEBI:]
+synonym: "E949" RELATED [ChEBI:]
+synonym: "H2" RELATED [IUPAC:]
+synonym: "H2" RELATED [KEGG COMPOUND:]
+synonym: "H2" RELATED [UniProt:]
+synonym: "H2" RELATED FORMULA [ChEBI:]
+synonym: "Hydrogen" RELATED [KEGG COMPOUND:]
+synonym: "InChI=1S/H2/h1H" RELATED InChI [ChEBI:]
+synonym: "molecular hydrogen" RELATED [ChEBI:]
+synonym: "UFHFLCQGNIYNRP-UHFFFAOYSA-N" RELATED InChIKey [ChEBI:]
+is_a: CHEBI:25362 ! elemental molecule
+is_a: CHEBI:33260 ! elemental hydrogen
+
+[Term]
+id: CHEBI:23367
+name: molecular entity
+def: "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "entidad molecular" RELATED [IUPAC:]
+synonym: "entidades moleculares" RELATED [IUPAC:]
+synonym: "entite moleculaire" RELATED [IUPAC:]
+synonym: "molecular entities" RELATED [IUPAC:]
+synonym: "molecular entity" EXACT IUPAC_NAME [IUPAC:]
+synonym: "molekulare Entitaet" RELATED [ChEBI:]
+is_a: CHEBI:24431 ! chemical entity
+
+[Term]
+id: CHEBI:24431
+name: chemical entity
+def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "chemical entity" EXACT [UniProt:]
+synonym: "grouped_by_chemistry" RELATED [ChEBI:]
+
+[Term]
+id: CHEBI:24651
+name: hydroxides
+def: "Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-))." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "hydroxides" EXACT [ChEBI:]
+is_a: CHEBI:25806 ! oxygen molecular entity
+is_a: CHEBI:33608 ! hydrogen molecular entity
+is_a: CHEBI:37577 ! heteroatomic molecular entity
+
+[Term]
+id: CHEBI:24835
+name: inorganic molecular entity
+def: "A molecular entity that contains no carbon." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "anorganische Verbindungen" RELATED [ChEBI:]
+synonym: "inorganic compounds" RELATED [ChEBI:]
+synonym: "inorganic entity" RELATED [ChEBI:]
+synonym: "inorganic molecular entities" RELATED [ChEBI:]
+synonym: "inorganics" RELATED [ChEBI:]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:25362
+name: elemental molecule
+def: "A molecule all atoms of which have the same atomic number." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "homoatomic molecule" RELATED [ChEBI:]
+synonym: "homoatomic molecules" RELATED [ChEBI:]
+is_a: CHEBI:25367 ! molecule
+is_a: CHEBI:33259 ! elemental molecular entity
+
+[Term]
+id: CHEBI:25367
+name: molecule
+def: "Any polyatomic entity that is an electrically neutral entity consisting of more than one atom." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "molecula" RELATED [IUPAC:]
+synonym: "molecule" EXACT [IUPAC:]
+synonym: "molecules" RELATED [IUPAC:]
+synonym: "Molekuel" RELATED [ChEBI:]
+synonym: "neutral molecular compounds" RELATED [IUPAC:]
+is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:25806
+name: oxygen molecular entity
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "oxygen compounds" RELATED [ChEBI:]
+synonym: "oxygen molecular entities" RELATED [ChEBI:]
+synonym: "oxygen molecular entity" EXACT [ChEBI:]
+is_a: CHEBI:33304 ! chalcogen molecular entity
+
+[Term]
+id: CHEBI:33242
+name: inorganic hydride
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "inorganic hydrides" RELATED [ChEBI:]
+is_a: CHEBI:24835 ! inorganic molecular entity
+is_a: CHEBI:33692 ! hydrides
+
+[Term]
+id: CHEBI:33259
+name: elemental molecular entity
+def: "A molecular entity all atoms of which have the same atomic number." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "homoatomic entity" RELATED [ChEBI:]
+synonym: "homoatomic molecular entities" RELATED [ChEBI:]
+synonym: "homoatomic molecular entity" RELATED [ChEBI:]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:33260
+name: elemental hydrogen
+synonym: "." RELATED FORMULA [ChEBI:]
+is_a: CHEBI:24835 ! inorganic molecular entity
+is_a: CHEBI:33259 ! elemental molecular entity
+is_a: CHEBI:33608 ! hydrogen molecular entity
+
+[Term]
+id: CHEBI:33304
+name: chalcogen molecular entity
+def: "Any p-block molecular entity containing a chalcogen." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "chalcogen compounds" RELATED [ChEBI:]
+synonym: "chalcogen molecular entities" RELATED [ChEBI:]
+synonym: "chalcogen molecular entity" EXACT [ChEBI:]
+is_a: CHEBI:33675 ! p-block molecular entity
+
+[Term]
+id: CHEBI:33579
+name: main group molecular entity
+def: "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "main group compounds" RELATED [ChEBI:]
+synonym: "main group molecular entities" RELATED [ChEBI:]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:33608
+name: hydrogen molecular entity
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "hydrogen compounds" RELATED [ChEBI:]
+synonym: "hydrogen molecular entities" RELATED [ChEBI:]
+is_a: CHEBI:33674 ! s-block molecular entity
+
+[Term]
+id: CHEBI:33674
+name: s-block molecular entity
+def: "An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "s-block compounds" RELATED [ChEBI:]
+synonym: "s-block molecular entities" RELATED [ChEBI:]
+synonym: "s-block molecular entity" EXACT [ChEBI:]
+is_a: CHEBI:33579 ! main group molecular entity
+
+[Term]
+id: CHEBI:33675
+name: p-block molecular entity
+def: "A main group molecular entity that contains one or more atoms of a p-block element." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "p-block compounds" RELATED [ChEBI:]
+synonym: "p-block molecular entities" RELATED [ChEBI:]
+synonym: "p-block molecular entitiy" RELATED [ChEBI:]
+is_a: CHEBI:33579 ! main group molecular entity
+
+[Term]
+id: CHEBI:33692
+name: hydrides
+def: "Hydrides are chemical compounds of hydrogen with other chemical elements." []
+synonym: "." RELATED FORMULA [ChEBI:]
+is_a: CHEBI:33608 ! hydrogen molecular entity
+is_a: CHEBI:37577 ! heteroatomic molecular entity
+
+[Term]
+id: CHEBI:33693
+name: oxygen hydride
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "hydrides of oxygen" RELATED [ChEBI:]
+synonym: "oxygen hydride" EXACT [ChEBI:]
+synonym: "oxygen hydrides" RELATED [ChEBI:]
+is_a: CHEBI:36902 ! chalcogen hydride
+
+[Term]
+id: CHEBI:36357
+name: polyatomic entity
+def: "Any molecular entity consisting of more than one atom." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "polyatomic entities" RELATED [ChEBI:]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:36902
+name: chalcogen hydride
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "chalcogen hydride" EXACT [ChEBI:]
+synonym: "chalcogen hydrides" RELATED [ChEBI:]
+is_a: CHEBI:33242 ! inorganic hydride
+is_a: CHEBI:33304 ! chalcogen molecular entity
+
+[Term]
+id: CHEBI:37176
+name: mononuclear parent hydride
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "mononuclear hydride" RELATED [ChEBI:]
+synonym: "mononuclear hydrides" RELATED [IUPAC:]
+synonym: "mononuclear parent hydrides" EXACT IUPAC_NAME [IUPAC:]
+is_a: CHEBI:33692 ! hydrides
+
+[Term]
+id: CHEBI:37577
+name: heteroatomic molecular entity
+def: "A molecular entity consisting of two or more chemical elements." []
+synonym: "." RELATED FORMULA [ChEBI:]
+synonym: "chemical compound" RELATED [ChEBI:]
+synonym: "heteroatomic molecular entities" RELATED [ChEBI:]
+is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:50906
+name: role
+def: "A role is particular behaviour which a material entity may exhibit." []
+
+[Term]
+id: CHEBI:51086
+name: chemical role
+def: "A role played by the molecular entity or part thereof within a chemical context." []
+is_a: CHEBI:50906 ! role
+
+[Term]
+id: CHEBI:52625
+name: inorganic hydroxy compound
+synonym: "inorganic hydroxides" RELATED [ChEBI:]
+is_a: CHEBI:24651 ! hydroxides
+is_a: CHEBI:24835 ! inorganic molecular entity
+
+[Term]
+id: CHEBI:78298
+name: environmental contaminant
+def: "Any minor or unwanted substance introduced into the environment that can have undesired effects." []
+synonym: "environmental contaminants" RELATED [ChEBI:]
+is_a: CHEBI:51086 ! chemical role
+
+[Term]
+id: ENVO:00000000
+name: geographic feature
+synonym: "macroscopic spatial feature" EXACT []
+is_a: ENVO:00002297 ! environmental feature
+
+[Term]
+id: ENVO:00000002
+name: anthropogenic geographic feature
+def: "An anthropogenic geographic feature is a geographic feature\nresulting from the influence of human beings on nature." []
+synonym: "man-made feature" RELATED []
+synonym: "manmade feature" RELATED []
+is_a: ENVO:00000000 ! geographic feature
+
+[Term]
+id: ENVO:00000015
+name: ocean
+def: "Continuous saline-water bodies that surround the continents and fill the Earth's great depressions." []
+synonym: "Ocean" EXACT []
+synonym: "ocean" EXACT []
+synonym: "ocean region" RELATED []
+synonym: "sea" RELATED []
+is_a: ENVO:00001999 ! marine water body
+
+[Term]
+id: ENVO:00000016
+name: sea
+def: "A large expanse of saline water usually connected with an ocean." []
+synonym: "channel" NARROW []
+synonym: "closed sea" NARROW []
+synonym: "marginal sea" NARROW []
+synonym: "open sea" NARROW []
+synonym: "open sound" NARROW []
+synonym: "open water" NARROW []
+synonym: "Sea" EXACT []
+synonym: "sea" EXACT []
+is_a: ENVO:00001999 ! marine water body
+
+[Term]
+id: ENVO:00000020
+name: lake
+def: "A body of water or other liquid of considerable size contained on a body of land." []
+synonym: "broad" RELATED []
+synonym: "catch basin" NARROW []
+synonym: "LAKE" EXACT []
+synonym: "Lake" EXACT []
+synonym: "lake" EXACT []
+synonym: "lakes" EXACT []
+synonym: "llyn" RELATED []
+synonym: "loch" RELATED []
+synonym: "lochan" RELATED []
+synonym: "lough" RELATED []
+synonym: "mere" RELATED []
+synonym: "mortlake" RELATED []
+synonym: "open water" NARROW []
+synonym: "pasteuer lake" RELATED []
+synonym: "tarn" NARROW []
+is_a: ENVO:01000617 ! lentic water body
+
+[Term]
+id: ENVO:00000022
+name: river
+def: "Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system." []
+synonym: "braided river" NARROW []
+synonym: "rio" EXACT []
+synonym: "River" EXACT []
+synonym: "watercourse" BROAD []
+is_a: ENVO:00000023 ! stream
+
+[Term]
+id: ENVO:00000023
+name: stream
+def: "Linear body of water flowing on the Earth's surface." []
+synonym: "beck" RELATED []
+synonym: "braided stream" NARROW []
+synonym: "brook" RELATED []
+synonym: "burn (hydrographic)" RELATED []
+synonym: "Creek" RELATED []
+synonym: "creek" RELATED []
+synonym: "fork (hydrographic" NARROW []
+synonym: "glacial stream" NARROW []
+synonym: "lode" NARROW []
+synonym: "millstream" NARROW []
+synonym: "rivulet" RELATED []
+synonym: "Stream" EXACT []
+synonym: "stream" EXACT []
+synonym: "stream bend" NARROW []
+synonym: "streams" EXACT []
+synonym: "watercourse" BROAD []
+is_a: ENVO:00000029 ! watercourse
+
+[Term]
+id: ENVO:00000029
+name: watercourse
+def: "A flowing body of water." []
+synonym: "awawa" RELATED []
+synonym: "barranca" RELATED []
+synonym: "beck" RELATED []
+synonym: "branch" RELATED []
+synonym: "brook" RELATED []
+synonym: "course" RELATED []
+synonym: "culvert" NARROW []
+synonym: "draw" RELATED []
+synonym: "dredged channel" NARROW []
+synonym: "fork" NARROW []
+synonym: "gulch" NARROW []
+synonym: "gully" NARROW []
+synonym: "gut" NARROW []
+synonym: "gutter" NARROW []
+synonym: "kill" NARROW []
+synonym: "lode" NARROW []
+synonym: "moat" RELATED []
+synonym: "narrows" NARROW []
+synonym: "narrows" RELATED []
+synonym: "narrows (hydrographic)" RELATED []
+synonym: "overflow channel" NARROW []
+synonym: "passage" NARROW []
+synonym: "pup" NARROW []
+synonym: "race" NARROW []
+synonym: "ravine" NARROW []
+synonym: "reach" NARROW []
+synonym: "rill" NARROW []
+synonym: "rio" NARROW []
+synonym: "rivulet" NARROW []
+synonym: "run" NARROW []
+synonym: "runnel" NARROW []
+synonym: "seachannel" NARROW []
+synonym: "seaway" NARROW []
+synonym: "spillway" NARROW []
+synonym: "stream" NARROW []
+synonym: "tideway" NARROW []
+synonym: "wash" NARROW []
+synonym: "water gap" NARROW []
+synonym: "WATERCOURSE" EXACT []
+synonym: "watercourse" EXACT []
+synonym: "waterway" RELATED []
+is_a: ENVO:01000618 ! lotic water body
+
+[Term]
+id: ENVO:00000062
+name: populated place
+def: "Place or area with clustered or scattered buildings and a permanent human population." []
+synonym: "inhabited place" EXACT []
+synonym: "inhabited region" RELATED []
+synonym: "place" BROAD []
+synonym: "populated locality" RELATED []
+synonym: "populated place" EXACT []
+synonym: "populated places" EXACT []
+synonym: "settlement" RELATED []
+is_a: ENVO:00000070 ! constructed feature
+
+[Term]
+id: ENVO:00000063
+name: water body
+def: "An accumulation of water of varying size." []
+synonym: "aquatic feature" EXACT []
+synonym: "bodies of water" EXACT []
+synonym: "body of water" EXACT []
+synonym: "hydrographic feature" BROAD []
+synonym: "waterbody" EXACT []
+is_a: ENVO:00000000 ! geographic feature
+
+[Term]
+id: ENVO:00000070
+name: constructed feature
+def: "A feature that has been constructed by deliberate human effort." []
+is_a: ENVO:00000002 ! anthropogenic geographic feature
+
+[Term]
+id: ENVO:00000428
+name: biome
+def: "A biome is an environmental system to which resident ecological communities have evolved adaptations." []
+synonym: "ecosystem" RELATED []
+synonym: "EcosytemType" RELATED []
+synonym: "major habitat type" EXACT []
+is_a: ENVO:01000254 ! environmental system
+
+[Term]
+id: ENVO:00000446
+name: terrestrial biome
+def: "A biome that applies to the terrestrial realm." []
+synonym: "terrestrial realm" RELATED []
+is_a: ENVO:00000428 ! biome
+
+[Term]
+id: ENVO:00000856
+name: city
+def: "Incorporated populated place." []
+synonym: "municipality" RELATED []
+synonym: "town" RELATED []
+synonym: "urban area" RELATED []
+synonym: "village" RELATED []
+is_a: ENVO:01000658 ! dense settlement
+
+[Term]
+id: ENVO:00001999
+name: marine water body
+def: "A significant accumulation of water which is part of a marine biome." []
+synonym: "body of marine water" EXACT []
+synonym: "marine waterbody" EXACT []
+is_a: ENVO:01000617 ! lentic water body
+
+[Term]
+id: ENVO:00002001
+name: waste water
+def: "Water that has been adversely affected in quality by anthropogenic influence." []
+is_a: ENVO:00002186 ! contaminated water
+is_a: ENVO:00002264 ! waste material
+
+[Term]
+id: ENVO:00002006
+name: water
+def: "An environmental material primarily composed of dihydrogen oxide in its liquid form." []
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:00002011
+name: fresh water
+synonym: "freshwater" EXACT []
+is_a: ENVO:00002006 ! water
+
+[Term]
+id: ENVO:00002018
+name: sewage
+def: "Wastewater that is contaminated with feces or urine," []
+is_a: ENVO:00002001 ! waste water
+
+[Term]
+id: ENVO:00002186
+name: contaminated water
+synonym: "polluted water" EXACT []
+is_a: ENVO:00002006 ! water
+
+[Term]
+id: ENVO:00002193
+name: pulp-bleaching waste water
+is_a: ENVO:00002001 ! waste water
+
+[Term]
+id: ENVO:00002264
+name: waste material
+def: "A material which is not the desired output of a process and which is typically the input of a process which removes it from its producer (e.g. a disposal process)." []
+is_a: ENVO:0010001 ! anthropogenic environmental material
+
+[Term]
+id: ENVO:00002297
+name: environmental feature
+def: "A material entity which determines an environmental system." []
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: ENVO:00003064
+name: drinking water
+def: "Drinking water is water which may be consumed by humans with no adverse effects on their health." []
+synonym: "potable water" EXACT []
+is_a: ENVO:00002011 ! fresh water
+
+[Term]
+id: ENVO:00010483
+name: environmental material
+def: "A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system." []
+synonym: "portion of environmental material" EXACT []
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: ENVO:0010001
+name: anthropogenic environmental material
+def: "Anthropogenic material in or on which organisms may live." []
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000219
+name: anthropogenic terrestrial biome
+def: "An anthropogenic terrestrial biome is a terrestrial biome which has community structures determined by human activity." []
+is_a: ENVO:00000446 ! terrestrial biome
+
+[Term]
+id: ENVO:01000248
+name: dense settlement biome
+def: "A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use." []
+is_a: ENVO:01000219 ! anthropogenic terrestrial biome
+
+[Term]
+id: ENVO:01000249
+name: urban biome
+def: "An urban biome is a dense settlement biome which has been urbanised." []
+is_a: ENVO:01000248 ! dense settlement biome
+
+[Term]
+id: ENVO:01000254
+name: environmental system
+def: "A system which has the disposition to environ one or more material entities." []
+synonym: "environment" EXACT []
+is_a: RO:0002577 ! system
+
+[Term]
+id: ENVO:01000266
+name: water vapour
+def: "Water vapour is a vapour which is the gas phase of water." []
+synonym: "aqueous vapor" EXACT []
+synonym: "aqueous vapour" EXACT []
+synonym: "water vapor" EXACT []
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000268
+name: atmospheric water vapour
+def: "Atmospheric water vapour is water vapour that is part of an atmosphere." []
+synonym: "atmospheric water vapor" EXACT []
+is_a: ENVO:01000266 ! water vapour
+
+[Term]
+id: ENVO:01000451
+name: atmospheric carbon dioxide
+def: "Atmospheric carbon dioxide is an environmental material composed of carbon dioxide in its gaseous form present in the atmosphere." []
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000537
+name: atmospheric ozone
+def: "Atmospheric ozone is an environmental material primarily composed of ozone in its gaseous form and present in the atmosphere." []
+synonym: "atmospheric ozone" RELATED []
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000617
+name: lentic water body
+def: "A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow." []
+is_a: ENVO:00000063 ! water body
+
+[Term]
+id: ENVO:01000618
+name: lotic water body
+def: "A lotic water body is a water body in which the accumulated water, in its totality, is flowing." []
+is_a: ENVO:00000063 ! water body
+
+[Term]
+id: ENVO:01000629
+name: climate change
+def: "The long-term fluctuations in temperature, precipitation, wind, and all other aspects of the Earth's climate. External processes, such as solar-irradiance variations, variations of the Earth's orbital parameters (eccentricity, precession, and inclination), lithosphere motions, and volcanic activity, are factors in climatic variation. Internal variations of the climate system, e.g., changes in the abundance of greenhouse gases, also may produce fluctuations of sufficient magnitude and variability to explain observed climate change through the feedback processes interrelating the components of the climate system." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000634
+name: volcanic eruption
+def: "A volcanic process is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000653
+name: slum
+def: "A slum is a heavily populated urban informal settlement with substandard housing in which households lack any one of the following: access to improved water, access to improved sanitation, sufficient-living area, durability of housing, or security of tenure." []
+is_a: ENVO:01000658 ! dense settlement
+
+[Term]
+id: ENVO:01000655
+name: explosive eruption
+def: "An explosive eruption is a volcanic process in which pressurised magma is violently expelled and froths into volcanic ash. Explosive eruptions can eject a cloud of rocks, dust, gas, and pyroclastic material  which may then collapse, creating a pyroclastic flow of hot volcanic matter." []
+is_a: ENVO:01000634 ! volcanic eruption
+
+[Term]
+id: ENVO:01000656
+name: effusive eruption
+def: "An effusive eruption is a volcanic eruption during which lava flows onto the ground." []
+is_a: ENVO:01000634 ! volcanic eruption
+
+[Term]
+id: ENVO:01000658
+name: dense settlement
+def: "A settlement with a high density of buildings and inhabitants." []
+is_a: ENVO:00000062 ! populated place
+
+[Term]
+id: ENVO:01000665
+name: waste role
+def: "A role that is realized in some process wherein the bearer is discarded or not utilized further." []
+is_a: BFO:0000023 ! role
+
+[Term]
+id: ENVO:01000677
+name: earthquake
+def: "An earthquake is a process whereby part of the surface of a planet shakes due to the passage of seismic waves through rocks. Seismic waves are produced when some form of energy stored in a planet's crust is suddenly released. Elastic strain, gravity, chemical reactions, or even the motion of massive bodies can produce earthquakes." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000678
+name: tectonic earthquake
+def: "A tectonic earthquake is an earthquake caused by the release of elastic strain. A tectonic earthquake occurs when strains in rock masses have accumulated to a point where the resulting stresses exceed the strength of the rocks, and sudden fracturing results." []
+is_a: ENVO:01000677 ! earthquake
+
+[Term]
+id: ENVO:01000679
+name: megathrust earthquake
+def: "A megathrust earthquake is a tectonic earthquake which occurs at subduction zones at destructive plate boundaries (convergent boundaries). These interplate earthquakes are the planet's most powerful, with moment magnitudes that can exceed 9.0." []
+is_a: ENVO:01000678 ! tectonic earthquake
+
+[Term]
+id: ENVO:01000680
+name: polluted lake
+def: "A lake which has concentrations of environmental contaminants high enough to harm the ecosystems associated with it." []
+is_a: ENVO:00000020 ! lake
+
+[Term]
+id: ENVO:01000687
+name: coast
+def: "A coast is the area where land meets the sea, ocean, or lake." []
+is_a: ENVO:00000000 ! geographic feature
+
+[Term]
+id: ENVO:01000689
+name: tsunami
+def: "A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami." []
+synonym: "seismic sea wave" EXACT []
+synonym: "tidal wave" EXACT []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000690
+name: mass wasting
+def: "Mass wasting is the geomorphic process by which solid environmental material such as soil, sand, regolith, and/or rock move downslope typically as a mass, largely under the force of gravity, but frequently affected by water and water content as in submarine environments and mudslides." []
+synonym: "mass movement" BROAD []
+synonym: "slope movement" EXACT []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000691
+name: avalanche
+def: "An avalanche is a rapid flow of snow down a sloping surface." []
+synonym: "snowslide" EXACT []
+synonym: "snowslip" EXACT []
+is_a: ENVO:01000696 ! mass wasting flow
+
+[Term]
+id: ENVO:01000692
+name: landslide process
+def: "A landslide is a process whereby a large mass of earth and rocks moves down a hill or a mountainside." []
+synonym: "landslip" EXACT []
+is_a: ENVO:01000690 ! mass wasting
+
+[Term]
+id: ENVO:01000693
+name: rockfall
+is_a: ENVO:01000690 ! mass wasting
+
+[Term]
+id: ENVO:01000694
+name: geological subsidence
+def: "A subsidence process is a geomorphologic process in which a surface shifts downward relative to a datum such as sea-level." []
+synonym: "subsidence" BROAD []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000695
+name: mudslide
+is_a: ENVO:01000690 ! mass wasting
+
+[Term]
+id: ENVO:01000696
+name: mass wasting flow
+def: "A mass wasting flow is a form of mass wasting during which the moving materials behave similarly to a flowing fluid. Water, air and ice are often involved in enabling fluidlike motion of the material." []
+synonym: "flow" BROAD []
+is_a: ENVO:01000690 ! mass wasting
+
+[Term]
+id: ENVO:01000697
+name: mudflow
+def: "A mudflow is a form of mass wasting which involves very rapid to extremely rapid surging flow of debris that has become partially or fully liquified by the addition of significant amounts of water to clay-rich source material." []
+synonym: "mud flow" EXACT []
+is_a: ENVO:01000696 ! mass wasting flow
+
+[Term]
+id: ENVO:01000698
+name: debris flow
+is_a: ENVO:01000696 ! mass wasting flow
+
+[Term]
+id: ENVO:01000699
+name: lahar
+def: "A lahar is a type of mudflow or debris flow composed of a slurry of pyroclastic material, rocky debris, and water. The material flows down from a volcano, typically along a river valley." []
+is_a: ENVO:01000697 ! mudflow
+
+[Term]
+id: ENVO:01000700
+name: sturzstrom
+def: "A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop — as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen." []
+is_a: ENVO:01000692 ! landslide process
+
+[Term]
+id: ENVO:01000702
+name: ash fall process
+def: "An ash fall process is a process in which volcanic ash formed during an explosive volcanic eruption, phreatomagmatic eruption, or during material transport in pyroclastic density currents is pulled towards the planetary surface by gravity." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000707
+name: coastal flooding
+def: "Coastal flooding is a process in which normally dry, low-lying land near a coast is flooded by sea water." []
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000708
+name: riverine flooding
+def: "Riverine flooding is a process in which the flow rate of river water exceeds the capacity of its channel, thus flooding neighbouring land. Bends and meanders in a river channel are particularly disposed to such flooding." []
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000709
+name: flash flooding
+def: "Flash flooding is a process in which low-lying land is inundated with water for a short period of time and are usually the result of precipitation or a breach in the container of a water body." []
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000710
+name: flood
+def: "An unusual accumulation of water above the ground caused by high tide, heavy rain, melting snow or rapid runoff from paved areas." []
+is_a: ENVO:00000063 ! water body
+
+[Term]
+id: ENVO:01000711
+name: coastal flood
+def: "A coastal flood is a flood which is formed as a result of large amounts of water from marine water bodies or large lakes being transported to usually dry land by displacement processes such as high winds or seismic activity." []
+is_a: ENVO:01000710 ! flood
+
+[Term]
+id: ENVO:01000712
+name: riverine flood
+def: "A riverine flood is a flood which is formed as a result of a river's flow rate exceeding the capacity of its channel." []
+is_a: ENVO:01000710 ! flood
+
+[Term]
+id: ENVO:01000713
+name: flash flood
+def: "A flash flood is a flood formed by the rapid flooding of geomorphic low-lying areas. It may be caused by heavy rain associated with a severe thunderstorm, hurricane, tropical storm, or meltwater from ice or snow flowing over ice sheets or snowfields. Flash floods may also occur after the collapse of a natural ice or debris dam, or a human structure such as a man-made dam. Flash floods are distinguished from a regular flood by a timescale of less than six hours." []
+is_a: ENVO:01000710 ! flood
+
+[Term]
+id: ENVO:01000714
+name: storm surge
+def: "A storm surge is a coastal flood which is caused by low-pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides." []
+is_a: ENVO:01000711 ! coastal flood
+
+[Term]
+id: ENVO:01000715
+name: metotsunami
+def: "A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure." []
+is_a: ENVO:01000689 ! tsunami
+
+[Term]
+id: ENVO:01000716
+name: storm surge process
+def: "A storm surge process is a coastal flooding process which is caused by low pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides." []
+is_a: ENVO:01000707 ! coastal flooding
+
+[Term]
+id: ENVO:01000717
+name: areal flooding
+def: "Areal flooding is a flooding process in which flat or low-lying areas become inundated with water due to water input exceeding infiltration, evaporation, or run off." []
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000718
+name: urban flooding
+def: "Urban flooding is a flooding process in which land or property in a built environment, particularly in more densely populated areas, is inundated due to the rate of water input exceeding that of water drainage provided by the environment's drainage systems." []
+is_a: ENVO:02500002 ! flooding
+
+[Term]
+id: ENVO:01000730
+name: lava flow process
+def: "A process in which a volume of lava emitted during an effusive eruption moves along a solid surface." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01000744
+name: human dwelling
+def: "A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other 'substantial' structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any 'open fields beyond'. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning." []
+is_a: ENVO:00000070 ! constructed feature
+
+[Term]
+id: ENVO:02500000
+name: environmental system process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: ENVO:02500001
+name: desertification
+def: "a type of land degradation in which a relatively dry land region becomes increasingly arid, typically losing its bodies of water as well as vegetation and wildlife." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500002
+name: flooding
+def: "A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500005
+name: land degradation
+def: "A process which diminishes the functioning of an ecosystem located on land." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500011
+name: afforestation
+def: "Establishment of a new forest by seeding or planting of nonforested land." []
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500012
+name: deforestation
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500013
+name: reforestation
+def: "The planting of trees in areas in where forests have previously been cleared." []
+is_a: ENVO:02500032 ! revegetation
+
+[Term]
+id: ENVO:02500017
+name: anthropogenic reforestation
+is_a: ENVO:02500013 ! reforestation
+is_a: ENVO:02500027 ! anthropogenic environmental process
+
+[Term]
+id: ENVO:02500027
+name: anthropogenic environmental process
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:02500032
+name: revegetation
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: IAO:0000003
+name: measurement unit label
+is_a: IAO:0000009 ! datum label
+
+[Term]
+id: IAO:0000005
+name: objective specification
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000007
+name: action specification
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000009
+name: datum label
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000010
+name: software
+is_a: IAO:0000104 ! plan specification
+
+[Term]
+id: IAO:0000015
+name: information carrier
+is_a: BFO:0000019 ! quality
+intersection_of: BFO:0000019 ! quality
+intersection_of: RO:0000059 IAO:0000030 ! concretizes information content entity
+
+[Term]
+id: IAO:0000027
+name: data item
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000030
+name: information content entity
+is_a: BFO:0000031 ! generically dependent continuant
+relationship: IAO:0000136 BFO:0000001 ! is about entity
+
+[Term]
+id: IAO:0000033
+name: directive information entity
+is_a: IAO:0000030 ! information content entity
+relationship: IAO:0000136 BFO:0000017 ! is about realizable entity
+
+[Term]
+id: IAO:0000037
+name: dot plot
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000038
+name: graph
+is_a: IAO:0000309 ! diagram
+
+[Term]
+id: IAO:0000064
+name: algorithm
+is_a: IAO:0000104 ! plan specification
+
+[Term]
+id: IAO:0000078
+name: curation status specification
+is_a: IAO:0000102 ! data about an ontology part
+
+[Term]
+id: IAO:0000098
+name: data format specification
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000100
+name: data set
+is_a: IAO:0000027 ! data item
+
+[Term]
+id: IAO:0000101
+name: image
+is_a: IAO:0000308 ! figure
+
+[Term]
+id: IAO:0000102
+name: data about an ontology part
+is_a: IAO:0000027 ! data item
+
+[Term]
+id: IAO:0000104
+name: plan specification
+is_a: IAO:0000033 ! directive information entity
+relationship: BFO:0000051 IAO:0000005 ! has part objective specification
+relationship: BFO:0000051 IAO:0000007 ! has part action specification
+
+[Term]
+id: IAO:0000109
+name: measurement datum
+is_a: IAO:0000027 ! data item
+
+[Term]
+id: IAO:0000178
+name: material information bearer
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: IAO:0000179
+name: histogram
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000180
+name: heatmap
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000183
+name: dendrogram
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000184
+name: scatter plot
+is_a: IAO:0000038 ! graph
+
+[Term]
+id: IAO:0000225
+name: obsolescence reason specification
+is_a: IAO:0000102 ! data about an ontology part
+
+[Term]
+id: IAO:0000308
+name: figure
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000309
+name: diagram
+is_a: IAO:0000308 ! figure
+
+[Term]
+id: IAO:0000310
+name: document
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000409
+name: denotator type
+is_a: IAO:0000102 ! data about an ontology part
+
+[Term]
+id: IAO:0000572
+name: documenting
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 IAO:0000030 ! has_specified_input information content entity
+relationship: OBI:0000299 IAO:0000310 ! has_specified_output document
+
+[Term]
+id: NCBITaxon:1
+name: root
+synonym: "all" RELATED []
+
+[Term]
+id: NCBITaxon:10239
+name: Viruses
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:117570
+name: Teleostomi
+is_a: NCBITaxon:7776 ! Gnathostomata <vertebrate>
+
+[Term]
+id: NCBITaxon:117571
+name: Euteleostomi
+synonym: "bony vertebrates" EXACT []
+is_a: NCBITaxon:117570 ! Teleostomi
+
+[Term]
+id: NCBITaxon:131567
+name: cellular organisms
+synonym: "biota" RELATED []
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:1338369
+name: Dipnotetrapodomorpha
+is_a: NCBITaxon:8287 ! Sarcopterygii
+
+[Term]
+id: NCBITaxon:1437010
+name: Boreoeutheria
+synonym: "Boreotheria" RELATED []
+is_a: NCBITaxon:9347 ! Eutheria
+
+[Term]
+id: NCBITaxon:2
+name: Bacteria
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:207598
+name: Homininae
+synonym: "Homo/Pan/Gorilla group" RELATED []
+is_a: NCBITaxon:9604 ! Hominidae
+
+[Term]
+id: NCBITaxon:2157
+name: Archaea
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+synonym: "Eucarya" RELATED []
+synonym: "Eucaryotae" RELATED []
+synonym: "eucaryotes" EXACT []
+synonym: "Eukarya" RELATED []
+synonym: "Eukaryotae" RELATED []
+synonym: "eukaryotes" EXACT []
+synonym: "eukaryotes" RELATED []
+is_a: NCBITaxon:131567 ! cellular organisms
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:314146
+name: Euarchontoglires
+is_a: NCBITaxon:1437010 ! Boreoeutheria
+
+[Term]
+id: NCBITaxon:314293
+name: Simiiformes
+synonym: "Anthropoidea" RELATED []
+is_a: NCBITaxon:376913 ! Haplorrhini
+
+[Term]
+id: NCBITaxon:314295
+name: Hominoidea
+synonym: "ape" EXACT []
+synonym: "apes" EXACT []
+is_a: NCBITaxon:9526 ! Catarrhini
+
+[Term]
+id: NCBITaxon:32523
+name: Tetrapoda
+synonym: "tetrapods" EXACT []
+is_a: NCBITaxon:1338369 ! Dipnotetrapodomorpha
+
+[Term]
+id: NCBITaxon:32524
+name: Amniota
+synonym: "amniotes" EXACT []
+is_a: NCBITaxon:32523 ! Tetrapoda
+
+[Term]
+id: NCBITaxon:32525
+name: Theria <Mammalia>
+synonym: "Theria" EXACT []
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:33154
+name: Opisthokonta
+synonym: "Fungi/Metazoa group" RELATED []
+synonym: "opisthokonts" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33208
+name: Metazoa
+synonym: "Animalia" RELATED []
+synonym: "animals" RELATED []
+synonym: "metazoans" EXACT []
+synonym: "multicellular animals" EXACT []
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:33213
+name: Bilateria
+is_a: NCBITaxon:6072 ! Eumetazoa
+
+[Term]
+id: NCBITaxon:33511
+name: Deuterostomia
+synonym: "deuterostomes" EXACT []
+is_a: NCBITaxon:33213 ! Bilateria
+
+[Term]
+id: NCBITaxon:376913
+name: Haplorrhini
+is_a: NCBITaxon:9443 ! Primates
+
+[Term]
+id: NCBITaxon:40674
+name: Mammalia
+synonym: "mammals" EXACT []
+synonym: "mammals" RELATED []
+is_a: NCBITaxon:32524 ! Amniota
+
+[Term]
+id: NCBITaxon:6072
+name: Eumetazoa
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:7711
+name: Chordata
+synonym: "chordates" EXACT []
+synonym: "chordates" RELATED []
+is_a: NCBITaxon:33511 ! Deuterostomia
+
+[Term]
+id: NCBITaxon:7742
+name: Vertebrata <Metazoa>
+synonym: "Vertebrata" EXACT []
+synonym: "vertebrates" EXACT []
+synonym: "vertebrates" RELATED []
+is_a: NCBITaxon:89593 ! Craniata <chordata>
+
+[Term]
+id: NCBITaxon:7776
+name: Gnathostomata <vertebrate>
+synonym: "Gnathostomata" EXACT []
+synonym: "jawed vertebrates" EXACT []
+is_a: NCBITaxon:7742 ! Vertebrata <Metazoa>
+
+[Term]
+id: NCBITaxon:8287
+name: Sarcopterygii
+is_a: NCBITaxon:117571 ! Euteleostomi
+
+[Term]
+id: NCBITaxon:89593
+name: Craniata <chordata>
+synonym: "Craniata" EXACT []
+is_a: NCBITaxon:7711 ! Chordata
+
+[Term]
+id: NCBITaxon:9347
+name: Eutheria
+synonym: "eutherian mammals" EXACT []
+synonym: "placental mammals" EXACT []
+synonym: "Placentalia" RELATED []
+synonym: "placentals" EXACT []
+synonym: "placentals" RELATED []
+is_a: NCBITaxon:32525 ! Theria <Mammalia>
+
+[Term]
+id: NCBITaxon:9443
+name: Primates
+synonym: "Primata" RELATED []
+synonym: "primate" EXACT []
+synonym: "primates" RELATED []
+is_a: NCBITaxon:314146 ! Euarchontoglires
+
+[Term]
+id: NCBITaxon:9526
+name: Catarrhini
+is_a: NCBITaxon:314293 ! Simiiformes
+
+[Term]
+id: NCBITaxon:9604
+name: Hominidae
+synonym: "great apes" EXACT []
+synonym: "Pongidae" RELATED []
+is_a: NCBITaxon:314295 ! Hominoidea
+
+[Term]
+id: NCBITaxon:9605
+name: Homo
+is_a: NCBITaxon:207598 ! Homininae
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+synonym: "human" EXACT []
+synonym: "man" EXACT []
+is_a: NCBITaxon:9605 ! Homo
+
+[Term]
+id: OBI:0000011
+name: planned process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: OBI:0000014
+name: regulator role
+is_a: OBI:0000017 ! regulatory role
+
+[Term]
+id: OBI:0000017
+name: regulatory role
+is_a: BFO:0000023 ! role
+
+[Term]
+id: OBI:0000018
+name: material supplier role
+is_a: OBI:0000947 ! service provider role
+
+[Term]
+id: OBI:0000023
+name: classified data set
+is_a: IAO:0000100 ! data set
+
+[Term]
+id: OBI:0000047
+name: processed material
+is_a: BFO:0000040 ! material entity
+intersection_of: BFO:0000040 ! material entity
+intersection_of: OBI:0000312 OBI:0000094 ! is_specified_output_of material processing
+
+[Term]
+id: OBI:0000066
+name: investigation
+is_a: OBI:0000011 ! planned process
+relationship: BFO:0000051 IAO:0000572 ! has part documenting
+relationship: BFO:0000051 OBI:0000338 ! has part drawing a conclusion based on data
+relationship: BFO:0000051 OBI:0000471 ! has part study design execution
+
+[Term]
+id: OBI:0000094
+name: material processing
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
+relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
+relationship: OBI:0000299 BFO:0000040 ! has_specified_output material entity
+relationship: OBI:0000299 OBI:0000047 ! has_specified_output processed material
+
+[Term]
+id: OBI:0000202
+name: investigation agent role
+is_a: BFO:0000023 ! role
+relationship: BFO:0000054 OBI:0000066 ! realized in investigation
+
+[Term]
+id: OBI:0000245
+name: organization
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: OBI:0000272
+name: protocol
+is_a: IAO:0000104 ! plan specification
+
+[Term]
+id: OBI:0000338
+name: drawing a conclusion based on data
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+relationship: OBI:0000299 OBI:0001909 ! has_specified_output conclusion based on data
+
+[Term]
+id: OBI:0000339
+name: planning
+is_a: BFO:0000015 ! process
+
+[Term]
+id: OBI:0000450
+name: regulatory agency
+is_a: OBI:0000245 ! organization
+intersection_of: OBI:0000245 ! organization
+intersection_of: RO:0000087 OBI:0000014 ! has role regulator role
+
+[Term]
+id: OBI:0000456
+name: material transformation objective
+is_a: IAO:0000005 ! objective specification
+
+[Term]
+id: OBI:0000457
+name: manufacturing
+is_a: OBI:0000094 ! material processing
+relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
+relationship: OBI:0000299 OBI:0000047 ! has_specified_output processed material
+
+[Term]
+id: OBI:0000458
+name: manufacturing objective
+is_a: OBI:0000456 ! material transformation objective
+
+[Term]
+id: OBI:0000471
+name: study design execution
+is_a: OBI:0000011 ! planned process
+
+[Term]
+id: OBI:0000571
+name: manufacturer role
+is_a: BFO:0000023 ! role
+relationship: BFO:0000054 OBI:0000457 ! realized in manufacturing
+
+[Term]
+id: OBI:0000648
+name: clustered data set
+is_a: IAO:0000100 ! data set
+
+[Term]
+id: OBI:0000663
+name: class prediction data transformation
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0000700
+name: support vector machine
+is_a: OBI:0000663 ! class prediction data transformation
+relationship: OBI:0000417 OBI:0200179 ! achieves_planned_objective class prediction objective
+
+[Term]
+id: OBI:0000704
+name: decision tree induction objective
+is_a: OBI:0200166 ! data transformation objective
+
+[Term]
+id: OBI:0000707
+name: decision tree building data transformation
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0000713
+name: GenePattern software
+is_a: IAO:0000010 ! software
+
+[Term]
+id: OBI:0000726
+name: peak matching
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0000727
+name: k-nearest neighbors
+is_a: OBI:0200171 ! partitioning data transformation
+is_a: OBI:0200175 ! class discovery data transformation
+relationship: OBI:0000299 OBI:0000648 ! has_specified_output clustered data set
+relationship: OBI:0000417 OBI:0200172 ! achieves_planned_objective partitioning objective
+relationship: OBI:0000417 OBI:0200178 ! achieves_planned_objective class discovery objective
+
+[Term]
+id: OBI:0000749
+name: CART
+is_a: OBI:0000707 ! decision tree building data transformation
+relationship: OBI:0000417 OBI:0000704 ! achieves_planned_objective decision tree induction objective
+
+[Term]
+id: OBI:0000792
+name: statistical model validation
+is_a: OBI:0200171 ! partitioning data transformation
+
+[Term]
+id: OBI:0000835
+name: manufacturer
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: OBI:0000947
+name: service provider role
+is_a: BFO:0000023 ! role
+relationship: BFO:0000054 OBI:0000011 ! realized in planned process
+
+[Term]
+id: OBI:0000963
+name: categorical label
+is_a: IAO:0000009 ! datum label
+
+[Term]
+id: OBI:0001000
+name: questionnaire
+is_a: IAO:0000310 ! document
+
+[Term]
+id: OBI:0001909
+name: conclusion based on data
+is_a: IAO:0000030 ! information content entity
+relationship: OBI:0000124 IAO:0000027 ! is_supported_by_data data item
+relationship: OBI:0000312 OBI:0000338 ! is_specified_output_of drawing a conclusion based on data
+
+[Term]
+id: OBI:0100026
+name: organism
+is_a: BFO:0000040 ! material entity
+union_of: NCBITaxon:10239 ! Viruses
+union_of: NCBITaxon:2 ! Bacteria
+union_of: NCBITaxon:2157 ! Archaea
+union_of: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: OBI:0200000
+name: data transformation
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+relationship: OBI:0000299 IAO:0000027 ! has_specified_output data item
+relationship: OBI:0000299 IAO:0000027 ! has_specified_output data item
+
+[Term]
+id: OBI:0200033
+name: leave one out cross validation method
+is_a: OBI:0000792 ! statistical model validation
+relationship: OBI:0000417 OBI:0200188 ! achieves_planned_objective cross validation objective
+
+[Term]
+id: OBI:0200041
+name: k-means clustering
+is_a: OBI:0200171 ! partitioning data transformation
+is_a: OBI:0200175 ! class discovery data transformation
+relationship: OBI:0000299 OBI:0000648 ! has_specified_output clustered data set
+relationship: OBI:0000417 OBI:0200172 ! achieves_planned_objective partitioning objective
+relationship: OBI:0000417 OBI:0200178 ! achieves_planned_objective class discovery objective
+
+[Term]
+id: OBI:0200042
+name: hierarchical clustering
+is_a: OBI:0200175 ! class discovery data transformation
+relationship: OBI:0000299 OBI:0000648 ! has_specified_output clustered data set
+relationship: OBI:0000417 OBI:0200178 ! achieves_planned_objective class discovery objective
+
+[Term]
+id: OBI:0200050
+name: dimensionality reduction
+is_a: OBI:0200175 ! class discovery data transformation
+relationship: OBI:0000299 OBI:0000648 ! has_specified_output clustered data set
+relationship: OBI:0000417 OBI:0200178 ! achieves_planned_objective class discovery objective
+
+[Term]
+id: OBI:0200051
+name: principal components analysis dimensionality reduction
+is_a: OBI:0200050 ! dimensionality reduction
+
+[Term]
+id: OBI:0200111
+name: data visualization
+is_a: OBI:0000011 ! planned process
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
+
+[Term]
+id: OBI:0200166
+name: data transformation objective
+is_a: IAO:0000005 ! objective specification
+
+[Term]
+id: OBI:0200171
+name: partitioning data transformation
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0200172
+name: partitioning objective
+is_a: OBI:0200166 ! data transformation objective
+
+[Term]
+id: OBI:0200175
+name: class discovery data transformation
+is_a: OBI:0200000 ! data transformation
+
+[Term]
+id: OBI:0200178
+name: class discovery objective
+is_a: OBI:0200166 ! data transformation objective
+
+[Term]
+id: OBI:0200179
+name: class prediction objective
+is_a: OBI:0200166 ! data transformation objective
+
+[Term]
+id: OBI:0200188
+name: cross validation objective
+is_a: OBI:0200172 ! partitioning objective
+
+[Term]
+id: OBI:0200190
+name: clustered data visualization
+is_a: OBI:0200111 ! data visualization
+relationship: OBI:0000293 OBI:0000648 ! has_specified_input clustered data set
+
+[Term]
+id: OBI:0500000
+name: study design
+is_a: IAO:0000104 ! plan specification
+relationship: BFO:0000051 OBI:0000272 ! has part protocol
+
+[Term]
+id: PATO:0000001
+name: quality
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
+synonym: "trait" EXACT []
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: PATO:0000011
+name: age
+def: "A time quality inhering in a bearer by virtue of how long the bearer has existed." [WordNet:WordNet]
+is_a: PATO:0000165 ! time
+
+[Term]
+id: PATO:0000051
+name: morphology
+is_a: BFO:0000019 ! quality
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0000052
+name: shape
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000140
+name: position
+def: "A spatial quality inhering in a bearer by virtue of the bearer's spatial location relative to other objects in the vicinity." [PATOC:GVG]
+synonym: "location" EXACT []
+synonym: "placement" EXACT []
+synonym: "relational spatial quality" EXACT []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000165
+name: time
+def: "A quality in which events occur in sequence." [PATOC:GVG]
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000186
+name: behavioral quality
+is_a: PATO:0001237 ! quality of a single physical entity
+
+[Term]
+id: PATO:0000308
+name: old
+def: "An age which is relatively high." [PATOC:GVG]
+is_a: PATO:0000011 ! age
+
+[Term]
+id: PATO:0000309
+name: young
+def: "An age which is relatively low." [PATOC:GVG]
+is_a: PATO:0000011 ! age
+
+[Term]
+id: PATO:0001018
+name: physical quality
+def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." [PATOC:GVG]
+synonym: "relational physical quality" EXACT []
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001199
+name: linear
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0001237
+name: quality of a single physical entity
+is_a: BFO:0000019 ! quality
+
+[Term]
+id: PATO:0001241
+name: physical object quality
+def: "A quality which inheres in a continuant." [PATOC:GVG]
+synonym: "monadic quality of a continuant" EXACT []
+synonym: "monadic quality of an object" NARROW []
+synonym: "monadic quality of continuant" NARROW []
+synonym: "multiply inhering quality of a physical entity " EXACT []
+synonym: "quality of a continuant" EXACT []
+synonym: "quality of a single physical entity" EXACT []
+synonym: "quality of an object" EXACT []
+synonym: "quality of continuant" EXACT []
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001546
+name: quality of a solid
+def: "A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable." [Chemistry:http\://chemistry.about.com/od/chemistryglossary/a/soliddefinition.htm]
+synonym: "solidity" EXACT []
+is_a: PATO:0002198 ! quality of a substance
+
+[Term]
+id: PATO:0001547
+name: quality of a gas
+def: "A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape." [Chemistry:http\://chemistry.about.com/od/chemistryglossary/a/gasdefinition.htm, PATOC:GVG]
+synonym: "gaseous" EXACT []
+is_a: PATO:0002198 ! quality of a substance
+
+[Term]
+id: PATO:0001548
+name: quality of a liquid
+def: "A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape." [url:http\://www.chemistry-dictionary.com/definition/liquid.php]
+synonym: "liquidity" EXACT []
+is_a: PATO:0002198 ! quality of a substance
+
+[Term]
+id: PATO:0001598
+name: protruding
+def: "A quality inhering in a bearer by virtue of the bearer's extending out above or beyond a surface or boundary." [WordNet:WordNet]
+synonym: "protruding " EXACT []
+synonym: "relational protruding quality" EXACT []
+is_a: PATO:0000140 ! position
+
+[Term]
+id: PATO:0001646
+name: protruding out of
+def: "A quality inhering into a bearer by virtue of the bearer's extending out above or beyond its surface or boundary and outwards in relation to the physical space occupied by another entity." [PATOC:nc]
+synonym: "exits through" RELATED []
+synonym: "exposed" RELATED []
+synonym: "extruding from" EXACT []
+is_a: PATO:0001598 ! protruding
+
+[Term]
+id: PATO:0002138
+name: edibility
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to being fit to be eaten." [PATOC:VO]
+synonym: "edibleness" EXACT []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0002198
+name: quality of a substance
+def: "A quality inhering in a bearer by virtue of its constitution." [PATOC:GVG]
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0002201
+name: handedness
+is_a: PATO:0000186 ! behavioral quality
+
+[Term]
+id: PATO:0002202
+name: left handedness
+is_a: PATO:0002201 ! handedness
+
+[Term]
+id: PATO:0002203
+name: right handedness
+is_a: PATO:0002201 ! handedness
+
+[Term]
+id: PATO:0002204
+name: ambidextrous handedness
+is_a: PATO:0002201 ! handedness
+
+[Term]
+id: PCO:0000000
+name: collection of organisms
+def: "A material entity that consists of two or more organisms, viruses, or viroids." []
+
+[Term]
+id: PCO:0000002
+name: ecological community
+def: "A collection of organisms of at least two different species, living in a particular area." []
+is_a: PCO:0000000 ! collection of organisms
+
+[Term]
+id: RO:0002577
+name: system
+def: "A material entity consisting of multiple components that are causally integrated." []
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: SDGIO:00000000
+name: sustainable development goal
+def: "An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030 plan specification." []
+comment: Draft.
+is_a: IAO:0000005 ! objective specification
+
+[Term]
+id: SDGIO:00000001
+name: sustainable development target
+def: "A threshold value of a sustainable development indicator or a set of threshold values of several such indicators towards or beyond which corresponding indicator values from a socio-economic-environmental system should tend in order to meet a sustainable development goal." []
+comment: Draft.
+
+[Term]
+id: SDGIO:00000002
+name: sustainable development indicator
+def: "A state of one or more parts of a socio-economic-environmental system which represents the state of the entire system." []
+comment: Draft. the "state" must be clarified. Possibly a factor of the parts of the subsystem and their qualities.
+
+[Term]
+id: SDGIO:00000003
+name: sustainable development goal indicator value
+def: "A data item which represents a sustainable development goal indicator in some quantitative or qualitative system of measurement." []
+comment: DRAFT
+is_a: IAO:0000027 ! data item
+
+[Term]
+id: SDGIO:00000004
+name: sustainable development process
+def: "A process in which the parts of a socio-economic-environmental system, as well as their interactions and qualities, transition to meet one or more sustainable development goals." []
+comment: Draft.
+is_a: BFO:0000015 ! process
+
+[Term]
+id: SDGIO:00000005
+name: access system
+def: "An environmental system which provides access to some resource. That is, the system has the disposition to physically provide and allow use of a given resource and allows the user of that resource to exercise their right and permission to access the resource." []
+comment: Draft.
+is_a: ENVO:01000254 ! environmental system
+
+[Term]
+id: SDGIO:00000006
+name: sustainable access system
+def: "A system that provides access to some resource in a sustainable manner. That is, the system provides someone or something the ability, right, and permission to approach and use some resource in a way that will not irreversibly exhaust the resources on which the system depends." []
+comment: Draft.
+is_a: SDGIO:00000005 ! access system
+
+[Term]
+id: SDGIO:00000007
+name: access
+def: "A disposition that inheres in a person or population who bears the ability, right, and permission to approach and use an accessible resource." []
+is_a: BFO:0000016 ! disposition
+property_value: IAO:0000116 "It is not clear if 'access' is a subclass of 'disposition' or a sibling to 'disposition'. How to best express the reciprocal dependence of an entity’s ability to access and a resource’s accessibility, along with an access system, including the right and permission, is still under development. Refer to https://github.com/SDG-InterfaceOntology/sdgio/issues/57" xsd:string
+
+[Term]
+id: SDGIO:00000008
+name: right of access
+def: "A disposition of a human societal system to recognise and protect, through various means, the ability of an entity to approach and use a resource." []
+is_a: BFO:0000016 ! disposition
+property_value: IAO:0000116 "Must be aligned with an upper-level ontology.\nBelongs under a general class 'right'." xsd:string
+
+[Term]
+id: SDGIO:00000009
+name: ability to access
+def: "The disposition of an environmental system to physically provide a resource to the consumer or user of that resource." []
+is_a: BFO:0000016 ! disposition
+property_value: IAO:0000116 "Must be aligned with an upper-level ontology. The physical ability to approach and use a resource. Someone may have the right and permission to access water in a well, but if the pump is broken, they lack the physical ability to access the water." xsd:string
+
+[Term]
+id: SDGIO:00000010
+name: permission to access
+def: "A disposition of an environmental system to allow an entity to approach and use a resource." []
+is_a: BFO:0000016 ! disposition
+property_value: IAO:0000116 "Must be aligned with an upper-level ontology. Permission is similar to right, except that permission is not granted by a legal authority but controlled by individuals or populations. e.g. someone may have the right to access a well, but someone else may stop them from approaching it. Further, one need not have the right of access for a given resource in order to have the permission to access that resource." xsd:string
+
+[Term]
+id: SDGIO:00000011
+name: use of a resource
+def: "A process in which a resource is consumed or confers some benefit to the user." []
+comment: Draft.
+is_a: BFO:0000015 ! process
+property_value: IAO:0000116 "Must be aligned with an upper-level ontology. Unclear whether the resource must confer advantage to a user - the user may not be consuming the entity as a resource (i.e. triggering its resource disposition)." xsd:string
+
+[Term]
+id: SDGIO:00000012
+name: approaching a resource
+def: "A process in which a potential consumer of a resource decreases their spatial distance to that resource, acting out of the right, permission, and ability of access." []
+comment: Draft. Unclear if only spatial proximity should be considered here. Also, a consumer need not have the right or permission of access to approach a resource.
+is_a: BFO:0000015 ! process
+property_value: IAO:0000116 "Must be aligned with an upper-level ontology." xsd:string
+
+[Term]
+id: SDGIO:00000013
+name: resource
+def: "A material or immaterial entity which may confer benefit to its user or consumer." []
+is_a: BFO:0000004 ! independent continuant
+property_value: IAO:0000116 "In this case, the entity to which access is sought. May be a material entity (food, clean air, secure housing, legal system), a service/process (health care, transportation, banking), or information." xsd:string
+
+[Term]
+id: SDGIO:00000014
+name: exposure
+def: "A process in which the processes executed by one entity are causally connected to those executed by another." []
+is_a: BFO:0000015 ! process
+property_value: IAO:0000116 "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely." xsd:string
+property_value: IAO:0000116 "This class may be replaced by a class in EXO, pending a clarification on the scope of its meaning. Right now it is essentially the same as interaction. See https://github.com/SDG-InterfaceOntology/sdgio/issues/21" xsd:string
+
+[Term]
+id: SDGIO:00000015
+name: exposure to flood
+def: "An exposure process in which an the processes executed by an entity are causally connected to those executed by a flood." []
+is_a: SDGIO:00000014 ! exposure
+relationship: RO:0000057 ENVO:01000710 ! has participant flood
+property_value: IAO:0000116 "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely." xsd:string
+
+[Term]
+id: SDGIO:00000016
+name: exposure to coastal flood
+def: "An exposure process in which the processes executed by an entity are causally connected to those executed by a coastal flood." []
+is_a: SDGIO:00000015 ! exposure to flood
+relationship: RO:0000057 ENVO:01000711 ! has participant coastal flood
+property_value: IAO:0000116 "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely." xsd:string
+
+[Term]
+id: SDGIO:00000017
+name: exposure to contaminated environmental material
+def: "An exposure process in which an the processes executed by an entity are causally connected to those executed by a portion of contaminated environmental material." []
+is_a: SDGIO:00000014 ! exposure
+relationship: RO:0000057 ENVO:00010483 ! has participant environmental material
+property_value: IAO:0000116 "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely." xsd:string
+
+[Term]
+id: SDGIO:00000018
+name: exposure to contaminated water
+def: "An exposure process in which an the processes executed by an entity are causally connected to those executed by a portion of contaminated water." []
+is_a: SDGIO:00000017 ! exposure to contaminated environmental material
+relationship: RO:0000057 ENVO:00002186 ! has participant contaminated water
+property_value: IAO:0000116 "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely." xsd:string
+
+[Term]
+id: SDGIO:00000019
+name: exposure to contaminated lake flood
+def: "An exposure process in which an the processes executed by an entity are causally connected to those executed by the floodwaters of a contaminated lake." []
+is_a: SDGIO:00000016 ! exposure to coastal flood
+relationship: BFO:0000051 SDGIO:00000018 ! has part exposure to contaminated water
+property_value: IAO:0000116 "Draft def and class for demo purposes. The semantics of this class are being discussed and are very likely to change. Obsolescence is likely. The relation to contaminated water should be 'composed primarily of'. To be imported." xsd:string
+
+[Term]
+id: SDGIO:00000020
+name: risk
+def: "A disposition of a bearer to realise one or more of its vulnerabilities when participating in a process which exposes the bearer to one or more corresponding hazards." []
+comment: Risk is increased when harm or damage is realised and when an entity is likely to encounter a hazard in some process.  The probability of this disposition being realised can be assigned on the information or data level.
+is_a: BFO:0000016 ! disposition
+property_value: IAO:0000116 "Draft class. See Issue #22." xsd:string
+
+[Term]
+id: SDGIO:00000021
+name: hazard disposition
+def: "A disposition of an entity to cause harm or damage to another entity." []
+comment: Draft.
+is_a: BFO:0000016 ! disposition
+property_value: IAO:0000116 "Many things can have some degree of a 'hazard disposition' (e.g. the floor, a glass, etc). Thus, usage of this class should probably be linked to an estimated probability or a fixed list of hazards." xsd:string
+
+[Term]
+id: SDGIO:00000022
+name: risk of flooding
+def: "The risk that a bearer realises its vulnerability towards flooding when participating in a process which exposes the bearer to a flooding hazard." []
+is_a: SDGIO:00000020 ! risk
+property_value: IAO:0000116 "Draft." xsd:string
+
+[Term]
+id: SDGIO:00000023
+name: risk of drowning
+def: "The risk that a bearer realises its vulnerability towards drowning when participating in a process which exposes the bearer to a drowning hazard." []
+comment: Draft
+is_a: SDGIO:00000020 ! risk
+
+[Term]
+id: SDGIO:00000024
+name: vulnerability
+def: "A disposition of an entity to undergo change, usually negative or undesirable change, in response to some exposure." []
+is_a: BFO:0000016 ! disposition
+property_value: IAO:0000116 "The links between vulnerability, exposure, risk, and hazard are being developed. This definition will be updated accordingly. The definition currently used could be used for 'susceptible' too. Vulnerable has negative connotations." xsd:string
+
+[Term]
+id: SDGIO:00000026
+name: vulnerability towards flooding
+def: "A vulnerability borne by an entity which may be impacted by flooding." []
+is_a: SDGIO:00000024 ! vulnerability
+
+[Term]
+id: SDGIO:00000027
+name: vulnerability towards drowning
+def: "A vulnerability borne by an entity which may be killed by drowning." []
+is_a: SDGIO:00000024 ! vulnerability
+
+[Term]
+id: SDGIO:00000028
+name: resilience strengthening process
+def: "A process which increases an entity's disposition to recover its previous composition, qualities, and functionality following some perturbation." []
+is_a: BFO:0000015 ! process
+property_value: IAO:0000116 "Draft definition." xsd:string
+
+[Term]
+id: SDGIO:00000030
+name: tourism
+def: "A process in which a visitor travels to and stays in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes. All the activities performed by the visitor in preparation for and during their trip are parts of this process." []
+comment: Adapted from the definition used by the World Tourism Organization.
+is_a: BFO:0000015 ! process
+property_value: IAO:0000116 "\"visitor\" to be represented: a human which has role visitor with WTO definitions" xsd:string
+property_value: IAO:0000119 https://s3-eu-west-1.amazonaws.com/staticunwto/Statistics/Glossary+of+terms.pdf xsd:string
+
+[Term]
+id: SDGIO:00010001
+name: education process
+def: "A planned process wherein knowledge and skill is imparted." []
+is_a: OBI:0000011 ! planned process
+property_value: IAO:0000116 "DRAFT\nSee Issue #36" xsd:string
+property_value: IAO:0000119 "Derived from SNOMEDCT\nhttp://purl.bioontology.org/ontology/SNOMEDCT/409073007" xsd:string
+
+[Term]
+id: SDGIO:00010002
+name: employee role
+def: "A role that inheres in a human and is realized in processes specified by an organization bearing some employer role. " []
+comment: Derived from http://purl.obolibrary.org/obo/ERO_0000787
+is_a: BFO:0000023 ! role
+property_value: IAO:0000116 "DRAFT\nNot sure if those processes need to be done for remuneration." xsd:string
+
+[Term]
+id: SDGIO:00010003
+name: employer role
+def: "TO DO" []
+is_a: BFO:0000023 ! role
+property_value: IAO:0000116 "DRAFT" xsd:string
+
+[Term]
+id: SDGIO:00010004
+name: employment
+def: "A planned process wherein a person performs actions for remuneration that are specified by an employer." []
+is_a: OBI:0000011 ! planned process
+property_value: IAO:0000116 "DRAFT" xsd:string
+
+[Term]
+id: SDGIO:00010005
+name: agricultural household
+def: "TO DO " []
+is_a: BFO:0000040 ! material entity
+property_value: IAO:0000116 "A PCO 'household' AND and has ENVO 'agricultural feature'.\n\nAlternately could be defined with respect to a household and surrounding land, and the roles that are born by members of household." xsd:string
+
+[Term]
+id: SDGIO:00010006
+name: essential service
+def: "A service which is necessary to sustain human life." []
+comment: Draft
+is_a: OBI:0000011 ! planned process
+property_value: IAO:0000116 "There may a desire to generalize this class to \"any service which is (minimally) necessary for the completion of some objective." xsd:string
+
+[Term]
+id: SDGIO:00010007
+name: educating process
+def: "A planned process that is part of an education process wherein a person imparts knowledge or skill." []
+is_a: OBI:0000011 ! planned process
+relationship: BFO:0000050 SDGIO:00010001 ! part of education process
+property_value: IAO:0000116 "DRAFT" xsd:string
+
+[Term]
+id: SDGIO:00010008
+name: process of being educated
+def: "A planned process that is part of an education process wherein a person acquires knowledge or skill." []
+is_a: OBI:0000011 ! planned process
+relationship: BFO:0000050 SDGIO:00010001 ! part of education process
+property_value: IAO:0000116 "DRAFT" xsd:string
+
+[Term]
+id: SDGIO:00010010
+name: educator role
+def: "A role that inheres in a human and is realized in the process of imparting knowledge and skill to others." []
+is_a: BFO:0000023 ! role
+property_value: IAO:0000116 "DRAFT\nSee issue #36" xsd:string
+
+[Term]
+id: SDGIO:00010011
+name: educatee role
+def: "A role that inheres in a human and is realized in the process of acquiring knowledge and skill." []
+is_a: BFO:0000023 ! role
+property_value: IAO:0000116 "DRAFT\nSee issue #36" xsd:string
+property_value: IAO:0000118 "student" xsd:string
+
+[Term]
+id: SDGIO:00010012
+name: inadequate housing
+def: "A human dwelling that lacks any one of the following: access to basic services, affordability, habitability, security of tenure, or accessibility." []
+is_a: ENVO:00000070 ! constructed feature
+property_value: IAO:0000116 "According to UN Habitat the full criteria for inadequate housing include “location” and “cultural adequacy”. However, a careful reading indicates they are addressed by the other criteria. For example, location near polluted or dangerous areas would also be covered under the description for habi

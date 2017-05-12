@@ -1,0 +1,7 @@
+http://purl.obolibrary.org/obo/PATO_0001646 # Protruding out of
+http://purl.obolibrary.org/obo/PATO_0000308 # Old
+http://purl.obolibrary.org/obo/PATO_0000309 # Young
+http://purl.obolibrary.org/obo/PATO_0001546 # quality of a solid
+http://purl.obolibrary.org/obo/PATO_0001548 # quality of a liquid
+http://purl.obolibrary.org/obo/PATO_0001547 # quality of a gas
+http://purl.obolibrary.org/obo/PATO_0002138 # edibility
