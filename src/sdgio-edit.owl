@@ -56,6 +56,15 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000033>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000034>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000052>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000053>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000054>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000055>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000056>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000058>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000059>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000060>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000061>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000062>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000063>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010001>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010002>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010003>))
@@ -152,12 +161,18 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
+Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000064>))
+Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000066>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010032>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010058>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010069>))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000114> (has curation status)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000114> "has curation status")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
 
@@ -174,6 +189,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alt
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000119> (definition source)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "definition source")
+
+# Annotation Property: <http://purl.unep.org/sdg/SDGIO_00000064> (has COP discussion thread)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000064> "A URL referencing the page or thread where class is being or has been discussed in a Community of Practice hosted on the Environment Live portal by UN Environment and GEO.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000064> "has COP discussion thread"@en)
+
+# Annotation Property: <http://purl.unep.org/sdg/SDGIO_00000066> (UN endorsed definition)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000066> "UN endorsed definition"@en)
 
 # Annotation Property: <http://purl.unep.org/sdg/SDGIO_00010032> (UNEP preferred label)
 
@@ -360,6 +384,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000019> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000020> (risk)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000020> <http://purl.obolibrary.org/obo/IAO_0000428>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000020> "A disposition of a bearer to realise one or more of its vulnerabilities when participating in a process which exposes the bearer to a hazard or combination of hazards.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000020> "https://github.com/SDG-InterfaceOntology/sdgio/issues/22")
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000020> "The possibility that an entity's vulnerabilities will be realised when exposed to a hazard.")
@@ -391,6 +416,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000023> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000024> (vulnerability)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000024> <http://purl.obolibrary.org/obo/IAO_0000428>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000024> "A disposition of an entity to undergo undesirable change in response to some exposure."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000024> "The links between vulnerability, exposure, risk, and hazard are being developed. This definition will be updated accordingly. The definition currently used could be used for 'susceptible' too. Vulnerable has negative connotations."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000024> "vulnerability"@en)
@@ -432,10 +458,11 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000029> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000030> (tourism)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000030> "A process in which a visitor travels to and stays in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes. All the activities performed by the visitor in preparation for and during their trip are parts of this process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000030> "A process during which a visitor travels to and stays in one or more places outside their usual environment for not more than one year for leisure, business, personal matters or any other main purpose not including employment by a resident entity in the country or place visited.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000030> "\"visitor\" to be represented: a human which has role visitor with WTO definitions")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.unep.org/sdg/SDGIO_00000030> "https://s3-eu-west-1.amazonaws.com/staticunwto/Statistics/Glossary+of+terms.pdf")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000030> "Adapted from the definition used by the World Tourism Organization.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "http://unstats.un.org/unsd/tradeserv/tourism/manual.html") <http://purl.unep.org/sdg/SDGIO_00000066> <http://purl.unep.org/sdg/SDGIO_00000030> "Tourism is a social, cultural and economic phenomenon related to the movement of people to places outside their usual place of residence. Tourism refers to the activity of visitors. A visitor is a traveller taking a trip to a main destination outside his/her usual environment, for less than a year, for any main purpose (business, leisure or other personal purpose) other than to be employed by a resident entity in the country or place visited. A visitor is classified as a tourist (overnight visitor) if his/her trip includes an overnight stay, or as a same-day visitor (excursionist) otherwise.")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000030> "Adapted from the definition used by the World Tourism Organization. All the activities performed by the visitor in preparation for and during their trip are parts of this process.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000030> "tourism"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000030> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
@@ -476,6 +503,91 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000053> "vulnerability towards respiratory disease"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000053> <http://purl.unep.org/sdg/SDGIO_00000024>)
 
+# Class: <http://purl.unep.org/sdg/SDGIO_00000054> (own-account worker role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000054> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/statistics-overview-and-topics/status-in-employment/current-guidelines/lang--en/index.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000054> "A self-employment role which is realised when a self-employed person intermittently acts as an employer.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000054> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000054> "own-account worker role"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000054> <http://purl.unep.org/sdg/SDGIO_00000055>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000055> (self-employed role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000055> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/statistics-overview-and-topics/status-in-employment/current-guidelines/lang--en/index.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000055> "A role realised by a person while engaging in economic activities producing goods and/or providing services, the profits of which they directly depend on for remuneration.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000055> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000055> "self-employed role"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000055> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000056> (contributing family worker role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000056> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/statistics-overview-and-topics/status-in-employment/current-guidelines/lang--en/index.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000056> "A self-employed role realised by a person while working in an establishment operated by a family member, with a too limited degree of involvement to be considered a partner."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000056> "A definition of partner is required here.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000056> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000056> "contributing family worker role"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000056> <http://purl.unep.org/sdg/SDGIO_00000055>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000058> (producer cooperative member role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000058> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/statistics-overview-and-topics/status-in-employment/current-guidelines/lang--en/index.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000058> "A self-employed role realised by a person while working in a co-operative which produces goods and services and in which members have equal influence upon major decisions concerning the cooperative."@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000058> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000058> "producer cooperative member role"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000058> <http://purl.unep.org/sdg/SDGIO_00000055>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000059> (self-employed person)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000059> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000059> "A person that bears a self-employed role."@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000059> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000059> "self-employed person"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000059> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00000055>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000060> (own-account worker)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000060> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000060> "A person that bears an own-account worker role."@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000060> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000060> "own-account worker"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000060> <http://purl.unep.org/sdg/SDGIO_00000059>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00000054>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000061> (member of a producer cooperative)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000061> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000061> "A person that bears a membership role in a producer's cooperative."@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000061> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010032> <http://purl.unep.org/sdg/SDGIO_00000061> "member of producers' cooperative")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000061> "member of a producer cooperative"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000061> <http://purl.unep.org/sdg/SDGIO_00000059>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00000058>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000062> (human employer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000062> <http://purl.obolibrary.org/obo/IAO_0000428>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000062> "A self-employed person who bears an employer role.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000062> "The alternative labels arise from the ambiguity of whether a company or corporation is considered an employer in the same way a human is.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000062> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010032> <http://purl.unep.org/sdg/SDGIO_00000062> "employer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.unep.org/sdg/SDGIO_00000062> "employer")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000062> "human employer"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000062> <http://purl.unep.org/sdg/SDGIO_00000059>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010003>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000063> (contributing family worker)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000063> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000063> "A person that bears a contributing family worker role."@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000063> "https://uneplive.unep.org/community/discussion/view/23255/employment")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000063> "contributing family worker"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000063> <http://purl.unep.org/sdg/SDGIO_00000059>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00000056>))
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00010001> (education process)
 
 AnnotationAssertion(Annotation(rdfs:comment "Adapted from: http://purl.bioontology.org/ontology/SNOMEDCT/409073007") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010001> "A planned process wherein knowledge and skill is imparted."@en)
@@ -488,7 +600,8 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010001> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010002> (employee role)
 
-AnnotationAssertion(Annotation(rdfs:comment "Adapted from http://purl.obolibrary.org/obo/ERO_0000787"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010002> "A role that inheres in a person and is realized by performing actions specified by an employer in return for remuneration."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ilo.org/global/statistics-and-databases/statistics-overview-and-topics/status-in-employment/current-guidelines/lang--en/index.htm") Annotation(rdfs:comment "Adapted from http://purl.obolibrary.org/obo/ERO_0000787"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010002> "A role realised by a person when that person performs actions specified by an employer in return for a level of remuneration that is not directly dependent on the revenue generated by the employer's activities."@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00010002> "https://uneplive.unep.org/community/discussion/view/23255/employment")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010002> "employee role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010002> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
@@ -496,14 +609,18 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010002> ObjectAllValuesFrom(<http:/
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010003> (employer role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010003> "A role that inheres in a person or organization in virtue of the fact the bearer specifies actions to be performed for remuneration by one or more persons that bear an employee role."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00010003> <http://purl.obolibrary.org/obo/IAO_0000428>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010003> "A self-employed role which is realised by a person or organization while they engage in an employment relationship with one or more persons to whom they provide remuneration or reward in exchange for labour or expertise."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010003> "Including organisations complicate the semantics of this class. This must be reviewed.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00010003> "https://uneplive.unep.org/community/discussion/view/23255/employment")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010003> "employer role"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010003> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010003> <http://purl.unep.org/sdg/SDGIO_00000055>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010004> (employment process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010004> "A planned process wherein an employee performs actions that are specified by an employer in return of remuneration."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010004> "A planned process wherein an employee performs actions that are formally or informally specified by an employer in return for remuneration."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010004> "Add the person or organisation that has an employer role as an active participant once the class has been created.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00010004> "https://uneplive.unep.org/community/discussion/view/23255/employment")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010004> "employment"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010004> "employment process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010004> <http://purl.obolibrary.org/obo/OBI_0000011>)
@@ -512,6 +629,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010004> ObjectSomeValuesFrom(<http:
 # Class: <http://purl.unep.org/sdg/SDGIO_00010005> (employed person)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010005> "A person that bears an employee role."@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00010005> "https://uneplive.unep.org/community/discussion/view/23255/employment")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010005> "employee"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010005> "employed person"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010005> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
@@ -546,17 +664,19 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010008> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010010> (educator role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010010> "A role that inheres in a person and is realized in the process of imparting knowledge and skill to others."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010010> "A role which is realised by a person in the process of imparting knowledge and skill to others."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010010> "https://github.com/SDG-InterfaceOntology/sdgio/issues/36"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010010> "educator role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010010> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00010001>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010011> (educatee role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010011> "A role that inheres in a person and is realized in the process of acquiring knowledge and skill."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010011> "A role which is realised by a person during the process of acquiring knowledge and skill."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010011> "https://github.com/SDG-InterfaceOntology/sdgio/issues/36"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010011> "educatee role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010011> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010012> (inadequate housing)
 
@@ -570,7 +690,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010012> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010013> (medicine role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010013> "A role that inheres in a molecular entity and is realized in the process of preventing, treating, diagnosing, or studying disease or disorder."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010013> "A role realised by molecular entity during the process of preventing, treating, diagnosing, or studying disease or disorder."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010013> "OBI 'drug role', DRON 'clinical drug role', and CHEBIs 'drug' and 'pharmaceutical' all are close matches, but not exact for the usage here."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.unep.org/sdg/SDGIO_00010013> "http://purl.obolibrary.org/obo/CHEBI_23888
 http://purl.obolibrary.org/obo/CHEBI_52217
@@ -604,14 +724,14 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010016> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010017> (resource role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010017> "A role which is realized by conferring some benefit to its consumer."@en)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010017> "Dependent continuants (eg- information) and processes (eg- essential services) are also considered resources. As such these \"abstract\" resources cannot bear roles. Plausibly it is the independent continuants that participate in such processes, or are the bearers of information, which are rightfully considered the resource."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010017> "A role which is realised by an entity when it confers some benefit to its consumer."@en)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010017> "Dependent continuants (eg- information) and processes (eg- essential services) are also considered resources. As such these \"abstract\" resources cannot bear roles. Plausibly it is the independent continuants that participate in such processes (the computer that allows access to the information), or are the bearers of information (the computer's memory disk), which are rightfully considered the resource."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010017> "resource role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010017> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010018> (owner role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010018> "A role that inheres in a person and is realized in processes of exercising the right to use, occupy, sell, rent, or gift an object (such as a parcel of land)."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010018> "A role which is realised by a person during processes of exercising their right to use, occupy, sell, rent, or gift an object (such as a parcel of land)."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010018> "owner role"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010018> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00010027>))
@@ -675,6 +795,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010025> <http://purl.unep.org/sdg/S
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://stats.oecd.org/glossary/detail.asp?ID=2791") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010026> "A person or population that is not employed, but eligible for and currently seeking employment."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010026> "Eventually a defined class, axiomitized using classes for employment status.
 https://github.com/SDG-InterfaceOntology/sdgio/issues/37"@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00010026> "https://uneplive.unep.org/community/discussion/view/23255/employment")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010026> "The criteria varies for deciding if a person who is not employed also qualifies as unemployed."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010026> "unemployed"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010026> <http://purl.obolibrary.org/obo/BFO_0000040>)
@@ -698,6 +819,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010028> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010029> (employment status)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010029> "A quality inhering in a person by virtue of that person bearing a role realised in an employment process.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010029> "employment status"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010029> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
@@ -728,15 +850,19 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010033> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010034> (formal employment process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010034> "TO DO : define wrt to established policies and procedures, protections, curricula, etc.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010034> "An employment process which is specified by formal arrangements and does not include illicit activities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010034> "The nature of \"formal arrangements' is still ambiguous and in need of clarification.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00010034> "https://uneplive.unep.org/community/discussion/view/23255/employment")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010034> "formal employment")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010034> "formal employment process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010034> <http://purl.unep.org/sdg/SDGIO_00010004>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010035> (informal employment process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010035> "TO DO : define wrt to established policies and procedures, protections, curricula, etc.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:R204") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010035> "An employment process which is – in law or in practice – a) not specified or insufficiently specified by formal arrangements; and (b) does not include illicit activities.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00010035> "https://uneplive.unep.org/community/discussion/view/23255/employment")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010035> "informal employment")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010035> "Illicit activities include, in particular, the provision of services or the production, sale, possession or use of goods forbidden by law, including the illicit production and trafficking of drugs, the illicit manufacturing of and trafficking in firearms, trafficking in persons, and money laundering, as defined in the relevant international treaties.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010035> "informal employment process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010035> <http://purl.unep.org/sdg/SDGIO_00010004>)
 
@@ -864,7 +990,8 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010052> ObjectSomeValuesFrom(<http:
 # Class: <http://purl.unep.org/sdg/SDGIO_00010053> (natural capital)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010053> "A collection composed of natural assets and the environmental services which depend on them."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010053> "https://github.com/SDG-InterfaceOntology/sdgio/issues/94"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00010053> "https://github.com/SDG-InterfaceOntology/sdgio/issues/94
+Axiomatise with ENVO:\"natural environment\" once the import is made."@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "http://www.naturalcapitaldeclaration.org/the-declaration/") <http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00010053> "Natural capital comprises Earth’s natural assets (soil, air, water, flora and fauna), and the ecosystem services resulting from them, which make human life possible, yielding a renewable flow of goods and services that underpin the economy and provide inputs and direct and indirect benefits to businesses and society.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010053> "natural capital"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010053> <http://purl.obolibrary.org/obo/BFO_0000001>)
@@ -1194,7 +1321,6 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.oboli
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000144> "true"^^xsd:boolean)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000114> "has curation status")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "term editor")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000232> "curator note")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from")
