@@ -65,6 +65,8 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000060>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000061>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000062>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000063>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000067>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000069>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010001>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010002>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010003>))
@@ -163,6 +165,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000064>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000066>))
+Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000068>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010032>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010058>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010069>))
@@ -197,7 +200,13 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000064> "has CO
 
 # Annotation Property: <http://purl.unep.org/sdg/SDGIO_00000066> (UN endorsed definition)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000066> "A definition which has been endorsed by a UN body such as the UN General Assembly.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000066> "UN endorsed definition"@en)
+
+# Annotation Property: <http://purl.unep.org/sdg/SDGIO_00000068> (UN endorsed label)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000068> "A label which has been endorsed by a UN body such as the UN General Assembly.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000068> "UN endorsed label"@en)
 
 # Annotation Property: <http://purl.unep.org/sdg/SDGIO_00010032> (UNEP preferred label)
 
@@ -326,10 +335,12 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000013> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000014> (exposure process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000014> <http://purl.obolibrary.org/obo/IAO_0000428>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000014> "A process which is causally within or downstream of another process whose direct or indirect effects cause one or more entities to realise one or more of their dispositions.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000014> "The semantics of this class are being discussed and are very likely to change. Obsolescence is possible.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000014> "This class may be replaced by a class in EXO, pending a clarification on the scope of its meaning. Right now it is essentially the same as 'interaction'.
 https://github.com/SDG-InterfaceOntology/sdgio/issues/21")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000014> "https://uneplive.unep.org/community/discussion/view/23253/exposure")
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000014> "A process during which an entity is impacted by some agent or preceeding event.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.unep.org/sdg/SDGIO_00000014> "exposure")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000014> "Consider that when \"E died of exposure to P\", E died as an outcome of the processes which were initated by E's participation in P, in which E's dispositions to react to P (or its parts or participants) were realised.")
@@ -384,9 +395,10 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000019> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000020> (risk)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000020> <http://purl.obolibrary.org/obo/IAO_0000428>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000020> <http://purl.obolibrary.org/obo/IAO_0000125>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000020> "A disposition of a bearer to realise one or more of its vulnerabilities when participating in a process which exposes the bearer to a hazard or combination of hazards.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000020> "https://github.com/SDG-InterfaceOntology/sdgio/issues/22")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000020> "https://uneplive.unep.org/community/discussion/view/23229/risk")
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000020> "The possibility that an entity's vulnerabilities will be realised when exposed to a hazard.")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000020> "Risk is increased when harm or damage is realised and when an entity is likely to encounter a hazard in some process.  The probability of this disposition being realised can be assigned on the information or data level.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000020> "risk"@en)
@@ -418,7 +430,8 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000023> <http://purl.unep.org/sdg/S
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000024> <http://purl.obolibrary.org/obo/IAO_0000428>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000024> "A disposition of an entity to undergo undesirable change in response to some exposure."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000024> "The links between vulnerability, exposure, risk, and hazard are being developed. This definition will be updated accordingly. The definition currently used could be used for 'susceptible' too. Vulnerable has negative connotations."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000024> "Note that the definition endorsed by the UN General Assembly references the conditions that increase susceptibility to the impacts of hazards, rather than the susceptibilities themselves. The links between vulnerability, exposure, risk, and hazard are being developed. This definition will be updated accordingly. The definition currently used could be used for 'susceptible' too. Vulnerable has negative connotations."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") <http://purl.unep.org/sdg/SDGIO_00000066> <http://purl.unep.org/sdg/SDGIO_00000024> "The conditions determined by physical, social, economic and environmental factors or processes which increase the susceptibility of an individual, a community, assets or systems to the impacts of hazards.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000024> "vulnerability"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> <http://purl.obolibrary.org/obo/BFO_0000016>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00000014>))
@@ -491,8 +504,12 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000034> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000052> (exposed tangible asset)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000052> <http://purl.obolibrary.org/obo/IAO_0000428>)
 AnnotationAssertion(Annotation(rdfs:comment "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000052> "A tangible asset which is at risk of being damaged by or lost during hazardous events.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000052> "The term \"exposure\" is often used to refer to the sum of entities, or their value, that are at risk of being damaged or destroyed by some process. We distinguish that from the process of exposure in SDGIO.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000052> "https://uneplive.unep.org/community/discussion/view/23253/exposure")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") <http://purl.unep.org/sdg/SDGIO_00000066> <http://purl.unep.org/sdg/SDGIO_00000052> "The situation of people, infrastructure, housing, production capacities and other tangible human assets located in hazard-prone areas.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000068> <http://purl.unep.org/sdg/SDGIO_00000052> "exposure")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000052> "Measures of exposure can include the number of people or types of assets in an area. These can be combined with the specific vulnerability and capacity of the exposed elements to any particular hazard to estimate the quantitative risks associated with that hazard in the area of interest.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000052> "exposed tangible asset"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000052> <http://purl.unep.org/sdg/SDGIO_00010048>)
@@ -587,6 +604,26 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000063> "contributing family worker"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000063> <http://purl.unep.org/sdg/SDGIO_00000059>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00000056>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000067> (resilience to hazards)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000067> <http://purl.obolibrary.org/obo/IAO_0000428>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000067> "This definition of \"resilience\" is endorsed by the UN General Assembly. Discussions in the SDGIO COP have indicated that defining elements of this class, such as \"timely and efficient\", will be a challenge. Further, 1) aspects of this definition semantically overlap with with those of adaptation or robustness 2) the dependence on the presence of a hazard may not be equivalent to a perturbation, which is perhaps more neutrally connoted.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000067> "https://uneplive.unep.org/community/discussion/view/23243/resilience")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") <http://purl.unep.org/sdg/SDGIO_00000066> <http://purl.unep.org/sdg/SDGIO_00000067> "The ability of a system, community or society exposed to hazards to resist, absorb, accommodate, adapt to, transform and recover from the effects of a hazard in a timely and efficient manner, including through the preservation and restoration of its essential basic structures and functions through risk management.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000068> <http://purl.unep.org/sdg/SDGIO_00000067> "resilience")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000067> "resilience to hazards"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000067> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000069> (disaster risk)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000069> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000069> "A risk that a bearer will realise vulnerabilities which result in the loss of human life, the injury of humans, or the damage of assets when participating in a process which exposes the bearer to a hazard or combination of hazards beyond the bearer's coping capacity.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") <http://purl.unep.org/sdg/SDGIO_00000066> <http://purl.unep.org/sdg/SDGIO_00000069> "The potential loss of life, injury, or destroyed or damaged assets which could occur to a system, society or a community in a specific period of time, determined probabilistically as a function of hazard, exposure, vulnerability and capacity.")
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000068> <http://purl.unep.org/sdg/SDGIO_00000069> "disaster risk")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000069> "The definition of disaster risk reflects the concept of hazardous events and disasters as the outcome of continuously present conditions of risk. Disaster risk comprises different types of potential losses which are often difficult to quantify. Nevertheless, with knowledge of the prevailing hazards and the patterns of population and socioeconomic development, disaster risks can be assessed and mapped, in broad terms at least. It is important to consider the social and economic contexts in which disaster risks occur and that people do not necessarily share the same perceptions of risk and their underlying risk factors.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000069> "disaster risk"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000069> <http://purl.unep.org/sdg/SDGIO_00000020>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010001> (education process)
 
@@ -752,8 +789,10 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010020> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010021> (resilience)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00010021> <http://purl.obolibrary.org/obo/IAO_0000125>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010021> "A disposition of an entity to recover its previous composition, qualities, and functionality following some perturbation."@en)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010021> "Draft"@en)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00010021> "https://uneplive.unep.org/community/discussion/view/23243/resilience")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010021> "This disposition is distinct from robustness, which pertains to an entity's ability to resist change when encountering perturbing forces."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010021> "resilience"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010021> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
