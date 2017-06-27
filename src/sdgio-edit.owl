@@ -343,7 +343,7 @@ https://github.com/SDG-InterfaceOntology/sdgio/issues/21")
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.org/sdg/SDGIO_00000014> "https://uneplive.unep.org/community/discussion/view/23253/exposure")
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010058> <http://purl.unep.org/sdg/SDGIO_00000014> "A process during which an entity is impacted by some agent or preceeding event.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.unep.org/sdg/SDGIO_00000014> "exposure")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000014> "Consider that when \"E died of exposure to P\", E died as an outcome of the processes which were initated by E's participation in P, in which E's dispositions to react to P (or its parts or participants) were realised.")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000014> "Consider that when \"E died of exposure to P\", E died as an outcome of the processes which were initiated by E's participation in P, in which E's dispositions to react to P (or its parts or participants) were realised.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000014> "exposure process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000014> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
