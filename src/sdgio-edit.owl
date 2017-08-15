@@ -481,24 +481,28 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000030> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000031> (provisioning ecosystem service)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000031> "An ecosystem service in which the material or energy outputs of one or more ecosystem processes benefit a service consumer.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.teebweb.org/resources/glossary-of-terms/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000031> "An ecosystem service in which the material or energy outputs of one or more ecosystem processes benefit a service consumer.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000031> "provisioning ecosystem service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000031> <http://purl.unep.org/sdg/SDGIO_00010072>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000032> (regulating ecosystem service)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000032> "An ecosystem service in which one or more ecosystem processes benefit a service consumer by buffering the impacts of environmental perturbations.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.teebweb.org/resources/glossary-of-terms/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000032> "An ecosystem service in which one or more ecosystem processes benefit a service consumer by buffering the impacts of environmental perturbations.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000032> "regulating ecosystem service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000032> <http://purl.unep.org/sdg/SDGIO_00010072>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000033> (supporting ecosystem service)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.teebweb.org/resources/glossary-of-terms/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000033> "An ecosystem service which is necessary for the maintenance of (i.e. supports) all other ecosystem services.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000033> "habitat ecosystem service")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.teebweb.org/resources/glossary-of-terms/") rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000033> "Some examples include biomass production, production of atmospheric oxygen, soil formation and retention, nutrient cycling, water cycling, and provisioning of habitat. (MA, 2005a).")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000033> "supporting ecosystem service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000033> <http://purl.unep.org/sdg/SDGIO_00010072>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000034> (cultural ecosystem service)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.teebweb.org/resources/glossary-of-terms/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000034> "An ecosystem service which provides  nonmaterial benefits to humans through spiritual enrichment, cognitive development, reflection, recreation, and aesthetic experience.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.teebweb.org/resources/glossary-of-terms/") rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000034> "Examples include providing ecosystem-dependent knowledge systems, social relations, and aesthetic values (MA, 2005a).")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000034> "cultural ecosystem service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000034> <http://purl.unep.org/sdg/SDGIO_00010072>)
 
