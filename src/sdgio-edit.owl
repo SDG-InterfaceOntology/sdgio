@@ -160,12 +160,21 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000048>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000049>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000050>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000051>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000057>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000065>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000070>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000071>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000072>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000073>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000075>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000076>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000064>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000066>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000068>))
+Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000074>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010032>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010058>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010069>))
@@ -207,6 +216,11 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000066> "UN end
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000068> "A label which has been endorsed by a UN body such as the UN General Assembly.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000068> "UN endorsed label"@en)
+
+# Annotation Property: <http://purl.unep.org/sdg/SDGIO_00000074> (UN SDG Target ID)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000074> "An annotation property which has as its value the ID used by the United Nations to identify instances of a target of the sustainable development goals.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000074> "UN SDG Target ID"@en)
 
 # Annotation Property: <http://purl.unep.org/sdg/SDGIO_00010032> (UNEP preferred label)
 
@@ -1355,6 +1369,52 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000051> "Sustainable Development Goal 17")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000051> "revitalize the global partnership for sustainable development"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/sdg/SDGIO_00000051>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000057> (By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000057> "1.1"^^xsd:decimal)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000057> "By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000057>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000065> (By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000065> "1.2"^^xsd:decimal)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000065> "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000065>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000070> (Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000070> "1.3"^^xsd:decimal)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000070> "Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000070>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000071> (By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000071> "1.4"^^xsd:decimal)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000071> "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000071>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000072> (By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000072> "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000072>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000073> (Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions)
+
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000073> "Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000073>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000075> (By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000075> "1.5"^^xsd:decimal)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000075> "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000075>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000076> (Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000076> "1.a")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000076> "Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000076>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
