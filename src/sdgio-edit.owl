@@ -418,7 +418,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00000001> (sustainable development target)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.obolibrary.org/obo/IAO_0000123>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000001> "A threshold value of a sustainable development indicator or a set of threshold values of several such indicators towards or beyond which corresponding indicator values from a socio-economic-environmental system should tend in order to meet a sustainable development goal.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000001> "A threshold value of a sustainable development indicator value or a set of threshold values of several such indicators towards or beyond which corresponding indicator values from a socio-economic-environmental system should tend in order to meet a sustainable development goal.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000001> "sustainable development target"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
@@ -1340,6 +1340,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00010072> "environmental service")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010072> "ecosystem service")
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010072> <http://purl.unep.org/sdg/SDGIO_00010071>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.unep.org/sdg/SDGIO_00010053>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010073> (informal education process)
 
