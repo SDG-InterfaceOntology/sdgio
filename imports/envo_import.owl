@@ -63,10 +63,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
         <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
     </owl:Class>
@@ -77,6 +86,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
         <rdfs:label xml:lang="en">occurrent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An entity that has temporal parts and that happens, unfolds or develops through time.</obo:IAO_0000115>
     </owl:Class>
     
@@ -89,6 +99,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -99,6 +110,7 @@
         <rdfs:label xml:lang="en">process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <obo:IAO_0000115 xml:lang="en">An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -119,6 +131,8 @@
         <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -129,6 +143,17 @@
         <rdfs:label xml:lang="en">role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
         <obo:IAO_0000115 xml:lang="en">A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -147,7 +172,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000000">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic feature</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macroscopic spatial feature</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -319,7 +344,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000022">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">river</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stream which, through permanent or seasonal flow processes, moves from elevated land towards lower elevations through a definite channel and empties either into a sea, lake, or another river or ends on land as bed seepage and evapotranspiration exceed water supply.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">braided river</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rio</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -340,7 +365,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burn (hydrographic)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creek</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fork (hydrographic</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glacial stream</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lode</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millstream</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rivulet</oboInOwl:hasRelatedSynonym>
@@ -403,7 +427,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000062">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">populated place</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place or area with clustered or scattered buildings and a permanent human population.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhabited place</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhabited region</oboInOwl:hasRelatedSynonym>
@@ -434,9 +458,10 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000070">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">constructed feature</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A feature that has been constructed by deliberate human effort.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>constructed feature</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -476,7 +501,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
         <rdfs:label>biome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001110"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome is an environmental system to which resident ecological communities have evolved adaptations.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcosytemType</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecosystem</oboInOwl:hasRelatedSynonym>
@@ -575,6 +600,8 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002011">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh water</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <oboInOwl:hasRelatedSynonym>sweet water</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>Water which has a low concentration of dissolved solutes, particularly that of sodium chloride.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>freshwater</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -815,7 +842,18 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000634">
         <rdfs:label xml:lang="en">volcanic eruption</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
         <obo:IAO_0000115>A volcanic process is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000648">
+        <rdfs:label xml:lang="en">magma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <obo:IAO_0000115>Magma is a mixture of molten or semi-molten rock, volatiles, and solids that is found beneath the uppermost solid layer of a planetary body. Besides molten rock, magma may also contain suspended crystals, dissolved gas and sometimes gas bubbles.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -924,7 +962,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000689">
         <rdfs:label xml:lang="en">tsunami</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000981"/>
         <oboInOwl:hasExactSynonym>tidal wave</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>seismic sea wave</oboInOwl:hasExactSynonym>
@@ -1181,7 +1219,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000730">
         <rdfs:label xml:lang="en">lava flow process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000981"/>
         <obo:IAO_0000115>A process in which a volume of lava emitted during an effusive eruption moves along a solid surface.</obo:IAO_0000115>
     </owl:Class>
     
@@ -1323,6 +1361,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000778">
         <rdfs:label xml:lang="en">important site</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001110"/>
         <oboInOwl:hasNarrowSynonym>Ramsar Sites</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Important Mammal Area</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Prime Butterfly Area</oboInOwl:hasNarrowSynonym>
@@ -1381,11 +1420,21 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000813">
+        <rdfs:label xml:lang="en">astronomical body part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
+        <obo:IAO_0000115>A material part of an astronomical body.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000815 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000815">
         <rdfs:label xml:lang="en">liquid environmental material</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000648"/>
         <obo:IAO_0000115>An environmental material which is in a liquid state.</obo:IAO_0000115>
     </owl:Class>
     
@@ -1415,11 +1464,63 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000951">
+        <rdfs:label xml:lang="en">natural environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+        <obo:IAO_0000115>An environmental system in which minimal to no anthropisation has occurred and non-human agents are the primary determinants of the system&apos;s dynamics and composition.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000952">
+        <rdfs:label xml:lang="en">anthropisation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500027"/>
+        <oboInOwl:hasExactSynonym>anthropization</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A process during which a natural environmental system is altered by human action.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000981 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000981">
+        <rdfs:label xml:lang="en">mass liquid flow</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
+        <obo:IAO_0000115>A process whereby a volume of liquid moves due to a disequilibrium of physical forces.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000983">
+        <rdfs:label xml:lang="en">technosphere</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
+        <obo:IAO_0000115>An environmental system which includes, as parts, all the entities which have been constructed or manufactured by humans or their technology within the gravitational sphere of influence of an astronomical body.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001110">
+        <rdfs:label xml:lang="en">ecosystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+        <obo:IAO_0000115>An environmental system which includes both living and non-living components.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_02500000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500000">
         <rdfs:label xml:lang="en">environmental system process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process in which includes the components of an environmental system as participants.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1438,7 +1539,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500002">
         <rdfs:label xml:lang="en">flooding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500031"/>
         <obo:IAO_0000115>A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water.</obo:IAO_0000115>
     </owl:Class>
     
@@ -1458,7 +1559,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500011">
         <rdfs:label>afforestation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000952"/>
         <obo:IAO_0000115>Establishment of a new forest by seeding or planting of nonforested land.</obo:IAO_0000115>
     </owl:Class>
     
@@ -1468,7 +1569,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500012">
         <rdfs:label>deforestation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000952"/>
         <oboInOwl:hasBroadSynonym>clearance</oboInOwl:hasBroadSynonym>
         <obo:IAO_0000115>The removal of forest and undergrowth to, for example, increase the surface of arable land or to use the timber for construction or industrial purposes.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>clearing</oboInOwl:hasBroadSynonym>
@@ -1489,9 +1590,8 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_02500017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500017">
-        <rdfs:label>anthropogenic reforestation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500013"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500027"/>
+        <rdfs:label>obsolete anthropogenic reforestation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1510,6 +1610,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500027">
         <rdfs:label>anthropogenic environmental process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>An environmental process which is driven by the action of humans.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1527,7 +1628,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500032">
         <rdfs:label>revegetation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000952"/>
     </owl:Class>
     
 
@@ -1548,7 +1649,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500037">
         <rdfs:label>air pollution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
-        <obo:IAO_0000115>A pollution process that releases particulates into the atmosphere.</obo:IAO_0000115>
+        <obo:IAO_0000115>A pollution process during which particulates or other contaminants are released into a portion of air.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1558,7 +1659,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500038">
         <rdfs:label>soil pollution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
-        <obo:IAO_0000115>A pollution process during which soil is contaminated.</obo:IAO_0000115>
+        <obo:IAO_0000115>A pollution process during which contaminants are released into soil.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1568,7 +1669,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500039">
         <rdfs:label>water pollution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
-        <obo:IAO_0000115>A pollution process during which water is contaminated.</obo:IAO_0000115>
+        <obo:IAO_0000115>A pollution process during which contaminants are released into water.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1578,7 +1679,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500040">
         <rdfs:label>plastic pollution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
-        <obo:IAO_0000115>A pollution process that results in increased levels of plastic in the environment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A pollution process during which plastic contaminants are released into an environmental material.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1599,6 +1700,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500042">
         <rdfs:label>pollution control</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500026"/>
+        <obo:IAO_0000115>A planned process during which the amount of pollutants released into an environmental system is regulated.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym>pollution prevention</oboInOwl:hasNarrowSynonym>
     </owl:Class>
     
@@ -1661,6 +1763,25 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity consisting of multiple components that are causally integrated.</obo:IAO_0000115>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
