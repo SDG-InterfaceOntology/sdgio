@@ -1,0 +1,233 @@
+uri	UN Indicator ID	UN Indicator ID	UN Indicator ID	UNSD indicator code	Indicator text
+http://purl.unep.org/sdg/SDGIO_00020000	1.1.1			C010101	"Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)"
+http://purl.unep.org/sdg/SDGIO_00020001	1.2.1			C010201	"Proportion of population living below the national poverty line, by sex and age"
+http://purl.unep.org/sdg/SDGIO_00020002	1.2.2			C010202	"Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions"
+http://purl.unep.org/sdg/SDGIO_00020003	1.3.1			C010301	"Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable"
+http://purl.unep.org/sdg/SDGIO_00020004	1.4.1			C010401	Proportion of population living in households with access to basic services
+http://purl.unep.org/sdg/SDGIO_00020005	1.4.2			C010402	"Proportion of total adult population with secure tenure rights to land, with legally recognized documentation and who perceive their rights to land as secure, by sex and by type of tenure"
+http://purl.unep.org/sdg/SDGIO_00020006	1.5.1	11.5.1	13.1.1	C200303	"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
+http://purl.unep.org/sdg/SDGIO_00020007	1.5.2			C010502	Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)
+http://purl.unep.org/sdg/SDGIO_00020008	1.5.3	11.b.1	13.1.2	C200304	Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030
+http://purl.unep.org/sdg/SDGIO_00020009	1.5.4	11.b.2	13.1.3	C200305	Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies
+http://purl.unep.org/sdg/SDGIO_00020010	1.a.1			C010a01	Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes
+http://purl.unep.org/sdg/SDGIO_00020011	1.a.2			C010a02	"Proportion of total government spending on essential services (education, health and social protection)"
+http://purl.unep.org/sdg/SDGIO_00020012	1.a.3	  		C010a03	Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP
+http://purl.unep.org/sdg/SDGIO_00020013	1.b.1			C010b01	"Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups"
+http://purl.unep.org/sdg/SDGIO_00020014	2.1.1			C020101	Prevalence of undernourishment
+http://purl.unep.org/sdg/SDGIO_00020015	2.1.2			C020102	"Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)"
+http://purl.unep.org/sdg/SDGIO_00020016	2.2.1			C020201	Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age
+http://purl.unep.org/sdg/SDGIO_00020017	2.2.2			C020202	"Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)"
+http://purl.unep.org/sdg/SDGIO_00020018	2.3.1			C020301	Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size
+http://purl.unep.org/sdg/SDGIO_00020019	2.3.2			C020302	"Average income of small-scale food producers, by sex and indigenous status"
+http://purl.unep.org/sdg/SDGIO_00020020	2.4.1			C020401	Proportion of agricultural area under productive and sustainable agriculture
+http://purl.unep.org/sdg/SDGIO_00020021	2.5.1			C020501	Number of plant and animal genetic resources for food and agriculture secured in either medium or long-term conservation facilities
+http://purl.unep.org/sdg/SDGIO_00020022	2.5.2			C020502	"Proportion of local breeds classified as being at risk, not-at-risk or at unknown level of risk of extinction"
+http://purl.unep.org/sdg/SDGIO_00020023	2.a.1			C020a01	The agriculture orientation index for government expenditures
+http://purl.unep.org/sdg/SDGIO_00020024	2.a.2			C020a02	Total official flows (official development assistance plus other official flows) to the agriculture sector
+http://purl.unep.org/sdg/SDGIO_00020025	2.b.1			C020b02	Agricultural export subsidies
+http://purl.unep.org/sdg/SDGIO_00020026	2.c.1			C020c01	Indicator of food price anomalies
+http://purl.unep.org/sdg/SDGIO_00020027	3.1.1			C030101	Maternal mortality ratio
+http://purl.unep.org/sdg/SDGIO_00020028	3.1.2			C030102	Proportion of births attended by skilled health personnel
+http://purl.unep.org/sdg/SDGIO_00020029	3.2.1			C030201	Under-five mortality rate
+http://purl.unep.org/sdg/SDGIO_00020030	3.2.2			C030202	Neonatal mortality rate
+http://purl.unep.org/sdg/SDGIO_00020031	3.3.1			C030301	"Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations"
+http://purl.unep.org/sdg/SDGIO_00020032	3.3.2			C030302	"Tuberculosis incidence per 100,000 population"
+http://purl.unep.org/sdg/SDGIO_00020033	3.3.3			C030303	"Malaria incidence per 1,000 population"
+http://purl.unep.org/sdg/SDGIO_00020034	3.3.4			C030304	"Hepatitis B incidence per 100,000 population"
+http://purl.unep.org/sdg/SDGIO_00020035	3.3.5			C030305	Number of people requiring interventions against neglected tropical diseases
+http://purl.unep.org/sdg/SDGIO_00020036	3.4.1			C030401	"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease"
+http://purl.unep.org/sdg/SDGIO_00020037	3.4.2			C030402	Suicide mortality rate
+http://purl.unep.org/sdg/SDGIO_00020038	3.5.1			C030501	"Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders"
+http://purl.unep.org/sdg/SDGIO_00020039	3.5.2			C030502	"Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol"
+http://purl.unep.org/sdg/SDGIO_00020040	3.6.1			C030601	Death rate due to road traffic injuries
+http://purl.unep.org/sdg/SDGIO_00020041	3.7.1			C030701	Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods
+http://purl.unep.org/sdg/SDGIO_00020042	3.7.2			C030702	"Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group"
+http://purl.unep.org/sdg/SDGIO_00020043	3.8.1			C030801	"Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)"
+http://purl.unep.org/sdg/SDGIO_00020044	3.8.2			C030802	Proportion of population with large household expenditures on health as a share of total household expenditure or income
+http://purl.unep.org/sdg/SDGIO_00020045	3.9.1			C030901	Mortality rate attributed to household and ambient air pollution
+http://purl.unep.org/sdg/SDGIO_00020046	3.9.2			C030902	"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)"
+http://purl.unep.org/sdg/SDGIO_00020047	3.9.3			C030903	Mortality rate attributed to unintentional poisoning
+http://purl.unep.org/sdg/SDGIO_00020048	3.a.1			C030a01	Age-standardized prevalence of current tobacco use among persons aged 15 years and older
+http://purl.unep.org/sdg/SDGIO_00020049	3.b.1			C030b01	Proportion of the target population covered by all vaccines included in their national programme
+http://purl.unep.org/sdg/SDGIO_00020050	3.b.2			C030b02	Total net official development assistance to medical research and basic health sectors
+http://purl.unep.org/sdg/SDGIO_00020051	3.b.3			C030b03	Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis
+http://purl.unep.org/sdg/SDGIO_00020052	3.c.1			C030c01	Health worker density and distribution
+http://purl.unep.org/sdg/SDGIO_00020053	3.d.1			C030d01	International Health Regulations (IHR) capacity and health emergency preparedness
+http://purl.unep.org/sdg/SDGIO_00020054	4.1.1			C040101	"Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex"
+http://purl.unep.org/sdg/SDGIO_00020055	4.2.1			C040201	"Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex"
+http://purl.unep.org/sdg/SDGIO_00020056	4.2.2			C040202	"Participation rate in organized learning (one year before the official primary entry age), by sex"
+http://purl.unep.org/sdg/SDGIO_00020057	4.3.1			C040301	"Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex"
+http://purl.unep.org/sdg/SDGIO_00020058	4.4.1			C040401	"Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill"
+http://purl.unep.org/sdg/SDGIO_00020059	4.5.1			C040501	"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated"
+http://purl.unep.org/sdg/SDGIO_00020060	4.6.1			C040601	"Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex"
+http://purl.unep.org/sdg/SDGIO_00020061	4.7.1			C040701	"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment"
+http://purl.unep.org/sdg/SDGIO_00020062	4.a.1			C040a01	Proportion of schools with access to: (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions)
+http://purl.unep.org/sdg/SDGIO_00020063	4.b.1			C040b01	Volume of official development assistance flows for scholarships by sector and type of study
+http://purl.unep.org/sdg/SDGIO_00020064	4.c.1			C040c01	Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country
+http://purl.unep.org/sdg/SDGIO_00020065	5.1.1			C050101	"Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‑discrimination on the basis of sex"
+http://purl.unep.org/sdg/SDGIO_00020066	5.2.1			C050201	"Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age"
+http://purl.unep.org/sdg/SDGIO_00020067	5.2.2			C050202	"Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence"
+http://purl.unep.org/sdg/SDGIO_00020068	5.3.1			C050301	Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18
+http://purl.unep.org/sdg/SDGIO_00020069	5.3.2			C050302	"Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age"
+http://purl.unep.org/sdg/SDGIO_00020070	5.4.1			C050401	"Proportion of time spent on unpaid domestic and care work, by sex, age and location"
+http://purl.unep.org/sdg/SDGIO_00020071	5.5.1			C050501	Proportion of seats held by women in (a) national parliaments and (b) local governments
+http://purl.unep.org/sdg/SDGIO_00020072	5.5.2			C050502	Proportion of women in managerial positions
+http://purl.unep.org/sdg/SDGIO_00020073	5.6.1			C050601	"Proportion of women aged 15-49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care"
+http://purl.unep.org/sdg/SDGIO_00020074	5.6.2			C050602	"Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education"
+http://purl.unep.org/sdg/SDGIO_00020075	5.a.1			C050a01	"(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure"
+http://purl.unep.org/sdg/SDGIO_00020076	5.a.2			C050a02	Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control
+http://purl.unep.org/sdg/SDGIO_00020077	5.b.1			C050b01	"Proportion of individuals who own a mobile telephone, by sex"
+http://purl.unep.org/sdg/SDGIO_00020078	5.c.1			C050c01	Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment
+http://purl.unep.org/sdg/SDGIO_00020079	6.1.1			C060101	Proportion of population using safely managed drinking water services
+http://purl.unep.org/sdg/SDGIO_00020080	6.2.1			C060201	"Proportion of population using safely managed sanitation services, including a hand-washing facility with soap and water"
+http://purl.unep.org/sdg/SDGIO_00020081	6.3.1			C060301	Proportion of wastewater safely treated
+http://purl.unep.org/sdg/SDGIO_00020082	6.3.2			C060302	Proportion of bodies of water with good ambient water quality
+http://purl.unep.org/sdg/SDGIO_00020083	6.4.1			C060401	Change in water-use efficiency over time
+http://purl.unep.org/sdg/SDGIO_00020084	6.4.2			C060402	Level of water stress: freshwater withdrawal as a proportion of available freshwater resources
+http://purl.unep.org/sdg/SDGIO_00020085	6.5.1			C060501	Degree of integrated water resources management implementation (0-100)
+http://purl.unep.org/sdg/SDGIO_00020086	6.5.2			C060502	Proportion of transboundary basin area with an operational arrangement for water cooperation
+http://purl.unep.org/sdg/SDGIO_00020087	6.6.1			C060601	Change in the extent of water-related ecosystems over time
+http://purl.unep.org/sdg/SDGIO_00020088	6.a.1			C060a01	Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan
+http://purl.unep.org/sdg/SDGIO_00020089	6.b.1			C060b01	Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management
+http://purl.unep.org/sdg/SDGIO_00020090	7.1.1			C070101	Proportion of population with access to electricity
+http://purl.unep.org/sdg/SDGIO_00020091	7.1.2			C070102	Proportion of population with primary reliance on clean fuels and technology
+http://purl.unep.org/sdg/SDGIO_00020092	7.2.1			C070201	Renewable energy share in the total final energy consumption
+http://purl.unep.org/sdg/SDGIO_00020093	7.3.1			C070301	Energy intensity measured in terms of primary energy and GDP
+http://purl.unep.org/sdg/SDGIO_00020094	7.a.1			C070a01	"International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems"
+http://purl.unep.org/sdg/SDGIO_00020095	7.b.1			C070b01	Investments in energy efficiency as a proportion of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services
+http://purl.unep.org/sdg/SDGIO_00020096	8.1.1			C080101	Annual growth rate of real GDP per capita
+http://purl.unep.org/sdg/SDGIO_00020097	8.2.1			C080201	Annual growth rate of real GDP per employed person
+http://purl.unep.org/sdg/SDGIO_00020098	8.3.1			C080301	"Proportion of informal employment in non‑agriculture employment, by sex"
+http://purl.unep.org/sdg/SDGIO_00020099	8.4.1	12.2.1		C200202	"Material footprint, material footprint per capita, and material footprint per GDP"
+http://purl.unep.org/sdg/SDGIO_00020100	8.4.2	12.2.2		C200203	"Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
+http://purl.unep.org/sdg/SDGIO_00020101	8.5.1			C080501	"Average hourly earnings of female and male employees, by occupation, age and persons with disabilities"
+http://purl.unep.org/sdg/SDGIO_00020102	8.5.2			C080502	"Unemployment rate, by sex, age and persons with disabilities"
+http://purl.unep.org/sdg/SDGIO_00020103	8.6.1			C080601	"Proportion of youth (aged 15-24 years) not in education, employment or training"
+http://purl.unep.org/sdg/SDGIO_00020104	8.7.1			C080701	"Proportion and number of children aged 5‑17 years engaged in child labour, by sex and age"
+http://purl.unep.org/sdg/SDGIO_00020105	8.8.1			C080801	"Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status"
+http://purl.unep.org/sdg/SDGIO_00020106	8.8.2			C080802	"Level of national compliance of labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status"
+http://purl.unep.org/sdg/SDGIO_00020107	8.9.1			C080901	Tourism direct GDP as a proportion of total GDP and in growth rate
+http://purl.unep.org/sdg/SDGIO_00020108	8.9.2			C080902	Proportion of jobs in sustainable tourism industries out of total tourism jobs
+http://purl.unep.org/sdg/SDGIO_00020109	8.10.1			C081001	"(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults"
+http://purl.unep.org/sdg/SDGIO_00020110	8.10.2			C081002	Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider
+http://purl.unep.org/sdg/SDGIO_00020111	8.a.1			C080a01	Aid for Trade commitments and disbursements
+http://purl.unep.org/sdg/SDGIO_00020112	8.b.1			C080b01	"Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy"
+http://purl.unep.org/sdg/SDGIO_00020113	9.1.1			C090101	Proportion of the rural population who live within 2 km of an all-season road
+http://purl.unep.org/sdg/SDGIO_00020114	9.1.2			C090102	"Passenger and freight volumes, by mode of transport"
+http://purl.unep.org/sdg/SDGIO_00020115	9.2.1			C090201	Manufacturing value added as a proportion of GDP and per capita
+http://purl.unep.org/sdg/SDGIO_00020116	9.2.2			C090202	Manufacturing employment as a proportion of total employment
+http://purl.unep.org/sdg/SDGIO_00020117	9.3.1			C090301	Proportion of small-scale industries in total industry value added
+http://purl.unep.org/sdg/SDGIO_00020118	9.3.2			C090302	Proportion of small-scale industries with a loan or line of credit
+http://purl.unep.org/sdg/SDGIO_00020119	9.4.1			C090401	CO2 emission per unit of value added
+http://purl.unep.org/sdg/SDGIO_00020120	9.5.1			C090501	Research and development expenditure as a proportion of GDP
+http://purl.unep.org/sdg/SDGIO_00020121	9.5.2			C090502	Researchers (in full-time equivalent) per million inhabitants
+http://purl.unep.org/sdg/SDGIO_00020122	9.a.1			C090a01	Total official international support (official development assistance plus other official flows) to infrastructure
+http://purl.unep.org/sdg/SDGIO_00020123	9.b.1			C090b01	Proportion of medium and high-tech industry value added in total value added
+http://purl.unep.org/sdg/SDGIO_00020124	9.c.1			C090c01	"Proportion of population covered by a mobile network, by technology"
+http://purl.unep.org/sdg/SDGIO_00020125	10.1.1			C100101	Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population
+http://purl.unep.org/sdg/SDGIO_00020126	10.2.1			C100201	"Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities"
+http://purl.unep.org/sdg/SDGIO_00020127	10.3.1	16.b.1		C200204	Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law
+http://purl.unep.org/sdg/SDGIO_00020128	10.4.1			C100401	"Labour share of GDP, comprising wages and social protection transfers"
+http://purl.unep.org/sdg/SDGIO_00020129	10.5.1			C100501	Financial Soundness Indicators
+http://purl.unep.org/sdg/SDGIO_00020130	10.6.1	16.8.1		C200205	Proportion of members and voting rights of developing countries in international organizations
+http://purl.unep.org/sdg/SDGIO_00020131	10.7.1			C100701	Recruitment cost borne by employee as a proportion of yearly income earned in country of destination
+http://purl.unep.org/sdg/SDGIO_00020132	10.7.2			C100702	Number of countries that have implemented well-managed migration policies
+http://purl.unep.org/sdg/SDGIO_00020133	10.a.1			C100a01	Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff
+http://purl.unep.org/sdg/SDGIO_00020134	10.b.1			C100b01	"Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)"
+http://purl.unep.org/sdg/SDGIO_00020135	10.c.1			C100c01	Remittance costs as a proportion of the amount remitted
+http://purl.unep.org/sdg/SDGIO_00020136	11.1.1			C110101	"Proportion of urban population living in slums, informal settlements or inadequate housing"
+http://purl.unep.org/sdg/SDGIO_00020137	11.2.1			C110201	"Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities"
+http://purl.unep.org/sdg/SDGIO_00020138	11.3.1			C110301	Ratio of land consumption rate to population growth rate
+http://purl.unep.org/sdg/SDGIO_00020139	11.3.2			C110302	Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically
+http://purl.unep.org/sdg/SDGIO_00020140	11.4.1			C110401	"Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)"
+http://purl.unep.org/sdg/SDGIO_00020141	11.5.2			C110502	"Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters"
+http://purl.unep.org/sdg/SDGIO_00020142	11.6.1			C110601	"Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities"
+http://purl.unep.org/sdg/SDGIO_00020143	11.6.2			C110602	Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)
+http://purl.unep.org/sdg/SDGIO_00020144	11.7.1			C110701	"Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities"
+http://purl.unep.org/sdg/SDGIO_00020145	11.7.2			C110702	"Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months"
+http://purl.unep.org/sdg/SDGIO_00020146	11.a.1			C110a01	"Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city"
+http://purl.unep.org/sdg/SDGIO_00020147	11.c.1			C110c01	"Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials"
+http://purl.unep.org/sdg/SDGIO_00020148	12.1.1			C120101	Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies
+http://purl.unep.org/sdg/SDGIO_00020149	12.3.1			C120301	Global food loss index
+http://purl.unep.org/sdg/SDGIO_00020150	12.4.1			C120401	"Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement"
+http://purl.unep.org/sdg/SDGIO_00020151	12.4.2			C120402	"Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment"
+http://purl.unep.org/sdg/SDGIO_00020152	12.5.1			C120501	"National recycling rate, tons of material recycled"
+http://purl.unep.org/sdg/SDGIO_00020153	12.6.1			C120601	Number of companies publishing sustainability reports
+http://purl.unep.org/sdg/SDGIO_00020154	12.7.1			C120701	Number of countries implementing sustainable public procurement policies and action plans
+http://purl.unep.org/sdg/SDGIO_00020155	12.8.1			C120801	Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment
+http://purl.unep.org/sdg/SDGIO_00020156	12.a.1			C120a01	Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies
+http://purl.unep.org/sdg/SDGIO_00020157	12.b.1			C120b01	Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools
+http://purl.unep.org/sdg/SDGIO_00020158	12.c.1			C120c01	Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels
+http://purl.unep.org/sdg/SDGIO_00020159	13.2.1			C130201	"Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)"
+http://purl.unep.org/sdg/SDGIO_00020160	13.3.1			C130301	"Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula"
+http://purl.unep.org/sdg/SDGIO_00020161	13.3.2			C130302	"Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions"
+http://purl.unep.org/sdg/SDGIO_00020162	13.a.1			C130a01	Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment
+http://purl.unep.org/sdg/SDGIO_00020163	13.b.1			C130b01	"Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities"
+http://purl.unep.org/sdg/SDGIO_00020164	14.1.1			C140101	Index of coastal eutrophication and floating plastic debris density
+http://purl.unep.org/sdg/SDGIO_00020165	14.2.1			C140201	Proportion of national exclusive economic zones managed using ecosystem-based approaches
+http://purl.unep.org/sdg/SDGIO_00020166	14.3.1			C140301	Average marine acidity (pH) measured at agreed suite of representative sampling stations
+http://purl.unep.org/sdg/SDGIO_00020167	14.4.1			C140401	Proportion of fish stocks within biologically sustainable levels
+http://purl.unep.org/sdg/SDGIO_00020168	14.5.1			C140501	Coverage of protected areas in relation to marine areas
+http://purl.unep.org/sdg/SDGIO_00020169	14.6.1			C140601	"Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing"
+http://purl.unep.org/sdg/SDGIO_00020170	14.7.1			C140701	"Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries"
+http://purl.unep.org/sdg/SDGIO_00020171	14.a.1			C140a01	Proportion of total research budget allocated to research in the field of marine technology
+http://purl.unep.org/sdg/SDGIO_00020172	14.b.1			C140b01	Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries
+http://purl.unep.org/sdg/SDGIO_00020173	14.c.1			C140c01	"Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nation Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources"
+http://purl.unep.org/sdg/SDGIO_00020174	15.1.1			C150101	Forest area as a proportion of total land area
+http://purl.unep.org/sdg/SDGIO_00020175	15.1.2			C150102	"Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type"
+http://purl.unep.org/sdg/SDGIO_00020176	15.2.1			C150201	Progress towards sustainable forest management
+http://purl.unep.org/sdg/SDGIO_00020177	15.3.1			C150301	Proportion of land that is degraded over total land area
+http://purl.unep.org/sdg/SDGIO_00020178	15.4.1			C150401	Coverage by protected areas of important sites for mountain biodiversity
+http://purl.unep.org/sdg/SDGIO_00020179	15.4.2			C150402	Mountain Green Cover Index
+http://purl.unep.org/sdg/SDGIO_00020180	15.5.1			C150501	Red List Index
+http://purl.unep.org/sdg/SDGIO_00020181	15.6.1			C150601	"Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits"
+http://purl.unep.org/sdg/SDGIO_00020182	15.7.1	15.c.1		C200206	Proportion of traded wildlife that was poached or illicitly trafficked
+http://purl.unep.org/sdg/SDGIO_00020183	15.8.1			C150801	Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species
+http://purl.unep.org/sdg/SDGIO_00020184	15.9.1			C150901	Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020
+http://purl.unep.org/sdg/SDGIO_00020185	15.a.1	15.b.1		C200207	Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems
+http://purl.unep.org/sdg/SDGIO_00020186	16.1.1			C160101	"Number of victims of intentional homicide per 100,000 population, by sex and age"
+http://purl.unep.org/sdg/SDGIO_00020187	16.1.2			C160102	"Conflict-related deaths per 100,000 population, by sex, age and cause"
+http://purl.unep.org/sdg/SDGIO_00020188	16.1.3			C160103	"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months"
+http://purl.unep.org/sdg/SDGIO_00020189	16.1.4			C160104	Proportion of population that feel safe walking alone around the area they live
+http://purl.unep.org/sdg/SDGIO_00020190	16.2.1			C160201	Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month
+http://purl.unep.org/sdg/SDGIO_00020191	16.2.2			C160202	"Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation"
+http://purl.unep.org/sdg/SDGIO_00020192	16.2.3			C160203	Proportion of young women and men aged 18‑29 years who experienced sexual violence by age 18
+http://purl.unep.org/sdg/SDGIO_00020193	16.3.1			C160301	Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms
+http://purl.unep.org/sdg/SDGIO_00020194	16.3.2			C160302	Unsentenced detainees as a proportion of overall prison population
+http://purl.unep.org/sdg/SDGIO_00020195	16.4.1			C160401	Total value of inward and outward illicit financial flows (in current United States dollars)
+http://purl.unep.org/sdg/SDGIO_00020196	16.4.2			C160402	"Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments"
+http://purl.unep.org/sdg/SDGIO_00020197	16.5.1			C160501	"Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months"
+http://purl.unep.org/sdg/SDGIO_00020198	16.5.2			C160502	"Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months"
+http://purl.unep.org/sdg/SDGIO_00020199	16.6.1			C160601	"Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)"
+http://purl.unep.org/sdg/SDGIO_00020200	16.6.2			C160602	Proportion of population satisfied with their last experience of public services
+http://purl.unep.org/sdg/SDGIO_00020201	16.7.1			C160701	"Proportions of positions (by sex, age, persons with disabilities and population groups) in public institutions (national and local legislatures, public service, and judiciary) compared to national distributions"
+http://purl.unep.org/sdg/SDGIO_00020202	16.7.2			C160702	"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group"
+http://purl.unep.org/sdg/SDGIO_00020203	16.9.1			C160901	"Proportion of children under 5 years of age whose births have been registered with a civil authority, by age"
+http://purl.unep.org/sdg/SDGIO_00020204	16.10.1			C161001	"Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months"
+http://purl.unep.org/sdg/SDGIO_00020205	16.10.2			C161002	"Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information"
+http://purl.unep.org/sdg/SDGIO_00020206	16.a.1			C160a01	Existence of independent national human rights institutions in compliance with the Paris Principles
+http://purl.unep.org/sdg/SDGIO_00020207	17.1.1			C170101	"Total government revenue as a proportion of GDP, by source"
+http://purl.unep.org/sdg/SDGIO_00020208	17.1.2			C170102	Proportion of domestic budget funded by domestic taxes
+http://purl.unep.org/sdg/SDGIO_00020209	17.2.1			C170201	"Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)"
+http://purl.unep.org/sdg/SDGIO_00020210	17.3.1			C170301	"Foreign direct investments (FDI), official development assistance and South-South Cooperation as a proportion of total domestic budget"
+http://purl.unep.org/sdg/SDGIO_00020211	17.3.2			C170302	Volume of remittances (in United States dollars) as a proportion of total GDP
+http://purl.unep.org/sdg/SDGIO_00020212	17.4.1			C170401	Debt service as a proportion of exports of goods and services
+http://purl.unep.org/sdg/SDGIO_00020213	17.5.1			C170501	Number of countries that adopt and implement investment promotion regimes for least developed countries
+http://purl.unep.org/sdg/SDGIO_00020214	17.6.1			C170601	"Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation"
+http://purl.unep.org/sdg/SDGIO_00020215	17.6.2			C170602	"Fixed Internet broadband subscriptions per 100 inhabitants, by speed"
+http://purl.unep.org/sdg/SDGIO_00020216	17.7.1			C170701	"Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies"
+http://purl.unep.org/sdg/SDGIO_00020217	17.8.1			C170801	Proportion of individuals using the Internet
+http://purl.unep.org/sdg/SDGIO_00020218	17.9.1			C170901	"Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries"
+http://purl.unep.org/sdg/SDGIO_00020219	17.10.1			C171001	Worldwide weighted tariff-average
+http://purl.unep.org/sdg/SDGIO_00020220	17.11.1			C171101	Developing countries’ and least developed countries’ share of global exports
+http://purl.unep.org/sdg/SDGIO_00020221	17.12.1			C171201	"Average tariffs faced by developing countries, least developed countries and small island developing States"
+http://purl.unep.org/sdg/SDGIO_00020222	17.13.1			C171301	Macroeconomic Dashboard
+http://purl.unep.org/sdg/SDGIO_00020223	17.14.1			C171401	Number of countries with mechanisms in place to enhance policy coherence of sustainable development
+http://purl.unep.org/sdg/SDGIO_00020224	17.15.1			C171501	Extent of use of country-owned results frameworks and planning tools by providers of development cooperation
+http://purl.unep.org/sdg/SDGIO_00020225	17.16.1			C171601	Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals
+http://purl.unep.org/sdg/SDGIO_00020226	17.17.1			C171701	Amount of United States dollars committed to public-private and civil society partnerships
+http://purl.unep.org/sdg/SDGIO_00020227	17.18.1			C171801	"Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics"
+http://purl.unep.org/sdg/SDGIO_00020228	17.18.2			C171802	Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics
+http://purl.unep.org/sdg/SDGIO_00020229	17.18.3			C171803	"Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding"
+http://purl.unep.org/sdg/SDGIO_00020230	17.19.1			C171901	Dollar value of all resources made available to strengthen statistical capacity in developing countries
+http://purl.unep.org/sdg/SDGIO_00020231	17.19.2			C171902	Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration
