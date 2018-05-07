@@ -17,6 +17,7 @@ Import(<http://purl.unep.org/sdg/imports/ro_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/iao_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/ncbitaxon_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/chebi_import.owl>)
+Import(<http://purl.unep.org/sdg/sdgio_indicator_values_import.ttl>)
 Annotation(rdfs:comment "This is the Sustainable Development Goals Interface Ontology (SDGIO) developed to support the realisation of the SDGs by providing a semantically coherent representations of relevant entities."^^xsd:string)
 
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000000>))
@@ -1843,6 +1844,12 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000120> "6.3"^^xsd:decimal)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000120> "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000120>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00002001>) <http://purl.unep.org/sdg/SDGIO_00000120>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01000741>) <http://purl.unep.org/sdg/SDGIO_00000120>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500039>) <http://purl.unep.org/sdg/SDGIO_00000120>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.unep.org/sdg/SDGIO_00000021>))) <http://purl.unep.org/sdg/SDGIO_00000120>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00010483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.unep.org/sdg/SDGIO_00000021>))) <http://purl.unep.org/sdg/SDGIO_00000120>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectUnionOf(<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/ENVO_00000063>)) <http://purl.unep.org/sdg/SDGIO_00000120>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000121> (By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity)
 
