@@ -2,13 +2,18 @@ format-version: 1.2
 ontology: http://purl.unep.org/sdg/imports/chebi_import.owl
 
 [Term]
+id: CHEBI:138675
+name: gas molecular entity
+def: "Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0degreeC and 100 kPa)." []
+synonym: "gas molecular entities" RELATED [ChEBI]
+synonym: "gaseous molecular entities" RELATED [ChEBI]
+synonym: "gaseous molecular entity" RELATED [ChEBI]
+is_a: CHEBI:33579 ! main group molecular entity
+
+[Term]
 id: CHEBI:15377
 name: water
 def: "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms." []
-synonym: "0" RELATED CHARGE [ChEBI]
-synonym: "18.011" RELATED MONOISOTOPIC_MASS [ChEBI]
-synonym: "18.01530" RELATED MASS [ChEBI]
-synonym: "[H]O[H]" RELATED SMILES [ChEBI]
 synonym: "[OH2]" RELATED [IUPAC]
 synonym: "acqua" RELATED [ChEBI]
 synonym: "agua" RELATED [ChEBI]
@@ -17,18 +22,15 @@ synonym: "BOUND WATER" RELATED [PDBeChem]
 synonym: "dihydridooxygen" RELATED [IUPAC]
 synonym: "dihydrogen oxide" RELATED [IUPAC]
 synonym: "eau" RELATED [ChEBI]
-synonym: "H2O" RELATED [KEGG_COMPOUND]
 synonym: "H2O" RELATED [UniProt]
-synonym: "H2O" RELATED FORMULA [ChEBI]
+synonym: "H2O" RELATED [KEGG_COMPOUND]
 synonym: "HOH" RELATED [ChEBI]
 synonym: "hydrogen hydroxide" RELATED [ChEBI]
-synonym: "InChI=1S/H2O/h1H2" RELATED InChI [ChEBI]
 synonym: "oxidane" EXACT IUPAC_NAME [IUPAC]
 synonym: "Wasser" RELATED [ChEBI]
 synonym: "WATER" EXACT [PDBeChem]
 synonym: "Water" EXACT [KEGG_COMPOUND]
 synonym: "water" EXACT IUPAC_NAME [IUPAC]
-synonym: "XLYOFNOQVPJJNP-UHFFFAOYSA-N" RELATED InChIKey [ChEBI]
 is_a: CHEBI:33693 ! oxygen hydride
 is_a: CHEBI:37176 ! mononuclear parent hydride
 is_a: CHEBI:52625 ! inorganic hydroxy compound
@@ -37,10 +39,6 @@ is_a: CHEBI:52625 ! inorganic hydroxy compound
 id: CHEBI:18276
 name: dihydrogen
 def: "An elemental molecule consisting of two hydrogens joined by a single bond." []
-synonym: "0" RELATED CHARGE [ChEBI]
-synonym: "2.01588" RELATED MASS [ChEBI]
-synonym: "2.016" RELATED MONOISOTOPIC_MASS [ChEBI]
-synonym: "[H][H]" RELATED SMILES [ChEBI]
 synonym: "dihydrogen" EXACT [ChEBI]
 synonym: "dihydrogen" EXACT IUPAC_NAME [IUPAC]
 synonym: "E 949" RELATED [ChEBI]
@@ -49,11 +47,9 @@ synonym: "E949" RELATED [ChEBI]
 synonym: "H2" RELATED [IUPAC]
 synonym: "H2" RELATED [UniProt]
 synonym: "H2" RELATED [KEGG_COMPOUND]
-synonym: "H2" RELATED FORMULA [ChEBI]
 synonym: "Hydrogen" RELATED [KEGG_COMPOUND]
-synonym: "InChI=1S/H2/h1H" RELATED InChI [ChEBI]
 synonym: "molecular hydrogen" RELATED [ChEBI]
-synonym: "UFHFLCQGNIYNRP-UHFFFAOYSA-N" RELATED InChIKey [ChEBI]
+is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:25362 ! elemental molecule
 is_a: CHEBI:33260 ! elemental hydrogen
 

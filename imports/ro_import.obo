@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: http://purl.unep.org/sdg/imports/ro_import.owl
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002008> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001199>) <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002008> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001199>) <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))\nSubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002333> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002215>))\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0001025> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001025>)) <http://purl.obolibrary.org/obo/RO_0002379>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/RO_0000052>) <http://purl.obolibrary.org/obo/RO_0000057>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\nSubObjectPropertyOf(ObjectPropertyChain(ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000066>) <http://purl.obolibrary.org/obo/RO_0002234>) <http://purl.obolibrary.org/obo/RO_0003000>)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002008> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001199>) <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002008> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001199>) <http://purl.obolibrary.org/obo/BFO_0000002>))\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))\nSubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002333> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002215>))\nDLSafeRule(Annotation(rdfs:label \"From has_ligand to ligand activity\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002019> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ClassAtom(<http://purl.obolibrary.org/obo/GO_0048018> Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#z>) Variable(<urn:swrl#x>))))\nDLSafeRule(Annotation(rdfs:comment \"This rule is dubious: added as a quick fix for expected inference in GO-CAM.  The problem is most acute for transmembrane proteins, such as receptors or cell adhesion molecules, which have some subfunctions inside the cell (e.g. kinase activity) and some subfunctions outside (e.g. ligand binding).  Correct annotation of where these functions occurs leads to incorrect inference about the location of the whole protein.  This should probably be weakened to \\\"... -> overlaps\\\"\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002630> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002449>)\nDLSafeRule(Annotation(rdfs:label \"if effector directly negatively regulates X,  its parent MF directly negatively regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:comment \"if effector directly positively regulates X,  its parent MF directly positively regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:label \"Input of effector is input of its parent MF\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#mf>) Variable(<urn:swrl#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#eff>) Variable(<urn:swrl#in>))))\nDLSafeRule(Annotation(rdfs:label \"From ligand activity to has_ligand\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#z>) Variable(<urn:swrl#x>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0048018> Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002019> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0001025> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001025>)) <http://purl.obolibrary.org/obo/RO_0002379>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\nSubObjectPropertyOf(ObjectPropertyChain(ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000066>) <http://purl.obolibrary.org/obo/RO_0002234>) <http://purl.obolibrary.org/obo/RO_0003000>)\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002566>)\nDLSafeRule(Annotation(rdfs:comment \"If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.\") Annotation(rdfs:label \"inferring direct reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002013> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002629> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002450>)\nDLSafeRule(Annotation(rdfs:label \"effector input is compound function input\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#eff>) Variable(<urn:swrl#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#mf>) Variable(<urn:swrl#in>))))\nDLSafeRule(Annotation(rdfs:comment \"GP(X)-enables->MF(Y)-has_part->MF(Z) => GP(X) enables MF(Z),\ne.g.  if GP X enables ATPase coupled transporter activity' and 'ATPase coupled transporter activity' has_part 'ATPase activity' then GP(X) enables 'ATPase activity'\") Annotation(rdfs:label \"enabling an MF enables its parts\") Body(ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000051> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> \"true\"^^xsd:boolean) Annotation(rdfs:comment \"GP(X)-enables->MF(Y)-part_of->BP(Z) => GP(X) involved_in BP(Z) e.g. if X enables 'protein kinase activity' and Y 'part of' 'signal tranduction' then X involved in 'signal transduction'\"^^xsd:string) Annotation(rdfs:label \"involved in BP\"^^xsd:string) Body(ClassAtom(<http://purl.obolibrary.org/obo/GO_0008150> Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002331> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Annotation(rdfs:label \"inferring direct neg reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002014> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/RO_0000052>) <http://purl.obolibrary.org/obo/RO_0000057>)\nDLSafeRule(Annotation(rdfs:comment \"if effector directly regulates X,  its parent MF directly regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:label \"inferring direct positive reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002015> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> \"true\"^^xsd:boolean) Annotation(rdfs:comment \"MF(X)-directly_regulates->MF(Y)-enabled_by->GP(Z) => MF(Y)-has_input->GP(Y) e.g. if 'protein kinase activity'(X) directly_regulates 'protein binding activity (Y)and this is enabled by GP(Z) then X has_input Z\"^^xsd:string) Annotation(rdfs:label \"infer input from direct reg\"^^xsd:string) Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<http://purl.obolibrary.org/obo/ro.owl#z>) Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>) Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>) Variable(<http://purl.obolibrary.org/obo/ro.owl#z>))))\n)
 
 [Term]
 id: BFO:0000002
@@ -73,6 +73,20 @@ is_a: CARO:0000006 ! material anatomical entity
 id: CARO:0000006
 name: material anatomical entity
 is_a: BFO:0000040 ! material entity
+
+[Term]
+id: GO:0003674
+name: molecular_function
+is_a: BFO:0000015 ! process
+
+[Term]
+id: GO:0004872
+name: receptor activity
+
+[Term]
+id: GO:0008150
+name: biological_process
+is_a: BFO:0000015 ! process
 
 [Term]
 id: PATO:0000001
@@ -275,10 +289,88 @@ def: "A relation that holds between two linear structures that are approximately
 is_a: RO:0002323 ! mereotopologically related to
 
 [Typedef]
+id: RO:0002013
+name: has regulatory component activity
+def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
+is_a: RO:0002017 ! has component activity
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002014
+name: has negative regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that negatively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is negatively regulated by B." []
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002335 ! negatively regulated by
+
+[Typedef]
+id: RO:0002015
+name: has positive regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that positively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is positively regulated by B." []
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002336 ! positively regulated by
+
+[Typedef]
+id: RO:0002017
+name: has component activity
+is_a: RO:0002018 ! has component process
+
+[Typedef]
+id: RO:0002018
+name: has component process
+def: "w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+is_a: RO:0002180 ! has component
+
+[Typedef]
+id: RO:0002019
+name: has ligand
+def: "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function." []
+domain: GO:0004872 ! receptor activity
+is_a: RO:0002233 ! has input
+
+[Typedef]
+id: RO:0002022
+name: directly regulated by
+is_a: RO:0002334 ! regulated by
+inverse_of: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0002023
+name: directly negatively regulated by
+def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." [GOC:dos]
+is_a: RO:0002022 ! directly regulated by
+inverse_of: RO:0002630 ! directly negatively regulates
+
+[Typedef]
+id: RO:0002024
+name: directly positively regulated by
+def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." [GOC:dos]
+is_a: RO:0002022 ! directly regulated by
+inverse_of: RO:0002629 ! directly positively regulates
+
+[Typedef]
+id: RO:0002025
+name: has effector activity
+def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." [GOC:dos]
+is_functional: true
+is_a: RO:0002017 ! has component activity
+is_a: RO:0002211 ! regulates
+
+[Typedef]
 id: RO:0002086
 name: ends after
 is_transitive: true
 is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002087
+name: immediately preceded by
+is_a: BFO:0000062 ! preceded by
+inverse_of: RO:0002090 ! immediately precedes
+
+[Typedef]
+id: RO:0002090
+name: immediately precedes
+is_a: BFO:0000063 ! precedes
 
 [Typedef]
 id: RO:0002131
@@ -318,6 +410,12 @@ is_a: RO:0002323 ! mereotopologically related to
 is_a: RO:0002567 ! biomechanically related to
 
 [Typedef]
+id: RO:0002180
+name: has component
+def: "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+is_a: BFO:0000051 ! has part
+
+[Typedef]
 id: RO:0002202
 name: develops from
 def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
@@ -339,9 +437,10 @@ is_a: RO:0002388 ! has potential to directly develop into
 [Typedef]
 id: RO:0002211
 name: regulates
-def: "x regulates y if and only if the x is the realization of a function to exert an effect on the frequency, rate or extent of y" []
+def: "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2." []
 domain: BFO:0000015 ! process
 range: BFO:0000015 ! process
+holds_over_chain: RO:0002578 RO:0002578
 is_transitive: true
 is_a: RO:0002411 ! causally upstream of
 inverse_of: RO:0002334 ! regulated by
@@ -349,8 +448,7 @@ inverse_of: RO:0002334 ! regulated by
 [Typedef]
 id: RO:0002212
 name: negatively regulates
-def: "x negatively regulates y if and only if the progression of x reduces the frequency, rate or extent of y" []
-is_transitive: true
+def: "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
 is_a: RO:0002211 ! regulates
 is_a: RO:0002305 ! causally upstream of, negative effect
 inverse_of: RO:0002335 ! negatively regulated by
@@ -358,7 +456,7 @@ inverse_of: RO:0002335 ! negatively regulated by
 [Typedef]
 id: RO:0002213
 name: positively regulates
-def: "x positively regulates y if and only if the progression of x increases the frequency, rate or extent of y" []
+def: "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
 holds_over_chain: RO:0002212 RO:0002212
 is_transitive: true
 is_a: RO:0002211 ! regulates
@@ -379,7 +477,7 @@ name: capable of part of
 def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
 holds_over_chain: RO:0002215 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
 is_a: RO:0002328 ! functionally related to
-is_a: RO:0002500 ! causal agent in
+is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
 id: RO:0002217
@@ -411,7 +509,9 @@ range: BFO:0000003 ! occurrent
 [Typedef]
 id: RO:0002233
 name: has input
-def: "p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+domain: BFO:0000015 ! process
+range: BFO:0000040 ! material entity
 is_a: RO:0000057 ! has participant
 inverse_of: RO:0002352 ! input of
 
@@ -426,7 +526,7 @@ inverse_of: RO:0002353 ! output of
 id: RO:0002254
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
-domain: CARO:0000003 ! anatomical structure
+domain: BFO:0000004 ! independent continuant
 range: CARO:0000003 ! anatomical structure
 holds_over_chain: BFO:0000051 RO:0002202
 is_a: RO:0002258 ! developmentally preceded by
@@ -444,23 +544,25 @@ is_a: RO:0002385 ! has potential to developmentally contribute to
 id: RO:0002258
 name: developmentally preceded by
 def: "Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p" []
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
 is_a: RO:0002324 ! developmentally related to
 inverse_of: RO:0002286 ! developmentally succeeded by
 
 [Typedef]
 id: RO:0002263
 name: acts upstream of
-def: "c involved in regulation of p if c enables  'p' and p' causally upstream of p" []
+def: "c involved in regulation of p if c enables f and f causally upstream of p" []
 holds_over_chain: RO:0002327 RO:0002411
 is_a: RO:0002264 ! acts upstream of or within
 
 [Typedef]
 id: RO:0002264
 name: acts upstream of or within
-def: "c acts upstream of or within p if c is enables 'p' and p' causally upstream of or within p" []
+def: "c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process." []
 synonym: "affects" RELATED []
 holds_over_chain: RO:0002327 RO:0002418
-is_a: RO:0002500 ! causal agent in
+is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
 id: RO:0002286
@@ -472,11 +574,13 @@ is_a: RO:0002384 ! has developmental potential involving
 id: RO:0002304
 name: causally upstream of, positive effect
 is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004047 ! causally upstream of or within, positive effect
 
 [Typedef]
 id: RO:0002305
 name: causally upstream of, negative effect
 is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004046 ! causally upstream of or within, negative effect
 
 [Typedef]
 id: RO:0002314
@@ -507,6 +611,8 @@ id: RO:0002327
 name: enables
 is_a: RO:0002215 ! capable of
 inverse_of: RO:0002333 ! enabled by
+transitive_over: BFO:0000051 ! has part
+transitive_over: RO:0002017 ! has component activity
 
 [Typedef]
 id: RO:0002328
@@ -615,6 +721,13 @@ is_a: RO:0002427 ! causally downstream of or within
 inverse_of: RO:0002411 ! causally upstream of
 
 [Typedef]
+id: RO:0002405
+name: immediately causally downstream of
+is_a: RO:0002087 ! immediately preceded by
+is_a: RO:0002404 ! causally downstream of
+inverse_of: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
 id: RO:0002410
 name: causally related to
 def: "This relation groups causal relations between material entities and causal relations between processes" []
@@ -627,6 +740,13 @@ def: "p is causally upstream of q if and only if p precedes q and p and q are li
 is_transitive: true
 is_a: BFO:0000063 ! precedes
 is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0002412
+name: immediately causally upstream of
+def: "p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q." []
+is_a: RO:0002090 ! immediately precedes
+is_a: RO:0002411 ! causally upstream of
 
 [Typedef]
 id: RO:0002418
@@ -647,7 +767,7 @@ is_a: RO:0002501 ! causal relation between processes
 [Typedef]
 id: RO:0002428
 name: involved in regulation of
-def: "c involved in regulation of p if c is involved in some 'p' and p' regulates some p" []
+def: "c involved in regulation of p if c is involved in some p' and p' regulates some p" []
 holds_over_chain: RO:0002327 RO:0002211
 holds_over_chain: RO:0002331 RO:0002211
 is_a: RO:0002263 ! acts upstream of
@@ -673,13 +793,15 @@ name: involved in or involved in regulation of
 def: "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p" []
 is_a: RO:0002264 ! acts upstream of or within
 is_a: RO:0002328 ! functionally related to
-is_a: RO:0002500 ! causal agent in
+is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
 id: RO:0002432
-name: enables activity in
-def: "c executes activity in d if and only if c enables p and p occurs_in d" []
+name: is active in
+def: "c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure." [GOC:cjm, GOC:dos]
+synonym: "enables activity in" EXACT []
 holds_over_chain: RO:0002327 BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+is_a: RO:0002131 ! overlaps
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
@@ -694,16 +816,37 @@ is_symmetric: true
 [Typedef]
 id: RO:0002436
 name: molecularly interacts with
-def: "An interaction relationship in which the two partners are molecular entities and are executing molecular processes that are directly causally connected." []
+def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
 is_symmetric: true
 is_a: RO:0002434 ! interacts with
 
 [Typedef]
 id: RO:0002448
-name: molecularly controls
-def: "Holds between molecular entities a and b when the execution of a activates or inhibits the activity of b" []
+name: activity directly regulates activity of
+def: "Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B." []
+synonym: "molecularly controls" EXACT []
 is_a: RO:0002436 ! molecularly interacts with
 is_a: RO:0002566 ! causally influences
+
+[Typedef]
+id: RO:0002449
+name: activity directly negatively regulates activity of
+def: "Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
+synonym: "molecularly decreases activity of" EXACT []
+is_a: RO:0002448 ! activity directly regulates activity of
+
+[Typedef]
+id: RO:0002450
+name: activity directly positively regulates activity of
+def: "Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
+synonym: "molecularly increases activity of" EXACT []
+is_a: RO:0002448 ! activity directly regulates activity of
+
+[Typedef]
+id: RO:0002473
+name: composed primarily of
+def: "x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y." []
+is_a: BFO:0000051 ! has part
 
 [Typedef]
 id: RO:0002479
@@ -715,10 +858,10 @@ holds_over_chain: BFO:0000051 BFO:0000066 {http://purl.obolibrary.org/obo/RO_000
 
 [Typedef]
 id: RO:0002500
-name: causal agent in
+name: causal agent in process
 def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
 is_a: RO:0002595 ! causal relation between material entity and a process
-inverse_of: RO:0002608 ! has causal agent
+inverse_of: RO:0002608 ! process has causal agent
 
 [Typedef]
 id: RO:0002501
@@ -785,6 +928,13 @@ def: "A relation that holds between elements of a musculoskeletal system or its 
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
+id: RO:0002578
+name: directly regulates
+def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
+is_a: RO:0002211 ! regulates
+is_a: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
 id: RO:0002584
 name: has part structure that is capable of
 def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
@@ -805,7 +955,7 @@ id: RO:0002596
 name: capable of regulating
 def: "Holds between c and p if and only if c is capable of some activity a, and a regulates p." []
 holds_over_chain: RO:0002215 RO:0002211
-is_a: RO:0002500 ! causal agent in
+is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
 id: RO:0002597
@@ -823,14 +973,28 @@ is_a: RO:0002596 ! capable of regulating
 
 [Typedef]
 id: RO:0002608
-name: has causal agent
-def: "Inverse of 'causal agent in'" []
+name: process has causal agent
+def: "Inverse of 'causal agent in process'" []
 is_a: RO:0002410 ! causally related to
 
 [Typedef]
 id: RO:0002609
 name: related via dependence to
 def: "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
+
+[Typedef]
+id: RO:0002629
+name: directly positively regulates
+def: "Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2." []
+is_a: RO:0002213 ! positively regulates
+is_a: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0002630
+name: directly negatively regulates
+def: "Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2." []
+is_a: RO:0002212 ! negatively regulates
+is_a: RO:0002578 ! directly regulates
 
 [Typedef]
 id: RO:0003000
@@ -846,4 +1010,68 @@ name: produced by
 def: "a produced_by b iff some process that occurs_in b has_output a." []
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
+
+[Typedef]
+id: RO:0004028
+name: realized in response to stimulus
+def: "A relationship between a realizable entity R (e.g. function or disposition) and a material entity M where R is realized in response to a process that has an input stimulus of M." []
+domain: BFO:0000017 ! realizable entity
+range: BFO:0000040 ! material entity
+holds_over_chain: RO:0009501 RO:0002233
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0004031
+name: enables subfunction
+def: "Holds between an entity and an process P where the entity enables some larger compound process, and that larger process has-part P." []
+holds_over_chain: RO:0002327 BFO:0000051
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0004032
+name: acts upstream of or within, positive effect
+holds_over_chain: RO:0002327 RO:0004047
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0004033
+name: acts upstream of or within, negative effect
+holds_over_chain: RO:0002327 RO:0004046
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0004034
+name: acts upstream of, positive effect
+def: "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive" []
+holds_over_chain: RO:0002327 RO:0002304
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0004032 ! acts upstream of or within, positive effect
+
+[Typedef]
+id: RO:0004035
+name: acts upstream of, negative effect
+def: "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative" []
+holds_over_chain: RO:0002327 RO:0002305
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0004033 ! acts upstream of or within, negative effect
+
+[Typedef]
+id: RO:0004046
+name: causally upstream of or within, negative effect
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0004047
+name: causally upstream of or within, positive effect
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0009501
+name: realized in response to
+def: "r 'realized in response to' s iff, r is a realizable (e.g. a plant trait such as responsivity to drought), s is an environmental stimulus (a process), and s directly causes the realization of r." []
+synonym: "triggered by process" EXACT [RO:cjm]
+domain: BFO:0000017 ! realizable entity
+range: BFO:0000015 ! process
+holds_over_chain: BFO:0000054 RO:0002404
+is_a: RO:0002410 ! causally related to
 
