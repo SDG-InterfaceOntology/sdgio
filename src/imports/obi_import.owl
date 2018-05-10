@@ -3,7 +3,6 @@
      xml:base="http://purl.unep.org/sdg/imports/obi_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
@@ -14,7 +13,7 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Datatypes
+    // Annotation properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
@@ -22,9 +21,9 @@
     
 
 
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     
 
 
@@ -45,6 +44,11 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label xml:lang="en">part of</rdfs:label>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -54,6 +58,11 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label xml:lang="en">has part</rdfs:label>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -64,6 +73,12 @@
         <rdfs:label xml:lang="en">realized in</rdfs:label>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -74,7 +89,11 @@
         <rdfs:label xml:lang="en">realizes</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -114,6 +133,11 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -124,6 +148,11 @@
         <rdfs:label xml:lang="en">is_specified_input_of</rdfs:label>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -135,6 +164,11 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -145,6 +179,11 @@
         <rdfs:label xml:lang="en">is_specified_output_of</rdfs:label>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -174,6 +213,12 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
         <rdfs:label xml:lang="en">inheres in</rdfs:label>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -183,7 +228,11 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
         <rdfs:label xml:lang="en">bearer of</rdfs:label>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -194,6 +243,12 @@
         <rdfs:label xml:lang="en">participates in</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -204,7 +259,11 @@
         <rdfs:label xml:lang="en">has participant</rdfs:label>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -215,6 +274,12 @@
         <rdfs:label xml:lang="en">is concretized as</rdfs:label>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -225,7 +290,11 @@
         <rdfs:label xml:lang="en">concretizes</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -235,6 +304,12 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000081">
         <rdfs:label xml:lang="en">role of</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -246,7 +321,11 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -257,6 +336,11 @@
         <rdfs:label xml:lang="en">member of</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -267,72 +351,12 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">has member</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#browse -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#browse"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#bug-database -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#bug-database"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#file-release -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#file-release"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#homepage -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#homepage"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#mailing-list -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#mailing-list"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#release -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#release"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#repository -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#repository"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#wiki -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#wiki"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#revision -->
-
-    <owl:DatatypeProperty rdf:about="http://usefulinc.com/ns/doap#revision"/>
     
 
 
@@ -379,6 +403,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
         <rdfs:label xml:lang="en">independent continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     </owl:Class>
     
 
@@ -416,6 +442,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
         <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     </owl:Class>
     
 
@@ -586,8 +613,8 @@
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000002"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -646,13 +673,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1013,7 +1040,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1041,7 +1068,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1061,8 +1088,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1073,14 +1106,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1268,14 +1295,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1377,14 +1404,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1594,6 +1621,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1603,12 +1636,6 @@
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1701,16 +1728,25 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001930">
+        <rdfs:label>categorical value specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
     </owl:Class>
     
 
@@ -1740,6 +1776,213 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002205">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002210">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade according to the Fuhrman Nuclear Grading System</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002215">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade for ovarian tumor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002216">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade for ovarian tumor according to a two-tier grading system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002215"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002219">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade for ovarian tumor according to the World Health Organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002215"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002224">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic primary tumor stage for colon and rectum according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002232">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic primary tumor stage for lung according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002243">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic primary tumor stage for kidney according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002256">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic primary tumor stage for ovary according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002270">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic lymph node stage for colon and rectum according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002279">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic lymph node stage for lung according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002284">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic lymph node stage for kidney according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002287">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic lymph node stage for ovary according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002290">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic distant metastases stage for colon according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002298">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic distant metastases stage for lung according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002306">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic distant metastases stage for kidney according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002310">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic distant metastases stage for ovary according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002314">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical tumor stage group according to AJCC 7th edition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002326">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Federation of Gynecology and Obstetrics cervical cancer stage value specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002341">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Federation of Gynecology and Obstetrics ovarian cancer stage value specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002356">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">performance status value specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002357">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eastern Cooperative Oncology Group score value specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002356"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002363">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karnofsky score vaue specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002356"/>
     </owl:Class>
     
 
@@ -1817,12 +2060,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
@@ -1837,6 +2074,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1865,6 +2108,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200171"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200175"/>
         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -1877,12 +2126,6 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200172"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
@@ -1963,6 +2206,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom>
                     <owl:Class>
@@ -1972,12 +2221,6 @@
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2260,24 +2503,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
     </owl:Class>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#Project -->
-
-    <owl:Class rdf:about="http://usefulinc.com/ns/doap#Project"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#SVNRepository -->
-
-    <owl:Class rdf:about="http://usefulinc.com/ns/doap#SVNRepository"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#Version -->
-
-    <owl:Class rdf:about="http://usefulinc.com/ns/doap#Version"/>
     
 
 
@@ -3359,6 +3584,1275 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002193 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002193">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label xml:lang="en">Thermo Fisher Scientific</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002205"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G1: Well differentiated</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002205"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2: Moderately differentiated</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002208 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002208">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002205"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3: Poorly differentiated</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002209 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002209">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002205"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4: Undifferentiated</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002211 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002211">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002210"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G1 (Fuhrman)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002212 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002212">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002210"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2 (Fuhrman)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002213 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002213">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002210"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3 (Fuhrman)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002214 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002214">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002210"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4 (Fuhrman)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002217 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002217">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002216"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low grade ovarian tumor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002218 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002218">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002216"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High grade ovarian tumor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002220 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002220">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002219"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G1 (WHO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002221 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002221">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002219"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2 (WHO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002222 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002222">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002219"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3 (WHO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002223 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002223">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002219"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4 (WHO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002225 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002225">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002224"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT0 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002226 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002226">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002224"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pTis (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002227 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002227">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002224"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002228 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002228">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002224"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002229 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002229">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002224"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002230 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002230">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002224"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT4a (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002231 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002231">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002224"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT4b (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002233 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002233">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT0 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002234 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002234">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pTis (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002235 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002235">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002236 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002236">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1a (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002237 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002237">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1b (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002238 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002238">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002239 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002239">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2a (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002240 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002240">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2b (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002241 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002241">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002242 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002242">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002232"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT4 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002244 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002244">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT0 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002245 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002245">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002246 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002246">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1a (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002247 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002247">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1b (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002248 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002248">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002249 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002249">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2a (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002250 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002250">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2b (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002251 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002251">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002252 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002252">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3a (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002253 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002253">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3b (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002254 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002254">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3c (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002255 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002255">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT4 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002257 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002257">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT0 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002258 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002258">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002259 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002259">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1a (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002260 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002260">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1b (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002261 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002261">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT1c (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002262 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002262">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002263 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002263">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2a (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002264 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002264">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2b (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002265 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002265">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT2c (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002266 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002266">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002267 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002267">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3a (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002268 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002268">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3b (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002269 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002269">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pT3c (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002271 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002271">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN0 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002272 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002272">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN1 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002273 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002273">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN1a (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002274 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002274">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN1b (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002275 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002275">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN1c (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002276 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002276">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN2 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002277 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002277">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN2a (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002278 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002278">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN2b (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002280 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002280">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002279"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN0 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002281 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002281">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002279"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN1 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002282 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002282">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002279"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN2 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002283 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002283">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002279"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN3 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002285 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002285">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002284"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN0 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002286 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002286">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002284"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN1 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002288 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002288">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002287"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN0 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002289 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002289">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002287"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pN1 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002291 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002291">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002290"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM0 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002292 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002292">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002290"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM1 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002293 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002293">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002290"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM1a (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002294 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002294">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002290"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM1b (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002295 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002295">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002290"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pM1 (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002296 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002296">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002290"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pM1a (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002297 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002297">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002290"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pM1b (colon)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002299 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002299">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002298"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM0 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002300 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002300">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002298"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM1 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002301 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002301">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002298"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM1a (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002302 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002302">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002298"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM1b (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002303 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002303">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002298"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pM1 (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002304 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002304">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002298"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pM1a (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002305 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002305">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002298"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pM1b (lung)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002307 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002307">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002306"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM0 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002308 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002308">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002306"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM1 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002309 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002309">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002306"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pM1 (kidney)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002311 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002311">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002310"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM0 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002312 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002312">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002310"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cM1 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002313 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002313">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002310"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pM1 (ovary)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002315 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002315">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occult Carcinoma (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002316 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002316">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 0 (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002317 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002317">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage I (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002318 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002318">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIA (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002319 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002319">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIB (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002320 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002320">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIC (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002321 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002321">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIIA (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002322 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002322">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIIB (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002323 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002323">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIIC (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002324 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002324">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IVA (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002325 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002325">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IVB (AJCC 7th)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002327 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002327">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IA (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002328 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002328">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IA1 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002329 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002329">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IA2 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002330 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002330">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IB (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002331 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002331">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IB1 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002332 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002332">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IB2 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002333 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002333">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIA (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002334 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002334">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIA1 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002335 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002335">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIA2 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002336 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002336">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIB (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002337 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002337">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIIA (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002338 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002338">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IIIB (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002339 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002339">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IVA (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002340 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002340">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002326"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage IVB (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002342 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002342">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 1 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002343 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002343">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 1A (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002344 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002344">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 1B (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002345 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002345">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 1C (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002346 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002346">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 2 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002347 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002347">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 2A (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002348 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002348">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 2B (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002349 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002349">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 2C (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002350 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002350">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 3 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002351 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002351">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 3A (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002352 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002352">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 3B (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002353 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002353">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 3C (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002354 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002354">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage 4 (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002355 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002355">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stage Unknown (FIGO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002358 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002358">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002357"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3: symptomatic in bed more than 50% of the day but not bed ridden</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002359 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002359">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002357"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2: symptomatic but in bed less than 50% of the day</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002360 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002360">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002357"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4: bed ridden</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002361 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002361">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002357"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0: asymptomatic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002362 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002362">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002357"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1: symptomatic but fully ambulatory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002364 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002364">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002363"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100: asymptomatic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002365 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002365">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002363"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80-90: symptomatic but fully ambulatory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002366 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002366">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002363"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60-70: symptomatic but in bed less than 50% of the day</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002367 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002367">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002363"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40-50: symptomatic, in bed more than 50% of the day, but not bed ridden</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000008 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000008">
@@ -3728,6 +5222,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000196 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
@@ -3818,141 +5321,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/iao -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao.owl -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao.owl"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi.owl -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi.owl"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/documentation -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/documentation"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/project -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/project">
-        <rdf:type rdf:resource="http://usefulinc.com/ns/doap#Project"/>
-        <doap:homepage rdf:resource="http://purl.obolibrary.org/obo/iao"/>
-        <doap:wiki rdf:resource="http://purl.obolibrary.org/obo/iao/documentation"/>
-        <doap:repository rdf:resource="http://purl.obolibrary.org/obo/iao/repository"/>
-        <doap:bug-database rdf:resource="http://purl.obolibrary.org/obo/iao/tracker"/>
-        <doap:release rdf:resource="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl"/>
-        <doap:mailing-list rdf:resource="mailto:information-ontology@googlegroups.com"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/repository -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/repository">
-        <rdf:type rdf:resource="http://usefulinc.com/ns/doap#SVNRepository"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/tracker -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/tracker"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl">
-        <rdf:type rdf:resource="http://usefulinc.com/ns/doap#Version"/>
-        <rdfs:label>IAO Release 2015-02-23</rdfs:label>
-        <doap:revision>SVN $Revision: 717 $</doap:revision>
-        <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi/browse -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi/browse"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi/project -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi/project">
-        <rdf:type rdf:resource="http://usefulinc.com/ns/doap#Project"/>
-        <doap:homepage rdf:resource="http://purl.obolibrary.org/obo/obi"/>
-        <doap:browse rdf:resource="http://purl.obolibrary.org/obo/obi/browse"/>
-        <doap:repository rdf:resource="http://purl.obolibrary.org/obo/obi/repository"/>
-        <doap:bug-database rdf:resource="http://purl.obolibrary.org/obo/obi/tracker"/>
-        <doap:wiki rdf:resource="http://purl.obolibrary.org/obo/obi/wiki"/>
-        <doap:release rdf:resource="http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl"/>
-        <doap:mailing-list rdf:resource="mailto:obi-users@googlegroups.com"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi/repository -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi/repository">
-        <rdf:type rdf:resource="http://usefulinc.com/ns/doap#SVNRepository"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi/tracker -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi/tracker"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi/wiki -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi/wiki"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl">
-        <rdf:type rdf:resource="http://usefulinc.com/ns/doap#Version"/>
-        <rdfs:label>OBI Release 2017-02-22</rdfs:label>
-        <doap:revision>SVN Revision: Unversioned directory</doap:revision>
-        <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/obi/2017-02-22/obi.owl"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- mailto:information-ontology@googlegroups.com -->
-
-    <owl:NamedIndividual rdf:about="mailto:information-ontology@googlegroups.com"/>
-    
-
-
-    <!-- mailto:obi-users@googlegroups.com -->
-
-    <owl:NamedIndividual rdf:about="mailto:obi-users@googlegroups.com"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3962,14 +5330,6 @@
      -->
 
     <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226"/>
@@ -3977,6 +5337,14 @@
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
         </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
