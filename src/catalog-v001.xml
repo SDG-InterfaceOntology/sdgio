@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.unep.org/sdg/imports/sdgio_indicator_values_import.ttl" uri="imports/sdgio_indicator_values_import.ttl"/>
     <uri id="Imports Wizard Entry" name="http://purl.unep.org/sdg/sdgio_indicator_values_import.ttl" uri="imports/sdgio_indicator_values_import.ttl"/>
     <uri id="Imports Wizard Entry" name="owlapi:ontology:ont0" uri="mirror/iao.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.unep.org/sdg/imports/chebi_import.owl" uri="./imports/chebi_import.owl"/>
