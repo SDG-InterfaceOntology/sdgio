@@ -1537,25 +1537,25 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000057> (By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000057> "1.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000057> "1.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000057> "By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000057>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000065> (By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000065> "1.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000065> "1.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000065> "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000065>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000070> (Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000070> "1.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000070> "1.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000070> "Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000070>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000071> (By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000071> "1.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000071> "1.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000071> "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000071>)
 
@@ -1571,7 +1571,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000075> (By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000075> "1.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000075> "1.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000075> "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000075>)
 
@@ -1589,31 +1589,31 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000078> (By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000078> "2.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000078> "2.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000078> "By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000078>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000079> (By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000079> "2.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000079> "2.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000079> "By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000079>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000080> (By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000080> "2.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000080> "2.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000080> "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000080>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000081> (By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000081> "2.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000081> "2.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000081> "By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000081>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000082> (By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and promote access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000082> "2.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000082> "2.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000082> "By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and promote access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000082>)
 
@@ -1637,55 +1637,55 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000086> (By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000086> "3.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000086> "3.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000086> "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000086>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000087> (By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000087> "3.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000087> "3.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000087> "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000087>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000088> (By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000088> "3.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000088> "3.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000088> "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000088>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000089> (By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000089> "3.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000089> "3.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000089> "By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000089>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000090> (Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000090> "3.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000090> "3.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000090> "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000090>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000091> (By 2020, halve the number of global deaths and injuries from road traffic accidents)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000091> "3.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000091> "3.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000091> "By 2020, halve the number of global deaths and injuries from road traffic accidents"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000091>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000092> (By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000092> "3.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000092> "3.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000092> "By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000092>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000093> (Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000093> "3.8"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000093> "3.8")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000093> "Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000093>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000094> (By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000094> "3.9"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000094> "3.9")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000094> "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000094>)
 
@@ -1715,43 +1715,43 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000099> (By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000099> "4.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000099> "4.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000099> "By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000099>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000100> (By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000100> "4.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000100> "4.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000100> "By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000100>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000101> (By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000101> "4.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000101> "4.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000101> "By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000101>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000102> (By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000102> "4.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000102> "4.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000102> "By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000102>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000103> (By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000103> "4.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000103> "4.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000103> "By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000103>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000104> (By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000104> "4.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000104> "4.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000104> "By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000104>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000105> (By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000105> "4.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000105> "4.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000105> "By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000105>)
 
@@ -1775,37 +1775,37 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000109> (End all forms of discrimination against all women and girls everywhere)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000109> "5.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000109> "5.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000109> "End all forms of discrimination against all women and girls everywhere"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000109>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000110> (Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000110> "5.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000110> "5.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000110> "Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000110>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000111> (Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000111> "5.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000111> "5.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000111> "Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000111>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000112> (Recognize and value unpaid care and domestic work through the provision of public services, infrastructure and social protection policies and the promotion of shared responsibility within the household and the family as nationally appropriate)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000112> "5.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000112> "5.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000112> "Recognize and value unpaid care and domestic work through the provision of public services, infrastructure and social protection policies and the promotion of shared responsibility within the household and the family as nationally appropriate"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000112>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000113> (Ensure women’s full and effective participation and equal opportunities for leadership at all levels of decision-making in political, economic and public life)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000113> "5.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000113> "5.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000113> "Ensure women’s full and effective participation and equal opportunities for leadership at all levels of decision-making in political, economic and public life"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000113>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000114> (Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000114> "5.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000114> "5.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000114> "Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000114>)
 
@@ -1829,19 +1829,19 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000118> (By 2030, achieve universal and equitable access to safe and affordable drinking water for all)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000118> "6.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000118> "6.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000118> "By 2030, achieve universal and equitable access to safe and affordable drinking water for all"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000118>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000119> (By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000119> "6.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000119> "6.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000119> "By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000119>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000120> (By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000120> "6.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000120> "6.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000120> "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000120>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00002001>) <http://purl.unep.org/sdg/SDGIO_00000120>)
@@ -1853,19 +1853,19 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000121> (By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000121> "6.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000121> "6.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000121> "By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000121>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000122> (By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000122> "6.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000122> "6.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000122> "By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000122>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000123> (By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000123> "6.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000123> "6.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000123> "By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000123>)
 
@@ -1883,19 +1883,19 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000126> (By 2030, ensure universal access to affordable, reliable and modern energy services)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000126> "7.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000126> "7.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000126> "By 2030, ensure universal access to affordable, reliable and modern energy services"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000126>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000127> (By 2030, increase substantially the share of renewable energy in the global energy mix)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000127> "7.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000127> "7.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000127> "By 2030, increase substantially the share of renewable energy in the global energy mix"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000127>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000128> (By 2030, double the global rate of improvement in energy efficiency)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000128> "7.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000128> "7.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000128> "By 2030, double the global rate of improvement in energy efficiency"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000128>)
 
@@ -1913,61 +1913,61 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000131> (Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000131> "8.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000131> "8.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000131> "Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000131>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000132> (Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000132> "8.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000132> "8.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000132> "Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000132>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000133> (Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000133> "8.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000133> "8.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000133> "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000133>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000134> (Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-year framework of programmes on sustainable consumption and production, with developed countries taking the lead)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000134> "8.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000134> "8.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000134> "Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-year framework of programmes on sustainable consumption and production, with developed countries taking the lead"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000134>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000135> (By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000135> "8.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000135> "8.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000135> "By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000135>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000136> (By 2020, substantially reduce the proportion of youth not in employment, education or training)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000136> "8.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000136> "8.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000136> "By 2020, substantially reduce the proportion of youth not in employment, education or training"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000136>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000137> (Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000137> "8.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000137> "8.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000137> "Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000137>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000138> (Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000138> "8.8"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000138> "8.8")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000138> "Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000138>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000139> (By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000139> "8.9"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000139> "8.9")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000139> "By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000139>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000140> (Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000140> "8.10"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000140> "8.10")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000140> "Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000140>)
 
@@ -1985,31 +1985,31 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000143> (Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000143> "9.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000143> "9.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000143> "Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000143>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000144> (Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000144> "9.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000144> "9.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000144> "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000144>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000145> (Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000145> "9.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000145> "9.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000145> "Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000145>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000146> (By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000146> "9.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000146> "9.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000146> "By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000146>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000147> (Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000147> "9.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000147> "9.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000147> "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000147>)
 
@@ -2033,43 +2033,43 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000151> (By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000151> "10.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000151> "10.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000151> "By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000151>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000152> (By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000152> "10.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000152> "10.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000152> "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000152>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000153> (Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000153> "10.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000153> "10.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000153> "Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000153>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000154> (Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000154> "10.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000154> "10.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000154> "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000154>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000155> (Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000155> "10.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000155> "10.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000155> "Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000155>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000156> (Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000156> "10.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000156> "10.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000156> "Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000156>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000157> (Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000157> "10.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000157> "10.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000157> "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000157>)
 
@@ -2093,43 +2093,43 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000161> (By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000161> "11.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000161> "11.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000161> "By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000161>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000162> (By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000162> "11.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000162> "11.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000162> "By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000162>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000163> (By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000163> "11.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000163> "11.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000163> "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000163>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000164> (Strengthen efforts to protect and safeguard the world’s cultural and natural heritage)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000164> "11.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000164> "11.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000164> "Strengthen efforts to protect and safeguard the world’s cultural and natural heritage"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000164>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000165> (By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000165> "11.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000165> "11.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000165> "By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000165>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000166> (By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000166> "11.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000166> "11.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000166> "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000166>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000167> (By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000167> "11.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000167> "11.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000167> "By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000167>)
 
@@ -2153,49 +2153,49 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000171> (Implement the 10-year framework of programmes on sustainable consumption and production, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000171> "12.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000171> "12.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000171> "Implement the 10-year framework of programmes on sustainable consumption and production, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000171>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000172> (By 2030, achieve the sustainable management and efficient use of natural resources)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000172> "12.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000172> "12.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000172> "By 2030, achieve the sustainable management and efficient use of natural resources"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000172>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000173> (By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000173> "12.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000173> "12.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000173> "By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000173>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000174> (By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000174> "12.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000174> "12.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000174> "By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000174>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000175> (By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000175> "12.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000175> "12.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000175> "By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000175>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000176> (Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000176> "12.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000176> "12.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000176> "Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000176>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000177> (Promote public procurement practices that are sustainable, in accordance with national policies and priorities)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000177> "12.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000177> "12.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000177> "Promote public procurement practices that are sustainable, in accordance with national policies and priorities"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000177>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000178> (By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000178> "12.8"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000178> "12.8")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000178> "By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000178>)
 
@@ -2219,19 +2219,19 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000182> (Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000182> "13.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000182> "13.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000182> "Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000182>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000183> (Integrate climate change measures into national policies, strategies and planning)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000183> "13.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000183> "13.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000183> "Integrate climate change measures into national policies, strategies and planning"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000183>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000184> (Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000184> "13.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000184> "13.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000184> "Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000184>)
 
@@ -2250,43 +2250,43 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000187> (By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000187> "14.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000187> "14.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000187> "By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000187>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000188> (By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000188> "14.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000188> "14.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000188> "By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000188>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000189> (Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000189> "14.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000189> "14.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000189> "Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000189>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000190> (By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000190> "14.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000190> "14.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000190> "By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000190>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000191> (By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000191> "14.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000191> "14.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000191> "By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000191>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000192> (By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000192> "14.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000192> "14.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000192> "By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000192>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000193> (By 2030, increase the economic benefits to Small Island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000193> "14.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000193> "14.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000193> "By 2030, increase the economic benefits to Small Island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000193>)
 
@@ -2310,61 +2310,61 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000197> (Mobilize additional financial resources for developing countries from multiple sources)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000197> "17.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000197> "17.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000197> "Mobilize additional financial resources for developing countries from multiple sources"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000197>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000198> (By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000198> "15.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000198> "15.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000198> "By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000198>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000199> (By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000199> "15.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000199> "15.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000199> "By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000199>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000200> (By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000200> "15.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000200> "15.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000200> "By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000200>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000201> (By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000201> "15.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000201> "15.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000201> "By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000201>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000202> (Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000202> "15.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000202> "15.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000202> "Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000202>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000203> (Promote fair and equitable sharing of the benefits arising from the utilization of genetic resources and promote appropriate access to such resources, as internationally agreed)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000203> "15.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000203> "15.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000203> "Promote fair and equitable sharing of the benefits arising from the utilization of genetic resources and promote appropriate access to such resources, as internationally agreed"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000203>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000204> (Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000204> "15.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000204> "15.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000204> "Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000204>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000205> (By 2020, introduce measures to prevent the introduction and significantly reduce the impact of invasive alien species on land and water ecosystems and control or eradicate the priority species)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000205> "15.8"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000205> "15.8")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000205> "By 2020, introduce measures to prevent the introduction and significantly reduce the impact of invasive alien species on land and water ecosystems and control or eradicate the priority species"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000205>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000206> (By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000206> "15.9"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000206> "15.9")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000206> "By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000206>)
 
@@ -2388,61 +2388,61 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000210> (Significantly reduce all forms of violence and related death rates everywhere)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000210> "16.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000210> "16.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000210> "Significantly reduce all forms of violence and related death rates everywhere"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000210>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000211> (End abuse, exploitation, trafficking and all forms of violence against and torture of children)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000211> "16.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000211> "16.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000211> "End abuse, exploitation, trafficking and all forms of violence against and torture of children"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000211>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000212> (Promote the rule of law at the national and international levels and ensure equal access to justice for all)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000212> "16.3"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000212> "16.3")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000212> "Promote the rule of law at the national and international levels and ensure equal access to justice for all"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000212>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000213> (By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000213> "16.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000213> "16.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000213> "By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000213>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000214> (Substantially reduce corruption and bribery in all their forms)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000214> "16.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000214> "16.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000214> "Substantially reduce corruption and bribery in all their forms"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000214>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000215> (Develop effective, accountable and transparent institutions at all levels)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000215> "16.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000215> "16.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000215> "Develop effective, accountable and transparent institutions at all levels"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000215>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000216> (Ensure responsive, inclusive, participatory and representative decision-making at all levels)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000216> "16.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000216> "16.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000216> "Ensure responsive, inclusive, participatory and representative decision-making at all levels"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000216>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000217> (Broaden and strengthen the participation of developing countries in the institutions of global governance)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000217> "16.8"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000217> "16.8")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000217> "Broaden and strengthen the participation of developing countries in the institutions of global governance"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000217>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000218> (By 2030, provide legal identity for all, including birth registration)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000218> "16.9"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000218> "16.9")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000218> "By 2030, provide legal identity for all, including birth registration"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000218>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000219> (Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000219> "16.10"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000219> "16.10")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000219> "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000219>)
 
@@ -2460,110 +2460,110 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000222> (Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000222> "17.1"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000222> "17.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000222> "Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000222>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000223> (Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of ODA/GNI to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000223> "17.2"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000223> "17.2")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000223> "http://www.un.org/sustainabledevelopment/globalpartnerships/")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000223> "Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of ODA/GNI to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000223>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000224> (Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000224> "17.4"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000224> "17.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000224> "Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000224>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000225> (Adopt and implement investment promotion regimes for least developed countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000225> "17.5"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000225> "17.5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000225> "Adopt and implement investment promotion regimes for least developed countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000225>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000226> (Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000226> "17.6"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000226> "17.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000226> "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000226>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000228> (Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000228> "17.7"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000228> "17.7")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000228> "Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000228>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000229> (Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000229> "17.8"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000229> "17.8")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000229> "Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000229>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000230> (Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the sustainable development goals, including through North-South, South-South and triangular cooperation)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000230> "17.9"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000230> "17.9")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000230> "Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the sustainable development goals, including through North-South, South-South and triangular cooperation"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000230>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000231> (Promote a universal, rules-based, open, non-discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000231> "17.10"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000231> "17.10")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000231> "Promote a universal, rules-based, open, non-discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000231>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000232> (Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries’ share of global exports by 2020)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000232> "17.11"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000232> "17.11")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000232> "Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries’ share of global exports by 2020"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000232>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000233> (Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000233> "17.12"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000233> "17.12")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000233> "Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000233>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000234> (Enhance global macroeconomic stability, including through policy coordination and policy coherence)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000234> "17.13"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000234> "17.13")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000234> "Enhance global macroeconomic stability, including through policy coordination and policy coherence"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000234>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000235> (Enhance policy coherence for sustainable development)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000235> "17.14"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000235> "17.14")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000235> "Enhance policy coherence for sustainable development"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000235>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000236> (Respect each country’s policy space and leadership to establish and implement policies for poverty eradication and sustainable development)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000236> "17.15"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000236> "17.15")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000236> "Respect each country’s policy space and leadership to establish and implement policies for poverty eradication and sustainable development"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000236>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000237> (Enhance the global partnership for sustainable development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the sustainable development goals in all countries, in particular developing countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000237> "17.16"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000237> "17.16")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000237> "Enhance the global partnership for sustainable development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the sustainable development goals in all countries, in particular developing countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000237>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000238> (Encourage and promote effective public, public-private and civil society partnerships, building on the experience and resourcing strategies of partnerships)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000238> "17.17"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000238> "17.17")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000238> "Encourage and promote effective public, public-private and civil society partnerships, building on the experience and resourcing strategies of partnerships"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000238>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000239> (By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000239> "17.18"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000239> "17.18")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000239> "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000239>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000240> (By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries)
 
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000240> "17.19"^^xsd:decimal)
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000240> "17.19")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000240> "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000240>)
 
