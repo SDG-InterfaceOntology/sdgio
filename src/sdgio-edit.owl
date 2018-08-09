@@ -2567,33 +2567,6 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000240> "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000240>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020086> (Proportion of transboundary basin area with an operational arrangement for water cooperation)
-
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/CHEBI_15377>) <http://purl.unep.org/sdg/SDGIO_00020086>)
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00000063>) <http://purl.unep.org/sdg/SDGIO_00020086>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020113> (Proportion of the rural population who live within 2 km of an all-season road)
-
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00010033>) <http://purl.unep.org/sdg/SDGIO_00020113>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020119> (CO2 emission per unit of value added)
-
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01000769>) <http://purl.unep.org/sdg/SDGIO_00020119>)
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01000770>) <http://purl.unep.org/sdg/SDGIO_00020119>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020166> (Average marine acidity (pH) measured at agreed suite of representative sampling stations)
-
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00001999>) <http://purl.unep.org/sdg/SDGIO_00020166>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020171> (Proportion of total research budget allocated to research in the field of marine technology)
-
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01000983>) <http://purl.unep.org/sdg/SDGIO_00020171>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020182> (Proportion of traded wildlife that was poached or illicitly trafficked)
-
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01000951>) <http://purl.unep.org/sdg/SDGIO_00020182>)
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100026>) <http://purl.unep.org/sdg/SDGIO_00020182>)
-
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000003> "true"^^xsd:boolean)
