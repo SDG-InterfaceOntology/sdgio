@@ -84,7 +84,7 @@ robot: robot.jar
 build: all_imports sdgio.owl sdgio.obo sdgio.json 
 
 copy-release: 
-	cp -pr catalog-v001.xml sdgio.obo sdigo.owl sdgio.json imports ../..
+	cp -pr catalog-v001.xml sdgio.obo sdgio.owl sdgio.json imports ../
 
 prepare_release: build copy-release
 
