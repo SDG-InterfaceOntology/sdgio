@@ -10,6 +10,7 @@ SDG=http://purl.unep.org/sdg
 USECAT= --catalog-xml catalog-v001.xml
 SRC= sdgio-edit.owl
 ROBOT=./robot
+OWLTOOLS= owltools
 
 ##MODULES=exposure
 ## will need a module for harzards and other defined tasks
@@ -20,21 +21,48 @@ MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
 # Ontology dependencies
 # We don't include clo, as this is currently not working
 IMPORTS = pato uberon chebi ro bfo envo iao pco obi ogms
-IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
+IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) 
+# $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
-all: all_imports sdgio.owl
+all: build
 test: sdgio.owl
 
 sdgio.owl: sdgio-edit.owl $(MODULE_FILES)  $(ROBOT)
 	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o $@
 ###	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o tmp-$@ && owltools $(USECAT) tmp-$@ --remove-imports-declarations -o $@
-sdgio.obo: sdgio.owl $(ROBOT)
-	$(ROBOT) convert -i $< -o sdgio.obo
+
 #sdgio.owl: sdgio-edit.owl $(ROBOT)
 #	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
+
+
+# ----------------------------------------
+# Conversions
+# ----------------------------------------
+
 sdgio-normalized.json: sdgio.owl
 	rdfcat -out JSONLD $< > $@.tmp && mv $@.tmp $@
+	
+.PRECIOUS: sdgio.owl
+
+
+sdgio.obo: sdgio.owl $(ROBOT)
+	# $(ROBOT) convert -i $< -o sdgio.obo # errors due to multiple tags, use owltools to workaround
+	
+	owltools $(USECAT) $< --merge-imports-closure --add-obo-shorthand-to-properties -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
+	
+.PRECIOUS: sdgio.owl
+	
+# generic conversion for OGs
+%.json: %.owl $(ROBOT)
+	$(ROBOT) convert -input $< -f json -o $@
+
+.PRECIOUS: %.owl
+
+debug.owl: envo-edit.owl $(OWLTOOLS)
+	$(OWLTOOLS) --use-catalog  $< --merge-support-ontologies --run-reasoner -r elk -u -m $@
+
+.PRECIOUS: envo-edit.owl
 
 # The URL below will pull the latest, successful ROBOT build from the Berkeley servers.
 # ROBOT itself is in the "robot.jar" file, so it will execute across platforms with Java. There is a
@@ -47,8 +75,18 @@ robot.jar:
 robot: robot.jar
 	wget $(ROBOJENKINS)/$@ -O $@ && chmod +x $@ && touch $@
 
-release: sdgio.owl 
-	cp $^ ../ && cp imports/* ../imports
+	
+
+# ----------------------------------------
+# Trigger build and release
+# ----------------------------------------
+
+build: all_imports sdgio.owl sdgio.obo sdgio.json 
+
+copy-release: 
+	cp -pr catalog-v001.xml sdgio.obo sdigo.owl sdgio.json imports ../..
+
+prepare_release: build copy-release
 
 
 # ----------------------------------------
@@ -78,8 +116,8 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt $(ROBOT)
 .PRECIOUS: imports/%_import.owl
 
 # Use owltools to create OBO files for the imports
-imports/%_import.obo: imports/%_import.owl
-	owltools $(USECAT) $< -o -f obo $@
+#imports/%_import.obo: imports/%_import.owl
+#	owltools $(USECAT) $< -o -f obo $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
@@ -123,8 +161,8 @@ mirror/ncbitaxon.owl: ncbitaxon.obo
 	OWLTOOLS_MEMORY=12G owltools $< --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations  --set-ontology-id $(OBO)/ncbitaxon.owl -o $@
 .PRECIOUS: mirror/ncbitaxon.owl
 
-mirror/pco.owl: imports/pco_basic.obo
-	owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
+#mirror/pco.owl: imports/pco_basic.obo
+#	owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
 
 
 # ----------------------------------------
@@ -132,8 +170,10 @@ mirror/pco.owl: imports/pco_basic.obo
 # ----------------------------------------
 sdgio-merged.owl: sdgio.owl
 	owltools $(USECAT) $< --merge-imports-closure -o $@
+.PRECIOUS: sdgio.owl
 
-# Generate a CSV term list from the OWL files created.
+# Generate a CSV term list from the OWL files created. 
+# sdgio-basicReport.csv and sdgio-edges.csv are valid targets
 reports/sdgio-%.csv: sdgio-merged.owl sparql/%.sparql
 	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && mv $@.tmp $@
 

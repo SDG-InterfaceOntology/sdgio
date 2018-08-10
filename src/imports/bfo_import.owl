@@ -3,6 +3,7 @@
      xml:base="http://purl.unep.org/sdg/imports/bfo_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.unep.org/sdg/imports/bfo_import.owl"/>
@@ -31,9 +32,9 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
-        <rdfs:label xml:lang="en">continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
     </owl:Class>
     
 
@@ -41,8 +42,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
-        <rdfs:label xml:lang="en">occurrent</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:label xml:lang="en">occurrent</rdfs:label>
     </owl:Class>
     
 
@@ -50,9 +51,9 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
-        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
     </owl:Class>
     
 
@@ -60,8 +61,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
-        <rdfs:label xml:lang="en">process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:label xml:lang="en">process</rdfs:label>
     </owl:Class>
     
 
@@ -69,8 +70,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016">
-        <rdfs:label xml:lang="en">disposition</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:label xml:lang="en">disposition</rdfs:label>
     </owl:Class>
     
 
@@ -78,8 +79,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017">
-        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
     </owl:Class>
     
 
@@ -87,8 +88,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
-        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
     </owl:Class>
     
 
@@ -96,8 +97,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000024">
-        <rdfs:label xml:lang="en">fiat object part</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">fiat object part</rdfs:label>
     </owl:Class>
     
 
@@ -105,8 +106,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027">
-        <rdfs:label xml:lang="en">object aggregate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">object aggregate</rdfs:label>
     </owl:Class>
     
 
@@ -114,8 +115,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029">
-        <rdfs:label xml:lang="en">site</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:label xml:lang="en">site</rdfs:label>
     </owl:Class>
     
 
@@ -123,8 +124,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
-        <rdfs:label xml:lang="en">object</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">object</rdfs:label>
     </owl:Class>
     
 
@@ -132,8 +133,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000034">
-        <rdfs:label xml:lang="en">function</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label xml:lang="en">function</rdfs:label>
     </owl:Class>
     
 
@@ -141,9 +142,9 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
-        <rdfs:label xml:lang="en">material entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
     </owl:Class>
     
 
@@ -151,8 +152,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000141">
-        <rdfs:label xml:lang="en">immaterial entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:label xml:lang="en">immaterial entity</rdfs:label>
     </owl:Class>
     
 
@@ -160,12 +161,12 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000144">
-        <rdfs:label xml:lang="en">process profile</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:label xml:lang="en">process profile</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 0.0.1+6049ab4) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
 

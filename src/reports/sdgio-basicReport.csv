@@ -1,415 +1,1021 @@
 label,definition,classID
+Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month,,http://purl.unep.org/sdg/SDGIO_00020190
+Manufacturing value added as a proportion of GDP and per capita,,http://purl.unep.org/sdg/SDGIO_00020115
 left handedness,,http://purl.obolibrary.org/obo/PATO_0002202
-flash flooding,Flash flooding is a process in which low-lying land is inundated with water for a short period of time and are usually the result of precipitation or a breach in the container of a water body.,http://purl.obolibrary.org/obo/ENVO_01000709
+water pollution,A pollution process during which contaminants are released into water.,http://purl.obolibrary.org/obo/ENVO_02500039
 manufacturing,,http://purl.obolibrary.org/obo/OBI_0000457
-informal settlement,"A settlement which is not associated with or directed by official planning processes and which typically lacks municipal services and infrastructure such as sanitation, water services, and waste management services.",http://purl.obolibrary.org/obo/ENVO_01000765
 rockfall,,http://purl.obolibrary.org/obo/ENVO_01000693
-Hominoidea,,http://purl.obolibrary.org/obo/NCBITaxon_314295
+"Proportion of total government spending on essential services (education, health and social protection)",,http://purl.unep.org/sdg/SDGIO_00020011
 peak matching,,http://purl.obolibrary.org/obo/OBI_0000726
 Teleostomi,,http://purl.obolibrary.org/obo/NCBITaxon_117570
 investigation,,http://purl.obolibrary.org/obo/OBI_0000066
-rate unit,,http://purl.obolibrary.org/obo/UO_0000280
-permission to access,A disposition of an environmental system to allow an entity to approach and use a resource.,http://purl.unep.org/sdg/SDGIO_00000010
-Viruses,,http://purl.obolibrary.org/obo/NCBITaxon_10239
-independent continuant,"A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.",http://purl.obolibrary.org/obo/BFO_0000004
+Age-standardized prevalence of current tobacco use among persons aged 15 years and older,,http://purl.unep.org/sdg/SDGIO_00020048
+sustainable development indicator,"A material entity which is composed of one or more parts of an environmental system, including its natural and anthropogenic socioeconomic components, which is thought to represent the state of the entire system.",http://purl.unep.org/sdg/SDGIO_00000002
+astronomical object,An object which is composed of one or more gravitationally bound structures that are associated with a position in space.,http://purl.obolibrary.org/obo/ENVO_01000804
 frequency unit,,http://purl.obolibrary.org/obo/UO_0000105
-main group molecular entity,"A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.",http://purl.obolibrary.org/obo/CHEBI_33579
-ownership,"A process in which a person or organization, the owner, exercises their right to use, sell, rent, or gift an object.",http://purl.unep.org/sdg/SDGIO_00010027
-owner role,"A role that inheres in a person and is realized in processes of exercising the right to use, occupy, sell, rent, or gift an object (such as a parcel of land).",http://purl.unep.org/sdg/SDGIO_00010018
+lemon and lime fruit juice carbonated beverage 10% diluted,,http://purl.obolibrary.org/obo/FOODON_03302565
+,,_:b0
+grape beverage (artificially flavored),,http://purl.obolibrary.org/obo/FOODON_03305448
+"Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",,http://purl.unep.org/sdg/SDGIO_00020031
+"product type, other",,http://purl.obolibrary.org/obo/FOODON_03400004
 partitioning objective,,http://purl.obolibrary.org/obo/OBI_0200172
-formal employment,,http://purl.unep.org/sdg/SDGIO_00010034
+,,_:b1
 flood,"An unusual accumulation of water above the ground caused by high tide, heavy rain, melting snow or rapid runoff from paved areas.",http://purl.obolibrary.org/obo/ENVO_01000710
-landslide process,A landslide is a process whereby a large mass of earth and rocks moves down a hill or a mountainside.,http://purl.obolibrary.org/obo/ENVO_01000692
-manufacturer role,,http://purl.obolibrary.org/obo/OBI_0000571
-sustainable development goal indicator value,A data item which represents a sustainable development goal indicator in some quantitative or qualitative system of measurement.,http://purl.unep.org/sdg/SDGIO_00000003
-employer role,A role that inheres in a person or organization in virtue of the fact the bearer specifies actions to be performed for remuneration by one or more persons that bear an employee role.,http://purl.unep.org/sdg/SDGIO_00010003
-health care service,"A service that promotes, secures, and maintains health care rights and the processes that realize them.",http://purl.unep.org/sdg/SDGIO_00010015
-drinking water,Drinking water is water which may be consumed by humans with no adverse effects on their health.,http://purl.obolibrary.org/obo/ENVO_00003064
+construction,A feature that has been constructed by deliberate human effort.,http://purl.obolibrary.org/obo/ENVO_00000070
+atmospheric carbon dioxide,Atmospheric carbon dioxide is an environmental material composed of carbon dioxide in its gaseous form present in an atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000451
+pollution monitoring,A monitoring process that assays the level of environmental pollutants to determine the presence of effect of environmental pollution.,http://purl.obolibrary.org/obo/ENVO_02500043
+"Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age",,http://purl.unep.org/sdg/SDGIO_00020069
+exposure to flooding,An exposure process which is causally downstream of or within a flooding process and during which an entity realises one or more of its dispositions.,http://purl.unep.org/sdg/SDGIO_00000015
+root beer,,http://purl.obolibrary.org/obo/FOODON_03301047
+anthropogenic environmental process,An environmental process which is driven by the action of humans.,http://purl.obolibrary.org/obo/ENVO_02500027
+pathologic primary tumor stage for lung according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002232
+imitation grape drink base,,http://purl.obolibrary.org/obo/FOODON_03302231
 chalcogen molecular entity,Any p-block molecular entity containing a chalcogen.,http://purl.obolibrary.org/obo/CHEBI_33304
 documenting,,http://purl.obolibrary.org/obo/IAO_0000572
 entity,,http://purl.obolibrary.org/obo/BFO_0000001
-denotator type,,http://purl.obolibrary.org/obo/IAO_0000409
-vulnerability towards flooding,A vulnerability borne by an entity which may be impacted by flooding.,http://purl.unep.org/sdg/SDGIO_00000026
-city,Incorporated populated place.,http://purl.obolibrary.org/obo/ENVO_00000856
-s-block molecular entity,An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.,http://purl.obolibrary.org/obo/CHEBI_33674
+Neonatal mortality rate,,http://purl.unep.org/sdg/SDGIO_00020030
+grape carbonated beverage (artificially colored),,http://purl.obolibrary.org/obo/FOODON_03305465
+Financial Soundness Indicators,,http://purl.unep.org/sdg/SDGIO_00020129
+,,_:b2
+"Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities",,http://purl.unep.org/sdg/SDGIO_00020163
 lava flow process,A process in which a volume of lava emitted during an effusive eruption moves along a solid surface.,http://purl.obolibrary.org/obo/ENVO_01000730
 chalcogen hydride,,http://purl.obolibrary.org/obo/CHEBI_36902
-informal employment,,http://purl.unep.org/sdg/SDGIO_00010035
-exposure to contaminated water,An exposure process in which an the processes executed by an entity are causally connected to those executed by a portion of contaminated water.,http://purl.unep.org/sdg/SDGIO_00000018
-,,_:b0
-,,_:b1
+educatee role,A role which is realised by a person during the process of acquiring knowledge and skill.,http://purl.unep.org/sdg/SDGIO_00010011
+exposure process,A process which is causally within or downstream of another process whose direct or indirect effects cause one or more entities to realise one or more of their dispositions.,http://purl.unep.org/sdg/SDGIO_00000014
 resilience,"A disposition of an entity to recover its previous composition, qualities, and functionality following some perturbation.",http://purl.unep.org/sdg/SDGIO_00010021
-dot plot,,http://purl.obolibrary.org/obo/IAO_0000037
-processed material,,http://purl.obolibrary.org/obo/OBI_0000047
+sustainable development target,A threshold value of a sustainable development indicator value or a set of threshold values of several such indicators towards or beyond which corresponding indicator values from a socio-economic-environmental system should tend in order to meet a sustainable development goal.,http://purl.unep.org/sdg/SDGIO_00000001
 water vapour,Water vapour is a vapour which is the gas phase of water.,http://purl.obolibrary.org/obo/ENVO_01000266
 mass unit,,http://purl.obolibrary.org/obo/UO_0000002
 debris flow,,http://purl.obolibrary.org/obo/ENVO_01000698
-established and operational policy,A policy which is actively being implemented and managed in some set of appropriate processes for a long enough time to be generally accepted and functional.,http://purl.unep.org/sdg/SDGIO_00010023
-,,_:b2
-security of tenure,,http://purl.unep.org/sdg/SDGIO_00010038
-figure,,http://purl.obolibrary.org/obo/IAO_0000308
-organism,,http://purl.obolibrary.org/obo/OBI_0100026
-chemical entity,"A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",http://purl.obolibrary.org/obo/CHEBI_24431
-investigation agent role,,http://purl.obolibrary.org/obo/OBI_0000202
-carbon dioxide emission process,A carbon emission process is any environmental process which releases carbon dioxide gas into the atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000769
-essential medicine,"A medicine that is necessary to meet the priority health-care needs of a population according to treatment prevalence, efficacy, safety, and comparative cost-effectiveness.",http://purl.unep.org/sdg/SDGIO_00010039
-Eutheria,,http://purl.obolibrary.org/obo/NCBITaxon_9347
-exposure to contaminated lake flood,An exposure process in which an the processes executed by an entity are causally connected to those executed by the floodwaters of a contaminated lake.,http://purl.unep.org/sdg/SDGIO_00000019
-Primates,,http://purl.obolibrary.org/obo/NCBITaxon_9443
-generically dependent continuant,A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.,http://purl.obolibrary.org/obo/BFO_0000031
-cabon dioxide emission,A volume of carbon dioxide gas emitted by a carbon dioxide emission process.,http://purl.obolibrary.org/obo/ENVO_01000770
-vulnerability,"A disposition of an entity to undergo change, usually negative or undesirable change, in response to some exposure.",http://purl.unep.org/sdg/SDGIO_00000024
-collection of organisms,"A material entity that consists of two or more organisms, viruses, or viroids.",http://purl.obolibrary.org/obo/PCO_0000000
+Under-five mortality rate,,http://purl.unep.org/sdg/SDGIO_00020029
 ,,_:b3
-right bearer,A organism or organization that is the bearer of a right.,http://purl.unep.org/sdg/SDGIO_00010024
-Eukaryota,,http://purl.obolibrary.org/obo/NCBITaxon_2759
-risk of flooding,The risk that a bearer realises its vulnerability towards flooding when participating in a process which exposes the bearer to a flooding hazard.,http://purl.unep.org/sdg/SDGIO_00000022
-carbon-bearing gas emission process,A carbon emission process is any environmental process which outputs a carbon-bearing gas.,http://purl.obolibrary.org/obo/ENVO_01000742
-molecular entity,"Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.",http://purl.obolibrary.org/obo/CHEBI_23367
-resilience strengthening process,"A process which increases an entity's disposition to recover its previous composition, qualities, and functionality following some perturbation.",http://purl.unep.org/sdg/SDGIO_00000028
-anthropogenic geographic feature,"An anthropogenic geographic feature is a geographic feature
-resulting from the influence of human beings on nature.",http://purl.obolibrary.org/obo/ENVO_00000002
-mudflow,A mudflow is a form of mass wasting which involves very rapid to extremely rapid surging flow of debris that has become partially or fully liquified by the addition of significant amounts of water to clay-rich source material.,http://purl.obolibrary.org/obo/ENVO_01000697
+"water (bottled, minerals added)",,http://purl.obolibrary.org/obo/FOODON_03306426
+drinking water (purified),"Drinking water that has been treated by heat, filtration, chemical disinfection, and/or exposure to ultraviolet radiation (including solar UV).",http://purl.obolibrary.org/obo/FOODON_03301647
+figure,,http://purl.obolibrary.org/obo/IAO_0000308
+,,_:b4
+"(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",,http://purl.unep.org/sdg/SDGIO_00020075
+investigation agent role,,http://purl.obolibrary.org/obo/OBI_0000202
+Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country,,http://purl.unep.org/sdg/SDGIO_00020064
+,,_:b5
+Eutheria,,http://purl.obolibrary.org/obo/NCBITaxon_9347
+beverage (us cfr),"Alcoholic or nonalcoholic beverage; excludes milk and milk-based beverages, fruit juices and fruit juice drinks, and vegetable juices. [FDA CFSAN 1995]",http://purl.obolibrary.org/obo/FOODON_03400229
+Primates,,http://purl.obolibrary.org/obo/NCBITaxon_9443
+,,_:b6
+Change in the extent of water-related ecosystems over time,,http://purl.unep.org/sdg/SDGIO_00020087
+Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider,,http://purl.unep.org/sdg/SDGIO_00020110
+,,_:b7
+ecosystem service,"A service in which an ecosystem, usually natural, provides benefit to the well-being of human service consumers.",http://purl.unep.org/sdg/SDGIO_00010072
+member of a producer cooperative,A person that bears a membership role in a producer's cooperative.,http://purl.unep.org/sdg/SDGIO_00000061
+denotator type,A denotator type indicates how a term should be interpreted from an ontological perspective.,http://purl.obolibrary.org/obo/IAO_0000409
+ecological corridor,An ecosystem which bridges two or more adjoining ecosystems and through which organisms may move or propagate.,http://purl.obolibrary.org/obo/ENVO_01000930
+sturzstrom,A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop — as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.,http://purl.obolibrary.org/obo/ENVO_01000700
+,,_:b8
+soft drink dietetic,,http://purl.obolibrary.org/obo/FOODON_03310547
+water (food product),,http://purl.obolibrary.org/obo/FOODON_00002340
+fruit-flavored beverage (carbonated),,http://purl.obolibrary.org/obo/FOODON_03301869
 CART,,http://purl.obolibrary.org/obo/OBI_0000749
+,,_:b9
+manufactured product,"A material entity that has been processed by humans or their technology in any way, including intermediate products as well as final products.",http://purl.obolibrary.org/obo/ENVO_00003074
+atmospheric ozone,Atmospheric ozone is an environmental material primarily composed of ozone in its gaseous form and present in an atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000537
 coast,"A coast is the area where land meets the sea, ocean, or lake.",http://purl.obolibrary.org/obo/ENVO_01000687
+independent continuant,b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002]),http://purl.obolibrary.org/obo/BFO_0000004
 mudslide,,http://purl.obolibrary.org/obo/ENVO_01000695
-deforestation,"The removal of forest and undergrowth to, for example, increase the surface of arable land or to use the timber for construction or industrial purposes.",http://purl.obolibrary.org/obo/ENVO_02500012
+physical object of mesoscopic geological size,"An object which is large enough to be visible to humans, but small enough that humans can handle the object (i.e. transport it, examine it, etc) in its entirety with little to no technological assistance.",http://purl.obolibrary.org/obo/ENVO_00002004
+Level of water stress: freshwater withdrawal as a proportion of available freshwater resources,,http://purl.unep.org/sdg/SDGIO_00020084
 regulatory agency,,http://purl.obolibrary.org/obo/OBI_0000450
 p-block molecular entity,A main group molecular entity that contains one or more atoms of a p-block element.,http://purl.obolibrary.org/obo/CHEBI_33675
-atmospheric carbon dioxide,Atmospheric carbon dioxide is an environmental material composed of carbon dioxide in its gaseous form present in the atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000451
-data item,,http://purl.obolibrary.org/obo/IAO_0000027
-hazard disposition,A disposition of an entity to cause harm or damage to another entity.,http://purl.unep.org/sdg/SDGIO_00000021
-k-nearest neighbors,,http://purl.obolibrary.org/obo/OBI_0000727
-quality,A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities,http://purl.obolibrary.org/obo/PATO_0000001
-terrestrial biome,A biome that applies to the terrestrial realm.,http://purl.obolibrary.org/obo/ENVO_00000446
-service provider role,,http://purl.obolibrary.org/obo/OBI_0000947
+informal employment process,An employment process which is – in law or in practice – a) not specified or insufficiently specified by formal arrangements; and (b) does not include illicit activities.,http://purl.unep.org/sdg/SDGIO_00010035
+,,_:b10
+"Proportion and number of children aged 5‑17 years engaged in child labour, by sex and age",,http://purl.unep.org/sdg/SDGIO_00020104
+,,_:b11
+Number of countries that have implemented well-managed migration policies,,http://purl.unep.org/sdg/SDGIO_00020132
 image,,http://purl.obolibrary.org/obo/IAO_0000101
-anthropogenic reforestation,,http://purl.obolibrary.org/obo/ENVO_02500017
+Proportion of women in managerial positions,,http://purl.unep.org/sdg/SDGIO_00020072
+"Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",,http://purl.unep.org/sdg/SDGIO_00020229
 waste material,A material which is not the desired output of a process and which is typically the input of a process which removes it from its producer (e.g. a disposal process).,http://purl.obolibrary.org/obo/ENVO_00002264
-,,http://usefulinc.com/ns/doap#Project
-manufacturer,,http://purl.obolibrary.org/obo/OBI_0000835
+,,_:b12
 cropland biome,A cropland biome is an anthropogenic terrestrial biome which is primarily used for agricultural activity and which contains no village or larger human settlement.,http://purl.obolibrary.org/obo/ENVO_01000245
-study design,,http://purl.obolibrary.org/obo/OBI_0500000
-urban biome,An urban biome is a dense settlement biome which has been urbanised.,http://purl.obolibrary.org/obo/ENVO_01000249
-questionnaire,,http://purl.obolibrary.org/obo/OBI_0001000
+producer cooperative member role,A self-employed role realised by a person while working in a co-operative which produces goods and services and in which members have equal influence upon major decisions concerning the cooperative.,http://purl.unep.org/sdg/SDGIO_00000058
+anthropogenic environment,An anthropogenic environment is an environmental system which is the product of human activity.,http://purl.obolibrary.org/obo/ENVO_01000313
+,,_:b13
+Number of companies publishing sustainability reports,,http://purl.unep.org/sdg/SDGIO_00020153
+pathologic lymph node stage for kidney according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002284
 Chordata,,http://purl.obolibrary.org/obo/NCBITaxon_7711
 inorganic molecular entity,A molecular entity that contains no carbon.,http://purl.obolibrary.org/obo/CHEBI_24835
-,,_:b4
-dense settlement biome,"A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use.",http://purl.obolibrary.org/obo/ENVO_01000248
+tap water (softened),,http://purl.obolibrary.org/obo/FOODON_03307288
+spring water with white chardonnay wine (food product),,http://purl.obolibrary.org/obo/FOODON_03309761
+histologic grade for ovarian tumor,,http://purl.obolibrary.org/obo/OBI_0002215
+Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan,,http://purl.unep.org/sdg/SDGIO_00020088
+,,_:b14
 protruding out of,A quality inhering into a bearer by virtue of the bearer's extending out above or beyond its surface or boundary and outwards in relation to the physical space occupied by another entity.,http://purl.obolibrary.org/obo/PATO_0001646
-,,_:b5
-waste water,Water that has been adversely affected in quality by anthropogenic influence.,http://purl.obolibrary.org/obo/ENVO_00002001
+molecular_function,,http://purl.obolibrary.org/obo/GO_0003674
 time,A quality in which events occur in sequence.,http://purl.obolibrary.org/obo/PATO_0000165
+technosphere,"A part of an astronomical body which includes, as parts, all the entities which have been constructed or manufactured by humans or their technology and which are within the gravitational sphere of influence of that body.",http://purl.obolibrary.org/obo/ENVO_01000983
+water in sealed container,,http://purl.obolibrary.org/obo/FOODON_03315789
+,,_:b15
 protruding,A quality inhering in a bearer by virtue of the bearer's extending out above or beyond a surface or boundary.,http://purl.obolibrary.org/obo/PATO_0001598
+natural capital,A collection composed of natural assets and the environmental services which depend on them.,http://purl.unep.org/sdg/SDGIO_00010053
+seltzer water (flavored),,http://purl.obolibrary.org/obo/FOODON_03303847
 village,"A village is a clustered human settlement or community, larger than a hamlet but smaller than a town, with a population ranging from a few hundred to a few thousand. Though often located in rural areas, the term urban village is also applied to certain urban neighbourhoods. Villages are normally permanent, with fixed dwellings; however, transient villages can occur. Further, the dwellings of a village are fairly close to one another, not scattered broadly over the landscape, as a dispersed settlement.",http://purl.obolibrary.org/obo/ENVO_01000773
-tourism,"A process in which a visitor travels to and stays in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes. All the activities performed by the visitor in preparation for and during their trip are parts of this process.",http://purl.unep.org/sdg/SDGIO_00000030
 unemployed,"A person or population that is not employed, but eligible for and currently seeking employment.",http://purl.unep.org/sdg/SDGIO_00010026
-environmental feature,A material entity which determines an environmental system.,http://purl.obolibrary.org/obo/ENVO_00002297
 essential service,A service which is necessary to sustain human life.,http://purl.unep.org/sdg/SDGIO_00010006
-atmospheric ozone,Atmospheric ozone is an environmental material primarily composed of ozone in its gaseous form and present in the atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000537
-,,_:b6
+exposure to contaminated water,An exposure process during which a portion of contaminated water is the causal agent in an entity realising one or more of its dispositions.,http://purl.unep.org/sdg/SDGIO_00000018
 owner,"A person or organization that participates in an ownership process wherein they realize their role as owner by exercising their right to use, sell, rent, or gift an object.",http://purl.unep.org/sdg/SDGIO_00010028
-afforestation,Establishment of a new forest by seeding or planting of nonforested land.,http://purl.obolibrary.org/obo/ENVO_02500011
-elemental hydrogen,,http://purl.obolibrary.org/obo/CHEBI_33260
-hydrogen molecular entity,,http://purl.obolibrary.org/obo/CHEBI_33608
-,,_:b7
-safe,A low risk of entities in some environment to realize their hazard disposition towards humans.,http://purl.unep.org/sdg/SDGIO_00010036
+fruit-flavored punch (canned),,http://purl.obolibrary.org/obo/FOODON_03306175
+"National recycling rate, tons of material recycled",,http://purl.unep.org/sdg/SDGIO_00020152
+supporting ecosystem service,An ecosystem service which is necessary for the maintenance of (i.e. supports) all other ecosystem services.,http://purl.unep.org/sdg/SDGIO_00000033
+marine pelagic feature,"A prominent or distinctive aspect, quality, or characteristic of environments occurring within the marine water column.",http://purl.obolibrary.org/obo/ENVO_01000044
+pathologic distant metastases stage for colon according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002290
+water glacier,,http://purl.obolibrary.org/obo/FOODON_03310333
+International Health Regulations (IHR) capacity and health emergency preparedness,,http://purl.unep.org/sdg/SDGIO_00020053
+Existence of independent national human rights institutions in compliance with the Paris Principles,,http://purl.unep.org/sdg/SDGIO_00020206
+soft drink artificially sweetened,,http://purl.obolibrary.org/obo/FOODON_03310960
+"Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",,http://purl.unep.org/sdg/SDGIO_00020216
+"International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",,http://purl.unep.org/sdg/SDGIO_00020094
+Manufacturing employment as a proportion of total employment,,http://purl.unep.org/sdg/SDGIO_00020116
 environmental system,A system which has the disposition to environ one or more material entities.,http://purl.obolibrary.org/obo/ENVO_01000254
-data about an ontology part,,http://purl.obolibrary.org/obo/IAO_0000102
+lemon soda,,http://purl.obolibrary.org/obo/FOODON_03302411
+Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP,,http://purl.unep.org/sdg/SDGIO_00020012
+Proportion of population that feel safe walking alone around the area they live,,http://purl.unep.org/sdg/SDGIO_00020189
 ambidextrous handedness,,http://purl.obolibrary.org/obo/PATO_0002204
 areal flooding,"Areal flooding is a flooding process in which flat or low-lying areas become inundated with water due to water input exceeding infiltration, evaporation, or run off.",http://purl.obolibrary.org/obo/ENVO_01000717
-classified data set,,http://purl.obolibrary.org/obo/OBI_0000023
-,,_:b8
 populated place,Place or area with clustered or scattered buildings and a permanent human population.,http://purl.obolibrary.org/obo/ENVO_00000062
-process,"An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.",http://purl.obolibrary.org/obo/BFO_0000015
 material supplier role,,http://purl.obolibrary.org/obo/OBI_0000018
+Coverage by protected areas of important sites for mountain biodiversity,,http://purl.unep.org/sdg/SDGIO_00020178
+"Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities",,http://purl.unep.org/sdg/SDGIO_00020142
+imitation raspberry-flavored drink,,http://purl.obolibrary.org/obo/FOODON_03307301
+"beverage (carbonated, guarana-flavored)",,http://purl.obolibrary.org/obo/FOODON_03305563
+environmental system determined by a quality,An environmental system which is determined by materials bearing roughly homogeneous qualities.,http://purl.obolibrary.org/obo/ENVO_01000997
 organization,,http://purl.obolibrary.org/obo/OBI_0000245
-,,_:b9
+second-order administrative region,A subdivision of a first-order administrative division.,http://purl.obolibrary.org/obo/ENVO_00000006
+whole plant,A plant structure (PO:0005679) which is a whole organism.,http://purl.obolibrary.org/obo/PO_0000003
+"Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",,http://purl.unep.org/sdg/SDGIO_00020175
 Euarchontoglires,,http://purl.obolibrary.org/obo/NCBITaxon_314146
 young,An age which is relatively low.,http://purl.obolibrary.org/obo/PATO_0000309
 material information bearer,,http://purl.obolibrary.org/obo/IAO_0000178
-sustainable access system,"A system that provides access to some resource in a sustainable manner. That is, the system provides someone or something the ability, right, and permission to approach and use some resource in a way that will not irreversibly exhaust the resources on which the system depends.",http://purl.unep.org/sdg/SDGIO_00000006
-ability to access,The disposition of an environmental system to physically provide a resource to the consumer or user of that resource.,http://purl.unep.org/sdg/SDGIO_00000009
-ocean,Continuous saline-water bodies that surround the continents and fill the Earth's great depressions.,http://purl.obolibrary.org/obo/ENVO_00000015
-quality of a gas,A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape.,http://purl.obolibrary.org/obo/PATO_0001547
+asset role,A resource role inhering in an independent continuant which is realized by conferring an economic benefit to the person or organization which controls it in some economic system.,http://purl.unep.org/sdg/SDGIO_00010049
+animal-associated environment,An environmental system determined by an animal.,http://purl.obolibrary.org/obo/ENVO_01001002
+orange carbonated beverage (naturally and artificially flavored),,http://purl.obolibrary.org/obo/FOODON_03302229
+imitation grape carbonated beverage,,http://purl.obolibrary.org/obo/FOODON_03302158
+Proportion of traded wildlife that was poached or illicitly trafficked,,http://purl.unep.org/sdg/SDGIO_00020182
 right of access,"A disposition of a human societal system to recognise and protect, through various means, the ability of an entity to approach and use a resource.",http://purl.unep.org/sdg/SDGIO_00000008
-action specification,,http://purl.obolibrary.org/obo/IAO_0000007
+histologic grade according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002205
 physical object quality,A quality which inheres in a continuant.,http://purl.obolibrary.org/obo/PATO_0001241
+astronomical body part,A material part of an astronomical body.,http://purl.obolibrary.org/obo/ENVO_01000813
+cherry soft drink,,http://purl.obolibrary.org/obo/FOODON_03311054
 pulp-bleaching waste water,,http://purl.obolibrary.org/obo/ENVO_00002193
-,,_:b10
+Proportion of medium and high-tech industry value added in total value added,,http://purl.unep.org/sdg/SDGIO_00020123
+Proportion of births attended by skilled health personnel,,http://purl.unep.org/sdg/SDGIO_00020028
 time unit,,http://purl.obolibrary.org/obo/UO_0000003
-measurement datum,,http://purl.obolibrary.org/obo/IAO_0000109
-Euteleostomi,,http://purl.obolibrary.org/obo/NCBITaxon_117571
+"Proportion of individuals who own a mobile telephone, by sex",,http://purl.unep.org/sdg/SDGIO_00020077
+material input per capita,A data item which represents the ratio of material input and total population.,http://purl.unep.org/sdg/SDGIO_00010065
+,,_:b16
 objective specification,,http://purl.obolibrary.org/obo/IAO_0000005
+"Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex",,http://purl.unep.org/sdg/SDGIO_00020055
 inorganic hydride,,http://purl.obolibrary.org/obo/CHEBI_33242
-function,,http://purl.obolibrary.org/obo/BFO_0000034
 watercourse,A flowing body of water.,http://purl.obolibrary.org/obo/ENVO_00000029
+employer role,A self-employed role which is realised by a person or organization while they engage in an employment relationship with one or more persons to whom they provide remuneration or reward in exchange for labour or expertise.,http://purl.unep.org/sdg/SDGIO_00010003
+"Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",,http://purl.unep.org/sdg/SDGIO_00020197
 right handedness,,http://purl.obolibrary.org/obo/PATO_0002203
-,,http://usefulinc.com/ns/doap#SVNRepository
 Homininae,,http://purl.obolibrary.org/obo/NCBITaxon_207598
 position,A spatial quality inhering in a bearer by virtue of the bearer's spatial location relative to other objects in the vicinity.,http://purl.obolibrary.org/obo/PATO_0000140
-,,_:b11
-,,_:b12
-,,_:b13
-conclusion based on data,,http://purl.obolibrary.org/obo/OBI_0001909
-data transformation,,http://purl.obolibrary.org/obo/OBI_0200000
-lake,A body of water or other liquid of considerable size contained on a body of land.,http://purl.obolibrary.org/obo/ENVO_00000020
-sustainable development goal,An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030 plan specification.,http://purl.unep.org/sdg/SDGIO_00000000
-diagram,,http://purl.obolibrary.org/obo/IAO_0000309
-educator role,A role that inheres in a human and is realized in the process of imparting knowledge and skill to others.,http://purl.unep.org/sdg/SDGIO_00010010
-biome,A biome is an environmental system to which resident ecological communities have evolved adaptations.,http://purl.obolibrary.org/obo/ENVO_00000428
-Sarcopterygii,,http://purl.obolibrary.org/obo/NCBITaxon_8287
-use of a resource,A process in which a resource is consumed or confers some benefit to the user.,http://purl.unep.org/sdg/SDGIO_00000011
-elemental molecule,A molecule all atoms of which have the same atomic number.,http://purl.obolibrary.org/obo/CHEBI_25362
-effusive eruption,An effusive eruption is a volcanic eruption during which lava flows onto the ground.,http://purl.obolibrary.org/obo/ENVO_01000656
-marine water body,A significant accumulation of water which is part of a marine biome.,http://purl.obolibrary.org/obo/ENVO_00001999
-regulator role,,http://purl.obolibrary.org/obo/OBI_0000014
-process of being educated,A planned process wherein a person acquires knowledge or skill. It is part of an education process.,http://purl.unep.org/sdg/SDGIO_00010008
-constructed feature,A feature that has been constructed by deliberate human effort.,http://purl.obolibrary.org/obo/ENVO_00000070
-scatter plot,,http://purl.obolibrary.org/obo/IAO_0000184
-age,A time quality inhering in a bearer by virtue of how long the bearer has existed.,http://purl.obolibrary.org/obo/PATO_0000011
-flooding,"A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water.",http://purl.obolibrary.org/obo/ENVO_02500002
-fiat object part,,http://purl.obolibrary.org/obo/BFO_0000024
-,,_:b14
-Bilateria,,http://purl.obolibrary.org/obo/NCBITaxon_33213
-,,_:b15
-human dwelling,"A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other 'substantial' structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any 'open fields beyond'. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.",http://purl.obolibrary.org/obo/ENVO_01000744
-oxygen hydride,,http://purl.obolibrary.org/obo/CHEBI_33693
-riverine flooding,"Riverine flooding is a process in which the flow rate of river water exceeds the capacity of its channel, thus flooding neighbouring land. Bends and meanders in a river channel are particularly disposed to such flooding.",http://purl.obolibrary.org/obo/ENVO_01000708
-sustainable development process,"A process in which the parts of a socio-economic-environmental system, as well as their interactions and qualities, transition to meet one or more sustainable development goals.",http://purl.unep.org/sdg/SDGIO_00000004
-water body,An accumulation of water of varying size.,http://purl.obolibrary.org/obo/ENVO_00000063
-hydrides,Hydrides are chemical compounds of hydrogen with other chemical elements.,http://purl.obolibrary.org/obo/CHEBI_33692
-urban flooding,"Urban flooding is a flooding process in which land or property in a built environment, particularly in more densely populated areas, is inundated due to the rate of water input exceeding that of water drainage provided by the environment's drainage systems.",http://purl.obolibrary.org/obo/ENVO_01000718
-mass wasting flow,"A mass wasting flow is a form of mass wasting during which the moving materials behave similarly to a flowing fluid. Water, air and ice are often involved in enabling fluidlike motion of the material.",http://purl.obolibrary.org/obo/ENVO_01000696
-Simiiformes,,http://purl.obolibrary.org/obo/NCBITaxon_314293
-,,_:b16
 ,,_:b17
-mass wasting,"Mass wasting is the geomorphic process by which solid environmental material such as soil, sand, regolith, and/or rock move downslope typically as a mass, largely under the force of gravity, but frequently affected by water and water content as in submarine environments and mudslides.",http://purl.obolibrary.org/obo/ENVO_01000690
+"Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",,http://purl.unep.org/sdg/SDGIO_00020042
+Dollar value of all resources made available to strengthen statistical capacity in developing countries,,http://purl.unep.org/sdg/SDGIO_00020230
+cola carbonated beverage (decaffeinated),,http://purl.obolibrary.org/obo/FOODON_03303633
+conclusion based on data,,http://purl.obolibrary.org/obo/OBI_0001909
+soda water (artificially flavored),,http://purl.obolibrary.org/obo/FOODON_03309550
+material anatomical entity,Anatomical entity that has mass.,http://purl.obolibrary.org/obo/UBERON_0000465
+"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",,http://purl.unep.org/sdg/SDGIO_00020061
+Sarcopterygii,,http://purl.obolibrary.org/obo/NCBITaxon_8287
+"grape drink (carbonated, artificially flavored and colored, vitamin-fortified)",,http://purl.obolibrary.org/obo/FOODON_03302280
+tourism,"A process during which a visitor travels to and stays in one or more places outside their usual environment for not more than one year for leisure, business, personal matters or any other main purpose not including employment by a resident entity in the country or place visited.",http://purl.unep.org/sdg/SDGIO_00000030
+Researchers (in full-time equivalent) per million inhabitants,,http://purl.unep.org/sdg/SDGIO_00020121
+"Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",,http://purl.unep.org/sdg/SDGIO_00020100
+"water (carbonated, vitamin c added, bottled)",,http://purl.obolibrary.org/obo/FOODON_03307414
+elemental molecule,A molecule all atoms of which have the same atomic number.,http://purl.obolibrary.org/obo/CHEBI_25362
+cola carbonated beverage caffeine-free low calorie,,http://purl.obolibrary.org/obo/FOODON_03303635
+marine water body,A significant accumulation of water which is part of a marine biome.,http://purl.obolibrary.org/obo/ENVO_00001999
+,,_:b18
+nuclear weapons test site,"A weapons test site at which nuclear weapons are, or have been, tested.",http://purl.obolibrary.org/obo/ENVO_00000560
+process of being educated,A planned process wherein a person acquires knowledge or skill. It is part of an education process.,http://purl.unep.org/sdg/SDGIO_00010008
+scatter plot,,http://purl.obolibrary.org/obo/IAO_0000184
+Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment,,http://purl.unep.org/sdg/SDGIO_00020155
+anthropogenic abiotic mesoscopic feature,,http://purl.obolibrary.org/obo/ENVO_00003075
+own-account worker role,A self-employment role which is realised when a self-employed person intermittently acts as an employer.,http://purl.unep.org/sdg/SDGIO_00000054
+"Average income of small-scale food producers, by sex and indigenous status",,http://purl.unep.org/sdg/SDGIO_00020019
+nonalcoholic beverage (us cfr),"Beverage containing no more than 0.5% alcohol; it may be flavored, sweetened or carbonated; includes soft drinks and steeped beverages; excludes milk in all forms, fruit juices, diluted fruit juices and vegetable juices.",http://purl.obolibrary.org/obo/FOODON_03400112
+process,"p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])",http://purl.obolibrary.org/obo/BFO_0000015
+Volume of remittances (in United States dollars) as a proportion of total GDP,,http://purl.unep.org/sdg/SDGIO_00020211
+fiat object part,,http://purl.obolibrary.org/obo/BFO_0000024
+"Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",,http://purl.unep.org/sdg/SDGIO_00020039
+lemon and lime fruit juice carbonated beverage (10% diluted),,http://purl.obolibrary.org/obo/FOODON_03302565
+Bilateria,,http://purl.obolibrary.org/obo/NCBITaxon_33213
+riverine flooding,"Riverine flooding is a process in which the flow rate of river water exceeds the capacity of its channel, thus flooding neighbouring land. Bends and meanders in a river channel are particularly disposed to such flooding.",http://purl.obolibrary.org/obo/ENVO_01000708
+recycling process,A process in which some input bearing a waste role is consumed to produce an output which bears a resource role.,http://purl.obolibrary.org/obo/ENVO_01000741
+sustainable development process,"A process in which the parts of a socio-economic-environmental system, as well as their interactions and qualities, transition to meet one or more sustainable development goals.",http://purl.unep.org/sdg/SDGIO_00000004
+cola carbonated beverage decaffeinated vitamin-fortified,,http://purl.obolibrary.org/obo/FOODON_03302407
+Research and development expenditure as a proportion of GDP,,http://purl.unep.org/sdg/SDGIO_00020120
+,,http://purl.obolibrary.org/obo/GO_0048018
+hydrides,Hydrides are chemical compounds of hydrogen with other chemical elements.,http://purl.obolibrary.org/obo/CHEBI_33692
+decreased quality,A quality that has a value that is decreased compared to normal or average.,http://purl.obolibrary.org/obo/PATO_0002301
+urban flooding,"Urban flooding is a flooding process in which land or property in a built environment, particularly in more densely populated areas, is inundated due to the rate of water input exceeding that of water drainage provided by the environment's drainage systems.",http://purl.obolibrary.org/obo/ENVO_01000718
+food product for animal,,http://purl.obolibrary.org/obo/FOODON_03309997
+Tourism direct GDP as a proportion of total GDP and in growth rate,,http://purl.unep.org/sdg/SDGIO_00020107
+tonic water,,http://purl.obolibrary.org/obo/FOODON_03307660
+"Proportion of total adult population with secure tenure rights to land, with legally recognized documentation and who perceive their rights to land as secure, by sex and by type of tenure",,http://purl.unep.org/sdg/SDGIO_00020005
+mass wasting flow,"A mass wasting flow is a form of mass wasting during which the moving materials behave similarly to a flowing fluid. Water, air and ice are often involved in enabling fluidlike motion of the material.",http://purl.obolibrary.org/obo/ENVO_01000696
+formal employment process,An employment process which is specified by formal arrangements and does not include illicit activities.,http://purl.unep.org/sdg/SDGIO_00010034
+Simiiformes,,http://purl.obolibrary.org/obo/NCBITaxon_314293
+self-employed person,A person that bears a self-employed role.,http://purl.unep.org/sdg/SDGIO_00000059
+"Labour share of GDP, comprising wages and social protection transfers",,http://purl.unep.org/sdg/SDGIO_00020128
 lotic water body,"A lotic water body is a water body in which the accumulated water, in its totality, is flowing.",http://purl.obolibrary.org/obo/ENVO_01000618
-class prediction objective,,http://purl.obolibrary.org/obo/OBI_0200179
 sewage,"Wastewater that is contaminated with feces or urine,",http://purl.obolibrary.org/obo/ENVO_00002018
-k-means clustering,,http://purl.obolibrary.org/obo/OBI_0200041
-explosive eruption,"An explosive eruption is a volcanic process in which pressurised magma is violently expelled and froths into volcanic ash. Explosive eruptions can eject a cloud of rocks, dust, gas, and pyroclastic material  which may then collapse, creating a pyroclastic flow of hot volcanic matter.",http://purl.obolibrary.org/obo/ENVO_01000655
-Vertebrata <Metazoa>,,http://purl.obolibrary.org/obo/NCBITaxon_7742
-employee,A person that bears an employee role.,http://purl.unep.org/sdg/SDGIO_00010005
-material transformation objective,,http://purl.obolibrary.org/obo/OBI_0000456
-object,,http://purl.obolibrary.org/obo/BFO_0000030
-tectonic earthquake,"A tectonic earthquake is an earthquake caused by the release of elastic strain. A tectonic earthquake occurs when strains in rock masses have accumulated to a point where the resulting stresses exceed the strength of the rocks, and sudden fracturing results.",http://purl.obolibrary.org/obo/ENVO_01000678
+,,_:b19
+specimen role,,http://purl.obolibrary.org/obo/OBI_0000112
+hydrocarbon gas emission process,A gas emission process during which a portion of hydrocarbon gas is transported into the atmosphere.,http://purl.obolibrary.org/obo/ENVO_03000093
+soft drink,,http://purl.obolibrary.org/obo/FOODON_00002253
+pollution control,A planned process during which the amount of pollutants released into an environmental system is regulated.,http://purl.obolibrary.org/obo/ENVO_02500042
+specimen collection objective,,http://purl.obolibrary.org/obo/OBI_0000684
 dendrogram,,http://purl.obolibrary.org/obo/IAO_0000183
-lentic water body,"A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow.",http://purl.obolibrary.org/obo/ENVO_01000617
-software,,http://purl.obolibrary.org/obo/IAO_0000010
-hierarchical clustering,,http://purl.obolibrary.org/obo/OBI_0200042
-,,http://usefulinc.com/ns/doap#Version
+foodon product type,"A substance, usually composed primarily of carbohydrates, fats, water and/or proteins, that can be eaten or drunk by an animal or human being for nutrition or pleasure.",http://purl.obolibrary.org/obo/FOODON_00001002
+receptor activity,,http://purl.obolibrary.org/obo/GO_0004872
 approaching a resource,"A process in which a potential consumer of a resource decreases their spatial distance to that resource, acting out of the right, permission, and ability of access.",http://purl.unep.org/sdg/SDGIO_00000012
+soft drink (us cfr),"Nonalcoholic beverage made from potable water by adding one or more of the following: carbon dioxide, flavoring ingredients or sweeteners. Naturally or artificially carbonated mineral waters are also considered soft drinks. Excludes products containing 15% or more fruit juice, which are indexed by the appropriate narrower term under *FRUIT JUICE OR RELATED PRODUCT*. Includes beverage bases to make soft drinks. Carbonated fruit juices are indexed by *FRUIT JUICE* or *FRUIT JUICE, DILUTED* and *CARBONATED* or the appropriate narrower term.",http://purl.obolibrary.org/obo/FOODON_03400241
+sport drink (food product),,http://purl.obolibrary.org/obo/FOODON_03311768
+Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020,,http://purl.unep.org/sdg/SDGIO_00020184
 Deuterostomia,,http://purl.obolibrary.org/obo/NCBITaxon_33511
 site,,http://purl.obolibrary.org/obo/BFO_0000029
-manufacturing objective,,http://purl.obolibrary.org/obo/OBI_0000458
+Proportion of small-scale industries with a loan or line of credit,,http://purl.unep.org/sdg/SDGIO_00020118
 secure right,A right which is protected by a sustainable system.,http://purl.unep.org/sdg/SDGIO_00010022
-anthropogenic environmental material,Anthropogenic material in or on which organisms may live.,http://purl.obolibrary.org/obo/ENVO_0010001
+,,_:b20
+Investments in energy efficiency as a proportion of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services,,http://purl.unep.org/sdg/SDGIO_00020095
+industrialisation,A process which results in manufacturing becoming the predominant economic activity within a nation or region.,http://purl.unep.org/sdg/SDGIO_00010056
 Archaea,,http://purl.obolibrary.org/obo/NCBITaxon_2157
-resource,A material or immaterial entity which may confer benefit to its user or consumer.,http://purl.unep.org/sdg/SDGIO_00000013
-exposure to contaminated environmental material,An exposure process in which an the processes executed by an entity are causally connected to those executed by a portion of contaminated environmental material.,http://purl.unep.org/sdg/SDGIO_00000017
+,,_:b21
+cultural ecosystem service,"An ecosystem service which provides  nonmaterial benefits to humans through spiritual enrichment, cognitive development, reflection, recreation, and aesthetic experience.",http://purl.unep.org/sdg/SDGIO_00000034
 immaterial entity,,http://purl.obolibrary.org/obo/BFO_0000141
-graph,,http://purl.obolibrary.org/obo/IAO_0000038
-,,_:b18
-,,_:b19
+"Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",,http://purl.unep.org/sdg/SDGIO_00020105
+spring water (bottled),,http://purl.obolibrary.org/obo/FOODON_03307409
+,,_:b22
+grape drink carbonated artificially flavored and colored vitamin-fortified,,http://purl.obolibrary.org/obo/FOODON_03302280
+"Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",,http://purl.unep.org/sdg/SDGIO_00020141
 riverine flood,A riverine flood is a flood which is formed as a result of a river's flow rate exceeding the capacity of its channel.,http://purl.obolibrary.org/obo/ENVO_01000712
 Boreoeutheria,,http://purl.obolibrary.org/obo/NCBITaxon_1437010
-resource role,A role which is realized by conferring some benefit to its consumer.,http://purl.unep.org/sdg/SDGIO_00010017
-material entity,An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.,http://purl.obolibrary.org/obo/BFO_0000040
-specifically dependent continuant,A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.,http://purl.obolibrary.org/obo/BFO_0000020
-elemental molecular entity,A molecular entity all atoms of which have the same atomic number.,http://purl.obolibrary.org/obo/CHEBI_33259
-continuant,"An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.",http://purl.obolibrary.org/obo/BFO_0000002
+,,_:b23
+imitation grape carbonated beverage (artificially sweetened),,http://purl.obolibrary.org/obo/FOODON_03302233
+soda water (artifically sweetened),,http://purl.obolibrary.org/obo/FOODON_03304066
+anatomical entity,Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.,http://purl.obolibrary.org/obo/UBERON_0001062
+Maternal mortality ratio,,http://purl.unep.org/sdg/SDGIO_00020027
 megathrust earthquake,"A megathrust earthquake is a tectonic earthquake which occurs at subduction zones at destructive plate boundaries (convergent boundaries). These interplate earthquakes are the planet's most powerful, with moment magnitudes that can exceed 9.0.",http://purl.obolibrary.org/obo/ENVO_01000679
-hydroxides,Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-)).,http://purl.obolibrary.org/obo/CHEBI_24651
-data visualization,,http://purl.obolibrary.org/obo/OBI_0200111
+Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals,,http://purl.unep.org/sdg/SDGIO_00020225
 document,,http://purl.obolibrary.org/obo/IAO_0000310
-Haplorrhini,,http://purl.obolibrary.org/obo/NCBITaxon_376913
-anthropogenic environmental process,,http://purl.obolibrary.org/obo/ENVO_02500027
+resilience to hazards,,http://purl.unep.org/sdg/SDGIO_00000067
+area of protected biodiversity,"An area of land or of a body of water in which management practices,  through legal or other effective means, prioritise the protection and maintenance of biological diversity, and of natural and associated cultural resources.",http://purl.obolibrary.org/obo/ENVO_00000358
+biosphere,"A biosphere is a part of an astronomical body which includes, as parts, all the living entities within the gravitational sphere of influence of that body, as well as the non-living and dead entities with which they interact.",http://purl.obolibrary.org/obo/ENVO_01000817
+specimen collection process,,http://purl.obolibrary.org/obo/OBI_0000659
+use of a resource,A process during which a resource is consumed and confers some benefit to the user.,http://purl.unep.org/sdg/SDGIO_00000011
+processed specimen,,http://purl.obolibrary.org/obo/OBI_0000953
+Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically,,http://purl.unep.org/sdg/SDGIO_00020139
+,,_:b24
+wealth,"A data item which represents the total value of the assets under the control of a person, population or organisation.",http://purl.unep.org/sdg/SDGIO_00010051
 right,,http://purl.unep.org/sdg/SDGIO_00010037
+employee role,A role realised by a person when that person performs actions specified by an employer in return for a level of remuneration that is not directly dependent on the revenue generated by the employer's activities.,http://purl.unep.org/sdg/SDGIO_00010002
 coastal flood,A coastal flood is a flood which is formed as a result of large amounts of water from marine water bodies or large lakes being transported to usually dry land by displacement processes such as high winds or seismic activity.,http://purl.obolibrary.org/obo/ENVO_01000711
+Total official international support (official development assistance plus other official flows) to infrastructure,,http://purl.unep.org/sdg/SDGIO_00020122
 oxygen molecular entity,,http://purl.obolibrary.org/obo/CHEBI_25806
-,,_:b20
-education,A planned process wherein knowledge and skill is imparted.,http://purl.unep.org/sdg/SDGIO_00010001
-drawing a conclusion based on data,,http://purl.obolibrary.org/obo/OBI_0000338
-volumetric flow rate unit,,http://purl.obolibrary.org/obo/UO_0000270
+"Proportion of population using safely managed sanitation services, including a hand-washing facility with soap and water",,http://purl.unep.org/sdg/SDGIO_00020080
+"cola carbonated beverage (decaffeinated, vitamin-fortified)",,http://purl.obolibrary.org/obo/FOODON_03302407
 clustered data set,,http://purl.obolibrary.org/obo/OBI_0000648
+ecological community,"A community of at least two different species, living in a particular area. Must have at least two populations of different species as members.",http://purl.obolibrary.org/obo/PCO_0000002
+outer space,"Outer space is a hard vacuum containing a low density of particles, predominantly a plasma of hydrogen and helium as well as electromagnetic radiation, magnetic fields, neutrinos, dust and cosmic rays that exists between celestial bodies.",http://purl.obolibrary.org/obo/ENVO_01000637
 directive information entity,,http://purl.obolibrary.org/obo/IAO_0000033
-,,_:b21
-curation status specification,,http://purl.obolibrary.org/obo/IAO_0000078
+"Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",,http://purl.unep.org/sdg/SDGIO_00020074
+,,_:b25
 leave one out cross validation method,,http://purl.obolibrary.org/obo/OBI_0200033
-sturzstrom,A sturzstrom is a landslide consisting which has a great amount of kinetic energy resulting in greater horizontal movement when compared to its initial vertical drop â€” as much as 20 or 30 times the vertical distance. By contrast a normal landslide will typically travel a horizontal distance that is less than twice the distance that the material has fallen.,http://purl.obolibrary.org/obo/ENVO_01000700
-Theria <Mammalia>,,http://purl.obolibrary.org/obo/NCBITaxon_32525
 datum label,,http://purl.obolibrary.org/obo/IAO_0000009
-exposure to flood,An exposure process in which an the processes executed by an entity are causally connected to those executed by a flood.,http://purl.unep.org/sdg/SDGIO_00000015
 habitability,"A quality of a human dwelling by virtue of its dispositions to provide for its inhabitants: physical safety, adequate space, protection against the elements and other hazards to health and structure.",http://purl.unep.org/sdg/SDGIO_00010040
-population,"A collection of organisms, all of the same species, that live in the same place.",http://purl.obolibrary.org/obo/PCO_0000001
-,,_:b22
-regulatory role,,http://purl.obolibrary.org/obo/OBI_0000017
-polyatomic entity,Any molecular entity consisting of more than one atom.,http://purl.obolibrary.org/obo/CHEBI_36357
-physical quality,A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.,http://purl.obolibrary.org/obo/PATO_0001018
+pathologic distant metastases stage for kidney according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002306
 inadequate housing,"A human dwelling that lacks any one of the following: access to basic services, affordability, habitability, security of tenure, or accessibility.",http://purl.unep.org/sdg/SDGIO_00010012
 revegetation,,http://purl.obolibrary.org/obo/ENVO_02500032
-social protection service,"A service that promotes, secures, and maintains socio-economic rights.",http://purl.unep.org/sdg/SDGIO_00010016
 waste role,A role that is realized in some process wherein the bearer is discarded or not utilized further.,http://purl.obolibrary.org/obo/ENVO_01000665
-Opisthokonta,,http://purl.obolibrary.org/obo/NCBITaxon_33154
-decision tree building data transformation,,http://purl.obolibrary.org/obo/OBI_0000707
+material intensity,,http://purl.unep.org/sdg/SDGIO_00010062
 partitioning data transformation,,http://purl.obolibrary.org/obo/OBI_0200171
 heteroatomic molecular entity,A molecular entity consisting of two or more chemical elements.,http://purl.obolibrary.org/obo/CHEBI_37577
 Hominidae,,http://purl.obolibrary.org/obo/NCBITaxon_9604
+,,_:b26
+Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration,,http://purl.unep.org/sdg/SDGIO_00020231
 concentration unit,,http://purl.obolibrary.org/obo/UO_0000051
+Mortality rate attributed to household and ambient air pollution,,http://purl.unep.org/sdg/SDGIO_00020045
+anthropisation,A process during which a natural environmental system is altered by human action.,http://purl.obolibrary.org/obo/ENVO_01000952
+fresh water,"Water which has a low concentration of dissolved solutes, particularly that of sodium chloride.",http://purl.obolibrary.org/obo/ENVO_00002011
 data format specification,,http://purl.obolibrary.org/obo/IAO_0000098
-Bacteria,,http://purl.obolibrary.org/obo/NCBITaxon_2
-rangeland biome,A rangeland biome is an anthropogenic terrestrial biome which is primarily used for the rearing and grazing of livestock.,http://purl.obolibrary.org/obo/ENVO_01000247
+Number of plant and animal genetic resources for food and agriculture secured in either medium or long-term conservation facilities,,http://purl.unep.org/sdg/SDGIO_00020021
+qualitative,,http://purl.obolibrary.org/obo/PATO_0000068
 desertification,"a type of land degradation in which a relatively dry land region becomes increasingly arid, typically losing its bodies of water as well as vegetation and wildlife.",http://purl.obolibrary.org/obo/ENVO_02500001
-,,_:b23
-atmospheric water vapour,Atmospheric water vapour is water vapour that is part of an atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000268
+lemonade-flavored drink,,http://purl.obolibrary.org/obo/FOODON_03306243
+"soda water (unflavored, in polyvinyl chloride bottle)",,http://purl.obolibrary.org/obo/FOODON_03306983
+education process,A planned process wherein knowledge and skill is imparted.,http://purl.unep.org/sdg/SDGIO_00010001
+provisioning ecosystem service,An ecosystem service in which the material or energy outputs of one or more ecosystem processes benefit a service consumer.,http://purl.unep.org/sdg/SDGIO_00000031
 ,,http://www.geneontology.org/formats/oboInOwl#Subset
+vulnerability,A disposition of an entity to undergo undesirable change in response to some exposure.,http://purl.unep.org/sdg/SDGIO_00000024
 rural settlement,"A settlement which has lower population density than a town, city, or other urban environment and is primarily used for agricultural or pastoral activity.",http://purl.obolibrary.org/obo/ENVO_01000763
-information carrier,,http://purl.obolibrary.org/obo/IAO_0000015
-recycling process,A process in which has inputs which bear waste roles and outputs which bear resource roles.,http://purl.obolibrary.org/obo/ENVO_01000741
+physical object of mesoscopic geological size,"An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff.",http://purl.obolibrary.org/obo/ENVO_00002004
+Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age,,http://purl.unep.org/sdg/SDGIO_00020016
+"Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",,http://purl.unep.org/sdg/SDGIO_00020181
 handedness,,http://purl.obolibrary.org/obo/PATO_0002201
+own-account worker,A person that bears an own-account worker role.,http://purl.unep.org/sdg/SDGIO_00000060
+,,_:b27
+"Proportion of population covered by a mobile network, by technology",,http://purl.unep.org/sdg/SDGIO_00020124
+good ambient water quality,An ambient water quality value which is specified when the water sampled from water bodies in a specified area poses little or no risk to normal ecosystem functioning or human health.,http://purl.unep.org/sdg/SDGIO_00010046
 coastal flooding,"Coastal flooding is a process in which normally dry, low-lying land near a coast is flooded by sea water.",http://purl.obolibrary.org/obo/ENVO_01000707
 quality of a liquid,"A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape.",http://purl.obolibrary.org/obo/PATO_0001548
-fragile state,"A state which has an elevated risk towards a loss of centralized government control and protection, or a lowered resilience to perturbation, or an inability to maintain basic services, or a lack of social equality.",http://purl.unep.org/sdg/SDGIO_00010020
-measurement unit label,,http://purl.obolibrary.org/obo/IAO_0000003
-Tetrapoda,,http://purl.obolibrary.org/obo/NCBITaxon_32523
+Energy intensity measured in terms of primary energy and GDP,,http://purl.unep.org/sdg/SDGIO_00020093
+bar mix,,http://purl.obolibrary.org/obo/FOODON_03304621
 sparsely populated settlement,A settlement with a low density of buildings and inhabitants.,http://purl.obolibrary.org/obo/ENVO_01000762
-ecological community,"A collection of organisms of at least two different species, living in a particular area.",http://purl.obolibrary.org/obo/PCO_0000002
-geological subsidence,A subsidence process is a geomorphologic process in which a surface shifts downward relative to a datum such as sea-level.,http://purl.obolibrary.org/obo/ENVO_01000694
-clustered data visualization,,http://purl.obolibrary.org/obo/OBI_0200190
-,,_:b24
-storm surge process,"A storm surge process is a coastal flooding process which is caused by low pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.",http://purl.obolibrary.org/obo/ENVO_01000716
+organism,"A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.",http://purl.obolibrary.org/obo/OBI_0100026
+"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",,http://purl.unep.org/sdg/SDGIO_00020046
+Proportion of total research budget allocated to research in the field of marine technology,,http://purl.unep.org/sdg/SDGIO_00020171
+Change in water-use efficiency over time,,http://purl.unep.org/sdg/SDGIO_00020083
+domestic resource consumption,A resource consumption value which pertains to the environmental systems which overlap with a national economic system.,http://purl.unep.org/sdg/SDGIO_00010055
+Proportion of fish stocks within biologically sustainable levels,,http://purl.unep.org/sdg/SDGIO_00020167
+Unsentenced detainees as a proportion of overall prison population,,http://purl.unep.org/sdg/SDGIO_00020194
 linear,,http://purl.obolibrary.org/obo/PATO_0001199
 realizable entity,"A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.",http://purl.obolibrary.org/obo/BFO_0000017
+human employer,,http://purl.unep.org/sdg/SDGIO_00000062
 land consumption process,A process in which natural ecosystems present over an expanse of land are removed and replaced with anthropogenic ecosystems.,http://purl.obolibrary.org/obo/ENVO_01000743
 substance unit,,http://purl.obolibrary.org/obo/UO_0000006
-volcanic eruption,"A volcanic process is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure.",http://purl.obolibrary.org/obo/ENVO_01000634
-net permanent forest loss,A data item about some process of forest loss and which represents a negative change in forest area over a sufficiently long time period.,http://purl.unep.org/sdg/SDGIO_00010043
-role,"A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.",http://purl.obolibrary.org/obo/BFO_0000023
+distilled water (bottled),,http://purl.obolibrary.org/obo/FOODON_03307416
+,,_:b28
 cellular organisms,,http://purl.obolibrary.org/obo/NCBITaxon_131567
+"Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city",,http://purl.unep.org/sdg/SDGIO_00020146
 material processing,,http://purl.obolibrary.org/obo/OBI_0000094
-Craniata <chordata>,,http://purl.obolibrary.org/obo/NCBITaxon_89593
-employment status,,http://purl.unep.org/sdg/SDGIO_00010029
+,,_:b29
+Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment,,http://purl.unep.org/sdg/SDGIO_00020162
+exposed tangible asset,A tangible asset which is at risk of being damaged by or lost during hazardous events.,http://purl.unep.org/sdg/SDGIO_00000052
+"Malaria incidence per 1,000 population",,http://purl.unep.org/sdg/SDGIO_00020033
+data item,"a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.",http://purl.obolibrary.org/obo/IAO_0000027
+service consumer role,,http://purl.obolibrary.org/obo/OBI_0000941
 Dipnotetrapodomorpha,,http://purl.obolibrary.org/obo/NCBITaxon_1338369
 old,An age which is relatively high.,http://purl.obolibrary.org/obo/PATO_0000308
-polluted lake,A lake which has concentrations of environmental contaminants high enough to harm the ecosystems associated with it.,http://purl.obolibrary.org/obo/ENVO_01000680
+ginger beer soft drink,,http://purl.obolibrary.org/obo/FOODON_03302107
+"beverage (fruit-flavored, noncarbonated)",,http://purl.obolibrary.org/obo/FOODON_03306024
 class prediction data transformation,,http://purl.obolibrary.org/obo/OBI_0000663
-,,_:b25
 rural area,"An area which is outside of a town, city, or urban area. Rural areas are primarily used for agriculture or pastoralism and may contain rural settlements.",http://purl.obolibrary.org/obo/ENVO_01000772
-process of educating,A planned process wherein a person imparts knowledge or skill to one or more people. It is part of an education process.,http://purl.unep.org/sdg/SDGIO_00010007
-metotsunami,A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.,http://purl.obolibrary.org/obo/ENVO_01000715
-anatomical structure,,http://purl.obolibrary.org/obo/CARO_0000003
-Catarrhini,,http://purl.obolibrary.org/obo/NCBITaxon_9526
+employment process,A planned process wherein an employee performs actions that are formally or informally specified by an employer in return for remuneration.,http://purl.unep.org/sdg/SDGIO_00010004
+"Proportion of local breeds classified as being at risk, not-at-risk or at unknown level of risk of extinction",,http://purl.unep.org/sdg/SDGIO_00020022
+Proportion of population using safely managed drinking water services,,http://purl.unep.org/sdg/SDGIO_00020079
+self-employed role,"A role realised by a person while engaging in economic activities producing goods and/or providing services, the profits of which they directly depend on for remuneration.",http://purl.unep.org/sdg/SDGIO_00000055
+"Foreign direct investments (FDI), official development assistance and South-South Cooperation as a proportion of total domestic budget",,http://purl.unep.org/sdg/SDGIO_00020210
 geographic feature,,http://purl.obolibrary.org/obo/ENVO_00000000
-employed,A person or population that participates in employment processes during a specified time interval.,http://purl.unep.org/sdg/SDGIO_00010030
+horchata chufa,,http://purl.obolibrary.org/obo/FOODON_03306090
+,,_:b30
 class discovery data transformation,,http://purl.obolibrary.org/obo/OBI_0200175
-,,_:b26
-water,An environmental material primarily composed of dihydrogen oxide in its liquid form.,http://purl.obolibrary.org/obo/ENVO_00002006
-plan specification,,http://purl.obolibrary.org/obo/IAO_0000104
-medicine role,"A role that inheres in a molecular entity and is realized in the process of preventing, treating, diagnosing, or studying disease or disorder.",http://purl.unep.org/sdg/SDGIO_00010013
+"Passenger and freight volumes, by mode of transport",,http://purl.unep.org/sdg/SDGIO_00020114
+Proportion of population satisfied with their last experience of public services,,http://purl.unep.org/sdg/SDGIO_00020200
+,,_:b31
+public infrastructure,"The system of public works in a country, state or region, including roads, utility lines and public buildings.",http://purl.obolibrary.org/obo/ENVO_01000779
+seltzer water (flavored and sweetened),,http://purl.obolibrary.org/obo/FOODON_03304659
+,,_:b32
+beverage carbonated amino acid-fortified,,http://purl.obolibrary.org/obo/FOODON_03302403
 volume unit,,http://purl.obolibrary.org/obo/UO_0000095
-principal components analysis dimensionality reduction,,http://purl.obolibrary.org/obo/OBI_0200051
+water (canned),,http://purl.obolibrary.org/obo/FOODON_03304059
+health care service,"A service which is designed to promote, secure, and maintain the health of an individual human or a population of humans.",http://purl.unep.org/sdg/SDGIO_00010015
 mononuclear parent hydride,,http://purl.obolibrary.org/obo/CHEBI_37176
-environmental zone,"An environmental zone is an environmental feature whose extent is determined by the presence or influence of one or more material entities or processes. An environmental zone may, itself, assume the role of an environmental feature.",http://purl.obolibrary.org/obo/ENVO_01000408
+Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law,,http://purl.unep.org/sdg/SDGIO_00020127
+water (processed),,http://purl.obolibrary.org/obo/FOODON_03307287
 Homo sapiens,,http://purl.obolibrary.org/obo/NCBITaxon_9606
-planning,,http://purl.obolibrary.org/obo/OBI_0000339
-river,"Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system.",http://purl.obolibrary.org/obo/ENVO_00000022
+saline water body,A body of water which is primarily composed of saline water.,http://purl.obolibrary.org/obo/ENVO_01001319
+"Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",,http://purl.unep.org/sdg/SDGIO_00020003
 system,A material entity consisting of multiple components that are causally integrated.,http://purl.obolibrary.org/obo/RO_0002577
-object aggregate,,http://purl.obolibrary.org/obo/BFO_0000027
-morphology,,http://purl.obolibrary.org/obo/PATO_0000051
-exposure to coastal flood,An exposure process in which the processes executed by an entity are causally connected to those executed by a coastal flood.,http://purl.unep.org/sdg/SDGIO_00000016
+water table prepared,,http://purl.obolibrary.org/obo/FOODON_03316091
 root,,http://purl.obolibrary.org/obo/NCBITaxon_1
 Gnathostomata <vertebrate>,,http://purl.obolibrary.org/obo/NCBITaxon_7776
-length unit,,http://purl.obolibrary.org/obo/UO_0000001
 flash flood,"A flash flood is a flood formed by the rapid flooding of geomorphic low-lying areas. It may be caused by heavy rain associated with a severe thunderstorm, hurricane, tropical storm, or meltwater from ice or snow flowing over ice sheets or snowfields. Flash floods may also occur after the collapse of a natural ice or debris dam, or a human structure such as a man-made dam. Flash floods are distinguished from a regular flood by a timescale of less than six hours.",http://purl.obolibrary.org/obo/ENVO_01000713
-shape,,http://purl.obolibrary.org/obo/PATO_0000052
+Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size,,http://purl.unep.org/sdg/SDGIO_00020018
+hydrographic feature,A geographical feature associated with water.,http://purl.obolibrary.org/obo/ENVO_00000012
+Agricultural export subsidies,,http://purl.unep.org/sdg/SDGIO_00020025
 village biome,"A village biome is an anthropogenic terrestrial biome which contains settlements such as villages, towns, and/or small cities and which is primarily used for agricultural activity.",http://purl.obolibrary.org/obo/ENVO_01000246
-quality of a single physical entity,,http://purl.obolibrary.org/obo/PATO_0001237
-protected area,"An area of land and/or a body of water especially dedicated to the protection and maintenance of biological diversity, and of natural and associated cultural resources, and managed through legal or other effective means.",http://purl.obolibrary.org/obo/ENVO_00000358
-environmental system process,,http://purl.obolibrary.org/obo/ENVO_02500000
+Volume of official development assistance flows for scholarships by sector and type of study,,http://purl.unep.org/sdg/SDGIO_00020063
+,,_:b33
+technosphere,"An environmental system which includes, as parts, all the entities which have been constructed or manufactured by humans or their technology within the gravitational sphere of influence of an astronomical body.",http://purl.obolibrary.org/obo/ENVO_01000983
 Mammalia,,http://purl.obolibrary.org/obo/NCBITaxon_40674
 stream,Linear body of water flowing on the Earth's surface.,http://purl.obolibrary.org/obo/ENVO_00000023
-,,_:b27
-occurrent,"An entity that has temporal parts and that happens, unfolds or develops through time.",http://purl.obolibrary.org/obo/BFO_0000003
-vulnerability towards drowning,A vulnerability borne by an entity which may be killed by drowning.,http://purl.unep.org/sdg/SDGIO_00000027
+"Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",,http://purl.unep.org/sdg/SDGIO_00020058
 class discovery objective,,http://purl.obolibrary.org/obo/OBI_0200178
+disaster risk,"A risk that a bearer will realise vulnerabilities which result in the loss of human life, the injury of humans, or the damage of assets when participating in a process which exposes the bearer to a hazard or combination of hazards beyond the bearer's coping capacity.",http://purl.unep.org/sdg/SDGIO_00000069
+orange carbonated beverage,,http://purl.obolibrary.org/obo/FOODON_03302169
 temperature unit,,http://purl.obolibrary.org/obo/UO_0000005
+"beverage (water-based, carbonated, with added sweeteners and flavorings)",,http://purl.obolibrary.org/obo/FOODON_03316211
 material anatomical entity,,http://purl.obolibrary.org/obo/CARO_0000006
-earthquake,"An earthquake is a process whereby part of the surface of a planet shakes due to the passage of seismic waves through rocks. Seismic waves are produced when some form of energy stored in a planet's crust is suddenly released. Elastic strain, gravity, chemical reactions, or even the motion of massive bodies can produce earthquakes.",http://purl.obolibrary.org/obo/ENVO_01000677
-quality,,http://purl.obolibrary.org/obo/BFO_0000019
-employee role,A role that inheres in a person and is realized in an employment process by performing actions for remuneration.,http://purl.unep.org/sdg/SDGIO_00010002
+"Unemployment rate, by sex, age and persons with disabilities",,http://purl.unep.org/sdg/SDGIO_00020102
+"Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",,http://purl.unep.org/sdg/SDGIO_00020060
+,,_:b34
+carbon dioxide emission,A volume of carbon dioxide gas emitted by a carbon dioxide emission process.,http://purl.obolibrary.org/obo/ENVO_01000770
+Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030,,http://purl.unep.org/sdg/SDGIO_00020008
+Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,,http://purl.unep.org/sdg/SDGIO_00020089
+"Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",,http://purl.unep.org/sdg/SDGIO_00020150
+biological role,A role played by the molecular entity or part thereof within a biological context.,http://purl.obolibrary.org/obo/CHEBI_24432
 access to basic services,"A disposition of a person or population who bears the ability, right, and permission to utilize available basic services in the community in which they reside.",http://purl.unep.org/sdg/SDGIO_00010042
-inorganic hydroxy compound,,http://purl.obolibrary.org/obo/CHEBI_52625
+Number of countries implementing sustainable public procurement policies and action plans,,http://purl.unep.org/sdg/SDGIO_00020154
+obsolescence reason specification,The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.,http://purl.obolibrary.org/obo/IAO_0000225
+precipitation process,A precipitation process is a process in which a portion of some substance segregates from a material in which that substance or its precursors were dissolved or suspended in and settles due to a force such as gravity or centrifugal force.,http://purl.obolibrary.org/obo/ENVO_01000875
+Proportion of transboundary basin area with an operational arrangement for water cooperation,,http://purl.unep.org/sdg/SDGIO_00020086
+,,_:b35
 Homo,,http://purl.obolibrary.org/obo/NCBITaxon_9605
+"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",,http://purl.unep.org/sdg/SDGIO_00020202
 planned process,,http://purl.obolibrary.org/obo/OBI_0000011
-access,"A disposition that inheres in a person or population who bears the ability, right, and permission to approach and use an accessible resource.",http://purl.unep.org/sdg/SDGIO_00000007
 decision tree induction objective,,http://purl.obolibrary.org/obo/OBI_0000704
 data transformation objective,,http://purl.obolibrary.org/obo/OBI_0200166
+spring water,,http://purl.obolibrary.org/obo/FOODON_03307813
+material trade balance,A data item that represents the resource material trade surplus or deficit in of a nation's economy and is calculated in physical units as total amount of resource materials import minus exports.,http://purl.unep.org/sdg/SDGIO_00010061
+plant anatomical entity,An anatomical entity that is or was part of a plant.,http://purl.obolibrary.org/obo/PO_0025131
 dimensionality reduction,,http://purl.obolibrary.org/obo/OBI_0200050
+,,_:b36
+,,_:b37
+construction process,An process during which natural or manufactured materials and products are processed and arranged by humans or their technology into structures.,http://purl.obolibrary.org/obo/ENVO_01000996
 water-borne disease,A disease which is transmitted via a medium composed of water.,http://purl.unep.org/sdg/SDGIO_00010019
-dihydrogen,An elemental molecule consisting of two hydrogens joined by a single bond.,http://purl.obolibrary.org/obo/CHEBI_18276
-Metazoa,,http://purl.obolibrary.org/obo/NCBITaxon_33208
-collection of organisms of the same species,"A material entity that has as parts two or more organisms, viruses, or viroids of the same species and no members of any other species.",http://purl.obolibrary.org/obo/PCO_0000018
-quality of a substance,A quality inhering in a bearer by virtue of its constitution.,http://purl.obolibrary.org/obo/PATO_0002198
-park,"A bounded area of land, or water, usually in its natural or semi-natural (landscaped) state and set aside for some purpose, usually to do with recreation or conservation.",http://purl.obolibrary.org/obo/ENVO_00000562
-illegal settlement,A settlement on land that the inhabitants have no legal claim to or occupy illegally.,http://purl.obolibrary.org/obo/ENVO_01000767
-,,_:b28
-risk,A disposition of a bearer to realise one or more of its vulnerabilities when participating in a process which exposes the bearer to one or more corresponding hazards.,http://purl.unep.org/sdg/SDGIO_00000020
-information content entity,,http://purl.obolibrary.org/obo/IAO_0000030
-basic service,"A service which is needed by humans to maintain their health and well-being, or enable economic, social, and cultural development.",http://purl.unep.org/sdg/SDGIO_00010025
+Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels,,http://purl.unep.org/sdg/SDGIO_00020158
+pepper-type carbonated beverage decaffeinated,,http://purl.obolibrary.org/obo/FOODON_03302661
+noncarbonated beverage less than 10% fruit juice,,http://purl.obolibrary.org/obo/FOODON_03302252
+medicine role,"A role realised by molecular entity during the process of preventing, treating, diagnosing, or studying disease or disorder.",http://purl.unep.org/sdg/SDGIO_00010013
 risk of drowning,The risk that a bearer realises its vulnerability towards drowning when participating in a process which exposes the bearer to a drowning hazard.,http://purl.unep.org/sdg/SDGIO_00000023
-employment,A planned process wherein an employee performs actions that are specified by an employer for remuneration.,http://purl.unep.org/sdg/SDGIO_00010004
-protocol,,http://purl.obolibrary.org/obo/OBI_0000272
+cola carbonated beverage (caffeine-free),,http://purl.obolibrary.org/obo/FOODON_03303634
+environmental system determined by a material,An environmental system within which an environmental material strongly influences the system's composition and properties.,http://purl.obolibrary.org/obo/ENVO_01000998
+informal education process,,http://purl.unep.org/sdg/SDGIO_00010073
+,,_:b38
 process profile,,http://purl.obolibrary.org/obo/BFO_0000144
 formal settlement,A settlement which has been established and is managed through officially sanctioned processes and is recognised as legal by a competent authority.,http://purl.obolibrary.org/obo/ENVO_01000764
-edibility,A physical quality inhering in a bearer by virtue of the bearer's disposition to being fit to be eaten.,http://purl.obolibrary.org/obo/PATO_0002138
-environmental contaminant,Any minor or unwanted substance introduced into the environment that can have undesired effects.,http://purl.obolibrary.org/obo/CHEBI_78298
 GenePattern software,,http://purl.obolibrary.org/obo/OBI_0000713
-water,An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms.,http://purl.obolibrary.org/obo/CHEBI_15377
-sustainable development indicator,A state of one or more parts of a socio-economic-environmental system which represents the state of the entire system.,http://purl.unep.org/sdg/SDGIO_00000002
+"Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",,http://purl.unep.org/sdg/SDGIO_00020227
+administrative region,,http://purl.obolibrary.org/obo/ENVO_00000004
+"Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",,http://purl.unep.org/sdg/SDGIO_00020170
+gaseous environmental material,A material entity which is composed of one or more chemical entities and has neither independent shape nor volume but tends to expand indefinitely.,http://purl.obolibrary.org/obo/ENVO_01000797
 support vector machine,,http://purl.obolibrary.org/obo/OBI_0000700
+"Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",,http://purl.unep.org/sdg/SDGIO_00020066
+natural asset role,An asset role which inheres in some independent continuant that is the output of an environmental process and has not been substantially altered by human activity.,http://purl.unep.org/sdg/SDGIO_00010068
 slum,"A slum is a heavily populated urban informal settlement with substandard housing in which households lack any one of the following: access to improved water, access to improved sanitation, sufficient-living area, durability of housing, or security of tenure.",http://purl.obolibrary.org/obo/ENVO_01000653
-access system,"An environmental system which provides access to some resource. That is, the system has the disposition to physically provide and allow use of a given resource and allows the user of that resource to exercise their right and permission to access the resource.",http://purl.unep.org/sdg/SDGIO_00000005
-,,_:b29
-educatee role,A role that inheres in a human and is realized in the process of acquiring knowledge and skill.,http://purl.unep.org/sdg/SDGIO_00010011
-fresh water,,http://purl.obolibrary.org/obo/ENVO_00002011
-chemical role,A role played by the molecular entity or part thereof within a chemical context.,http://purl.obolibrary.org/obo/CHEBI_51086
-statistical model validation,,http://purl.obolibrary.org/obo/OBI_0000792
 categorical label,,http://purl.obolibrary.org/obo/OBI_0000963
-rural,Any entity associated with a rural settlement or area.,http://purl.unep.org/sdg/SDGIO_00010031
-climate change,"The long-term fluctuations in temperature, precipitation, wind, and all other aspects of the Earth's climate. External processes, such as solar-irradiance variations, variations of the Earth's orbital parameters (eccentricity, precession, and inclination), lithosphere motions, and volcanic activity, are factors in climatic variation. Internal variations of the climate system, e.g., changes in the abundance of greenhouse gases, also may produce fluctuations of sufficient magnitude and variability to explain observed climate change through the feedback processes interrelating the components of the climate system.",http://purl.obolibrary.org/obo/ENVO_01000629
 reforestation,The planting of trees in areas in where forests have previously been cleared.,http://purl.obolibrary.org/obo/ENVO_02500013
-tsunami,"A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.",http://purl.obolibrary.org/obo/ENVO_01000689
-medicine,"A material entity that is used in the process of preventing, treating, diagnosing, or studying disease or disorder.",http://purl.unep.org/sdg/SDGIO_00010014
-histogram,,http://purl.obolibrary.org/obo/IAO_0000179
+Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies,,http://purl.unep.org/sdg/SDGIO_00020156
+"Proportion of youth (aged 15-24 years) not in education, employment or training",,http://purl.unep.org/sdg/SDGIO_00020103
 contaminated water,,http://purl.obolibrary.org/obo/ENVO_00002186
+water as food product,,http://purl.obolibrary.org/obo/FOODON_03310414
+pathologic primary tumor stage for ovary according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002256
 storm surge,"A storm surge is a coastal flood which is caused by low-pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.",http://purl.obolibrary.org/obo/ENVO_01000714
 rural population,A population of humans that lives in a rural settlement or rural area.,http://purl.unep.org/sdg/SDGIO_00010033
+"Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula",,http://purl.unep.org/sdg/SDGIO_00020160
 behavioral quality,,http://purl.obolibrary.org/obo/PATO_0000186
-affordable,A quality of an entity by virtue of it having a cost within the financial means of a person who has a median income.,http://purl.unep.org/sdg/SDGIO_00010041
-exposure,A process in which the processes executed by one entity are causally connected to those executed by another.,http://purl.unep.org/sdg/SDGIO_00000014
-anthropogenic terrestrial biome,An anthropogenic terrestrial biome is a terrestrial biome which has community structures determined by human activity.,http://purl.obolibrary.org/obo/ENVO_01000219
-obsolescence reason specification,,http://purl.obolibrary.org/obo/IAO_0000225
-algorithm,,http://purl.obolibrary.org/obo/IAO_0000064
-Amniota,,http://purl.obolibrary.org/obo/NCBITaxon_32524
+Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18,,http://purl.unep.org/sdg/SDGIO_00020068
+International Federation of Gynecology and Obstetrics cervical cancer stage value specification,,http://purl.obolibrary.org/obo/OBI_0002326
+"Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",,http://purl.unep.org/sdg/SDGIO_00020126
+"Level of national compliance of labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",,http://purl.unep.org/sdg/SDGIO_00020106
+"Proportion of time spent on unpaid domestic and care work, by sex, age and location",,http://purl.unep.org/sdg/SDGIO_00020070
+ambient water quality,A value specification about the quality of water bodies in a given area.,http://purl.unep.org/sdg/SDGIO_00010045
 sea,A large expanse of saline water usually connected with an ocean.,http://purl.obolibrary.org/obo/ENVO_00000016
-cross validation objective,,http://purl.obolibrary.org/obo/OBI_0200188
-data set,,http://purl.obolibrary.org/obo/IAO_0000100
+Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff,,http://purl.unep.org/sdg/SDGIO_00020133
+Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems,,http://purl.unep.org/sdg/SDGIO_00020185
+Total value of inward and outward illicit financial flows (in current United States dollars),,http://purl.unep.org/sdg/SDGIO_00020195
+Proportion of bodies of water with good ambient water quality,,http://purl.unep.org/sdg/SDGIO_00020082
+plastic pollution,A pollution process during which plastic contaminants are released into an environmental material.,http://purl.obolibrary.org/obo/ENVO_02500040
+obsolete anthropogenic reforestation,,http://purl.obolibrary.org/obo/ENVO_02500017
 Eumetazoa,,http://purl.obolibrary.org/obo/NCBITaxon_6072
-,,_:b30
+"Tuberculosis incidence per 100,000 population",,http://purl.unep.org/sdg/SDGIO_00020032
+manufacturing process,"A planned process during which raw or recycled materials are transformed into products for use or sale using labour and machines, tools, chemical and biological processing, or formulation.",http://purl.obolibrary.org/obo/ENVO_01000993
 ash fall process,"An ash fall process is a process in which volcanic ash formed during an explosive volcanic eruption, phreatomagmatic eruption, or during material transport in pyroclastic density currents is pulled towards the planetary surface by gravity.",http://purl.obolibrary.org/obo/ENVO_01000702
-sustainable development target,A threshold value of a sustainable development indicator or a set of threshold values of several such indicators towards or beyond which corresponding indicator values from a socio-economic-environmental system should tend in order to meet a sustainable development goal.,http://purl.unep.org/sdg/SDGIO_00000001
-,,_:b31
+multi-species collection of organisms,A collection of organisms that consists of two or more organisms from at least two species.,http://purl.obolibrary.org/obo/PCO_0000029
+Proportion of jobs in sustainable tourism industries out of total tourism jobs,,http://purl.unep.org/sdg/SDGIO_00020108
+sangria-flavored carbonated beverage,,http://purl.obolibrary.org/obo/FOODON_03302396
+asset,A resource under control of some person or organisation which confers an economic benefit to that person or organisation in an economic system.,http://purl.unep.org/sdg/SDGIO_00010048
+material trade balance per capita,A data item which represents the ratio of material trade balance and total population.,http://purl.unep.org/sdg/SDGIO_00010066
+CO2 emission per unit of value added,,http://purl.unep.org/sdg/SDGIO_00020119
+food product by culinary role,,http://purl.obolibrary.org/obo/FOODON_00002373
+affordable housing,"Affordable housing is housing which has been deemed affordable to those with a median household income as rated by a country, State (province), region or municipality using a recognized Housing Affordability Index.",http://purl.unep.org/sdg/SDGIO_00000025
 role,A role is particular behaviour which a material entity may exhibit.,http://purl.obolibrary.org/obo/CHEBI_50906
 land degradation,A process which diminishes the functioning of an ecosystem located on land.,http://purl.obolibrary.org/obo/ENVO_02500005
+,,_:b39
+Proportion of wastewater safely treated,,http://purl.unep.org/sdg/SDGIO_00020081
+"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",,http://purl.unep.org/sdg/SDGIO_00020036
 study design execution,,http://purl.obolibrary.org/obo/OBI_0000471
+soft drink carbonated canned,,http://purl.obolibrary.org/obo/FOODON_03315115
+Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods,,http://purl.unep.org/sdg/SDGIO_00020041
+,,_:b40
+exposure to the flooding of a contaminated lake,An exposure process which is causally downstream of or within the flooding of a contaminated lake and during which an entity realises one or more of its dispositions.,http://purl.unep.org/sdg/SDGIO_00000019
+Average marine acidity (pH) measured at agreed suite of representative sampling stations,,http://purl.unep.org/sdg/SDGIO_00020166
 environmental material,A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.,http://purl.obolibrary.org/obo/ENVO_00010483
-quality of a solid,A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable.,http://purl.obolibrary.org/obo/PATO_0001546
+grape carbonated beverage (naturally and artififically flavored),,http://purl.obolibrary.org/obo/FOODON_03302230
+Proportion of schools with access to: (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions),,http://purl.unep.org/sdg/SDGIO_00020062
+International Federation of Gynecology and Obstetrics ovarian cancer stage value specification,,http://purl.obolibrary.org/obo/OBI_0002341
+,,_:b41
+,,_:b42
+,,_:b43
 molecule,Any polyatomic entity that is an electrically neutral entity consisting of more than one atom.,http://purl.obolibrary.org/obo/CHEBI_25367
-disposition,,http://purl.obolibrary.org/obo/BFO_0000016
-,,_:b32
 lahar,"A lahar is a type of mudflow or debris flow composed of a slurry of pyroclastic material, rocky debris, and water. The material flows down from a volcano, typically along a river valley.",http://purl.obolibrary.org/obo/ENVO_01000699
+"Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",,http://purl.unep.org/sdg/SDGIO_00020214
 avalanche,An avalanche is a rapid flow of snow down a sloping surface.,http://purl.obolibrary.org/obo/ENVO_01000691
 heatmap,,http://purl.obolibrary.org/obo/IAO_0000180
 dense settlement,A settlement with a high density of buildings and inhabitants.,http://purl.obolibrary.org/obo/ENVO_01000658
+imitation cherry drink,,http://purl.obolibrary.org/obo/FOODON_03303057
+"product type, usa","Food group having common consumption, functional or manufacturing characteristics, e.g. *FRUIT OR VEGETABLE PRODUCT*, *DAIRY PRODUCT*, *CONFECTIONARY*, *PREPARED FOOD PRODUCT*, etc. [FDA CFSAN 1995]",http://purl.obolibrary.org/obo/FOODON_03400289
+water represented as mineral or spring water (food product),,http://purl.obolibrary.org/obo/FOODON_03315754
+flash flooding,Flash flooding is a process in which low-lying land is inundated with water for a short period of time and are usually the result of precipitation or a breach in the container of a water body.,http://purl.obolibrary.org/obo/ENVO_01000709
+sparkling dry beverage (nonalcoholic),,http://purl.obolibrary.org/obo/FOODON_03304273
+Renewable energy share in the total final energy consumption,,http://purl.unep.org/sdg/SDGIO_00020092
+informal settlement,"A settlement which is not associated with or directed by official planning processes and which typically lacks municipal services and infrastructure such as sanitation, water services, and waste management services.",http://purl.obolibrary.org/obo/ENVO_01000765
+environmental system process,A process in which includes the components of an environmental system as participants.,http://purl.obolibrary.org/obo/ENVO_02500000
+Hominoidea,,http://purl.obolibrary.org/obo/NCBITaxon_314295
+,,_:b44
+rate unit,,http://purl.obolibrary.org/obo/UO_0000280
+environmental material,A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system.,http://purl.obolibrary.org/obo/ENVO_00010483
+,,_:b45
+permission to access,A disposition of an environmental system to allow an entity to approach and use a resource.,http://purl.unep.org/sdg/SDGIO_00000010
+Viruses,,http://purl.obolibrary.org/obo/NCBITaxon_10239
+independent continuant,"A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.",http://purl.obolibrary.org/obo/BFO_0000004
+main group molecular entity,"A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.",http://purl.obolibrary.org/obo/CHEBI_33579
+,,_:b46
+right to tenure,,http://purl.unep.org/sdg/SDGIO_00010047
+food component,"Any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.",http://purl.obolibrary.org/obo/CHEBI_78295
+imitation grape punch (artificially flavored),,http://purl.obolibrary.org/obo/FOODON_03306650
+"Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",,http://purl.unep.org/sdg/SDGIO_00020203
+"beverage (carbonated, vitamin- and mineral-fortified)",,http://purl.obolibrary.org/obo/FOODON_03303716
+landslide process,A landslide is a process whereby a large mass of earth and rocks moves down a hill or a mountainside.,http://purl.obolibrary.org/obo/ENVO_01000692
+service,A process in which one or more resources are provided to a service recipient by a service provider.,http://purl.unep.org/sdg/SDGIO_00010071
+manufacturer role,,http://purl.obolibrary.org/obo/OBI_0000571
+"Proportion of informal employment in non‑agriculture employment, by sex",,http://purl.unep.org/sdg/SDGIO_00020098
+sustainable development goal indicator value,A data item which represents a sustainable development goal indicator in some quantitative or qualitative system of measurement.,http://purl.unep.org/sdg/SDGIO_00000003
+"Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",,http://purl.unep.org/sdg/SDGIO_00020145
+Mountain Green Cover Index,,http://purl.unep.org/sdg/SDGIO_00020179
+ownership process,"A process during which a person or organization, the owner, exercises their right to use, sell, rent, or gift an object.",http://purl.unep.org/sdg/SDGIO_00010027
+drinking water,Drinking water is water which may be consumed by humans with no adverse effects on their health.,http://purl.obolibrary.org/obo/ENVO_00003064
+political entity,A geographical region whose affairs and population are administered by an authority.,http://purl.obolibrary.org/obo/ENVO_00000123
+lake,A body of water or other liquid of considerable size contained in a depression on a landmass.,http://purl.obolibrary.org/obo/ENVO_00000020
+vulnerability towards flooding,A vulnerability borne by an entity which may be impacted by flooding.,http://purl.unep.org/sdg/SDGIO_00000026
+city,Incorporated populated place.,http://purl.obolibrary.org/obo/ENVO_00000856
+soft drink prepared from cherry powder,,http://purl.obolibrary.org/obo/FOODON_03311128
+s-block molecular entity,An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.,http://purl.obolibrary.org/obo/CHEBI_33674
+seltzer water,,http://purl.obolibrary.org/obo/FOODON_03309897
+Karnofsky score vaue specification,,http://purl.obolibrary.org/obo/OBI_0002363
+safe,A risk disposition which is very difficult to realise.,http://purl.unep.org/sdg/SDGIO_00010036
+dot plot,,http://purl.obolibrary.org/obo/IAO_0000037
+processed material,,http://purl.obolibrary.org/obo/OBI_0000047
+established and operational policy,A policy which is actively being implemented and managed in some set of appropriate processes for a long enough time to be generally accepted and functional.,http://purl.unep.org/sdg/SDGIO_00010023
+,,_:b47
+soft drink cold,,http://purl.obolibrary.org/obo/FOODON_03315325
+security of tenure,,http://purl.unep.org/sdg/SDGIO_00010038
+chemical entity,"A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",http://purl.obolibrary.org/obo/CHEBI_24431
+soda water,,http://purl.obolibrary.org/obo/FOODON_03302269
+carbon dioxide emission process,A carbon emission process is any environmental process which releases carbon dioxide gas into the atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000769
+essential medicine,"A medicine that is necessary to meet the priority health-care needs of a population according to treatment prevalence, efficacy, safety, and comparative cost-effectiveness.",http://purl.unep.org/sdg/SDGIO_00010039
+"beverage (carbonated, naturally and artificially sweetened)",,http://purl.obolibrary.org/obo/FOODON_03302287
+"beverage (carbonated, caffeinated)",,http://purl.obolibrary.org/obo/FOODON_03302223
+sanitation service,A service in which the service provider participates in processes which preserve or improve the service consumer's health status.,http://purl.unep.org/sdg/SDGIO_00000029
+persistent organic pollutant,"Any environmental contaminant that is resistant to environmental degradation through photolytic, biological or chemical processes. Such substances can have significant impact on health and the environment, as they persist in the environment, bioaccumulate in animal tissue and so biomagnify in food chains.",http://purl.obolibrary.org/obo/CHEBI_77853
+generically dependent continuant,A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.,http://purl.obolibrary.org/obo/BFO_0000031
+collection of organisms,"A material entity that consists of two or more organisms, viruses, or viroids.",http://purl.obolibrary.org/obo/PCO_0000000
+collection of organisms,"A material entity that consists of two or more organisms, viruses, or viroids.",http://purl.obolibrary.org/obo/PCO_0000000
+collection of organisms,"A material entity that consists of two or more organisms, viruses, or viroids.",http://purl.obolibrary.org/obo/PCO_0000000
+collection of organisms,"A material entity that consists of two or more organisms, viruses, or viroids.",http://purl.obolibrary.org/obo/PCO_0000000
+pathologic distant metastases stage for ovary according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002310
+Eastern Cooperative Oncology Group score value specification,,http://purl.obolibrary.org/obo/OBI_0002357
+right bearer,A organism or organization that is the bearer of a right.,http://purl.unep.org/sdg/SDGIO_00010024
+Eukaryota,,http://purl.obolibrary.org/obo/NCBITaxon_2759
+risk of flooding,The risk that a bearer realises its vulnerability towards flooding when participating in a process which exposes the bearer to a flooding hazard.,http://purl.unep.org/sdg/SDGIO_00000022
+pathologic distant metastases stage for lung according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002298
+carbon-bearing gas emission process,A carbon emission process is any environmental process which outputs a carbon-bearing gas.,http://purl.obolibrary.org/obo/ENVO_01000742
+transportation service,"A service in which the service provider conveys the service consumer from one location to another, usually with some form of vehicle.",http://purl.unep.org/sdg/SDGIO_00010078
+molecular entity,"Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.",http://purl.obolibrary.org/obo/CHEBI_23367
+fruit punch canned,,http://purl.obolibrary.org/obo/FOODON_03311152
+Total net official development assistance to medical research and basic health sectors,,http://purl.unep.org/sdg/SDGIO_00020050
+resilience strengthening process,"A process which increases an entity's disposition to recover its previous composition, qualities, and functionality following some perturbation.",http://purl.unep.org/sdg/SDGIO_00000028
+exposure to contaminated environmental material,An exposure process during which a portion of contaminated environmental material is the causal agent in an entity realising one or more of its dispositions.,http://purl.unep.org/sdg/SDGIO_00000017
+mass liquid flow,A process whereby a volume of liquid moves due to a disequilibrium of physical forces.,http://purl.obolibrary.org/obo/ENVO_01000981
+anthropogenic geographic feature,"An anthropogenic geographic feature is a geographic feature
+resulting from the influence of human beings on nature.",http://purl.obolibrary.org/obo/ENVO_00000002
+cola carbonated beverage,,http://purl.obolibrary.org/obo/FOODON_03301776
+mudflow,A mudflow is a form of mass wasting which involves very rapid to extremely rapid surging flow of debris that has become partially or fully liquified by the addition of significant amounts of water to clay-rich source material.,http://purl.obolibrary.org/obo/ENVO_01000697
+material intensity of an economy,A data item which represents the ratio of domestic material consumption to gross domestic product at constant prices.,http://purl.unep.org/sdg/SDGIO_00010063
+deforestation,"The removal of forest and undergrowth to, for example, increase the surface of arable land or to use the timber for construction or industrial purposes.",http://purl.obolibrary.org/obo/ENVO_02500012
+"Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",,http://purl.unep.org/sdg/SDGIO_00020198
+anatomical structure,Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.,http://purl.obolibrary.org/obo/UBERON_0000061
+,,_:b48
+hazard disposition,A disposition of an entity to cause harm or damage to another entity.,http://purl.unep.org/sdg/SDGIO_00000021
+k-nearest neighbors,,http://purl.obolibrary.org/obo/OBI_0000727
+,,_:b49
+,,_:b50
+quality,A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities,http://purl.obolibrary.org/obo/PATO_0000001
+"cola carbonated beverage (caffeine-free, low calorie)",,http://purl.obolibrary.org/obo/FOODON_03303635
+terrestrial biome,A biome that applies to the terrestrial realm.,http://purl.obolibrary.org/obo/ENVO_00000446
+energy intensity,A data item which represents the ratio between the gross inland consumption of energy and gross domestic product calculated for a calendar year.,http://purl.unep.org/sdg/SDGIO_00010044
+service provider role,,http://purl.obolibrary.org/obo/OBI_0000947
+Proportion of young women and men aged 18‑29 years who experienced sexual violence by age 18,,http://purl.unep.org/sdg/SDGIO_00020192
+manufacturer,,http://purl.obolibrary.org/obo/OBI_0000835
+mesoscopic physical object,"An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff.",http://purl.obolibrary.org/obo/ENVO_00002004
+water for beermaking (food product),,http://purl.obolibrary.org/obo/FOODON_03316535
+study design,,http://purl.obolibrary.org/obo/OBI_0500000
+anthropised terrestrial environmental zone,"A terrestrial zone which is bounded by constructed, manufactured, or other anthropogenic material entities.",http://purl.obolibrary.org/obo/ENVO_01001200
+,,_:b51
+"Material footprint, material footprint per capita, and material footprint per GDP",,http://purl.unep.org/sdg/SDGIO_00020099
+urban biome,An urban biome is a dense settlement biome which has been urbanised.,http://purl.obolibrary.org/obo/ENVO_01000249
+questionnaire,,http://purl.obolibrary.org/obo/OBI_0001000
+ginger ale,,http://purl.obolibrary.org/obo/FOODON_03307130
+,,_:b52
+owner role,"A role which is realised by a person during processes of exercising their right to use, occupy, sell, rent, or gift an object (such as a parcel of land).",http://purl.unep.org/sdg/SDGIO_00010018
+histologic grade according to the Fuhrman Nuclear Grading System,,http://purl.obolibrary.org/obo/OBI_0002210
+imitation spring water (bottled),,http://purl.obolibrary.org/obo/FOODON_03304837
+fruit-flavored beverage carbonated,,http://purl.obolibrary.org/obo/FOODON_03301869
+terrestrial environmental zone,An environmental zone which is bounded by material parts of a land mass or the atmosphere or space adjacent to it.,http://purl.obolibrary.org/obo/ENVO_01001199
+morphology,A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure.,http://purl.obolibrary.org/obo/PATO_0000051
+histologic grade for ovarian tumor according to a two-tier grading system,,http://purl.obolibrary.org/obo/OBI_0002216
+Proportion of population with primary reliance on clean fuels and technology,,http://purl.unep.org/sdg/SDGIO_00020091
+dense settlement biome,"A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use.",http://purl.obolibrary.org/obo/ENVO_01000248
+"Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",,http://purl.unep.org/sdg/SDGIO_00020191
+waste water,Water that has been adversely affected in quality by anthropogenic influence.,http://purl.obolibrary.org/obo/ENVO_00002001
+environment associated with an animal part or small animal,"An environmental system determined by part of a living or dead animal, or a whole small animal.",http://purl.obolibrary.org/obo/ENVO_01001055
+gas molecular entity,Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0degreeC and 100 kPa).,http://purl.obolibrary.org/obo/CHEBI_138675
+processual asset,"A process which produces assets, increases the value of existing assets, leads to the realisation of non-material assets, or reduces the costs associated with some economic process.",http://purl.unep.org/sdg/SDGIO_00010070
+grapefruit soda,,http://purl.obolibrary.org/obo/FOODON_03302160
+"Hepatitis B incidence per 100,000 population",,http://purl.unep.org/sdg/SDGIO_00020034
+material extraction process,A planned process during which a portion of environmental material is removed from a material entity.,http://purl.obolibrary.org/obo/ENVO_01000785
+"product type,  u.s. code of federal regulations, title 21","Food and Drugs, title 21, Code of Federal Regulations. Original  food classification in LanguaL.",http://purl.obolibrary.org/obo/FOODON_03401270
+"Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",,http://purl.unep.org/sdg/SDGIO_00020015
+environmental feature,A material entity which determines an environmental system.,http://purl.obolibrary.org/obo/ENVO_00002297
+plan,,http://purl.obolibrary.org/obo/OBI_0000260
+biome,A biome is an ecosystem to which resident ecological communities have evolved adaptations.,http://purl.obolibrary.org/obo/ENVO_00000428
+soil pollution,A pollution process during which contaminants are released into soil.,http://purl.obolibrary.org/obo/ENVO_02500038
+gas emission process,A material transport process during which a portion of gaseous environmental material is transported into the atmosphere.,http://purl.obolibrary.org/obo/ENVO_03000092
+afforestation,Establishment of a new forest by seeding or planting of nonforested land.,http://purl.obolibrary.org/obo/ENVO_02500011
+value specification,,http://purl.obolibrary.org/obo/OBI_0001933
+elemental hydrogen,,http://purl.obolibrary.org/obo/CHEBI_33260
+Number of countries with mechanisms in place to enhance policy coherence of sustainable development,,http://purl.unep.org/sdg/SDGIO_00020223
+hydrogen molecular entity,,http://purl.obolibrary.org/obo/CHEBI_33608
+advective transport process,A material transport process during which a volume of material is displaced due to a disequilirium in physical forces and during which 1) the qualities that inhere in that volume and 2) the processes that are unfolding within it are largely unchanged.,http://purl.obolibrary.org/obo/ENVO_01001334
+Red List Index,,http://purl.unep.org/sdg/SDGIO_00020180
+plant structure,"An anatomical structure that is or was part of a plant, or was derived from a part of a plant.",http://purl.obolibrary.org/obo/PO_0009011
+Proportion of national exclusive economic zones managed using ecosystem-based approaches,,http://purl.unep.org/sdg/SDGIO_00020165
+waste management service,"The total supervision of waste production, handling, processing, storage, and transport from its point of generation to its final acceptable disposal.",http://purl.unep.org/sdg/SDGIO_00010077
+"Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)",,http://purl.unep.org/sdg/SDGIO_00020159
+electrical service,,http://purl.unep.org/sdg/SDGIO_00010079
+classified data set,,http://purl.obolibrary.org/obo/OBI_0000023
+process,"An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.",http://purl.obolibrary.org/obo/BFO_0000015
+supranational geopolitical entity,A political entitity established by more than one state and with at least some influence over the affairs of its member states.,http://purl.obolibrary.org/obo/ENVO_00000124
+Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools,,http://purl.unep.org/sdg/SDGIO_00020157
+beverage carbonated guarana-flavored,,http://purl.obolibrary.org/obo/FOODON_03305563
+educator,A person that imparts knowledge and skill to one or more students during an education process.,http://purl.unep.org/sdg/SDGIO_00010075
+"Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",,http://purl.unep.org/sdg/SDGIO_00020218
+"Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",,http://purl.unep.org/sdg/SDGIO_00020101
+imitation fruit flavored drinks and ades noncarbonated refrigerated single-strength,,http://purl.obolibrary.org/obo/FOODON_03315039
+"Proportion of population living below the national poverty line, by sex and age",,http://purl.unep.org/sdg/SDGIO_00020001
+urban pollution,A pollution process that results in increased levels of pollutants in an urban environment.,http://purl.obolibrary.org/obo/ENVO_02500044
+sustainable access system,"A system that provides access to some resource in a sustainable manner. That is, the system provides someone or something the ability, right, and permission to approach and use some resource in a way that will not irreversibly exhaust the resources on which the system depends.",http://purl.unep.org/sdg/SDGIO_00000006
+Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species,,http://purl.unep.org/sdg/SDGIO_00020183
+food product type (to be processed),This is a working folder that holds LanguaL SIREN database product types that need to be reviewed for placement within the food product hierarchy.,http://purl.obolibrary.org/obo/FOODON_00001872
+ability to access,The disposition of an environmental system to physically provide a resource to the consumer or user of that resource.,http://purl.unep.org/sdg/SDGIO_00000009
+"Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)",,http://purl.unep.org/sdg/SDGIO_00020000
+quality of a gas,A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape.,http://purl.obolibrary.org/obo/PATO_0001547
+ice (crushed),,http://purl.obolibrary.org/obo/FOODON_03305648
+,,_:b53
+fruit-flavored punch canned,,http://purl.obolibrary.org/obo/FOODON_03306175
+action specification,,http://purl.obolibrary.org/obo/IAO_0000007
+specimen,,http://purl.obolibrary.org/obo/OBI_0100051
+specifically dependent continuant,"b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])",http://purl.obolibrary.org/obo/BFO_0000020
+,,_:b54
+multicellular anatomical structure,An anatomical structure that has more than one cell as a part.,http://purl.obolibrary.org/obo/UBERON_0010000
+fruit squash juice drink,,http://purl.obolibrary.org/obo/FOODON_03304473
+,,_:b55
+inclusiveness,"A dispostion which is realised when an entity provides services to, or has as its parts, a  range of entities identified by a policy or regulatory specification.",http://purl.unep.org/sdg/SDGIO_00010050
+Proportion of the target population covered by all vaccines included in their national programme,,http://purl.unep.org/sdg/SDGIO_00020049
+first-order administrative region,"A primary administrative division of a country, such as a state in the United States.",http://purl.obolibrary.org/obo/ENVO_00000005
+agricultural household,A household in which the majority of the income of its members is derived from agricultural activities.,http://purl.obolibrary.org/obo/PCO_0000030
+Coverage of protected areas in relation to marine areas,,http://purl.unep.org/sdg/SDGIO_00020168
+measurement datum,,http://purl.obolibrary.org/obo/IAO_0000109
+liquid environmental material,An environmental material which is in a liquid state.,http://purl.obolibrary.org/obo/ENVO_01000815
+Euteleostomi,,http://purl.obolibrary.org/obo/NCBITaxon_117571
+function,,http://purl.obolibrary.org/obo/BFO_0000034
+water based soft drink,,http://purl.obolibrary.org/obo/FOODON_00002339
+Proportion of domestic budget funded by domestic taxes,,http://purl.unep.org/sdg/SDGIO_00020208
+"Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",,http://purl.unep.org/sdg/SDGIO_00020199
+weapons test site,"A region at which weapons, typically military, are tested.",http://purl.obolibrary.org/obo/ENVO_00000559
+Direct economic loss attributed to disasters in relation to global gross domestic product (GDP),,http://purl.unep.org/sdg/SDGIO_00020007
+Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment,,http://purl.unep.org/sdg/SDGIO_00020078
+Indicator of food price anomalies,,http://purl.unep.org/sdg/SDGIO_00020026
+student,A person that acquires knowledge and skill from some educator during an education process.,http://purl.unep.org/sdg/SDGIO_00010067
+Number of people requiring interventions against neglected tropical diseases,,http://purl.unep.org/sdg/SDGIO_00020035
+"Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",,http://purl.unep.org/sdg/SDGIO_00020205
+material footprint per capita,A data item which represents the ratio of material footprint and total population.,http://purl.unep.org/sdg/SDGIO_00010064
+data transformation,,http://purl.obolibrary.org/obo/OBI_0200000
+diagram,,http://purl.obolibrary.org/obo/IAO_0000309
+contributing family worker,A person that bears a contributing family worker role.,http://purl.unep.org/sdg/SDGIO_00000063
+river,"A stream which, through permanent or seasonal flow processes, moves from elevated land towards lower elevations through a definite channel and empties either into a sea, lake, or another river or ends on land as bed seepage and evapotranspiration exceed water supply.",http://purl.obolibrary.org/obo/ENVO_00000022
+generically dependent continuant,b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001]),http://purl.obolibrary.org/obo/BFO_0000031
+Progress towards sustainable forest management,,http://purl.unep.org/sdg/SDGIO_00020176
+environment associated with a plant part or small plant,"An environmental system determined by part of a living or dead plant, or a whole small plant.",http://purl.obolibrary.org/obo/ENVO_01001057
+biosphere,"A biosphere is an environmental system which includes, as parts, all the living entities within the gravitational sphere of influence of an astronomical body, and the non-living and dead entities which they interact with.",http://purl.obolibrary.org/obo/ENVO_01000817
+fruit crush drink,,http://purl.obolibrary.org/obo/FOODON_03307481
+effusive eruption,An effusive eruption is a volcanic eruption during which lava flows onto the ground.,http://purl.obolibrary.org/obo/ENVO_01000656
+cola carbonated beverage low-calorie,,http://purl.obolibrary.org/obo/FOODON_03311775
+"beverage (carbonated, amino acid-fortified)",,http://purl.obolibrary.org/obo/FOODON_03302403
+regulator role,,http://purl.obolibrary.org/obo/OBI_0000014
+ocean,A marine water body which is constitutes the majority of an astronomical body's hydrosphere.,http://purl.obolibrary.org/obo/ENVO_00000015
+environmental pollution,An environmental system process that results in the introduction of contaminants into an environment.,http://purl.obolibrary.org/obo/ENVO_02500036
+age,A time quality inhering in a bearer by virtue of how long the bearer has existed.,http://purl.obolibrary.org/obo/PATO_0000011
+soda water concentrate,,http://purl.obolibrary.org/obo/FOODON_03306195
+Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,,http://purl.unep.org/sdg/SDGIO_00020009
+environmental zone,A site which has its extent determined by the presence or influence of one or more components of an environmental system or the processes occurring therein.,http://purl.obolibrary.org/obo/ENVO_01000408
+noncarbonated beverage (less than 10% fruit juice),,http://purl.obolibrary.org/obo/FOODON_03302252
+flooding,"A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water.",http://purl.obolibrary.org/obo/ENVO_02500002
+Debt service as a proportion of exports of goods and services,,http://purl.unep.org/sdg/SDGIO_00020212
+bitter lemon drink,,http://purl.obolibrary.org/obo/FOODON_03307074
+human dwelling,"A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other 'substantial' structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any 'open fields beyond'. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.",http://purl.obolibrary.org/obo/ENVO_01000744
+oxygen hydride,,http://purl.obolibrary.org/obo/CHEBI_33693
+"beverage (carbonated, vitamin, mineral and amino acid fortified)",,http://purl.obolibrary.org/obo/FOODON_03302427
+water body,An accumulation of water of varying size.,http://purl.obolibrary.org/obo/ENVO_00000063
+,,_:b56
+Forest area as a proportion of total land area,,http://purl.unep.org/sdg/SDGIO_00020174
+,,_:b57
+Health worker density and distribution,,http://purl.unep.org/sdg/SDGIO_00020052
+Index of coastal eutrophication and floating plastic debris density,,http://purl.unep.org/sdg/SDGIO_00020164
+orange carbonated beverage (vitamin fortified),,http://purl.obolibrary.org/obo/FOODON_03302394
+decreased object quality,A quality of an object that has a value that is decreased compared to normal or average.,http://purl.obolibrary.org/obo/PATO_0002303
+mass wasting,"Mass wasting is the geomorphic process by which solid environmental material such as soil, sand, regolith, and/or rock move downslope typically as a mass, largely under the force of gravity, but frequently affected by water and water content as in submarine environments and mudslides.",http://purl.obolibrary.org/obo/ENVO_01000690
+pathologic lymph node stage for lung according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002279
+air pollution,A pollution process during which particulates or other contaminants are released into a portion of air.,http://purl.obolibrary.org/obo/ENVO_02500037
+class prediction objective,,http://purl.obolibrary.org/obo/OBI_0200179
+root beer (sugar free),,http://purl.obolibrary.org/obo/FOODON_03302434
+k-means clustering,,http://purl.obolibrary.org/obo/OBI_0200041
+explosive eruption,"An explosive eruption is a volcanic process in which pressurised magma is violently expelled and froths into volcanic ash. Explosive eruptions can eject a cloud of rocks, dust, gas, and pyroclastic material  which may then collapse, creating a pyroclastic flow of hot volcanic matter.",http://purl.obolibrary.org/obo/ENVO_01000655
+Vertebrata <Metazoa>,,http://purl.obolibrary.org/obo/NCBITaxon_7742
+imitation cherry carbonated beverage (naturally and artificially sweetened),,http://purl.obolibrary.org/obo/FOODON_03302290
+material transformation objective,,http://purl.obolibrary.org/obo/OBI_0000456
+object,,http://purl.obolibrary.org/obo/BFO_0000030
+tectonic earthquake,"A tectonic earthquake is an earthquake caused by the release of elastic strain. A tectonic earthquake occurs when strains in rock masses have accumulated to a point where the resulting stresses exceed the strength of the rocks, and sudden fracturing results.",http://purl.obolibrary.org/obo/ENVO_01000678
+"Conflict-related deaths per 100,000 population, by sex, age and cause",,http://purl.unep.org/sdg/SDGIO_00020187
+lentic water body,"A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow.",http://purl.obolibrary.org/obo/ENVO_01000617
+software,,http://purl.obolibrary.org/obo/IAO_0000010
+hierarchical clustering,,http://purl.obolibrary.org/obo/OBI_0200042
+"Proportion of urban population living in slums, informal settlements or inadequate housing",,http://purl.unep.org/sdg/SDGIO_00020136
+size,A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude.,http://purl.obolibrary.org/obo/PATO_0000117
+manufacturing objective,,http://purl.obolibrary.org/obo/OBI_0000458
+Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control,,http://purl.unep.org/sdg/SDGIO_00020076
+data about an ontology part,"data about an ontology part is a data item about a part of an ontology, for example a term",http://purl.obolibrary.org/obo/IAO_0000102
+employed person,A person that bears an employee role.,http://purl.unep.org/sdg/SDGIO_00010005
+"beverage (flavored, water-based, nonalcoholic)",,http://purl.obolibrary.org/obo/FOODON_03316114
+alcoholic beverage (us cfr),"Beverage containing more than 0.5% alcohol; includes distilled spirits, malt beverage, and wine.",http://purl.obolibrary.org/obo/FOODON_03400278
+resource,A material or immaterial entity which may confer benefit to its user or consumer.,http://purl.unep.org/sdg/SDGIO_00000013
+graph,,http://purl.obolibrary.org/obo/IAO_0000038
+Ratio of land consumption rate to population growth rate,,http://purl.unep.org/sdg/SDGIO_00020138
+,,_:b58
+imitation black cherry carbonated beverage,,http://purl.obolibrary.org/obo/FOODON_03302163
+beverage fruit-flavored noncarbonated,,http://purl.obolibrary.org/obo/FOODON_03306024
+,,_:b59
+rural entity,Any entity associated with a rural settlement or area.,http://purl.unep.org/sdg/SDGIO_00010031
+material entity,An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.,http://purl.obolibrary.org/obo/BFO_0000040
+specifically dependent continuant,A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.,http://purl.obolibrary.org/obo/BFO_0000020
+performance status value specification,,http://purl.obolibrary.org/obo/OBI_0002356
+"(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",,http://purl.unep.org/sdg/SDGIO_00020109
+material transport process,A process during which material is displaced from its original location and transported either to a new location or back to the original location.,http://purl.obolibrary.org/obo/ENVO_03000010
+elemental molecular entity,A molecular entity all atoms of which have the same atomic number.,http://purl.obolibrary.org/obo/CHEBI_33259
+continuant,"An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.",http://purl.obolibrary.org/obo/BFO_0000002
+Proportion of population with access to electricity,,http://purl.unep.org/sdg/SDGIO_00020090
+Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms,,http://purl.unep.org/sdg/SDGIO_00020193
+Global food loss index,,http://purl.unep.org/sdg/SDGIO_00020149
+hydroxides,Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-)).,http://purl.obolibrary.org/obo/CHEBI_24651
+data visualization,,http://purl.obolibrary.org/obo/OBI_0200111
+histologic grade for ovarian tumor according to the World Health Organization,,http://purl.obolibrary.org/obo/OBI_0002219
+environmental monitoring,An process in which environmental parameters and variables are continually assayed.,http://purl.obolibrary.org/obo/ENVO_02500041
+Proportion of agricultural area under productive and sustainable agriculture,,http://purl.unep.org/sdg/SDGIO_00020020
+,,_:b60
+Haplorrhini,,http://purl.obolibrary.org/obo/NCBITaxon_376913
+astronomical body,"An object which is naturally occuring, bound together by gravitational or electromagnetic forces, and surrounded by space.",http://purl.obolibrary.org/obo/ENVO_01000799
+biological_process,"Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.",http://purl.obolibrary.org/obo/GO_0008150
+drawing a conclusion based on data,,http://purl.obolibrary.org/obo/OBI_0000338
+The agriculture orientation index for government expenditures,,http://purl.unep.org/sdg/SDGIO_00020023
+volumetric flow rate unit,,http://purl.obolibrary.org/obo/UO_0000270
+Death rate due to road traffic injuries,,http://purl.unep.org/sdg/SDGIO_00020040
+anthropogenic geographic feature,An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.,http://purl.obolibrary.org/obo/ENVO_00000002
+,,_:b61
+"Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",,http://purl.unep.org/sdg/SDGIO_00020137
+"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",,http://purl.unep.org/sdg/SDGIO_00020059
+single-species collection of organisms,"A material entity that has as parts two or more organisms, viruses, or viroids of the same species and no members of any other species.",http://purl.obolibrary.org/obo/PCO_0000018
+,,_:b62
+Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries,,http://purl.unep.org/sdg/SDGIO_00020172
+mountain water (food product),,http://purl.obolibrary.org/obo/FOODON_03304814
+Annual growth rate of real GDP per employed person,,http://purl.unep.org/sdg/SDGIO_00020097
+,,_:b63
+,,_:b64
+Amount of United States dollars committed to public-private and civil society partnerships,,http://purl.unep.org/sdg/SDGIO_00020226
+Theria <Mammalia>,,http://purl.obolibrary.org/obo/NCBITaxon_32525
+contributing family worker role,"A self-employed role realised by a person while working in an establishment operated by a family member, with a too limited degree of involvement to be considered a partner.",http://purl.unep.org/sdg/SDGIO_00000056
+regulatory role,,http://purl.obolibrary.org/obo/OBI_0000017
+polyatomic entity,Any molecular entity consisting of more than one atom.,http://purl.obolibrary.org/obo/CHEBI_36357
+physical quality,A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.,http://purl.obolibrary.org/obo/PATO_0001018
+soft drink not further specified,,http://purl.obolibrary.org/obo/FOODON_03310815
+social protection service,"A service that promotes, secures, and maintains socio-economic rights.",http://purl.unep.org/sdg/SDGIO_00010016
+Opisthokonta,,http://purl.obolibrary.org/obo/NCBITaxon_33154
+decision tree building data transformation,,http://purl.obolibrary.org/obo/OBI_0000707
+mesoscopic physical object,"An object which is large enough to be visible to humans, but small enough that humans can handle the object (i.e. transport it, examine it, etc) in its entirety with little to no technological assistance.",http://purl.obolibrary.org/obo/ENVO_00002004
+emergency service,,http://purl.unep.org/sdg/SDGIO_00010080
+hydrological process,An environmental process which has water - in any of its states - as a participant.,http://purl.obolibrary.org/obo/ENVO_02500031
+,,_:b65
+multicellular organism,Anatomical structure that is an individual member of a species and consists of more than one cell.,http://purl.obolibrary.org/obo/UBERON_0000468
+Bacteria,,http://purl.obolibrary.org/obo/NCBITaxon_2
+rangeland biome,A rangeland biome is an anthropogenic terrestrial biome which is primarily used for the rearing and grazing of livestock.,http://purl.obolibrary.org/obo/ENVO_01000247
+"Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",,http://purl.unep.org/sdg/SDGIO_00020144
+Recruitment cost borne by employee as a proportion of yearly income earned in country of destination,,http://purl.unep.org/sdg/SDGIO_00020131
+exposure to coastal flooding,An exposure process which is causally downstream of or within a coastal flooding process and during which an entity realises one or more of its dispositions.,http://purl.unep.org/sdg/SDGIO_00000016
+atmospheric water vapour,Atmospheric water vapour is water vapour that is part of an atmosphere.,http://purl.obolibrary.org/obo/ENVO_01000268
+household,"A material entity that consists of one or more people who live in the same dwelling and also share at meals or living accommodation, and may consist of a single family or some other grouping of people.
+",http://purl.obolibrary.org/obo/PCO_0000024
+pathologic lymph node stage for ovary according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002287
+service,,http://purl.obolibrary.org/obo/OBI_0001173
+pathologic lymph node stage for colon and rectum according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002270
+pathologic primary tumor stage for colon and rectum according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002224
+information carrier,,http://purl.obolibrary.org/obo/IAO_0000015
+formal education process,,http://purl.unep.org/sdg/SDGIO_00010074
+deviation(from_normal),A quality inhering in a bearer by virtue of the whether the bearer differs from normal or average.,http://purl.obolibrary.org/obo/PATO_0000069
+"Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment",,http://purl.unep.org/sdg/SDGIO_00020151
+,,_:b66
+,,_:b67
+Suicide mortality rate,,http://purl.unep.org/sdg/SDGIO_00020037
+fragile state,"A state which has an elevated risk towards a loss of centralized government control and protection, or a lowered resilience to perturbation, or an inability to maintain basic services, or a lack of social equality.",http://purl.unep.org/sdg/SDGIO_00010020
+fourth-order administrative region,A subdivision of a third-order administrative division.,http://purl.obolibrary.org/obo/ENVO_00000008
+measurement unit label,,http://purl.obolibrary.org/obo/IAO_0000003
+"Total government revenue as a proportion of GDP, by source",,http://purl.unep.org/sdg/SDGIO_00020207
+Tetrapoda,,http://purl.obolibrary.org/obo/NCBITaxon_32523
+pepper-type carbonated beverage (decaffeinated),,http://purl.obolibrary.org/obo/FOODON_03302661
+geological subsidence,A subsidence process is a geomorphologic process in which a surface shifts downward relative to a datum such as sea-level.,http://purl.obolibrary.org/obo/ENVO_01000694
+clustered data visualization,,http://purl.obolibrary.org/obo/OBI_0200190
+storm surge process,"A storm surge process is a coastal flooding process which is caused by low pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.",http://purl.obolibrary.org/obo/ENVO_01000716
+Proportion of individuals using the Internet,,http://purl.unep.org/sdg/SDGIO_00020217
+Proportion of members and voting rights of developing countries in international organizations,,http://purl.unep.org/sdg/SDGIO_00020130
+ginger-flavored drink,,http://purl.obolibrary.org/obo/FOODON_03307302
+resource role,A role which is realised by an entity when it confers some benefit to its consumer.,http://purl.unep.org/sdg/SDGIO_00010017
+Macroeconomic Dashboard,,http://purl.unep.org/sdg/SDGIO_00020222
+Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics,,http://purl.unep.org/sdg/SDGIO_00020228
+volcanic eruption,"A volcanic process is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure.",http://purl.obolibrary.org/obo/ENVO_01000634
+net permanent forest loss,A data item about some process of forest loss and which represents a negative change in forest area over a sufficiently long time period.,http://purl.unep.org/sdg/SDGIO_00010043
+role,"A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.",http://purl.obolibrary.org/obo/BFO_0000023
+,,_:b68
+,,_:b69
+Remittance costs as a proportion of the amount remitted,,http://purl.unep.org/sdg/SDGIO_00020135
+Craniata <chordata>,,http://purl.obolibrary.org/obo/NCBITaxon_89593
+Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis,,http://purl.unep.org/sdg/SDGIO_00020051
+"Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",,http://purl.unep.org/sdg/SDGIO_00020017
+Total official flows (official development assistance plus other official flows) to the agriculture sector,,http://purl.unep.org/sdg/SDGIO_00020024
+,,_:b70
+Degree of integrated water resources management implementation (0-100),,http://purl.unep.org/sdg/SDGIO_00020085
+polluted lake,A lake which has concentrations of environmental contaminants high enough to harm the ecosystems associated with it.,http://purl.obolibrary.org/obo/ENVO_01000680
+water and sanitation service,,http://purl.unep.org/sdg/SDGIO_00010076
+inclusive wealth,"A wealth value which is the sum of human, manufactured, natural, and health capital assets.",http://purl.unep.org/sdg/SDGIO_00010052
+,,_:b71
+"Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",,http://purl.unep.org/sdg/SDGIO_00020057
+environmental food contaminant,"Any unwanted chemical in food. The term includes agrochemicals and industrial chemicals that may contaminate foodstuffs during their production, transportation or storage.",http://purl.obolibrary.org/obo/CHEBI_78299
+Proportion of land that is degraded over total land area,,http://purl.unep.org/sdg/SDGIO_00020177
+"Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",,http://purl.unep.org/sdg/SDGIO_00020134
+Mortality rate attributed to unintentional poisoning,,http://purl.unep.org/sdg/SDGIO_00020047
+process of educating,A planned process wherein a person imparts knowledge or skill to one or more people. It is part of an education process.,http://purl.unep.org/sdg/SDGIO_00010007
+anatomical structure,,http://purl.obolibrary.org/obo/CARO_0000003
+Catarrhini,,http://purl.obolibrary.org/obo/NCBITaxon_9526
+employed,A person or population that participates in employment processes during a specified time interval.,http://purl.unep.org/sdg/SDGIO_00010030
+water,An environmental material primarily composed of dihydrogen oxide in its liquid form.,http://purl.obolibrary.org/obo/ENVO_00002006
+iodized water for livestock,,http://purl.obolibrary.org/obo/FOODON_03305661
+plan specification,,http://purl.obolibrary.org/obo/IAO_0000104
+principal components analysis dimensionality reduction,,http://purl.obolibrary.org/obo/OBI_0200051
+resource consumption,"A data item which estimates the metric tonnage of resource materials imported into or extracted from an environmental system and used as input for economic processes in that system, minus the tonnage of materials exported from that system.",http://purl.unep.org/sdg/SDGIO_00010059
+collection of specimens,,http://purl.obolibrary.org/obo/OBI_0002076
+planning,,http://purl.obolibrary.org/obo/OBI_0000339
+key biodiversity area,"An environmental zone which contains, as determined by an officially mandated selection process, one or more ecosystems which include, as parts, ecological communities of global significance for conservation due to their vulnerability and irreplaceability.",http://purl.obolibrary.org/obo/ENVO_01000778
+lemon and lime carbonated beverage (vitamin-fortified),,http://purl.obolibrary.org/obo/FOODON_03302268
+food product type,"A food product type is a class of food products that is differentiated by its food composition, processing and/or consumption characteristics. This does not include brand name products but it may include generic food dish categories.",http://purl.obolibrary.org/obo/FOODON_03400361
+,,_:b72
+illegal informal settlement,"A populated place where groups of housing units have been constructed on land that the occupants have no legal claim to, or occupy illegally, or where dwellings are not in compliance with current planning and building regulations.",http://purl.obolibrary.org/obo/ENVO_01000784
+object aggregate,,http://purl.obolibrary.org/obo/BFO_0000027
+imitation black cherry (artificially sweetened),,http://purl.obolibrary.org/obo/FOODON_03302234
+Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population,,http://purl.unep.org/sdg/SDGIO_00020125
+employment status,A quality inhering in a person by virtue of that person bearing a role realised in an employment process.,http://purl.unep.org/sdg/SDGIO_00010029
+length unit,,http://purl.obolibrary.org/obo/UO_0000001
+"Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",,http://purl.unep.org/sdg/SDGIO_00020196
+shape,,http://purl.obolibrary.org/obo/PATO_0000052
+Extent of use of country-owned results frameworks and planning tools by providers of development cooperation,,http://purl.unep.org/sdg/SDGIO_00020224
+beverage carbonated vitamin- and mineral-fortified,,http://purl.obolibrary.org/obo/FOODON_03303716
+decreased size,A size quality which is relatively low.,http://purl.obolibrary.org/obo/PATO_0000587
+third-order administrative region,A subdivision of a second-order administrative division.,http://purl.obolibrary.org/obo/ENVO_00000007
+Developing countries’ and least developed countries’ share of global exports,,http://purl.unep.org/sdg/SDGIO_00020220
+,,_:b73
+"Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials",,http://purl.unep.org/sdg/SDGIO_00020147
+quality of a single physical entity,,http://purl.obolibrary.org/obo/PATO_0001237
+"Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",,http://purl.unep.org/sdg/SDGIO_00020067
+abiotic mesoscopic physical object,,http://purl.obolibrary.org/obo/ENVO_01000010
+clinical tumor stage group according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002314
+"Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups",,http://purl.unep.org/sdg/SDGIO_00020013
+,,_:b74
+occurrent,"An entity that has temporal parts and that happens, unfolds or develops through time.",http://purl.obolibrary.org/obo/BFO_0000003
+vulnerability towards drowning,A vulnerability borne by an entity which may be killed by drowning.,http://purl.unep.org/sdg/SDGIO_00000027
+meteotsunami,A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.,http://purl.obolibrary.org/obo/ENVO_01000715
+earthquake,"An earthquake is a process whereby part of the surface of a planet shakes due to the passage of seismic waves through rocks. Seismic waves are produced when some form of energy stored in a planet's crust is suddenly released. Elastic strain, gravity, chemical reactions, or even the motion of massive bodies can produce earthquakes.",http://purl.obolibrary.org/obo/ENVO_01000677
+"Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nation Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",,http://purl.unep.org/sdg/SDGIO_00020173
+quality,,http://purl.obolibrary.org/obo/BFO_0000019
+soft drink calorie reduced,,http://purl.obolibrary.org/obo/FOODON_03316262
+,,_:b75
+"Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",,http://purl.unep.org/sdg/SDGIO_00020112
+inorganic hydroxy compound,,http://purl.obolibrary.org/obo/CHEBI_52625
+Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies,,http://purl.unep.org/sdg/SDGIO_00020148
+"Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions",,http://purl.unep.org/sdg/SDGIO_00020161
+access,"A disposition that inheres in a person or population who bears the ability, right, and permission to approach and use an accessible resource.",http://purl.unep.org/sdg/SDGIO_00000007
+Proportion of population with large household expenditures on health as a share of total household expenditure or income,,http://purl.unep.org/sdg/SDGIO_00020044
+"Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)",,http://purl.unep.org/sdg/SDGIO_00020043
+Annual growth rate of real GDP per capita,,http://purl.unep.org/sdg/SDGIO_00020096
+Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes,,http://purl.unep.org/sdg/SDGIO_00020010
+,,_:b76
+"Number of victims of intentional homicide per 100,000 population, by sex and age",,http://purl.unep.org/sdg/SDGIO_00020186
+dihydrogen,An elemental molecule consisting of two hydrogens joined by a single bond.,http://purl.obolibrary.org/obo/CHEBI_18276
+Metazoa,,http://purl.obolibrary.org/obo/NCBITaxon_33208
+quality of a substance,A quality inhering in a bearer by virtue of its constitution.,http://purl.obolibrary.org/obo/PATO_0002198
+"Whether or not legal frameworks are in place to promote, enforce and monitor equality and non-discrimination on the basis of sex",,http://purl.unep.org/sdg/SDGIO_00020065
+,,_:b77
+"Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",,http://purl.unep.org/sdg/SDGIO_00020209
+ecosystem,An environmental system which includes both living and non-living components.,http://purl.obolibrary.org/obo/ENVO_01001110
+illegal settlement,A settlement on land that the inhabitants have no legal claim to or occupy illegally.,http://purl.obolibrary.org/obo/ENVO_01000767
+,,_:b78
+Aid for Trade commitments and disbursements,,http://purl.unep.org/sdg/SDGIO_00020111
+Prevalence of undernourishment,,http://purl.unep.org/sdg/SDGIO_00020014
+Number of countries that adopt and implement investment promotion regimes for least developed countries,,http://purl.unep.org/sdg/SDGIO_00020213
+basic service,"A service which is needed by humans to maintain their health and well-being, or enable economic, social, and cultural development.",http://purl.unep.org/sdg/SDGIO_00010025
+material footprint,"""A data item which estimates the metric tonnage of resource materials required to serve the final demand of a nation and is computed as raw material equivalent of imports (RMEIM) plus domestic extraction (DE) minus raw material equivalents of exports (RMEEX).""",http://purl.unep.org/sdg/SDGIO_00010057
+protocol,,http://purl.obolibrary.org/obo/OBI_0000272
+Proportion of seats held by women in (a) national parliaments and (b) local governments,,http://purl.unep.org/sdg/SDGIO_00020071
+soft drink brewed,,http://purl.obolibrary.org/obo/FOODON_03315385
+curation status specification,The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.,http://purl.obolibrary.org/obo/IAO_0000078
+edibility,A physical quality inhering in a bearer by virtue of the bearer's disposition to being fit to be eaten.,http://purl.obolibrary.org/obo/PATO_0002138
+environmental contaminant,Any minor or unwanted substance introduced into the environment that can have undesired effects.,http://purl.obolibrary.org/obo/CHEBI_78298
+"Average tariffs faced by developing countries, least developed countries and small island developing States",,http://purl.unep.org/sdg/SDGIO_00020221
+risk,A disposition of a bearer to realise one or more of its vulnerabilities when participating in a process which exposes the bearer to a hazard or combination of hazards.,http://purl.unep.org/sdg/SDGIO_00000020
+water,An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms.,http://purl.obolibrary.org/obo/CHEBI_15377
+physiological role,,http://purl.obolibrary.org/obo/CHEBI_52211
+regulating ecosystem service,An ecosystem service in which one or more ecosystem processes benefit a service consumer by buffering the impacts of environmental perturbations.,http://purl.unep.org/sdg/SDGIO_00000032
+Proportion of the rural population who live within 2 km of an all-season road,,http://purl.unep.org/sdg/SDGIO_00020113
+population of organisms,"A collection of organisms, all of the same species, that live in the same place.",http://purl.obolibrary.org/obo/PCO_0000001
+"Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",,http://purl.unep.org/sdg/SDGIO_00020204
+vulnerability towards respiratory disease,A vulnerability borne by an entity that may develop respiratory disease.,http://purl.unep.org/sdg/SDGIO_00000053
+pathologic primary tumor stage for kidney according to AJCC 7th edition,,http://purl.obolibrary.org/obo/OBI_0002243
+,,_:b79
+service provision objective,,http://purl.obolibrary.org/obo/OBI_0000993
+"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,http://purl.unep.org/sdg/SDGIO_00020188
+access system,"An environmental system which provides access to some resource. That is, the system has the disposition to physically provide and allow use of a given resource and allows the user of that resource to exercise their right and permission to access the resource.",http://purl.unep.org/sdg/SDGIO_00000005
+imitation fruit-flavored carbonated beverage,,http://purl.obolibrary.org/obo/FOODON_03302165
+"Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",,http://purl.unep.org/sdg/SDGIO_00020054
+ice,,http://purl.obolibrary.org/obo/FOODON_03301926
+natural asset,An asset which is the output of an environmental process and has not been substantially altered by human activity.,http://purl.unep.org/sdg/SDGIO_00010054
+chemical role,A role played by the molecular entity or part thereof within a chemical context.,http://purl.obolibrary.org/obo/CHEBI_51086
+organismal entity,"A material entity that is one or more organisms, viruses or viroids.",http://purl.obolibrary.org/obo/PCO_0000031
+statistical model validation,,http://purl.obolibrary.org/obo/OBI_0000792
+"Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",,http://purl.unep.org/sdg/SDGIO_00020038
+climate change,"The long-term fluctuations in temperature, precipitation, wind, and all other aspects of the Earth's climate. External processes, such as solar-irradiance variations, variations of the Earth's orbital parameters (eccentricity, precession, and inclination), lithosphere motions, and volcanic activity, are factors in climatic variation. Internal variations of the climate system, e.g., changes in the abundance of greenhouse gases, also may produce fluctuations of sufficient magnitude and variability to explain observed climate change through the feedback processes interrelating the components of the climate system.",http://purl.obolibrary.org/obo/ENVO_01000629
+soft drink non-cola diet,,http://purl.obolibrary.org/obo/FOODON_03310977
+tsunami,"A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.",http://purl.obolibrary.org/obo/ENVO_01000689
+water (bottled),,http://purl.obolibrary.org/obo/FOODON_03301258
+medicine,"A material entity that is used in the process of preventing, treating, diagnosing, or studying disease or disorder.",http://purl.unep.org/sdg/SDGIO_00010014
+histogram,,http://purl.obolibrary.org/obo/IAO_0000179
+"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",,http://purl.unep.org/sdg/SDGIO_00020006
+community,A collection of organisms of the same species whose members are all either genealogically related to each other or have mated with each other.,http://purl.obolibrary.org/obo/PCO_0000028
+imitation grape drink,,http://purl.obolibrary.org/obo/FOODON_03302279
+Proportion of population living in households with access to basic services,,http://purl.unep.org/sdg/SDGIO_00020004
+affordable,A quality of an entity by virtue of it having a cost within the financial means of a person who has a median income.,http://purl.unep.org/sdg/SDGIO_00010041
+,,_:b80
+anthropogenic terrestrial biome,An anthropogenic terrestrial biome is a terrestrial biome which has community structures determined by human activity.,http://purl.obolibrary.org/obo/ENVO_01000219
+algorithm,,http://purl.obolibrary.org/obo/IAO_0000064
+Amniota,,http://purl.obolibrary.org/obo/NCBITaxon_32524
+soft drink noncarbonated,,http://purl.obolibrary.org/obo/FOODON_03315151
+Worldwide weighted tariff-average,,http://purl.unep.org/sdg/SDGIO_00020219
+cross validation objective,,http://purl.obolibrary.org/obo/OBI_0200188
+orange-flavored soft drink,,http://purl.obolibrary.org/obo/FOODON_03311097
+"Participation rate in organized learning (one year before the official primary entry age), by sex",,http://purl.unep.org/sdg/SDGIO_00020056
+natural environment,An environmental system in which minimal to no anthropisation has occurred and non-human agents are the primary determinants of the system's dynamics and composition.,http://purl.obolibrary.org/obo/ENVO_01000951
+"Proportions of positions (by sex, age, persons with disabilities and population groups) in public institutions (national and local legislatures, public service, and judiciary) compared to national distributions",,http://purl.unep.org/sdg/SDGIO_00020201
+information content entity,A generically dependent continuant that is about some thing.,http://purl.obolibrary.org/obo/IAO_0000030
+soft drink energy-containing sweetener not added,,http://purl.obolibrary.org/obo/FOODON_03317097
+data set,,http://purl.obolibrary.org/obo/IAO_0000100
+organism or virus or viroid,Material anatomical entity that is a member of an individual species or is a viral or viroid particle.,http://purl.obolibrary.org/obo/CARO_0001010
+"Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",,http://purl.unep.org/sdg/SDGIO_00020169
+"Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",,http://purl.unep.org/sdg/SDGIO_00020002
+educator role,A role which is realised by a person in the process of imparting knowledge and skill to others.,http://purl.unep.org/sdg/SDGIO_00010010
+environmental system determined by an organism,An environmental system which is determined by a living organism.,http://purl.obolibrary.org/obo/ENVO_01001000
+Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted),,http://purl.unep.org/sdg/SDGIO_00020143
+"Fixed Internet broadband subscriptions per 100 inhabitants, by speed",,http://purl.unep.org/sdg/SDGIO_00020215
+direct material input,A data item that estimates the metric tonnage of all resource materials which are input for the production and consumption activities of a nation's economy and is calculated by adding used domestic extraction with imported materials.,http://purl.unep.org/sdg/SDGIO_00010060
+tap water,,http://purl.obolibrary.org/obo/FOODON_03307286
+beverage,,http://purl.obolibrary.org/obo/FOODON_03301977
+Proportion of small-scale industries in total industry value added,,http://purl.unep.org/sdg/SDGIO_00020117
+imitation fruit flavored drinks and ades frozen concentrates,,http://purl.obolibrary.org/obo/FOODON_03315040
+specifically dependent continuant,b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003]),http://purl.obolibrary.org/obo/BFO_0000020
+"Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)",,http://purl.unep.org/sdg/SDGIO_00020140
+anthropogenic modulatory intervention process,"A process during which humans apply technology to alter the magnitude, duration, rate, or impact of an environmental process.",http://purl.obolibrary.org/obo/ENVO_02500026
+,,_:b81
+sustainable development goal,An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030.,http://purl.unep.org/sdg/SDGIO_00000000
+,,_:b82
+categorical value specification,,http://purl.obolibrary.org/obo/OBI_0001930
+,,_:b83
+"Proportion of women aged 15-49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",,http://purl.unep.org/sdg/SDGIO_00020073
+national geopolitical entity,A political association with effective dominion over a geographic area.,http://purl.obolibrary.org/obo/ENVO_00000009
+quality of a solid,A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable.,http://purl.obolibrary.org/obo/PATO_0001546
+,,_:b84
+disposition,,http://purl.obolibrary.org/obo/BFO_0000016
