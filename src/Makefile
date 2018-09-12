@@ -125,9 +125,9 @@ mirror/%.owl: $(SRC)
 .PRECIOUS: mirror/%.owl
 
 SIMPLIFY= --merge-imports-closure --extract-mingraph --remove-abox --make-subset-by-properties -f // --remove-annotation-assertions -r -l -s -o
-# we need to remove text defs from IAO as they conflict
+# currently we only need ontology metadata from iao
 mirror/iao.owl: $(SRC)
-	owltools $(OBO)/iao.owl $(SIMPLIFY)  $@
+	owltools $(OBO)/iao/ontology-metadata.owl $(SIMPLIFY)  $@
 mirror/obi.owl: $(SRC)
 	owltools $(OBO)/obi.owl --merge-imports-closure --remove-annotation-assertions -r -l -s -o $@
 mirror/ogms.owl: $(SRC)
