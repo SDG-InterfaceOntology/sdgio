@@ -1,3 +1,4 @@
+http://purl.obolibrary.org/obo/IAO_0100001 # term replaced by
 http://purl.obolibrary.org/obo/IAO_0000005 # objective specification
 http://purl.obolibrary.org/obo/IAO_0000007 # action specification
 http://purl.obolibrary.org/obo/IAO_0000027 # data item
