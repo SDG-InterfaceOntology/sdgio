@@ -68,6 +68,16 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000062>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000063>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000067>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000069>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000241>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000243>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000244>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000245>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000246>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000247>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000248>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000249>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000250>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000251>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010001>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010002>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010003>))
@@ -332,6 +342,7 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000237>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000238>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000239>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000240>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000252>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -342,6 +353,8 @@ Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000074>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010032>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010058>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010069>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
 ############################
 #   Annotation Properties
 ############################
@@ -806,6 +819,100 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000068> <http://purl.unep.
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.preventionweb.net/files/50683_oiewgreportenglish.pdf") rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000069> "The definition of disaster risk reflects the concept of hazardous events and disasters as the outcome of continuously present conditions of risk. Disaster risk comprises different types of potential losses which are often difficult to quantify. Nevertheless, with knowledge of the prevailing hazards and the patterns of population and socioeconomic development, disaster risks can be assessed and mapped, in broad terms at least. It is important to consider the social and economic contexts in which disaster risks occur and that people do not necessarily share the same perceptions of risk and their underlying risk factors.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000069> "disaster risk"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000069> <http://purl.unep.org/sdg/SDGIO_00000020>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000241> (investigation into the causes of insect decline)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000241> "An investigation during which investigators aim to identify the causes for reduction in the sizes of one or more insect populations.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000241> "To be cross-axiomatised with PCO terms when they are established: https://github.com/PopulationAndCommunityOntology/pco/issues/68")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.unep.org/sdg/SDGIO_00000241> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000241> "2019-01-09T08:51:55Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#created_by> "https://orcid.org/0000-0002-9620-2832") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "INTERNAS:WS2") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ufz.de/index.php?de=44296") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.unep.org/sdg/SDGIO_00000241> "Ursachenklärung für das Insektensterben"@de)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000241> "investigation into the causes of insect decline"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000241> <http://purl.obolibrary.org/obo/OBI_0000066>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000243> (human well-being)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://purl.obolibrary.org/obo/NCIT_C25178") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.eea.europa.eu/highlights/beyond-gdp/beyond-gdp-final-technical-paper") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.eionet.europa.eu/gemet/concept/15201") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000243> "A disposition which inheres in a human and which is realised when that human 1) exhibits physical and psychological health 2) has access to sufficient food, water, shelter, and clothing at all times as well as a secure and adequate livelihood, goods, and services 3) is present in a physical environment conducive to human health (e.g. with air and water free from harmful pollutants) 4) interacts with other humans in a social system which promotes cohesion, mutual respect, the ability to help others and provide for children, 5) security, including secure access to natural and other resources, personal safety, and security from natural and human-made disasters and 6) freedom of choice and action, including the opportunity to express and behave according to individual values.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.unep.org/sdg/SDGIO_00000243> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000243> "2019-01-03T13:24:32Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#created_by> "https://orcid.org/0000-0002-9620-2832") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "INTERNAS:WS2") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ufz.de/index.php?de=44296") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.unep.org/sdg/SDGIO_00000243> "Gemeinwohl"@de)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000243> "This is a very complex entity with much ambiguity and differentiation across socio-cultural groups. Much more work is needed on its ontologisation. Component 6, in particular, is typically constrained by legal or social custom.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000243> "human well-being"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000243> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000243> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000244> (human well-being credit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000244> "An asset which can be awarded to a legal entity in exchange for its contributions to human well-being.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.unep.org/sdg/SDGIO_00000244> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000244> "2019-01-03T13:55:38Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#created_by> "https://orcid.org/0000-0002-9620-2832") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "INTERNAS:WS2") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ufz.de/index.php?de=44296") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.unep.org/sdg/SDGIO_00000244> "Gemeinwohlpraemie"@de)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000244> "An analogue to a carbon credit.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000244> "human well-being credit"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000244> <http://purl.unep.org/sdg/SDGIO_00010048>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000245> (enhancement of human well-being)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000245> "A process during which the well-being of one or more humans is increased.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00000245> "The axioms on this class are simplistic at this stage - once human well-being is disaggregated, we can add more informative relations.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.unep.org/sdg/SDGIO_00000245> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000245> "2019-01-03T14:04:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000245> "enhancement of human well-being"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000245> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000245> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.unep.org/sdg/SDGIO_00000243>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000245> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000246> (economic credit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000246> "An agreement in which the provider of goods or services trusts that the consumer will provide conmpensation at a later date.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.unep.org/sdg/SDGIO_00000246> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000246> "2019-01-03T15:06:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000246> "economic credit"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000246> <http://purl.unep.org/sdg/SDGIO_00010048>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000247> (intangible asset)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Intangible_asset") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000247> "A asset which is non-monetary and without physical substance.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.unep.org/sdg/SDGIO_00000247> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000247> "2019-01-03T16:22:22Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000247> "The economic (or other) worth of intangible assets are often very hard to quantify, as their evaluation is complex.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000247> "intangible asset"@en)
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00000247> ObjectIntersectionOf(<http://purl.unep.org/sdg/SDGIO_00010048> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000040>)))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000247> <http://purl.unep.org/sdg/SDGIO_00010048>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000248> (human capital)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.unep.org/sdg/SDGIO_00000248> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000248> "2019-01-03T16:22:34Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000248> "human capital"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000248> <http://purl.unep.org/sdg/SDGIO_00000247>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000249> (tangible asset)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000249> "An asset which is based on one or more material entities.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.unep.org/sdg/SDGIO_00000249> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000249> "2019-01-03T17:01:11Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Asset#Tangible_assets") rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000249> "Tangible assets include currencies, buildings, real estate, vehicles, inventories, equipment, art collections, precious metals, rare-earth metals, Industrial metals, and crops.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000249> "tangible asset"@en)
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00000249> ObjectIntersectionOf(<http://purl.unep.org/sdg/SDGIO_00010048> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/RO_0002473> <http://purl.obolibrary.org/obo/BFO_0000040>)))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000249> <http://purl.unep.org/sdg/SDGIO_00010048>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000250> (organisational objective specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000250> "An objective specification which has been adopted by an organisation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00000250> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000250> "2019-04-17T11:35:22Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000250> "organizational objective specification")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000250> "organisational objective specification"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000250> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000251> (CGIAR objective specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000251> "An organisational objective specification which has been adopted by the CGIAR.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00000251> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000251> "2019-04-17T11:38:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000251> "CGIAR objective specification"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000251> <http://purl.unep.org/sdg/SDGIO_00000250>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010001> (education process)
 
@@ -2566,6 +2673,14 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000240> "17.19")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000240> "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000240>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00000252> (test CGIAR IDO)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00000252> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000252> "2019-04-17T11:40:33Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000252> "This is just a placeholder to be edited/updated.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000252> "test CGIAR IDO"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000251> <http://purl.unep.org/sdg/SDGIO_00000252>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
