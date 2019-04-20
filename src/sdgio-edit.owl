@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.unep.org/sdg/sdgio.owl#>)
+Prefix(:=<http://purl.unep.org/sdg/sdgio.owl/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -157,6 +157,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010080>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020232>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020233>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020234>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020235>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -1516,7 +1517,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020233> (poverty reduction system level outcome)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020233> "A system level outcome which ...")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020233> "A system level outcome which, by economic, technoogical, political, and societal measures, durably lift people out of poverty.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020233> "https://orcid.org/0000-0062-3253-4387")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020233> "2019-04-19T12:00:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020233> "reduce poverty")
@@ -1526,13 +1527,24 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020233> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020234> (improvement of food and nutrition security system level outcome)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020234> "A system level outcome which ...")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020234> "A system level outcome which improves the availability, access, use, and stability of a healthy food supply.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020234> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020234> "2019-04-19T12:14:17Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020234> "improve food and nutrition security")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020234> "Food security encompasses the availability, access, utilization and stability of a healthy food supply. We have seen that crop and commodity improvement can dramatically increase food supply, and that better farm production practices and technology can help with affordability and food safety. For nutrition, we can introduce diverse nutrient-rich foods into farming systems and diets such as bio-fortified crops, fruits, vegetables, legumes, livestock and fish. CGIAR will harness increased expertise in nutrition through partnerships and coalitions with a wide range of partners, including leading NGOs and private-sector companies as well as government agencies. Alignment with key national, regional and international processes is critical, since the means for overcoming malnutrition depends upon a broad set of conditions.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020234> "improvement of food and nutrition security system level outcome"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020234> <http://purl.unep.org/sdg/SDGIO_00020232>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020235> (improvement of natural resources and ecosystem services system level outcome)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020235> "A system level outcome which (a) protects natural capital from climate change an abuses (like overexploitation) an (b) promotes conservation, restoration, an more sustanaible management of natural resources.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020235> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020235> "https://orcid.org/0000-0062-3253-4387")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020235> "2019-04-20T23:23:46Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020235> "Improve natural resources and ecosystem services")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020235> "Multi-functional agriculture can enhance benefits from ecosystem goods and services and a build more productive agricultural sector in the long run. We need agricultural systems that are diversified in ways that protect soils and water – helping to control soil erosion and improving its organic content, while also ensuring biomass for storing carbon and mitigating climate change. Natural capital must be enhanced and protected, from climate  change as well as from overexploitation and other forms of abuse. In high-risk areas, enhanced conservation of habitats and resources is needed. Finally, we will restore degraded agro-ecosystems, and more sustainably manage them for increased resilience of those ecosystems and the communities that depend on them.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020235> "improvement of natural resources and ecosystem services system level outcome"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020235> <http://purl.unep.org/sdg/SDGIO_00020232>)
 
 
 ############################
