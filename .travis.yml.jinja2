@@ -9,7 +9,7 @@ before_install:
   - docker pull obolibrary/odkfull
 
 # command to run tests
-script: cd src/ontology && sh run.sh make test
+script: cd src/ && sh run.sh make test
 
 #after_success:
 #  coveralls
@@ -23,5 +23,5 @@ branches:
 ### Add your own lists here
 ### See https://github.com/INCATools/ontology-development-kit/issues/35
 notifications:
-  email:
-    - obo-ci-reports-all@groups.io
+#  email:
+#    - obo-ci-reports-all@groups.io
