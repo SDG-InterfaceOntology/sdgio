@@ -1515,7 +1515,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020232> "system level outcome"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00000251>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020233> (poverty reduction system level outcome)
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020233> (poverty reduction system level outcome)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020233> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote lifting people out of poverty by economic, technological, political, and societal measures.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020233> <https://orcid.org/0000-0062-3253-4387>)
@@ -1523,9 +1528,9 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020233> "reduce poverty")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020233> "The pathways to reducing poverty differ across contexts, reflecting the diversity of livelihood strategies pursued by the poor. Where the poor are predominately smallholder farmers, increased productivity and resilience to shocks is a key pathway to poverty reduction. Productivity increases can be achieved through conservation and effective use of genetic resources. Access to productive assets such as land and water will unlock further productive potential, especially for women. Diversifying opportunities, such as moving into higher value products like livestock, fish, vegetables, fruit or other tree crops, can increase income. Improving access to markets,  trengthening financial and other services, or local processing of produce also increase livelihood opportunities for smallholders. CGIAR  esearch recognizes that no single pathway to poverty reduction will hold across all settings. It is vital to rigorously assess the full  ange of outcomes from our work – and to learn from experience.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020233> "poverty reduction system level outcome"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020233> <http://purl.unep.org/sdg/SDGIO_00020232>)
+ClassAssertion( <http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020233>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020234> (improvement of food and nutrition security system level outcome)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020234> (improvement of food and nutrition security system level outcome)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020234> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote the availability, access, use, and stability of or to a food supply.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020234> <http://orcid.org/0000-0062-3253-4387>)
@@ -1533,9 +1538,9 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020234> "improve food and nutrition security")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020234> "Food security encompasses the availability, access, utilization and stability of a healthy food supply. We have seen that crop and commodity improvement can dramatically increase food supply, and that better farm production practices and technology can help with affordability and food safety. For nutrition, we can introduce diverse nutrient-rich foods into farming systems and diets such as bio-fortified crops, fruits, vegetables, legumes, livestock and fish. CGIAR will harness increased expertise in nutrition through partnerships and coalitions with a wide range of partners, including leading NGOs and private-sector companies as well as government agencies. Alignment with key national, regional and international processes is critical, since the means for overcoming malnutrition depends upon a broad set of conditions.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020234> "improvement of food and nutrition security system level outcome"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020234> <http://purl.unep.org/sdg/SDGIO_00020232>)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020234>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020235> (improvement of natural resources and ecosystem services system level outcome)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020235> (improvement of natural resources and ecosystem services system level outcome)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020235> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they 1) protect natural capital from climate change and adverse anthropogenic impacts (like overexploitation) and 2) promote conservation, restoration, and more sustainable management of natural resources.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020235> <http://orcid.org/0000-0062-3253-4387>)
@@ -1543,12 +1548,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020235> "Improve natural resources and ecosystem services")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020235> "Multi-functional agriculture can enhance benefits from ecosystem goods and services and a build more productive agricultural sector in the long run. We need agricultural systems that are diversified in ways that protect soils and water – helping to control soil erosion and improving its organic content, while also ensuring biomass for storing carbon and mitigating climate change. Natural capital must be enhanced and protected, from climate  change as well as from overexploitation and other forms of abuse. In high-risk areas, enhanced conservation of habitats and resources is needed. Finally, we will restore degraded agro-ecosystems, and more sustainably manage them for increased resilience of those ecosystems and the communities that depend on them.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020235> "improvement of natural resources and ecosystem services system level outcome"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020235> <http://purl.unep.org/sdg/SDGIO_00020232>)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020235>)
 
-
-############################
-#   Named Individuals
-############################
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000035> (end poverty in all its forms everywhere)
 
