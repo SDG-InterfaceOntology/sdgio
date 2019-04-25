@@ -1,5 +1,4 @@
-## REMEMBER TO SET UP YOUR GITHUB REPO FOR TRAVIS
-## Go to: https://travis-ci.org/{{ project.github_org }} for details
+
 sudo: required
 
 services:
@@ -24,5 +23,5 @@ branches:
 ### Add your own lists here
 ### See https://github.com/INCATools/ontology-development-kit/issues/35
 # notifications:
-#  email:
-#    - obo-ci-reports-all@groups.io
+  email:
+    - pbuttigi@mpi-bremen.de

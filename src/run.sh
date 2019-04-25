@@ -6,7 +6,9 @@
 # This will run the make workflow within a docker container.
 #
 # The SDGIO repo doesn't yet use the src/ontology folder;
-# so we map to .
-#
-# See README-editors.md for more details.
-docker run -v $PWD/../:/work -w /work/src/ {% if project.robot_java_args is defined %}-e ROBOT_JAVA_ARGS='{{ project.robot_java_args }}' {% endif %}--rm -ti obolibrary/odkfull "$@"
+# so we cd into src/ 
+
+# docker run -v $PWD/../:/work -w /work/src/ {% if sdgio.robot_java_args is defined %}-e ROBOT_JAVA_ARGS='sdgio.robot_java_args' {% endif %}--rm -ti obolibrary/odkfull "$@"
+
+
+docker run -v $PWD/../:/work -w /work/src/ --rm -ti obolibrary/odkfull "$@"
