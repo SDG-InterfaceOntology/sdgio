@@ -23,6 +23,6 @@ branches:
 
 ### Add your own lists here
 ### See https://github.com/INCATools/ontology-development-kit/issues/35
-notifications:
+# notifications:
 #  email:
 #    - obo-ci-reports-all@groups.io
