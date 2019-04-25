@@ -1,9 +1,14 @@
-# This Makefile is for use by the SDGIO Release Managers (currently cjm and plb)
-# As used by Jenkins: http://build.berkeleybop.org/job/build-envo
-# 
-# requirements: Oort (http://code.google.com/p/owltools/wiki/OortIntro)
-#
-# To make a release, type 'make release' in this directory
+# ----------------------------------------
+# Makefile for SDGIO
+# Partially aligned to the ontology-starter-kit
+# https://github.com/INCATools/ontology-development-kit/blob/master/template/src/ontology/Makefile.jinja2
+# ----------------------------------------
+# <do not edit above this line>
+
+# ----------------------------------------
+# Standard Constants
+# ----------------------------------------
+# these can be overwritten on the command line
 
 OBO=http://purl.obolibrary.org/obo
 SDG=http://purl.unep.org/sdg
@@ -63,18 +68,6 @@ debug.owl: envo-edit.owl $(OWLTOOLS)
 	$(OWLTOOLS) --use-catalog  $< --merge-support-ontologies --run-reasoner -r elk -u -m $@
 
 .PRECIOUS: envo-edit.owl
-
-# The URL below will pull the latest, successful ROBOT build from the Berkeley servers.
-# ROBOT itself is in the "robot.jar" file, so it will execute across platforms with Java. There is a
-# launch script "robot" which is called later in this file. If you're running Cygwin,
-# that script will use cygpath to make sure everything is findable.
-ROBOJENKINS=http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin
-
-robot.jar:
-	wget $(ROBOJENKINS)/$@ -O $@
-robot: robot.jar
-	wget $(ROBOJENKINS)/$@ -O $@ && chmod +x $@ && touch $@
-
 	
 
 # ----------------------------------------
