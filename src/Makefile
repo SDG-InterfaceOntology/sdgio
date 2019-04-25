@@ -32,11 +32,11 @@ IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))
 all: build
 test: sdgio.owl
 
-sdgio.owl: sdgio-edit.owl $(MODULE_FILES)  $(ROBOT)
+sdgio.owl: sdgio-edit.owl $(MODULE_FILES) 
 	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o $@
 ###	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o tmp-$@ && owltools $(USECAT) tmp-$@ --remove-imports-declarations -o $@
 
-#sdgio.owl: sdgio-edit.owl $(ROBOT)
+#sdgio.owl: sdgio-edit.owl 
 #	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
 
@@ -51,7 +51,7 @@ sdgio-normalized.json: sdgio.owl
 .PRECIOUS: sdgio.owl
 
 
-sdgio.obo: sdgio.owl $(ROBOT)
+sdgio.obo: sdgio.owl 
 	# $(ROBOT) convert -i $< -o sdgio.obo # errors due to multiple tags, use owltools to workaround
 	
 	owltools $(USECAT) $< --merge-imports-closure --add-obo-shorthand-to-properties -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
@@ -59,7 +59,7 @@ sdgio.obo: sdgio.owl $(ROBOT)
 .PRECIOUS: sdgio.owl
 	
 # generic conversion for OGs
-%.json: %.owl $(ROBOT)
+%.json: %.owl 
 	$(ROBOT) convert -input $< -f json -o $@
 
 .PRECIOUS: %.owl
@@ -104,7 +104,7 @@ KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:000
 # 'part of' 'has part' 'develops from' 'immediate_transformation_of' 'connects' 'has participant'  'realizes' 'composed primarily of' 'has member' 'overlaps' 'has curation status'
 
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt $(ROBOT)
+imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
