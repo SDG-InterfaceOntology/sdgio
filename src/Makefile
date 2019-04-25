@@ -14,7 +14,7 @@ OBO=http://purl.obolibrary.org/obo
 SDG=http://purl.unep.org/sdg
 USECAT= --catalog-xml catalog-v001.xml
 SRC= sdgio-edit.owl
-ROBOT=./robot
+ROBOT=robot
 OWLTOOLS= owltools
 
 ##MODULES=exposure
