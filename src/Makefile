@@ -1,15 +1,20 @@
-# This Makefile is for use by the SDGIO Release Managers (currently cjm and plb)
-# As used by Jenkins: http://build.berkeleybop.org/job/build-envo
-# 
-# requirements: Oort (http://code.google.com/p/owltools/wiki/OortIntro)
-#
-# To make a release, type 'make release' in this directory
+# ----------------------------------------
+# Makefile for SDGIO
+# Partially aligned to the ontology-starter-kit
+# https://github.com/INCATools/ontology-development-kit/blob/master/template/src/ontology/Makefile.jinja2
+# ----------------------------------------
+# <do not edit above this line>
+
+# ----------------------------------------
+# Standard Constants
+# ----------------------------------------
+# these can be overwritten on the command line
 
 OBO=http://purl.obolibrary.org/obo
 SDG=http://purl.unep.org/sdg
 USECAT= --catalog-xml catalog-v001.xml
 SRC= sdgio-edit.owl
-ROBOT=./robot
+ROBOT=robot
 OWLTOOLS= owltools
 
 ##MODULES=exposure
@@ -27,11 +32,11 @@ IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))
 all: build
 test: sdgio.owl
 
-sdgio.owl: sdgio-edit.owl $(MODULE_FILES)  $(ROBOT)
+sdgio.owl: sdgio-edit.owl $(MODULE_FILES) 
 	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o $@
 ###	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/sdgio.owl -o tmp-$@ && owltools $(USECAT) tmp-$@ --remove-imports-declarations -o $@
 
-#sdgio.owl: sdgio-edit.owl $(ROBOT)
+#sdgio.owl: sdgio-edit.owl 
 #	$(ROBOT) merge -i $< reason -r ELK -s true -o $@ convert -o sdgio.obo
 
 
@@ -46,7 +51,7 @@ sdgio-normalized.json: sdgio.owl
 .PRECIOUS: sdgio.owl
 
 
-sdgio.obo: sdgio.owl $(ROBOT)
+sdgio.obo: sdgio.owl 
 	# $(ROBOT) convert -i $< -o sdgio.obo # errors due to multiple tags, use owltools to workaround
 	
 	owltools $(USECAT) $< --merge-imports-closure --add-obo-shorthand-to-properties -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
@@ -54,7 +59,7 @@ sdgio.obo: sdgio.owl $(ROBOT)
 .PRECIOUS: sdgio.owl
 	
 # generic conversion for OGs
-%.json: %.owl $(ROBOT)
+%.json: %.owl 
 	$(ROBOT) convert -input $< -f json -o $@
 
 .PRECIOUS: %.owl
@@ -63,18 +68,6 @@ debug.owl: envo-edit.owl $(OWLTOOLS)
 	$(OWLTOOLS) --use-catalog  $< --merge-support-ontologies --run-reasoner -r elk -u -m $@
 
 .PRECIOUS: envo-edit.owl
-
-# The URL below will pull the latest, successful ROBOT build from the Berkeley servers.
-# ROBOT itself is in the "robot.jar" file, so it will execute across platforms with Java. There is a
-# launch script "robot" which is called later in this file. If you're running Cygwin,
-# that script will use cygpath to make sure everything is findable.
-ROBOJENKINS=http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin
-
-robot.jar:
-	wget $(ROBOJENKINS)/$@ -O $@
-robot: robot.jar
-	wget $(ROBOJENKINS)/$@ -O $@ && chmod +x $@ && touch $@
-
 	
 
 # ----------------------------------------
@@ -111,7 +104,7 @@ KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of RO:000
 # 'part of' 'has part' 'develops from' 'immediate_transformation_of' 'connects' 'has participant'  'realizes' 'composed primarily of' 'has member' 'overlaps' 'has curation status'
 
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt $(ROBOT)
+imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 

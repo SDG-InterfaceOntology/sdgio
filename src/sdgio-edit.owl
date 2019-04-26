@@ -7,17 +7,17 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.unep.org/sdg/sdgio.owl>
-Import(<http://purl.unep.org/sdg/imports/bfo_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/chebi_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/envo_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/iao_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/ncbitaxon_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/obi_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/pato_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/pco_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/ro_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/sdgio_indicator_values_import.ttl>)
 Import(<http://purl.unep.org/sdg/imports/uberon_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/bfo_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/envo_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/obi_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/pco_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/pato_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/ro_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/iao_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/sdgio_indicator_values_import.ttl>)
+Import(<http://purl.unep.org/sdg/imports/ncbitaxon_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/chebi_import.owl>)
 Annotation(rdfs:comment "This is the Sustainable Development Goals Interface Ontology (SDGIO) developed to support the realisation of the SDGs by providing a semantically coherent representations of relevant entities."^^xsd:string)
 
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000000>))
@@ -155,9 +155,6 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010078>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010079>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010080>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020232>))
-Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020233>))
-Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020234>))
-Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020235>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -347,6 +344,9 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000238>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000239>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000240>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000252>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020233>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020234>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020235>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -1520,37 +1520,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/S
 #   Named Individuals
 ############################
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020233> (poverty reduction system level outcome)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020233> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote lifting people out of poverty by economic, technological, political, and societal measures.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020233> <https://orcid.org/0000-0062-3253-4387>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020233> "2019-04-19T12:00:25Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020233> "reduce poverty")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020233> "The pathways to reducing poverty differ across contexts, reflecting the diversity of livelihood strategies pursued by the poor. Where the poor are predominately smallholder farmers, increased productivity and resilience to shocks is a key pathway to poverty reduction. Productivity increases can be achieved through conservation and effective use of genetic resources. Access to productive assets such as land and water will unlock further productive potential, especially for women. Diversifying opportunities, such as moving into higher value products like livestock, fish, vegetables, fruit or other tree crops, can increase income. Improving access to markets,  trengthening financial and other services, or local processing of produce also increase livelihood opportunities for smallholders. CGIAR  esearch recognizes that no single pathway to poverty reduction will hold across all settings. It is vital to rigorously assess the full  ange of outcomes from our work – and to learn from experience.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020233> "poverty reduction system level outcome"@en)
-ClassAssertion( <http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020233>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020234> (improvement of food and nutrition security system level outcome)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020234> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote the availability, access, use, and stability of or to a food supply.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020234> <http://orcid.org/0000-0062-3253-4387>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020234> "2019-04-19T12:14:17Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020234> "improve food and nutrition security")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020234> "Food security encompasses the availability, access, utilization and stability of a healthy food supply. We have seen that crop and commodity improvement can dramatically increase food supply, and that better farm production practices and technology can help with affordability and food safety. For nutrition, we can introduce diverse nutrient-rich foods into farming systems and diets such as bio-fortified crops, fruits, vegetables, legumes, livestock and fish. CGIAR will harness increased expertise in nutrition through partnerships and coalitions with a wide range of partners, including leading NGOs and private-sector companies as well as government agencies. Alignment with key national, regional and international processes is critical, since the means for overcoming malnutrition depends upon a broad set of conditions.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020234> "improvement of food and nutrition security system level outcome"@en)
-ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020234>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020235> (improvement of natural resources and ecosystem services system level outcome)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020235> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they 1) protect natural capital from climate change and adverse anthropogenic impacts (like overexploitation) and 2) promote conservation, restoration, and more sustainable management of natural resources.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020235> <http://orcid.org/0000-0062-3253-4387>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020235> "2019-04-20T23:23:46Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020235> "Improve natural resources and ecosystem services")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020235> "Multi-functional agriculture can enhance benefits from ecosystem goods and services and a build more productive agricultural sector in the long run. We need agricultural systems that are diversified in ways that protect soils and water – helping to control soil erosion and improving its organic content, while also ensuring biomass for storing carbon and mitigating climate change. Natural capital must be enhanced and protected, from climate  change as well as from overexploitation and other forms of abuse. In high-risk areas, enhanced conservation of habitats and resources is needed. Finally, we will restore degraded agro-ecosystems, and more sustainably manage them for increased resilience of those ecosystems and the communities that depend on them.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020235> "improvement of natural resources and ecosystem services system level outcome"@en)
-ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020235>)
-
-
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000035> (end poverty in all its forms everywhere)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000035> "http://www.un.org/sustainabledevelopment/poverty/")
@@ -1662,6 +1631,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000048> "Sustainable Development Goal 14")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000048> "conserve and sustainably use the oceans, seas and marine resources"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/sdg/SDGIO_00000048>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00000015>) <http://purl.unep.org/sdg/SDGIO_00000048>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00000016>) <http://purl.unep.org/sdg/SDGIO_00000048>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000049> (sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss)
 
@@ -2725,6 +2696,36 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000252> "This is just a placeholder to be edited/updated.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000252> "test CGIAR IDO"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000251> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020233> (poverty reduction system level outcome)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020233> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote lifting people out of poverty by economic, technological, political, and societal measures.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020233> <https://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020233> "2019-04-19T12:00:25Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020233> "reduce poverty")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020233> "The pathways to reducing poverty differ across contexts, reflecting the diversity of livelihood strategies pursued by the poor. Where the poor are predominately smallholder farmers, increased productivity and resilience to shocks is a key pathway to poverty reduction. Productivity increases can be achieved through conservation and effective use of genetic resources. Access to productive assets such as land and water will unlock further productive potential, especially for women. Diversifying opportunities, such as moving into higher value products like livestock, fish, vegetables, fruit or other tree crops, can increase income. Improving access to markets,  trengthening financial and other services, or local processing of produce also increase livelihood opportunities for smallholders. CGIAR  esearch recognizes that no single pathway to poverty reduction will hold across all settings. It is vital to rigorously assess the full  ange of outcomes from our work – and to learn from experience.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020233> "poverty reduction system level outcome"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020233>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020234> (improvement of food and nutrition security system level outcome)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020234> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote the availability, access, use, and stability of or to a food supply.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020234> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020234> "2019-04-19T12:14:17Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020234> "improve food and nutrition security")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020234> "Food security encompasses the availability, access, utilization and stability of a healthy food supply. We have seen that crop and commodity improvement can dramatically increase food supply, and that better farm production practices and technology can help with affordability and food safety. For nutrition, we can introduce diverse nutrient-rich foods into farming systems and diets such as bio-fortified crops, fruits, vegetables, legumes, livestock and fish. CGIAR will harness increased expertise in nutrition through partnerships and coalitions with a wide range of partners, including leading NGOs and private-sector companies as well as government agencies. Alignment with key national, regional and international processes is critical, since the means for overcoming malnutrition depends upon a broad set of conditions.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020234> "improvement of food and nutrition security system level outcome"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020234>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020235> (improvement of natural resources and ecosystem services system level outcome)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020235> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they 1) protect natural capital from climate change and adverse anthropogenic impacts (like overexploitation) and 2) promote conservation, restoration, and more sustainable management of natural resources.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020235> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020235> "2019-04-20T23:23:46Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020235> "Improve natural resources and ecosystem services")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020235> "Multi-functional agriculture can enhance benefits from ecosystem goods and services and a build more productive agricultural sector in the long run. We need agricultural systems that are diversified in ways that protect soils and water – helping to control soil erosion and improving its organic content, while also ensuring biomass for storing carbon and mitigating climate change. Natural capital must be enhanced and protected, from climate  change as well as from overexploitation and other forms of abuse. In high-risk areas, enhanced conservation of habitats and resources is needed. Finally, we will restore degraded agro-ecosystems, and more sustainably manage them for increased resilience of those ecosystems and the communities that depend on them.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020235> "improvement of natural resources and ecosystem services system level outcome"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020235>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
