@@ -7,17 +7,17 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.unep.org/sdg/sdgio.owl>
-Import(<http://purl.unep.org/sdg/imports/uberon_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/bfo_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/envo_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/obi_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/pco_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/pato_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/ro_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/iao_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/sdgio_indicator_values_import.ttl>)
-Import(<http://purl.unep.org/sdg/imports/ncbitaxon_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/chebi_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/envo_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/iao_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/ncbitaxon_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/obi_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/pato_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/pco_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/ro_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/sdgio_indicator_values_import.ttl>)
+Import(<http://purl.unep.org/sdg/imports/uberon_import.owl>)
 Annotation(rdfs:comment "This is the Sustainable Development Goals Interface Ontology (SDGIO) developed to support the realisation of the SDGs by providing a semantically coherent representations of relevant entities."^^xsd:string)
 
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000000>))
@@ -2699,7 +2699,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000251> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020233> (poverty reduction system level outcome)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020233> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote lifting people out of poverty by economic, technological, political, and societal measures.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020233> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote lifting people out of poverty by economic, technological, political, and societal measures.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020233> <https://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020233> "2019-04-19T12:00:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020233> "reduce poverty")
@@ -2709,7 +2709,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020234> (improvement of food and nutrition security system level outcome)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020234> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote the availability, access, use, and stability of or to a food supply.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020234> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote the availability, access, use, and stability of or to a food supply.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020234> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020234> "2019-04-19T12:14:17Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020234> "improve food and nutrition security")
@@ -2719,7 +2719,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020235> (improvement of natural resources and ecosystem services system level outcome)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cgiar.org/how-we-work/strategy/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020235> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they 1) protect natural capital from climate change and adverse anthropogenic impacts (like overexploitation) and 2) promote conservation, restoration, and more sustainable management of natural resources.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020235> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they 1) protect natural capital from climate change and adverse anthropogenic impacts (like overexploitation) and 2) promote conservation, restoration, and more sustainable management of natural resources.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020235> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020235> "2019-04-20T23:23:46Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020235> "Improve natural resources and ecosystem services")
