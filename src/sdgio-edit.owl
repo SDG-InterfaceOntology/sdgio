@@ -349,6 +349,8 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000252>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020233>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020234>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020235>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020238>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020239>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -2746,6 +2748,22 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020235> "Multi-functional agriculture can enhance benefits from ecosystem goods and services and a build more productive agricultural sector in the long run. We need agricultural systems that are diversified in ways that protect soils and water – helping to control soil erosion and improving its organic content, while also ensuring biomass for storing carbon and mitigating climate change. Natural capital must be enhanced and protected, from climate  change as well as from overexploitation and other forms of abuse. In high-risk areas, enhanced conservation of habitats and resources is needed. Finally, we will restore degraded agro-ecosystems, and more sustainably manage them for increased resilience of those ecosystems and the communities that depend on them.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020235> "improvement of natural resources and ecosystem services system level outcome"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020235>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020238> (Increased resilience of the poor to climate change and other shocks)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020238> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020238> "2019-04-28T12:16:49Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020238> "1"^^xsd:integer)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020238> "Increased resilience of the poor to climate change and other shocks"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020238>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020239> (Enhanced smallholder market access)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020239> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020239> "2019-04-28T12:19:53Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020239> "2"^^xsd:integer)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020239> "Enhanced smallholder market access"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020239>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
