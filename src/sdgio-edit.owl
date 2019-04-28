@@ -155,6 +155,8 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010078>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010079>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010080>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020232>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020236>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020237>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -1514,6 +1516,20 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020232> "SLO")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020232> "system level outcome"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00000251>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020236> (intermediate development outcome)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020236> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020236> "2019-04-28T11:19:21Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020236> "intermediate development outcome"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00000251>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020237> (sub-intermediate development outcome)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020237> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020237> "2019-04-28T11:19:43Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020237> "sub-intermediate development outcome"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00000251>)
 
 
 ############################
