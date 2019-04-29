@@ -351,6 +351,7 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020234>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020235>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020238>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020239>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020240>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -2765,6 +2766,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020239> <https://clarisa.cgiar.org/api/srf-idos/2>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020239> "enhanced smallholder market access"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020239>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020240> (Increased incomes and employment)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020240> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020240> "2019-04-29T16:20:12Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020240> <https://clarisa.cgiar.org/api/srf-idos/3>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020240> "Increased incomes and employment"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020240>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
