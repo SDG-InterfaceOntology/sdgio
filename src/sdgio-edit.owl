@@ -1530,7 +1530,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020237> (sub-outcome of an intermediate development outcome)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020237> "A CGIAR objective specification which describes the intended endpoint and outcome(s) of a process which, itself, is part of and contributes to a larger process directed by an intermediate level outcome.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020237> "A CGIAR objective specification which describes the intended endpoint and outcome(s) of a process which, itself, is part of and contributes to a larger process directed by an intermediate development outcome.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020237> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020237> "2019-04-28T11:19:43Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020237> "sub-IDO")
