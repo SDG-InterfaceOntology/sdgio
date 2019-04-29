@@ -2754,7 +2754,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/s
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020238> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020238> "2019-04-28T12:16:49Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020238> <CLARISA:1>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020238> <https://clarisa.cgiar.org/api/srf-idos/1>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020238> "increased resilience of the poor to climate change and other shocks"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020238>)
 
@@ -2762,7 +2762,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/s
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020239> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020239> "2019-04-28T12:19:53Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020239> <CLARISA:2>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020239> <https://clarisa.cgiar.org/api/srf-idos/2>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020239> "enhanced smallholder market access"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020239>)
 
