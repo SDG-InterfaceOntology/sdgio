@@ -363,6 +363,7 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020248>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020249>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020250>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020251>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020253>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -2873,6 +2874,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020251> <https://clarisa.cgiar.org/api/srf-idos/D1>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020251> "national partners and beneficiaries enabled"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020251>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020253> (increased household capacity to cope with shocks)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020253> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020253> "2019-04-30T16:21:55Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020253> <https://clarisa.cgiar.org/api/srf-sub-idos/1.1.1>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020253> "increased household capacity to cope with shocks"@en)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
