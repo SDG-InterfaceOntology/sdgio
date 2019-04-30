@@ -2864,6 +2864,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020250> "2019-04-29T16:31:57Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020250> <https://clarisa.cgiar.org/api/srf-idos/C1>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020250> "enabling environment improved"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020250>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020251> (national partners and beneficiaries enabled)
 
