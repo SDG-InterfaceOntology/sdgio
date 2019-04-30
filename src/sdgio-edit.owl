@@ -376,6 +376,14 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020263>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020264>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020265>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020266>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020267>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020268>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020269>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020270>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020271>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020272>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020273>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020274>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -2990,6 +2998,70 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020266> <https://clarisa.cgiar.org/api/srf-sub-idos/1.4.5>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020266> "increased access to productive assets, including natural resources"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020266>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020267> (increased availability of diverse nutrient-rich foods)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020267> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020267> "2019-04-30T16:53:39Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020267> <https://clarisa.cgiar.org/api/srf-sub-idos/2.1.1>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020267> "increased availability of diverse nutrient-rich foods"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020267>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020268> (increased access to diverse nutrient-rich foods)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020268> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020268> "2019-04-30T16:54:02Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020268> <https://clarisa.cgiar.org/api/srf-sub-idos/2.1.2>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020268> "increased access to diverse nutrient-rich foods"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020268>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020269> (optimized consumption of diverse nutrient-rich foods)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020269> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020269> "2019-04-30T16:54:19Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020269> <https://clarisa.cgiar.org/api/srf-sub-idos/2.1.3>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020269> "optimized consumption of diverse nutrient-rich foods"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020269>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020270> (reduced biological and chemical hazards in the food system)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020270> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020270> "2019-04-30T16:54:41Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020270> <https://clarisa.cgiar.org/api/srf-sub-idos/2.2.1>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020270> "reduced biological and chemical hazards in the food system"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020270>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020271> (appropriate regulatory environment for food safety)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020271> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020271> "2019-04-30T16:55:03Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020271> <https://clarisa.cgiar.org/api/srf-sub-idos/2.2.2>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020271> "appropriate regulatory environment for food safety"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020271>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020272> (improved water quality)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020272> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020272> "2019-04-30T16:55:19Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020272> <https://clarisa.cgiar.org/api/srf-sub-idos/2.3.1>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020272> "improved water quality"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020272>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020273> (reduced livestock and fish disease risks associated with intensification and climate change)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020273> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020273> "2019-04-30T16:55:35Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020273> <https://clarisa.cgiar.org/api/srf-sub-idos/2.3.2>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020273> "reduced livestock and fish disease risks associated with intensification and climate change"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020273>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020274> (increased safe use of inputs)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020274> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020274> "2019-04-30T16:55:55Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020274> <https://clarisa.cgiar.org/api/srf-sub-idos/2.3.3>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020274> "increased safe use of inputs"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020274>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
