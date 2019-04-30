@@ -351,6 +351,18 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020234>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020235>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020238>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020239>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020240>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020241>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020242>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020243>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020244>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020245>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020246>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020247>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020248>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020249>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020250>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020251>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -2765,6 +2777,102 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020239> <https://clarisa.cgiar.org/api/srf-idos/2>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020239> "enhanced smallholder market access"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020239>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020240> (Increased incomes and employment)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020240> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020240> "2019-04-29T16:20:12Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020240> <https://clarisa.cgiar.org/api/srf-idos/3>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020240> "Increased incomes and employment"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020240>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020241> (increased productivity)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020241> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020241> "2019-04-29T16:26:25Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020241> <https://clarisa.cgiar.org/api/srf-idos/4>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020241> "increased productivity"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020241>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020242> (improved diets for poor and vulnerable people)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020242> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020242> "2019-04-29T16:27:06Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020242> <https://clarisa.cgiar.org/api/srf-idos/5>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020242> "improved diets for poor and vulnerable people"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020242>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020243> (improved food security)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020243> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020243> "2019-04-29T16:27:28Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020243> <https://clarisa.cgiar.org/api/srf-idos/6>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020243> "improved food security"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020243>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020244> (improved human and animal health through better agricultural practices)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020244> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020244> "2019-04-29T16:28:08Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020244> <https://clarisa.cgiar.org/api/srf-idos/7>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020244> "improved human and animal health through better agricultural practices"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020244>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020245> (natural capital enhanced and protected, especially from climate change)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020245> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020245> "2019-04-29T16:29:07Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020245> <https://clarisa.cgiar.org/api/srf-idos/8>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020245> "natural capital enhanced and protected, especially from climate change"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020245>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020246> (enhanced benefits from ecosystem goods and services)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020246> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020246> "2019-04-29T16:29:41Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020246> <https://clarisa.cgiar.org/api/srf-idos/9>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020246> "enhanced benefits from ecosystem goods and services"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020246>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020247> (more sustainably managed agro-ecosystems)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020247> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020247> "2019-04-29T16:30:19Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020247> <https://clarisa.cgiar.org/api/srf-idos/10>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020247> "more sustainably managed agro-ecosystems"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020247>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020248> (mitigation and adaptation achieved)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020248> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020248> "2019-04-29T16:31:05Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020248> <https://clarisa.cgiar.org/api/srf-idos/A1>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020248> "mitigation and adaptation achieved"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020248>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020249> (equity and inclusion achieved)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020249> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020249> "2019-04-29T16:31:30Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020249> <https://clarisa.cgiar.org/api/srf-idos/B1>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020249> "equity and inclusion achieved"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020249>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020250> (enabling environment improved)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020250> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020250> "2019-04-29T16:31:57Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020250> <https://clarisa.cgiar.org/api/srf-idos/C1>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020250> "enabling environment improved"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020250>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020251> (national partners and beneficiaries enabled)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020251> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020251> "2019-04-29T16:32:19Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020251> <https://clarisa.cgiar.org/api/srf-idos/D1>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020251> "national partners and beneficiaries enabled"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020251>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
