@@ -3144,31 +3144,28 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020281> "increased resilience of agro-ecosystems and communities, especially those including smallholders"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020281>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020282> (enhanced adaptive capacity to climate risks)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020282> (enhanced adaptive capacity to climate risks through more sustainably managed agro-ecosystems)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020282> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020282> "2019-04-30T20:51:07Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020282> <https://clarisa.cgiar.org/api/srf-sub-idos/3.3.2>)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020282> "The original wording of this IDO has a parenthetical extension to its label which reads: \"More sustainably managed agro-ecosystems\". This has been removed for clarity and consistency.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020282> "enhanced adaptive capacity to climate risks"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020282> "enhanced adaptive capacity to climate risks through more sustainably managed agro-ecosystems"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020282>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020283> (reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020283> (reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use through more sustainably managed agro-ecosystems)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020283> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020283> "2019-04-30T20:51:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020283> <https://clarisa.cgiar.org/api/srf-sub-idos/3.3.3>)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020283> "The original wording of this IDO has a parenthetical extension to its label which reads: \"More sustainably managed agro-ecosystems\". This has been removed for clarity and consistency.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020283> "reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020283> "reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use through more sustainably managed agro-ecosystems"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020283>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020284> (reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020284> (reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use through the achievement of mitigation and adaptation plans)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020284> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020284> "2019-04-30T20:51:47Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020284> <https://clarisa.cgiar.org/api/srf-sub-idos/A.1.1>)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020284> "The original wording of this IDO has a parenthetical extension to its label which reads: \"Mitigation and adaptation achieved\". This has been removed for clarity and consistency.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020284> "reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020284> "reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use through the achievement of mitigation and adaptation plans"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020284>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020285> (increased above- and below-ground biomass for carbon sequestration)
@@ -3187,13 +3184,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020286> "improved forecasting of impacts of climate change and targeted technology development"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020286>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020287> (enhanced capacity to deal with climactic risks and extremes)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020287> (enhanced capacity to deal with climactic risks and extremes through the achievement of mitigation and adaptation plans)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020287> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020287> "2019-04-30T20:53:07Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020287> <https://clarisa.cgiar.org/api/srf-sub-idos/A.1.4>)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020287> "The original wording of this IDO has a parenthetical extension to its label which reads: \"Mitigation and adaptation achieved\". This has been removed for clarity and consistency.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020287> "enhanced capacity to deal with climactic risks and extremes"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020287> "enhanced capacity to deal with climactic risks and extremes through the achievement of mitigation and adaptation plans"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020287>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020288> (enabled environment for climate resilience)
