@@ -3146,7 +3146,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020282> (enhanced adaptive capacity to climate risks through more sustainably managed agro-ecosystems)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020282> "enhanced adaptive capacity to climate risks (more sustainably managed agro-ecosystems)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020282> "Enhanced adaptive capacity to climate risks (More sustainably managed agro-ecosystems)")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020282> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020282> "2019-04-30T20:51:07Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020282> <https://clarisa.cgiar.org/api/srf-sub-idos/3.3.2>)
@@ -3155,7 +3155,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020283> (reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use through more sustainably managed agro-ecosystems)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020283> "reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use (more sustainably managed agro-ecosystems)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020283> "Reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use (More sustainably managed agro-ecosystems)")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020283> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020283> "2019-04-30T20:51:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020283> <https://clarisa.cgiar.org/api/srf-sub-idos/3.3.3>)
@@ -3164,7 +3164,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020284> (reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use through the achievement of mitigation and adaptation plans)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020284> "reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use (mitigation and adaptation achieved)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020284> "Reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use (Mitigation and adaptation achieved)")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020284> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020284> "2019-04-30T20:51:47Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020284> <https://clarisa.cgiar.org/api/srf-sub-idos/A.1.1>)
@@ -3189,7 +3189,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020287> (enhanced capacity to deal with climactic risks and extremes through the achievement of mitigation and adaptation plans)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020287> "enhanced capacity to deal with climactic risks and extremes (mitigation and adaptation achieved)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020287> "Enhanced capacity to deal with climactic risks and extremes (Mitigation and adaptation achieved)")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020287> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020287> "2019-04-30T20:53:07Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020287> <https://clarisa.cgiar.org/api/srf-sub-idos/A.1.4>)
@@ -3214,6 +3214,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020290> (technologies that reduce women's labor and energy expenditure adopted)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020290> "Technologies that reduce women`s labor and energy expenditure adopted")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020290> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020290> "2019-04-30T20:54:21Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020290> <https://clarisa.cgiar.org/api/srf-sub-idos/B.1.2>)
