@@ -410,6 +410,7 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020296>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020297>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020298>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020299>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020302>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -1597,12 +1598,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020237> "sub-outcome of an intermediate development outcome"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00000251>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020300> (cross-cutting issue)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020300> (cross-cutting objective)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020300> "A CGIAR objective specification which directs the organisation's mission such that 1) it contributes to the United Nation’s Sustainable Development Goals and 2) each research group contributes to its achievement.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020300> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020300> "2019-05-08T20:44:23Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020300> "cross-cutting issue"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020300> "cross-cutting issue")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020300> "cross-cutting objective"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00000251>)
 
 
@@ -3301,6 +3303,16 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020299> <https://clarisa.cgiar.org/api/srf-sub-idos/D.1.4>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020299> "increased capacity for innovation in partner development organizations and in poor and vulnerable communities"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020299>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020302> (adaptation to and mitigation of climate change through agricultural research)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020302> "A cross-cutting objective which specifies the objective of the planned process undertaken by the CGIAR such that they promote adaptation to and mitigation of climate change through agricultural research.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020302> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020302> "2019-05-08T21:18:39Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020302> "All research and development activities need to build in resilience to climate shocks and a focus on adaptation to and mitigation of climate change. Agriculture including forestry could be the most efficient contributor to the reduction of greenhouse gases through storage in the biomass and the healthy soils. CGIAR is committed to devoting
+at least 60% of its research to those issues.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020302> "adaptation to and mitigation of climate change through agricultural research"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020302>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
