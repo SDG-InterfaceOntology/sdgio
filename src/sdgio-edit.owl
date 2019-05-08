@@ -411,6 +411,7 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020297>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020298>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020299>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020302>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020303>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -3306,13 +3307,28 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020302> (adaptation to and mitigation of climate change through agricultural research)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020302> "A cross-cutting objective which specifies the objective of the planned process undertaken by the CGIAR such that they promote adaptation to and mitigation of climate change through agricultural research.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020302> "A cross-cutting objective which specifies the objective of the planned process undertaken by the CGIAR such that they promote adaptation to and mitigation of climate change through agricultural research.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020302> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020302> "2019-05-08T21:18:39Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020302> "All research and development activities need to build in resilience to climate shocks and a focus on adaptation to and mitigation of climate change. Agriculture including forestry could be the most efficient contributor to the reduction of greenhouse gases through storage in the biomass and the healthy soils. CGIAR is committed to devoting
 at least 60% of its research to those issues.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020302> "adaptation to and mitigation of climate change through agricultural research"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020302>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020303> (achievement of gender equity and youth inclusion)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020303> "A cross-cutting objective which specifies the objective of the planned process undertaken by the CGIAR such that they promote adaptation to and mitigation of climate change through agricultural research.
+
+
+Research conducted by CGIAR and its partners must be gender- sensitive and promote gender equity – that is, it is adapted to both the needs and the aspirations of poor women. The needs of young people must also be taken into account. Prioritizing rural and food sector entrepreneurship along agri-food supply chains will provide major
+opportunities for youth employment.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020303> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020303> "2019-05-08T21:32:17Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020303> "gender and youth")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020303> "Research conducted by CGIAR and its partners must be gender- sensitive and promote gender equity – that is, it is adapted to both the needs and the aspirations of poor women. The needs of young people must also be taken into account. Prioritizing rural and food sector entrepreneurship along agri-food supply chains will provide major
+opportunities for youth employment.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020303> "achievement of gender equity and youth inclusion"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020303>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
