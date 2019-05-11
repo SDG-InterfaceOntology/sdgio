@@ -3201,13 +3201,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020286> "improved forecasting of impacts of climate change and targeted technology development"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020286>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020287> (enhanced capacity to deal with climactic risks and extremes through the achievement of mitigation and adaptation plans)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020287> (enhanced capacity to deal with climatic risks and extremes through the achievement of mitigation and adaptation plans)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020287> "Enhanced capacity to deal with climactic risks and extremes (Mitigation and adaptation achieved)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020287> "Enhanced capacity to deal with climatic risks and extremes (Mitigation and adaptation achieved)")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020287> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020287> "2019-04-30T20:53:07Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020287> <https://clarisa.cgiar.org/api/srf-sub-idos/A.1.4>)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020287> "enhanced capacity to deal with climactic risks and extremes through the achievement of mitigation and adaptation plans"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020287> "enhanced capacity to deal with climatic risks and extremes through the achievement of mitigation and adaptation plans"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020287>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020288> (enabled environment for climate resilience)
