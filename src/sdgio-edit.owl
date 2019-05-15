@@ -3327,13 +3327,13 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020304> "reform policies and institutions"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020304>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020305> (increase agri-food research productivity and of innovation in the agri-food system)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020305> (increase agri-food research productivity and innovation in the agri-food system)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020305> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020305> "2019-05-09T00:46:39Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020305> "capacity development")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020305> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that 1) they improve agri-food research productivity and 2) innovation throughout the agri-food system. As CGIAR notes: \"The need for capacity development arises in all fields of agri-food research, but is particularly pressing in new areas such as data management and communication technologies, landscape analysis and climate-smart agriculture. Besides addressing the needs of the research community, capacity development should seek to enhance innovation throughout the agri-food system, including farmers and other groups along the value chain.\"")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020305> "increase agri-food research productivity and of innovation in the agri-food system"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020305> "increase agri-food research productivity and innovation in the agri-food system"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020305>)
 
 
