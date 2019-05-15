@@ -409,7 +409,6 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020295>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020296>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020297>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020298>))
-Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020299>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020302>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020303>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020304>))
@@ -1601,13 +1600,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020237> "sub-outcome of an intermediate development outcome"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00000251>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020300> (cross-cutting objective)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020300> (CGIAR cross-cutting objective)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020300> "A CGIAR objective specification which directs the organisation's mission such that 1) it contributes to the United Nation’s Sustainable Development Goals and 2) each research group contributes to its achievement.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020300> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020300> "2019-05-08T20:44:23Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020300> "cross-cutting issue")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020300> "cross-cutting objective"@en)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020300> "")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020300> "CGIAR cross-cutting objective"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00000251>)
 
 
@@ -3201,21 +3201,22 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020286> "improved forecasting of impacts of climate change and targeted technology development"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020286>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020287> (enhanced capacity to deal with climatic risks and extremes through the achievement of mitigation and adaptation plans)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020287> (enhancement of the capacity to deal with climatic risks and extremes through the achievement of mitigation and adaptation plans)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020287> "Enhanced capacity to deal with climatic risks and extremes (Mitigation and adaptation achieved)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020287> "Enhanced capacity to deal with climactic risks and extremes (Mitigation and adaptation achieved)")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020287> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020287> "2019-04-30T20:53:07Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020287> <https://clarisa.cgiar.org/api/srf-sub-idos/A.1.4>)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020287> "enhanced capacity to deal with climatic risks and extremes through the achievement of mitigation and adaptation plans"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020287> "enhancement of the capacity to deal with climatic risks and extremes through the achievement of mitigation and adaptation plans"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020287>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020288> (enabled environment for climate resilience)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020288> (enable an environment conducive to climate resilience)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020288> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020288> "2019-04-30T20:53:26Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020288> <https://clarisa.cgiar.org/api/srf-sub-idos/A.1.5>)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020288> "enabled environment for climate resilience"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020288> "Enabled environment for climate resilience")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020288> "enable an environment conducive to climate resilience"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020288>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020289> (gender-equitable control of productive assets and resources)
@@ -3291,59 +3292,48 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020297> "enhanced individual capacity in partner research organizations through training and exchange"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020297>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020298> (increased capacity for innovations in partner research organizations)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020298> (increment of the capacity for innovations in partner research organizations)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020298> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020298> "2019-04-30T20:57:16Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020298> <https://clarisa.cgiar.org/api/srf-sub-idos/D.1.3>)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020298> "increased capacity for innovations in partner research organizations"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020298> "Increased capacity for innovations in partner research organizations")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020298> "increment of the capacity for innovations in partner research organizations"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020298>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020299> (increased capacity for innovation in partner development organizations and in poor and vulnerable communities)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020302> (adaptat to and mitigate climate change through agricultural research)
 
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020299> <http://orcid.org/0000-0062-3253-4387>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020299> "2019-04-30T20:57:31Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020299> <https://clarisa.cgiar.org/api/srf-sub-idos/D.1.4>)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020299> "increased capacity for innovation in partner development organizations and in poor and vulnerable communities"@en)
-ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020299>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020302> (adaptation to and mitigation of climate change through agricultural research)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020302> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that they improve adaptation to and mitigation of climate change through agricultural research.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020302> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020302> "2019-05-08T21:18:39Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020302> "All research and development activities need to build in resilience to climate shocks and a focus on adaptation to and mitigation of climate change. Agriculture including forestry could be the most efficient contributor to the reduction of greenhouse gases through storage in the biomass and the healthy soils. CGIAR is committed to devoting
-at least 60% of its research to those issues.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020302> "adaptation to and mitigation of climate change through agricultural research"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020302> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that they improve adaptation to and mitigation of climate change through agricultural research. As CIGIAR notes: \"All research and development activities need to build in resilience to climate shocks and a focus on adaptation to and mitigation of climate change. Agriculture including forestry could be the most efficient contributor to the reduction of greenhouse gases through storage in the biomass and the healthy soils. CGIAR is committed to devoting
+at least 60% of its research to those issues.\"")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020302> "adaptat to and mitigate climate change through agricultural research"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020302>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020303> (achievement of gender equity and youth employment)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020303> (achieve gender equity and youth employment)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020303> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that they improve gender equity, especially concerning poor women, and youth inclusion employment.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020303> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020303> "2019-05-08T21:32:17Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020303> "gender and youth")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020303> "Research conducted by CGIAR and its partners must be gender- sensitive and promote gender equity – that is, it is adapted to both the needs and the aspirations of poor women. The needs of young people must also be taken into account. Prioritizing rural and food sector entrepreneurship along agri-food supply chains will provide major opportunities for youth employment.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020303> "achievement of gender equity and youth employment"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020303> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that they improve gender equity, especially concerning poor women, and youth inclusion employment. As CGIAR notes: \"Research conducted by CGIAR and its partners must be gender- sensitive and promote gender equity – that is, it is adapted to both the needs and the aspirations of poor women. The needs of young people must also be taken into account. Prioritizing rural and food sector entrepreneurship along agri-food supply chains will provide major opportunities for youth employment.\"")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020303> "achieve gender equity and youth employment"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020303>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020304> (reformation of policies and institutions)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020304> (reform policies and institutions)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020304> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that they reform policies and institutions so that such policies and institutions effectively contributes to achieving the CGIAR system level objectives.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020304> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020304> "2019-05-09T00:36:14Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020304> "Research must provide evidence as a basis for reforming agri-food policies and institutions to make them more conducive to pro-poor development, to improved nutrition and the sustainable management of natural resources. Again, this spans most CGIAR and partner research activities with a special need in economic and social sciences.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020304> "reformation of policies and institutions"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020304> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that they reform policies and institutions so that such policies and institutions effectively contributes to achieving the CGIAR system level objectives. As CGIAR notes: \"Research must provide evidence as a basis for reforming agri-food policies and institutions to make them more conducive to pro-poor development, to improved nutrition and the sustainable management of natural resources. Again, this spans most CGIAR and partner research activities with a special need in economic and social sciences.\"")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020304> "reform policies and institutions"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020304>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020305> (increment of agri-food research productivity and of innovation in the agri-food system)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020305> (increase agri-food research productivity and of innovation in the agri-food system)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020305> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that 1) they improve agri-food research productivity and 2) innovation throughout the agri-food system.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020305> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020305> "2019-05-09T00:46:39Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020305> "capacity development")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020305> "The need for capacity development arises in all fields of agri-food research, but is particularly pressing in new areas such as data management and communication technologies, landscape analysis and climate-smart agriculture. Besides addressing the needs of the research community, capacity development should seek to enhance innovation throughout the agri-food system, including farmers and other groups along the value chain.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020305> "increment of agri-food research productivity and of innovation in the agri-food system"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020305> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that 1) they improve agri-food research productivity and 2) innovation throughout the agri-food system. As CGIAR notes: \"The need for capacity development arises in all fields of agri-food research, but is particularly pressing in new areas such as data management and communication technologies, landscape analysis and climate-smart agriculture. Besides addressing the needs of the research community, capacity development should seek to enhance innovation throughout the agri-food system, including farmers and other groups along the value chain.\"")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020305> "increase agri-food research productivity and of innovation in the agri-food system"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020305>)
 
 
