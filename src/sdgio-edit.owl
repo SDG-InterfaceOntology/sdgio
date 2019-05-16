@@ -1606,7 +1606,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020300> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020300> "2019-05-08T20:44:23Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020300> "cross-cutting issue")
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020300> "")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020300> "CGIAR cross-cutting objective"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00000251>)
 
