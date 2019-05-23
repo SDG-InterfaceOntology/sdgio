@@ -346,7 +346,6 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000237>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000238>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000239>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000240>))
-Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000252>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020233>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020234>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020235>))
@@ -2782,14 +2781,6 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000240> "17.19")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000240> "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000240>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00000252> (test CGIAR IDO)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00000252> "http://orcid.org/0000-0002-4366-3088"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.unep.org/sdg/SDGIO_00000252> "2019-04-17T11:40:33Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000252> "This is just a placeholder to be edited/updated.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000252> "test CGIAR IDO"@en)
-ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000251> <http://purl.unep.org/sdg/SDGIO_00000252>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020233> (poverty reduction system level outcome)
 
