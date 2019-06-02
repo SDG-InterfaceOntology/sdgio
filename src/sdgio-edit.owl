@@ -1601,7 +1601,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020300> (CGIAR cross-cutting objective)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020300> "A CGIAR objective specification which directs the organisation's mission such that 1) it contributes to the United Nation's Sustainable Development Goals and 2) each research group contributes to its achievement.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020300> "A CGIAR objective specification which directs the organisation's mission such that 1) it contributes to the United Nations Sustainable Development Goals and 2) each research group contributes to its achievement.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020300> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020300> "2019-05-08T20:44:23Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020300> "cross-cutting issue")
@@ -3361,7 +3361,6 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/s
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020303> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020303> "2019-05-08T21:32:17Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020303> "gender and youth")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020303> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that they improve gender equity, especially concerning poor women, and youth inclusion employment. As CGIAR notes: \"Research conducted by CGIAR and its partners must be gender- sensitive and promote gender equity – that is, it is adapted to both the needs and the aspirations of poor women. The needs of young people must also be taken into account. Prioritizing rural and food sector entrepreneurship along agri-food supply chains will provide major opportunities for youth employment.\"")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020303> "achieve gender equity and youth employment in the agri-food supply chains"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020303>)
@@ -3378,7 +3377,6 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/s
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020305> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020305> "2019-05-09T00:46:39Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020305> "capacity development")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020305> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that 1) they improve agri-food research productivity and 2) innovation throughout the agri-food system. As CGIAR notes: \"The need for capacity development arises in all fields of agri-food research, but is particularly pressing in new areas such as data management and communication technologies, landscape analysis and climate-smart agriculture. Besides addressing the needs of the research community, capacity development should seek to enhance innovation throughout the agri-food system, including farmers and other groups along the value chain.\"")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020305> "increase research productivity and innovation in the agri-food system"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020305>)
