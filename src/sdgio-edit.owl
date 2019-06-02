@@ -7,17 +7,17 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.unep.org/sdg/sdgio.owl>
-Import(<http://purl.unep.org/sdg/imports/uberon_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/bfo_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/envo_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/obi_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/pco_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/pato_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/ro_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/iao_import.owl>)
-Import(<http://purl.unep.org/sdg/imports/sdgio_indicator_values_import.ttl>)
-Import(<http://purl.unep.org/sdg/imports/ncbitaxon_import.owl>)
 Import(<http://purl.unep.org/sdg/imports/chebi_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/envo_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/iao_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/ncbitaxon_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/obi_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/pato_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/pco_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/ro_import.owl>)
+Import(<http://purl.unep.org/sdg/imports/sdgio_indicator_values_import.ttl>)
+Import(<http://purl.unep.org/sdg/imports/uberon_import.owl>)
 Annotation(rdfs:comment "This is the Sustainable Development Goals Interface Ontology (SDGIO) developed to support the realisation of the SDGs by providing a semantically coherent representations of relevant entities."^^xsd:string)
 
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000000>))
@@ -158,6 +158,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020232>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020236>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020237>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020300>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020308>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -1607,6 +1608,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020300> "cross-cutting issue")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020300> "CGIAR cross-cutting objective"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00000251>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020308> (process to reduce poverty)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020308> "A planned process during which an agent - through either economic, technological, political, or societal measures - causes or contributes to people not lacking goods or services for a normal life.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020308> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020308> "2019-06-02T19:41:10Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020308> "process to reduce poverty"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020308> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 
 ############################
