@@ -1886,6 +1886,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020339> ObjectSomeValuesFrom(<http:
 # Class: <http://purl.unep.org/sdg/SDGIO_00020341> (diet)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020341> "A process during which an organism consumes materials to preserve its life.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020341> "This definition will be obsolete when the same item will be added to Ecocore.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020341> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020341> "2019-06-05T15:17:41Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020341> "diet"@en)
@@ -1904,6 +1905,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00020343> (human diet)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020343> "A process during which a human being consumes materials to preserve its life.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020343> "This definition will be obsolete when the same item will be added to Ecocore.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020343> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020343> "2019-06-05T15:23:15Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020343> "human diet"@en)
