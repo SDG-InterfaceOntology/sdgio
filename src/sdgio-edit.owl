@@ -186,6 +186,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020334>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020335>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020337>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020338>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020339>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -1783,7 +1784,7 @@ that foods of either good quality or sufficient quantity or sufficient diversity
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020326> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020326> "2019-06-03T19:30:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020326> "planned process to improve human diet"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020327> (planned process to improve sustained access to natural resources)
 
@@ -1841,6 +1842,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020334> "2019-06-04T18:46:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020334> "planned process to manage natural resources"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020334> <http://purl.unep.org/sdg/SDGIO_00020335>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020334> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020339>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020335> (planned process to manage resources)
 
@@ -1867,6 +1869,16 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020338> "2019-06-04T20:52:58Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020338> "planned process to respond to challenges"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020338> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020339> (natural resource)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020339> "A resource which is derived from a natural environment in which minimal or no anthropisation has occurred.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020339> "For the definition of natural environment, see the following item: http://purl.obolibrary.org/obo/ENVO_01000951.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020339> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020339> "2019-06-05T14:50:44Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020339> "natural resource"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020339> <http://purl.unep.org/sdg/SDGIO_00000013>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020339> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> <http://purl.obolibrary.org/obo/ENVO_01000951>))
 
 
 ############################
