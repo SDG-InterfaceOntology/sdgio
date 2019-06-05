@@ -1696,12 +1696,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020315> "planned process to apply or improve institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020315> <http://purl.unep.org/sdg/SDGIO_00020330>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020316> (process to increase the research capacity of CGIAR national partners and beneficiaries)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020316> (planned process to increase the research capacity of CGIAR national partners and beneficiaries)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020316> "A planned process during which an agent - through the exchange of information or training -  causes or contributes to increase the research capacity of CGIAR partners.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020316> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020316> "2019-06-02T20:33:10Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020316> "process to increase the research capacity of CGIAR national partners and beneficiaries"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020316> "planned process to increase the research capacity of CGIAR national partners and beneficiaries"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020316> <http://purl.unep.org/sdg/SDGIO_00020331>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020317> (planned process to improve the forecasting of impacts of climate change)
@@ -1736,36 +1736,36 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020320> "planned process to increment the capacity of beneficiaries to adopt research outputs"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020320> <http://purl.unep.org/sdg/SDGIO_00020315>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020321> (process to enhance the institutional capacity of research organizations that partner with CGIAR)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020321> (planned process to enhance the institutional capacity of research organizations that partner with CGIAR)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020321> "A planned process during which an agent causes or contributes to the enhancement of the institutional capacity of partner research organizations")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020321> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020321> "2019-06-02T20:40:27Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020321> "process to enhance the institutional capacity of research organizations that partner with CGIAR"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020321> "planned process to enhance the institutional capacity of research organizations that partner with CGIAR"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020321> <http://purl.unep.org/sdg/SDGIO_00020316>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020322> (process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020322> (planned process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020322> "A planned process during which an agent causes or contributes to the enhancement of the individual capacity in partner research organizations through training or exchange")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020322> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020322> "2019-06-02T20:41:04Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020322> "process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020322> "planned process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020322> <http://purl.unep.org/sdg/SDGIO_00020316>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020323> (process to increment the capacity for innovations in partner research organizations)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020323> (planned process to increment the capacity for innovations in partner research organizations)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020323> "A planned process during which an agent causes or contributes to the increment of the capacity for innovations in partner research organizations")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020323> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020323> "2019-06-02T20:42:06Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020323> "process to increment the capacity for innovations in partner research organizations"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020323> "planned process to increment the capacity for innovations in partner research organizations"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020323> <http://purl.unep.org/sdg/SDGIO_00020316>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020324> (process to increment the capacity for innovation in either partner development organizations, poor communities, or vulnerable communities)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020324> (planned process to increment the capacity for innovation in either partner development organizations, poor communities, or vulnerable communities)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020324> "A planned process during which an agent causes or contributes to the increment of the capacity for innovation in either partner development organizations, in poor communities, or in vulnerable communities")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020324> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020324> "2019-06-02T20:42:52Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020324> "process to increment the capacity for innovation in either partner development organizations, poor communities, or vulnerable communities"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020324> "planned process to increment the capacity for innovation in either partner development organizations, poor communities, or vulnerable communities"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020324> <http://purl.unep.org/sdg/SDGIO_00020316>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020325> (planned process to respond to climate change)
@@ -1826,12 +1826,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020331> "planned process to increase productivity or production capacity of agents"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020331> <http://purl.unep.org/sdg/SDGIO_00020335>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020332> (process to increase research capacity)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020332> (planned process to increase research capacity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020332> "A planned process during which an agent causes or contributes to increase the research capacity of an agent or group of agents.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020332> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020332> "2019-06-04T17:57:19Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020332> "process to increase research capacity"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020332> "planned process to increase research capacity"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020332> <http://purl.unep.org/sdg/SDGIO_00020331>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020334> (planned process to manage natural resources)
@@ -1845,7 +1845,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020334> <http://purl.unep.org/sdg/S
 # Class: <http://purl.unep.org/sdg/SDGIO_00020335> (planned process to manage resources)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020335> "A planned process during which an agent causes or contributes to the utlization or protection of resources.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020335> "The SDGIO contains an entry \"resource\". It is appropriate to link that entry to this entry. However, the entry \"resource\" does not have a PURL.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020335> "The SDGIO contains the entry 'resource'. Its PURL is the following: http://purl.unep.org/sdg/SDGIO_00000013.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020335> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020335> "2019-06-04T18:48:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020335> "planned process to manage resources"@en)
