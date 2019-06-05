@@ -187,6 +187,9 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020335>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020337>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020338>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020339>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020341>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020342>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020343>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -1779,12 +1782,12 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020326> (planned process to improve human diet)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020326> "A planned process during which an agent causes or contributes to secure
-that foods of either good quality or sufficient quantity or sufficient diversity are either stably available or stably consumed by every person.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020326> "A planned process during which an agent causes or contributes to secure that foods of either good quality or sufficient quantity or sufficient diversity are either stably available or stably consumed by every human being.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020326> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020326> "2019-06-03T19:30:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020326> "planned process to improve human diet"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> <http://purl.unep.org/sdg/SDGIO_00020342>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00020343>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020327> (planned process to improve sustained access to natural resources)
 
@@ -1879,6 +1882,32 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020339> "natural resource"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020339> <http://purl.unep.org/sdg/SDGIO_00000013>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020339> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> <http://purl.obolibrary.org/obo/ENVO_01000951>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020341> (diet)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020341> "A process during which an organism consumes materials to preserve its life.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020341> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020341> "2019-06-05T15:17:41Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020341> "diet"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020341> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020341> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00020341>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020342> (planned process to improve diet)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020342> "A planned process during which an agent causes or contributes to secure
+that foods of either good quality or sufficient quantity or sufficient diversity are either stably available or stably consumed by some organism.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020342> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020342> "2019-06-05T15:18:28Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020342> "planned process to improve diet"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020343> (human diet)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020343> "A process during which a human being consumes materials to preserve its life.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020343> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020343> "2019-06-05T15:23:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020343> "human diet"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020343> <http://purl.unep.org/sdg/SDGIO_00020341>)
 
 
 ############################
