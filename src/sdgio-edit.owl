@@ -1850,6 +1850,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020335> "2019-06-04T18:48:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020335> "planned process to manage resources"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020335> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00000013>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020337> (planned process to achieve or maintain fairness)
 
