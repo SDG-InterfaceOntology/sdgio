@@ -1787,7 +1787,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020326> "2019-06-03T19:30:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020326> "planned process to improve human diet"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> <http://purl.unep.org/sdg/SDGIO_00020342>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00020343>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020327> (planned process to improve sustained access to natural resources)
 
