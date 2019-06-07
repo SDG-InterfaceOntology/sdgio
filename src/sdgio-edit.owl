@@ -1606,12 +1606,13 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010079> <http://purl.unep.org/sdg/S
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010080> "emergency service"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010080> <http://purl.unep.org/sdg/SDGIO_00010071>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020232> (system level outcome)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020232> (system level objective)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020232> "A CGIAR objective specification which directs the organisation's mission such that it contributes to the United Nation's Sustainable Development Goals.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020232> "https://orcid.org/0000-0062-3253-4387")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020232> "SLO")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020232> "system level outcome"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020232> "system level outcome")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020232> "system level objective"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00000251>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020236> (intermediate development outcome)
