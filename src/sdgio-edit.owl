@@ -1684,6 +1684,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020312> "planned process to mitigate climate change"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020312> <http://purl.unep.org/sdg/SDGIO_00020325>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_01000629>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_01000629>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020313> (planned process to adapt to climate change)
 
@@ -1693,6 +1694,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020313> "planned process to adapt to climate change"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020313> <http://purl.unep.org/sdg/SDGIO_00020325>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_01000629>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_01000629>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020315> (planned process to apply or improve institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture)
 
@@ -1722,6 +1724,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020317> "planned process to improve the forecasting of impacts of climate change"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020317> <http://purl.unep.org/sdg/SDGIO_00020325>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_01000629>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_01000629>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020318> (planned process to improve the capacity of women to participate in decision-making)
 
@@ -1792,6 +1795,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http:
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020312>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020313>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020317>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_01000629>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020326> (planned process to improve human diet)
 
