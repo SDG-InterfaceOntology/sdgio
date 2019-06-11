@@ -1793,7 +1793,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http:
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020313>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020317>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_01000629>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/ENVO_01000629>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020326> (planned process to improve human diet)
 
@@ -1874,7 +1873,6 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020335> "planne
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020335> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00000013>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.unep.org/sdg/SDGIO_00000013>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.unep.org/sdg/SDGIO_00000013>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020337> (planned process to achieve or maintain fairness)
 
@@ -1922,7 +1920,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> <http://purl.obolibrary.org
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020341>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.unep.org/sdg/SDGIO_00020341>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.unep.org/sdg/SDGIO_00020341>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.unep.org/sdg/SDGIO_00020341>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020343> (human diet)
 
