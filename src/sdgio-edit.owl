@@ -1913,6 +1913,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020342> "planned process to improve diet"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020341>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.unep.org/sdg/SDGIO_00020341>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.unep.org/sdg/SDGIO_00020341>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020343> (human diet)
 
