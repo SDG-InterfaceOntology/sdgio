@@ -1862,7 +1862,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020334> ObjectSomeValuesFrom(<http:
 # Class: <http://purl.unep.org/sdg/SDGIO_00020335> (planned process to manage resources)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020335> "A planned process during which an agent causes or contributes to the utlization or protection of resources.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020335> "The SDGIO contains the entry 'resource'. Its PURL is the following: http://purl.unep.org/sdg/SDGIO_00000013.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020335> "")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020335> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020335> "2019-06-04T18:48:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020335> "planned process to manage resources"@en)
