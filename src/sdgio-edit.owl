@@ -3585,13 +3585,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020289> "establish gender-equitable control of productive assets and resources")
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020289>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020290> (adoption of technologies that reduce women's labor and energy expenditure)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020290> (adopt technologies that reduce women's labor and energy expenditure)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020290> "Technologies that reduce women`s labor and energy expenditure adopted")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020290> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020290> "2019-04-30T20:54:21Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020290> <https://clarisa.cgiar.org/api/srf-sub-idos/B.1.2>)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020290> "adoption of technologies that reduce women's labor and energy expenditure"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020290> "adopt technologies that reduce women's labor and energy expenditure"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020290>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020291> (improve the capacity of women and young people to participate in decision making)
