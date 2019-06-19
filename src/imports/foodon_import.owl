@@ -55,6 +55,47 @@
         <obo:IAO_0000115 xml:lang="en">The methods contributing to the prevention or retardation of microbial, enzymatic or oxidative spoilage and thus to the extension of shelf life. Index all methods for which information is available, even if a corresponding descriptor has already been used in *H. TREATMENT APPLIED*. Preservation descriptors refer to the finished food as a whole with these exceptions: (1) if the components of a multi-component food, such as cream pie, are preservation by different methods, index all methods; (2)  if chemical preservatives are declared on the label, always index them even if it is known that the preservative was introduced through or is only present in a component or ingredient of the food; and (3) if the preservation method for an ingredient is declared on the label (such as brie cheese made from pasteurized milk) index it. Also use *INGREDIENT preservation by THERMAL PROCESSING* or *INGREDIENT preservation by IRRADIATION* when ingredients have been pasteurized, ultrapasteurized, sterilized or irradiated.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">food preservation process</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510032"/>
+        <obo:IAO_0000115 xml:lang="en">Renamed from *FOOD FOR SPECIAL DIETARY USE* [LanguaL 2008].
+
+These descriptors are used either for foods intended for special dietary use as defined in 21 CFR 105 or for foods that have special characteristics indicated in the name or labeling. Such claims would include &apos;low calorie&apos;, &apos;low cholesterol&apos;, &apos;diet&apos; or &apos;dietetic&apos;, etc. Prior to february 1992, this category of descriptors was limited solely to food for adult humans. The category is now used in conjunction with any appropriate *CONSUMER GROUP* descriptor(s), for example, &apos;low sugar baby food&apos; would be indexed by *INFANT OR TODDLER FOOD* as well as by *LOW SUGARS FOOD*.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary claim or use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510032">
+        <obo:IAO_0000115 xml:lang="en">Dietary use, where the food has special characteristics, claims or uses or is intended for individuals with particular dietary needs; and label or labeling claims, used when special dietary use factor terms were derived from actual food labels. Multiple descriptors may be used from all three categories. [FDA CFSAN 1995]
+
+FoodOn curation note: Consumer Group has been relocated to a top-level FoodOn category.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dietary use/label claim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510023"/>
+        <obo:IAO_0000115 xml:lang="en">As defined in Corrigendum to Regulation (EC) No 1924/2006 of the European Parliament and of the Council of 20 December 2006 on nutrition and health claims made on foods, &quot;claim&quot; means any message or representation, which is not
+mandatory under Community or national legislation, including pictorial, graphic or symbolic representation, in any form, which states, suggests or implies that a food has particular characteristics; specificly, &quot;nutrition claim&quot; means any claim which states, suggests or implies that a food has particular beneficial nutritional properties
+due to:
+
+(a) the energy (calorific value) it (i) provides; (ii) provides at a reduced or increased rate; or (iii) does not provide;
+
+and/or
+
+(b) the nutrients or other substances it (i) contains; (ii) contains in reduced or  increased proportions; or (iii) does not contain.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nutrition-related claim or use</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

@@ -1,1 +1,2 @@
 http://purl.obolibrary.org/obo/FOODON_03470107 # food preservation process
+http://purl.obolibrary.org/obo/FOODON_03510065 # nutrition-related claim or use
