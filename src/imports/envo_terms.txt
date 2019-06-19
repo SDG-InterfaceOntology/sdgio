@@ -101,4 +101,3 @@ http://purl.obolibrary.org/obo/ENVO_02500043 # pollution monitoring
 http://purl.obolibrary.org/obo/ENVO_01000906 # aquaculture process
 http://purl.obolibrary.org/obo/ENVO_01001442 # agriculture
 http://purl.obolibrary.org/obo/ENVO_01001451 # usage of an environment for business
-http://purl.obolibrary.org/obo/FOODON_03470107 # food preservation process

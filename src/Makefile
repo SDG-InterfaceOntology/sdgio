@@ -25,7 +25,7 @@ MODULE_FILES = $(patsubst %,modules/%.owl,$(MODULES))
 
 # Ontology dependencies
 # We don't include clo, as this is currently not working
-IMPORTS = pato uberon chebi ro bfo envo iao pco obi ogms
+IMPORTS = foodon pato uberon chebi ro bfo envo iao pco obi ogms
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) 
 # $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
@@ -144,6 +144,10 @@ mirror/po.owl: $(SRC)
 
 mirror/envo.owl: $(SRC)
 	owltools $(OBO)/envo.owl --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/envo.owl -o $@
+.PRECIOUS: mirror/%.owl
+
+mirror/foodon.owl: $(SRC)
+	owltools $(OBO)/foodon.owl --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/foodon.owl -o $@
 .PRECIOUS: mirror/%.owl
 
 ncbitaxon.obo:
