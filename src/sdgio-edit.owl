@@ -1658,7 +1658,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020308> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020309> (planned process to improve food security)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020309> "A planned process during which an agent causes or contributes to either the availability, access, utilization or stability of a supply of well-preserved food.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020309> "A planned process during which an agent causes or contributes to the availability, access, utilization or stability of a supply of well-preserved food by a human population.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020309> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020309> "2019-06-02T20:04:57Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020309> "planned process to improve food security"@en)
@@ -1666,7 +1666,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020309> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020310> (planned process to improve nutrition security)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020310> "A planned process during which an agent causes or contributes to either 1) the introduction of diverse, nutrient-rich foods into the diets of human populations or 2) the securement of the continued production of such foods by the farming or industrial systems supplying those populations.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020310> "A planned process during which an agent causes or contributes to either 1) the introduction of diverse, nutrient-rich foods into the diets of human populations or 2) the continued production of such foods by the farming or industrial systems supplying those populations.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020310> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020310> "2019-06-02T20:13:52Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020310> "planned process to improve nutrition security"@en)
@@ -1674,34 +1674,35 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020310> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020311> (planned process to improve sustained access to natural resources through interventions in the agriculture systems)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020311> "A planned process during which an agent causes or contributes to either 1) the building of a more sustainable and efficient agriculture sector, 2) the restoration of degraded land and water ecosystems damaged by agricultural practices, or 3) the preservation of land and water ecosystems from adverse agricultural activities.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020311> "A planned process during which an agent causes or contributes to the sustainability of natural resources or their production by either 1) the building of a more sustainable and efficient agriculture sector, 2) the restoration of ecosystems degraded by agricultural activity or 3) the protection of ecosystems from adverse impacts of agricultural activity.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020311> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020311> "2019-06-02T20:16:58Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020311> "planned process to improve sustained access to natural resources through interventions in the agriculture systems"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020311> <http://purl.unep.org/sdg/SDGIO_00020327>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020312> (planned process to mitigate climate change)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020312> (planned process to mitigate contributions of agro-ecosystems to climate change)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020312> "A planned process during which an agent causes or contributes to the mitigation of the effects of agro-ecosystems on the global climate system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020312> "A planned process during which an agent causes or contributes to measures which reduce the adverse contributions of agro-ecosystems to global climate change.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020312> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020312> "2019-06-02T20:18:28Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020312> "planned process to mitigate climate change"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020312> "planned process to mitigate contributions of agro-ecosystems to climate change"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020312> <http://purl.unep.org/sdg/SDGIO_00020325>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020313> (planned process to adapt to climate change)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020313> "A planned process during which an agent causes or contributes to the adaptation of human population and natural environments to the effects of climate change.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020313> "A planned process during which an agent causes or contributes to measures that allow human populations or natural environments to change such that they can cope with the effects of climate change.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020313> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020313> "2019-06-02T20:23:48Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020313> "planned process to adapt to climate change"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020313> <http://purl.unep.org/sdg/SDGIO_00020325>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/ENVO_01000951> <http://purl.obolibrary.org/obo/PCO_0000027>)))
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020315> (planned process to apply or improve institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020315> (planned process to apply or improve institutional policies to increase the capacity of a partnership of organisations to collectively impact agricultural systems)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020315> "A planned process during which an agent - through application or improvement of institutional policies - causes or contributes to increase the capacity of CGIAR partners to take actions concerning agriculture.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020315> "A planned process during which an agent - through application or improvement of institutional policies - causes or contributes to increase the capacity of a partnership of organisations to collectively impact agricultural systems.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020315> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020315> "2019-06-02T20:29:34Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020315> "planned process to apply or improve institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020315> "planned process to apply or improve institutional policies to increase the capacity of a partnership of organisations to collectively impact agricultural systems"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020315> <http://purl.unep.org/sdg/SDGIO_00020330>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020316> (planned process to increase the research capacity of CGIAR national partners and beneficiaries)
@@ -1716,28 +1717,28 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020316> ObjectSomeValuesFrom(<http:
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020323>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020324>))
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020317> (planned process to improve the forecasting of impacts of climate change)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020317> (planned process to improve the forecasting of climate change impacts)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020317> "A planned process during which an agent causes or contributes to the improvement of the forecasting of impacts of climate change")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020317> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020317> "2019-06-02T20:35:45Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020317> "planned process to improve the forecasting of impacts of climate change"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020317> "planned process to improve the forecasting of climate change impacts"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020317> <http://purl.unep.org/sdg/SDGIO_00020325>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020318> (planned process to improve the capacity of women to participate in decision-making)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020318> (planned process to improve the capacity of women to participate in decision making)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020318> "A planned process during which an agent causes or contributes to the improvement of the capacity of women to participate in decision-making.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020318> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020318> "2019-06-02T20:37:44Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020318> "planned process to improve the capacity of women to participate in decision-making"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020318> <http://purl.unep.org/sdg/SDGIO_00020335>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020318> "planned process to improve the capacity of women to participate in decision making"@en)
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00020318> <http://purl.unep.org/sdg/SDGIO_00020335>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020319> (planned process to improve the capacity of young people to participate in decision-making)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020319> (planned process to improve the capacity of young people to participate in decision making)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020319> "A planned process during which an agent causes or contributes to the improvement of the capacity of young people to participate in decision-making.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020319> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020319> "2019-06-02T20:38:29Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020319> "planned process to improve the capacity of young people to participate in decision-making"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020319> "planned process to improve the capacity of young people to participate in decision making"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020319> <http://purl.unep.org/sdg/SDGIO_00020335>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020320> (planned process to increment the capacity of beneficiaries to adopt research outputs)
@@ -1787,12 +1788,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020325> "2019-06-03T19:22:23Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020325> "planned process to respond to climate change"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> <http://purl.unep.org/sdg/SDGIO_00020329>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_01000629>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_02500042>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_02500043>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020312>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020313>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020317>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_01000629>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020326> (planned process to improve human diet)
@@ -1802,9 +1797,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020326> "2019-06-03T19:30:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020326> "planned process to improve human diet"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> <http://purl.unep.org/sdg/SDGIO_00020342>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020343>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.unep.org/sdg/SDGIO_00020343>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.unep.org/sdg/SDGIO_00020343>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PCO_0000027>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020343>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020327> (planned process to improve sustained access to natural resources)
 
@@ -1918,9 +1912,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020342> "2019-06-05T15:18:28Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020342> "planned process to improve diet"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020341>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.unep.org/sdg/SDGIO_00020341>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.unep.org/sdg/SDGIO_00020341>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020341>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020343> (human diet)
 
