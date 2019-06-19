@@ -1,2 +1,3 @@
 http://purl.obolibrary.org/obo/FOODON_03470107 # food preservation process
 http://purl.obolibrary.org/obo/FOODON_03510065 # nutrition-related claim or use
+http://purl.obolibrary.org/obo/FOODON_03530005 # adjunct characteristics of food
