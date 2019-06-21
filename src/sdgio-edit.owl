@@ -191,6 +191,10 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020339>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020341>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020342>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020343>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020349>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020350>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020352>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020354>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -445,6 +449,11 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020302>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020303>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020304>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020305>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020346>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020351>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020353>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020355>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020357>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -622,7 +631,9 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000012> <http://purl.obolibrary.org
 # Class: <http://purl.unep.org/sdg/SDGIO_00000013> (resource)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000013> "A material or immaterial entity which may confer benefit to its user or consumer."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000013> <http://www.ontologyrepository.com/CommonCoreOntologies/Resource>)
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000013> "Access to resources beneficial to humans is a central theme in the SDG process. For eample access to the resources of food, clean water, housing, legal system, health care system, medicine, or the bearer of information."@en)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000013> "The entry Resource exists also in the Artifact Ontology, one of the Common Core Ontologies. The definition is not identical to the definition adopted here. One finds the IRI for Rsource from the Artifact Ontology in the DbXref slot.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000013> "resource"@en)
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.unep.org/sdg/SDGIO_00010017>)))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000013> <http://purl.obolibrary.org/obo/BFO_0000004>)
@@ -1704,14 +1715,14 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020315> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020315> "2019-06-02T20:29:34Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020315> "planned process to apply or improve institutional policies to increase the capacity of a partnership of organisations to collectively impact agricultural systems"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020315> <http://purl.unep.org/sdg/SDGIO_00020330>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020315> <http://purl.unep.org/sdg/SDGIO_00020349>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020316> (planned process to increase the research capacity of CGIAR national partners and beneficiaries)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020316> (planned process to increase the research capacity of CGIAR national partners)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020316> "A planned process during which an agent - through the exchange of information or training -  causes or contributes to increase the research capacity of CGIAR partners.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020316> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020316> "2019-06-02T20:33:10Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020316> "planned process to increase the research capacity of CGIAR national partners and beneficiaries"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020316> "planned process to increase the research capacity of CGIAR national partners"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020316> <http://purl.unep.org/sdg/SDGIO_00020331>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020321>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020322>))
@@ -1923,6 +1934,35 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020343> "2019-06-05T15:23:15Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020343> "human diet"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020343> <http://purl.unep.org/sdg/SDGIO_00020341>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020349> (planned process to apply or improve institutional policies to increase the capacity of a partnership of organisations to work towards a common objective)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020349> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020349> "2019-06-21T20:06:57Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020349> "planned process to apply or improve institutional policies to increase the capacity of a partnership of organisations to work towards a common objective"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020349> <http://purl.unep.org/sdg/SDGIO_00020330>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020350> (planned process to increase the research capacity of partner organizations)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020350> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020350> "2019-06-21T20:20:04Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020350> "planned process to increase the research capacity of partner organizations"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020350> <http://purl.unep.org/sdg/SDGIO_00020331>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020350> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.unep.org/sdg/SDGIO_00020352>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020352> (planned process to enhance - through training or exchange - the individual capacity in partner research organizations)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020352> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020352> "2019-06-21T20:41:30Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020352> "planned process to enhance - through training or exchange - the individual capacity in partner research organizations"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020352> <http://purl.unep.org/sdg/SDGIO_00020350>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020354> (planned process to enhance the institutional capacity of partner research organizations)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020354> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020354> "2019-06-21T20:47:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020354> "planned process to enhance the institutional capacity of partner research organizations"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020354> <http://purl.unep.org/sdg/SDGIO_00020350>)
 
 
 ############################
@@ -3696,6 +3736,40 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020305> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that 1) they improve agri-food research productivity and 2) innovation throughout the agri-food system. As CGIAR notes: \"The need for capacity development arises in all fields of agri-food research, but is particularly pressing in new areas such as data management and communication technologies, landscape analysis and climate-smart agriculture. Besides addressing the needs of the research community, capacity development should seek to enhance innovation throughout the agri-food system, including farmers and other groups along the value chain.\"")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020305> "increase research productivity and innovation in the agri-food system"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020305>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020346> (planned process to apply or improve institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020346> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020346> "2019-06-21T20:01:14Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020346> "planned process to apply or improve institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020315> <http://purl.unep.org/sdg/SDGIO_00020346>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020351> (planned process to increase the research capacity of CGIAR national partners)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020351> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020351> "2019-06-21T20:20:43Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020351> "planned process to increase the research capacity of CGIAR national partners"@en)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020353> (planned process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020353> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020353> "2019-06-21T20:41:43Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020353> "planned process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020352> <http://purl.unep.org/sdg/SDGIO_00020353>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020355> (planned process to enhance the institutional capacity of research organizations that partner with CGIAR)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020355> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020355> "2019-06-21T20:48:10Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020355> "planned process to enhance the institutional capacity of research organizations that partner with CGIAR"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020321> <http://purl.unep.org/sdg/SDGIO_00020355>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020357> (planned process to enhance the institutional capacity of research organizations that partner with CGIAR)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020357> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020357> "2019-06-21T20:51:19Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020357> "planned process to enhance the institutional capacity of research organizations that partner with CGIAR"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020354> <http://purl.unep.org/sdg/SDGIO_00020357>)
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000002> "true"^^xsd:boolean)
