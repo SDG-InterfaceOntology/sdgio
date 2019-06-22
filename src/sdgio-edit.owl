@@ -3321,14 +3321,14 @@ AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020233> "The 
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020233> "reduce poverty system level outcome"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020233>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020234> (improve of food and nutrition security system level outcome)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020234> (improve food and nutrition security system level outcome)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020234> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote the availability, access, use, and stability of or to a food supply.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020234> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020234> "2019-04-19T12:14:17Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020234> "improve food and nutrition security")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020234> "Food security encompasses the availability, access, utilization and stability of a healthy food supply. We have seen that crop and commodity improvement can dramatically increase food supply, and that better farm production practices and technology can help with affordability and food safety. For nutrition, we can introduce diverse nutrient-rich foods into farming systems and diets such as bio-fortified crops, fruits, vegetables, legumes, livestock and fish. CGIAR will harness increased expertise in nutrition through partnerships and coalitions with a wide range of partners, including leading NGOs and private-sector companies as well as government agencies. Alignment with key national, regional and international processes is critical, since the means for overcoming malnutrition depends upon a broad set of conditions.")
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020234> "improve of food and nutrition security system level outcome"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020234> "improve food and nutrition security system level outcome"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020232> <http://purl.unep.org/sdg/SDGIO_00020234>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020235> (improve of natural resources and ecosystem services system level outcome)
@@ -3422,13 +3422,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020246> "enhance the benefits derived from ecosystem goods and services")
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020246>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020247> (enhance the sustainable managed of agro-ecosystems)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020247> (enhance the sustainable management of agro-ecosystems)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.unep.org/sdg/SDGIO_00020247> "more sustainably managed agro-ecosystems"@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020247> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020247> "2019-04-29T16:30:19Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020247> <https://clarisa.cgiar.org/api/srf-idos/10>)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020247> "enhance the sustainable managed of agro-ecosystems")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020247> "enhance the sustainable management of agro-ecosystems")
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020247>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020248> (mitigate or adapt to the effects of climate change)
