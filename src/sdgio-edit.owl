@@ -558,6 +558,10 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010069> "UNEP i
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000004> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00000000> (sustainable development goal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000000> "An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030.")
@@ -1751,11 +1755,10 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020317> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020318> (planned process to improve the capacity of women to participate in decision making)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020318> "A planned process during which some agent causes or contributes to the improvement of the capacity of every adult human females to contributes to making decision, including those of a managerial type and at any level, especially in work contexts.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020318> "A planned process during which some agent causes or contributes to the improvement of the capacity of every adult human females to contributes to directing or overseeing, without limitations of subject, role, or level, some agent or group of agents, especially in work contexts.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020318> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020318> "2019-06-02T20:37:44Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020318> "planned process to improve the capacity of women to participate in decision making"@en)
-EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00020318> <http://purl.unep.org/sdg/SDGIO_00020335>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020318> <http://purl.unep.org/sdg/SDGIO_00020337>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020319> (planned process to improve the capacity of young people to participate in decision making)
@@ -1888,7 +1891,7 @@ that foods of either good quality or sufficient quantity or sufficient diversity
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020342> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020342> "2019-06-05T15:18:28Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020342> "planned process to improve diet"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> <http://purl.unep.org/sdg/SDGIO_00020335>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020341>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020343> (human diet)
