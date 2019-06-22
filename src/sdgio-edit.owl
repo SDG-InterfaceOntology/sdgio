@@ -212,6 +212,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020393>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020394>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020395>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020397>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020398>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -1727,7 +1728,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020312> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020312> "2019-06-02T20:18:28Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020312> "planned process to mitigate contributions of agro-ecosystems to climate change"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020312> <http://purl.unep.org/sdg/SDGIO_00020325>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020312> <http://purl.unep.org/sdg/SDGIO_00020398>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020313> (planned process to adapt to climate change)
 
@@ -2127,6 +2128,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020397> "2019-06-22T04:49:04Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020397> "planned process to manage agents"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020397> <http://purl.unep.org/sdg/SDGIO_00020390>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020398> (planned process to mitigate contributions to anthropogenic climate change)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020398> "A planned process during which an agent causes or contributes to measures which reduce the adverse contributions of human activities to global climate change.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020398> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020398> "2019-06-22T04:53:30Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020398> "planned process to mitigate contributions to anthropogenic climate change"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020398> <http://purl.unep.org/sdg/SDGIO_00020325>)
 
 
 ############################
