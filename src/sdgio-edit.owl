@@ -1706,12 +1706,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020309> "planned process to improve food security"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020309> <http://purl.unep.org/sdg/SDGIO_00020326>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020310> (planned process to improve nutrition security)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020310> (planned process to improve nutrition security for humans)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020310> "A planned process during which an agent causes or contributes to either 1) the introduction of diverse, nutrient-rich foods into the diets of human populations or 2) the continued production of such foods by the farming or industrial systems supplying those populations.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020310> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020310> "2019-06-02T20:13:52Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020310> "planned process to improve nutrition security"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020310> "planned process to improve nutrition security for humans"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020310> <http://purl.unep.org/sdg/SDGIO_00020326>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020311> (planned process to improve sustained access to natural resources through interventions in the agriculture systems)
