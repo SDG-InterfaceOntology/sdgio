@@ -1700,12 +1700,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020308> "planned process to reduce poverty"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020308> <http://purl.unep.org/sdg/SDGIO_00020338>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020309> (planned process to improve food security)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020309> (planned process to improve food security for humans)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020309> "A planned process during which an agent causes or contributes to the availability, access, utilization or stability of a supply of well-preserved food by a human population.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020309> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020309> "2019-06-02T20:04:57Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020309> "planned process to improve food security"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020309> "planned process to improve food security for humans"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020309> <http://purl.unep.org/sdg/SDGIO_00020326>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020310> (planned process to improve nutrition security for humans)
@@ -1792,7 +1792,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020326> (planned process to improve human diet)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020326> "A planned process during which an agent causes or contributes to secure that foods of either good quality or sufficient quantity or sufficient diversity are either stably available or stably consumed by every human being.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020326> "A planned process during which some agent causes or contributes to secure that foods of either good quality or sufficient quantity or sufficient diversity are either stably available or stably consumed by every human being.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020326> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020326> "2019-06-03T19:30:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020326> "planned process to improve human diet"@en)
