@@ -1693,7 +1693,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020308> (planned process to reduce poverty)
 
-AnnotationAssertion(Annotation(rdfs:comment <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020308> "A planned process during which an agent - through either economic, technological, political, or societal measures - causes or contributes to people acquiring and maintaining their health, well-being, security, dignity, education, and ability to participate in society.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.un.org/press/en/1998/19980520.eco5759.html>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020308> "A planned process during which an agent - through either economic, technological, political, or societal measures - causes or contributes to people acquiring and maintaining their health, well-being, security, dignity, education, and ability to participate in society.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020308> "1) The phrase \"normal life\" is vague. We need more information to provide a better definition.
 2) The definition lacks DbXref. The CGIAR SRF document on which this portion of the ontology is based does not clarify what they exactly mean by poverty reduction. Again, we need more information to improve the definition.
 3) There is a discussion about this available here https://github.com/SDG-InterfaceOntology/sdgio/pull/170/")
