@@ -1693,11 +1693,11 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020308> (planned process to reduce poverty)
 
-AnnotationAssertion(Annotation(rdfs:comment <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020308> "A planned process during which an agent - through either economic, technological, political, or societal measures - causes or contributes to people not lacking goods or services for a normal life.")
+AnnotationAssertion(Annotation(rdfs:comment <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020308> "A planned process during which an agent - through either economic, technological, political, or societal measures - causes or contributes to people acquiring and maintaining their health, well-being, security, dignity, education, and ability to participate in society.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020308> "1) The phrase \"normal life\" is vague. We need more information to provide a better definition.
 2) The definition lacks DbXref. The CGIAR SRF document on which this portion of the ontology is based does not clarify what they exactly mean by poverty reduction. Again, we need more information to improve the definition.
 3) There is a discussion about this available here https://github.com/SDG-InterfaceOntology/sdgio/pull/170/")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020308> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020308> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020308> "2019-06-02T19:41:10Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020308> "planned process to reduce poverty"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020308> <http://purl.unep.org/sdg/SDGIO_00020338>)
@@ -3333,7 +3333,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020233> (reduce poverty system level outcome)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020233> "A system level outcome which specifies the objective of the planned processes undertaken by the CGIAR such that they promote lifting people out of poverty by economic, technological, political, and societal measures.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020233> <https://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020233> <https://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020233> "2019-04-19T12:00:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020233> "reduce poverty")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020233> "The pathways to reducing poverty differ across contexts, reflecting the diversity of livelihood strategies pursued by the poor. Where the poor are predominately smallholder farmers, increased productivity and resilience to shocks is a key pathway to poverty reduction. Productivity increases can be achieved through conservation and effective use of genetic resources. Access to productive assets such as land and water will unlock further productive potential, especially for women. Diversifying opportunities, such as moving into higher value products like livestock, fish, vegetables, fruit or other tree crops, can increase income. Improving access to markets,  trengthening financial and other services, or local processing of produce also increase livelihood opportunities for smallholders. CGIAR  esearch recognizes that no single pathway to poverty reduction will hold across all settings. It is vital to rigorously assess the full  ange of outcomes from our work – and to learn from experience.")
