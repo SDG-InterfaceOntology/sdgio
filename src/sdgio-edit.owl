@@ -1864,7 +1864,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020338> <http://purl.obolibrary.org
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020339> "A resource which is derived from a natural environment in which minimal or no anthropisation has occurred.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020339> "For the definition of natural environment, see the following item: http://purl.obolibrary.org/obo/ENVO_01000951.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020339> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020339> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020339> "2019-06-05T14:50:44Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020339> "natural resource"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020339> <http://purl.unep.org/sdg/SDGIO_00000013>)
