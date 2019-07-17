@@ -3994,6 +3994,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020395> <http://purl.unep.org/s
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020401> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020401> "2019-07-17T18:58:07Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020401> "We await a definition of poverty from the CGIAR. Meanwhile, we use the UN definition of poverty as a multidimensional phenomenon. See: https://feature.undp.org/multidimensional-poverty/ and http://www.un.org/sustainabledevelopment/poverty/.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020401> "CGIAR planned process to reduce poverty"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020308> <http://purl.unep.org/sdg/SDGIO_00020401>)
 
