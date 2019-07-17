@@ -2279,6 +2279,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000049> "sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/sdg/SDGIO_00000049>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001171>) <http://purl.unep.org/sdg/SDGIO_00000049>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001243>) <http://purl.unep.org/sdg/SDGIO_00000049>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500001>) <http://purl.unep.org/sdg/SDGIO_00000049>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500005>) <http://purl.unep.org/sdg/SDGIO_00000049>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500011>) <http://purl.unep.org/sdg/SDGIO_00000049>)
@@ -2641,6 +2642,8 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000123> "6.6")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000123> "By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000123>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00000022>) <http://purl.unep.org/sdg/SDGIO_00000123>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001243>) <http://purl.unep.org/sdg/SDGIO_00000123>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000124> (By 2030, expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies)
 
@@ -3094,12 +3097,18 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000198> "15.1")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000198> "By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000198>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001243>) <http://purl.unep.org/sdg/SDGIO_00000198>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000199> (By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally)
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000199> "15.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000199> "By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000199>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001171>) <http://purl.unep.org/sdg/SDGIO_00000199>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001243>) <http://purl.unep.org/sdg/SDGIO_00000199>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500011>) <http://purl.unep.org/sdg/SDGIO_00000199>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500012>) <http://purl.unep.org/sdg/SDGIO_00000199>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500013>) <http://purl.unep.org/sdg/SDGIO_00000199>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000200> (By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world)
 
@@ -3771,6 +3780,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020283> <https://clarisa.cgiar.org/api/srf-sub-idos/3.3.3>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020283> "reduce the net greenhouse gas emissions from agriculture, forests, and other forms of land use through more sustainably managed agro-ecosystems"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020283>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001243>) <http://purl.unep.org/sdg/SDGIO_00020283>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020284> (reduce the net greenhouse gas emissions from agriculture, forests, and other forms of land use through the achievement of mitigation and adaptation plans)
 
@@ -3780,6 +3790,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020284> <https://clarisa.cgiar.org/api/srf-sub-idos/A.1.1>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020284> "reduce the net greenhouse gas emissions from agriculture, forests, and other forms of land use through the achievement of mitigation and adaptation plans"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020237> <http://purl.unep.org/sdg/SDGIO_00020284>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001243>) <http://purl.unep.org/sdg/SDGIO_00020284>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020285> (increase above- and below-ground biomass for carbon sequestration)
 
