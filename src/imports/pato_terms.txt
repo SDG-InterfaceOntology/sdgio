@@ -5,3 +5,35 @@ http://purl.obolibrary.org/obo/PATO_0001546 # quality of a solid
 http://purl.obolibrary.org/obo/PATO_0001548 # quality of a liquid
 http://purl.obolibrary.org/obo/PATO_0001547 # quality of a gas
 http://purl.obolibrary.org/obo/PATO_0002138 # edibility
+http://purl.obolibrary.org/obo/PATO_0000383 # female
+http://purl.obolibrary.org/obo/PATO_0000384 # male
+http://purl.obolibrary.org/obo/PATO_0001701 # mature
+http://purl.obolibrary.org/obo/PATO_0001501 # immature
+http://purl.obolibrary.org/obo/PATO_0001190 # juvenile
+http://purl.obolibrary.org/obo/PATO_0001189 # adolescent
+http://purl.obolibrary.org/obo/PATO_0001186 # prepubescent
+http://purl.obolibrary.org/obo/PATO_0000455 # pubescent
+http://purl.obolibrary.org/obo/PATO_0002206 # neonatal
+http://purl.obolibrary.org/obo/PATO_0002393 # increased tolerance to
+http://purl.obolibrary.org/obo/PATO_0002394 # decreased tolerance to
+http://purl.obolibrary.org/obo/PATO_0045070 # normal tolerance to
+http://purl.obolibrary.org/obo/PATO_0000461 # normal
+http://purl.obolibrary.org/obo/PATO_0000460 # abnormal
+http://purl.obolibrary.org/obo/PATO_0001650 # increased resistance to
+http://purl.obolibrary.org/obo/PATO_0001651 # decreased resistance to
+http://purl.obolibrary.org/obo/PATO_0045047 # normal resistance to
+http://purl.obolibrary.org/obo/PATO_0001624 # decreased functionality
+http://purl.obolibrary.org/obo/PATO_0001625 # increased functionality
+http://purl.obolibrary.org/obo/PATO_0001511 # non-functional
+http://purl.obolibrary.org/obo/PATO_0001635 # necessary (continuant)
+http://purl.obolibrary.org/obo/PATO_0001636 # unnecessary (continuant)
+http://purl.obolibrary.org/obo/PATO_0002354 # active
+http://purl.obolibrary.org/obo/PATO_0002356 # constitutively active
+http://purl.obolibrary.org/obo/PATO_0002355 # inactive
+http://purl.obolibrary.org/obo/PATO_0000394 # mild intensity
+http://purl.obolibrary.org/obo/PATO_0000395 # moderate intensity
+http://purl.obolibrary.org/obo/PATO_0000396 # severe intensity
+http://purl.obolibrary.org/obo/PATO_0001782 # increased intensity
+http://purl.obolibrary.org/obo/PATO_0001783 # decreased intensity
+http://purl.obolibrary.org/obo/PATO_0001841 # remittent intensity
+http://purl.obolibrary.org/obo/PATO_0002629 # profound intensity
