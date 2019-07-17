@@ -2303,6 +2303,11 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000071> "1.4")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000071> "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000071>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00000013>) <http://purl.unep.org/sdg/SDGIO_00000071>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00010027>) <http://purl.unep.org/sdg/SDGIO_00000071>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00010042>) <http://purl.unep.org/sdg/SDGIO_00000071>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00020339>) <http://purl.unep.org/sdg/SDGIO_00000071>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PCO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.unep.org/sdg/SDGIO_00000024>))) <http://purl.unep.org/sdg/SDGIO_00000071>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000072> (By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters)
 
@@ -2592,8 +2597,8 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00002001>) <http://purl.unep.org/sdg/SDGIO_00000120>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01000741>) <http://purl.unep.org/sdg/SDGIO_00000120>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500039>) <http://purl.unep.org/sdg/SDGIO_00000120>)
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.unep.org/sdg/SDGIO_00000021>))) <http://purl.unep.org/sdg/SDGIO_00000120>)
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00010483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.unep.org/sdg/SDGIO_00000021>))) <http://purl.unep.org/sdg/SDGIO_00000120>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.unep.org/sdg/SDGIO_00000021>))) <http://purl.unep.org/sdg/SDGIO_00000120>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00010483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.unep.org/sdg/SDGIO_00000021>))) <http://purl.unep.org/sdg/SDGIO_00000120>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectUnionOf(<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/ENVO_00000063>)) <http://purl.unep.org/sdg/SDGIO_00000120>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000121> (By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity)
