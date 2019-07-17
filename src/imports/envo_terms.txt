@@ -1,3 +1,5 @@
+
+http://purl.obolibrary.org/obo/ENVO_01001171 # conservation-focused active ecosystem management process
 http://purl.obolibrary.org/obo/ENVO_01001374 # sea state
 http://purl.obolibrary.org/obo/ENVO_01000983 # technosphere
 http://purl.obolibrary.org/obo/ENVO_02500039 # water pollution
