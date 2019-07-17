@@ -2564,6 +2564,9 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000115> "5.a")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000115> "Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000115>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00010027>) <http://purl.unep.org/sdg/SDGIO_00000115>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00010071>) <http://purl.unep.org/sdg/SDGIO_00000115>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00020339>) <http://purl.unep.org/sdg/SDGIO_00000115>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000116> (Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women)
 
@@ -2912,6 +2915,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000074> <http://purl.unep.org/sdg/SDGIO_00000172> "12.2")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000172> "By 2030, achieve the sustainable management and efficient use of natural resources"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000001> <http://purl.unep.org/sdg/SDGIO_00000172>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00020339>) <http://purl.unep.org/sdg/SDGIO_00000172>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000173> (By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses)
 
