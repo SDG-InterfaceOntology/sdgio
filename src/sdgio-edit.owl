@@ -1808,7 +1808,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020328> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020329> (planned process to respond to environmental challenges)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020329> "A planned process during which an agent attempts to mitigate the adverse effects of environmental dynamics upon natural or anthropised ecosystems, or to develop adaptation strategies to cope with these effects.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020329> "A planned process during which an agent responds to global challenges during which an agent takes action as a result of environmental dynamics impacting on natural or anthropised ecosystems.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020329> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020329> "2019-06-04T17:44:40Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020329> "planned process to respond to environmental challenges"@en)
