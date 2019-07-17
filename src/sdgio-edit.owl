@@ -476,7 +476,6 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020357>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020373>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020381>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020382>))
-Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020387>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020388>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020389>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020391>))
@@ -2011,7 +2010,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020374> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020375> (planned process to manage poor communities)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020375> "A planned process during which an agent causes or contributes to direct or oversee some poor community.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020375> "A planned process during which an agent causes or contributes to direct, empower, or oversee some poor community.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020375> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020375> "2019-06-21T23:36:18Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020375> "planned process to manage poor communities"@en)
@@ -2028,7 +2027,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020376> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020377> (planned process to manage vulnerable communities)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020377> "A planned process during which an agent causes or contributes to direct or oversee some vulnerable community.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020377> "A planned process during which an agent causes or contributes to direct, empower, or oversee some vulnerable community.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020377> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020377> "2019-06-21T23:36:56Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020377> "planned process to manage vulnerable communities"@en)
@@ -3958,12 +3957,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020382> "2019-06-21T23:38:42Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020382> "CGIAR planned process to increment the capacity for innovation in poor communities"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020379> <http://purl.unep.org/sdg/SDGIO_00020382>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020387> (CGIAR planned process to increment the capacity for innovation in partner research organizations)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020387> <http://orcid.org/0000-0062-3253-4387>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020387> "2019-06-21T23:44:54Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020387> "CGIAR planned process to increment the capacity for innovation in partner research organizations"@en)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020388> (CGIAR planned process to increment the capacity for innovation in partner research organizations)
 
