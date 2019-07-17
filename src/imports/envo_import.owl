@@ -3268,6 +3268,16 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001110"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental system which can sustain and allow the growth of an ecological population.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">habitat</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000741 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000741">
@@ -4098,6 +4108,16 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001199"/>
         <obo:IAO_0000115>A terrestrial zone which is bounded by constructed, manufactured, or other anthropogenic material entities.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anthropised terrestrial environmental zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001110"/>
+        <obo:IAO_0000115>An ecosystem which is determined by communities of plants with a tree growth form and in which members of those communities form continuous or discontinuous regions of canopy cover.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">forest ecosystem</rdfs:label>
     </owl:Class>
     
 
