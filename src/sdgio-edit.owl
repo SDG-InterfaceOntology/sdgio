@@ -473,7 +473,6 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020346>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020351>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020353>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020357>))
-Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020373>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020381>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020382>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020388>))
@@ -3910,25 +3909,25 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020305> "increase research productivity and innovation in the agri-food system"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020305>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020346> (planned process to apply institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020346> (CGIAR planned process to apply institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020346> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020346> "2019-06-21T20:01:14Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020346> "planned process to apply institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020346> "CGIAR planned process to apply institutional policies to increase the capacity of CGIAR partners to take actions concerning agriculture"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020362> <http://purl.unep.org/sdg/SDGIO_00020346>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020351> (planned process to increase the research capacity of CGIAR national partners)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020351> (CGIAR planned process to increase the research capacity of CGIAR national partners)
 
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020351> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020351> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020351> "2019-06-21T20:20:43Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020351> "planned process to increase the research capacity of CGIAR national partners"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020351> "CGIAR planned process to increase the research capacity of CGIAR national partners"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020365> <http://purl.unep.org/sdg/SDGIO_00020351>)
 
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020353> (planned process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR)
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020353> (CGIAR planned process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020353> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020353> "2019-06-21T20:41:43Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020353> "planned process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020353> "CGIAR planned process to enhance - through training or exchange - the individual capacity in research organizations that partner with CGIAR"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020366> <http://purl.unep.org/sdg/SDGIO_00020353>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020357> (CGIAR planned process to enhance the institutional capacity of research organizations that partner with CGIAR)
@@ -3937,12 +3936,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020357> "2019-06-21T20:51:19Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020357> "CGIAR planned process to enhance the institutional capacity of research organizations that partner with CGIAR"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020369> <http://purl.unep.org/sdg/SDGIO_00020357>)
-
-# Individual: <http://purl.unep.org/sdg/SDGIO_00020373> (planned process to increment the capacity for innovation in development organizations that partner with CGIAR)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020373> <http://orcid.org/0000-0062-3253-4387>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020373> "2019-06-21T23:33:29Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020373> "planned process to increment the capacity for innovation in development organizations that partner with CGIAR"@en)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020381> (CGIAR planned process to increment the capacity for innovation in vulnerable communities)
 
