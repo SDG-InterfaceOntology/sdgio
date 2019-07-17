@@ -215,6 +215,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020397>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020398>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020399>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020400>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -2184,6 +2185,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000039> "Sustainable Development Goal 5")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000039> "achieve gender equality and empower all women and girls"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/sdg/SDGIO_00000039>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000383>))) <http://purl.unep.org/sdg/SDGIO_00000039>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000384>))) <http://purl.unep.org/sdg/SDGIO_00000039>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000040> (ensure access to water and sanitation for all)
 
@@ -2237,6 +2240,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000045> "Sustainable Development Goal 11")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000045> "make cities inclusive, safe, resilient and sustainable"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/sdg/SDGIO_00000045>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00000856>) <http://purl.unep.org/sdg/SDGIO_00000045>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000046> (ensure sustainable consumption and production patterns)
 
@@ -2274,8 +2278,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000049> "Sustainable Development Goal 15")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000049> "sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/sdg/SDGIO_00000049>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001171>) <http://purl.unep.org/sdg/SDGIO_00000049>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500001>) <http://purl.unep.org/sdg/SDGIO_00000049>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500005>) <http://purl.unep.org/sdg/SDGIO_00000049>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500011>) <http://purl.unep.org/sdg/SDGIO_00000049>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_02500012>) <http://purl.unep.org/sdg/SDGIO_00000049>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000050> (promote just, peaceful and inclusive societies)
 
@@ -3921,6 +3928,10 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020303> "A cross-cutting objective which specifies the objective of the planned processes undertaken by the CGIAR such that they improve gender equity, especially concerning poor women, and youth inclusion employment. As CGIAR notes: \"Research conducted by CGIAR and its partners must be gender- sensitive and promote gender equity – that is, it is adapted to both the needs and the aspirations of poor women. The needs of young people must also be taken into account. Prioritizing rural and food sector entrepreneurship along agri-food supply chains will provide major opportunities for youth employment.\"")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020303> "achieve gender equity and youth employment in the agri-food supply chains"@en)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020300> <http://purl.unep.org/sdg/SDGIO_00020303>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.unep.org/sdg/SDGIO_00020309>) <http://purl.unep.org/sdg/SDGIO_00020303>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000309>))) <http://purl.unep.org/sdg/SDGIO_00020303>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000383>))) <http://purl.unep.org/sdg/SDGIO_00020303>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000384>))) <http://purl.unep.org/sdg/SDGIO_00020303>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020304> (reform agri-food policies and institutions to achieve CGIAR system level outcomes)
 
