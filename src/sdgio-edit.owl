@@ -1773,7 +1773,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020320> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020325> (planned process to respond to climate change)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020325> "A planned process to respond to environmental challenges during which an agent causes or contributes to the protection of life, its diversity, natural resources, natural ecosystems, and human communities from climate change.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020325> "A planned process to respond to environmental challenges during which an agent causes or contributes to taking actions concerning the impact of climate change on living beings, life diversity, natural resources, natural ecosystems, or human communities.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020325> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020325> "2019-06-03T19:22:23Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020325> "planned process to respond to climate change"@en)
