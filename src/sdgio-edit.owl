@@ -1890,7 +1890,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020343> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020349> (planned process to improve organizational policies to increase the capacity of a partnership of organisations to work towards a common objective)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020349> "A planned process to improve organizational policies during which an agent or group of agents improves the policies of some organization O so that O increases its ability to contribute to some collective planned process that a group of organizations to which O belongs implements.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020349> "A planned process to improve organizational policies during which an agent increases its ability to contribute to a planned process collectively pursued by a group of organisations.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020349> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020349> "2019-06-21T20:06:57Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020349> "planned process to improve organizational policies to increase the capacity of a partnership of organisations to work towards a common objective"@en)
