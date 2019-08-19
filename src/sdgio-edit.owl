@@ -4093,7 +4093,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020308> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020501> (CGIAR)
 
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020501> "CGIAR"@fr)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020501> "CGIAR"@en)
 AnnotationAssertion(<http://xmlns.com/foaf/0.1/page> <http://purl.unep.org/sdg/SDGIO_00020501> <https://www.cgiar.org/>)
 ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.unep.org/sdg/SDGIO_00020501>)
 
