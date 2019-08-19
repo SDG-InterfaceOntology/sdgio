@@ -1930,13 +1930,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020349> "planned process to improve organizational policies to increase the capacity of a partnership of organisations to work towards a common objective"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020349> <http://purl.unep.org/sdg/SDGIO_00020361>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020359> (planned process to manage an organization)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020359> (planned process to manage an organisation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020359> "A planned process to manage a group of human agents during which an agent oversees and directs some organization."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020359> "A planned process to manage a group of human agents during which an agent oversees and directs some organisation."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020359> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020359> "2019-06-21T22:19:53Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020359> "planned process to manage an organization"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020359> <http://purl.unep.org/sdg/SDGIO_00020374>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020359> "planned process to manage an organisation"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020359> <http://purl.unep.org/sdg/SDGIO_00020390>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020359> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020360>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020360> (planned process to apply organisational policies)
 
@@ -2178,6 +2179,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020400> "2019-06-27T11:52:38Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020400> "planned process to manage a group of agents"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020400> <http://purl.unep.org/sdg/SDGIO_00020390>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020400> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020399>))
 
 
 ############################
