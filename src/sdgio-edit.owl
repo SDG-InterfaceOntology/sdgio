@@ -81,6 +81,9 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000248>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000249>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000250>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000251>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000252>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000253>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00000254>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010001>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010002>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00010003>))
@@ -1062,6 +1065,33 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000251> "CGIAR objective specification"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000251> <http://purl.unep.org/sdg/SDGIO_00000250>)
 
+# Class: <http://purl.unep.org/sdg/SDGIO_00000252> (capacity development process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://en.wikipedia.org/wiki/Capacity_development>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.undp.org/content/dam/aplaws/publication/en/publications/capacity-development/capacity-development-a-undp-primer/CDG_PrimerReport_final_web.pdf>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000252> "A planned process during which agents obtain, improve, and retain the skills, knowledge, tools, equipment or other resources needed to achieve their objectives more efficiently."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00000252> <http://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00000252> "2019-08-19T08:50:58Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000252> "capacity building")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000252> "capacity building process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000252> "capacity development")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000252> "capacity development process"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000252> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000253> (development of decision-making capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000253> "A capacity development process during which the ability of an agent or groups of agents to participate in and influence the objectives and implementation of planned processes is increased.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00000253> <http://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00000253> "2019-08-19T09:00:57Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000253> "development of decision-making capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000253> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00000254> (development of capacity for innovation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://marlo.cgiar.org/glossary.do>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000254> "A capacity development process during which the ability of an agent or groups of agents to create or implement novel approaches to meet their objectives is increased.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00000254> <http://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00000254> "2019-08-19T09:13:48Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000254> "development of capacity for innovation"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000254> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00010001> (education process)
 
 AnnotationAssertion(Annotation(rdfs:comment "Adapted from: http://purl.bioontology.org/ontology/SNOMEDCT/409073007") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00010001> "A planned process wherein knowledge and skill is imparted."@en)
@@ -1747,21 +1777,24 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020317> "planned process to respond to climate change to improve the forecasting of climate change impacts"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020317> <http://purl.unep.org/sdg/SDGIO_00020325>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020318> (planned process to improve the capacity of women to participate in decision making)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020318> (development of female participation in decision-making)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020318> "A planned process to manage human agents during which an agent extends the involvement and influence of adult human females in directing planned processes, especially in political, economic, or societal contexts.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020318> "A planned process to develop decision-making capacity during which an agent extends the involvement and influence of adult human females in directing planned processes, especially in political, economic, or societal contexts.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020318> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020318> "2019-06-02T20:37:44Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020318> "planned process to improve the capacity of women to participate in decision making"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020318> <http://purl.unep.org/sdg/SDGIO_00020397>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020318> "development of the participation of women in decision-making")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020318> "development of female participation in decision-making"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020318> <http://purl.unep.org/sdg/SDGIO_00000253>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000383>))))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020319> (planned process to improve the capacity of young people to participate in decision making)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020319> "A planned process to manage human agents during which an agent extends the involvement and influence of young humans in directing planned processes, especially in political, economic, or societal contexts.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020319> "A planned process to develop decision-making capacity during which an agent extends the involvement and influence of young humans in directing planned processes, especially in political, economic, or societal contexts.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020319> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020319> "2019-06-02T20:38:29Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020319> "planned process to improve the capacity of young people to participate in decision making"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020319> <http://purl.unep.org/sdg/SDGIO_00020397>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020319> <http://purl.unep.org/sdg/SDGIO_00000253>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000309>))))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020320> (planned process to increment the capacity of partner organizations to adopt research outputs)
 
@@ -2001,12 +2034,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020372> "planned process to increment the capacity for innovation in partner development organizations"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020372> <http://purl.unep.org/sdg/SDGIO_00020371>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020374> (planned process to manage groups of human agents)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020374> (planned process to manage a group of human agents)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020374> "A planned process to manage groups of agents during which an agent causes or contributes to the direction, empowerment, or overseeing of some group of human agents.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020374> "A planned process to manage a group of agents during which the actions of a group of human agents are overseen and directed.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020374> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020374> "2019-06-21T23:35:38Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020374> "planned process to manage groups of human agents"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020374> "planned process to manage a group of human agents"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020374> <http://purl.unep.org/sdg/SDGIO_00020400>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020375> (planned process to manage poor communities)
@@ -2034,29 +2067,31 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020377> "planned process to manage vulnerable communities"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020377> <http://purl.unep.org/sdg/SDGIO_00020376>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020378> (planned process to increment the capacity for innovation in communities)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020378> (development of community-level innovation capacity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020378> "A planned process to manage human communities during which an agent causes or contributes to increase the ability of some community C to either generate innovative ideas or to implement innovative ideas within the community C or a group of communities with which C interacts.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020378> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020378> "2019-06-21T23:37:39Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020378> "planned process to increment the capacity for innovation in communities"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020378> <http://purl.unep.org/sdg/SDGIO_00020376>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020378> "development of community-level innovation capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020378> <http://purl.unep.org/sdg/SDGIO_00000254>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020378> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PCO_0000027>))
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020379> (planned process to increment the capacity for innovation in poor communities)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020379> (development of innovation capacity in poor communities)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020379> "A planned process to increment the capacity for innovation in communities during which an agent causes or contributes to the increment of the capacity of some poor community to either generate or implement innovative ideas.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020379> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020379> "2019-06-21T23:38:00Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020379> "planned process to increment the capacity for innovation in poor communities"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020379> "development of innovation capacity in poor communities"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020379> <http://purl.unep.org/sdg/SDGIO_00020378>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020380> (planned process to increment the capacity for innovation in vulnerable communities)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020380> (development of innovation capacity in vulnerable communities)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020380> "A planned process to increment the capacity for innovation in communities during which an agent causes or contributes to the increment of the capacity of some vulnerable community to either generate or implement innovative ideas.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020380> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020380> "2019-06-21T23:38:06Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020380> "planned process to increment the capacity for innovation in vulnerable communities"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020380> "development of innovation capacity in vulnerable communities"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020380> <http://purl.unep.org/sdg/SDGIO_00020378>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020380> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PCO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.unep.org/sdg/SDGIO_00000024>))))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020383> (planned process to increment the capacity for innovation in research organizations)
 
@@ -2076,11 +2111,11 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020384> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020390> (planned process to manage agents or groups of agents)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020390> "A planned process to manage resources during which an agent causes or contributes to the direction, empowerment, or overseeing of an agent or group of agents.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020390> "A planned process during which an agent oversees and directs another agent or group of agents.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020390> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020390> "2019-06-21T23:46:30Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020390> "planned process to manage agents or groups of agents"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020390> <http://purl.unep.org/sdg/SDGIO_00020335>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020390> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020393> (planned process to increment the capacity of organizations to adopt research outputs)
 
@@ -2090,25 +2125,26 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020393> "planned process to increment the capacity of organizations to adopt research outputs"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020393> <http://purl.unep.org/sdg/SDGIO_00020331>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020394> (planned process to increment the capacity of communites to adopt research outputs)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020394> (development of community-level adoption of research outputs)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020394> "A planned process to manage human communities during which an agent causes or contributes to increment the capacity of some community to adopt ideas, principles, techniques, plans, or technological items generate through research processes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020394> "A planned process to develop community-level innovation capacity during which an agent increments the capacity of a community to adopt ideas, principles, techniques, plans, or technological items generated through research processes.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020394> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020394> "2019-06-22T03:50:19Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020394> "planned process to increment the capacity of communites to adopt research outputs"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020394> <http://purl.unep.org/sdg/SDGIO_00020376>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020394> "development of community-level adoption of research outputs"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020394> <http://purl.unep.org/sdg/SDGIO_00020378>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020394> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PCO_0000027>))
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020395> (planned process to increment the capacity of partner communites to adopt research outputs)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020395> (development of research outcomes in partnerships of communities)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020395> "A planned process to increment the capacity of communities to aopt research outputs during which an agent causes or contributes to increment the capacity of some community that partner with the agent to adopt ideas, principles, techniques, plans, or technological items generate through research processes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020395> "A planned process to develop community-level capacities to adopt research outputs during which the agent of the development process is a member of a community partnering with the communities benefitting from that process.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020395> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020395> "2019-06-22T03:50:29Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020395> "planned process to increment the capacity of partner communites to adopt research outputs"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020395> "development of research outcomes in partnerships of communities"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020395> <http://purl.unep.org/sdg/SDGIO_00020394>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020397> (planned process to manage human agents)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020397> "A planned process to manage agents during which an agent causes or contributes to the direction, empowerment, or overseeing of some human agent.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020397> "A planned process to manage a single agent during which the actions of a human agent are overseen and directed.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020397> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020397> "2019-06-22T04:49:04Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020397> "planned process to manage human agents"@en)
@@ -2122,20 +2158,20 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020398> "planned process to mitigate contributions to anthropogenic climate change"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020398> <http://purl.unep.org/sdg/SDGIO_00020325>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020399> (planned process to manage agents)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020399> (planned process to manage a single agent)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020399> "A planned process agents or groups of agents during which an agent causes or contributes to the direction, empowerment, or overseeing of some agents.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020399> "A planned process to manage agents or groups of agents during which the actions of a single agent are overseen and directed.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020399> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020399> "2019-06-27T11:52:21Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020399> "planned process to manage agents"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020399> "planned process to manage a single agent"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020399> <http://purl.unep.org/sdg/SDGIO_00020390>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020400> (planned process to manage groups of agents)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020400> (planned process to manage a group of agents)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020400> "A planned process to manage agents or groups of agents during which an agent causes or contributes to the direction, empowerment, or overseeing of some group of agents.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020400> "A planned process to manage agents or groups of agents during which the actions of group of agents are overseen and directed.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020400> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020400> "2019-06-27T11:52:38Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020400> "planned process to manage groups of agents"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020400> "planned process to manage a group of agents"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020400> <http://purl.unep.org/sdg/SDGIO_00020390>)
 
 
