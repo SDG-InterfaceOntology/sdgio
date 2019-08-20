@@ -221,6 +221,20 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020400>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020505>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020506>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020507>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020508>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020509>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020510>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020511>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020512>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020513>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020514>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020515>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020516>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020517>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020518>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
@@ -1852,12 +1866,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020329> "planned process to respond to environmental challenges"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020329> <http://purl.unep.org/sdg/SDGIO_00020338>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020331> (planned process to increase productivity or production capacity of organizations)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020331> (development of organisational production capacity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020331> "A planned process to manage organizations during which an agent causes or contributes either to increment the effectiveness or to reduce some inhibitors of some process planned by some organization.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020331> "A capacity development process during which an organisation's maximum possible output is increased."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020331> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020331> "2019-06-04T17:56:54Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020331> "planned process to increase productivity or production capacity of organizations"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020331> "development of organisational production capacity"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020331> <http://purl.unep.org/sdg/SDGIO_00000252>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020334> (planned process to manage natural resources)
@@ -2189,7 +2203,9 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020400> ObjectMinCardinality(2 <htt
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020502> "a capacity development process which targets an organisation"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020502> "The organization in the defintion should be 'active participant' to differentiate between the agent and beneficiary of capacity development. We will edit this class and all the inferred subclasses pending https://github.com/oborel/obo-relations/issues/333")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020502> "typically it should not be populated by assertion only by inferrence"@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020502> "development of organisational capacity"@en)
 EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00020502> ObjectIntersectionOf(<http://purl.unep.org/sdg/SDGIO_00000252> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0000245>)))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020502> <http://purl.unep.org/sdg/SDGIO_00000252>)
@@ -2207,6 +2223,107 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020504> "development of research capacity"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020504> <http://purl.unep.org/sdg/SDGIO_00000252>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020504> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00010001>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020505> (development of organisational productivity capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020505> "A capacity development process during which the rate at which an organisation generates output is increased."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020505> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020505> "development of organisational productivity capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020505> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020506> (development of individual capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020506> "a capacity development process which targets individual humans."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020506> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020506> "development of individual capacity"@en)
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00020506> ObjectIntersectionOf(<http://purl.unep.org/sdg/SDGIO_00000252> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020506> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020507> (development of coordinated multi-organisational capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020507> "a capacity development process which targets a collection of organisations collectively working towards one or more objectives."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020507> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020507> "development of coordinated multi-organisational capacity"@en)
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00020507> ObjectIntersectionOf(<http://purl.unep.org/sdg/SDGIO_00000252> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0000245>)))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020507> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020508> (development of community level capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020508> "a capacity development process which targets a human community in its entirety."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020508> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020508> "development of community level capacity"@en)
+EquivalentClasses(<http://purl.unep.org/sdg/SDGIO_00020508> ObjectIntersectionOf(<http://purl.unep.org/sdg/SDGIO_00000252> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PCO_0000027>)))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020508> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020509> (development of structural capacity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://en.wikipedia.org/wiki/Organizational_structure>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020509> "A capacity development process during which increases the ability of a collection of agents to configure its shared resources such that it can collectively perform planned activities to achieve its goals."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020509> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020509> "development of structural capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020509> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020510> (development of management capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020510> "A capacity development process which increases the ability of an agent to oversee and direct another agent or group of agents."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020510> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020510> "development of management capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020510> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020511> (development of resource management capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020511> "A process of management capacity primarily concerned with one or more resources."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020511> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020511> "development of resource management capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020511> <http://purl.unep.org/sdg/SDGIO_00020510>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020512> (development of human resource management capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020512> "A process of resource management capacity primarily concerned with resources derived from the capabilities and activities of human agents."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020512> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020512> "development of human resource management capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020512> <http://purl.unep.org/sdg/SDGIO_00020511>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020513> (development of natural resource management capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020513> "A process of resource management capacity primarily concerned with resources derived from a natural environment in which minimal or no anthropisation has occurred."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020513> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020513> "development of natural resource management capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020513> <http://purl.unep.org/sdg/SDGIO_00020511>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020514> (development of risk management capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020514> "A process of management capacity primarily concerned with one or more risks."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020514> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020514> "development of risk management capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020514> <http://purl.unep.org/sdg/SDGIO_00020510>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020515> (development of resources aquisition capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020515> "A capacity development process during which the ability of an agent to maximise its resources at all times, under all conditions is increased."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020515> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020515> "development of resources aquisition capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020515> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020516> (development of adaptation capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020516> "A capacity development process during which the ability of an agent to adjust to potential damage, to take advantage of opportunities, or to respond to consequences is increased."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020516> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020516> "development of adaptation capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020516> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020517> (development of climate change adaptation capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020517> "A process of adaptation capacity dining which the ability of an agent to cope with the effect of climate change is increased."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020517> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020517> "development of climate change adaptation capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020517> <http://purl.unep.org/sdg/SDGIO_00020516>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020518> (human resource)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020518> "a resource which is derived from the capabilities and activities of a human agent."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020518> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020518> "human resource"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020518> <http://purl.unep.org/sdg/SDGIO_00000013>)
 
 
 ############################
@@ -4060,8 +4177,9 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020366> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020357> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020357> "2019-06-21T20:51:19Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020357> "CGIAR planned process to enhance the institutional capacity of research organizations that partner with CGIAR"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020331> <http://purl.unep.org/sdg/SDGIO_00020357>)
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020364> <http://purl.unep.org/sdg/SDGIO_00020357>)
-ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020369> <http://purl.unep.org/sdg/SDGIO_00020357>)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020507> <http://purl.unep.org/sdg/SDGIO_00020357>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020381> (CGIAR planned process to increment the capacity for innovation in vulnerable communities)
 
