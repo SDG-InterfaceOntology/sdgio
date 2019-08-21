@@ -174,7 +174,6 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020317>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020318>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020319>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020325>))
-Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020326>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020327>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020328>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020329>))
@@ -184,7 +183,6 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020335>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020338>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020339>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020341>))
-Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020342>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020343>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020359>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020360>))
@@ -220,7 +218,9 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020517>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020518>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020519>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020520>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020521>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
+Declaration(ObjectProperty(<http://purl.unep.org/sdg/SDGIO_00020523>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000036>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000037>))
@@ -488,6 +488,11 @@ Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020392>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020396>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020401>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020501>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020522>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020524>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020525>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020526>))
+Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00020527>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
@@ -504,6 +509,10 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#cre
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000111> (editor preferred term)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000114> (has curation status)
 
@@ -558,6 +567,18 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010058> "UNEP d
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010069> "UNEP ignore")
 
 
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.unep.org/sdg/SDGIO_00020523> (has objective specification)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020523> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020523> "This is a convenience relation to allow instance level links between objectives and processes. https://github.com/obi-ontology/obi/issues/1033"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020523> "has objective specification"@en)
+ObjectPropertyDomain(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.obolibrary.org/obo/OBI_0000011>)
+ObjectPropertyRange(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
 
 
 ############################
@@ -582,6 +603,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<ht
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000000> (sustainable development goal)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.unep.org/sdg/SDGIO_00000000> "sustainable development goal specification"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000000> "An objective specification which describes the endpoint of a development process following the Sustainable Development Agenda for 2030.")
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00000000> "Draft definition, but close to final.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000000> "sustainable development goal"@en)
@@ -1740,21 +1762,24 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020308> "planned process to reduce poverty"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020308> <http://purl.unep.org/sdg/SDGIO_00020338>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020309> (planned process to improve food security for humans)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020309> (development of capacities to ensure food security)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020309> "A planned process to improve human diet during which an agent causes or contributes to the availability, access, utilization or stability of a supply of well-preserved food by a human population.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://www.fao.org/3/y4671e/y4671e06.htm>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020309> "A process of capacity development in resource management during which an agent increases the ability of humans to access a stable and sufficient supply of safe and nutritious food which meets their dietary needs."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020309> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020309> "2019-06-02T20:04:57Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020309> "planned process to improve food security for humans"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020309> <http://purl.unep.org/sdg/SDGIO_00020326>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://www.fao.org/3/y4671e/y4671e06.htm>) rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020309> "The FAO uses the following defintion \"Food security exists when all people, at all times, have physical, social and economic access to sufficient, safe and nutritious food which meets their dietary needs and food preferences for an active and healthy life.\" We have simplified the definition preserving its meaning save for the element of food preference which we have captured in a subclass."@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020309> "development of capacities to ensure food security"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020309> <http://purl.unep.org/sdg/SDGIO_00020511>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020310> (planned process to improve nutrition security for humans)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020310> (development of capacities to ensure nutritional security)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020310> "A planned process to improve human diet during which an agent causes or contributes to either 1) the introduction of diverse, nutrient-rich foods into the diets of human populations or 2) the continued production of such foods by the farming or industrial systems supplying those populations.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://en.wikipedia.org/wiki/Nutrition>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://hdl.handle.net/10947/3865>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020310> "A process of capacity development of food security during which an agent provides stable access to food that supports the maintenance, growth, reproduction and health of humans."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020310> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020310> "2019-06-02T20:13:52Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020310> "planned process to improve nutrition security for humans"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020310> <http://purl.unep.org/sdg/SDGIO_00020326>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.unep.org/sdg/SDGIO_00020310> "improvement of diet"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020310> "development of capacities to improve diet"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020310> "development of capacities to ensure nutritional security"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020310> <http://purl.unep.org/sdg/SDGIO_00020309>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020311> (planned process to improve sustained access to natural resources through interventions in the agriculture systems)
 
@@ -1816,16 +1841,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020325> "planned process to respond to climate change"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> <http://purl.unep.org/sdg/SDGIO_00020329>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002427> <http://purl.obolibrary.org/obo/ENVO_01000629>))
-
-# Class: <http://purl.unep.org/sdg/SDGIO_00020326> (planned process to improve human diet)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020326> "A planned process to improve diet during which an agent establishes systems to provide a human population with regular and secure access to food of sufficient quantity and diversity to improve their health.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020326> <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020326> "2019-06-03T19:30:51Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020326> "planned process to improve human diet"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> <http://purl.unep.org/sdg/SDGIO_00020342>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PCO_0000027>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020343>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020327> (planned process to improve sustained access to natural resources)
 
@@ -1906,15 +1921,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020341> "2019-06-05T15:17:41Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020341> "diet"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020341> <http://purl.obolibrary.org/obo/BFO_0000040>)
-
-# Class: <http://purl.unep.org/sdg/SDGIO_00020342> (planned process to improve diet)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020342> "A planned process to manage resources during which an agent establishes systems to provide a collection of organisms with regular and secure access to food of sufficient quantity and diversity to improve their health.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020342> <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020342> "2019-06-05T15:18:28Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020342> "planned process to improve diet"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> <http://purl.unep.org/sdg/SDGIO_00020335>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020341>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020343> (human diet)
 
@@ -2198,6 +2204,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020520> "vulnerable community"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020520> <http://purl.obolibrary.org/obo/PCO_0000027>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020520> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.unep.org/sdg/SDGIO_00000024>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020521> (development of capacities to accommodate food preferences)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://www.fao.org/3/y4671e/y4671e06.htm>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020521> "A process of capacity development of food security during which an agent provides the dietary preferences of humans."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020521> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020521> "development of capacities to accommodate food preferences"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020521> <http://purl.unep.org/sdg/SDGIO_00020309>)
 
 
 ############################
@@ -4128,12 +4141,51 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020501> "CGIAR"
 AnnotationAssertion(<http://xmlns.com/foaf/0.1/page> <http://purl.unep.org/sdg/SDGIO_00020501> <https://www.cgiar.org/>)
 ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.unep.org/sdg/SDGIO_00020501>)
 
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020522> (global process to develop capacities to ensure nutritional security)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020522> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020522> "global process to develop capacities to ensure nutritional security"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020310> <http://purl.unep.org/sdg/SDGIO_00020522>)
+ObjectPropertyAssertion(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020522> <http://purl.unep.org/sdg/SDGIO_00000036>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020524> (United Nations' Sustainable Development Agenda for 2030)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020524> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020524> "United Nations' Sustainable Development Agenda for 2030"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.unep.org/sdg/SDGIO_00020524>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00000000>) <http://purl.unep.org/sdg/SDGIO_00020524>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020525> (CGIAR process to increase the availability of diverse nutrient-rich foods)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020525> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020525> "This instance is a place holder and will be replaced with a real instance."@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020525> "CGIAR process to increase the availability of diverse nutrient-rich foods"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020310> <http://purl.unep.org/sdg/SDGIO_00020525>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.unep.org/sdg/SDGIO_00020525> <http://purl.unep.org/sdg/SDGIO_00020522>)
+ObjectPropertyAssertion(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020525> <http://purl.unep.org/sdg/SDGIO_00020267>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020526> (CGIAR process to improve capacities for food security)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020526> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020526> "This instance is a place holder and will be replaced with a real instance."@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020526> "CGIAR process to improve capacities for food security"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020309> <http://purl.unep.org/sdg/SDGIO_00020526>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.unep.org/sdg/SDGIO_00020526> <http://purl.unep.org/sdg/SDGIO_00020527>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020526> <http://purl.unep.org/sdg/SDGIO_00020501>)
+ObjectPropertyAssertion(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020526> <http://purl.unep.org/sdg/SDGIO_00020243>)
+
+# Individual: <http://purl.unep.org/sdg/SDGIO_00020527> (global process to improve capacities for food security)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020527> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020527> "global process to improve capacities for food security"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020309> <http://purl.unep.org/sdg/SDGIO_00020527>)
+ObjectPropertyAssertion(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020527> <http://purl.unep.org/sdg/SDGIO_00000036>)
+
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000003> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000020> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000031> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000144> "true"^^xsd:boolean)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "term editor")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000232> "curator note")
