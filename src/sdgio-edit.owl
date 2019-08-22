@@ -504,6 +504,7 @@ Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00000074>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010032>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010058>))
 Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00010069>))
+Declaration(AnnotationProperty(<http://purl.unep.org/sdg/SDGIO_00020528>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
 ############################
@@ -565,6 +566,12 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010058> "UNEP d
 # Annotation Property: <http://purl.unep.org/sdg/SDGIO_00010069> (UNEP ignore)
 
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010069> "UNEP ignore")
+
+# Annotation Property: <http://purl.unep.org/sdg/SDGIO_00020528> (UN SDG ID)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020528> "An annotation property which has as its value the ID used by the United Nations to identify instances of a sustainable development goal."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020528> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020528> "UN SDG ID"@en)
 
 
 ############################
@@ -2219,6 +2226,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020521> <http://purl.unep.org/sdg/S
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000035> (end poverty in all its forms everywhere)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000035> "1"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000035> "http://www.un.org/sustainabledevelopment/poverty/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000035> "SDG1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000035> "Sustainable Development Goal 1")
@@ -2228,6 +2236,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000036> (end hunger, achieve food security and improved nutrition and promote sustainable agriculture)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000036> "2"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000036> "http://www.un.org/sustainabledevelopment/hunger/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000036> "SDG2")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000036> "Sustainable Development Goal 2")
@@ -2236,6 +2245,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000037> (ensure healthy lives and promote well-being for all at all ages)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000037> "3"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000037> "http://www.un.org/sustainabledevelopment/health/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000037> "SDG3")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000037> "Sustainable Development Goal 3")
@@ -2245,6 +2255,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000038> (ensure inclusive and quality education for all and promote lifelong learning)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000038> "4"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000038> "http://www.un.org/sustainabledevelopment/education/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000038> "SDG4")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000038> "Sustainable Development Goal 4")
@@ -2254,6 +2265,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000039> (achieve gender equality and empower all women and girls)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000039> "5"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000039> "http://www.un.org/sustainabledevelopment/gender-equality/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000039> "SDG5")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000039> "Sustainable Development Goal 5")
@@ -2264,6 +2276,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000040> (ensure access to water and sanitation for all)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000040> "6"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000040> "http://www.un.org/sustainabledevelopment/water-and-sanitation/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000040> "SDG6")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000040> "Sustainable Development Goal 6")
@@ -2277,6 +2290,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000041> (ensure access to affordable, reliable, sustainable and modern energy for all)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000041> "7"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000041> "http://www.un.org/sustainabledevelopment/energy/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000041> "SDG7")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000041> "Sustainable Development Goal 7")
@@ -2285,6 +2299,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000042> (promote inclusive and sustainable economic growth, employment and decent work for all)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000042> "8"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000042> "http://www.un.org/sustainabledevelopment/economic-growth/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000042> "SDG8")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000042> "Sustainable Development Goal 8")
@@ -2293,6 +2308,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000043> (build resilient infrastructure, promote sustainable industrialization and foster innovation)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000043> "9"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000043> "http://www.un.org/sustainabledevelopment/infrastructure-industrialization/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000043> "SDG9")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000043> "Sustainable Development Goal 9")
@@ -2301,6 +2317,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000044> (reduce inequality within and among countries)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000044> "10"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000044> "http://www.un.org/sustainabledevelopment/inequality/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000044> "SDG10")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000044> "Sustainable Development Goal 10")
@@ -2309,6 +2326,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000045> (make cities inclusive, safe, resilient and sustainable)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000045> "11"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000045> "http://www.un.org/sustainabledevelopment/cities/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000045> "SDG11")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000045> "Sustainable Development Goal 11")
@@ -2318,6 +2336,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000046> (ensure sustainable consumption and production patterns)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000046> "12"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000046> "http://www.un.org/sustainabledevelopment/sustainable-consumption-production/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000046> "SDG12")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000046> "Sustainable Development Goal 12")
@@ -2327,6 +2346,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000047> (take urgent action to combat climate change and its impacts)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000047> "13"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000047> "http://www.un.org/sustainabledevelopment/climate-change-2/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000047> "SDG13")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000047> "Sustainable Development Goal 13")
@@ -2337,6 +2357,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000048> (conserve and sustainably use the oceans, seas and marine resources)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000048> "14"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000048> "http://www.un.org/sustainabledevelopment/oceans/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000048> "SDG14")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000048> "Sustainable Development Goal 14")
@@ -2347,6 +2368,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000049> (sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000049> "15"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000049> "http://www.un.org/sustainabledevelopment/biodiversity/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000049> "SDG15")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000049> "Sustainable Development Goal 15")
@@ -2361,6 +2383,7 @@ ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136>
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000050> (promote just, peaceful and inclusive societies)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000050> "16"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00000050> "http://www.un.org/sustainabledevelopment/peace-justice/")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000050> "SDG16")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000050> "Sustainable Development Goal 16")
@@ -2369,6 +2392,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00000000> <http://purl.unep.org/s
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00000051> (revitalize the global partnership for sustainable development)
 
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00020528> <http://purl.unep.org/sdg/SDGIO_00000051> "17"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000051> "SDG17")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00000051> "Sustainable Development Goal 17")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000051> "revitalize the global partnership for sustainable development"@en)
