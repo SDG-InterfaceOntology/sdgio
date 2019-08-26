@@ -1933,7 +1933,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020341> <http://purl.obolibrary.org
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020343> "A material entity which is the sum of items of food consumed by an organism of the species homo over a specific period of time.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020343> "This definition will be obsolete when the same item will be added to Ecocore. Moreover, this item is being discussed on Ecocore issue #108 (https://github.com/EcologicalSemantics/ecocore/issues/108). Pier Luigi Buttigieg and Matteo Bianchetti are following the discussion there and will make adjustments as needed.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020343> <http://orcid.org/0000-0062-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020343> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020343> "2019-06-05T15:23:15Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020343> "human diet"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020343> <http://purl.unep.org/sdg/SDGIO_00020341>)
