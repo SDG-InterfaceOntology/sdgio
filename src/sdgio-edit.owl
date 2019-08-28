@@ -3,6 +3,7 @@ Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(obda:=<https://w3id.org/obda/vocabulary#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
@@ -219,6 +220,9 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020518>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020519>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020520>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020521>))
+Declaration(Class(:SW-HW__0000000198))
+Declaration(Class(:SW-HW__0000000199))
+Declaration(Class(:SW-HW__0000000200))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
 Declaration(ObjectProperty(<http://purl.unep.org/sdg/SDGIO_00020523>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
@@ -1303,6 +1307,7 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010021> "This disposition is distinct from robustness, which pertains to an entity's ability to resist change when encountering perturbing forces."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010021> "resilience"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010021> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> :SW-HW__0000000198))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010022> (secure right)
 
@@ -2018,12 +2023,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020390> "management process"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020390> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
-# Class: <http://purl.unep.org/sdg/SDGIO_00020394> (development of the captacity to adopt research outputs)
+# Class: <http://purl.unep.org/sdg/SDGIO_00020394> (development of the capacity to adopt research outputs)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020394> "A planned process to develop innovation capacity during which an agent increases the capacity of an agent to adopt ideas, principles, techniques, plans, or technological items generated through research processes.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020394> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020394> "2019-06-22T03:50:19Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020394> "development of the captacity to adopt research outputs"@en)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020394> "development of the capacity to adopt research outputs"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020394> <http://purl.unep.org/sdg/SDGIO_00000254>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020395> (development of capacity across partnerships of communities)
@@ -2218,6 +2223,27 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020521> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020521> "development of capacities to accommodate food preferences"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020521> <http://purl.unep.org/sdg/SDGIO_00020309>)
+
+# Class: :SW-HW__0000000198 (development of capacity to increase resilience)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :SW-HW__0000000198 "A capacity development process which increases the ability of an agent or a group of agents to recover quickly or easily from or resist being affected by a shock.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000198 <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(rdfs:label :SW-HW__0000000198 "development of capacity to increase resilience"@en)
+SubClassOf(:SW-HW__0000000198 <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(:SW-HW__0000000198 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00010021>))
+SubClassOf(:SW-HW__0000000198 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002326> <http://purl.unep.org/sdg/SDGIO_00010021>))
+
+# Class: :SW-HW__0000000199 (development of capacity to increase resilience of poor communities)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000199 <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(rdfs:label :SW-HW__0000000199 "development of capacity to increase resilience of poor communities"@en)
+SubClassOf(:SW-HW__0000000199 :SW-HW__0000000198)
+
+# Class: :SW-HW__0000000200 (development of capacity to increase resilience of vulnerable communities)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000200 <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(rdfs:label :SW-HW__0000000200 "development of capacity to increase resilience of vulnerable communities"@en)
+SubClassOf(:SW-HW__0000000200 :SW-HW__0000000198)
 
 
 ############################
