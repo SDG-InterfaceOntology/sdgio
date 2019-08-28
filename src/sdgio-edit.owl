@@ -223,6 +223,9 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020521>))
 Declaration(Class(:SW-HW__0000000198))
 Declaration(Class(:SW-HW__0000000199))
 Declaration(Class(:SW-HW__0000000200))
+Declaration(Class(:SW-HW__0000000201))
+Declaration(Class(:SW-HW__0000000202))
+Declaration(Class(:SW-HW__0000000203))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
 Declaration(ObjectProperty(<http://purl.unep.org/sdg/SDGIO_00020523>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
@@ -2238,12 +2241,35 @@ SubClassOf(:SW-HW__0000000198 ObjectSomeValuesFrom(<http://purl.obolibrary.org/o
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000199 <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(rdfs:label :SW-HW__0000000199 "development of capacity to increase resilience of poor communities"@en)
 SubClassOf(:SW-HW__0000000199 :SW-HW__0000000198)
+SubClassOf(:SW-HW__0000000199 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020519>))
 
 # Class: :SW-HW__0000000200 (development of capacity to increase resilience of vulnerable communities)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000200 <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(rdfs:label :SW-HW__0000000200 "development of capacity to increase resilience of vulnerable communities"@en)
 SubClassOf(:SW-HW__0000000200 :SW-HW__0000000198)
+SubClassOf(:SW-HW__0000000200 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020520>))
+
+# Class: :SW-HW__0000000201 (development of capacity to increase market access)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :SW-HW__0000000201 "A development of resource acquisition capacity process which increases the ability of an agent to buy or sell goods or services.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000201 <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(rdfs:label :SW-HW__0000000201 "development of capacity to increase market access"@en)
+SubClassOf(:SW-HW__0000000201 <http://purl.unep.org/sdg/SDGIO_00020515>)
+
+# Class: :SW-HW__0000000202 (development of capacity to increase access to agricultural markets)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :SW-HW__0000000202 "A development of resource acquisition capacity process which increases the ability of an agent to buy or sell goods or services concerning agriculture.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000202 <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(rdfs:label :SW-HW__0000000202 "development of capacity to increase access to agricultural markets"@en)
+SubClassOf(:SW-HW__0000000202 :SW-HW__0000000201)
+
+# Class: :SW-HW__0000000203 (development of capacity to increase smallholder access to agricultural markets)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :SW-HW__0000000203 "A development of resource acquisition capacity process which increases the ability of smallholders to buy or sell goods or services concerning agriculture.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000203 <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(rdfs:label :SW-HW__0000000203 "development of capacity to increase smallholder access to agricultural markets"@en)
+SubClassOf(:SW-HW__0000000203 :SW-HW__0000000202)
 
 
 ############################
