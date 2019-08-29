@@ -200,6 +200,12 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020397>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020398>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020399>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020400>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020403>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020404>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020405>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020406>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020407>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020408>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -220,12 +226,6 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020518>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020519>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020520>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020521>))
-Declaration(Class(:SW-HW__0000000198))
-Declaration(Class(:SW-HW__0000000199))
-Declaration(Class(:SW-HW__0000000200))
-Declaration(Class(:SW-HW__0000000201))
-Declaration(Class(:SW-HW__0000000202))
-Declaration(Class(:SW-HW__0000000203))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
 Declaration(ObjectProperty(<http://purl.unep.org/sdg/SDGIO_00020523>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
@@ -1310,7 +1310,6 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00000064> <http://purl.unep.
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00010021> "This disposition is distinct from robustness, which pertains to an entity's ability to resist change when encountering perturbing forces."@en)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00010021> "resilience"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010021> <http://purl.obolibrary.org/obo/BFO_0000016>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00010021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> :SW-HW__0000000198))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00010022> (secure right)
 
@@ -2076,6 +2075,56 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020400> "planne
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020400> <http://purl.unep.org/sdg/SDGIO_00020390>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020400> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020399>))
 
+# Class: <http://purl.unep.org/sdg/SDGIO_00020403> (development of capacity to increase resilience)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020403> "A capacity development process which increases the ability of an agent or a group of agents to recover quickly or easily from or resist being affected by a shock.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020403> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020403> "2019-08-29T04:39:13Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020403> "development of capacity to increase resilience"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020403> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00010021>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002326> <http://purl.unep.org/sdg/SDGIO_00010021>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020404> (development of capacity to increase resilience of poor communities)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020404> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020404> "2019-08-29T04:40:52Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020404> "development of capacity to increase resilience of poor communities"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020404> <http://purl.unep.org/sdg/SDGIO_00020403>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020519>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020405> (development of capacity to increase resilience of vulnerable communities)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020405> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020405> "2019-08-29T04:41:10Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020405> "development of capacity to increase resilience of vulnerable communities"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020405> <http://purl.unep.org/sdg/SDGIO_00020403>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020520>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020406> (development of capacity to increase market access)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020406> "A development of resource acquisition capacity process which increases the ability of an agent to buy or sell goods or services.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020406> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020406> "2019-08-29T05:07:04Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020406> "development of capacity to increase market access"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020406> <http://purl.unep.org/sdg/SDGIO_00020515>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020407> (development of capacity to increase access to agricultural markets)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020407> "A development of resource acquisition capacity process which increases the ability of an agent to buy or sell goods or services concerning agriculture.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020407> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020407> "2019-08-29T05:07:40Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020407> "development of capacity to increase access to agricultural markets"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020407> <http://purl.unep.org/sdg/SDGIO_00020406>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020408> (development of capacity to increase smallholder access to agricultural markets)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020408> "A development of resource acquisition capacity process which increases the ability of smallholders to buy or sell goods or services concerning agriculture.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020408> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020408> "2019-08-29T05:07:50Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020408> "development of capacity to increase smallholder access to agricultural markets"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020408> <http://purl.unep.org/sdg/SDGIO_00020407>)
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020502> "A capacity development process which targets an organisation"@en)
@@ -2226,50 +2275,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020521> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020521> "development of capacities to accommodate food preferences"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020521> <http://purl.unep.org/sdg/SDGIO_00020309>)
-
-# Class: :SW-HW__0000000198 (development of capacity to increase resilience)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :SW-HW__0000000198 "A capacity development process which increases the ability of an agent or a group of agents to recover quickly or easily from or resist being affected by a shock.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000198 <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(rdfs:label :SW-HW__0000000198 "development of capacity to increase resilience"@en)
-SubClassOf(:SW-HW__0000000198 <http://purl.unep.org/sdg/SDGIO_00000252>)
-SubClassOf(:SW-HW__0000000198 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00010021>))
-SubClassOf(:SW-HW__0000000198 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002326> <http://purl.unep.org/sdg/SDGIO_00010021>))
-
-# Class: :SW-HW__0000000199 (development of capacity to increase resilience of poor communities)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000199 <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(rdfs:label :SW-HW__0000000199 "development of capacity to increase resilience of poor communities"@en)
-SubClassOf(:SW-HW__0000000199 :SW-HW__0000000198)
-SubClassOf(:SW-HW__0000000199 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020519>))
-
-# Class: :SW-HW__0000000200 (development of capacity to increase resilience of vulnerable communities)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000200 <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(rdfs:label :SW-HW__0000000200 "development of capacity to increase resilience of vulnerable communities"@en)
-SubClassOf(:SW-HW__0000000200 :SW-HW__0000000198)
-SubClassOf(:SW-HW__0000000200 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020520>))
-
-# Class: :SW-HW__0000000201 (development of capacity to increase market access)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :SW-HW__0000000201 "A development of resource acquisition capacity process which increases the ability of an agent to buy or sell goods or services.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000201 <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(rdfs:label :SW-HW__0000000201 "development of capacity to increase market access"@en)
-SubClassOf(:SW-HW__0000000201 <http://purl.unep.org/sdg/SDGIO_00020515>)
-
-# Class: :SW-HW__0000000202 (development of capacity to increase access to agricultural markets)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :SW-HW__0000000202 "A development of resource acquisition capacity process which increases the ability of an agent to buy or sell goods or services concerning agriculture.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000202 <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(rdfs:label :SW-HW__0000000202 "development of capacity to increase access to agricultural markets"@en)
-SubClassOf(:SW-HW__0000000202 :SW-HW__0000000201)
-
-# Class: :SW-HW__0000000203 (development of capacity to increase smallholder access to agricultural markets)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :SW-HW__0000000203 "A development of resource acquisition capacity process which increases the ability of smallholders to buy or sell goods or services concerning agriculture.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :SW-HW__0000000203 <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(rdfs:label :SW-HW__0000000203 "development of capacity to increase smallholder access to agricultural markets"@en)
-SubClassOf(:SW-HW__0000000203 :SW-HW__0000000202)
 
 
 ############################
