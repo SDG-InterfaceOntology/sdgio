@@ -206,6 +206,8 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020405>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020406>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020407>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020408>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020409>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020410>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -541,6 +543,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alt
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000119> (definition source)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "definition source")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000600> (elucidation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000600> "elucidation")
 
 # Annotation Property: <http://purl.unep.org/sdg/SDGIO_00000064> (has COP discussion thread)
 
@@ -2124,6 +2130,23 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020408> "2019-08-29T05:07:50Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020408> "development of capacity to increase smallholder access to agricultural markets"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020408> <http://purl.unep.org/sdg/SDGIO_00020407>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020409> (development of capacity to increase income)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020409> "A capacity development process which increases an agent's periodical produce of her work, business, lands, investment, or properties.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.unep.org/sdg/SDGIO_00020409> "Though not necessary, income is usually expressed in terms of money.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020409> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020409> "2019-08-30T05:38:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020409> "development of capacity to increase income"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020409> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020410> (development of capacity to increase employment levels)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020410> "A capacity development process which increases the level (appropriately measured) of those working for an employer in exchange of wages.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020410> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020410> "2019-08-30T05:39:32Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020410> "development of capacity to increase employment levels"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> <http://purl.unep.org/sdg/SDGIO_00000252>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
@@ -4273,7 +4296,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000232> "cur
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000424> "expand expression to")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000589> "OBO foundry unique label")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000600> "elucidation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001900> "temporal interpretation")
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://usefulinc.com/ns/doap#Project> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://usefulinc.com/ns/doap#SVNRepository> "true"^^xsd:boolean)
