@@ -2203,6 +2203,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020415> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020416> (development of capacity to improve agricultural practices)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020416> "A capacity development process which makes implementation of agricultural techniques either 1) more efficient, 2) more sustainable, or 3) producing products that are better according to some relevant metric (like healthier, more nutritious, and conservable for a longer period).")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020416> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020416> "2019-09-03T05:01:36Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020416> "development of capacity to improve agricultural practices"@en)
@@ -2210,6 +2211,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020416> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020417> (development of capacity to improve health)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020417> "A capacity development process which makes some organism more capable of either becoming healthier or staying healthy.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020417> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020417> "2019-09-03T05:01:55Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020417> "development of capacity to improve health"@en)
@@ -2217,6 +2219,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020417> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020418> (development of capacity to improve human health)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020418> "A capacity development process which makes some human more capable of either becoming healthier or staying healthy.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020418> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020418> "2019-09-03T05:02:18Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020418> "development of capacity to improve human health"@en)
@@ -2224,6 +2227,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020418> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020419> (development of capacity to improve animal health)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020419> "A capacity development process which makes some animal more capable of either becoming healthier or staying healthy.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020419> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020419> "2019-09-03T05:02:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020419> "development of capacity to improve animal health"@en)
