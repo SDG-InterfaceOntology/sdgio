@@ -222,6 +222,12 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020421>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020422>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020423>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020424>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020425>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020426>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020427>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020428>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020429>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020430>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2107,6 +2113,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020403> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020404> (development of capacity to increase resilience of poor communities)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020404> "A capacity development process in resilience increment which increases the ability of agents in a poor community and the poor community as a whole to recover quickly or easily from or resist being affected by a shock.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020404> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020404> "2019-08-29T04:40:52Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020404> "development of capacity to increase resilience of poor communities"@en)
@@ -2115,6 +2122,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020404> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020405> (development of capacity to increase resilience of vulnerable communities)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020405> "A capacity development process in resilience increment which increases the ability of agents in a vulnerable community and the vulnerable community as a whole to recover quickly or easily from or resist being affected by a shock.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020405> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020405> "2019-08-29T04:41:10Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020405> "development of capacity to increase resilience of vulnerable communities"@en)
@@ -2224,7 +2232,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020417> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020418> (development of capacity to improve human health)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020418> "A capacity development process which makes some human more capable of either becoming healthier or staying healthy.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020418> "An animal health capacity development process which makes some human more capable of either becoming healthier or staying healthy.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020418> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020418> "2019-09-03T05:02:18Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020418> "development of capacity to improve human health"@en)
@@ -2232,7 +2240,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020418> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020419> (development of capacity to improve animal health)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020419> "A capacity development process which makes some animal more capable of either becoming healthier or staying healthy.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020419> "A capacity development process in health improvement which makes some animal more capable of either becoming healthier or staying healthy.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020419> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020419> "2019-09-03T05:02:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020419> "development of capacity to improve animal health"@en)
@@ -2249,7 +2257,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020420> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020421> (development of capacity to protect natural capital from the effects of climate change)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020421> "A capacity development process which improves the capacity of some agent or group of agent to protect the natural capital or part of it from adverse effects of climate change.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020421> "A capacity development process in natural capital protection which improves the capacity of some agent or group of agent to protect the natural capital or part of it from adverse effects of climate change.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020421> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020421> "2019-09-04T04:47:24Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020421> "development of capacity to protect natural capital from the effects of climate change"@en)
@@ -2281,6 +2289,53 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020424> "2019-09-04T05:18:48Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020424> "development of capacity to sustainably manage agro-ecosystems"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020424> <http://purl.unep.org/sdg/SDGIO_00020511>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020425> (development of capacity to mitigate effects of a process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020425> "A capacity development process which either reduces the effects of a process.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020425> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020425> "2019-09-04T05:39:57Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020425> "development of capacity to mitigate effects of a process"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020425> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020426> (development of capacity to mitigate effects of climate change)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020426> "A capacity development process which either reduces the effects of climate change.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020426> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020426> "2019-09-04T05:40:19Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020426> "development of capacity to mitigate effects of climate change"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020426> <http://purl.unep.org/sdg/SDGIO_00020425>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020427> (development of capacity to adapt to the effects of a process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020427> "A capacity development process which makes the effects of some process either more berable by or less disastreous for the agents or other material entities that are involved.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020427> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020427> "2019-09-04T05:43:36Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020427> "development of capacity to adapt to the effects of a process"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020427> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020428> (development of capacity to adapt to the effects of climate change)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020428> "A capacity development process which makes the effects of climate change either more berable by or less disastreous for the agents or other material entities that are involved.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020428> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020428> "2019-09-04T05:45:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020428> "development of capacity to adapt to the effects of climate change"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020428> <http://purl.unep.org/sdg/SDGIO_00020427>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020429> (development of capacity to promote equity between human groups)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020429> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020429> "2019-09-04T05:47:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020429> "development of capacity to promote equity between human groups"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020429> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020430> (development of capacity to promote inclusivity in human groups)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020430> "A capacity development process which promote the practice of not exclusing any agent on the grounds of race, gender, religion, age, disability, sexual orientation, legitimate diversity of opinions, etc.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020430> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020430> "2019-09-04T05:50:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020430> "development of capacity to promote inclusivity in human groups"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020430> <http://purl.unep.org/sdg/SDGIO_00000252>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
