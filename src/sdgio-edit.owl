@@ -2223,7 +2223,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020418> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020418> "2019-09-03T05:02:18Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020418> "development of capacity to improve human health"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020418> <http://purl.unep.org/sdg/SDGIO_00020417>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020418> <http://purl.unep.org/sdg/SDGIO_00020419>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020419> (development of capacity to improve animal health)
 
