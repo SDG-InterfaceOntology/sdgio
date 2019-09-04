@@ -217,6 +217,9 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020416>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020417>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020418>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020419>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020420>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020421>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020422>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2232,6 +2235,33 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020419> "2019-09-03T05:02:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020419> "development of capacity to improve animal health"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020419> <http://purl.unep.org/sdg/SDGIO_00020417>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020420> (development of capacity to protect natural capital)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020420> "A capacity development process which improves the capacity of some agent or group of agent to protect the natural capital or part of it from adverse effects.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020420> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020420> "2019-09-04T04:47:03Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020420> "development of capacity to protect natural capital"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020420> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020420> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00010053>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020421> (development of capacity to protect natural capital from the effects of climate change)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020421> "A capacity development process which improves the capacity of some agent or group of agent to protect the natural capital or part of it from adverse effects of climate change.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020421> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020421> "2019-09-04T04:47:24Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020421> "development of capacity to protect natural capital from the effects of climate change"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020421> <http://purl.unep.org/sdg/SDGIO_00020420>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020422> (development of capacity to enhance natural capital)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020422> "A capacity development process which either increases or improves the natural capital or some part of it.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020422> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020422> "2019-09-04T04:48:13Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020422> "We requested from the CGIAR a clarification of the term `enhancement'. When we receive it, the definition of this class may change.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020422> "development of capacity to enhance natural capital"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020422> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00010053>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
