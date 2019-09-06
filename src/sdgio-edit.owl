@@ -1161,7 +1161,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000253> <http://purl.unep.org/sdg/S
 # Class: <http://purl.unep.org/sdg/SDGIO_00000254> (development of capacity for innovation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://marlo.cgiar.org/glossary.do>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000254> "A capacity development process during which the ability of an agent or groups of agents to create or implement novel approaches to meet their objectives is increased.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00000254> "A capacity development process which either 1) increases the amount of healthy and nutritious food available to organisms in given community or 2) makes the available food healthier or more nutritious.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00000254> <http://orcid.org/0000-0002-4366-3088>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00000254> "2019-08-19T09:13:48Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000254> "development of capacity for innovation"@en)
