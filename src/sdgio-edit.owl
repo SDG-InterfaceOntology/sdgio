@@ -248,6 +248,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020518>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020519>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020520>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020521>))
+Declaration(Class(:INT_0000000049))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
 Declaration(ObjectProperty(<http://purl.unep.org/sdg/SDGIO_00020523>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
@@ -2486,6 +2487,12 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020521> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020521> "development of capacities to accommodate food preferences"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020521> <http://purl.unep.org/sdg/SDGIO_00020309>)
+
+# Class: :INT_0000000049 (development of adaptation capacity to increase resilience)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :INT_0000000049 <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(rdfs:label :INT_0000000049 "development of adaptation capacity to increase resilience"@en)
+SubClassOf(:INT_0000000049 <http://purl.unep.org/sdg/SDGIO_00020516>)
 
 
 ############################
