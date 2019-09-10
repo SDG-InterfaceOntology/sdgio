@@ -228,6 +228,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020427>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020428>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020429>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020430>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020431>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -248,7 +249,6 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020518>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020519>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020520>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020521>))
-Declaration(Class(:INT_0000000049))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
 Declaration(ObjectProperty(<http://purl.unep.org/sdg/SDGIO_00020523>))
 Declaration(NamedIndividual(<http://purl.unep.org/sdg/SDGIO_00000035>))
@@ -641,6 +641,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectSomeValuesFrom(<ht
 # Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000245> (organization)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000245> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/RO_0002577>)))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000000> (sustainable development goal)
 
@@ -2337,6 +2341,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020430> "development of capacity to promote inclusivity in human groups"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020430> <http://purl.unep.org/sdg/SDGIO_00000252>)
 
+# Class: <http://purl.unep.org/sdg/SDGIO_00020431> (development of adaptation capacity to increase resilience)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020431> "A development of adaptation capacity process which increases the capacity of an agent or system either 1) to restore its condition before a problem occrred or 2) to resists or adapt to the problem without succumbing.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020431> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020431> "2019-09-10T04:27:07Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020431> "development of adaptation capacity to increase resilience"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020431> <http://purl.unep.org/sdg/SDGIO_00020516>)
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020502> "A capacity development process which targets an organisation"@en)
@@ -2487,12 +2499,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020521> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020521> "development of capacities to accommodate food preferences"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020521> <http://purl.unep.org/sdg/SDGIO_00020309>)
-
-# Class: :INT_0000000049 (development of adaptation capacity to increase resilience)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> :INT_0000000049 <http://orcid.org/0000-0002-3253-4387>)
-AnnotationAssertion(rdfs:label :INT_0000000049 "development of adaptation capacity to increase resilience"@en)
-SubClassOf(:INT_0000000049 <http://purl.unep.org/sdg/SDGIO_00020516>)
 
 
 ############################
