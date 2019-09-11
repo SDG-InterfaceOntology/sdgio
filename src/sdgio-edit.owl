@@ -232,6 +232,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020431>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020432>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020433>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020434>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020435>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2126,6 +2127,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020404> "development of capacity to increase resilience of poor communities"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020404> <http://purl.unep.org/sdg/SDGIO_00020403>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020519>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020404> ObjectSomeValuesFrom(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020236>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020405> (development of capacity to increase resilience of vulnerable communities)
 
@@ -2159,6 +2161,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020408> "2019-08-29T05:07:50Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020408> "development of capacity to increase smallholder access to agricultural markets"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020408> <http://purl.unep.org/sdg/SDGIO_00020407>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020434>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020408> ObjectSomeValuesFrom(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020236>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020409> (development of capacity to increase income)
 
@@ -2168,6 +2172,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020409> "2019-08-30T05:38:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020409> "development of capacity to increase income"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020409> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020435>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020409> ObjectSomeValuesFrom(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020236>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020410> (development of capacity to increase employment levels)
 
@@ -2176,6 +2182,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020410> "2019-08-30T05:39:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020410> "development of capacity to increase employment levels"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020236>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020411> (development of capacity to improve enabling environment)
 
@@ -2376,6 +2383,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020434> "2019-09-11T04:31:27Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020434> "smallholder"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020434> <http://purl.unep.org/sdg/SDGIO_00010005>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020435> (income)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020435> "An asset which an agent receives as the periodical produce of her work, business, lands, or investments considered in reference to its amount, and commonly expressed in terms of money.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020435> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020435> "2019-09-11T04:55:02Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020435> "income"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020435> <http://purl.unep.org/sdg/SDGIO_00010048>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
