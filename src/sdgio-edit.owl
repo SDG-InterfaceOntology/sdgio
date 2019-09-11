@@ -229,6 +229,9 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020428>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020429>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020430>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020431>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020432>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020433>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020434>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2348,6 +2351,31 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020431> "2019-09-10T04:27:07Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020431> "development of adaptation capacity to increase resilience"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020431> <http://purl.unep.org/sdg/SDGIO_00020516>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020432> (state)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020432> "A realizable entity which consists in a thing's condition or way of existence at a specific time.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020432> "The term \"state\" has different meanings. It can refer to a specific political entity (like France or Texas and maybe also the US). It can refer to a circumstance or combination of circumstances. It may refer to a way of existing in the sense in which a mental state (like believing) or a psycholgical state (like being shocked) are states. The definition attached to this entry intends to capture only this last sense of \"state\". One difficulty is that describing such an item as a \"way of being\" is unsatisfactorily vague. However, any attempt that I made to make this definition sharper resulted in making it unduly narrow. Feel the sharp mind free to improve the definition.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020432> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020432> "2019-09-11T04:04:12Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020432> "state"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020432> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020433> (shock)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020433> "A state which consists in an agent feeling distress or disorientation as a result of sudden subjection to an acute or pervasive problem.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020433> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020433> "2019-09-11T04:21:02Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020433> "shock"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020433> <http://purl.unep.org/sdg/SDGIO_00020432>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020434> (smallholder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020434> "An employed person who owns or work a smallholding.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020434> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020434> "2019-09-11T04:31:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020434> "smallholder"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020434> <http://purl.unep.org/sdg/SDGIO_00010005>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
