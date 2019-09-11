@@ -233,6 +233,11 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020432>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020433>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020434>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020435>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020436>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020438>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020439>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020440>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020441>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -641,6 +646,10 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.oboli
 # Class: <http://purl.obolibrary.org/obo/BFO_0000016> (disposition)
 
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00000013>))))
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
+
+AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000020> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
 
@@ -2182,6 +2191,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020410> "2019-08-30T05:39:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020410> "development of capacity to increase employment levels"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00000062>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00010005>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020236>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020411> (development of capacity to improve enabling environment)
@@ -2391,6 +2402,52 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020435> "2019-09-11T04:55:02Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020435> "income"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020435> <http://purl.unep.org/sdg/SDGIO_00010048>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020436> (ratio)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020436> "A specifically dependent continuant which is a relation between two homogeneous quantities indicating how many times the first quantity contains the second quantity.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020436> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020436> "2019-09-11T05:06:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020436> "ratio"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020436> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020438> (productivity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020438> "A ratio which has a measure of the output (goods, productis, etc.) of a process as the first quantity and the unit of input (labor, material, equipment, etc.) as the second quantity.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020438> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020438> "2019-09-11T05:11:19Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020438> "productivity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020438> <http://purl.unep.org/sdg/SDGIO_00020436>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020439> (economic productivity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020439> "Productivity which has an economic process and an economic unit of process as quantities.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020439> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020439> "2019-09-11T05:13:08Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020439> "economic productivity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020439> <http://purl.unep.org/sdg/SDGIO_00020438>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020440> (capacity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020440> "A realizable entity which (a) is typically expressed by the modal 'can' taken to express not a mere possibility or probability; (b) something that can be triggered, shielded, enhanced, interfered with, and the like; and (c) something that not only agents have.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020440> "The definition reflects what Nancy Cartwright says in \"Nature and its capacities\". See also $1.1 in the following article from the Stanford Encyclopedia of Philosophy: https://plato.stanford.edu/entries/abilities/ .")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020440> "Two examples of capacities:
+1. The capacity of speaking French like in the sentence: \"She can speak French\".
+2. The capacity of aspiring to relieve headache (this examples justifies the third condition in the definition).")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020440> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020440> "2019-09-11T05:16:56Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020440> "capacity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020440> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020441> (development of capacity to increase productivity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020441> "A development of human resource management capacity process which increases the productivity of a given process.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020441> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020441> "2019-09-11T05:27:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020441> "development of capacity to increase productivity"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> <http://purl.unep.org/sdg/SDGIO_00020512>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.unep.org/sdg/SDGIO_00020438>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.unep.org/sdg/SDGIO_00020438>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
@@ -4531,7 +4588,6 @@ ObjectPropertyAssertion(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.u
 
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000003> "true"^^xsd:boolean)
-AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000020> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000031> "true"^^xsd:boolean)
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000144> "true"^^xsd:boolean)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
