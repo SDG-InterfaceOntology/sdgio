@@ -238,6 +238,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020438>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020439>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020440>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020441>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020443>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2430,8 +2431,9 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020439> <http://purl.unep.org/sdg/S
 # Class: <http://purl.unep.org/sdg/SDGIO_00020440> (capacity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020440> "A realizable entity which (a) is typically expressed by the modal 'can' taken to express not a mere possibility or probability; (b) something that can be triggered, shielded, enhanced, interfered with, and the like; and (c) something that not only agents have.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020440> "The definition reflects what Nancy Cartwright says in \"Nature and its capacities\". See also $1.1 in the following article from the Stanford Encyclopedia of Philosophy: https://plato.stanford.edu/entries/abilities/ .")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020440> "Two examples of capacities:
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020440> "The definition reflects what Nancy Cartwright says in \"Nature and its capacities\". See also $1.1 in the following article from the Stanford Encyclopedia of Philosophy: https://plato.stanford.edu/entries/abilities/ .")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020440> "The entry of the Stanford Encyclopedia of Philosophy references above also provides a quick look into the distinction between capacities, abilities, dispositions, and powers. The discussion there and in the sources to which it refers provides prima-facie good reasons to believe that these terms refer to different concepts. If that is the case, SDGIO over-extends the notion of disposition. For the SDGIO, abilities and functions are dispositions, which seems incorrect (e.g. the ability to understand French does not seem to be a disposition in the sense in which a glass is disposed to be broken when violently shaken). I suggest revising the part of the ontology concerning realizable entities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020440> "Two examples of capacities:
 1. The capacity of speaking French like in the sentence: \"She can speak French\".
 2. The capacity of aspiring to relieve headache (this examples justifies the third condition in the definition).")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020440> <http://orcid.org/0000-0002-3253-4387>)
@@ -2448,6 +2450,14 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020441> "develo
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> <http://purl.unep.org/sdg/SDGIO_00020512>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.unep.org/sdg/SDGIO_00020438>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.unep.org/sdg/SDGIO_00020438>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020443> (access to market)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020443> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020443> "2019-09-11T14:11:26Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020443> "Access which makes conditions for exchange of resouces, goods, and services available to an agent or group of agents.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020443> "access to market"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020443> <http://purl.unep.org/sdg/SDGIO_00000007>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
