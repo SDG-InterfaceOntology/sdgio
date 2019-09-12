@@ -240,6 +240,9 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020440>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020441>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020443>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020444>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020445>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020446>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020447>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -869,6 +872,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000024> "vulnerability"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> <http://purl.obolibrary.org/obo/BFO_0000016>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00000014>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PCO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.unep.org/sdg/SDGIO_00000024>))))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000025> (affordable housing)
 
@@ -2470,6 +2474,33 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020444> "2019-09-11T14:39:11Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020444> "access to agricultural market"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020444> <http://purl.unep.org/sdg/SDGIO_00020443>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020445> (agricultural socio-economic system)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020445> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020445> "2019-09-12T03:23:28Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020445> "agricultural sector")
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020445> "A socio-economic system which consists of agents engaged in agricultural activities and the environments and products involved in such activities.")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020445> "agricultural socio-economic system"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020445> <http://purl.unep.org/sdg/SDGIO_00020446>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020446> (socio-economic system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020446> "A system which consists of agents engaged in economic activities and social exchanges and the environments and products involved in such activities.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020446> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020446> "2019-09-12T03:23:57Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020446> "A system which")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020446> "socio-economic system"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020446> <http://purl.obolibrary.org/obo/RO_0002577>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020447> (economic system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020447> "A system which consists of agents engaged in economic activities and the environments, groups of agents, organizations, goods, services, products, tools, markets, and regulations involved in such activities.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020447> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020447> "2019-09-12T03:31:25Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020447> "economic sector")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020447> "economic system"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020447> <http://purl.obolibrary.org/obo/RO_0002577>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
