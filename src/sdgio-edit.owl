@@ -2502,7 +2502,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020446> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020447> (economic system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020447> "A system which consists of agents engaged in economic activities and the environments, groups of agents, organizations, goods, services, products, tools, markets, and regulations involved in such activities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020447> "A system which consists of 1) an agents producing and exchanging goods and 2) the environments, groups of agents, organizations, goods, services, products, tools, markets, and regulations involved in such activities.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020447> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020447> "2019-09-12T03:31:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020447> "economic sector")
