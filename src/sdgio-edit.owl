@@ -243,6 +243,8 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020444>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020445>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020446>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020447>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020448>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020449>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2190,6 +2192,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020409> "development of capacity to increase income"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020409> <http://purl.unep.org/sdg/SDGIO_00000252>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020435>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020447>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020409> ObjectSomeValuesFrom(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020236>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020410> (development of capacity to increase employment levels)
@@ -2201,6 +2204,7 @@ AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020410> "develo
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> <http://purl.unep.org/sdg/SDGIO_00000252>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00000062>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00010005>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020447>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http://purl.unep.org/sdg/SDGIO_00020523> <http://purl.unep.org/sdg/SDGIO_00020236>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020411> (development of capacity to improve enabling environment)
@@ -2322,6 +2326,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020424> "2019-09-04T05:18:48Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020424> "development of capacity to sustainably manage agro-ecosystems"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020424> <http://purl.unep.org/sdg/SDGIO_00020511>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020424> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020449>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020425> (development of capacity to mitigate effects of a process)
 
@@ -2492,6 +2497,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020446> "A system which")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020446> "socio-economic system"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020446> <http://purl.obolibrary.org/obo/RO_0002577>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020447> (economic system)
 
@@ -2501,6 +2507,23 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020447> "economic sector")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020447> "economic system"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020447> <http://purl.obolibrary.org/obo/RO_0002577>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020447> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020448> (disposition to benefit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020448> "A disposition which makes an organism, group of organisms, or a system providing something good or a profit or a resource to other organisms, groups of organisms, or systems when a uninhibited trigger happens.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020448> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020448> "2019-09-12T03:49:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020448> "disposition to benefit"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020448> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020449> (agro-ecosystem)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020449> "An ecosystem which is a spatially and functionally coherent unit of agricultural activity, and includes the living and nonliving components involved in that unit as well as their interactions.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020449> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020449> "2019-09-12T04:00:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020449> "agro-ecosystem"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020449> <http://purl.obolibrary.org/obo/ENVO_01001110>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
