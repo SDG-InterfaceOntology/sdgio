@@ -245,6 +245,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020446>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020447>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020448>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020449>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020450>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2524,6 +2525,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020449> "2019-09-12T04:00:15Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020449> "agro-ecosystem"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020449> <http://purl.obolibrary.org/obo/ENVO_01001110>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020450> (inclusivity disposition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020450> "A disposition which makes an agent or group of agent avoiding forms of discrimination based on non-meritocratic criteria, typically like judgments concerning religion, race, sex, gender, sexual orientation, political orientation, and age.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020450> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020450> "2019-09-12T04:05:28Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020450> "inclusivity disposition"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020450> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
