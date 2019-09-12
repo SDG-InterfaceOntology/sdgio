@@ -667,6 +667,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000245> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/RO_0002577>)))
 
+# Class: <http://purl.obolibrary.org/obo/PCO_0000000> (collection of organisms)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PCO_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PCO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.unep.org/sdg/SDGIO_00000024>))))
+
 # Class: <http://purl.unep.org/sdg/SDGIO_00000000> (sustainable development goal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.unep.org/sdg/SDGIO_00000000> "sustainable development goal specification"@en)
@@ -875,7 +879,6 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00000024> "vulnerability"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> <http://purl.obolibrary.org/obo/BFO_0000016>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.unep.org/sdg/SDGIO_00000014>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PCO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.unep.org/sdg/SDGIO_00000024>))))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00000025> (affordable housing)
 
