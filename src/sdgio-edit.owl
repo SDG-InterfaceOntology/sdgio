@@ -246,6 +246,8 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020447>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020448>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020449>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020450>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020451>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020453>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2277,11 +2279,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020418> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020418> "2019-09-03T05:02:18Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020418> "development of capacity to improve human health"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020418> <http://purl.unep.org/sdg/SDGIO_00020419>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020418> <http://purl.unep.org/sdg/SDGIO_00020417>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020419> (development of capacity to improve animal health)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020419> "A capacity development process in health improvement which makes some animal more capable of either becoming healthier or staying healthy.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020419> "A capacity development process in health improvement which makes some non-human animal more capable of either becoming healthier or staying healthy.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020419> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020419> "2019-09-03T05:02:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020419> "development of capacity to improve animal health"@en)
@@ -2464,8 +2466,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020441> "2019-09-11T05:27:15Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020441> "development of capacity to increase productivity"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> <http://purl.unep.org/sdg/SDGIO_00020512>)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.unep.org/sdg/SDGIO_00020438>))
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020441> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.unep.org/sdg/SDGIO_00020438>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020443> (access to market)
 
@@ -2536,6 +2536,20 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020450> "2019-09-12T04:05:28Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020450> "inclusivity disposition"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020450> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020451> (enabling environment)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020451> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020451> "2019-09-13T13:43:52Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020451> "enabling environment"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020451> <http://purl.obolibrary.org/obo/RO_0002577>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020453> (human health)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020453> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020453> "2019-09-13T13:54:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020453> "human health"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020453> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
