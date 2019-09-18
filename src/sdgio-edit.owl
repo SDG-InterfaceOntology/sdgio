@@ -248,6 +248,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020449>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020450>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020451>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020453>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020454>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2505,7 +2506,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020446> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020447> (economic system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020447> "A system which consists of 1) agents producing and exchanging goods and 2) the environments, groups of agents, organizations, goods, services, products, tools, markets, and regulations involved in such activities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020447> "A system which consists of 1) agents producing and exchanging goods and services and 2) the environments, groups of agents, organizations, goods, services, products, tools, markets, and regulations involved in such activities.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020447> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020447> "2019-09-12T03:31:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020447> "economic sector")
@@ -2550,6 +2551,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020453> "2019-09-13T13:54:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020453> "human health"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020453> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020454> (market)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020454> "A system which facilitates agents or groups of agents exchanging, typically through selling or buying, good and services.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020454> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020454> "2019-09-18T05:32:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020454> "market"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020454> <http://purl.obolibrary.org/obo/RO_0002577>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
