@@ -249,6 +249,8 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020450>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020451>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020453>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020454>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020455>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020456>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -661,6 +663,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectSomeValuesFrom(<ht
 # Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
 
 AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.obolibrary.org/obo/BFO_0000020> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001442> (agriculture)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001442> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020456>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
 
@@ -2475,6 +2481,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020443> "2019-09-11T14:11:26Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020443> "access to market"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020443> <http://purl.unep.org/sdg/SDGIO_00000007>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020443> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.unep.org/sdg/SDGIO_00020454>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020444> (access to agricultural market)
 
@@ -2484,6 +2491,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020444> "2019-09-11T14:39:11Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020444> "access to agricultural market"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020444> <http://purl.unep.org/sdg/SDGIO_00020443>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020444> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.unep.org/sdg/SDGIO_00020455>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020445> (agricultural socio-economic system)
 
@@ -2496,7 +2504,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020445> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020446> (socio-economic system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020446> "A system which consists of agents engaged in economic activities and social exchanges and the environments and products involved in such activities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020446> "A system which consists of agents engaged in economic activities or social exchanges and the environments and products involved in such activities or exchanges.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020446> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020446> "2019-09-12T03:23:57Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020446> "A system which")
@@ -2506,12 +2514,12 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020446> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020447> (economic system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020447> "A system which consists of 1) agents producing and exchanging goods and services and 2) the environments, groups of agents, organizations, goods, services, products, tools, markets, and regulations involved in such activities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020447> "A system which consists of 1) agents producing and exchanging goods or services and 2) the environments, groups of agents, goods, services, means, and regulations involved in such activities.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020447> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020447> "2019-09-12T03:31:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020447> "economic sector")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020447> "economic system"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020447> <http://purl.obolibrary.org/obo/RO_0002577>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020447> <http://purl.unep.org/sdg/SDGIO_00020446>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020447> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020448> (disposition to benefit)
@@ -2540,6 +2548,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020450> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020451> (enabling environment)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020451> "A system the components of which, throught an agent's directions, function individually and collectively to generate desired results supplying the adequate means, opportunities, and conditions for agents to realize or affine specific powers or abilities.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020451> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020451> "2019-09-13T13:43:52Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020451> "enabling environment"@en)
@@ -2554,11 +2563,29 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020453> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020454> (market)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020454> "A system which facilitates agents or groups of agents exchanging, typically through selling or buying, good and services.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020454> "A system which facilitates agents or groups of agents exchanging, typically through selling or buying, good or services.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020454> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020454> "2019-09-18T05:32:35Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020454> <https://www.investopedia.com/terms/m/market.asp>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020454> "market"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020454> <http://purl.obolibrary.org/obo/RO_0002577>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020455> (agricultural market)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020455> "A market which facilitates the exchange 1) of agricultural resources or 2) of services concerning the production or use of agricultural resources.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020455> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020455> "2019-09-18T05:39:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020455> "agricultural market"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020455> <http://purl.unep.org/sdg/SDGIO_00020454>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020456> (agricultural resource)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020456> "A resource which either derives from or contributes to agricultural land use.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020456> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020456> "2019-09-18T05:44:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020456> "agricultural resource"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020456> <http://purl.unep.org/sdg/SDGIO_00000013>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002434> <http://purl.unep.org/sdg/SDGIO_00020455>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
