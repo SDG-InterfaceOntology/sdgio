@@ -2319,7 +2319,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020421> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020422> (development of capacity to enhance natural capital)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020422> "A capacity development process which either increases or improves the natural capital or some part of it.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020422> "A capacity development process which either increases or improves the functions or resources of an ecosystem with respect to either its current state or a given baseline.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020422> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020422> "2019-09-04T04:48:13Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020422> "We requested from the CGIAR a clarification of the term `enhancement'. When we receive it, the definition of this class may change.")
@@ -2329,6 +2329,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020422> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020423> (development of capacity to increase benefits derived from natural resources)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020423> "A development of resource management capacity process which contributes to the capacity of humans to beneficially access and use natural resources (like clean water) in a way that is both sustainable and equitable.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020423> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020423> "2019-09-04T05:12:28Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020423> "development of capacity to increase benefits derived from natural resources"@en)
@@ -2670,7 +2671,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020509> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020510> (development of management capacity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020510> "A capacity development process which increases the ability of an agent to oversee and direct another agent or group of agents."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020510> "A capacity development process which increases either 1) the ability of an agent to oversee and direct another agent or group of agents or 2) an agent's or group of agents' ability to effectively use resources."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020510> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020510> "development of management capacity"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020510> <http://purl.unep.org/sdg/SDGIO_00000252>)
