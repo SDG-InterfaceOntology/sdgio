@@ -253,6 +253,11 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020455>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020456>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020457>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020458>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020460>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020461>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020462>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020463>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020464>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -660,6 +665,7 @@ AnnotationAssertion(<http://purl.unep.org/sdg/SDGIO_00010069> <http://purl.oboli
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000016> (disposition)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000016> "equity disposition")
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00000013>))))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
@@ -2085,7 +2091,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020377> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020390> (management process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020390> "A planned process during which an agent oversees and directs another agent or group of agents.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020390> "A planned process during which an agent either oversees and directs another agent or group of agents or use some resources to obtain a specific goal.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020390> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020390> "2019-06-21T23:46:30Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.unep.org/sdg/SDGIO_00020390> "management"@en)
@@ -2224,11 +2230,12 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020410> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020411> (development of capacity to improve enabling environment)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020411> "A capacity development process which improves an agent's or group of agents' capacity to create (through supportive policies , laws, stable institutions, and economic and social means) an environment that is conducive to substainable progress.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020411> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020411> "2019-09-02T13:04:48Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020411> "We need the definition of enabling environment to provide a definition of this process.")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020411> "development of capacity to improve enabling environment"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020411> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020451>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020412> (development of capacity to improve diet)
 
@@ -2329,7 +2336,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020422> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020423> (development of capacity to increase benefits derived from natural resources)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020423> "A development of resource management capacity process which contributes to the capacity of humans to beneficially access and use natural resources (like clean water) in a way that is both sustainable and equitable.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020423> "A development of resource management capacity process which improves the capacity of humans to beneficially access and use natural resources (like clean water) in a way that is both sustainable and equitable.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020423> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020423> "2019-09-04T05:12:28Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020423> "development of capacity to increase benefits derived from natural resources"@en)
@@ -2338,8 +2345,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020423> ObjectSomeValuesFrom(<http:
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020424> (development of capacity to sustainably manage agro-ecosystems)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020424> "A development of resource management capacity process which increases the goods that some agent or group of agents obtains from natural resources.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020424> "A development of resource management capacity process which produces profits for both the relevant environment, the relevant part of the present and future generations, and the relevant part of the economy.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020424> "A development of resource management capacity process which improves the capacity of an agent or group of agents to benefit from resources and cultivation of agro-ecosystems without irreversibly depleting them and without harming the environment through pollution or excessive lad-use.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020424> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020424> "2019-09-04T05:18:48Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020424> "development of capacity to sustainably manage agro-ecosystems"@en)
@@ -2380,6 +2386,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020428> <http://purl.unep.org/sdg/S
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020429> (development of capacity to promote equity between human groups)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020429> "A capacity development process during which an agent or group of agents increase the capacity of agents to improve the conditions under which resources are allocated fairly.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020429> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020429> "2019-09-04T05:47:35Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020429> "development of capacity to promote equity between human groups"@en)
@@ -2388,6 +2395,7 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020429> <http://purl.unep.org/sdg/S
 # Class: <http://purl.unep.org/sdg/SDGIO_00020430> (development of capacity to promote inclusivity in human groups)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020430> "A capacity development process which promote the practice of not exclusing any agent on the grounds of race, gender, religion, age, disability, sexual orientation, legitimate diversity of opinions, etc.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020430> "\"Gender inclusion (Hazel cc’d provided this info – thanks!): this is definitely going beyond just the % of women included – women are already engaged in agriculture but the problem is the quality of that engagement. Inclusion in “real” terms also takes into account the quality of inclusion and whether the terms of engagement in the food system are equitable and fair. Gender is not binary, but in our research so far we operationalize it as if it was binary (mostly because we don’t have data that goes beyond men/women\" (CGIAR communication, Sep 12, 2019)")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020430> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020430> "2019-09-04T05:50:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020430> "development of capacity to promote inclusivity in human groups"@en)
@@ -2553,7 +2561,8 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020450> <http://purl.obolibrary.org
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020451> (enabling environment)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020451> "A system the components of which, throught an agent's directions, function individually and collectively to generate desired results supplying the adequate means, opportunities, and conditions for agents to realize or affine specific powers or abilities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020451> "A system the components of which, throught an agent's or society's directions, function in a stable way, individually and collectively, to generate desired results supplying the adequate means, opportunities, and conditions for agents to realize or affine specific powers or abilities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020451> "\"Agricultural marketing needs to be conducted within a supportive policy, legal, institutional, macro-economic, infrastructural and bureaucratic environment. Traders and others are generally reluctant to make investments in an uncertain policy climate, such as those that restrict imports and exports or internal produce movement. Businesses have difficulty functioning when their trading activities are hampered by excessive bureaucracy. Inappropriate law can distort and reduce the efficiency of the market, increase the costs of doing business and retard the development of a competitive private sector. Poor support institutions, such as agricultural extension services, municipalities that operate markets inefficiently and inadequate export promotion bodies, can be particularly damaging. Poor roads increase the cost of doing business, reduce payments to farmers and increase prices to consumers. Finally, corruption can increase the transaction costs faced by those in the marketing chain.\" (https://en.m.wikipedia.org/wiki/Agricultural_marketing)")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020451> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020451> "2019-09-13T13:43:52Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020451> "enabling environment"@en)
@@ -2608,6 +2617,48 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020458> "2019-09-18T06:19:13Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020458> "health"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020458> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020460> (socio-ecological mitigation process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020460> "A management process during which an agent or group of agents modify the environment or social processes (like processes of industrial production or consumption of goods) to reduce the magnitude (strength, ratio, or scale) of a phenomenon.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020460> "The placement and definition of this class it not definitive. The CGIAR ought to clarify whether this process refers to achieve mitigation or to increasing someone else's capacity to achieve mitigation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020460> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020460> "2019-09-19T05:41:09Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020460> "socio-ecological mitigation process"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020460> <http://purl.unep.org/sdg/SDGIO_00020390>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020461> (socio-ecological adaptation process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020461> "A management process during which an agent or group of agents modify the environment or social processes (like house placement) to reduce the magnitude (strength, ratio, or scale) of the impact of a phenomenon on either humans or the environent at large.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.unep.org/sdg/SDGIO_00020461> "The placement and definition of this class it not definitive. The CGIAR ought to clarify whether this process refers to achieve adaptation or to increasing someone else's capacity to achieve adaptation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020461> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020461> "2019-09-19T05:41:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020461> "socio-ecological adaptation process"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020461> <http://purl.unep.org/sdg/SDGIO_00020390>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020462> (equity disposition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020462> "A disposition which makes an agent or group of agent allocating resources fairly.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020462> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020462> "2019-09-19T06:05:31Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020462> "equity disposition"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020462> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020463> (enable CGIAR national partners to participate in development processes)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020463> "A capacity development process which improves the capacity of institutions and organizations that partners with the CGIAR and operate at the level of specific nations to carry out high-quality research and innovative projects.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020463> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020463> "2019-09-19T06:09:11Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020463> "enable CGIAR national partners to participate in development processes"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020463> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020464> (enable poor and vulnerable communities to benefit from development processes)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020464> "A capacity development process which improves the capacity of poor or vulnerable communities to innovate and sustainably develop in the socio-economic sphere.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020464> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020464> "2019-09-19T06:09:25Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020464> "enable poor and vulnerable communities to benefit from development processes"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020464> <http://purl.unep.org/sdg/SDGIO_00000252>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
