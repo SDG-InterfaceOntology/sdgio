@@ -92,9 +92,7 @@ These descriptors are used either for foods intended for special dietary use as 
     <!-- http://purl.obolibrary.org/obo/FOODON_03510032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510032">
-        <obo:IAO_0000115 xml:lang="en">Dietary use, where the food has special characteristics, claims or uses or is intended for individuals with particular dietary needs; and label or labeling claims, used when special dietary use factor terms were derived from actual food labels. Multiple descriptors may be used from all three categories. [FDA CFSAN 1995]
-
-FoodOn curation note: Consumer Group has been relocated to a top-level FoodOn category.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Dietary use, where the food has special characteristics, claims or uses or is intended for individuals with particular dietary needs; and label or labeling claims, used when special dietary use factor terms were derived from actual food labels. Multiple descriptors may be used from all three categories. [FDA CFSAN 1995]</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dietary use/label claim</rdfs:label>
     </owl:Class>
     

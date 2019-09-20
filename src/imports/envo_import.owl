@@ -113,12 +113,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
@@ -2316,6 +2310,22 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001200"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area of land which is used for the cultivation of crops or grazing of livestock, including any agricultural constructions therein.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agricultural site</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FARM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">farm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">farms</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">farmstead</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ranch</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">farm</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000081">
@@ -3814,6 +3824,22 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000987">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+        <obo:IAO_0000115>A part of an ecosystem where people gather for the purchase and sale of provisions, livestock, and other goods.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>bazaar</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>marketplace</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mercado</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>palengke</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>souk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tianguis</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">market</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000993 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000993">
@@ -4489,7 +4515,6 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     <!-- http://purl.obolibrary.org/obo/ENVO_02500017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500017">
-        <obo:IAO_0100001>ENVO:02500013</obo:IAO_0100001>
         <rdfs:label>obsolete anthropogenic reforestation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
