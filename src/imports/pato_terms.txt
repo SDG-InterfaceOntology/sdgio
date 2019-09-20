@@ -37,3 +37,4 @@ http://purl.obolibrary.org/obo/PATO_0001782 # increased intensity
 http://purl.obolibrary.org/obo/PATO_0001783 # decreased intensity
 http://purl.obolibrary.org/obo/PATO_0001841 # remittent intensity
 http://purl.obolibrary.org/obo/PATO_0002629 # profound intensity
+http://purl.obolibrary.org/obo/PATO_0001470 # ratio
