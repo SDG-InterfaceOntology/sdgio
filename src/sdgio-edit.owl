@@ -4133,6 +4133,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.un
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020245> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020245> "2019-04-29T16:29:07Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.unep.org/sdg/SDGIO_00020245> <https://clarisa.cgiar.org/api/srf-idos/8>)
+AnnotationAssertion(rdfs:comment <http://purl.unep.org/sdg/SDGIO_00020245> "Speaking of enhancement without further clarifications does not sufficiently explains what this goal is. We asked the CGIAR to clarify what enhancement means in this context. We received only a partially satisfactory answer, which is the following: \"ecosystem services improved from current state or any given baseline\".")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020245> "enhance and protect natural capital, especially from the effects of climate change")
 ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020236> <http://purl.unep.org/sdg/SDGIO_00020245>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01000629>) <http://purl.unep.org/sdg/SDGIO_00020245>)
