@@ -1983,6 +1983,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020338> "2019-06-04T20:52:58Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020338> "planned process to respond to global challenges"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020338> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/OBI_0000245>)))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020339> (natural resource)
 
