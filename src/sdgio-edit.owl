@@ -257,6 +257,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020461>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020462>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020463>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020464>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020466>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2334,6 +2335,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020423> "development of capacity to increase benefits derived from natural resources"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020423> <http://purl.unep.org/sdg/SDGIO_00020511>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020423> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020339>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020423> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020448>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020424> (development of capacity to sustainably manage agro-ecosystems)
 
@@ -2651,6 +2653,16 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020464> "2019-09-19T06:09:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020464> "enable poor and vulnerable communities to benefit from development processes"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020464> <http://purl.unep.org/sdg/SDGIO_00000252>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020466> (development of capacity to increase benefits derived from ecosystems)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020466> "A development of resource management capacity process which improves the capacity of humans to beneficially access and use ecosystems in a way that is both sustainable and equitable.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020466> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020466> "2019-09-27T05:02:22Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020466> "development of capacity to increase benefits derived from ecosystems"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020466> <http://purl.unep.org/sdg/SDGIO_00020511>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020466> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_01001110>))
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020466> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020448>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
