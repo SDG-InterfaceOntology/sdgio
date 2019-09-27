@@ -2388,6 +2388,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020429> "2019-09-04T05:47:35Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020429> "development of capacity to promote equity between human groups"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020429> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020429> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020462>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020430> (development of capacity to promote inclusivity in human groups)
 
@@ -2397,6 +2398,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020430> "2019-09-04T05:50:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020430> "development of capacity to promote inclusivity in human groups"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020430> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020430> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020450>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020431> (development of adaptation capacity to increase resilience)
 
@@ -2517,7 +2519,6 @@ SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020445> <http://purl.unep.org/sdg/S
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020446> "A system which consists of agents engaged in economic activities or social exchanges and the environments and products involved in such activities or exchanges.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020446> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020446> "2019-09-12T03:23:57Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/SDGIO_00020446> "A system which")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020446> "socio-economic system"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020446> <http://purl.obolibrary.org/obo/RO_0002577>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
