@@ -259,6 +259,7 @@ Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020463>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020464>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020466>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020468>))
+Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020469>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020502>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020503>))
 Declaration(Class(<http://purl.unep.org/sdg/SDGIO_00020504>))
@@ -2240,7 +2241,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.un
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020412> <http://orcid.org/0000-0002-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020412> "2019-09-02T13:20:53Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020412> "development of capacity to improve diet"@en)
-SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020412> <http://purl.unep.org/sdg/SDGIO_00000252>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020412> <http://purl.unep.org/sdg/SDGIO_00020309>)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020412> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.unep.org/sdg/SDGIO_00020341>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020413> (development of capacity to improve diet of poor populations)
@@ -2268,6 +2269,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020415> "2019-09-03T04:41:03Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020415> "development of capacity to improve human diet"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020415> <http://purl.unep.org/sdg/SDGIO_00020412>)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020415> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.unep.org/sdg/SDGIO_00020310>))
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020415> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020416> (development of capacity to improve agricultural practices)
@@ -2676,6 +2678,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020468> "2019-10-01T05:30:40Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020468> "smallholding"@en)
 SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020468> <http://purl.obolibrary.org/obo/ENVO_00000078>)
+
+# Class: <http://purl.unep.org/sdg/SDGIO_00020469> (development of capacities to ensure food safety)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/SDGIO_00020469> "A development of capacities to ensure food security process during which an agent reduces the health hazard posed by food and food production.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020469> <http://orcid.org/0000-0002-3253-4387>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020469> "2019-10-01T06:07:36Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020469> "development of capacities to ensure food safety"@en)
+SubClassOf(<http://purl.unep.org/sdg/SDGIO_00020469> <http://purl.unep.org/sdg/SDGIO_00020309>)
 
 # Class: <http://purl.unep.org/sdg/SDGIO_00020502> (development of organisational capacity)
 
