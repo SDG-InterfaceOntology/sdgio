@@ -4762,6 +4762,7 @@ ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020503> <http://purl.unep.org/s
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/SDGIO_00020392> <http://orcid.org/0000-0062-3253-4387>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.unep.org/sdg/SDGIO_00020392> "2019-06-22T03:48:34Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/SDGIO_00020392> "CGIAR planned process to increment the capacity of CGIAR partner organizations to adopt CGIAR research outputs"@en)
+ClassAssertion(<http://purl.unep.org/sdg/SDGIO_00020463> <http://purl.unep.org/sdg/SDGIO_00020392>)
 
 # Individual: <http://purl.unep.org/sdg/SDGIO_00020396> (CGIAR planned process to increment the capacity of partner communites to adopt CGIAR research outputs)
 
