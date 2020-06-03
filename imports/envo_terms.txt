@@ -93,3 +93,4 @@ http://purl.obolibrary.org/obo/ENVO_00000006 # second-order administrative regio
 http://purl.obolibrary.org/obo/ENVO_00000005 # first-order administrative region
 http://purl.obolibrary.org/obo/ENVO_01000930 # ecological corridor
 http://purl.obolibrary.org/obo/ENVO_01000951 # natural environment
+http://purl.obolibrary.org/obo/ENVO_00000078 # farm

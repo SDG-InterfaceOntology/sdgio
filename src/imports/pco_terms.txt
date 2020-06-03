@@ -1,3 +1,7 @@
 http://purl.obolibrary.org/obo/PCO_0000002 # ecological community
 http://purl.obolibrary.org/obo/PCO_0000030 # agricultural household
 http://purl.obolibrary.org/obo/PCO_0000001 # population
+http://purl.obolibrary.org/obo/PCO_0000027 # human population
+http://purl.obolibrary.org/obo/PCO_1000003 # human migratory population
+http://purl.obolibrary.org/obo/PCO_0000033 # human social gathering activity
+http://purl.obolibrary.org/obo/PCO_0000034 # human community event

@@ -1,3 +1,4 @@
+http://purl.obolibrary.org/obo/RO_0000091 # has disposition
 http://purl.obolibrary.org/obo/RO_0002473 # composed primarily of
 http://purl.obolibrary.org/obo/RO_0000086 # has quality
 http://purl.obolibrary.org/obo/RO_0000087 # has role 

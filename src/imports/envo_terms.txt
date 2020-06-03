@@ -1,3 +1,10 @@
+http://purl.obolibrary.org/obo/ENVO_00012408 # aquifer
+http://purl.obolibrary.org/obo/ENVO_01001209 # wetland
+http://purl.obolibrary.org/obo/ENVO_00000081 # mountain
+http://purl.obolibrary.org/obo/ENVO_01000739 # habitat
+http://purl.obolibrary.org/obo/ENVO_01001243 # forest ecosystem
+http://purl.obolibrary.org/obo/ENVO_00002214 # power plant
+http://purl.obolibrary.org/obo/ENVO_01001171 # conservation-focused active ecosystem management process
 http://purl.obolibrary.org/obo/ENVO_01001374 # sea state
 http://purl.obolibrary.org/obo/ENVO_01000983 # technosphere
 http://purl.obolibrary.org/obo/ENVO_02500039 # water pollution
@@ -26,7 +33,7 @@ http://purl.obolibrary.org/obo/ENVO_01000718 # urban flooding
 http://purl.obolibrary.org/obo/ENVO_01000634 # volcanic eruption
 http://purl.obolibrary.org/obo/ENVO_01000656 # effusive eruption
 http://purl.obolibrary.org/obo/ENVO_01000655 # explosive eruption
-http://purl.obolibrary.org/obo/ENVO_01000702 # ash fall process 
+http://purl.obolibrary.org/obo/ENVO_01000702 # ash fall process
 http://purl.obolibrary.org/obo/ENVO_01000730 # lava flow process
 http://purl.obolibrary.org/obo/ENVO_01000689 # tsunami
 http://purl.obolibrary.org/obo/ENVO_01000715 # meteotsunami
@@ -94,4 +101,12 @@ http://purl.obolibrary.org/obo/ENVO_00000006 # second-order administrative regio
 http://purl.obolibrary.org/obo/ENVO_00000005 # first-order administrative region
 http://purl.obolibrary.org/obo/ENVO_01000930 # ecological corridor
 http://purl.obolibrary.org/obo/ENVO_01000951 # natural environment
-http://purl.obolibrary.org/obo/OBI_0000245 # organization
+http://purl.obolibrary.org/obo/ENVO_02500026 # organization
+http://purl.obolibrary.org/obo/ENVO_02500042 # pollution control
+http://purl.obolibrary.org/obo/ENVO_01001170 # active ecosystem management
+http://purl.obolibrary.org/obo/ENVO_02500043 # pollution monitoring
+http://purl.obolibrary.org/obo/ENVO_01000906 # aquaculture process
+http://purl.obolibrary.org/obo/ENVO_01001442 # agriculture
+http://purl.obolibrary.org/obo/ENVO_01001451 # usage of an environment for business
+http://purl.obolibrary.org/obo/ENVO_00000078 # farm
+http://purl.obolibrary.org/obo/ENVO_01000987 # market

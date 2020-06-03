@@ -5,3 +5,4 @@ http://purl.obolibrary.org/obo/PATO_0001546 # quality of a solid
 http://purl.obolibrary.org/obo/PATO_0001548 # quality of a liquid
 http://purl.obolibrary.org/obo/PATO_0001547 # quality of a gas
 http://purl.obolibrary.org/obo/PATO_0002138 # edibility
+http://purl.obolibrary.org/obo/PATO_0001470 # ratio
